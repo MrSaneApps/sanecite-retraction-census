@@ -99,3 +99,18 @@ hosted model is updated (versions and dates are logged per call).
 - `scripts/`: the pipeline. The model-call helpers (`jev_review.py`, `llm_bakeoff.py`) are in a private repository;
   their hashes are in `MANIFEST.sha256`.
 - `validation/`: holdout and confirmation answer keys and scores.
+
+## Amendments (each dated; none made after seeing final results)
+
+**2026-10-13 ~23:55Z**, before the final analysis:
+1. `codebook.md` in the first commit was a stale v2 explainer copied from the website. The rules actually used are
+   those in `scripts/classify.py` (codebook v3.3, hashed in the first commit). `codebook.md` is now generated from
+   that file. No rule changed.
+2. `analyze_census.py`: adds the confidence interval for the corrected rate promised above (resamples the confirmation
+   set; observed rate drawn from its census bootstrap interval). No other change.
+3. New scripts for the planned analyses: `coverage_types.py` (analyses 4 and 5), `hs_compare.py` (analysis 6),
+   `human_packet.py` (draws the human labelling set: seed 2027, 200 citing papers, 254 passages, excluding all 771
+   pairs used before; list in `human_labels/draw.json`, instructions in `human_labels/INSTRUCTIONS.md`).
+4. `hs_compare.py` was run once on incomplete labels (Gemma about 40% done) to test it. Hsiao and Schneider's data
+   (Illinois Data Bank IDB-3213475, v2) gives, on 8,944 shared citing pairs: agreement of our *aware* label with their
+   hand-checked acknowledgement 97.7%, kappa 0.74. The final figure will be reported from complete labels.

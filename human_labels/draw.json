@@ -1,0 +1,1008 @@
+{
+ "seed": 2027,
+ "n": 200,
+ "excluded_used_pairs": 771,
+ "pool": 54937,
+ "items": [
+  {
+   "item": 1,
+   "pair_id": "16616662>PMC10025899",
+   "n_passages": 1
+  },
+  {
+   "item": 2,
+   "pair_id": "27136078>PMC6961421",
+   "n_passages": 2
+  },
+  {
+   "item": 3,
+   "pair_id": "15829920>PMC3438196",
+   "n_passages": 1
+  },
+  {
+   "item": 4,
+   "pair_id": "11378603>PMC9306349",
+   "n_passages": 1
+  },
+  {
+   "item": 5,
+   "pair_id": "32266056>PMC9067344",
+   "n_passages": 1
+  },
+  {
+   "item": 6,
+   "pair_id": "22992046>PMC5374088",
+   "n_passages": 3
+  },
+  {
+   "item": 7,
+   "pair_id": "35722469>PMC12777928",
+   "n_passages": 1
+  },
+  {
+   "item": 8,
+   "pair_id": "25186179>PMC6356886",
+   "n_passages": 2
+  },
+  {
+   "item": 9,
+   "pair_id": "31621909>PMC9688074",
+   "n_passages": 2
+  },
+  {
+   "item": 10,
+   "pair_id": "36034961>PMC11410591",
+   "n_passages": 1
+  },
+  {
+   "item": 11,
+   "pair_id": "18790736>PMC7795792",
+   "n_passages": 1
+  },
+  {
+   "item": 12,
+   "pair_id": "25013758>PMC9010476",
+   "n_passages": 1
+  },
+  {
+   "item": 13,
+   "pair_id": "18670837>PMC3764947",
+   "n_passages": 2
+  },
+  {
+   "item": 14,
+   "pair_id": "23732925>PMC8060706",
+   "n_passages": 2
+  },
+  {
+   "item": 15,
+   "pair_id": "30892077>PMC12695610",
+   "n_passages": 1
+  },
+  {
+   "item": 16,
+   "pair_id": "18646164>PMC10695619",
+   "n_passages": 1
+  },
+  {
+   "item": 17,
+   "pair_id": "21768528>PMC3886731",
+   "n_passages": 1
+  },
+  {
+   "item": 18,
+   "pair_id": "22030025>PMC6636530",
+   "n_passages": 1
+  },
+  {
+   "item": 19,
+   "pair_id": "32594528>PMC8949275",
+   "n_passages": 1
+  },
+  {
+   "item": 20,
+   "pair_id": "31216614>PMC11012886",
+   "n_passages": 1
+  },
+  {
+   "item": 21,
+   "pair_id": "15711641>PMC7398226",
+   "n_passages": 1
+  },
+  {
+   "item": 22,
+   "pair_id": "31957817>PMC7814250",
+   "n_passages": 1
+  },
+  {
+   "item": 23,
+   "pair_id": "32329515>PMC10706476",
+   "n_passages": 2
+  },
+  {
+   "item": 24,
+   "pair_id": "23543523>PMC9228542",
+   "n_passages": 1
+  },
+  {
+   "item": 25,
+   "pair_id": "22374940>PMC10799341",
+   "n_passages": 1
+  },
+  {
+   "item": 26,
+   "pair_id": "15543611>PMC8462273",
+   "n_passages": 1
+  },
+  {
+   "item": 27,
+   "pair_id": "20937111>PMC5588079",
+   "n_passages": 3
+  },
+  {
+   "item": 28,
+   "pair_id": "34735950>PMC10421890",
+   "n_passages": 1
+  },
+  {
+   "item": 29,
+   "pair_id": "8134396>PMC9811501",
+   "n_passages": 1
+  },
+  {
+   "item": 30,
+   "pair_id": "32266056>PMC10418497",
+   "n_passages": 1
+  },
+  {
+   "item": 31,
+   "pair_id": "20962322>PMC4159851",
+   "n_passages": 1
+  },
+  {
+   "item": 32,
+   "pair_id": "25802833>PMC8704676",
+   "n_passages": 1
+  },
+  {
+   "item": 33,
+   "pair_id": "28653601>PMC7974325",
+   "n_passages": 1
+  },
+  {
+   "item": 34,
+   "pair_id": "20052673>PMC5406606",
+   "n_passages": 2
+  },
+  {
+   "item": 35,
+   "pair_id": "18001736>PMC6444288",
+   "n_passages": 1
+  },
+  {
+   "item": 36,
+   "pair_id": "34131401>PMC10896826",
+   "n_passages": 1
+  },
+  {
+   "item": 37,
+   "pair_id": "23440041>PMC7004969",
+   "n_passages": 1
+  },
+  {
+   "item": 38,
+   "pair_id": "23658180>PMC7843133",
+   "n_passages": 1
+  },
+  {
+   "item": 39,
+   "pair_id": "19805192>PMC12925099",
+   "n_passages": 1
+  },
+  {
+   "item": 40,
+   "pair_id": "25013758>PMC8112210",
+   "n_passages": 2
+  },
+  {
+   "item": 41,
+   "pair_id": "26799576>PMC9162816",
+   "n_passages": 1
+  },
+  {
+   "item": 42,
+   "pair_id": "24711954>PMC7035102",
+   "n_passages": 2
+  },
+  {
+   "item": 43,
+   "pair_id": "18371338>PMC11196667",
+   "n_passages": 1
+  },
+  {
+   "item": 44,
+   "pair_id": "35706038>PMC12778938",
+   "n_passages": 1
+  },
+  {
+   "item": 45,
+   "pair_id": "27257256>PMC10294819",
+   "n_passages": 1
+  },
+  {
+   "item": 46,
+   "pair_id": "24500368>PMC9767841",
+   "n_passages": 1
+  },
+  {
+   "item": 47,
+   "pair_id": "34225541>PMC10114480",
+   "n_passages": 1
+  },
+  {
+   "item": 48,
+   "pair_id": "35622843>PMC13420373",
+   "n_passages": 1
+  },
+  {
+   "item": 49,
+   "pair_id": "22806240>PMC12392288",
+   "n_passages": 1
+  },
+  {
+   "item": 50,
+   "pair_id": "31333800>PMC11826265",
+   "n_passages": 1
+  },
+  {
+   "item": 51,
+   "pair_id": "17056245>PMC4155113",
+   "n_passages": 1
+  },
+  {
+   "item": 52,
+   "pair_id": "35281185>PMC10794698",
+   "n_passages": 1
+  },
+  {
+   "item": 53,
+   "pair_id": "19019027>PMC4663357",
+   "n_passages": 2
+  },
+  {
+   "item": 54,
+   "pair_id": "35432513>PMC12370911",
+   "n_passages": 2
+  },
+  {
+   "item": 55,
+   "pair_id": "15266501>PMC7591397",
+   "n_passages": 1
+  },
+  {
+   "item": 56,
+   "pair_id": "23087725>PMC4963245",
+   "n_passages": 2
+  },
+  {
+   "item": 57,
+   "pair_id": "27618613>PMC8245488",
+   "n_passages": 3
+  },
+  {
+   "item": 58,
+   "pair_id": "21151908>PMC5693480",
+   "n_passages": 1
+  },
+  {
+   "item": 59,
+   "pair_id": "29244528>PMC8936075",
+   "n_passages": 2
+  },
+  {
+   "item": 60,
+   "pair_id": "16354850>PMC6316059",
+   "n_passages": 2
+  },
+  {
+   "item": 61,
+   "pair_id": "21715331>PMC4353451",
+   "n_passages": 1
+  },
+  {
+   "item": 62,
+   "pair_id": "35047149>PMC12192951",
+   "n_passages": 1
+  },
+  {
+   "item": 63,
+   "pair_id": "25447306>PMC8222687",
+   "n_passages": 1
+  },
+  {
+   "item": 64,
+   "pair_id": "24792451>PMC8980397",
+   "n_passages": 3
+  },
+  {
+   "item": 65,
+   "pair_id": "30296465>PMC11811377",
+   "n_passages": 1
+  },
+  {
+   "item": 66,
+   "pair_id": "16034857>PMC12169059",
+   "n_passages": 1
+  },
+  {
+   "item": 67,
+   "pair_id": "34976326>PMC10704262",
+   "n_passages": 1
+  },
+  {
+   "item": 68,
+   "pair_id": "18589210>PMC12118228",
+   "n_passages": 1
+  },
+  {
+   "item": 69,
+   "pair_id": "21704955>PMC6606899",
+   "n_passages": 1
+  },
+  {
+   "item": 70,
+   "pair_id": "30721110>PMC9204142",
+   "n_passages": 1
+  },
+  {
+   "item": 71,
+   "pair_id": "15604363>PMC8996963",
+   "n_passages": 1
+  },
+  {
+   "item": 72,
+   "pair_id": "15784622>PMC5938024",
+   "n_passages": 1
+  },
+  {
+   "item": 73,
+   "pair_id": "35978332>PMC11102450",
+   "n_passages": 1
+  },
+  {
+   "item": 74,
+   "pair_id": "32141541>PMC8434718",
+   "n_passages": 1
+  },
+  {
+   "item": 75,
+   "pair_id": "31298371>PMC9496619",
+   "n_passages": 1
+  },
+  {
+   "item": 76,
+   "pair_id": "30193239>PMC8186227",
+   "n_passages": 1
+  },
+  {
+   "item": 77,
+   "pair_id": "34649303>PMC11567242",
+   "n_passages": 1
+  },
+  {
+   "item": 78,
+   "pair_id": "35224216>PMC10894446",
+   "n_passages": 1
+  },
+  {
+   "item": 79,
+   "pair_id": "28579882>PMC11620901",
+   "n_passages": 2
+  },
+  {
+   "item": 80,
+   "pair_id": "25611565>PMC10004182",
+   "n_passages": 1
+  },
+  {
+   "item": 81,
+   "pair_id": "15604363>PMC10711575",
+   "n_passages": 1
+  },
+  {
+   "item": 82,
+   "pair_id": "28322459>PMC9596724",
+   "n_passages": 1
+  },
+  {
+   "item": 83,
+   "pair_id": "20068185>PMC10506215",
+   "n_passages": 1
+  },
+  {
+   "item": 84,
+   "pair_id": "19772305>PMC7246787",
+   "n_passages": 3
+  },
+  {
+   "item": 85,
+   "pair_id": "12609035>PMC6707262",
+   "n_passages": 1
+  },
+  {
+   "item": 86,
+   "pair_id": "16807438>PMC8807493",
+   "n_passages": 1
+  },
+  {
+   "item": 87,
+   "pair_id": "22405797>PMC9646752",
+   "n_passages": 1
+  },
+  {
+   "item": 88,
+   "pair_id": "30765340>PMC10289796",
+   "n_passages": 1
+  },
+  {
+   "item": 89,
+   "pair_id": "31773681>PMC10913707",
+   "n_passages": 1
+  },
+  {
+   "item": 90,
+   "pair_id": "34925732>PMC10834231",
+   "n_passages": 1
+  },
+  {
+   "item": 91,
+   "pair_id": "28698199>PMC6584592",
+   "n_passages": 1
+  },
+  {
+   "item": 92,
+   "pair_id": "32346491>PMC8195694",
+   "n_passages": 3
+  },
+  {
+   "item": 93,
+   "pair_id": "16034881>PMC7317924",
+   "n_passages": 1
+  },
+  {
+   "item": 94,
+   "pair_id": "29575334>PMC8153507",
+   "n_passages": 1
+  },
+  {
+   "item": 95,
+   "pair_id": "12370229>PMC5362645",
+   "n_passages": 2
+  },
+  {
+   "item": 96,
+   "pair_id": "30656845>PMC13123716",
+   "n_passages": 1
+  },
+  {
+   "item": 97,
+   "pair_id": "31655854>PMC10347406",
+   "n_passages": 1
+  },
+  {
+   "item": 98,
+   "pair_id": "16973744>PMC3113306",
+   "n_passages": 1
+  },
+  {
+   "item": 99,
+   "pair_id": "31239367>PMC11184612",
+   "n_passages": 1
+  },
+  {
+   "item": 100,
+   "pair_id": "17251387>PMC4156394",
+   "n_passages": 3
+  },
+  {
+   "item": 101,
+   "pair_id": "23432189>PMC9761763",
+   "n_passages": 1
+  },
+  {
+   "item": 102,
+   "pair_id": "26770353>PMC8448545",
+   "n_passages": 1
+  },
+  {
+   "item": 103,
+   "pair_id": "11426361>PMC3337380",
+   "n_passages": 1
+  },
+  {
+   "item": 104,
+   "pair_id": "17250953>PMC6021194",
+   "n_passages": 1
+  },
+  {
+   "item": 105,
+   "pair_id": "12381855>PMC2628669",
+   "n_passages": 1
+  },
+  {
+   "item": 106,
+   "pair_id": "10796138>PMC7383979",
+   "n_passages": 3
+  },
+  {
+   "item": 107,
+   "pair_id": "31706317>PMC8371316",
+   "n_passages": 1
+  },
+  {
+   "item": 108,
+   "pair_id": "23432189>PMC12955019",
+   "n_passages": 1
+  },
+  {
+   "item": 109,
+   "pair_id": "31839484>PMC9982029",
+   "n_passages": 2
+  },
+  {
+   "item": 110,
+   "pair_id": "24446669>PMC13019137",
+   "n_passages": 1
+  },
+  {
+   "item": 111,
+   "pair_id": "28884839>PMC9287982",
+   "n_passages": 1
+  },
+  {
+   "item": 112,
+   "pair_id": "21925739>PMC7311429",
+   "n_passages": 1
+  },
+  {
+   "item": 113,
+   "pair_id": "28548679>PMC8789436",
+   "n_passages": 1
+  },
+  {
+   "item": 114,
+   "pair_id": "24726785>PMC6306907",
+   "n_passages": 1
+  },
+  {
+   "item": 115,
+   "pair_id": "37062296>PMC13106463",
+   "n_passages": 1
+  },
+  {
+   "item": 116,
+   "pair_id": "28003373>PMC10471686",
+   "n_passages": 1
+  },
+  {
+   "item": 117,
+   "pair_id": "27079772>PMC6222830",
+   "n_passages": 1
+  },
+  {
+   "item": 118,
+   "pair_id": "19380445>PMC8492731",
+   "n_passages": 1
+  },
+  {
+   "item": 119,
+   "pair_id": "38624372>PMC7863774",
+   "n_passages": 1
+  },
+  {
+   "item": 120,
+   "pair_id": "36262981>PMC12065776",
+   "n_passages": 1
+  },
+  {
+   "item": 121,
+   "pair_id": "24711954>PMC10685837",
+   "n_passages": 1
+  },
+  {
+   "item": 122,
+   "pair_id": "27014069>PMC8624402",
+   "n_passages": 1
+  },
+  {
+   "item": 123,
+   "pair_id": "18824754>PMC3754982",
+   "n_passages": 1
+  },
+  {
+   "item": 124,
+   "pair_id": "27673564>PMC9896847",
+   "n_passages": 1
+  },
+  {
+   "item": 125,
+   "pair_id": "21561345>PMC9160676",
+   "n_passages": 1
+  },
+  {
+   "item": 126,
+   "pair_id": "20421272>PMC9852142",
+   "n_passages": 1
+  },
+  {
+   "item": 127,
+   "pair_id": "31170844>PMC11240077",
+   "n_passages": 1
+  },
+  {
+   "item": 128,
+   "pair_id": "12137710>PMC10641652",
+   "n_passages": 3
+  },
+  {
+   "item": 129,
+   "pair_id": "27906093>PMC9365118",
+   "n_passages": 1
+  },
+  {
+   "item": 130,
+   "pair_id": "33008472>PMC12440360",
+   "n_passages": 1
+  },
+  {
+   "item": 131,
+   "pair_id": "35530165>PMC10857922",
+   "n_passages": 1
+  },
+  {
+   "item": 132,
+   "pair_id": "21206745>PMC8163701",
+   "n_passages": 1
+  },
+  {
+   "item": 133,
+   "pair_id": "31933030>PMC10240982",
+   "n_passages": 2
+  },
+  {
+   "item": 134,
+   "pair_id": "32346491>PMC9350063",
+   "n_passages": 1
+  },
+  {
+   "item": 135,
+   "pair_id": "30733594>PMC9984184",
+   "n_passages": 1
+  },
+  {
+   "item": 136,
+   "pair_id": "30151293>PMC9784798",
+   "n_passages": 1
+  },
+  {
+   "item": 137,
+   "pair_id": "17908915>PMC7735605",
+   "n_passages": 3
+  },
+  {
+   "item": 138,
+   "pair_id": "19664125>PMC4030101",
+   "n_passages": 2
+  },
+  {
+   "item": 139,
+   "pair_id": "24143964>PMC5673741",
+   "n_passages": 1
+  },
+  {
+   "item": 140,
+   "pair_id": "34634080>PMC11765616",
+   "n_passages": 1
+  },
+  {
+   "item": 141,
+   "pair_id": "32340893>PMC12487115",
+   "n_passages": 1
+  },
+  {
+   "item": 142,
+   "pair_id": "32346491>PMC11911312",
+   "n_passages": 1
+  },
+  {
+   "item": 143,
+   "pair_id": "20091603>PMC9841292",
+   "n_passages": 1
+  },
+  {
+   "item": 144,
+   "pair_id": "16243185>PMC7696604",
+   "n_passages": 1
+  },
+  {
+   "item": 145,
+   "pair_id": "35528530>PMC13251290",
+   "n_passages": 1
+  },
+  {
+   "item": 146,
+   "pair_id": "16045815>PMC7927897",
+   "n_passages": 1
+  },
+  {
+   "item": 147,
+   "pair_id": "22735448>PMC3655273",
+   "n_passages": 2
+  },
+  {
+   "item": 148,
+   "pair_id": "28391057>PMC9115567",
+   "n_passages": 1
+  },
+  {
+   "item": 149,
+   "pair_id": "25889486>PMC7939379",
+   "n_passages": 3
+  },
+  {
+   "item": 150,
+   "pair_id": "17510058>PMC2957584",
+   "n_passages": 1
+  },
+  {
+   "item": 151,
+   "pair_id": "32356626>PMC10809708",
+   "n_passages": 1
+  },
+  {
+   "item": 152,
+   "pair_id": "20974686>PMC6357823",
+   "n_passages": 1
+  },
+  {
+   "item": 153,
+   "pair_id": "26462792>PMC10539821",
+   "n_passages": 1
+  },
+  {
+   "item": 154,
+   "pair_id": "34414303>PMC9253595",
+   "n_passages": 2
+  },
+  {
+   "item": 155,
+   "pair_id": "17435748>PMC9078957",
+   "n_passages": 1
+  },
+  {
+   "item": 156,
+   "pair_id": "20818377>PMC7427443",
+   "n_passages": 1
+  },
+  {
+   "item": 157,
+   "pair_id": "33359850>PMC9998703",
+   "n_passages": 3
+  },
+  {
+   "item": 158,
+   "pair_id": "31162777>PMC11041538",
+   "n_passages": 1
+  },
+  {
+   "item": 159,
+   "pair_id": "25883318>PMC9574215",
+   "n_passages": 1
+  },
+  {
+   "item": 160,
+   "pair_id": "21614180>PMC5824410",
+   "n_passages": 1
+  },
+  {
+   "item": 161,
+   "pair_id": "23993101>PMC7841308",
+   "n_passages": 3
+  },
+  {
+   "item": 162,
+   "pair_id": "20462659>PMC8653728",
+   "n_passages": 1
+  },
+  {
+   "item": 163,
+   "pair_id": "30422299>PMC8871849",
+   "n_passages": 1
+  },
+  {
+   "item": 164,
+   "pair_id": "29335299>PMC9718588",
+   "n_passages": 1
+  },
+  {
+   "item": 165,
+   "pair_id": "25331944>PMC6581727",
+   "n_passages": 1
+  },
+  {
+   "item": 166,
+   "pair_id": "32265513>PMC8550405",
+   "n_passages": 1
+  },
+  {
+   "item": 167,
+   "pair_id": "29145888>PMC9564118",
+   "n_passages": 1
+  },
+  {
+   "item": 168,
+   "pair_id": "12190834>PMC7399897",
+   "n_passages": 1
+  },
+  {
+   "item": 169,
+   "pair_id": "34465388>PMC11970425",
+   "n_passages": 1
+  },
+  {
+   "item": 170,
+   "pair_id": "19160206>PMC8088564",
+   "n_passages": 1
+  },
+  {
+   "item": 171,
+   "pair_id": "27160316>PMC12477333",
+   "n_passages": 2
+  },
+  {
+   "item": 172,
+   "pair_id": "17478559>PMC3949090",
+   "n_passages": 1
+  },
+  {
+   "item": 173,
+   "pair_id": "36262606>PMC10812769",
+   "n_passages": 1
+  },
+  {
+   "item": 174,
+   "pair_id": "9500320>PMC6615777",
+   "n_passages": 1
+  },
+  {
+   "item": 175,
+   "pair_id": "22088800>PMC8625160",
+   "n_passages": 3
+  },
+  {
+   "item": 176,
+   "pair_id": "18453793>PMC13369247",
+   "n_passages": 1
+  },
+  {
+   "item": 177,
+   "pair_id": "17903207>PMC11534673",
+   "n_passages": 1
+  },
+  {
+   "item": 178,
+   "pair_id": "24969506>PMC7903847",
+   "n_passages": 1
+  },
+  {
+   "item": 179,
+   "pair_id": "30791932>PMC9519904",
+   "n_passages": 1
+  },
+  {
+   "item": 180,
+   "pair_id": "22414106>PMC12060911",
+   "n_passages": 1
+  },
+  {
+   "item": 181,
+   "pair_id": "19380445>PMC4966845",
+   "n_passages": 1
+  },
+  {
+   "item": 182,
+   "pair_id": "21127198>PMC8026879",
+   "n_passages": 2
+  },
+  {
+   "item": 183,
+   "pair_id": "24048476>PMC5587812",
+   "n_passages": 2
+  },
+  {
+   "item": 184,
+   "pair_id": "30588009>PMC9265289",
+   "n_passages": 1
+  },
+  {
+   "item": 185,
+   "pair_id": "19079715>PMC8699078",
+   "n_passages": 1
+  },
+  {
+   "item": 186,
+   "pair_id": "31298038>PMC10254068",
+   "n_passages": 1
+  },
+  {
+   "item": 187,
+   "pair_id": "24909173>PMC8064154",
+   "n_passages": 1
+  },
+  {
+   "item": 188,
+   "pair_id": "20951946>PMC12021393",
+   "n_passages": 1
+  },
+  {
+   "item": 189,
+   "pair_id": "32554486>PMC10759449",
+   "n_passages": 1
+  },
+  {
+   "item": 190,
+   "pair_id": "22144828>PMC3927329",
+   "n_passages": 1
+  },
+  {
+   "item": 191,
+   "pair_id": "37016550>PMC11960600",
+   "n_passages": 1
+  },
+  {
+   "item": 192,
+   "pair_id": "21595826>PMC4859958",
+   "n_passages": 2
+  },
+  {
+   "item": 193,
+   "pair_id": "19043378>PMC10529021",
+   "n_passages": 1
+  },
+  {
+   "item": 194,
+   "pair_id": "16437490>PMC8246353",
+   "n_passages": 1
+  },
+  {
+   "item": 195,
+   "pair_id": "16437513>PMC9000081",
+   "n_passages": 1
+  },
+  {
+   "item": 196,
+   "pair_id": "19919693>PMC9596379",
+   "n_passages": 1
+  },
+  {
+   "item": 197,
+   "pair_id": "20823877>PMC10336457",
+   "n_passages": 2
+  },
+  {
+   "item": 198,
+   "pair_id": "25370920>PMC10086752",
+   "n_passages": 1
+  },
+  {
+   "item": 199,
+   "pair_id": "15879012>PMC8828745",
+   "n_passages": 1
+  },
+  {
+   "item": 200,
+   "pair_id": "11514369>PMC7132405",
+   "n_passages": 1
+  }
+ ]
+}

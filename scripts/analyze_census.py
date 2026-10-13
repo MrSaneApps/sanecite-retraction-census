@@ -130,6 +130,15 @@ try:
     o = res["substantive"]["rate"]
     res["substantive_corrected"] = {"rate": round((o - fpr) / (sens - fpr), 4), "sens": round(sens, 4), "fpr": round(fpr, 4),
                                     "basis": "confirm_v33 blind set, n=" + str(tp + fn + fp + tn)}
+    # CI (PROTOCOL.md): resample the confirmation set (sens, fpr) and draw the observed rate from its census
+    # bootstrap CI (normal, sd = width / 3.92), 2000 draws.
+    items = ["tp"] * tp + ["fn"] * fn + ["fp"] * fp + ["tn"] * tn
+    lo, hi = res["substantive"]["ci95"]; rnd, draws = random.Random(11), []
+    for _ in range(2000):
+        k = collections.Counter(rnd.choice(items) for _ in items)
+        s, f = k["tp"] / max(1, k["tp"] + k["fn"]), k["fp"] / max(1, k["fp"] + k["tn"])
+        if s - f > 0: draws.append(min(1, max(0, (rnd.gauss(o, (hi - lo) / 3.92) - f) / (s - f))))
+    draws.sort(); res["substantive_corrected"]["ci95"] = [round(draws[int(.025 * len(draws))], 4), round(draws[int(.975 * len(draws)) - 1], 4)]
 except FileNotFoundError:
     pass
 json.dump(res, open(f"{DATA}/census_results.json", "w"), indent=1)
