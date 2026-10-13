@@ -1,0 +1,27 @@
+# SHA-256, 2026-10-13T23:44Z. Package files:
+48550c4a62c4989a7f7df5896cad8c421f95c93a0b3a61948950cc2eee49ec6c  ./codebook.md
+4f8b045a8aa70f1fa123a4ccc1dddf3ed76aa4a42f2bed22eb2f0280a6b8fd91  ./PROTOCOL.md
+83c068fce30dc22c2fa11b5b1ba980b7bf3937ba25b7e0df4f44b1437a6f1fac  ./scripts/analyze_census.py
+783cea348d90053cbb48d9b249bfe37ff44512fe375702a163b7ae63d35759c9  ./scripts/citegroup.py
+d62f298fe299b929630d99e30891002f7fae19935efb84142aea700f27fd4542  ./scripts/citer_meta.py
+c8200fe1b2e1cbf1dd8acd97f56c4f1d29c30919d737c0beebe2b3e385e51453  ./scripts/classify.py
+4032e460cb3e9a0ee00c51184c224e23646fa9e7e105ad1e7bb2e098b518c9dc  ./scripts/eval_panel.py
+5629e653cc28443784cdafc08cf805d79225ca2e65dd7622e33f126e0ae21e60  ./scripts/export_site_data.py
+fd6d73c0fa8e6cd718aaa986e4bc5b6973d9c32bbdfb1cc16ef335cc522c44ff  ./scripts/extract.py
+2348084f2148ea86a0456a25fd9bb8de01421c78c2d95bdd5b95b159e0fb8bd9  ./scripts/panel.py
+601ec5470290434e8ad8d3f5471599947cc9e9ff7eb6707cdc2efa19cd3ecd88  ./scripts/reextract.py
+aa25d697e1b8cb0a91c455e6c8b1f361cd9bb93e53ef20e480125acc288681e8  ./scripts/stage1_frame.py
+6b84122477c3cb6e66ab18b396b6d725313fb372f783ca2220dc5b93462477d8  ./scripts/stage3_census.py
+35b98afcf99a2588739b59ac74834ea7852be78cebcc4a5d853bbf983c06dc76  ./validation/confirm_v33_gold.json
+cd8c32bdad7194cf8a9cc8af3a2c2a99c1fc2993f60c530228ba1800f85d86b6  ./validation/confirm_v33_score.json
+343057561ba5176f70fcaa2553f3928330efd21556fac4122941c2af4fe197ba  ./validation/holdout_v31_gold.json
+67ca7ab21dcab7b1178c910d6df96c672240fd0fd1f2affd481f0a7773a68d4e  ./validation/holdout_v31_score.json
+# Private model-call helpers (same versions used in the census):
+0823e3e1e3b90f20e2993ab48fa29cba8262b59b0bf40b45a705d4e21cf8b288  jev_review.py
+3ebd49a63686922bb508b2f602b0a24e6af15e21d75929db7098a5d605e83526  llm_bakeoff.py
+# Data files existing at registration (not published here; published at sanecite.com/data.html after analysis):
+543ba6a52cb5833afc377c62d368848e054c8ed85bf04258939a9697e1cf75e5  stage1_papers.jsonl
+4d3db9d9b4766f2dc76744b759cc58f53683df046965811b0bd112c9ec4db0aa  stage2_v31.jsonl
+4c23c885e2a063b1e3947f194afea571e8092eb8120ccb891fc896ec0b05e4f6  stage3_jev.jsonl
+3568d7a8fe18f884bb9dd38b893df28bddf653977eed569479165fa4cc9c5b5c  stage3_clef.jsonl
+# stage3_gemma.jsonl still being written at registration; its final hash will be added in a follow-up commit.

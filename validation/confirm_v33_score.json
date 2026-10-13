@@ -1,0 +1,28 @@
+{
+ "set": "confirm_v33 (fresh, seed 4242, labelled blind, frozen v3.3)",
+ "pairs": 150,
+ "agree": 142,
+ "accuracy": 0.9467,
+ "wilson95": [
+  0.8983,
+  0.9727
+ ],
+ "pairs_all_unanimous": 126,
+ "accuracy_all_unanimous": 0.9762,
+ "wilson95_unanimous": [
+  0.9323,
+  0.9919
+ ],
+ "substantive_rate_gold": 0.38,
+ "substantive_rate_panel": 0.4067,
+ "aware_gold": 6,
+ "aware_panel": 5,
+ "confusion_gold_to_panel": {
+  "aware->aware": 5,
+  "aware->substantive": 1,
+  "perfunctory->perfunctory": 82,
+  "perfunctory->substantive": 5,
+  "substantive->perfunctory": 2,
+  "substantive->substantive": 55
+ }
+}

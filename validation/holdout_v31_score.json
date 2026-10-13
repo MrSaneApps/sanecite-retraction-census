@@ -1,0 +1,45 @@
+{
+ "pairs": 300,
+ "pair_agree": 277,
+ "pair_accuracy": 0.9233,
+ "pair_wilson95": [
+  0.8876,
+  0.9484
+ ],
+ "contexts": 367,
+ "context_accuracy": 0.921,
+ "context_wilson95": [
+  0.8888,
+  0.9444
+ ],
+ "by_route": {
+  "majority": {
+   "n": 54,
+   "agree": 40,
+   "accuracy": 0.7407,
+   "wilson95": [
+    0.6107,
+    0.8388
+   ]
+  },
+  "unanimous": {
+   "n": 313,
+   "agree": 298,
+   "accuracy": 0.9521,
+   "wilson95": [
+    0.9224,
+    0.9707
+   ]
+  }
+ },
+ "substantive_rate_gold": 0.3333,
+ "substantive_rate_panel": 0.3567,
+ "confusion_gold_to_panel": {
+  "aware->aware": 9,
+  "aware->substantive": 2,
+  "perfunctory->perfunctory": 176,
+  "perfunctory->substantive": 13,
+  "substantive->perfunctory": 8,
+  "substantive->substantive": 92
+ }
+}
