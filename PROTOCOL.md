@@ -169,3 +169,20 @@ unchanged (40.75%).
 7. Data release: `data/` now holds the census data (frame, extracted passages, each model's labels, citing-paper
    metadata, pair labels), the result files, `paper_numbers.md` and the synthesis check, gzipped where large. All
    figures are provisional until the human labelling round above.
+
+**2026-10-14 ~13:45Z (amendment 4)**, before any human answer exists (no labeller has been recruited yet):
+1. Scoring of the human round is fixed now in `scripts/human_score.py`. Each labeller's two answers per passage go
+   through `classify.label()` with the citation-group count from `citegroup.py`, exactly as the models' answers do; a
+   citing paper's label is the strongest across its passages, and a paper counts only when all its passages are
+   answered. Tested by filling the sheets with Jev's and Gemma's own answers: all 254 passage labels match the labels
+   stored in the census for both models.
+2. "Panel-human agreement" in the Validation rule means agreement on the four-way citing-paper label between the panel
+   and each labeller, computed separately. The rule is triggered if agreement with EITHER labeller is below 85%. We
+   also report Cohen's kappa between the two labellers, the panel's agreement with the papers both labellers label the
+   same, and agreement on the headline question alone (substantive or not).
+3. If the rule is triggered, the corrected headline uses the same Rogan-Gladen method as the confirmation set, with
+   sensitivity and false-positive rate taken from the panel against the papers both labellers agree on.
+4. The Validation section also promised agreement "with the Claude labels". No Claude labels exist for this draw, and
+   adding them would add another AI reader, not a human check, so that comparison is dropped.
+5. Labellers work in an Excel workbook built by `scripts/human_sheets.py` from `passages.csv`: same passages, same
+   order, drop-down answers, no model label shown.

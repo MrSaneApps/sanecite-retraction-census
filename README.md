@@ -14,5 +14,6 @@ metadata for all 130,315 later citations), the result files, `paper_numbers.md` 
 scripts listed in `PROTOCOL.md`. Hsiao and Schneider's data are not redistributed here (Illinois Data Bank,
 doi:10.13012/B2IDB-8255619_V2).
 
-All figures are provisional until the human labelling round (`human_labels/`). Citing passages are short quotations
+All figures are provisional until the human labelling round (`human_labels/`; workbooks from `scripts/human_sheets.py`,
+scoring fixed in advance in `scripts/human_score.py`, see amendment 4). Citing passages are short quotations
 from open-access papers in Europe PMC, included so each label can be checked against its text.
