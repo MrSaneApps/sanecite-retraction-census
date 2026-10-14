@@ -109,7 +109,8 @@ def quote_ok(quote, text):
 
 def chat(model, rec, token, i=0):
     msgs = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user_msg(rec, i)}]
-    r = vendor_call(model, msgs, cf_token=token, account=DEFAULT_ACCOUNT, max_tokens=None)
+    # SANECITE_MAX_TOKENS (amendment 2): larger reply cap, used only to retry the few replies cut off at the default.
+    r = vendor_call(model, msgs, cf_token=token, account=DEFAULT_ACCOUNT, max_tokens=int(os.environ.get("SANECITE_MAX_TOKENS") or 0) or None)
     out = {"model": model, "ms": r.get("ms"), "neurons": r.get("neurons", 0), "pt": r.get("pt", 0), "ct": r.get("ct", 0)}
     if r.get("error"): out["error"] = str(r["error"])[:200]; return out
     p = parse(r.get("content"))

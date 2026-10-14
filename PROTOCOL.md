@@ -114,3 +114,24 @@ hosted model is updated (versions and dates are logged per call).
 4. `hs_compare.py` was run once on incomplete labels (Gemma about 40% done) to test it. Hsiao and Schneider's data
    (Illinois Data Bank IDB-3213475, v2) gives, on 8,944 shared citing pairs: agreement of our *aware* label with their
    hand-checked acknowledgement 97.7%, kappa 0.74. The final figure will be reported from complete labels.
+
+**2026-10-14 ~02:45Z (amendment 2)**, before the final analysis:
+1. Robustness analyses (`scripts/sensitivity.py`), primary outcome recomputed with: S1 citing papers that are themselves
+   retracted removed; S2 only citations two or more years after retraction; S3 only pairs whose every passage the three
+   models labelled unanimously; S4 first passage only (the main rule takes the strongest of up to three); S5 only
+   references matched by PubMed ID or DOI. Also Fleiss' kappa across the three models (passage level).
+2. Self-citation (exploratory): a shared author (surname and first initial) between the retracted and citing paper;
+   rates reported for self and other citations.
+3. Test-retest (`scripts/retest.py`): every panel model re-asked about 500 random census passages (seed 99); share of
+   identical labels per model and for the panel.
+4. Gemma replies cut off at the default length (9 passages at the time of writing) are retried once with a larger
+   reply cap (`SANECITE_MAX_TOKENS`, the only change to `classify.py`). Passages still without a Gemma label are
+   decided by Jev and Clef, with Clef breaking ties, and counted.
+5. Reference-match audit (done): 89% of read pairs were matched by PubMed ID or DOI. Of title matches, 97.2% (5,375 of
+   5,530) carry the retracted paper's first-author surname; reading 12 of the other 155 showed mostly name-format
+   differences, plus Cochrane reviews whose later versions share the title (administrative, outside the headline).
+6. Disclosure of interim looks: `sensitivity.py` was run once on partial labels (Gemma about 85% done) to test it.
+   Partial results: primary 38.5%; S1 38.5%; S2 37.3%; S3 35.8%; S4 34.1%; S5 38.7%; Fleiss kappa 0.81 (label).
+   No rule changed after this run.
+7. AI use: the labels are produced by language models; Claude (Anthropic) wrote most of the code, produced the
+   development and validation reference labels, and drafted text. A human check is planned (Validation).
