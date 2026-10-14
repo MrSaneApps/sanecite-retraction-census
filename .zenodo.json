@@ -1,0 +1,12 @@
+{
+  "title": "SaneCite retraction census: post-retraction citations to 22,553 retracted biomedical papers (protocol, code and data)",
+  "upload_type": "dataset",
+  "description": "Census of how retracted biomedical papers are cited after retraction. Every Retraction Watch retraction with a PubMed ID, retracted 1990-2023 (22,553 papers); 55,688 open-access citing papers read; each citing passage labelled by a three-model panel (cited as support, passing mention, flagged as retracted or unreliable). Includes the pre-registered protocol and its three dated amendments, all analysis code, validation sets, every model label and every citing passage. Figures are provisional until a human labelling round. Results: https://sanecite.com/campaign-one.html; searchable data: https://sanecite.com/data.html.",
+  "creators": [{"name": "Joseph, Stephan", "affiliation": "SaneApps (SaneCite)"}],
+  "license": "MIT",
+  "keywords": ["retraction", "research integrity", "citation analysis", "citation context", "large language models", "Retraction Watch"],
+  "related_identifiers": [
+    {"identifier": "10.1162/qss_a_00155", "relation": "references", "scheme": "doi"},
+    {"identifier": "https://sanecite.com/data.html", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

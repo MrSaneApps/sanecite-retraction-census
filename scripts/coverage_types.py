@@ -47,6 +47,18 @@ for pm, m in meta.items():
         tot[g] += 1
         comp["citing_year"][g][ybin(c.get("year"))] += 1
         comp["type"][g][ptype(c.get("type"))] += 1
+# retraction reason group and field, for every retracted paper (read or not); shared rules in groups.py
+from groups import reason_group, field_group
+for pm, p in papers.items():
+    reason_of.setdefault(pm, reason_group(p.get("reason"))); field_of.setdefault(pm, field_group(p.get("subject")))
+comp["reason"] = {"read": collections.Counter(), "unread": collections.Counter()}
+comp["field"] = {"read": collections.Counter(), "unread": collections.Counter()}
+for pm, m in meta.items():
+    for c in m["citers"]:
+        g = "read" if (pm, c.get("pmcid")) in read else "unread"
+        comp["reason"][g][reason_of.get(pm, "?")] += 1
+        comp["field"][g][field_of.get(pm, "?")] += 1
+
 def shares(cn): n = sum(cn.values()); return {k: round(v / n, 4) for k, v in sorted(cn.items())} if n else {}
 out = {"citers_total": sum(tot.values()), "citers_read": tot["read"], "citers_unread": tot["unread"],
        "read_vs_unread": {k: {g: shares(v[g]) for g in v} for k, v in comp.items()}}

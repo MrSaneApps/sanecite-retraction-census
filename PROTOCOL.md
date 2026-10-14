@@ -135,3 +135,37 @@ hosted model is updated (versions and dates are logged per call).
    No rule changed after this run.
 7. AI use: the labels are produced by language models; Claude (Anthropic) wrote most of the code, produced the
    development and validation reference labels, and drafted text. A human check is planned (Validation).
+
+**2026-10-14 ~04:15Z (amendment 3), after the final analysis.** An internal review (four checks run by Claude
+subagents: a recompute of every figure from the raw labels, a code review, a blind re-reading of 110 census pairs, and
+a literature check) found the items below. No labelling rule, model output or label changed, and the headline rate is
+unchanged (40.75%).
+1. Grouping errors fixed in a shared `scripts/groups.py` (used by `analyze_census.py` and `coverage_types.py`). The
+   misconduct pattern missed Retraction Watch tags it was meant to catch (compromised peer review, computer-aided or
+   computer-generated content, rogue editor, hoax, salami slicing, taken via peer review, sabotage), which fell into
+   "other or unstated"; the words of administrative tags could leak into the misconduct and error patterns; "updated to
+   retraction", "updated to correction" and "no further action" are now process tags, which moves 10 citations into the
+   administrative group (headline n 51,636 -> 51,626). Field was the alphabetically first subject code; it is now the
+   set of codes (basic life sciences only, health sciences only, both, other).
+2. Promised analyses the code did not run, now run: read vs unread citations by retraction reason and field (analysis
+   4; `coverage_types.py`, which also now leaves unread administrative papers out of the year weights); the aware rate
+   over Hsiao and Schneider's citing years, to 2019 (analysis 6). Passages without a Jev label: 0.
+3. Deviation disclosed: amendment 2 item 4 said passages still without a Gemma label would be decided by Jev and Clef
+   and counted. `analyze_census.py` set the 6 affected pairs (9 passages) aside instead. Jev and Clef agree on all 9;
+   counting them leaves the rate at 40.75%. When a Clef call failed, the model helper silently answered with Jev for 7
+   passages; all 7 are unanimous. Gemma rows carry no model version, and per-call dates are in the run logs, not the
+   rows.
+4. Exploratory additions: model agreement on the raw use answer and on passages where the work is cited alone; a
+   two-way cluster bootstrap (retracted and citing paper); timing by the citing paper's JATS received date (S6), also
+   for the synthesis inclusions; where the word "retract" sits in flagged reference entries; the corrected rate with the
+   confirmation set limited to non-administrative pairs (37.0%), and rescoring of that set from its saved labels
+   (reproduces 142/150); papers with two or more substantive citations; the aware rate when the reference list says
+   retracted. `paper_numbers.py` generates every figure the paper quotes. `holdout_v31.py` (draw and score of the blind
+   sets) and the confirmation set's passages and model labels are now posted.
+5. Exploratory synthesis check (571 pairs labelled as counted in a meta-analysis, systematic review or guideline,
+   re-read by Claude at passage level; 507 confirmed) is reported in the paper as exploratory.
+6. Wording: the paper calls the substantive label "cited as support" rather than "relied on", because the blind
+   re-reading found that it also covers method credits and statements of agreement.
+7. Data release: `data/` now holds the census data (frame, extracted passages, each model's labels, citing-paper
+   metadata, pair labels), the result files, `paper_numbers.md` and the synthesis check, gzipped where large. All
+   figures are provisional until the human labelling round above.

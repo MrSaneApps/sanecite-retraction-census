@@ -14,8 +14,8 @@ DATA = os.environ["SANECITE_DATA"]; OUT = sys.argv[1]
 LABELS = ["substantive", "perfunctory", "aware", "unclear"]  # index order used by data.js
 ROUTES = ["unanimous", "majority", "split"]
 REASONS = ["misconduct, fabrication or duplication", "error or unreliable results", "other or unstated", "administrative (no fault found in the science)"]
-FIELDS = {"BLS": "Life sciences", "HSC": "Health sciences", "PHY": "Physical sciences", "ENV": "Environment",
-          "SOC": "Social sciences", "HUM": "Humanities", "B/T": "Business and technology"}
+FIELDS = {"basic life sciences only": "Basic life sciences", "basic life and health sciences": "Basic life and health sciences",
+          "health sciences only": "Health sciences", "other fields": "Other fields", "?": "Not given"}   # groups.field_group
 RANK = {"aware": 3, "substantive": 2, "perfunctory": 1, "unclear": 0}
 def bucket(pmid): return f"{int(pmid) % 256:02x}"
 L = collections.defaultdict(dict)
@@ -54,7 +54,10 @@ for pid, row in rows.items():
     for i in order:
         lab, route, c = ctxs[i]
         sent = c["sentence"] if len(c["sentence"]) <= 420 else c["sentence"][:420] + "…"
-        shown.append([LABELS.index(lab), ROUTES.index(route), (c.get("section") or "")[:60], sent, c.get("where", "text") == "table"])
+        cut = lambda t, front: (t if len(t) <= 300 else ("…" + t[-300:] if front else t[:300] + "…"))
+        # before/after: the label was judged on the whole passage, so the page shows the neighbouring sentences too
+        shown.append([LABELS.index(lab), ROUTES.index(route), (c.get("section") or "")[:60], sent, c.get("where", "text") == "table",
+                      cut(c.get("before") or "", True), cut(c.get("after") or "", False)])
         ctx_rows.append([pid, i, lab, route, c.get("section") or "", c.get("where", "text"), c["before"], c["sentence"], c["after"]])
     shards[bucket(pm)][pm].append([rec["citing_pmcid"], rec.get("citing_year"), (rec.get("citing_journal") or "")[:80],
                                    LABELS.index(row["label"]), ROUTES.index(row["route"]), bool(row["ref_retracted"]), shown])

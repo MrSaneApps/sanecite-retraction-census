@@ -1,0 +1,167 @@
+{
+ "citers_total": 130315,
+ "citers_read": 55688,
+ "citers_unread": 74627,
+ "read_vs_unread": {
+  "citing_year": {
+   "read": {
+    "2011-2015": 0.0871,
+    "2016-2019": 0.1628,
+    "2020-2022": 0.3214,
+    "2023-2026": 0.4178,
+    "<=2010": 0.0109
+   },
+   "unread": {
+    "2011-2015": 0.1866,
+    "2016-2019": 0.1978,
+    "2020-2022": 0.1999,
+    "2023-2026": 0.2834,
+    "<=2010": 0.1323
+   }
+  },
+  "type": {
+   "read": {
+    "case report": 0.0141,
+    "clinical trial": 0.0258,
+    "guideline": 0.001,
+    "letter, editorial or comment": 0.008,
+    "meta-analysis": 0.0177,
+    "other": 0.0001,
+    "research article": 0.6445,
+    "review": 0.2749,
+    "systematic review": 0.0139
+   },
+   "unread": {
+    "case report": 0.0091,
+    "clinical trial": 0.029,
+    "guideline": 0.0033,
+    "letter, editorial or comment": 0.0151,
+    "meta-analysis": 0.0276,
+    "other": 0.0372,
+    "research article": 0.5889,
+    "review": 0.2723,
+    "systematic review": 0.0175
+   }
+  },
+  "reason": {
+   "read": {
+    "administrative (no fault found in the science)": 0.0726,
+    "error or unreliable results": 0.2823,
+    "misconduct, fabrication or duplication": 0.5739,
+    "other or unstated": 0.0712
+   },
+   "unread": {
+    "administrative (no fault found in the science)": 0.065,
+    "error or unreliable results": 0.321,
+    "misconduct, fabrication or duplication": 0.541,
+    "other or unstated": 0.073
+   }
+  },
+  "field": {
+   "read": {
+    "?": 0.0016,
+    "basic life and health sciences": 0.3054,
+    "basic life sciences only": 0.334,
+    "health sciences only": 0.2625,
+    "other fields": 0.0965
+   },
+   "unread": {
+    "?": 0.0006,
+    "basic life and health sciences": 0.3352,
+    "basic life sciences only": 0.3319,
+    "health sciences only": 0.211,
+    "other fields": 0.1213
+   }
+  }
+ },
+ "primary_reweighted": {
+  "raw": {
+   "rate": 0.4075,
+   "ci95": [
+    0.3982,
+    0.4147
+   ]
+  },
+  "weighted_by_all_later_citations_per_paper": {
+   "rate": 0.3948,
+   "ci95": [
+    0.3842,
+    0.4026
+   ]
+  },
+  "weighted_by_citing_year": {
+   "rate": 0.3996,
+   "ci95": [
+    0.3905,
+    0.4065
+   ]
+  },
+  "n_pairs": 51626,
+  "n_papers": 12328
+ },
+ "by_citing_type": {
+  "research article": {
+   "n": 33648,
+   "substantive": 12150,
+   "aware": 817,
+   "substantive_rate": 0.3611,
+   "aware_rate": 0.0243
+  },
+  "review": {
+   "n": 14243,
+   "substantive": 7286,
+   "aware": 588,
+   "substantive_rate": 0.5115,
+   "aware_rate": 0.0413
+  },
+  "clinical trial": {
+   "n": 1117,
+   "substantive": 397,
+   "aware": 30,
+   "substantive_rate": 0.3554,
+   "aware_rate": 0.0269
+  },
+  "meta-analysis": {
+   "n": 865,
+   "substantive": 487,
+   "aware": 84,
+   "substantive_rate": 0.563,
+   "aware_rate": 0.0971
+  },
+  "case report": {
+   "n": 660,
+   "substantive": 241,
+   "aware": 7,
+   "substantive_rate": 0.3652,
+   "aware_rate": 0.0106
+  },
+  "systematic review": {
+   "n": 660,
+   "substantive": 359,
+   "aware": 58,
+   "substantive_rate": 0.5439,
+   "aware_rate": 0.0879
+  },
+  "letter, editorial or comment": {
+   "n": 399,
+   "substantive": 99,
+   "aware": 141,
+   "substantive_rate": 0.2481,
+   "aware_rate": 0.3534
+  },
+  "guideline": {
+   "n": 30,
+   "substantive": 16,
+   "aware": 0,
+   "substantive_rate": 0.5333,
+   "aware_rate": 0.0
+  },
+  "other": {
+   "n": 4,
+   "substantive": 2,
+   "aware": 1,
+   "substantive_rate": 0.5,
+   "aware_rate": 0.25
+  }
+ }
+}

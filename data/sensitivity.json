@@ -1,0 +1,216 @@
+{
+ "primary": {
+  "rate": 0.4075,
+  "ci95": [
+   0.4005,
+   0.4152
+  ],
+  "n": 51626
+ },
+ "S1_citing_paper_not_retracted": {
+  "rate": 0.4074,
+  "ci95": [
+   0.3995,
+   0.4151
+  ],
+  "n": 51201
+ },
+ "S1_citing_papers_retracted_n": 425,
+ "S2_two_or_more_years_after": {
+  "rate": 0.3896,
+  "ci95": [
+   0.3802,
+   0.3983
+  ],
+  "n": 35518
+ },
+ "S3_all_passages_unanimous": {
+  "rate": 0.3868,
+  "ci95": [
+   0.3782,
+   0.3957
+  ],
+  "n": 43562
+ },
+ "S4_first_passage_only": {
+  "rate": 0.3609,
+  "ci95": [
+   0.3542,
+   0.3683
+  ],
+  "n": 51616
+ },
+ "S5_id_matched_only": {
+  "rate": 0.409,
+  "ci95": [
+   0.4,
+   0.4162
+  ],
+  "n": 45827
+ },
+ "fleiss_kappa": {
+  "label": 0.8233,
+  "stance": 0.8037,
+  "passages": 72130,
+  "use_raw": 0.5711,
+  "label_lone_citation": 0.6226,
+  "lone_citation_passages": 35285
+ },
+ "primary_two_way_cluster_ci95": [
+  0.3965,
+  0.4179
+ ],
+ "timing_exploratory": {
+  "counts": {
+   "no_date": 29665,
+   "received_after_retraction": 20478,
+   "received_before_retraction": 1483
+  },
+  "S6_without_received_before": {
+   "rate": 0.4065,
+   "ci95": [
+    0.3983,
+    0.4157
+   ],
+   "n": 50143
+  },
+  "received_after_only": {
+   "rate": 0.3994,
+   "ci95": [
+    0.3905,
+    0.4072
+   ],
+   "n": 20478
+  },
+  "received_after_by_years": {
+   "1": {
+    "rate": 0.438,
+    "ci95": [
+     0.4212,
+     0.4531
+    ],
+    "n": 5388
+   },
+   "2": {
+    "rate": 0.405,
+    "ci95": [
+     0.3884,
+     0.4206
+    ],
+    "n": 4074
+   },
+   "3+": {
+    "rate": 0.3784,
+    "ci95": [
+     0.3669,
+     0.3916
+    ],
+    "n": 11016
+   }
+  },
+  "synthesis_inclusions": {
+   "two_plus_calendar_years_after": 299,
+   "received_6_months_or_more_after": 146,
+   "no_date": 314,
+   "received_within_6_months_after": 26,
+   "received_before_retraction": 21
+  }
+ },
+ "self_citation_exploratory": {
+  "self": 972,
+  "not_self": 50644,
+  "unknown": 10,
+  "substantive_self": {
+   "rate": 0.4311,
+   "ci95": [
+    0.404,
+    0.4689
+   ],
+   "n": 972
+  },
+  "substantive_not_self": {
+   "rate": 0.407,
+   "ci95": [
+    0.3994,
+    0.4155
+   ],
+   "n": 50644
+  },
+  "aware_self": {
+   "rate": 0.0422,
+   "ci95": [
+    0.0282,
+    0.053
+   ],
+   "n": 972
+  },
+  "aware_not_self": {
+   "rate": 0.0333,
+   "ci95": [
+    0.0265,
+    0.0417
+   ],
+   "n": 50644
+  }
+ },
+ "ref_entry_retract_word": {
+  "counts": {
+   "title prefix": 2664,
+   "retraction note": 523,
+   "other": 441
+  },
+  "examples": {
+   "title prefix": [
+    "ng x., nie x. y., et al. retracted: interleukin-1 blockade tre",
+    "li , and f. h. sarkar , \u201cretracted: notch\u20101 down\u2010regulation by",
+    ".banerjees.liy.sarkarf.h.retracted: notch-1 down-regulation by",
+    "rjee s, li y, sarkar fh. retracted: notch\u20101 down\u2010regulation by",
+    "a a, chandra t, kumar a. retracted: platelet storage lesion: c",
+    ", aoyama t., miyazaki t. retracted article: silencing of gluta",
+    "guozzhaoczhengw ( 2014). retracted article: gene expression pr",
+    "j.singhm.yadava.sarafs.a.retracted: a facile approach for fabr",
+    "ly childhood depression (retracted article. see vol. 88, pg 88",
+    "cardiovascular diseases [retracted in: proc natl acad sci usa.",
+    "l. , and flavell r. a. , retracted: requirement of voltage-gat",
+    "a., goldman a.r., et al. retracted article: isph inhibitors ki",
+    "n-1-dependent mechanism [retracted in: j clin invest. 2008 nov",
+    "omized controlled trial [retracted]. cerebrovasc dis 2005;20:1",
+    "arsa, pedrams, haghanih. retracted: the impact of nurse short "
+   ],
+   "retraction note": [
+    "nctionsci. rep.2019914764retraction in sci. rep. 2020, 10, 205",
+    "oi: 10.1155/2022/8980234 retraction in: j environ public healt",
+    "i: 10.1155/2021/9930412. retraction in: j healthc eng. 2023 ju",
+    "eng 2022; 2022: 5120556. retraction in: j healthc eng. 2023;20",
+    "i: 10.2147/dddt.s383775. retracted in drug des. dev. ther. 202",
+    "nt akt signaling pathway retraction of: eur rev med pharmacol ",
+    "6. 10.1155/2022/4008966. retraction in: j.healthc. eng., 2023:",
+    "-0090. epub 2020 aug 14. retraction in: future microbiol. 2021",
+    "005 jun 1; 65(11): 4969. retraction in: de la fuente r, bernad",
+    "i: 10.1155/2021/8402517. retraction in evid.-based complement.",
+    "13698. epub 2021 jan 12. retraction in: int j clin pract. 2021",
+    ": an experimental study (retraction of vol 8, pg 123, 2013) di",
+    "tj mol histol201445269274retraction in: j mol histol. 2016;47:",
+    "i: 10.1155/2022/8302674. retraction in: j healthc eng. 2023 oc",
+    "607-6. epub 2021 jan 21. retraction in: osteoporos int. 2021 j"
+   ],
+   "other": [
+    "",
+    "13retractionxianzhenggaoshengleiliwenca",
+    "t med 2022;2022:9693746. retracted publication 10.1155/2022/96",
+    "18.pelclov\u00e1, d. (2013). retraction: \u201cchronic intoxication wit",
+    "ssion by targeting dlx1 [retraction]. cancer manag res. 2020;1",
+    "0.1021/ja910716s.20166664retraction published march 11, 2015:w",
+    ".k.s., meng k.c., et al. retraction: pid1 induces insulin resi",
+    "qian g, ting j, aimin y, retracted. mir-539 enhances chemosens",
+    "36. retraction. atp consumption by sarcop",
+    "rtery dis 2006;17:255-9 (retraction published coron artery dis",
+    "o. m., ekl\u00f6v p. (2016). (retracted) environmentally relevant c",
+    "rc.n. linc.-l. baderj.s. retraction note: functional dissectio",
+    "ati ma, perilli l, et al retraction: expression of phosphodies",
+    " h., wise r.a. notice of retraction. aboumatar et al. effect o",
+    "review and meta-analysis\u2014retracted. br. j. psychiatry. 2019;21"
+   ]
+  }
+ }
+}

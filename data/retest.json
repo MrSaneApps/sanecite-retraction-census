@@ -1,0 +1,22 @@
+{
+ "n_passages": 500,
+ "seed": 99,
+ "per_model": {
+  "typesafe/jev": {
+   "n": 500,
+   "same_label": 0.992
+  },
+  "@cf/google/gemma-4-26b-a4b-it": {
+   "n": 500,
+   "same_label": 0.988
+  },
+  "@cf/cloudflare/clef": {
+   "n": 500,
+   "same_label": 1.0
+  }
+ },
+ "panel": {
+  "n": 500,
+  "same_label": 0.992
+ }
+}

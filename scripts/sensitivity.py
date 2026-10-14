@@ -85,6 +85,75 @@ for (pid, i), d in L.items():
         labs.append([d[m]["label"] for m in P.PANEL]); stances.append([d[m].get("stance") for m in P.PANEL])
 out["fleiss_kappa"] = {"label": fleiss(labs, ["aware", "substantive", "perfunctory", "unclear"]),
                        "stance": fleiss(stances, ["disputed", "neutral"]), "passages": len(labs)}
+# Amendment 3: the label kappa is raised by the code rule that makes shared citations perfunctory for every model, so
+# also report kappa on the raw 'use' answer and on the label for passages where the work is cited alone.
+uses, lone = [], []
+for (pid, i), d in L.items():
+    if all(m in d for m in P.PANEL):
+        uses.append([d[m].get("use") for m in P.PANEL])
+        if all((d[m].get("group_n") or 0) == 1 for m in P.PANEL): lone.append([d[m]["label"] for m in P.PANEL])
+out["fleiss_kappa"]["use_raw"] = fleiss(uses, sorted({u for it in uses for u in it if u}))
+out["fleiss_kappa"]["label_lone_citation"] = fleiss(lone, ["aware", "substantive", "perfunctory", "unclear"])
+out["fleiss_kappa"]["lone_citation_passages"] = len(lone)
+
+# Amendment 3: two-way cluster bootstrap (retracted paper and citing paper resampled independently, 200 draws).
+def twoway(rs, B=200, seed=5):
+    P_ = sorted({r["paper"] for r in rs}); Cn = sorted({r["pair_id"].split(">")[1] for r in rs}); rnd = random.Random(seed); v = []
+    for _ in range(B):
+        wp = collections.Counter(rnd.choice(P_) for _ in P_); wc = collections.Counter(rnd.choice(Cn) for _ in Cn)
+        a = b = 0.0
+        for r in rs:
+            w = wp[r["paper"]] * wc[r["pair_id"].split(">")[1]]
+            if w: a += w * (r["label"] == "substantive"); b += w
+        v.append(a / b)
+    v.sort(); return [round(v[int(.025 * B)], 4), round(v[int(.975 * B) - 1], 4)]
+out["primary_two_way_cluster_ci95"] = twoway(judged)
+
+# Amendment 3, exploratory timing: citing paper's JATS received date vs the retraction date (Retraction Watch).
+import datetime
+rdate = {}
+for l in open(f"{DATA}/stage1_papers.jsonl"):
+    pp = json.loads(l)
+    try: m_, d_, y_ = pp["retracted"].split()[0].split("/"); rdate[pp["pmid"]] = datetime.date(int(y_), int(m_), int(d_))
+    except Exception: pass
+def hist_dates(pmcid, cache={}):
+    if pmcid in cache: return cache[pmcid]
+    h = {}; fn = f"{XML}/{pmcid}.xml.gz"
+    if os.path.exists(fn):
+        try:
+            x = gzip.open(fn, "rt", errors="replace").read(400000); i = x.find("<history>")
+            if i >= 0:
+                for t, sd in re.findall(r'<date date-type="(received|accepted)"[^>]*>(.*?)</date>', x[i:i + 3000], re.S):
+                    y = re.search(r"<year>(\d{4})</year>", sd); mo = re.search(r"<month>(\d{1,2})</month>", sd); dy = re.search(r"<day>(\d{1,2})</day>", sd)
+                    if y:
+                        try: h[t] = datetime.date(int(y.group(1)), int(mo.group(1)) if mo else 6, int(dy.group(1)) if dy else 15)
+                        except ValueError: pass
+        except Exception: pass
+    cache[pmcid] = h; return h
+tcount = collections.Counter(); before = set(); after_rows = []
+for r in judged:
+    h = hist_dates(r["pair_id"].split(">")[1]); R = rdate.get(r["paper"]); d = h.get("received") or h.get("accepted")
+    if not R or not d: tcount["no_date"] += 1; continue
+    if d < R: tcount["received_before_retraction"] += 1; before.add(r["pair_id"])
+    else: tcount["received_after_retraction"] += 1; after_rows.append(r)
+out["timing_exploratory"] = {"counts": dict(tcount),
+                             "S6_without_received_before": stat([r for r in judged if r["pair_id"] not in before]),
+                             "received_after_only": stat(after_rows),
+                             "received_after_by_years": {k: stat([r for r in after_rows if f(r)]) for k, f in
+                                                         (("1", lambda r: r["years_after"] == 1), ("2", lambda r: r["years_after"] == 2),
+                                                          ("3+", lambda r: (r["years_after"] or 0) >= 3))}}
+syn = os.environ.get("SANECITE_SYNTHESIS", os.path.join(os.path.dirname(DATA), "synthesis_check", "verified.json"))
+if os.path.exists(syn):
+    sc = collections.Counter()
+    for x in json.load(open(syn)):
+        if x.get("verdict") != "I": continue
+        h = hist_dates(x["citing_pmcid"]); R = rdate.get(x["pair_id"].split(">")[0]); d = h.get("received") or h.get("accepted")
+        sc["two_plus_calendar_years_after"] += (x.get("years_after") or 0) >= 2
+        if not R or not d: sc["no_date"] += 1
+        elif d < R: sc["received_before_retraction"] += 1
+        elif (d - R).days < 183: sc["received_within_6_months_after"] += 1
+        else: sc["received_6_months_or_more_after"] += 1
+    out["timing_exploratory"]["synthesis_inclusions"] = dict(sc)
 
 # Self-citation (exploratory)
 def rw_keys(s):
@@ -111,5 +180,16 @@ for r in judged:
 out["self_citation_exploratory"] = {"self": len(self_rows), "not_self": len(other_rows), "unknown": selfc["unknown"],
                                     "substantive_self": stat(self_rows), "substantive_not_self": stat(other_rows),
                                     "aware_self": stat(self_rows, "aware"), "aware_not_self": stat(other_rows, "aware")}
+# Amendment 3: where the word "retract" sits in reference entries flagged as retracted (all judged headline pairs).
+kinds = collections.Counter(); examples = collections.defaultdict(list)
+for r in judged:
+    if not r.get("ref_retracted"): continue
+    e = str(s2.get(r["pair_id"], {}).get("ref_entry") or "").lower()
+    m = re.search(r".{0,25}retract.{0,30}", e, re.S); t = m.group(0) if m else ""
+    k = ("title prefix" if re.search(r"retracted\s*(article)?\s*[:\]]|\[retracted|retracted article|\bretracted\b\s*[“\"]", t)
+         else "retraction note" if re.search(r"retraction (in|of|notice)|retracted in|retracted (on|by)|erratum", t) else "other")
+    kinds[k] += 1
+    if len(examples[k]) < 15: examples[k].append(t)
+out["ref_entry_retract_word"] = {"counts": dict(kinds), "examples": dict(examples)}
 json.dump(out, open(f"{DATA}/sensitivity.json", "w"), indent=1)
 print(json.dumps(out, indent=1))

@@ -23,24 +23,7 @@ s2 = []
 for l in open(f"{DATA}/stage2_v31.jsonl"):
     try: s2.append(json.loads(l))
     except Exception: pass
-# Retraction Watch reason tags. "Administrative" = withdrawn with no fault found in the science
-# (out of date, replaced by a corrected version, moved journal, a publisher's duplicate).
-# Notice/process tags say nothing about the science, so they are ignored when grouping.
-ADMIN = {"withdrawn as out of date", "retract and replace", "withdrawn to publish in different journal",
-         "duplication of content through error by journal/publisher", "error by journal/publisher", "temporary removal"}
-META = {"investigation by journal/publisher", "notice - limited or no information", "date of article and/or notice unknown",
-        "upgrade/update of prior notice(s)", "notice - lack of", "notice - unable to access via current resources",
-        "investigation by company/institution", "investigation by third party", "investigation by ori", "removed"}
-def reason_group(s):
-    tags = [t.strip(" +").lower() for t in (s or "").split(";") if t.strip(" +")]
-    core = [t for t in tags if t not in META]
-    if core and all(t in ADMIN for t in core): return "administrative (no fault found in the science)"
-    j = " ".join(core)
-    if re.search(r"fabricat|falsif|manipulat|paper mill|fake peer|misconduct|plagiar|duplicat|randomly generated|forged|ethical violation", j): return "misconduct, fabrication or duplication"
-    if re.search(r"error|unreliable|concerns/issues about (data|results|image)|not reproducible|contamination", j): return "error or unreliable results"
-    return "other or unstated"
-def field(subj):
-    m = re.findall(r"\((\w+)\)", subj or ""); return m[0] if m else "?"
+from groups import ADMIN_G, reason_group, field_group   # amendment 3: shared rules (groups.py)
 rows, notices, incomplete = [], 0, 0
 for rec in s2:
     if rec.get("status") != "ok": continue
@@ -63,11 +46,10 @@ for rec in s2:
     rows.append({"pair_id": rec["pair_id"], "paper": rec["retracted_pmid"], "label": top(labs), "strict": top(strict), "lenient": top(lenient),
                  "panel_size": min(sizes), "route": "split" if "split" in routes else "majority" if "majority" in routes else "unanimous",
                  "ref_retracted": bool(rec.get("ref_entry_flags_retraction")), "doc_mentions_retract": bool(rec.get("doc_mentions_retract")),
-                 "reason": reason_group(rec.get("reason")), "field": field(rec.get("subject")), "years_after": y,
+                 "reason": reason_group(rec.get("reason")), "field": field_group(rec.get("subject")), "field_codes": sorted(set(re.findall(r"\((\w+)\)", rec.get("subject") or ""))), "years_after": y,
                  "retraction_year": rec["retraction_year"], "citing_year": rec.get("citing_year"), "n_contexts": len(labs),
                  "where": [c.get("where", "text") for c in rec["contexts"]]})
 judged_all = [r for r in rows if r["label"] != "unclear"]
-ADMIN_G = "administrative (no fault found in the science)"
 judged = [r for r in judged_all if r["reason"] != ADMIN_G]   # headline: retractions that say the work is unreliable or improper
 def boot(rs, pred, B=400, seed=1):
     by = collections.defaultdict(list)
@@ -99,9 +81,15 @@ res["substantive_administrative"] = stat(_adm, lambda r: r["label"] == "substant
 res["ref_list_says_retracted"] = stat(rows, lambda r: r["ref_retracted"])
 rr = [r for r in judged if r["ref_retracted"]]
 res["substantive_despite_ref_list_label"] = stat(rr, lambda r: r["label"] == "substantive")
+res["aware_despite_ref_list_label"] = stat(rr, lambda r: r["label"] == "aware")   # amendment 3: saved (was quoted, not stored)
+# amendment 3 (protocol analysis 6): aware rate on Hsiao & Schneider's citing-year window (their data end in 2019/2020)
+res["aware_hs_window_citing_le_2019"] = stat([r for r in judged if str(r["citing_year"] or "").isdigit() and int(r["citing_year"]) <= 2019],
+                                             lambda r: r["label"] == "aware")
 papers = collections.defaultdict(list)
 for r in judged: papers[r["paper"]].append(r)
-res["papers_with_any_substantive"] = {"papers": len(papers), "with_substantive": sum(any(x["label"] == "substantive" for x in v) for v in papers.values())}
+res["papers_with_any_substantive"] = {"papers": len(papers), "with_substantive": sum(any(x["label"] == "substantive" for x in v) for v in papers.values()),
+                                     "with_two_or_more_substantive": sum(sum(x["label"] == "substantive" for x in v) >= 2 for v in papers.values()),
+                                     "note": "papers = non-administrative retracted papers with at least one judged citation"}
 def breakdown(key, keyfn):
     g = collections.defaultdict(list)
     for r in judged:
@@ -141,6 +129,34 @@ try:
     draws.sort(); res["substantive_corrected"]["ci95"] = [round(draws[int(.025 * len(draws))], 4), round(draws[int(.975 * len(draws)) - 1], 4)]
 except FileNotFoundError:
     pass
+# Amendment 3: rescore the confirmation set from its saved blind labels (reproduces confirm_v33_score.json) and repeat
+# the correction with the headline's scope (administrative retractions out).
+try:
+    gold = {it["pair_id"]: it["pair"] for it in json.load(open(f"{DATA}/confirm_v33_gold.json"))["items"]}
+    CL = collections.defaultdict(dict)
+    for l in open(f"{DATA}/confirm_v33_labels.jsonl"):
+        x = json.loads(l); CL[(x["pair_id"], x["ctx"])][x["model"]] = x
+    cpanel, creason = {}, {}
+    for l in open(f"{DATA}/confirm_v33.jsonl"):
+        rec = json.loads(l); creason[rec["pair_id"]] = reason_group(rec.get("reason"))
+        ls = [P.combine(CL.get((rec["pair_id"], i), {}), " ".join(C.passage(rec, i)))[0] for i in range(len(rec["contexts"]))]
+        if ls and all(ls): cpanel[rec["pair_id"]] = max(ls, key=lambda x: RANK[x])
+    def rg(keep):
+        k = collections.Counter()
+        for pid, g in gold.items():
+            if pid not in cpanel or not keep(pid): continue
+            k[("S" if g == "substantive" else "N") + ("S" if cpanel[pid] == "substantive" else "N")] += 1
+        se, fp_ = k["SS"] / max(1, k["SS"] + k["SN"]), k["NS"] / max(1, k["NS"] + k["NN"])
+        o = res["substantive"]["rate"]
+        return {"n": sum(k.values()), "agree_substantive_or_not": k["SS"] + k["NN"], "sens": round(se, 4), "fpr": round(fp_, 4),
+                "rate": round((o - fp_) / (se - fp_), 4)}
+    res["substantive_corrected_rescored"] = {"all_150": rg(lambda pid: True), "non_administrative": rg(lambda pid: creason[pid] != ADMIN_G),
+                                             "panel_differs_from_census_label": sorted(pid for pid in cpanel if pid in {r["pair_id"] for r in rows}
+                                                                                       and cpanel[pid] != next(r["label"] for r in rows if r["pair_id"] == pid))}
+except FileNotFoundError:
+    pass
+res["cost_usd_note"] = ("logged usage at list prices; Jev's AI Gateway billing record for 13-14 Oct 2026 is $1.835 "
+                        "(input tokens only, $0.042/M; fewer tokens billed than Jev reports per call)")
 json.dump(res, open(f"{DATA}/census_results.json", "w"), indent=1)
 with open(f"{DATA}/census_rows.jsonl", "w") as fo:
     for r in rows: fo.write(json.dumps(r) + "\n")
