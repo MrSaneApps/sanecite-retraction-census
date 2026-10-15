@@ -186,3 +186,12 @@ unchanged (40.75%).
    adding them would add another AI reader, not a human check, so that comparison is dropped.
 5. Labellers work in an Excel workbook built by `scripts/human_sheets.py` from `passages.csv`: same passages, same
    order, drop-down answers, no model label shown.
+
+**2026-10-15 (reporting correction, not an analysis change).** The analysis scripts stored every rate and interval
+rounded to 4 decimal places, and the reported figures were then rounded again to 1 place. Where the 4th place was 5,
+that second rounding could go the wrong way. Rates now carry their count (`k`) and are reported as k/n; intervals are
+stored to 6 places. No label, row, rate or interval changed beyond that precision (checked value by value against the
+2026-10-14 outputs; `census_rows.jsonl` is byte-identical). Figures whose 1-place form changed: headline support
+40.8% -> 40.7% (21,037 of 51,626 = 40.749%); support 1-2 years after retraction 43.5% -> 43.6% (11,286 of 25,915);
+reviews' support 51.1% -> 51.2%; aware in citing year 2016 3.2% -> 3.3%; 2020s retractions aware CI 1.5 -> 1.4;
+S6 40.7% -> 40.6%; read research articles 64.5% -> 64.4%; citing-year-weighted CI 39.1-40.7 -> 39.0-40.6.

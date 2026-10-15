@@ -3,7 +3,7 @@
 - frame: pairs classified 55,688; retracted papers read 12,864; judged headline 51,626; administrative 4,044; unclear labels 18; notices set aside 485; incomplete pairs 6
 - extraction: {'pairs': 58358, 'status': {'ok': 56179, 'no-in-text-citation': 967, 'no-fulltext': 175, 'reference-not-found': 1030, 'no-body': 7}, 'usable_rate': 0.9627}
 - coverage: later citations 130,315; read 55,688; unread 74,627
-- substantive: 40.8% (39.9–41.5; n=51,626, papers=12,328)
+- substantive: 40.7% (39.9–41.5; n=51,626, papers=12,328)
 - perfunctory: 55.9% (55.1–56.8; n=51,626, papers=12,328)
 - aware: 3.3% (2.6–4.3; n=51,626, papers=12,328)
 - strict 34.5% (33.7–35.3; n=51,626, papers=12,328); lenient 46.7% (45.7–47.5; n=51,626, papers=12,328)
@@ -16,7 +16,7 @@
 - aware, citing year <= 2019: 5.1% (3.8–6.6; n=13,129, papers=3,518)
 
 ## by_years_after
-- 1-2: support 43.5% (42.6–44.4; n=25,915, papers=9,501); aware 2.7% (2.1–3.8; n=25,915, papers=9,501)
+- 1-2: support 43.6% (42.6–44.4; n=25,915, papers=9,501); aware 2.7% (2.1–3.8; n=25,915, papers=9,501)
 - 11+: support 34.9% (32.4–37.2; n=3,734, papers=1,264); aware 6.3% (3.2–12.0; n=3,734, papers=1,264)
 - 3-5: support 39.1% (38.0–40.2; n=13,700, papers=5,814); aware 3.4% (2.9–3.9; n=13,700, papers=5,814)
 - 6-10: support 37.4% (35.9–39.0; n=8,277, papers=2,978); aware 3.8% (2.8–5.4; n=8,277, papers=2,978)
@@ -38,18 +38,18 @@
 - 1990s: support 34.3% (30.3–39.1; n=405, papers=114); aware 6.9% (3.9–10.3; n=405, papers=114)
 - 2000s: support 36.0% (33.8–37.9; n=4,363, papers=737); aware 5.2% (4.0–6.5; n=4,363, papers=737)
 - 2010s: support 38.2% (36.9–39.6; n=23,826, papers=4,297); aware 4.0% (2.9–5.8; n=23,826, papers=4,297)
-- 2020s: support 44.4% (43.0–45.6; n=23,032, papers=7,180); aware 2.3% (1.5–3.4; n=23,032, papers=7,180)
+- 2020s: support 44.4% (43.0–45.6; n=23,032, papers=7,180); aware 2.3% (1.4–3.4; n=23,032, papers=7,180)
 
 ## by_citing_year (aware)
-- 1997 0.0% (n=5); 1998 0.0% (n=6); 1999 0.0% (n=1); 2000 16.7% (n=6); 2001 0.0% (n=1); 2002 0.0% (n=1); 2003 0.0% (n=7); 2004 9.1% (n=11); 2005 10.5% (n=19); 2006 9.1% (n=33); 2007 17.4% (n=69); 2008 6.7% (n=75); 2009 14.0% (n=136); 2010 8.3% (n=205); 2011 8.2% (n=364); 2012 10.1% (n=644); 2013 6.8% (n=914); 2014 6.6% (n=1102); 2015 5.0% (n=1341); 2016 3.2% (n=1598); 2017 3.6% (n=2068); 2018 3.9% (n=2021); 2019 4.2% (n=2502); 2020 3.1% (n=3415); 2021 4.6% (n=5760); 2022 2.7% (n=7173); 2023 2.2% (n=6188); 2024 1.9% (n=8570); 2025 2.4% (n=5296); 2026 3.3% (n=2095)
+- 1997 0.0% (n=5); 1998 0.0% (n=6); 1999 0.0% (n=1); 2000 16.7% (n=6); 2001 0.0% (n=1); 2002 0.0% (n=1); 2003 0.0% (n=7); 2004 9.1% (n=11); 2005 10.5% (n=19); 2006 9.1% (n=33); 2007 17.4% (n=69); 2008 6.7% (n=75); 2009 14.0% (n=136); 2010 8.3% (n=205); 2011 8.2% (n=364); 2012 10.1% (n=644); 2013 6.8% (n=914); 2014 6.6% (n=1102); 2015 5.0% (n=1341); 2016 3.3% (n=1598); 2017 3.6% (n=2068); 2018 3.9% (n=2021); 2019 4.2% (n=2502); 2020 3.1% (n=3415); 2021 4.6% (n=5760); 2022 2.7% (n=7173); 2023 2.2% (n=6188); 2024 1.9% (n=8570); 2025 2.4% (n=5296); 2026 3.3% (n=2095)
 
 ## coverage
-- reweighted {'raw': {'rate': 0.4075, 'ci95': [0.3982, 0.4147]}, 'weighted_by_all_later_citations_per_paper': {'rate': 0.3948, 'ci95': [0.3842, 0.4026]}, 'weighted_by_citing_year': {'rate': 0.3996, 'ci95': [0.3905, 0.4065]}, 'n_pairs': 51626, 'n_papers': 12328}
-- read vs unread {"citing_year": {"read": {"2011-2015": 0.0871, "2016-2019": 0.1628, "2020-2022": 0.3214, "2023-2026": 0.4178, "<=2010": 0.0109}, "unread": {"2011-2015": 0.1866, "2016-2019": 0.1978, "2020-2022": 0.1999, "2023-2026": 0.2834, "<=2010": 0.1323}}, "type": {"read": {"case report": 0.0141, "clinical trial": 0.0258, "guideline": 0.001, "letter, editorial or comment": 0.008, "meta-analysis": 0.0177, "other": 0.0001, "research article": 0.6445, "review": 0.2749, "systematic review": 0.0139}, "unread": {"case report": 0.0091, "clinical trial": 0.029, "guideline": 0.0033, "letter, editorial or comment": 0.0151, "meta-analysis": 0.0276, "other": 0.0372, "research article": 0.5889, "review": 0.2723, "systematic review": 0.0175}}, "reason": {"read": {"administrative (no fault found in the science)": 0.0726, "error or unreliable results": 0.2823, "misconduct, fabrication or duplication": 0.5739, "other or unstated": 0.0712}, "unread": {"administrative (no fault found in the science)": 0.065, "error or unreliable results": 0.321, "misconduct, fabrication or duplication": 0.541, "other or unstated": 0.073}}, "field": {"read": {"?": 0.0016, "basic life and health sciences": 0.3054, "basic life sciences only": 0.334, "health sciences only": 0.2625, "other fields": 0.0965}, "unread": {"?": 0.0006, "basic life and health sciences": 0.3352, "basic life sciences only": 0.3319, "health sciences only": 0.211, "other fields": 0.1213}}}
+- reweighted {'raw': {'rate': 0.407488, 'ci95': [0.398245, 0.414681]}, 'weighted_by_all_later_citations_per_paper': {'rate': 0.394763, 'ci95': [0.384225, 0.402593]}, 'weighted_by_citing_year': {'rate': 0.399623, 'ci95': [0.390495, 0.406465]}, 'n_pairs': 51626, 'n_papers': 12328}
+- read vs unread {"citing_year": {"read": {"2011-2015": 0.087128, "2016-2019": 0.162764, "2020-2022": 0.321398, "2023-2026": 0.417792, "<=2010": 0.010918}, "unread": {"2011-2015": 0.186648, "2016-2019": 0.19777, "2020-2022": 0.199941, "2023-2026": 0.283356, "<=2010": 0.132285}}, "type": {"read": {"case report": 0.014132, "clinical trial": 0.025787, "guideline": 0.001042, "letter, editorial or comment": 0.007973, "meta-analysis": 0.01767, "other": 0.000108, "research article": 0.644466, "review": 0.274907, "systematic review": 0.013917}, "unread": {"case report": 0.009058, "clinical trial": 0.028971, "guideline": 0.003283, "letter, editorial or comment": 0.015142, "meta-analysis": 0.027591, "other": 0.037185, "research article": 0.588916, "review": 0.272341, "systematic review": 0.017514}}, "reason": {"read": {"administrative (no fault found in the science)": 0.072619, "error or unreliable results": 0.282305, "misconduct, fabrication or duplication": 0.573894, "other or unstated": 0.071182}, "unread": {"administrative (no fault found in the science)": 0.06503, "error or unreliable results": 0.321023, "misconduct, fabrication or duplication": 0.540984, "other or unstated": 0.072963}}, "field": {"read": {"?": 0.001634, "basic life and health sciences": 0.305362, "basic life sciences only": 0.334004, "health sciences only": 0.262534, "other fields": 0.096466}, "unread": {"?": 0.00063, "basic life and health sciences": 0.335174, "basic life sciences only": 0.331917, "health sciences only": 0.210983, "other fields": 0.121297}}}
 
 ## by citing type
 - research article: n=33,648 support 12,150 (36.1%) aware 817 (2.4%)
-- review: n=14,243 support 7,286 (51.1%) aware 588 (4.1%)
+- review: n=14,243 support 7,286 (51.2%) aware 588 (4.1%)
 - clinical trial: n=1,117 support 397 (35.5%) aware 30 (2.7%)
 - meta-analysis: n=865 support 487 (56.3%) aware 84 (9.7%)
 - case report: n=660 support 241 (36.5%) aware 7 (1.1%)
@@ -59,20 +59,20 @@
 - other: n=4 support 2 (50.0%) aware 1 (25.0%)
 
 ## Hsiao & Schneider
-- {"source": "Hsiao & Schneider 2021, doi:10.13012/B2IDB-8255619_V2", "their_post_pairs": 9548, "their_ack_pairs": 432, "their_post_pairs_in_our_frame": 9307, "coverage": {"read": 8944, "not in our open-access citer list": 188, "extraction: no-in-text-citation": 64, "extraction: no-fulltext": 40, "extraction: reference-not-found": 53, "retraction notice (set aside)": 18}, "shared_pairs_read": 8944, "shared_pairs_labelled": 8944, "skipped_incomplete": 0, "confusion": {"their_ack&our_aware": 319, "their_ack&our_not": 74, "their_no&our_aware": 133, "their_no&our_not": 8418}, "agreement": 0.9769, "kappa": 0.7429, "their_ack_rate_shared": 0.0439, "our_aware_rate_shared": 0.0505, "our_recall_of_their_ack": 0.8117, "our_precision_vs_their_ack": 0.7058}
+- {"source": "Hsiao & Schneider 2021, doi:10.13012/B2IDB-8255619_V2", "their_post_pairs": 9548, "their_ack_pairs": 432, "their_post_pairs_in_our_frame": 9307, "coverage": {"read": 8944, "not in our open-access citer list": 188, "extraction: no-in-text-citation": 64, "extraction: reference-not-found": 53, "extraction: no-fulltext": 40, "retraction notice (set aside)": 18}, "shared_pairs_read": 8944, "shared_pairs_labelled": 8944, "skipped_incomplete": 0, "confusion": {"their_ack&our_aware": 319, "their_ack&our_not": 74, "their_no&our_aware": 133, "their_no&our_not": 8418}, "agreement": 0.976856, "kappa": 0.742946, "their_ack_rate_shared": 0.04394, "our_aware_rate_shared": 0.050537, "our_recall_of_their_ack": 0.811705, "our_precision_vs_their_ack": 0.705752}
 
 ## sensitivity
-- primary: {"rate": 0.4075, "ci95": [0.4005, 0.4152], "n": 51626}
-- S1_citing_paper_not_retracted: {"rate": 0.4074, "ci95": [0.3995, 0.4151], "n": 51201}
+- primary: {"rate": 0.407488, "ci95": [0.40053, 0.415161], "n": 51626}
+- S1_citing_paper_not_retracted: {"rate": 0.407394, "ci95": [0.399512, 0.415084], "n": 51201}
 - S1_citing_papers_retracted_n: 425
-- S2_two_or_more_years_after: {"rate": 0.3896, "ci95": [0.3802, 0.3983], "n": 35518}
-- S3_all_passages_unanimous: {"rate": 0.3868, "ci95": [0.3782, 0.3957], "n": 43562}
-- S4_first_passage_only: {"rate": 0.3609, "ci95": [0.3542, 0.3683], "n": 51616}
-- S5_id_matched_only: {"rate": 0.409, "ci95": [0.4, 0.4162], "n": 45827}
-- fleiss_kappa: {"label": 0.8233, "stance": 0.8037, "passages": 72130, "use_raw": 0.5711, "label_lone_citation": 0.6226, "lone_citation_passages": 35285}
-- primary_two_way_cluster_ci95: [0.3965, 0.4179]
-- timing_exploratory: {"counts": {"no_date": 29665, "received_after_retraction": 20478, "received_before_retraction": 1483}, "S6_without_received_before": {"rate": 0.4065, "ci95": [0.3983, 0.4157], "n": 50143}, "received_after_only": {"rate": 0.3994, "ci95": [0.3905, 0.4072], "n": 20478}, "received_after_by_years": {"1": {"rate": 0.438, "ci95": [0.4212, 0.4531], "n": 5388}, "2": {"rate": 0.405, "ci95": [0.3884, 0.4206], "n": 4074}, "3+": {"rate": 0.3784, "ci95": [0.3669, 0.3916], "n": 11016}}, "synthesis_inclusions": {"two_plus_calendar_years_after": 299, "received_6_months_or_more_after": 146, "no_date": 314, "received_within_6_months_after": 26, "received_before_retraction": 21}}
-- self_citation_exploratory: {"self": 972, "not_self": 50644, "unknown": 10, "substantive_self": {"rate": 0.4311, "ci95": [0.404, 0.4689], "n": 972}, "substantive_not_self": {"rate": 0.407, "ci95": [0.3994, 0.4155], "n": 50644}, "aware_self": {"rate": 0.0422, "ci95": [0.0282, 0.053], "n": 972}, "aware_not_self": {"rate": 0.0333, "ci95": [0.0265, 0.0417], "n": 50644}}
+- S2_two_or_more_years_after: {"rate": 0.389633, "ci95": [0.380212, 0.398343], "n": 35518}
+- S3_all_passages_unanimous: {"rate": 0.386805, "ci95": [0.3782, 0.3957], "n": 43562}
+- S4_first_passage_only: {"rate": 0.360857, "ci95": [0.354154, 0.368333], "n": 51616}
+- S5_id_matched_only: {"rate": 0.408951, "ci95": [0.399996, 0.416189], "n": 45827}
+- fleiss_kappa: {"label": 0.823264, "stance": 0.80367, "passages": 72130, "use_raw": 0.571128, "label_lone_citation": 0.622576, "lone_citation_passages": 35285}
+- primary_two_way_cluster_ci95: [0.396468, 0.417937]
+- timing_exploratory: {"counts": {"no_date": 29665, "received_after_retraction": 20478, "received_before_retraction": 1483}, "S6_without_received_before": {"rate": 0.406458, "ci95": [0.398332, 0.41571], "n": 50143}, "received_after_only": {"rate": 0.399404, "ci95": [0.390534, 0.407216], "n": 20478}, "received_after_by_years": {"1": {"rate": 0.43801, "ci95": [0.421238, 0.453057], "n": 5388}, "2": {"rate": 0.405007, "ci95": [0.388395, 0.420593], "n": 4074}, "3+": {"rate": 0.37845, "ci95": [0.366879, 0.391646], "n": 11016}}, "synthesis_inclusions": {"two_plus_calendar_years_after": 299, "received_6_months_or_more_after": 146, "no_date": 314, "received_within_6_months_after": 26, "received_before_retraction": 21}}
+- self_citation_exploratory: {"self": 972, "not_self": 50644, "unknown": 10, "substantive_self": {"rate": 0.43107, "ci95": [0.403967, 0.468909], "n": 972}, "substantive_not_self": {"rate": 0.406958, "ci95": [0.399384, 0.415525], "n": 50644}, "aware_self": {"rate": 0.042181, "ci95": [0.028243, 0.052966], "n": 972}, "aware_not_self": {"rate": 0.033271, "ci95": [0.02652, 0.041686], "n": 50644}}
 
 ## retest
 - {"n_passages": 500, "seed": 99, "per_model": {"typesafe/jev": {"n": 500, "same_label": 0.992}, "@cf/google/gemma-4-26b-a4b-it": {"n": 500, "same_label": 0.988}, "@cf/cloudflare/clef": {"n": 500, "same_label": 1.0}}, "panel": {"n": 500, "same_label": 0.992}}

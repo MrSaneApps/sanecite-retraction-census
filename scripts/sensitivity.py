@@ -54,7 +54,7 @@ def stat(rs, lab="substantive", B=200):
         for k in (rnd.choice(keys) for _ in keys): a += sums[k][0]; b += sums[k][1]
         v.append(a / max(1, b))
     v.sort()
-    return {"rate": round(sum(map(f, rs)) / len(rs), 4), "ci95": [round(v[5], 4), round(v[194], 4)], "n": len(rs)}
+    return {"rate": round(sum(map(f, rs)) / len(rs), 6), "ci95": [round(v[5], 6), round(v[194], 6)], "n": len(rs)}
 
 out = {"primary": stat(judged)}
 retracted_citer = lambda r: citer_pmid.get((r["paper"], r["pair_id"].split(">")[1])) in rw_pmids
@@ -78,7 +78,7 @@ def fleiss(items, cats):
     p = {c: sum(it.count(c) for it in items) / (N * n) for c in cats}
     Pi = [(sum(it.count(c) ** 2 for c in cats) - n) / (n * (n - 1)) for it in items]
     Pb, Pe = sum(Pi) / N, sum(v * v for v in p.values())
-    return round((Pb - Pe) / (1 - Pe), 4) if Pe < 1 else None
+    return round((Pb - Pe) / (1 - Pe), 6) if Pe < 1 else None
 labs, stances = [], []
 for (pid, i), d in L.items():
     if all(m in d for m in P.PANEL):
@@ -106,7 +106,7 @@ def twoway(rs, B=200, seed=5):
             w = wp[r["paper"]] * wc[r["pair_id"].split(">")[1]]
             if w: a += w * (r["label"] == "substantive"); b += w
         v.append(a / b)
-    v.sort(); return [round(v[int(.025 * B)], 4), round(v[int(.975 * B) - 1], 4)]
+    v.sort(); return [round(v[int(.025 * B)], 6), round(v[int(.975 * B) - 1], 6)]
 out["primary_two_way_cluster_ci95"] = twoway(judged)
 
 # Amendment 3, exploratory timing: citing paper's JATS received date vs the retraction date (Retraction Watch).

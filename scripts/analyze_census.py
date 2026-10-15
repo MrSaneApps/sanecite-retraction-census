@@ -60,10 +60,11 @@ def boot(rs, pred, B=400, seed=1):
         a = b = 0
         for k in (rnd.choice(keys) for _ in keys): a += sums[k][0]; b += sums[k][1]
         vals.append(a / max(1, b))
-    vals.sort(); return [round(vals[int(.025 * B)], 4), round(vals[int(.975 * B) - 1], 4)]
+    vals.sort(); return [round(vals[int(.025 * B)], 6), round(vals[int(.975 * B) - 1], 6)]   # 6 places: reports round once, from here
 def stat(rs, pred):
     if not rs: return None
-    return {"rate": round(sum(map(pred, rs)) / len(rs), 4), "ci95": boot(rs, pred), "n": len(rs), "papers": len({r["paper"] for r in rs})}
+    k = sum(map(pred, rs))   # count kept so reports compute k/n exactly; rounding the 4-place rate again gave 40.8% for 40.749%
+    return {"rate": round(k / len(rs), 4), "k": k, "ci95": boot(rs, pred), "n": len(rs), "papers": len({r["paper"] for r in rs})}
 res = {"headline_scope": "retractions other than administrative ones (out of date, replaced, moved journal, publisher duplicate)",
        "administrative_pairs": sum(r["reason"] == ADMIN_G for r in judged_all),
        "substantive_administrative": None, "codebook": C.CODEBOOK, "panel": list(P.PANEL), "pairs_classified": len(rows), "judged": len(judged), "unclear": len(rows) - len(judged),

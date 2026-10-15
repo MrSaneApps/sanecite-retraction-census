@@ -59,7 +59,7 @@ for pm, m in meta.items():
         comp["reason"][g][reason_of.get(pm, "?")] += 1
         comp["field"][g][field_of.get(pm, "?")] += 1
 
-def shares(cn): n = sum(cn.values()); return {k: round(v / n, 4) for k, v in sorted(cn.items())} if n else {}
+def shares(cn): n = sum(cn.values()); return {k: round(v / n, 6) for k, v in sorted(cn.items())} if n else {}
 out = {"citers_total": sum(tot.values()), "citers_read": tot["read"], "citers_unread": tot["unread"],
        "read_vs_unread": {k: {g: shares(v[g]) for g in v} for k, v in comp.items()}}
 
@@ -86,10 +86,10 @@ def rates(sample_papers):
 ps = list(by_paper)
 point = rates(ps); rnd = random.Random(7); boots = []
 for _ in range(200): boots.append(rates([rnd.choice(ps) for _ in ps]))
-def ci(i): v = sorted(b[i] for b in boots if b); return [round(v[5], 4), round(v[194], 4)]
-out["primary_reweighted"] = {"raw": {"rate": round(point[0], 4), "ci95": ci(0)},
-                             "weighted_by_all_later_citations_per_paper": {"rate": round(point[1], 4), "ci95": ci(1)},
-                             "weighted_by_citing_year": {"rate": round(point[2], 4), "ci95": ci(2)},
+def ci(i): v = sorted(b[i] for b in boots if b); return [round(v[5], 6), round(v[194], 6)]
+out["primary_reweighted"] = {"raw": {"rate": round(point[0], 6), "ci95": ci(0)},
+                             "weighted_by_all_later_citations_per_paper": {"rate": round(point[1], 6), "ci95": ci(1)},
+                             "weighted_by_citing_year": {"rate": round(point[2], 6), "ci95": ci(2)},
                              "n_pairs": len(judged), "n_papers": len(ps)}
 
 # 5. by citing-paper type
@@ -98,7 +98,7 @@ for r in judged:
     t = type_of.get((r["paper"], r["pair_id"].split(">")[1]), "unknown")
     bt[t]["n"] += 1; bt[t][r["label"]] += 1
 out["by_citing_type"] = {t: {"n": c["n"], "substantive": c["substantive"], "aware": c["aware"],
-                             "substantive_rate": round(c["substantive"] / c["n"], 4), "aware_rate": round(c["aware"] / c["n"], 4)}
+                             "substantive_rate": round(c["substantive"] / c["n"], 6), "aware_rate": round(c["aware"] / c["n"], 6)}
                          for t, c in sorted(bt.items(), key=lambda x: -x[1]["n"])}
 json.dump(out, open(f"{DATA}/coverage_types.json", "w"), indent=1)
 print(json.dumps(out, indent=1))

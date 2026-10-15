@@ -7,8 +7,8 @@
   "read": 8944,
   "not in our open-access citer list": 188,
   "extraction: no-in-text-citation": 64,
-  "extraction: no-fulltext": 40,
   "extraction: reference-not-found": 53,
+  "extraction: no-fulltext": 40,
   "retraction notice (set aside)": 18
  },
  "shared_pairs_read": 8944,
@@ -24,10 +24,10 @@
   "their_no&our_aware": 133,
   "their_no&our_not": 8418
  },
- "agreement": 0.9769,
- "kappa": 0.7429,
- "their_ack_rate_shared": 0.0439,
- "our_aware_rate_shared": 0.0505,
- "our_recall_of_their_ack": 0.8117,
- "our_precision_vs_their_ack": 0.7058
+ "agreement": 0.976856,
+ "kappa": 0.742946,
+ "their_ack_rate_shared": 0.04394,
+ "our_aware_rate_shared": 0.050537,
+ "our_recall_of_their_ack": 0.811705,
+ "our_precision_vs_their_ack": 0.705752
 }

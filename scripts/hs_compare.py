@@ -65,9 +65,9 @@ res = {"source": "Hsiao & Schneider 2021, doi:10.13012/B2IDB-8255619_V2",
        "coverage": dict(cov), "shared_pairs_read": len(shared), "shared_pairs_labelled": n, "skipped_incomplete": skipped,
        "panel_sizes_contexts": dict(sizes),
        "confusion": {"their_ack&our_aware": a, "their_ack&our_not": b, "their_no&our_aware": c, "their_no&our_not": d},
-       "agreement": round(po, 4) if n else None, "kappa": round((po - pe) / (1 - pe), 4) if n and pe < 1 else None,
-       "their_ack_rate_shared": round((a + b) / n, 4) if n else None, "our_aware_rate_shared": round((a + c) / n, 4) if n else None,
-       "our_recall_of_their_ack": round(a / (a + b), 4) if a + b else None,
-       "our_precision_vs_their_ack": round(a / (a + c), 4) if a + c else None}
+       "agreement": round(po, 6) if n else None, "kappa": round((po - pe) / (1 - pe), 6) if n and pe < 1 else None,
+       "their_ack_rate_shared": round((a + b) / n, 6) if n else None, "our_aware_rate_shared": round((a + c) / n, 6) if n else None,
+       "our_recall_of_their_ack": round(a / (a + b), 6) if a + b else None,
+       "our_precision_vs_their_ack": round(a / (a + c), 6) if a + c else None}
 json.dump(res, open(f"{DATA}/hs_compare.json", "w"), indent=1)
 print(json.dumps(res, indent=1))
