@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this census, please cite it as below."
+title: "SaneCite retraction census: post-retraction citations to 22,553 retracted biomedical papers (protocol, code and data)"
+type: dataset
+authors:
+  - family-names: Joseph
+    given-names: Stephan
+    affiliation: "SaneApps (SaneCite)"
+    orcid: "https://orcid.org/0009-0001-0250-5446"
+doi: 10.5281/zenodo.23358099
+license: MIT
+repository-code: "https://github.com/MrSaneApps/sanecite-retraction-census"
+url: "https://sanecite.com/data.html"
