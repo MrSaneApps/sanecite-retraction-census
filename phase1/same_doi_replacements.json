@@ -1,0 +1,33 @@
+{
+ "note": "Non-administrative retract-and-replace records whose corrected version lives at the SAME DOI (or the article was restored). Post-retraction citations to these DOIs point at a valid article. Hand-coded from the retraction notices, 16 October 2026.",
+ "dois": [
+  "10.1001/archpediatrics.2012.999",
+  "10.1001/jama.2014.607",
+  "10.1001/jama.2014.7247",
+  "10.1001/jama.2016.20036",
+  "10.1001/jama.2017.1469",
+  "10.1001/jama.2018.12615",
+  "10.1001/jamadermatol.2017.6428",
+  "10.1001/jamainternmed.2014.3441",
+  "10.1001/jamainternmed.2016.2827",
+  "10.1001/jamainternmed.2018.5394",
+  "10.1001/jamanetworkopen.2020.1417",
+  "10.1001/jamaoncol.2018.4070",
+  "10.1001/jamaophthalmol.2017.4512",
+  "10.1001/jamaophthalmol.2019.0900",
+  "10.1001/jamapediatrics.2018.1012",
+  "10.1001/jamapsychiatry.2014.763",
+  "10.1001/jamapsychiatry.2019.0020",
+  "10.1016/j.juro.2008.01.007",
+  "10.1016/j.juro.2011.07.107",
+  "10.1016/s0140-6736(14)60921-1",
+  "10.1016/s0140-6736(20)31174-0",
+  "10.1016/s2213-8587(16)30085-7",
+  "10.1093/braincomms/fcad160",
+  "10.1093/infdis/jiae178",
+  "10.1093/jas/skac054",
+  "10.1093/nargab/lqab042",
+  "10.1097/aog.0000000000003989",
+  "10.15585/mmwr.ss6513a1"
+ ]
+}

@@ -1,0 +1,5 @@
+__pycache__/
+.DS_Store
+phase1/data/
+phase1/raw/
+phase1/site_out/

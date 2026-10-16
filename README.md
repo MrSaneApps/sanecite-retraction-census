@@ -17,3 +17,11 @@ doi:10.13012/B2IDB-8255619_V2).
 All figures are provisional until the human labelling round (`human_labels/`; workbooks from `scripts/human_sheets.py`,
 scoring fixed in advance in `scripts/human_score.py`, see amendment 4). Citing passages are short quotations
 from open-access papers in Europe PMC, included so each label can be checked against its text.
+
+## Code release (amendment 5, 16 October 2026)
+
+All the code is now public. `phase1/` holds the Phase 1 count of citations to retracted papers (262,998 on the
+16 October snapshot, with the administrative rule Phase 2 uses); see `phase1/README.md`. `scripts/model_calls.py`
+is the public copy of the two model-call helpers that were private, so `scripts/classify.py` and
+`scripts/stage3_census.py` run from this repository alone. It needs a Cloudflare account (`CLOUDFLARE_API_TOKEN`,
+`CLOUDFLARE_ACCOUNT_ID`).

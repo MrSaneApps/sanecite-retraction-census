@@ -96,8 +96,9 @@ hosted model is updated (versions and dates are logged per call).
 ## Files
 
 - `codebook.md`: the questions and rules the models answer.
-- `scripts/`: the pipeline. The model-call helpers (`jev_review.py`, `llm_bakeoff.py`) are in a private repository;
-  their hashes are in `MANIFEST.sha256`.
+- `scripts/`: the pipeline. The model-call helpers (`jev_review.py`, `llm_bakeoff.py`) were in a private repository
+  (hashes in `MANIFEST.sha256`); since amendment 5 their public copy is `scripts/model_calls.py`.
+- `phase1/`: the Phase 1 count of post-retraction citations (amendment 5).
 - `validation/`: holdout and confirmation answer keys and scores.
 
 ## Amendments (each dated; none made after seeing final results)
@@ -195,3 +196,13 @@ stored to 6 places. No label, row, rate or interval changed beyond that precisio
 40.8% -> 40.7% (21,037 of 51,626 = 40.749%); support 1-2 years after retraction 43.5% -> 43.6% (11,286 of 25,915);
 reviews' support 51.1% -> 51.2%; aware in citing year 2016 3.2% -> 3.3%; 2020s retractions aware CI 1.5 -> 1.4;
 S6 40.7% -> 40.6%; read research articles 64.5% -> 64.4%; citing-year-weighted CI 39.1-40.7 -> 39.0-40.6.
+
+**2026-10-16 (amendment 5, code release; no analysis change).** All code is now public. (1) `scripts/model_calls.py`
+is the public copy of the private helpers `llm_bakeoff.py` and `jev_review.py`, cut down to what the census used.
+The request bodies, model settings and answer parsing are unchanged; a local rate limiter and batch queue, which
+only change when a call is sent, are left out. `scripts/classify.py` now imports it instead of a private path.
+Checked by re-labelling 6 census passages with Gemma through the new helper: 6 of 6 labels match the stored census
+answers; the Jev and Clef request bodies are copied character for character. (2) `phase1/` adds the Phase 1 count
+with the administrative rule from `scripts/groups.py` applied to Phase 1 too (it already applied to Phase 2), plus
+the 28 same-DOI replacements. On the 16 October snapshot it reproduces the published figures exactly (262,998
+citations; 32,626 of 51,414 papers; 16,878 still cited in 2025-2026; 1,858 papers left out).

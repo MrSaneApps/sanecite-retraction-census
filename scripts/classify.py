@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Classify one citation context with a Cloudflare model.
 
-Chat models go through clients/translations/scripts/llm_bakeoff.vendor_call
-(researched per-model profiles + shared rate limits). typesafe/jev goes to the
+Chat models go through model_calls.vendor_call
+(per-model settings). typesafe/jev and @cf/cloudflare/clef go to the
 shared /ai/run endpoint with a typed 'choice' question (schema in receipts/).
 Labels follow CODEBOOK.md v1. The model never sees whether the paper was retracted."""
 import json, os, re, sys, time, urllib.request
-sys.path.insert(0, os.path.expanduser("~/SaneApps/clients/translations/scripts"))
-from llm_bakeoff import vendor_call, DEFAULT_ACCOUNT  # noqa: E402
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from model_calls import vendor_call, DEFAULT_ACCOUNT  # noqa: E402
 
 LABELS = ["aware", "substantive", "perfunctory", "unclear"]
 CODEBOOK = "v3.3"
@@ -120,9 +120,9 @@ def chat(model, rec, token, i=0):
     return out
 
 def jev(rec, token=None, i=0, model="typesafe/jev"):
-    """Typed 'choice' questions through the shared harness (jev_review.jev);
+    """Typed 'choice' questions (model_calls.jev);
     model is typesafe/jev or Cloudflare's own @cf/cloudflare/clef."""
-    import jev_review as jr
+    import model_calls as jr
     text, sec = passage(rec, i)
     n = group_n(rec, i)
     state = {"target_reference": rec["retracted_title"], "section": sec or "n/a", "text": text,
