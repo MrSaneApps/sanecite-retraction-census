@@ -7,7 +7,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-5CDBF2" alt="MIT license"></a>
   <a href="https://orcid.org/0009-0001-0250-5446"><img src="https://img.shields.io/badge/ORCID-0009--0001--0250--5446-A6CE39?logo=orcid&logoColor=white" alt="ORCID"></a>
   <a href="https://sanecite.com"><img src="https://img.shields.io/badge/results-sanecite.com-5CDBF2" alt="Results at sanecite.com"></a>
-  <a href="https://sanecite.com/donate"><img src="https://img.shields.io/badge/support-pledge-5CDBF2" alt="Pledge support"></a>
+  <a href="https://github.com/sponsors/MrSaneApps"><img src="https://img.shields.io/badge/donate-sponsor-5CDBF2?logo=githubsponsors&logoColor=white" alt="Donate through GitHub Sponsors"></a>
 </p>
 
 When a paper is retracted, other papers keep citing it. This repository counts those citations, reads them, and asks
@@ -41,8 +41,9 @@ before the results), the code, every model answer and every label, so anyone can
 SaneCite is an independent research project. Reading a citation costs fractions of a cent; the expensive part is
 experts checking the machine's calls, and that is what funding pays for.
 
-- **Pledge:** [sanecite.com/donate](https://sanecite.com/donate). Nothing is charged while a nonprofit fiscal sponsor
-  is finalized; pledgers hear first when giving opens. Gifts are not tax-deductible yet.
+- **Donate:** [github.com/sponsors/MrSaneApps](https://github.com/sponsors/MrSaneApps), one-time or monthly.
+- **Pledge:** [sanecite.com/donate](https://sanecite.com/donate). Pledges are not binding while a nonprofit fiscal
+  sponsor is finalized; pledgers hear first when that giving opens. Gifts are not tax-deductible yet.
 - **Foundations, publishers and institutions:** to fund the human check, a research partnership or an audit of your
   own field, write to [hi@saneapps.com](mailto:hi@saneapps.com).
 - **Free ways to help:** cite the dataset, re-run the code, and
