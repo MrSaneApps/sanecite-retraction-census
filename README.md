@@ -41,7 +41,7 @@ before the results), the code, every model answer and every label, so anyone can
 SaneCite is an independent research project. Reading a citation costs fractions of a cent; the expensive part is
 experts checking the machine's calls, and that is what funding pays for.
 
-- **Donate:** [github.com/sponsors/MrSaneApps](https://github.com/sponsors/MrSaneApps), one-time or monthly.
+- **Donate:** [github.com/sponsors/MrSaneApps](https://github.com/sponsors/MrSaneApps), monthly from $1.
 - **Pledge:** [sanecite.com/donate](https://sanecite.com/donate). Pledges are not binding while a nonprofit fiscal
   sponsor is finalized; pledgers hear first when that giving opens. Gifts are not tax-deductible yet.
 - **Foundations, publishers and institutions:** to fund the human check, a research partnership or an audit of your
