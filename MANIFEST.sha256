@@ -82,3 +82,6 @@ a24aa06ea170f4d240d65bb883cc8182b0c26dd6de177739a6ada6964e2c9dea  ./phase1/07_do
 e37bcf57a213af8662c27ba6bf981d3575fd16701188bc99e702ac4ba11bc631  ./phase1/08_fallback_diag.py
 066060171654c02c2a4163562e5ad74419a6bb22fd92eacf5f162242019dbced  ./phase1/same_doi_replacements.json
 024accf7f734c12e3449b7ba4c113bbb3331744fde8b9d3bb77fe3c5419fdeea  ./phase1/README.md
+# Added 2026-10-20 (post-hoc check, not registered):
+6e22b421aac4190c43392ee35720c1210d1cfa86a0eb54bfd376943c1c9cf430  ./scripts/reflist_marks.py
+16a734087b6dda682da510e3757d6ecbc4a9536f7b58e720664344e67252b559  ./data/reflist_marks.json

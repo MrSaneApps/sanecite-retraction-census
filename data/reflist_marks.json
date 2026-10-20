@@ -1,0 +1,33 @@
+{
+ "note": "Post-hoc, 20 Oct 2026. Judged headline pairs whose reference entry contains 'retract'.",
+ "groups": {
+  "title prefix": {
+   "n": 2664,
+   "substantive": 1104,
+   "aware": 320,
+   "substantive_rate": 0.414414,
+   "aware_rate": 0.12012
+  },
+  "retraction note": {
+   "n": 523,
+   "substantive": 218,
+   "aware": 63,
+   "substantive_rate": 0.416826,
+   "aware_rate": 0.120459
+  },
+  "other": {
+   "n": 441,
+   "substantive": 143,
+   "aware": 85,
+   "substantive_rate": 0.324263,
+   "aware_rate": 0.192744
+  },
+  "clear marks (title prefix + retraction note)": {
+   "n": 3187,
+   "substantive": 1322,
+   "aware": 383,
+   "substantive_rate": 0.41481,
+   "aware_rate": 0.120176
+  }
+ }
+}

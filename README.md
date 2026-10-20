@@ -108,8 +108,15 @@ repository" button uses [`CITATION.cff`](CITATION.cff).
   retractions, the rule Phase 2 always used (262,998, down from 286,050).
 - **20 Oct 2026:** census correction (amendment 11 repair). 12 citation pairs sat on Retraction Watch records
   whose identifier points to a different paper. Corrected counts: 55,676 citations read, 51,614 judged,
-  21,032 using the retracted result as support. Every rate is unchanged (40.7% support; AI-key corrected
-  38.1%). The counts above are the as-published ones; this note is the correction of record.
+  21,032 using the retracted result as support. The headline rates are unchanged (40.7% support, 3.3% flagged;
+  AI-key corrected 38.1%). A few subgroup rates move by about 0.1 point (first two years after retraction 43.6% to
+  43.5%; flagged after ten years 6.3% to 6.4%). The counts above are the as-published ones; this note is the
+  correction of record.
+- **20 Oct 2026:** post-hoc check of the "reference list says retracted" flag (`scripts/reflist_marks.py`,
+  `data/reflist_marks.json`; not in the registered protocol). The flag is set whenever "retract" appears in the
+  citing paper's reference entry. On the 3,187 entries with a clear mark (a title prefix such as "RETRACTED:", or a
+  retraction note), 41.5% (1,322) still use the retracted result as support, against 40.4% (1,465 of 3,628) for all
+  flagged entries. The other 441 entries mention it in other formats (32.4% support).
 
 ## Contact and license
 
