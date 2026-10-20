@@ -117,6 +117,13 @@ repository" button uses [`CITATION.cff`](CITATION.cff).
   citing paper's reference entry. On the 3,187 entries with a clear mark (a title prefix such as "RETRACTED:", or a
   retraction note), 41.5% (1,322) still use the retracted result as support, against 40.4% (1,465 of 3,628) for all
   flagged entries. The other 441 entries mention it in other formats (32.4% support).
+- **20 Oct 2026:** post-hoc breakdown by Retraction Watch subject (`scripts/subject_breakdown.py`,
+  `data/subject_breakdown.json`, `data/paper_subjects.csv`; not in the registered protocol). Each citation counts under
+  every top-level subject its retracted paper carries. Support rates run from 31.4% (business and technology, 1,858
+  citations) to 42.5% (basic life sciences, 37,031). Two notes on the registered field grouping (`groups.field_group`):
+  its "other fields" group is any paper with a subject outside basic life and health sciences, often alongside them,
+  not papers with neither; and its code pattern skips the "B/T" code, so the 82 citations to papers coded only B/T
+  are in its "?" group. The registered figures are unchanged.
 
 ## Contact and license
 

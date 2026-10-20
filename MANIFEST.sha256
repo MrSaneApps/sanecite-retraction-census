@@ -85,3 +85,7 @@ e37bcf57a213af8662c27ba6bf981d3575fd16701188bc99e702ac4ba11bc631  ./phase1/08_fa
 # Added 2026-10-20 (post-hoc check, not registered):
 6e22b421aac4190c43392ee35720c1210d1cfa86a0eb54bfd376943c1c9cf430  ./scripts/reflist_marks.py
 16a734087b6dda682da510e3757d6ecbc4a9536f7b58e720664344e67252b559  ./data/reflist_marks.json
+# Added 2026-10-20 (post-hoc subject breakdown, not registered):
+26da9909107f98b014a2ad80ad84548510061e9b1c6c12c7aa361ce7d5ccf7b8  ./scripts/subject_breakdown.py
+122b73a3db34b91987f993f325a685e9dfe556d445eec65b69896e938b1c7248  ./data/subject_breakdown.json
+7a83dc22697c691f31bf7ddcded92dab389e85a3504867a788a3326970e5932f  ./data/paper_subjects.csv

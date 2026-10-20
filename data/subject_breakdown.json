@@ -1,0 +1,238 @@
+{
+ "note": "Post-hoc, 20 Oct 2026, not in the registered protocol. Judged headline citations by Retraction Watch top-level subject of the retracted paper; a paper with several subjects counts under each, so groups overlap.",
+ "judged": 51626,
+ "no_subject": 0,
+ "subjects": {
+  "BLS": {
+   "name": "Basic life sciences",
+   "substantive": {
+    "rate": 0.4254,
+    "k": 15752,
+    "ci95": [
+     0.416414,
+     0.434347
+    ],
+    "n": 37031,
+    "papers": 8597
+   },
+   "aware": {
+    "rate": 0.0287,
+    "k": 1061,
+    "ci95": [
+     0.0216,
+     0.038627
+    ],
+    "n": 37031,
+    "papers": 8597
+   },
+   "perfunctory": {
+    "rate": 0.546,
+    "k": 20218,
+    "ci95": [
+     0.536257,
+     0.555789
+    ],
+    "n": 37031,
+    "papers": 8597
+   }
+  },
+  "HSC": {
+   "name": "Health sciences",
+   "substantive": {
+    "rate": 0.3928,
+    "k": 12121,
+    "ci95": [
+     0.382318,
+     0.403425
+    ],
+    "n": 30858,
+    "papers": 7083
+   },
+   "aware": {
+    "rate": 0.0402,
+    "k": 1240,
+    "ci95": [
+     0.028841,
+     0.056442
+    ],
+    "n": 30858,
+    "papers": 7083
+   },
+   "perfunctory": {
+    "rate": 0.567,
+    "k": 17497,
+    "ci95": [
+     0.554676,
+     0.57854
+    ],
+    "n": 30858,
+    "papers": 7083
+   }
+  },
+  "PHY": {
+   "name": "Physical sciences",
+   "substantive": {
+    "rate": 0.3216,
+    "k": 769,
+    "ci95": [
+     0.292015,
+     0.352185
+    ],
+    "n": 2391,
+    "papers": 634
+   },
+   "aware": {
+    "rate": 0.0322,
+    "k": 77,
+    "ci95": [
+     0.019325,
+     0.050847
+    ],
+    "n": 2391,
+    "papers": 634
+   },
+   "perfunctory": {
+    "rate": 0.6462,
+    "k": 1545,
+    "ci95": [
+     0.612719,
+     0.674221
+    ],
+    "n": 2391,
+    "papers": 634
+   }
+  },
+  "SOC": {
+   "name": "Social sciences",
+   "substantive": {
+    "rate": 0.3602,
+    "k": 688,
+    "ci95": [
+     0.331031,
+     0.390132
+    ],
+    "n": 1910,
+    "papers": 604
+   },
+   "aware": {
+    "rate": 0.0408,
+    "k": 78,
+    "ci95": [
+     0.025328,
+     0.066667
+    ],
+    "n": 1910,
+    "papers": 604
+   },
+   "perfunctory": {
+    "rate": 0.599,
+    "k": 1144,
+    "ci95": [
+     0.565743,
+     0.625592
+    ],
+    "n": 1910,
+    "papers": 604
+   }
+  },
+  "B/T": {
+   "name": "Business and technology",
+   "substantive": {
+    "rate": 0.3143,
+    "k": 584,
+    "ci95": [
+     0.286902,
+     0.342325
+    ],
+    "n": 1858,
+    "papers": 842
+   },
+   "aware": {
+    "rate": 0.0172,
+    "k": 32,
+    "ci95": [
+     0.010287,
+     0.02551
+    ],
+    "n": 1858,
+    "papers": 842
+   },
+   "perfunctory": {
+    "rate": 0.6685,
+    "k": 1242,
+    "ci95": [
+     0.641888,
+     0.695426
+    ],
+    "n": 1858,
+    "papers": 842
+   }
+  },
+  "ENV": {
+   "name": "Environment",
+   "substantive": {
+    "rate": 0.3407,
+    "k": 309,
+    "ci95": [
+     0.282971,
+     0.400391
+    ],
+    "n": 907,
+    "papers": 233
+   },
+   "aware": {
+    "rate": 0.0364,
+    "k": 33,
+    "ci95": [
+     0.008065,
+     0.078105
+    ],
+    "n": 907,
+    "papers": 233
+   },
+   "perfunctory": {
+    "rate": 0.6229,
+    "k": 565,
+    "ci95": [
+     0.563867,
+     0.683157
+    ],
+    "n": 907,
+    "papers": 233
+   }
+  },
+  "HUM": {
+   "name": "Humanities",
+   "substantive": {
+    "rate": 0.3505,
+    "k": 68,
+    "ci95": [
+     0.225806,
+     0.457516
+    ],
+    "n": 194,
+    "papers": 63
+   },
+   "aware": {
+    "rate": 0.0361,
+    "k": 7,
+    "ci95": [
+     0.004132,
+     0.081633
+    ],
+    "n": 194,
+    "papers": 63
+   },
+   "perfunctory": {
+    "rate": 0.6134,
+    "k": 119,
+    "ci95": [
+     0.513761,
+     0.732955
+    ],
+    "n": 194,
+    "papers": 63
+   }
+  }
+ }
+}
