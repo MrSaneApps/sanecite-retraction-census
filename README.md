@@ -106,6 +106,10 @@ repository" button uses [`CITATION.cff`](CITATION.cff).
 - **15 Oct 2026:** rates reported as counts over totals to fix a rounding error (headline 40.7%, not 40.8%).
 - **16 Oct 2026:** all code released (amendment 5, version 1.1.0). The Phase 1 count now leaves out administrative
   retractions, the rule Phase 2 always used (262,998, down from 286,050).
+- **20 Oct 2026:** census correction (amendment 11 repair). 12 citation pairs sat on Retraction Watch records
+  whose identifier points to a different paper. Corrected counts: 55,676 citations read, 51,614 judged,
+  21,032 using the retracted result as support. Every rate is unchanged (40.7% support; AI-key corrected
+  38.1%). The counts above are the as-published ones; this note is the correction of record.
 
 ## Contact and license
 
