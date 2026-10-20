@@ -147,16 +147,20 @@ _fallback_noted = False
 
 
 def jev(state, questions, model="typesafe/jev"):
-    """Cloudflare route first; TypeSafe's own API only as a fallback when TYPESAFE_API_KEY is set."""
+    """Cloudflare route first; TypeSafe's own API only as a fallback when TYPESAFE_API_KEY is set.
+
+    Amendment 11: the fallback serves Jev only. For any other model (Clef) a Cloudflare failure is raised,
+    so the caller retries it; another model never answers in its place."""
     global _fallback_noted
     try:
         return _cf_jev(state, questions, model)
     except Exception as e:  # noqa: BLE001
         cf_err = e
+    if model != "typesafe/jev":
+        raise RuntimeError("Cloudflare route failed for %s: %s" % (model, cf_err))
     key = os.environ.get("TYPESAFE_API_KEY", "")
     if not key:
         raise SystemExit("Cloudflare route failed (%s); TYPESAFE_API_KEY not set" % cf_err)
-    if not _fallback_noted:
-        print("JEV-DIRECT-FALLBACK: %s" % cf_err, file=sys.stderr)
-        _fallback_noted = True
+    print("JEV-DIRECT-FALLBACK: %s" % cf_err, file=sys.stderr)  # every time, so logs show the true count
+    _fallback_noted = True
     return _post(TYPESAFE_API, {"model": "jev-latest", "state": state, "questions": questions}, key)
