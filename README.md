@@ -11,7 +11,7 @@
 </p>
 
 When a paper is retracted, other papers keep citing it. This repository counts those citations, reads them, and asks
-one question: does the citing paper still lean on the retracted result? Everything is here: the method (published
+one question: does the citing paper still cite the retracted result as support? Everything is here: the method (published
 before the results), the code, every model answer and every label, so anyone can check or re-run it.
 
 ## What we found
