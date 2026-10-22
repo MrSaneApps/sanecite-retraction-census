@@ -7,7 +7,6 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-5CDBF2" alt="MIT license"></a>
   <a href="https://orcid.org/0009-0001-0250-5446"><img src="https://img.shields.io/badge/ORCID-0009--0001--0250--5446-A6CE39?logo=orcid&logoColor=white" alt="ORCID"></a>
   <a href="https://sanecite.com"><img src="https://img.shields.io/badge/results-sanecite.com-5CDBF2" alt="Results at sanecite.com"></a>
-  <a href="https://github.com/sponsors/MrSaneApps"><img src="https://img.shields.io/badge/donate-sponsor-5CDBF2?logo=githubsponsors&logoColor=white" alt="Donate through GitHub Sponsors"></a>
 </p>
 
 When a paper is retracted, other papers keep citing it. This repository counts those citations, reads them, and asks
@@ -42,9 +41,6 @@ SaneCite is an independent scientific research project. It sells nothing: no ser
 exclusive access, and every result is published free to everyone. Reading a citation costs fractions of a cent; the expensive part is
 experts checking the machine's calls, and that is what funding pays for.
 
-- **Donate:** [github.com/sponsors/MrSaneApps](https://github.com/sponsors/MrSaneApps), once or monthly, from $10.
-  Until SaneCite has a nonprofit fiscal sponsor, these gifts go to Stephan Joseph's account and are spent only on
-  SaneCite, each one published.
 - **Pledge:** [sanecite.com/donate](https://sanecite.com/donate). Pledges are not binding while a nonprofit fiscal
   sponsor is finalized; pledgers hear first when that giving opens. Gifts are not tax-deductible yet.
 - **Foundations and research funders:** to fund the human check or the next phase, write to
@@ -53,7 +49,7 @@ experts checking the machine's calls, and that is what funding pays for.
   [open an issue](https://github.com/MrSaneApps/sanecite-retraction-census/issues) for any error you find. We
   correct mistakes in public.
 
-Every gift and every spend will be published, with what it paid for.
+From the day SaneCite has a fiscal sponsor, every gift and every spend will be published, with what it paid for.
 
 ## What's in this repository
 
