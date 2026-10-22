@@ -38,14 +38,17 @@ before the results), the code, every model answer and every label, so anyone can
 
 ## Support this work
 
-SaneCite is an independent research project. Reading a citation costs fractions of a cent; the expensive part is
+SaneCite is an independent scientific research project. It sells nothing: no services, no data, no early or
+exclusive access, and every result is published free to everyone. Reading a citation costs fractions of a cent; the expensive part is
 experts checking the machine's calls, and that is what funding pays for.
 
 - **Donate:** [github.com/sponsors/MrSaneApps](https://github.com/sponsors/MrSaneApps), once or monthly, from $10.
+  Until SaneCite has a nonprofit fiscal sponsor, these gifts go to Stephan Joseph's account and are spent only on
+  SaneCite, each one published.
 - **Pledge:** [sanecite.com/donate](https://sanecite.com/donate). Pledges are not binding while a nonprofit fiscal
   sponsor is finalized; pledgers hear first when that giving opens. Gifts are not tax-deductible yet.
-- **Foundations, publishers and institutions:** to fund the human check, a research partnership or an audit of your
-  own field, write to [hi@saneapps.com](mailto:hi@saneapps.com).
+- **Foundations and research funders:** to fund the human check or the next phase, write to
+  [hi@saneapps.com](mailto:hi@saneapps.com). Funders do not choose what is checked or see results early.
 - **Free ways to help:** cite the dataset, re-run the code, and
   [open an issue](https://github.com/MrSaneApps/sanecite-retraction-census/issues) for any error you find. We
   correct mistakes in public.
