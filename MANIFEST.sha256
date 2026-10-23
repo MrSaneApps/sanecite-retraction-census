@@ -125,3 +125,16 @@ db6a04d0e34540592319d6195a159e18f94310fa3330f6f436174c56768d2d01  ./scripts/huma
 c39044c83b3265381e90e9d14dbffcaccf83cc217ce5c0bdb5566c9e5e366907  ./scripts/verify_manifest.py
 # 2026-10-23T19:20Z README figures carry markers, checked against data/census_results.json
 927d1d045982f1ca465b929ec037328f168c72c9bdcc159ba20940916d91dc9a  ./README.md
+# 2026-10-23T19:46Z audit fixes 23 Oct: editions guard, manifest check, staging checks, Phase 1 note source
+819cfbf3adb088b1059c510a8caf78d8ba4f2d68cf229f3fca923ba01142d257  ./EDITIONS.md
+98a9c268ab0cd214235ab42260f48ac2060bec04054431beb80b914689fde5e2  ./phase1/06_feed.py
+7106362f098ea9cd41762e17e24b9ebbc96552900aa809069df753d64e6aaf93  ./phase1/README.md
+0917d3c91941b5f92b09da769efcb6aac7077e042592cec2fd5dc4af06cddc61  ./phase1/first_count.json
+dfe5a6532a02ceb198520349e50498b2bb5b934095d063950ea3eeddfead9a66  ./scripts/analyze_census.py
+00f48764fe281beb8bf30e76a3a86c7ac5acf925a3993951df1d8322684c5b70  ./scripts/editions.py
+7959a31a07e33a04c078ae7dd232f7333828c378119489ce69b70dbf3fddec72  ./scripts/pre_push.py
+4c6383281bf0cf4a790fadc7e5f35ffbfcebd64c03d3ae61d1e30aaaae066012  ./scripts/recheck_retractions.py
+aad2ff40f379e5e56a02b0bb54ac1dad820def59ed456f0de7a4eaa508b25738  ./scripts/stage3_census.py
+f7fb828d9bc31060bd4e5a0d26c5172a8615bb1d3bd7b69ec0672786f5b0e727  ./scripts/stage_release.py
+473d3814ad1f94d6a96c68e219db2ac4d366d52e6de694a807beeab70404a56e  ./scripts/test_release_checks.py
+841bc1ff4cef57695bf9be0e986a9aca03eb0550907e1fc48ad054dadcbcef05  ./scripts/verify_manifest.py
