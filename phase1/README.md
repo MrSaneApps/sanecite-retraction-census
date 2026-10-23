@@ -6,8 +6,9 @@ those citations to see how they are used.
 
 ## Steps (run in order, from this folder)
 
-1. `01_census.py`: reads the Retraction Watch file from Crossref Labs (save it as `raw/retractionwatch_utf8.csv`) and
-   keeps retractions with a DOI, retracted in 2024 or earlier.
+1. `01_census.py`: reads the Retraction Watch file from Crossref Labs (save it as `raw/retractionwatch_utf8.csv`, and
+   the download date as one line, YYYY-MM-DD, in `raw/retractionwatch_utf8.pulled`) and keeps retractions with a DOI,
+   retracted in 2024 or earlier.
 2. `02_openalex.py`: looks up each DOI in OpenAlex in batches of 50 (`cited_by_count`, `counts_by_year`,
    `is_retracted`). Raw replies are kept in `data/openalex_raw/`.
 3. `03_aggregate.py`: a citation counts as post-retraction when the citing year is strictly later than the retraction
@@ -18,7 +19,8 @@ those citations to see how they are used.
 4. `04_verify_top25.py`: checks the 25 most-cited papers one by one against Crossref.
 5. `05_sanity.py`: re-checks 10 random papers against both sources; the counts must match.
 6. `06_feed.py`: writes `feed.json` and `results.json` for the website (folder from `SANECITE_SITE_DIR`, default
-   `site_out/`). Every number comes from `data/aggregate.json` and `data/top25_verified.json`.
+   `site_out/`). Every number comes from `data/aggregate.json` and `data/top25_verified.json`; the correction note
+   from `first_count.json`.
 7. `07_downstream.py`: for the top 25, traces papers that cite the citing papers, and finds systematic reviews and
    meta-analyses in that chain. Retraction notices, errata and corrections are counted apart.
 8. `08_fallback_diag.py`: records papers whose retraction notice is linked in Crossref only through `updated-by`.

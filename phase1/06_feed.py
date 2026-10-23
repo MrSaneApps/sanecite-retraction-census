@@ -16,12 +16,16 @@ produced by this run. Every number in the note is also a field of its own
 (pulled_date, openalex_date, total_retracted, dois, matched, checks_resolved,
 excluded_administrative), so a reader or a check never has to parse the text.
 The dates come from the run itself: SANECITE_RW_PULLED / SANECITE_OA_PULLED if
-set, else the date of the Retraction Watch file and of the newest OpenAlex batch.
+set; else the Retraction Watch pull date from raw/retractionwatch_utf8.pulled (one
+line, YYYY-MM-DD, written when the file is downloaded; a file date changes on any
+copy or restore, so it is never used) and the newest OpenAlex batch. Without a
+pull date the script stops. The correction note takes its figure and date from
+first_count.json, never from text typed here.
 
 Also writes data/last_run.json (when it ran and what it counted), so a job
 monitor can tell a missed day from a quiet one.
 """
-import csv, gzip, json
+import csv, gzip, json, re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -31,6 +35,8 @@ import os
 # SANECHECK_SITE_DIR is the name the daily job used before 23 Oct 2026; both work.
 SITE = Path(os.environ.get("SANECITE_SITE_DIR") or os.environ.get("SANECHECK_SITE_DIR") or BASE / "site_out")
 RW_CSV = BASE / "raw" / "retractionwatch_utf8.csv"
+RW_PULLED = BASE / "raw" / "retractionwatch_utf8.pulled"   # the download date, written beside the file
+FIRST = json.load(open(BASE / "first_count.json"))         # the first published count and its correction date
 
 def iso(ts):
     return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -132,8 +138,10 @@ with open(SITE / "feed.json", "w") as f:
     json.dump(feed, f, indent=1)
 
 census = json.load(open(DATA / "census.json"))
-day = lambda ts: datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d")
-pulled_date = os.environ.get("SANECITE_RW_PULLED") or day(RW_CSV.stat().st_mtime)
+pulled_date = os.environ.get("SANECITE_RW_PULLED") or (RW_PULLED.read_text().split()[0] if RW_PULLED.exists() else None)
+if not pulled_date or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", pulled_date):
+    raise SystemExit(f"no Retraction Watch pull date: write it (YYYY-MM-DD) to {RW_PULLED} when the file is downloaded, "
+                     f"or set SANECITE_RW_PULLED")
 openalex_date = os.environ.get("SANECITE_OA_PULLED") or (batch_times[-1][:10] if batch_times else None)
 ex = agg["excluded_administrative"]
 dois = agg.get("unique_dois_before_exclusion", agg["unique_dois_in_scope"] + ex.get("papers_incl_unresolved", 0))
@@ -143,7 +151,7 @@ note = (f"Retraction Watch via Crossref Labs (pulled {pulled_date}): {census['re
         f"Paperwork retractions left out (no fault in the science: out of date, temporary removal, publisher error, "
         f"same-DOI replacement; same rule as the Phase 2 census): {ex['papers']:,} papers, {ex['citations']:,} citations. "
         f"Counted: {agg['openalex_resolved']:,} papers. Post-retraction = citing year strictly after retraction year. "
-        f"Correction 2026-10-16: the first count, 286,050, included paperwork retractions.")
+        f"Correction {FIRST['corrected']}: the first count, {FIRST['post_retraction_citations']:,}, included paperwork retractions.")
 results = {
     "pulled_date": pulled_date,
     "openalex_date": openalex_date,

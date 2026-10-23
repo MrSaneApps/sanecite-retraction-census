@@ -1,0 +1,10 @@
+{
+ "about": "The first Phase 1 count, as published on 13 Oct 2026 (Retraction Watch file pulled that day), before the administrative-retraction rule. Corrected on 16 Oct 2026: paperwork retractions are left out, the same rule as the Phase 2 census. 06_feed.py reads the correction note from this file.",
+ "published": "2026-10-13",
+ "corrected": "2026-10-16",
+ "post_retraction_citations": 286050,
+ "cited_after_retraction": 33746,
+ "resolved": 53246,
+ "still_cited_2025_2026": 17322,
+ "total_retracted": 67706
+}
