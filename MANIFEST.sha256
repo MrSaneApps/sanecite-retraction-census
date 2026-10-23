@@ -123,3 +123,5 @@ db6a04d0e34540592319d6195a159e18f94310fa3330f6f436174c56768d2d01  ./scripts/huma
 1fa620aeda1d01d9c0da78581c9660b10f0958e43509b2503a9773c9a350c832  ./scripts/stage3_census.py
 2195b4af4c818566118f1a0b717a5cadb3906feea38765d33dfd58dd90d9ed6d  ./scripts/stage_release.py
 c39044c83b3265381e90e9d14dbffcaccf83cc217ce5c0bdb5566c9e5e366907  ./scripts/verify_manifest.py
+# 2026-10-23T19:20Z README figures carry markers, checked against data/census_results.json
+927d1d045982f1ca465b929ec037328f168c72c9bdcc159ba20940916d91dc9a  ./README.md

@@ -18,20 +18,20 @@ before the results), the code, every model answer and every label, so anyone can
 
 | Figure | What it counts |
 |---:|---|
-| **262,998** | citations made after retraction, across the 51,414 retracted papers checked (OpenAlex, 16 Oct 2026) |
-| **32,626** | of those papers (63%) were cited at least once after their retraction |
-| **55,688** | citations read in full text (22,553 retracted biomedical papers, open-access citing papers in Europe PMC) |
-| **40.7%** | of the citations judged (21,037 of 51,626) are cited as support |
-| **3.3%** | are flagged as retracted or unreliable |
+| **<!--f:census_p1_release.citations-->262,998<!--/f-->** | citations made after retraction, across the <!--f:census_p1_release.papers-->51,414<!--/f--> retracted papers checked (OpenAlex, <!--f:census_p1_release.openalex_date-->16 Oct 2026<!--/f-->) |
+| **<!--f:census_p1_release.cited_papers-->32,626<!--/f-->** | of those papers (<!--f:census_p1_release.cited_pct0-->63%<!--/f-->) were cited at least once after their retraction |
+| **<!--f:census_p2.read-->55,688<!--/f-->** | citations read in full text (22,553 retracted biomedical papers, open-access citing papers in Europe PMC) |
+| **<!--f:census_p2.support_pct-->40.7%<!--/f-->** | of the citations judged (<!--f:census_p2.support-->21,037<!--/f--> of <!--f:census_p2.judged-->51,626<!--/f-->) are cited as support |
+| **<!--f:census_p2.aware_pct-->3.3%<!--/f-->** | are flagged as retracted or unreliable |
 
 <p align="center"><img src=".github/assets/chart.png" alt="Share of citations cited as support: 43.6% one to two years after retraction, 39.1% at three to five years, 37.4% at six to ten years, 34.9% after eleven or more years. Share flagged as retracted or unreliable: 2.7%, 3.4%, 3.8% and 6.3%." width="100%"></p>
 
 **How sure are we?**
-- The Phase 2 labels come from a panel of three AI models. On 150 citations labelled blind by a separate AI model
-  (Claude), the panel caught 96.5% of the supporting citations, with a false-positive rate of 6.5%. Adjusting for
-  that error gives 38.1% (95% CI 33.5-41.8%). A round of human labelling is next, and every figure is provisional
+- The Phase 2 labels come from a panel of three AI models. On <!--f:census_p2.check_n-->150<!--/f--> citations labelled blind by a separate AI model
+  (Claude), the panel caught <!--f:census_p2.corr_sens-->96.5%<!--/f--> of the supporting citations, with a false-positive rate of <!--f:census_p2.corr_fpr-->6.5%<!--/f-->. Adjusting for
+  that error gives <!--f:census_p2.corr_rate-->38.1%<!--/f--> (95% CI <!--f:census_p2.corr_ci-->33.5-41.8%<!--/f-->). A round of human labelling is next, and every figure is provisional
   until it is done.
-- A citation-level audit of the 262,998 (200 random draws, checked against each citing paper's own reference list)
+- A citation-level audit of the <!--f:census_p1_release.citations-->262,998<!--/f--> (200 random draws, checked against each citing paper's own reference list)
   found about 96.5% to be real citations. The rest were wrong links, retraction notices or duplicate records. So
   about 254,000 (247,000-260,000) are real citations.
 - A citation is a flag, not a verdict. Every author named in our reports is asked to respond before publication.
@@ -74,7 +74,7 @@ latest hash and lists the earlier hashes as history.
 **Data files** (`data/`): `stage1_papers.jsonl.gz` (the 22,553 retracted papers, with Retraction Watch reason, dates
 and later-citation counts), `stage2_v31.jsonl.gz` (every extracted citing passage), `stage3_{jev,clef,gemma}.jsonl.gz`
 (each model's answer per passage), `census_rows.jsonl.gz` (the label per citing pair), `citer_meta.jsonl.gz` (Europe
-PMC metadata for all 130,315 later citations), `paper_numbers.md` (every figure quoted) and the result files. Citing
+PMC metadata for all <!--f:census_p2.later-->130,315<!--/f--> later citations), `paper_numbers.md` (every figure quoted) and the result files. Citing
 passages are short quotations from open-access papers, included so each label can be checked against its text; they
 stay under each source article's own license (see `LICENSE-DATA`).
 Hsiao and Schneider's data are not redistributed here (Illinois Data Bank, doi:10.13012/B2IDB-8255619_V2).
@@ -112,11 +112,11 @@ repository" button uses [`CITATION.cff`](CITATION.cff).
   (amendment 4).
 - **15 Oct 2026:** rates reported as counts over totals to fix a rounding error (headline 40.7%, not 40.8%).
 - **16 Oct 2026:** all code released (amendment 5, version 1.1.0). The Phase 1 count now leaves out administrative
-  retractions, the rule Phase 2 always used (262,998, down from 286,050).
-- **20 Oct 2026:** census correction (amendment 11 repair). 12 citation pairs sat on Retraction Watch records
-  whose identifier points to a different paper. Corrected counts: 55,676 citations read, 51,614 judged,
-  21,032 cited as support. The headline rates are unchanged (40.7% support, 3.3% flagged;
-  AI-key corrected 38.1%). A few subgroup rates move by about 0.1 point (first two years after retraction 43.6% to
+  retractions, the rule Phase 2 always used (<!--f:census_p1_release.citations-->262,998<!--/f-->, down from 286,050).
+- **20 Oct 2026:** census correction (amendment 11 repair). <!--f:census_p2.fix_removed-->12<!--/f--> citation pairs sat on Retraction Watch records
+  whose identifier points to a different paper. Corrected counts: <!--f:census_p2.read_fix-->55,676<!--/f--> citations read, <!--f:census_p2.judged_fix-->51,614<!--/f--> judged,
+  <!--f:census_p2.support_fix-->21,032<!--/f--> cited as support. The headline rates are unchanged (<!--f:census_p2.support_fix_pct-->40.7%<!--/f--> support, <!--f:census_p2.aware_fix_pct-->3.3%<!--/f--> flagged;
+  AI-key corrected <!--f:census_p2.corr_rate-->38.1%<!--/f-->). A few subgroup rates move by about 0.1 point (first two years after retraction 43.6% to
   43.5%; flagged after ten years 6.3% to 6.4%). The counts above are the as-published ones; this note is the
   correction of record. `errata/wrong_records.csv` lists the records and pairs, each census row carries
   `wrong_record`, and `scripts/analyze_census.py` reports both sets of totals (`corrected_wrong_records`).
