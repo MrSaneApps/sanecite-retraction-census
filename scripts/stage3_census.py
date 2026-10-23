@@ -5,15 +5,16 @@ usage: SANECITE_DATA=... stage3_census.py <model> <workers>
 
 Every row written from 23 Oct 2026 on carries model_id (the model asked), run_date (UTC day the run started) and
 prompt_sha256 (hash of the codebook version, system prompt, examples and answer options). A file holds one edition:
-the script refuses to add rows whose model_id or prompt_sha256 differs from rows already in the file (EDITIONS.md)."""
-import hashlib, json, os, sys, time, concurrent.futures as cf
-sys.path.insert(0, os.path.dirname(__file__)); import classify as C
+the script refuses to add rows whose (model, prompt hash) differs from any row already in the file (EDITIONS.md).
+Older rows without those fields count as edition 1 (editions.py), so a new model or prompt cannot be appended to an
+edition 1 file either."""
+import json, os, sys, time, concurrent.futures as cf
+sys.path.insert(0, os.path.dirname(__file__)); import classify as C, editions as E
 DATA = os.environ["SANECITE_DATA"]; TOKEN = os.environ.get("CF_TOKEN") or os.environ.get("CLOUDFLARE_API_TOKEN") or ""
 model, W = sys.argv[1], int(sys.argv[2])
 tag = model.split("/")[-1].split("-")[0]
 OUT = f"{DATA}/stage3_{tag}.jsonl"
-PROMPT_SHA = hashlib.sha256(json.dumps([C.CODEBOOK, C.SYSTEM, C.EXAMPLES, C.STANCE, C.USE], ensure_ascii=False,
-                                       sort_keys=True).encode()).hexdigest()
+PROMPT_SHA = E.prompt_sha(C)
 RUN_DATE = time.strftime("%Y-%m-%d", time.gmtime())
 have, seen = set(), set()
 if os.path.exists(OUT):
@@ -21,7 +22,7 @@ if os.path.exists(OUT):
         try: r = json.loads(l)
         except Exception: continue
         if r.get("label"): have.add((r["pair_id"], r["ctx"]))
-        if r.get("prompt_sha256"): seen.add((r.get("model_id"), r["prompt_sha256"]))
+        if r.get("model") or r.get("model_id"): seen.add(E.key(r))
 if seen - {(model, PROMPT_SHA)}:
     sys.exit(f"{OUT} already holds another edition {sorted(seen)}; a new model or prompt writes a new edition "
              f"in a new data folder (EDITIONS.md)")

@@ -32,5 +32,8 @@ From 23 Oct 2026, every label row that `scripts/stage3_census.py` writes carries
 ## Edition 1
 
 The census released on 14 Oct 2026 (codebook v3.3): Jev (`typesafe/jev`), Clef (`@cf/cloudflare/clef`) and Gemma (`@cf/google/gemma-4-26b-a4b-it`), run
-13-14 Oct 2026. Its label rows predate the fields above. The models and prompts are fixed by the code hashes in
+13-14 Oct 2026. Its label rows predate the fields above; the scripts count a row without them as edition 1, whose
+prompt hash is `06e4c3390cc6f0b9c4b7b33546a138f52a8044719c6f810444c4deba62032312` (`scripts/editions.py`; every
+version of `classify.py` in this history gives it). So a row of a new model or prompt added to an edition 1 file is
+caught too (`scripts/test_release_checks.py`). The models and prompts are fixed by the code hashes in
 `MANIFEST.sha256` and the protocol amendments in `PROTOCOL.md`.

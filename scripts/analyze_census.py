@@ -8,12 +8,13 @@ Correction of 20 Oct 2026 (amendment 11, part 4): pairs on Retraction Watch reco
 different paper are listed in errata/wrong_records.csv (scripts/frame_check.py). Every row carries wrong_record, and
 census_results.json reports the census as published (all pairs) and, under "corrected_wrong_records", without them."""
 import json, os, random, re, sys, collections
-sys.path.insert(0, os.path.dirname(__file__)); import panel as P, classify as C
+sys.path.insert(0, os.path.dirname(__file__)); import panel as P, classify as C, editions as E
 DATA = os.environ["SANECITE_DATA"]
 RANK = {"aware": 3, "substantive": 2, "perfunctory": 1, "unclear": 0}
 PRICE = {"typesafe/jev": 0.042e-6, "@cf/cloudflare/clef": 0.24e-6}   # $/input token (CF model pages, 2026-10-13)
 NEURON = 0.011 / 1000                                                 # Workers AI $/neuron
 L = collections.defaultdict(dict); cost = collections.Counter(); calls = collections.Counter()
+_ed = collections.defaultdict(set)   # label file -> editions of the rows the analysis would use
 for tag in ("jev", "clef", "gemma"):
     fn = f"{DATA}/stage3_{tag}.jsonl"
     if not os.path.exists(fn): continue
@@ -22,15 +23,12 @@ for tag in ("jev", "clef", "gemma"):
         except Exception: continue
         calls[r["model"]] += 1
         cost[r["model"]] += PRICE.get(r["model"], 0) * (r.get("pt") or 0) + NEURON * (r.get("neurons") or 0)
-        if r.get("label") and r.get("codebook") == C.CODEBOOK: L[(r["pair_id"], r["ctx"])][r["model"]] = r  # one codebook only
-# One edition per analysis (EDITIONS.md): labels from different prompts or model IDs are never mixed. Rows written
-# before 23 Oct 2026 carry no prompt_sha256 and form the first edition.
-_ed = collections.defaultdict(set)
-for _rows in L.values():
-    for _m, _r in _rows.items():
-        if _r.get("prompt_sha256"): _ed[_m].add((_r.get("model_id"), _r["prompt_sha256"]))
-if any(len(v) > 1 for v in _ed.values()):
-    sys.exit("labels from more than one edition (model_id, prompt_sha256): " + json.dumps({m: sorted(v) for m, v in _ed.items()}))
+        if r.get("label") and r.get("codebook") == C.CODEBOOK:   # one codebook only
+            L[(r["pair_id"], r["ctx"])][r["model"]] = r; _ed[tag].add(E.key(r))
+# One edition per analysis (EDITIONS.md): every panel slot (label file) must hold labels of a single (model, prompt
+# hash), and all slots the same prompt. Rows written before 23 Oct 2026 carry no prompt hash and count as edition 1.
+if any(len(v) > 1 for v in _ed.values()) or len({k[1] for v in _ed.values() for k in v}) > 1:
+    sys.exit("labels from more than one edition (model, prompt_sha256): " + json.dumps({m: sorted(v) for m, v in _ed.items()}))
 s2 = []
 for l in open(f"{DATA}/stage2_v31.jsonl"):
     try: s2.append(json.loads(l))
