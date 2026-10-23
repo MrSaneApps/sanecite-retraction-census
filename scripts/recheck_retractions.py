@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Re-check the retraction status of every retracted paper the Lists name, and report what changed.
 
-usage: recheck_retractions.py [--pmids P1,P2,...] [--limit N] [--out report.json] [--save]
+usage: recheck_retractions.py [--data DIR] [--pmids P1,P2,...] [--limit N] [--out report.json] [--save]
+
+--data: the Lists data folder (default lists/data, which exists from the release on; before it, the site's
+data/phase2 folder).
 
 A retraction can be reversed, replaced by a corrected article under the same DOI, or downgraded to an expression of
 concern after we name a paper. This script asks two independent sources again for each listed PMID:
@@ -23,7 +26,7 @@ lookup failure. Read-only: it never edits the Lists. Free public APIs, about one
 import argparse, csv, json, os, sys, time, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA = os.path.join(ROOT, "lists", "data")
+DATA = os.path.join(ROOT, "lists", "data")   # --data overrides
 UA = {"User-Agent": "sanecite-recheck/1.0 (mailto:hi@saneapps.com)"}
 
 
@@ -76,11 +79,16 @@ def crossref(doi):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--data", default="", help="the Lists data folder (default lists/data)")
     ap.add_argument("--pmids", default="")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--out", default="")
     ap.add_argument("--save", action="store_true", help="store this run's Crossref answers as the next run's baseline")
     a = ap.parse_args()
+    global DATA
+    if a.data: DATA = os.path.abspath(os.path.expanduser(a.data))
+    if not os.path.isfile(os.path.join(DATA, "retraction_status.csv")):
+        sys.exit(f"no Lists data in {DATA}: pass --data with the folder that holds lists.json and retraction_status.csv")
     pmids = [p.strip() for p in a.pmids.split(",") if p.strip()] or listed_pmids()
     if a.limit: pmids = pmids[:a.limit]
     base = baseline()
