@@ -1,19 +1,30 @@
 #!/usr/bin/env python3
 """Stage 3 census, codebook v3.1: label every context of every usable pair with ONE model.
 Run once per panel model (jev, gemma, clef) in parallel; each writes its own file, so writers never share a file.
-usage: SANECITE_DATA=... stage3_census.py <model> <workers>"""
-import json, os, sys, time, concurrent.futures as cf
+usage: SANECITE_DATA=... stage3_census.py <model> <workers>
+
+Every row written from 23 Oct 2026 on carries model_id (the model asked), run_date (UTC day the run started) and
+prompt_sha256 (hash of the codebook version, system prompt, examples and answer options). A file holds one edition:
+the script refuses to add rows whose model_id or prompt_sha256 differs from rows already in the file (EDITIONS.md)."""
+import hashlib, json, os, sys, time, concurrent.futures as cf
 sys.path.insert(0, os.path.dirname(__file__)); import classify as C
 DATA = os.environ["SANECITE_DATA"]; TOKEN = os.environ.get("CF_TOKEN") or os.environ.get("CLOUDFLARE_API_TOKEN") or ""
 model, W = sys.argv[1], int(sys.argv[2])
 tag = model.split("/")[-1].split("-")[0]
 OUT = f"{DATA}/stage3_{tag}.jsonl"
-have = set()
+PROMPT_SHA = hashlib.sha256(json.dumps([C.CODEBOOK, C.SYSTEM, C.EXAMPLES, C.STANCE, C.USE], ensure_ascii=False,
+                                       sort_keys=True).encode()).hexdigest()
+RUN_DATE = time.strftime("%Y-%m-%d", time.gmtime())
+have, seen = set(), set()
 if os.path.exists(OUT):
     for l in open(OUT):
         try: r = json.loads(l)
         except Exception: continue
         if r.get("label"): have.add((r["pair_id"], r["ctx"]))
+        if r.get("prompt_sha256"): seen.add((r.get("model_id"), r["prompt_sha256"]))
+if seen - {(model, PROMPT_SHA)}:
+    sys.exit(f"{OUT} already holds another edition {sorted(seen)}; a new model or prompt writes a new edition "
+             f"in a new data folder (EDITIONS.md)")
 recs = []
 for l in open(f"{DATA}/stage2_v31.jsonl"):
     try: r = json.loads(l)
@@ -29,7 +40,8 @@ def one(r, i):
             x = {"model": model, "error": f"{type(e).__name__}: {str(e)[:160]}"}
         if x.get("label"): break
         time.sleep(4 * (attempt + 1))
-    x.update({"pair_id": r["pair_id"], "ctx": i, "codebook": C.CODEBOOK}); return x
+    x.update({"pair_id": r["pair_id"], "ctx": i, "codebook": C.CODEBOOK, "model_id": model, "run_date": RUN_DATE,
+              "prompt_sha256": PROMPT_SHA}); return x
 bad = 0
 with open(OUT, "a") as f, cf.ThreadPoolExecutor(W) as ex:
     for k, x in enumerate(ex.map(lambda t: one(*t), todo)):

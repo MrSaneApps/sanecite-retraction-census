@@ -23,6 +23,14 @@ for tag in ("jev", "clef", "gemma"):
         calls[r["model"]] += 1
         cost[r["model"]] += PRICE.get(r["model"], 0) * (r.get("pt") or 0) + NEURON * (r.get("neurons") or 0)
         if r.get("label") and r.get("codebook") == C.CODEBOOK: L[(r["pair_id"], r["ctx"])][r["model"]] = r  # one codebook only
+# One edition per analysis (EDITIONS.md): labels from different prompts or model IDs are never mixed. Rows written
+# before 23 Oct 2026 carry no prompt_sha256 and form the first edition.
+_ed = collections.defaultdict(set)
+for _rows in L.values():
+    for _m, _r in _rows.items():
+        if _r.get("prompt_sha256"): _ed[_m].add((_r.get("model_id"), _r["prompt_sha256"]))
+if any(len(v) > 1 for v in _ed.values()):
+    sys.exit("labels from more than one edition (model_id, prompt_sha256): " + json.dumps({m: sorted(v) for m, v in _ed.items()}))
 s2 = []
 for l in open(f"{DATA}/stage2_v31.jsonl"):
     try: s2.append(json.loads(l))
