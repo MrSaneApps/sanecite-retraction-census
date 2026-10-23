@@ -17,6 +17,13 @@ TRUNCATED_REASONING = "truncated: reasoning only (thinking used the token budget
 TRUNCATED_LENGTH = "truncated: length"
 
 
+
+def _cf_ai_off():
+    """Local spend switch: while ~/.sane/CLOUDFLARE_AI_OFF exists, no Workers AI request leaves this machine."""
+    off = os.environ.get("SANE_CF_AI_OFF_FILE") or os.path.join(os.path.expanduser("~"), ".sane", "CLOUDFLARE_AI_OFF")
+    if os.path.exists(off):
+        raise SystemExit("BLOCKED: Cloudflare Workers AI is switched off (" + off + ").")
+
 def cf_profile(model):
     """Per-model settings. The census panel used gemma-4-26b-a4b-it (this branch) plus the typed lane below."""
     m = model.lower()
@@ -69,6 +76,7 @@ def _pick_content(result):
 
 def cf_call(model, messages, token, account, max_tokens=1800, *, temperature=0.0, enable_thinking=None,
             use_max_completion_tokens=False, timeout=120):
+    _cf_ai_off()
     url = f"https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{model}"
     payload = {"messages": messages, "temperature": temperature}
     payload["max_completion_tokens" if use_max_completion_tokens else "max_tokens"] = max_tokens
@@ -127,6 +135,7 @@ def _post(url, payload, token, timeout=25):
 
 
 def _cf_jev(state, questions, model):
+    _cf_ai_off()
     token = os.environ.get("CF_TOKEN") or os.environ.get("CLOUDFLARE_API_TOKEN", "")
     account = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
     if not token or not account:
