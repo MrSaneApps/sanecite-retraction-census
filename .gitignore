@@ -3,3 +3,4 @@ __pycache__/
 phase1/data/
 phase1/raw/
 phase1/site_out/
+.stage_sources.json
