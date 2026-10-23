@@ -9,7 +9,8 @@ Rebuilds two folders from the current working copies, so nothing here is copied 
   checker/  the stage-3 accuracy test of the citation checker: protocol, pre-registrations, deviations, the hash log,
             the scripts, the reference reads and items.csv (one row per drawn citation, every verdict and vote)
 
-Run it again on the day of a release. It deletes and rewrites only lists/ and checker/.
+Run it again on the day of a release, then python3 scripts/verify_manifest.py --update "<release>" so MANIFEST.sha256
+gets a block for the new versions. It deletes and rewrites only lists/ and checker/.
 
 Where the working copies live is private and stays out of the repository: the sources file (default
 .stage_sources.json at the repository root, listed in .gitignore) maps each source name to its folder, plus

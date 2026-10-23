@@ -1,0 +1,21 @@
+Data license
+
+Copyright (c) 2026 Stephan Joseph
+
+The data that SaneCite made in this repository (labels, verdicts, counts, rates, rankings, the Lists, corrections,
+errata and the result files) are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt them for any purpose, including commercially, if you give credit (cite the dataset as shown
+in README.md), link to the license and say if you changed them.
+
+Not covered by this license:
+- Quoted passages from published articles: the citing passages in data/stage2_v31.jsonl.gz and the contexts files,
+  and any words of an article quoted in a reader's one-line reason. Each stays under the license of the article it comes from. They are
+  included as short quotations so that every label can be checked against its text. Check the source article's
+  license before you reuse a passage on its own.
+- Retraction Watch records (titles, reasons and dates in data/stage1_papers.jsonl.gz and the Lists files). They come
+  from the Retraction Watch database as released by Crossref, under the terms Crossref and Retraction Watch set.
+- Metadata from Europe PMC, PubMed, Crossref and OpenAlex, under each service's own terms.
+
+The code is under the MIT license in LICENSE.
