@@ -2,7 +2,11 @@
 """Census analysis, codebook v3.1. Pair label = strongest panel label over its contexts.
 Rates over research papers (retraction notices set aside), cluster-bootstrap 95% CIs over retracted papers,
 and a strict/lenient band for contexts where the three models did not agree.
-usage: SANECITE_DATA=... analyze_census.py   -> $DATA/census_results.json, $DATA/census_rows.jsonl"""
+usage: SANECITE_DATA=... analyze_census.py   -> $DATA/census_results.json, $DATA/census_rows.jsonl
+
+Correction of 20 Oct 2026 (amendment 11, part 4): pairs on Retraction Watch records whose PubMed ID points to a
+different paper are listed in errata/wrong_records.csv (scripts/frame_check.py). Every row carries wrong_record, and
+census_results.json reports the census as published (all pairs) and, under "corrected_wrong_records", without them."""
 import json, os, random, re, sys, collections
 sys.path.insert(0, os.path.dirname(__file__)); import panel as P, classify as C
 DATA = os.environ["SANECITE_DATA"]
@@ -24,6 +28,11 @@ for l in open(f"{DATA}/stage2_v31.jsonl"):
     try: s2.append(json.loads(l))
     except Exception: pass
 from groups import ADMIN_G, reason_group, field_group   # amendment 3: shared rules (groups.py)
+import csv
+WRONG_CSV = os.environ.get("SANECITE_WRONG_RECORDS") or os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "errata", "wrong_records.csv")
+WRONG = set()
+if os.path.exists(WRONG_CSV):
+    for w in csv.DictReader(open(WRONG_CSV)): WRONG.update(w["affected_pair_ids"].split())
 rows, notices, incomplete = [], 0, 0
 for rec in s2:
     if rec.get("status") != "ok": continue
@@ -48,7 +57,7 @@ for rec in s2:
                  "ref_retracted": bool(rec.get("ref_entry_flags_retraction")), "doc_mentions_retract": bool(rec.get("doc_mentions_retract")),
                  "reason": reason_group(rec.get("reason")), "field": field_group(rec.get("subject")), "field_codes": sorted(set(re.findall(r"\((\w+)\)", rec.get("subject") or ""))), "years_after": y,
                  "retraction_year": rec["retraction_year"], "citing_year": rec.get("citing_year"), "n_contexts": len(labs),
-                 "where": [c.get("where", "text") for c in rec["contexts"]]})
+                 "where": [c.get("where", "text") for c in rec["contexts"]], "wrong_record": rec["pair_id"] in WRONG})
 judged_all = [r for r in rows if r["label"] != "unclear"]
 judged = [r for r in judged_all if r["reason"] != ADMIN_G]   # headline: retractions that say the work is unreliable or improper
 def boot(rs, pred, B=400, seed=1):
@@ -156,6 +165,17 @@ try:
                                                                                        and cpanel[pid] != next(r["label"] for r in rows if r["pair_id"] == pid))}
 except FileNotFoundError:
     pass
+# Correction of 20 Oct 2026: the same figures without pairs on wrong records (errata/wrong_records.csv). The figures
+# above stay as published; this block is the correction of record.
+if WRONG:
+    ok = [r for r in rows if not r["wrong_record"]]
+    oj = [r for r in ok if r["label"] != "unclear" and r["reason"] != ADMIN_G]
+    res["corrected_wrong_records"] = {
+        "source": "errata/wrong_records.csv (amendment 11, part 4)", "pairs_removed": len(rows) - len(ok),
+        "judged_removed": len(judged) - len(oj), "pairs_classified": len(ok), "judged": len(oj),
+        "retracted_papers": len({r["paper"] for r in ok}),
+        "substantive": stat(oj, lambda r: r["label"] == "substantive"), "aware": stat(oj, lambda r: r["label"] == "aware"),
+        "perfunctory": stat(oj, lambda r: r["label"] == "perfunctory")}
 res["cost_usd_note"] = ("logged usage at list prices; Jev's AI Gateway billing record for 13-14 Oct 2026 is $1.835 "
                         "(input tokens only, $0.042/M; fewer tokens billed than Jev reports per call)")
 json.dump(res, open(f"{DATA}/census_results.json", "w"), indent=1)

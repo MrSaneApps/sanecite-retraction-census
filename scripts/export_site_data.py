@@ -5,7 +5,8 @@ usage: SANECITE_DATA=... export_site_data.py <site repo>/data/phase2
 Writes:
   papers.json          one row per retracted paper with a classified citation (the page's search index)
   c/<bucket>.json      every classified citation of the papers in that bucket (loaded when a paper opens)
-  citations.csv        one row per citing paper, labels only (download)
+  citations.csv        one row per citing paper, labels only (download); wrong_record marks the 12 pairs of the
+                       20 Oct 2026 correction (errata/wrong_records.csv)
   contexts-<n>.csv     the citing sentences, split so no file passes Cloudflare Pages' 25 MiB limit
   census.json          the results (census_results.json; keys added by hand to an existing census.json are kept)
   codebook.md          copy of the census codebook
@@ -85,7 +86,7 @@ for pid, row in rows.items():
                                    LABELS.index(row["label"]), ROUTES.index(row["route"]), bool(row["ref_retracted"]), shown])
     cit_rows.append([pid, pm, rec.get("retracted_doi") or "", rec["retraction_year"], row["reason"], row["field"], rec["citing_pmcid"],
                      rec.get("citing_year"), rec.get("citing_journal") or "", row["label"], row["strict"], row["lenient"], row["route"],
-                     row["ref_retracted"], row["n_contexts"]])
+                     row["ref_retracted"], row["n_contexts"], bool(row.get("wrong_record"))])
 plist = sorted(papers.values(), key=lambda p: (-p["s"], -p["n"], p["pmid"]))
 meta = json.load(open(f"{DATA}/census_results.json"))
 json.dump({"labels": LABELS, "routes": ROUTES, "reasons": REASONS, "fields": FIELDS, "codebook": meta.get("codebook"),
@@ -95,7 +96,8 @@ for b, d in shards.items():
     json.dump(d, open(f"{OUT}/c/{b}.json", "w"), ensure_ascii=False, separators=(",", ":"))
 with open(f"{OUT}/citations.csv", "w", newline="") as f:
     w = csv.writer(f); w.writerow(["pair_id", "retracted_pmid", "retracted_doi", "retraction_year", "retraction_reason", "field", "citing_pmcid",
-                                   "citing_year", "citing_journal", "label", "label_strict", "label_lenient", "panel_route", "ref_list_says_retracted", "n_contexts"])
+                                   "citing_year", "citing_journal", "label", "label_strict", "label_lenient", "panel_route", "ref_list_says_retracted", "n_contexts",
+                                   "wrong_record"])  # wrong_record: correction of 20 Oct 2026, errata/wrong_records.csv
     w.writerows(cit_rows)
 part, size, f, w = 0, 0, None, None  # contexts CSV parts, each under 22 MiB
 for r in ctx_rows:

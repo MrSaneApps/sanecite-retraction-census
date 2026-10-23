@@ -1,0 +1,2 @@
+rw_id,pmid,rw_title,epmc_title,rw_doi,epmc_doi,overlap,rule,n_pairs,affected_pair_ids
+26468,31886569,Circular RNA circMTO1 acts as an antitumor factor in rectal cancer cell lines by downregulation of miR‐19b‐3p,Retraction.,10.1002/jcb.29570,10.1002/jcb.29570,0.00,"(b) PubMed record replaced by its own notice, same DOI",3,31886569>PMC7196774 31886569>PMC7412918 31886569>PMC7848167

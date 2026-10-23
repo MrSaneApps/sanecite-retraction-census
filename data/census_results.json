@@ -1327,5 +1327,43 @@
    "27698958>PMC8593343"
   ]
  },
+ "corrected_wrong_records": {
+  "source": "errata/wrong_records.csv (amendment 11, part 4)",
+  "pairs_removed": 12,
+  "judged_removed": 12,
+  "pairs_classified": 55676,
+  "judged": 51614,
+  "retracted_papers": 12857,
+  "substantive": {
+   "rate": 0.4075,
+   "k": 21032,
+   "ci95": [
+    0.399367,
+    0.415481
+   ],
+   "n": 51614,
+   "papers": 12321
+  },
+  "aware": {
+   "rate": 0.0334,
+   "k": 1725,
+   "ci95": [
+    0.026843,
+    0.04222
+   ],
+   "n": 51614,
+   "papers": 12321
+  },
+  "perfunctory": {
+   "rate": 0.5591,
+   "k": 28857,
+   "ci95": [
+    0.551066,
+    0.567235
+   ],
+   "n": 51614,
+   "papers": 12321
+  }
+ },
  "cost_usd_note": "logged usage at list prices; Jev's AI Gateway billing record for 13-14 Oct 2026 is $1.835 (input tokens only, $0.042/M; fewer tokens billed than Jev reports per call)"
 }
