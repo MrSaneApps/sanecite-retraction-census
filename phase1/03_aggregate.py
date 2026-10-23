@@ -42,6 +42,7 @@ for w in works:
     recs[w["doi"]].append(w)
 same_doi = set(json.load(open(BASE / "same_doi_replacements.json"))["dois"])
 excluded = {d for d, rs in recs.items() if all(reason_group(r["reason"]) == ADMIN_G for r in rs)} | (same_doi & set(recs))
+dois_before_exclusion = len(by_doi)
 excluded_rows = {d: by_doi.pop(d) for d in list(by_doi) if d in excluded}
 
 oa = {}
@@ -118,7 +119,10 @@ with open(DATA / "top50.json", "w") as f:
 agg = {
     "rw_rows_in_scope": len(works),
     "unique_dois_in_scope": len(by_doi),
-    "excluded_administrative": {"papers": ex_resolved, "citations": ex_post, "papers_incl_unresolved": len(excluded_rows)},
+    "excluded_administrative": {"papers": ex_resolved, "citations": ex_post, "papers_incl_unresolved": len(excluded_rows),
+                                "dois_all_records": len(excluded_rows)},
+    "unique_dois_before_exclusion": dois_before_exclusion,      # "DOIs retracted 2024 or earlier" in results.json
+    "openalex_resolved_before_exclusion": n + ex_resolved,      # "matched in OpenAlex" in results.json
     "duplicate_rw_records_collapsed": dup_records,
     "openalex_resolved": n,
     "openalex_coverage_pct": pct(n, len(by_doi)),
