@@ -7,7 +7,13 @@ Writes:
   c/<bucket>.json      every classified citation of the papers in that bucket (loaded when a paper opens)
   citations.csv        one row per citing paper, labels only (download)
   contexts-<n>.csv     the citing sentences, split so no file passes Cloudflare Pages' 25 MiB limit
-  census.json          the results (copy of census_results.json)"""
+  census.json          the results (census_results.json; keys added by hand to an existing census.json are kept)
+  codebook.md          copy of the census codebook
+
+It writes and replaces only those files. Everything else in the folder (the Lists inputs such as lists.json,
+list_corrections.json, list_checks.csv, author_items.json, retraction_status.csv, by_subject.json, paper_subjects.csv)
+is left alone, and the script stops with an error if any of it changed. (Before 23 Oct 2026 it deleted the whole
+folder first.)"""
 import csv, json, os, re, shutil, sys, collections
 sys.path.insert(0, os.path.dirname(__file__)); import panel as P, classify as C
 DATA = os.environ["SANECITE_DATA"]; OUT = sys.argv[1]
@@ -30,7 +36,22 @@ for l in open(f"{DATA}/stage2_v31.jsonl"):
     try: r = json.loads(l)
     except Exception: continue
     if r["pair_id"] in rows: recs[r["pair_id"]] = r
-if os.path.isdir(OUT): shutil.rmtree(OUT)
+OWN = re.compile(r"^(papers\.json|citations\.csv|contexts-\d+\.csv|census\.json|codebook\.md)$")  # files this script writes
+def others():  # every file in OUT that this script does not own, with size and mtime, to prove it never touches them
+    out = {}
+    for dp, dn, fn in os.walk(OUT):
+        rel = os.path.relpath(dp, OUT)
+        if rel == "c" or rel.startswith("c" + os.sep): continue
+        for x in fn:
+            if rel == "." and OWN.match(x): continue
+            st = os.stat(os.path.join(dp, x)); out[os.path.normpath(os.path.join(rel, x))] = (st.st_size, st.st_mtime_ns)
+    return out
+os.makedirs(OUT, exist_ok=True)
+before = others()
+old_census = json.load(open(f"{OUT}/census.json")) if os.path.exists(f"{OUT}/census.json") else {}
+for x in os.listdir(OUT):  # remove only our own outputs, so a smaller run leaves no stale contexts part
+    if OWN.match(x): os.remove(f"{OUT}/{x}")
+if os.path.isdir(f"{OUT}/c"): shutil.rmtree(f"{OUT}/c")   # c/ holds only this script's shards
 os.makedirs(f"{OUT}/c")
 papers, shards = {}, collections.defaultdict(lambda: collections.defaultdict(list))
 cit_rows, ctx_rows = [], []
@@ -40,7 +61,8 @@ for pid, row in rows.items():
     pm = rec["retracted_pmid"]
     p = papers.setdefault(pm, {"pmid": pm, "t": rec["retracted_title"], "j": rec.get("retracted_journal") or "", "ry": rec["retraction_year"],
                                "r": REASONS.index(row["reason"]), "f": row["field"], "doi": rec.get("retracted_doi") or "",
-                               "n": 0, "s": 0, "p": 0, "a": 0, "x": 0, "u": 0})
+                               "n": 0, "s": 0, "p": 0, "a": 0, "x": 0, "u": 0,
+                               "rr": int("Retract and Replace" in (rec.get("reason") or ""))})  # Retraction Watch "Retract and Replace" tag
     p["n"] += 1; p[{"substantive": "s", "perfunctory": "p", "aware": "a", "unclear": "u"}[row["label"]]] += 1
     p["x"] += row["route"] != "unanimous"
     best = None  # the context that decided the pair label, shown first
@@ -67,7 +89,7 @@ for pid, row in rows.items():
 plist = sorted(papers.values(), key=lambda p: (-p["s"], -p["n"], p["pmid"]))
 meta = json.load(open(f"{DATA}/census_results.json"))
 json.dump({"labels": LABELS, "routes": ROUTES, "reasons": REASONS, "fields": FIELDS, "codebook": meta.get("codebook"),
-           "papers": [[p["pmid"], p["t"], p["j"], p["ry"], p["r"], p["f"], p["doi"], p["n"], p["s"], p["p"], p["a"], p["x"], p["u"]] for p in plist]},
+           "papers": [[p["pmid"], p["t"], p["j"], p["ry"], p["r"], p["f"], p["doi"], p["n"], p["s"], p["p"], p["a"], p["x"], p["u"], p["rr"]] for p in plist]},
           open(f"{OUT}/papers.json", "w"), ensure_ascii=False, separators=(",", ":"))
 for b, d in shards.items():
     json.dump(d, open(f"{OUT}/c/{b}.json", "w"), ensure_ascii=False, separators=(",", ":"))
@@ -83,9 +105,20 @@ for r in ctx_rows:
         w.writerow(["pair_id", "context", "label", "panel_route", "section", "where", "before", "sentence", "after"])
     w.writerow(r); size += sum(len(str(x)) for x in r) + 20
 if f: f.close()
-shutil.copy(f"{DATA}/census_results.json", f"{OUT}/census.json")
+census = json.load(open(f"{DATA}/census_results.json"))
+def keep(new, old, path=""):  # site notes added after export (data_as_of, caveat, ...), at any depth
+    kept = []
+    for k, v in old.items():
+        if k not in new: new[k] = v; kept.append(path + k)
+        elif isinstance(v, dict) and isinstance(new[k], dict): kept += keep(new[k], v, path + k + ".")
+    return kept
+kept = keep(census, old_census)
+json.dump(census, open(f"{OUT}/census.json", "w"), indent=1, ensure_ascii=False)
+if kept: print("census.json: kept keys not in census_results.json:", ", ".join(sorted(kept)))
 idx = json.load(open(f"{OUT}/papers.json")); idx["context_files"] = [f"contexts-{i}.csv" for i in range(1, part + 1)]
 json.dump(idx, open(f"{OUT}/papers.json", "w"), ensure_ascii=False, separators=(",", ":"))
 CB = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "CODEBOOK.md")
 if os.path.exists(CB): shutil.copy(CB, f"{OUT}/codebook.md")
+after = others()
+assert after == before, "export touched files it does not own: " + ", ".join(sorted(k for k in set(before) | set(after) if before.get(k) != after.get(k)))
 print(f"papers {len(plist)}, citations {len(cit_rows)}, contexts {len(ctx_rows)}, shards {len(shards)}, context files {part}")
