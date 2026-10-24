@@ -139,7 +139,7 @@ repository" button uses [`CITATION.cff`](CITATION.cff).
 
 ## Contact and license
 
-Stephan Joseph, SaneApps, Dahlonega, Georgia · [hi@saneapps.com](mailto:hi@saneapps.com) ·
+Stephan Joseph, Georgia, USA · [hi@saneapps.com](mailto:hi@saneapps.com) ·
 [ORCID 0009-0001-0250-5446](https://orcid.org/0009-0001-0250-5446) · [sanecite.com](https://sanecite.com)
 
 Code under the [MIT license](LICENSE). Data that SaneCite made (labels, counts, Lists, corrections) under
