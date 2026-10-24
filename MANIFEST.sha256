@@ -138,3 +138,5 @@ aad2ff40f379e5e56a02b0bb54ac1dad820def59ed456f0de7a4eaa508b25738  ./scripts/stag
 f7fb828d9bc31060bd4e5a0d26c5172a8615bb1d3bd7b69ec0672786f5b0e727  ./scripts/stage_release.py
 473d3814ad1f94d6a96c68e219db2ac4d366d52e6de694a807beeab70404a56e  ./scripts/test_release_checks.py
 841bc1ff4cef57695bf9be0e986a9aca03eb0550907e1fc48ad054dadcbcef05  ./scripts/verify_manifest.py
+# 2026-10-24T00:36Z 2026-10-23 README location; release-check tests moved to the private repo
+2a90875a885d66449fe36e5c70c539cc0f8fca8120d28dcda5cd95d5a2ad678c  ./README.md
