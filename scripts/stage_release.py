@@ -44,7 +44,7 @@ A record copied byte for byte must also match the latest hash its own hash log (
 import argparse, csv, gzip, hashlib, json, os, re, shutil, subprocess, sys, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STAGED = ("lists", "checker")
+STAGED = ("lists", "checker", "stories")
 
 # Lists code, by source folder. Letter builders, recipient lists and send scripts are left out on purpose.
 LISTS_CODE = {
@@ -73,6 +73,10 @@ CHECKER_RECORDS = ["PROTOCOL.md", "PREREG_RERUN_2026-10-22.md", "PREREG_SYSTEM_2
 CHECKER_READS = ["batches/b6/gold/gold.jsonl", "batches/b6/gold/adjudicated.jsonl", "batches/b6/ref_A/readerA.jsonl",
                  "batches/b6/ref_muse/muse.jsonl", "batches/b6/ref_grok_or.jsonl", "batches/b6/ref_gemini.jsonl",
                  "batches/b6/gold_gemini/gold.jsonl", "batches/b6/draws_test.json", "batches/b6/draws_flagged.json"]
+# Story re-analyses on sanecite.com/stories (added 27 Oct 2026). Code and the trial-registry sweep only: the papers'
+# full texts and figures beside them in the working folder are never staged.
+STORIES_FILES = ["meta.py", "vitc/rerun.py", "syn/rerun_sildenafil.py", "syn/rerun_dhea.py", "ctgov_sweep.py",
+                 "ctgov_after.json"]
 HASH_LOG = "PREREG_HASHES.txt"
 QUOTE_KEYS = {"quote"}   # quoted passages from the papers; quote_found (a yes/no) stays
 SKIP_SCRIPT = re.compile(r"(\.bak|\.v\d+$|\.mjs$|^site_shot|^grants\.py$)")   # backups, screenshot helpers, grant drafts
@@ -335,6 +339,23 @@ replaced by `work/<name>/`; nothing else was changed. Letters to authors and the
 `csv/replies.csv` is the published summary of each reply under the right-of-reply rule.
 """
 
+README_STORIES = """# Stories: the re-analyses behind sanecite.com/stories
+
+Code and data for the case stories published on sanecite.com/stories on 29 October 2026. Staged by
+`scripts/stage_release.py` on {date}. The papers' full texts and figures we read are not included; each story links them.
+
+| Path | What it is |
+|---|---|
+| `meta.py` | Small meta-analysis helpers matching RevMan: Mantel-Haenszel fixed and DerSimonian-Laird random risk ratios, inverse-variance mean differences |
+| `vitc/rerun.py` | The sepsis guideline story: re-runs the vitamin C meta-analyses with and without the retracted trial (risk ratios for mortality; Hedges' g with DerSimonian-Laird random effects for the vasoactive-drug outcome) |
+| `syn/rerun_sildenafil.py`, `syn/rerun_dhea.py` | Re-runs of two reviews' pooled estimates with and without the retracted trial (BMC Pediatrics 2024, sildenafil; J Ovarian Res 2025, DHEA) |
+| `ctgov_sweep.py` | Searches ClinicalTrials.gov for registered trials that cite a retracted paper in the census |
+| `ctgov_after.json` | The sweep's result: 224 pairs of a registered trial and a retracted paper it lists, each trial first submitted after that retraction |
+
+Each script prints its numbers; run it with Python 3 from this folder (`ctgov_sweep.py` expects the census
+`data/stage1_papers.jsonl` one folder up and calls the ClinicalTrials.gov API).
+"""
+
 README_CHECKER = """# Checker: the citation-accuracy test (batch 6)
 
 The test of 996 random citations behind the accuracy figures on sanecite.com/checker, as recorded. Staged by
@@ -407,6 +428,9 @@ def stage(cfg):
         rows = checker_items(st)
         st.write("checker", "README.md", README_CHECKER.format(date=date, changed=changed_section(st.redacted)))
 
+        for f in STORIES_FILES: st.put("stories", st.src("stories", f), f)
+        st.write("stories", "README.md", README_STORIES.format(date=date))
+
         for folder, entries in st.log.items():
             lines = [f"# {folder}/ staged {date}: sha256 of the source file, sha256 of the staged file, staged path",
                      "# The two hashes differ where private folder paths were replaced, a record was redacted or",
@@ -416,15 +440,16 @@ def stage(cfg):
         bad = scan_staged(st)
         if bad:
             print("\n".join("STOP: " + b for b in bad))
-            print("nothing changed: lists/ and checker/ are as they were")
+            print("nothing changed: lists/, checker/ and stories/ are as they were")
             return 1
         for folder in STAGED:   # clean scan: swap the new folders in
             old = os.path.join(ROOT, folder)
             if os.path.isdir(old): shutil.rmtree(old)   # both folders belong to this script alone; git keeps the old ones
             os.replace(os.path.join(base, folder), old)
         n = {f: len(e) for f, e in st.log.items()}
-        print(f"staged lists/ ({n.get('lists', 0)} files) and checker/ ({n.get('checker', 0)} files, items.csv "
-              f"{len(rows)} rows); {len(st.redacted)} files differ from their original on purpose (README.md)")
+        print(f"staged lists/ ({n.get('lists', 0)} files), checker/ ({n.get('checker', 0)} files, items.csv "
+              f"{len(rows)} rows) and stories/ ({n.get('stories', 0)} files); {len(st.redacted)} files differ from their "
+              f"original on purpose (README.md)")
         return 0
     finally:
         shutil.rmtree(base, ignore_errors=True)
