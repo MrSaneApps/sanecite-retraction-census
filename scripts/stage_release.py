@@ -76,7 +76,7 @@ CHECKER_READS = ["batches/b6/gold/gold.jsonl", "batches/b6/gold/adjudicated.json
 # Story re-analyses on sanecite.com/stories (added 27 Oct 2026). Code and the trial-registry sweep only: the papers'
 # full texts and figures beside them in the working folder are never staged.
 STORIES_FILES = ["meta.py", "vitc/rerun.py", "syn/rerun_sildenafil.py", "syn/rerun_dhea.py", "ctgov_sweep.py",
-                 "ctgov_after.json"]
+                 "ctgov_hits.jsonl", "ctgov_after.json"]
 HASH_LOG = "PREREG_HASHES.txt"
 QUOTE_KEYS = {"quote"}   # quoted passages from the papers; quote_found (a yes/no) stays
 SKIP_SCRIPT = re.compile(r"(\.bak|\.v\d+$|\.mjs$|^site_shot|^grants\.py$)")   # backups, screenshot helpers, grant drafts
@@ -350,7 +350,8 @@ Code and data for the case stories published on sanecite.com/stories on 29 Octob
 | `vitc/rerun.py` | The sepsis guideline story: re-runs the vitamin C meta-analyses with and without the retracted trial (risk ratios for mortality; Hedges' g with DerSimonian-Laird random effects for the vasoactive-drug outcome) |
 | `syn/rerun_sildenafil.py`, `syn/rerun_dhea.py` | Re-runs of two reviews' pooled estimates with and without the retracted trial (BMC Pediatrics 2024, sildenafil; J Ovarian Res 2025, DHEA) |
 | `ctgov_sweep.py` | Searches ClinicalTrials.gov for registered trials that cite a retracted paper in the census |
-| `ctgov_after.json` | The sweep's result: 224 pairs of a registered trial and a retracted paper it lists, each trial first submitted after that retraction |
+| `ctgov_hits.jsonl` | Everything the sweep found: 646 pairs of a registered trial and a retracted paper it lists |
+| `ctgov_after.json` | The 224 pairs from `ctgov_hits.jsonl` where the trial was first submitted after the retraction, leaving out retract-and-replace notices |
 
 Each script prints its numbers; run it with Python 3 from this folder (`ctgov_sweep.py` expects the census
 `data/stage1_papers.jsonl` one folder up and calls the ClinicalTrials.gov API).
