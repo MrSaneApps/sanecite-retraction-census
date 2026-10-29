@@ -11,8 +11,9 @@ Rebuilds two folders from the current working copies, so nothing here is copied 
             the scripts, the reference reads and items.csv (one row per drawn citation, every verdict and vote)
 
 The Lists name people, so lists/ and checker/ are committed only on the release branch and merged on launch day,
-after the reply deadline (SOP H). The sequence for that day: run this script, then
-python3 scripts/verify_manifest.py --update "<release>", then python3 scripts/stage_release.py --scan-repo, then push.
+after the reply deadline (SOP H). The sequence for that day: run this script, then git add the staged folders (the
+next two steps see tracked files only), then python3 scripts/verify_manifest.py --update "<release>", then
+python3 scripts/stage_release.py --scan-repo and scripts/pre_push.py, then push.
 
 Everything is staged into a temporary folder and scanned there; lists/ and checker/ are replaced only when the scan
 is clean, so a stopped run leaves the repository as it was.

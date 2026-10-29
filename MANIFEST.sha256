@@ -266,3 +266,6 @@ f155521bcf246bfb406cce78676019d3d8d208f840e9be80f5f10435ead4b01b  ./stories/meta
 d215824d1aa69129d7b8a73d4c69336f7e217a19d7980b9b26b8e34a232e2a28  ./stories/vitc/rerun.py
 # 2026-10-29T13:13Z v1.3.0
 a3495b04437967bec22b71e1539df1a0028e7ba9f1d245750d1401c25bf00b14  ./scripts/stage_release.py
+# 2026-10-29T13:43Z post-v1.3.0 docs
+0ae104a4fddffbd575cf43c54dcc2c14abacfb75b4ea951f6dc237a4e39df548  ./CITATION.cff
+0633ec6b2a8a042bdeb082c90a80fb9ace7199ae6d621af847a4630efe42fb1f  ./scripts/stage_release.py
