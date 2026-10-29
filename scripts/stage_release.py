@@ -99,6 +99,8 @@ REPO_ALLOW = {
     "errata/epmc_titles.jsonl.gz": {"e-mail": "article titles exactly as Europe PMC returns them (one title has an "
                                               "author's address in it)"},
     "scripts/stage_release.py": {"*": "this file defines the rules"},
+    "lists/data/list_corrections.json": {"internal procedure": "kept as the site serves it (its replies_rule names "
+                                                               "the rule SOP C9); same allow as the staging step"},
 }
 
 
