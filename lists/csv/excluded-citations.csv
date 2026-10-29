@@ -1,0 +1,736 @@
+pair_id,retracted_pmid,left_out_because,citing_pmcid,citing_year,citing_journal,census_label,ref_list_says_retracted
+15222900>PMC10848839,15222900,retracted for a reason that does not touch the results,PMC10848839,2023,Zookeys,perfunctory,False
+15222900>PMC11510093,15222900,retracted for a reason that does not touch the results,PMC11510093,2024,Microorganisms,substantive,False
+15222900>PMC12444958,15222900,retracted for a reason that does not touch the results,PMC12444958,2025,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC4723042,15222900,retracted for a reason that does not touch the results,PMC4723042,2016,PLoS One,perfunctory,False
+15222900>PMC4735820,15222900,retracted for a reason that does not touch the results,PMC4735820,2016,Nat Commun,substantive,True
+15222900>PMC4739531,15222900,retracted for a reason that does not touch the results,PMC4739531,2016,PLoS One,substantive,False
+15222900>PMC4801191,15222900,retracted for a reason that does not touch the results,PMC4801191,2016,PLoS One,substantive,False
+15222900>PMC4920589,15222900,retracted for a reason that does not touch the results,PMC4920589,2016,PLoS One,substantive,False
+15222900>PMC4963129,15222900,retracted for a reason that does not touch the results,PMC4963129,2016,PLoS One,substantive,False
+15222900>PMC5066062,15222900,retracted for a reason that does not touch the results,PMC5066062,2016,Syst Biol,substantive,False
+15222900>PMC5066751,15222900,retracted for a reason that does not touch the results,PMC5066751,2016,J Eukaryot Microbiol,substantive,False
+15222900>PMC5224867,15222900,retracted for a reason that does not touch the results,PMC5224867,2017,PLoS One,perfunctory,False
+15222900>PMC5228505,15222900,retracted for a reason that does not touch the results,PMC5228505,2017,PeerJ,substantive,False
+15222900>PMC5249238,15222900,retracted for a reason that does not touch the results,PMC5249238,2017,PLoS One,substantive,False
+15222900>PMC5482572,15222900,retracted for a reason that does not touch the results,PMC5482572,2017,Elife,perfunctory,False
+15222900>PMC5484494,15222900,retracted for a reason that does not touch the results,PMC5484494,2017,PLoS One,perfunctory,True
+15222900>PMC5490482,15222900,retracted for a reason that does not touch the results,PMC5490482,2017,PeerJ,substantive,False
+15222900>PMC5510963,15222900,retracted for a reason that does not touch the results,PMC5510963,2017,J Insect Sci,substantive,False
+15222900>PMC5513162,15222900,retracted for a reason that does not touch the results,PMC5513162,2017,BMC Evol Biol,substantive,True
+15222900>PMC5527341,15222900,retracted for a reason that does not touch the results,PMC5527341,2017,Zookeys,substantive,False
+15222900>PMC5543607,15222900,retracted for a reason that does not touch the results,PMC5543607,2017,PhytoKeys,perfunctory,False
+15222900>PMC5601483,15222900,retracted for a reason that does not touch the results,PMC5601483,2017,Sci Rep,perfunctory,True
+15222900>PMC5671498,15222900,retracted for a reason that does not touch the results,PMC5671498,2017,Front Cell Infect Microbiol,substantive,False
+15222900>PMC5804198,15222900,retracted for a reason that does not touch the results,PMC5804198,2017,Curr Zool,substantive,False
+15222900>PMC5822885,15222900,retracted for a reason that does not touch the results,PMC5822885,2016,Virus Evol,substantive,False
+15222900>PMC5828679,15222900,retracted for a reason that does not touch the results,PMC5828679,2018,PeerJ,substantive,False
+15222900>PMC5968859,15222900,retracted for a reason that does not touch the results,PMC5968859,2018,Zool Res,substantive,False
+15222900>PMC5968860,15222900,retracted for a reason that does not touch the results,PMC5968860,2018,Zool Res,perfunctory,False
+15222900>PMC5968861,15222900,retracted for a reason that does not touch the results,PMC5968861,2018,Zool Res,perfunctory,False
+15222900>PMC5968862,15222900,retracted for a reason that does not touch the results,PMC5968862,2018,Zool Res,perfunctory,False
+15222900>PMC5968863,15222900,retracted for a reason that does not touch the results,PMC5968863,2018,Zool Res,substantive,False
+15222900>PMC6015758,15222900,retracted for a reason that does not touch the results,PMC6015758,2018,PeerJ,perfunctory,False
+15222900>PMC6085692,15222900,retracted for a reason that does not touch the results,PMC6085692,2018,Zoological Lett,perfunctory,False
+15222900>PMC6161114,15222900,retracted for a reason that does not touch the results,PMC6161114,2018,Life (Basel),perfunctory,False
+15222900>PMC6290170,15222900,retracted for a reason that does not touch the results,PMC6290170,2018,Front Genet,perfunctory,False
+15222900>PMC6370203,15222900,retracted for a reason that does not touch the results,PMC6370203,2019,PLoS One,substantive,False
+15222900>PMC6784501,15222900,retracted for a reason that does not touch the results,PMC6784501,2019,Curr Zool,perfunctory,False
+15222900>PMC7217810,15222900,retracted for a reason that does not touch the results,PMC7217810,2020,Naturwissenschaften,perfunctory,False
+15222900>PMC7799508,15222900,retracted for a reason that does not touch the results,PMC7799508,2017,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC7799611,15222900,retracted for a reason that does not touch the results,PMC7799611,2017,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC7799903,15222900,retracted for a reason that does not touch the results,PMC7799903,2016,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC7800181,15222900,retracted for a reason that does not touch the results,PMC7800181,2017,Mitochondrial DNA B Resour,substantive,False
+15222900>PMC7800280,15222900,retracted for a reason that does not touch the results,PMC7800280,2016,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC7800373,15222900,retracted for a reason that does not touch the results,PMC7800373,2017,Mitochondrial DNA B Resour,substantive,False
+15222900>PMC7800416,15222900,retracted for a reason that does not touch the results,PMC7800416,2017,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC7800462,15222900,retracted for a reason that does not touch the results,PMC7800462,2016,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC7800507,15222900,retracted for a reason that does not touch the results,PMC7800507,2017,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC7800568,15222900,retracted for a reason that does not touch the results,PMC7800568,2018,Mitochondrial DNA B Resour,substantive,False
+15222900>PMC7801003,15222900,retracted for a reason that does not touch the results,PMC7801003,2016,Mitochondrial DNA B Resour,perfunctory,False
+15222900>PMC8136191,15222900,retracted for a reason that does not touch the results,PMC8136191,2021,BMC Ecol Evol,substantive,False
+15222900>PMC8944610,15222900,retracted for a reason that does not touch the results,PMC8944610,2022,Animals (Basel),substantive,False
+15222900>PMC9038717,15222900,retracted for a reason that does not touch the results,PMC9038717,2022,ISME J,substantive,False
+15222900>PMC9502406,15222900,retracted for a reason that does not touch the results,PMC9502406,2022,Microorganisms,substantive,False
+15222900>PMC9692275,15222900,retracted for a reason that does not touch the results,PMC9692275,2022,Microorganisms,substantive,False
+15222900>PMC9952678,15222900,retracted for a reason that does not touch the results,PMC9952678,2023,Animals (Basel),perfunctory,False
+16807438>PMC10258614,16807438,retracted for a reason that does not touch the results,PMC10258614,2023,touchREV Endocrinol,substantive,False
+16807438>PMC10702547,16807438,retracted for a reason that does not touch the results,PMC10702547,2023,Front Pharmacol,substantive,False
+16807438>PMC10783357,16807438,retracted for a reason that does not touch the results,PMC10783357,2024,Ann Med Surg (Lond),substantive,False
+16807438>PMC11415710,16807438,retracted for a reason that does not touch the results,PMC11415710,2024,Heliyon,substantive,False
+16807438>PMC12290386,16807438,retracted for a reason that does not touch the results,PMC12290386,2025,Ther Adv Med Oncol,substantive,False
+16807438>PMC12971714,16807438,retracted for a reason that does not touch the results,PMC12971714,2026,Front Immunol,perfunctory,False
+16807438>PMC4216839,16807438,retracted for a reason that does not touch the results,PMC4216839,2014,BMC Cancer,perfunctory,False
+16807438>PMC4657877,16807438,retracted for a reason that does not touch the results,PMC4657877,2015,PLoS One,perfunctory,False
+16807438>PMC4761671,16807438,retracted for a reason that does not touch the results,PMC4761671,2016,Case Rep Urol,perfunctory,False
+16807438>PMC4820188,16807438,retracted for a reason that does not touch the results,PMC4820188,2016,Int J Nanomedicine,substantive,False
+16807438>PMC4853416,16807438,retracted for a reason that does not touch the results,PMC4853416,2016,Front Pharmacol,perfunctory,False
+16807438>PMC4863506,16807438,retracted for a reason that does not touch the results,PMC4863506,2016,J Med Life,perfunctory,False
+16807438>PMC5066890,16807438,retracted for a reason that does not touch the results,PMC5066890,2016,Int Braz J Urol,substantive,True
+16807438>PMC5152610,16807438,retracted for a reason that does not touch the results,PMC5152610,2016,J Med Life,perfunctory,False
+16807438>PMC5519788,16807438,retracted for a reason that does not touch the results,PMC5519788,2017,ESMO Open,substantive,False
+16807438>PMC5706433,16807438,retracted for a reason that does not touch the results,PMC5706433,2017,J Biomed Res,perfunctory,False
+16807438>PMC6350113,16807438,retracted for a reason that does not touch the results,PMC6350113,2019,Ther Adv Urol,substantive,False
+16807438>PMC6974923,16807438,retracted for a reason that does not touch the results,PMC6974923,2019,Front Pharmacol,aware,False
+16807438>PMC7285857,16807438,retracted for a reason that does not touch the results,PMC7285857,2020,Oncol Lett,substantive,False
+16807438>PMC7374627,16807438,retracted for a reason that does not touch the results,PMC7374627,2020,Br J Cancer,perfunctory,False
+16807438>PMC7427778,16807438,retracted for a reason that does not touch the results,PMC7427778,2020,Cell Commun Signal,substantive,False
+16807438>PMC7658126,16807438,retracted for a reason that does not touch the results,PMC7658126,2020,Transl Androl Urol,perfunctory,False
+16807438>PMC7855860,16807438,retracted for a reason that does not touch the results,PMC7855860,2020,Front Oncol,perfunctory,False
+16807438>PMC7980066,16807438,retracted for a reason that does not touch the results,PMC7980066,2021,ESMO Open,perfunctory,False
+16807438>PMC8082411,16807438,retracted for a reason that does not touch the results,PMC8082411,2021,Front Mol Biosci,perfunctory,False
+16807438>PMC8656312,16807438,retracted for a reason that does not touch the results,PMC8656312,2021,Front Oncol,substantive,False
+16807438>PMC8756563,16807438,retracted for a reason that does not touch the results,PMC8756563,2022,Oncol Lett,perfunctory,False
+16807438>PMC8807493,16807438,retracted for a reason that does not touch the results,PMC8807493,2021,Front Oncol,perfunctory,False
+16807438>PMC8835066,16807438,retracted for a reason that does not touch the results,PMC8835066,2022,Int J Mol Sci,substantive,False
+16807438>PMC8873598,16807438,retracted for a reason that does not touch the results,PMC8873598,2022,Heliyon,perfunctory,False
+16807438>PMC8893690,16807438,retracted for a reason that does not touch the results,PMC8893690,2022,PLoS One,perfunctory,False
+16807438>PMC9270023,16807438,retracted for a reason that does not touch the results,PMC9270023,2022,Front Oncol,perfunctory,False
+16807438>PMC9392937,16807438,retracted for a reason that does not touch the results,PMC9392937,2022,BMC Urol,perfunctory,False
+16807438>PMC9393076,16807438,retracted for a reason that does not touch the results,PMC9393076,2022,Clin Transl Med,perfunctory,False
+16807438>PMC9715355,16807438,retracted for a reason that does not touch the results,PMC9715355,2022,Cell Prolif,perfunctory,False
+19371446>PMC10031927,19371446,retracted for a reason that does not touch the results,PMC10031927,2023,BMC Musculoskelet Disord,substantive,False
+19371446>PMC11605027,19371446,retracted for a reason that does not touch the results,PMC11605027,2024,Otolaryngol Head Neck Surg,perfunctory,False
+19371446>PMC3944419,19371446,retracted for a reason that does not touch the results,PMC3944419,2014,Croat Med J,aware,False
+19371446>PMC4691487,19371446,retracted for a reason that does not touch the results,PMC4691487,2015,Rehabil Res Pract,perfunctory,True
+19371446>PMC7394240,19371446,retracted for a reason that does not touch the results,PMC7394240,2020,Front Physiol,perfunctory,False
+19371446>PMC9904424,19371446,retracted for a reason that does not touch the results,PMC9904424,2023,Cureus,substantive,False
+19607689>PMC10919470,19607689,retracted for a reason that does not touch the results,PMC10919470,2024,Medicine (Baltimore),perfunctory,False
+19607689>PMC3136818,19607689,retracted for a reason that does not touch the results,PMC3136818,2011,Evid Based Complement Alternat Med,substantive,False
+19607689>PMC3773899,19607689,retracted for a reason that does not touch the results,PMC3773899,2013,Evid Based Complement Alternat Med,perfunctory,False
+19607689>PMC4212539,19607689,retracted for a reason that does not touch the results,PMC4212539,2014,Evid Based Complement Alternat Med,substantive,False
+19607689>PMC5043286,19607689,retracted for a reason that does not touch the results,PMC5043286,2016,Sci Rep,substantive,False
+19607689>PMC6409053,19607689,retracted for a reason that does not touch the results,PMC6409053,2019,Evid Based Complement Alternat Med,substantive,False
+19607689>PMC7249872,19607689,retracted for a reason that does not touch the results,PMC7249872,2020,Medicine (Baltimore),perfunctory,False
+19607689>PMC7302662,19607689,retracted for a reason that does not touch the results,PMC7302662,2020,Medicine (Baltimore),substantive,False
+19772305>PMC10143637,19772305,retracted for a reason that does not touch the results,PMC10143637,2023,Nanomaterials (Basel),substantive,False
+19772305>PMC10303181,19772305,retracted for a reason that does not touch the results,PMC10303181,2023,Metabolites,perfunctory,False
+19772305>PMC10328949,19772305,retracted for a reason that does not touch the results,PMC10328949,2023,Sci Rep,substantive,False
+19772305>PMC10347178,19772305,retracted for a reason that does not touch the results,PMC10347178,2023,Plants (Basel),substantive,False
+19772305>PMC10445218,19772305,retracted for a reason that does not touch the results,PMC10445218,2023,RSC Adv,perfunctory,False
+19772305>PMC10658824,19772305,retracted for a reason that does not touch the results,PMC10658824,2023,J Nanobiotechnology,substantive,False
+19772305>PMC10831664,19772305,retracted for a reason that does not touch the results,PMC10831664,2023,Front Plant Sci,substantive,False
+19772305>PMC10845776,19772305,retracted for a reason that does not touch the results,PMC10845776,2024,BMC Plant Biol,perfunctory,False
+19772305>PMC10931947,19772305,retracted for a reason that does not touch the results,PMC10931947,2024,Int J Mol Sci,substantive,False
+19772305>PMC11173783,19772305,retracted for a reason that does not touch the results,PMC11173783,2024,Molecules,perfunctory,False
+19772305>PMC11250757,19772305,retracted for a reason that does not touch the results,PMC11250757,2024,Discov Nano,perfunctory,False
+19772305>PMC11414052,19772305,retracted for a reason that does not touch the results,PMC11414052,2024,Microb Cell Fact,substantive,False
+19772305>PMC11561606,19772305,retracted for a reason that does not touch the results,PMC11561606,2024,ACS Omega,substantive,False
+19772305>PMC11600678,19772305,retracted for a reason that does not touch the results,PMC11600678,2024,J Nanobiotechnology,substantive,False
+19772305>PMC12019443,19772305,retracted for a reason that does not touch the results,PMC12019443,2025,ACS Omega,substantive,False
+19772305>PMC12329905,19772305,retracted for a reason that does not touch the results,PMC12329905,2025,BMC Plant Biol,substantive,False
+19772305>PMC12833398,19772305,retracted for a reason that does not touch the results,PMC12833398,2025,Front Plant Sci,substantive,False
+19772305>PMC12940176,19772305,retracted for a reason that does not touch the results,PMC12940176,2026,Plant Signal Behav,perfunctory,False
+19772305>PMC13124146,19772305,retracted for a reason that does not touch the results,PMC13124146,2026,Turk J Biol,perfunctory,False
+19772305>PMC13376077,19772305,retracted for a reason that does not touch the results,PMC13376077,2026,Discov Nano,perfunctory,False
+19772305>PMC3555345,19772305,retracted for a reason that does not touch the results,PMC3555345,2013,Environ Sci Pollut Res Int,substantive,False
+19772305>PMC3644254,19772305,retracted for a reason that does not touch the results,PMC3644254,2013,BMC Biotechnol,substantive,False
+19772305>PMC3848800,19772305,retracted for a reason that does not touch the results,PMC3848800,2013,Chem Cent J,perfunctory,False
+19772305>PMC4014205,19772305,retracted for a reason that does not touch the results,PMC4014205,2014,J Nanobiotechnology,substantive,False
+19772305>PMC4031915,19772305,retracted for a reason that does not touch the results,PMC4031915,2014,Nanoscale Res Lett,substantive,False
+19772305>PMC4038422,19772305,retracted for a reason that does not touch the results,PMC4038422,2014,Nanotechnol Sci Appl,substantive,False
+19772305>PMC4113778,19772305,retracted for a reason that does not touch the results,PMC4113778,2014,Nanoscale Res Lett,substantive,False
+19772305>PMC4150468,19772305,retracted for a reason that does not touch the results,PMC4150468,2014,ScientificWorldJournal,perfunctory,False
+19772305>PMC4278344,19772305,retracted for a reason that does not touch the results,PMC4278344,2014,J Nanobiotechnology,substantive,False
+19772305>PMC4406551,19772305,retracted for a reason that does not touch the results,PMC4406551,2015,PLoS One,perfunctory,False
+19772305>PMC4433920,19772305,retracted for a reason that does not touch the results,PMC4433920,2015,Biotechnol Biotechnol Equip,substantive,False
+19772305>PMC4479828,19772305,retracted for a reason that does not touch the results,PMC4479828,2015,Sci Rep,perfunctory,False
+19772305>PMC4606189,19772305,retracted for a reason that does not touch the results,PMC4606189,2015,ScientificWorldJournal,substantive,False
+19772305>PMC4612713,19772305,retracted for a reason that does not touch the results,PMC4612713,2015,Front Chem,substantive,False
+19772305>PMC4661839,19772305,retracted for a reason that does not touch the results,PMC4661839,2015,Int J Mol Sci,substantive,False
+19772305>PMC4897911,19772305,retracted for a reason that does not touch the results,PMC4897911,2016,J Nanobiotechnology,substantive,False
+19772305>PMC4898372,19772305,retracted for a reason that does not touch the results,PMC4898372,2016,J Nanobiotechnology,substantive,False
+19772305>PMC5104475,19772305,retracted for a reason that does not touch the results,PMC5104475,2016,PLoS One,substantive,False
+19772305>PMC5245760,19772305,retracted for a reason that does not touch the results,PMC5245760,2016,Nanomaterials (Basel),perfunctory,False
+19772305>PMC5304672,19772305,retracted for a reason that does not touch the results,PMC5304672,2014,Nanomaterials (Basel),substantive,False
+19772305>PMC5312920,19772305,retracted for a reason that does not touch the results,PMC5312920,2015,Nanomaterials (Basel),aware,False
+19772305>PMC5378785,19772305,retracted for a reason that does not touch the results,PMC5378785,2017,Front Plant Sci,perfunctory,False
+19772305>PMC5462829,19772305,retracted for a reason that does not touch the results,PMC5462829,2017,Sci Rep,perfunctory,False
+19772305>PMC5893230,19772305,retracted for a reason that does not touch the results,PMC5893230,2018,Trop Life Sci Res,substantive,False
+19772305>PMC6100068,19772305,retracted for a reason that does not touch the results,PMC6100068,2018,Molecules,substantive,False
+19772305>PMC6112629,19772305,retracted for a reason that does not touch the results,PMC6112629,2018,PLoS One,substantive,False
+19772305>PMC6353767,19772305,retracted for a reason that does not touch the results,PMC6353767,2018,J Genet Eng Biotechnol,substantive,False
+19772305>PMC6431134,19772305,retracted for a reason that does not touch the results,PMC6431134,2019,PeerJ,substantive,False
+19772305>PMC6915364,19772305,retracted for a reason that does not touch the results,PMC6915364,2019,Nanomaterials (Basel),perfunctory,False
+19772305>PMC6986061,19772305,retracted for a reason that does not touch the results,PMC6986061,2020,J Nanobiotechnology,substantive,False
+19772305>PMC7178645,19772305,retracted for a reason that does not touch the results,PMC7178645,2020,Materials (Basel),substantive,False
+19772305>PMC7221575,19772305,retracted for a reason that does not touch the results,PMC7221575,2020,Nanomaterials (Basel),perfunctory,False
+19772305>PMC7246787,19772305,retracted for a reason that does not touch the results,PMC7246787,2020,Int J Mol Sci,substantive,False
+19772305>PMC7314522,19772305,retracted for a reason that does not touch the results,PMC7314522,2020,Sci Adv,perfunctory,False
+19772305>PMC7585781,19772305,retracted for a reason that does not touch the results,PMC7585781,2020,Int J Nanomedicine,substantive,False
+19772305>PMC7763982,19772305,retracted for a reason that does not touch the results,PMC7763982,2020,Plants (Basel),substantive,False
+19772305>PMC7822031,19772305,retracted for a reason that does not touch the results,PMC7822031,2020,Plants (Basel),substantive,False
+19772305>PMC7884877,19772305,retracted for a reason that does not touch the results,PMC7884877,2021,Beilstein J Nanotechnol,substantive,False
+19772305>PMC7909549,19772305,retracted for a reason that does not touch the results,PMC7909549,2021,Nanomaterials (Basel),substantive,False
+19772305>PMC8004204,19772305,retracted for a reason that does not touch the results,PMC8004204,2021,J Fungi (Basel),substantive,False
+19772305>PMC8185355,19772305,retracted for a reason that does not touch the results,PMC8185355,2021,Front Chem,perfunctory,False
+19772305>PMC8230434,19772305,retracted for a reason that does not touch the results,PMC8230434,2021,Plants (Basel),perfunctory,False
+19772305>PMC8382848,19772305,retracted for a reason that does not touch the results,PMC8382848,2021,Front Nutr,perfunctory,False
+19772305>PMC8459368,19772305,retracted for a reason that does not touch the results,PMC8459368,2021,ACS Omega,substantive,False
+19772305>PMC8465907,19772305,retracted for a reason that does not touch the results,PMC8465907,2021,Biology (Basel),perfunctory,False
+19772305>PMC8472472,19772305,retracted for a reason that does not touch the results,PMC8472472,2021,Cells,perfunctory,False
+19772305>PMC8540042,19772305,retracted for a reason that does not touch the results,PMC8540042,2021,Plants (Basel),perfunctory,False
+19772305>PMC8906532,19772305,retracted for a reason that does not touch the results,PMC8906532,2022,Food Environ Virol,perfunctory,False
+19772305>PMC8912827,19772305,retracted for a reason that does not touch the results,PMC8912827,2022,Plants (Basel),substantive,False
+19772305>PMC8950276,19772305,retracted for a reason that does not touch the results,PMC8950276,2022,Plants (Basel),substantive,False
+19772305>PMC8950913,19772305,retracted for a reason that does not touch the results,PMC8950913,2022,Materials (Basel),substantive,False
+19772305>PMC9195285,19772305,retracted for a reason that does not touch the results,PMC9195285,2022,J Nanobiotechnology,substantive,False
+19772305>PMC9370753,19772305,retracted for a reason that does not touch the results,PMC9370753,2022,Nanomaterials (Basel),perfunctory,False
+19772305>PMC9412284,19772305,retracted for a reason that does not touch the results,PMC9412284,2022,Molecules,substantive,False
+19772305>PMC9553923,19772305,retracted for a reason that does not touch the results,PMC9553923,2022,Sci Rep,substantive,False
+19772305>PMC9562344,19772305,retracted for a reason that does not touch the results,PMC9562344,2022,Heliyon,substantive,False
+19772305>PMC9616842,19772305,retracted for a reason that does not touch the results,PMC9616842,2022,Sci Rep,substantive,False
+19772305>PMC9705934,19772305,retracted for a reason that does not touch the results,PMC9705934,2021,J Microbiol Biotechnol,substantive,False
+19772305>PMC9753186,19772305,retracted for a reason that does not touch the results,PMC9753186,2022,ACS Omega,perfunctory,False
+20068105>PMC11219812,20068105,retracted for a reason that does not touch the results,PMC11219812,2024,Front Immunol,perfunctory,False
+20068105>PMC11364516,20068105,retracted for a reason that does not touch the results,PMC11364516,2024,CNS Neurosci Ther,perfunctory,False
+20068105>PMC12418595,20068105,retracted for a reason that does not touch the results,PMC12418595,2025,Neurooncol Adv,perfunctory,False
+20068105>PMC4724814,20068105,retracted for a reason that does not touch the results,PMC4724814,2016,Cancer Sci,substantive,False
+20068105>PMC4939331,20068105,retracted for a reason that does not touch the results,PMC4939331,2016,Stem Cells Int,substantive,False
+20068105>PMC5249124,20068105,retracted for a reason that does not touch the results,PMC5249124,2017,PLoS One,substantive,False
+20068105>PMC5302925,20068105,retracted for a reason that does not touch the results,PMC5302925,2016,Oncotarget,perfunctory,False
+20068105>PMC5327370,20068105,retracted for a reason that does not touch the results,PMC5327370,2017,J Cancer,substantive,False
+20068105>PMC5609745,20068105,retracted for a reason that does not touch the results,PMC5609745,2017,PLoS One,substantive,False
+20068105>PMC6368580,20068105,retracted for a reason that does not touch the results,PMC6368580,2019,Nat Commun,substantive,False
+20068105>PMC6468501,20068105,retracted for a reason that does not touch the results,PMC6468501,2019,Cancers (Basel),substantive,False
+20068105>PMC6494937,20068105,retracted for a reason that does not touch the results,PMC6494937,2019,Front Oncol,substantive,False
+20068105>PMC6937350,20068105,retracted for a reason that does not touch the results,PMC6937350,2019,Cancer Microenviron,substantive,False
+20068105>PMC7188929,20068105,retracted for a reason that does not touch the results,PMC7188929,2020,Front Genet,substantive,True
+20068105>PMC7335982,20068105,retracted for a reason that does not touch the results,PMC7335982,2020,Adv Pharm Bull,substantive,False
+20068105>PMC7379131,20068105,retracted for a reason that does not touch the results,PMC7379131,2020,Front Immunol,perfunctory,False
+20068105>PMC7558650,20068105,retracted for a reason that does not touch the results,PMC7558650,2020,Pharmaceutics,substantive,False
+20068105>PMC8000844,20068105,retracted for a reason that does not touch the results,PMC8000844,2021,Cells,substantive,False
+20068105>PMC8037840,20068105,retracted for a reason that does not touch the results,PMC8037840,2021,Cancers (Basel),substantive,False
+20068105>PMC8048292,20068105,retracted for a reason that does not touch the results,PMC8048292,2021,Acta Neuropathol Commun,substantive,False
+20068105>PMC8176362,20068105,retracted for a reason that does not touch the results,PMC8176362,2021,Transl Oncol,substantive,False
+20068105>PMC8232134,20068105,retracted for a reason that does not touch the results,PMC8232134,2021,Int J Mol Sci,perfunctory,False
+20068105>PMC8257022,20068105,retracted for a reason that does not touch the results,PMC8257022,2021,Front Cell Dev Biol,perfunctory,False
+20068105>PMC8607377,20068105,retracted for a reason that does not touch the results,PMC8607377,2021,Mol Biomed,perfunctory,False
+20068105>PMC8994338,20068105,retracted for a reason that does not touch the results,PMC8994338,2022,Stem Cell Res Ther,substantive,False
+20068105>PMC9179833,20068105,retracted for a reason that does not touch the results,PMC9179833,2022,Cancers (Basel),perfunctory,False
+20068105>PMC9942413,20068105,retracted for a reason that does not touch the results,PMC9942413,2023,Mol Cancer,substantive,False
+21772732>PMC10120026,21772732,retracted for a reason that does not touch the results,PMC10120026,2023,Proc Natl Acad Sci U S A,perfunctory,False
+21772732>PMC10142171,21772732,retracted for a reason that does not touch the results,PMC10142171,2023,Nutrients,substantive,False
+21772732>PMC10212150,21772732,retracted for a reason that does not touch the results,PMC10212150,2023,PLoS One,perfunctory,False
+21772732>PMC10212178,21772732,retracted for a reason that does not touch the results,PMC10212178,2023,PLoS One,substantive,False
+21772732>PMC10367231,21772732,retracted for a reason that does not touch the results,PMC10367231,2023,BMC Public Health,perfunctory,False
+21772732>PMC10370340,21772732,retracted for a reason that does not touch the results,PMC10370340,2023,Environ Health Perspect,substantive,False
+21772732>PMC10395843,21772732,retracted for a reason that does not touch the results,PMC10395843,2023,PLoS One,substantive,False
+21772732>PMC10403894,21772732,retracted for a reason that does not touch the results,PMC10403894,2023,BMC Oral Health,perfunctory,False
+21772732>PMC10406285,21772732,retracted for a reason that does not touch the results,PMC10406285,2023,PLoS One,substantive,False
+21772732>PMC10477304,21772732,retracted for a reason that does not touch the results,PMC10477304,2023,Nat Commun,substantive,False
+21772732>PMC10555937,21772732,retracted for a reason that does not touch the results,PMC10555937,2023,Int J Epidemiol,perfunctory,False
+21772732>PMC10565121,21772732,retracted for a reason that does not touch the results,PMC10565121,2023,Cureus,substantive,False
+21772732>PMC10573726,21772732,retracted for a reason that does not touch the results,PMC10573726,2023,Clin Infect Dis,perfunctory,False
+21772732>PMC10648101,21772732,retracted for a reason that does not touch the results,PMC10648101,2023,Nutrients,substantive,False
+21772732>PMC10711914,21772732,retracted for a reason that does not touch the results,PMC10711914,2023,BMJ Open,perfunctory,False
+21772732>PMC10728710,21772732,retracted for a reason that does not touch the results,PMC10728710,2023,Obes Pillars,perfunctory,False
+21772732>PMC10780935,21772732,retracted for a reason that does not touch the results,PMC10780935,2024,Nutrients,perfunctory,False
+21772732>PMC10795211,21772732,retracted for a reason that does not touch the results,PMC10795211,2024,BMC Proc,perfunctory,False
+21772732>PMC10830823,21772732,retracted for a reason that does not touch the results,PMC10830823,2024,Surg Endosc,perfunctory,False
+21772732>PMC10835953,21772732,retracted for a reason that does not touch the results,PMC10835953,2024,BMC Oral Health,perfunctory,False
+21772732>PMC10953118,21772732,retracted for a reason that does not touch the results,PMC10953118,2024,Trials,perfunctory,False
+21772732>PMC11046966,21772732,retracted for a reason that does not touch the results,PMC11046966,2024,BMC Med Educ,perfunctory,False
+21772732>PMC11075251,21772732,retracted for a reason that does not touch the results,PMC11075251,2024,BMC Res Notes,substantive,False
+21772732>PMC11078224,21772732,retracted for a reason that does not touch the results,PMC11078224,2024,Anesth Pain Med,perfunctory,False
+21772732>PMC11095706,21772732,retracted for a reason that does not touch the results,PMC11095706,2024,PLoS Comput Biol,substantive,False
+21772732>PMC11102645,21772732,retracted for a reason that does not touch the results,PMC11102645,2024,Lab Anim,perfunctory,False
+21772732>PMC11141080,21772732,retracted for a reason that does not touch the results,PMC11141080,2024,Nutr Health,perfunctory,False
+21772732>PMC11275076,21772732,retracted for a reason that does not touch the results,PMC11275076,2024,Brain Sci,substantive,False
+21772732>PMC11285609,21772732,retracted for a reason that does not touch the results,PMC11285609,2023,Front Dement,substantive,False
+21772732>PMC11322692,21772732,retracted for a reason that does not touch the results,PMC11322692,2024,JMIR Form Res,perfunctory,False
+21772732>PMC11406368,21772732,retracted for a reason that does not touch the results,PMC11406368,2023,Gut Microbiome (Camb),substantive,False
+21772732>PMC11441918,21772732,retracted for a reason that does not touch the results,PMC11441918,2024,Plast Reconstr Surg Glob Open,substantive,False
+21772732>PMC11475003,21772732,retracted for a reason that does not touch the results,PMC11475003,2024,Biol Sport,substantive,False
+21772732>PMC11526413,21772732,retracted for a reason that does not touch the results,PMC11526413,2024,Digit Health,perfunctory,False
+21772732>PMC11568006,21772732,retracted for a reason that does not touch the results,PMC11568006,2024,Psychiatr Q,perfunctory,False
+21772732>PMC11586081,21772732,retracted for a reason that does not touch the results,PMC11586081,2024,Cureus,perfunctory,True
+21772732>PMC11602943,21772732,retracted for a reason that does not touch the results,PMC11602943,2024,Pharm Stat,perfunctory,False
+21772732>PMC11603153,21772732,retracted for a reason that does not touch the results,PMC11603153,2024,BDJ Open,substantive,False
+21772732>PMC11644102,21772732,retracted for a reason that does not touch the results,PMC11644102,2024,Med J Islam Repub Iran,perfunctory,False
+21772732>PMC11761639,21772732,retracted for a reason that does not touch the results,PMC11761639,2025,PLoS One,perfunctory,False
+21772732>PMC11812789,21772732,retracted for a reason that does not touch the results,PMC11812789,2024,BMJ Public Health,perfunctory,False
+21772732>PMC11816467,21772732,retracted for a reason that does not touch the results,PMC11816467,2025,Sci Diabetes Self Manag Care,perfunctory,False
+21772732>PMC11826409,21772732,retracted for a reason that does not touch the results,PMC11826409,2024,Galen Med J,perfunctory,False
+21772732>PMC12089665,21772732,retracted for a reason that does not touch the results,PMC12089665,2025,J Am Psychiatr Nurses Assoc,perfunctory,False
+21772732>PMC12151375,21772732,retracted for a reason that does not touch the results,PMC12151375,2025,PLoS One,perfunctory,False
+21772732>PMC12162784,21772732,retracted for a reason that does not touch the results,PMC12162784,2025,Biomech Model Mechanobiol,perfunctory,False
+21772732>PMC12306963,21772732,retracted for a reason that does not touch the results,PMC12306963,2025,Med Cannabis Cannabinoids,perfunctory,False
+21772732>PMC12402609,21772732,retracted for a reason that does not touch the results,PMC12402609,2025,Food Sci Nutr,perfunctory,False
+21772732>PMC12489172,21772732,retracted for a reason that does not touch the results,PMC12489172,2025,J Gene Med,perfunctory,False
+21772732>PMC12551258,21772732,retracted for a reason that does not touch the results,PMC12551258,2025,BMC Microbiol,substantive,False
+21772732>PMC12587680,21772732,retracted for a reason that does not touch the results,PMC12587680,2025,Pilot Feasibility Stud,perfunctory,False
+21772732>PMC12591603,21772732,retracted for a reason that does not touch the results,PMC12591603,2025,Int J Exerc Sci,perfunctory,False
+21772732>PMC12649012,21772732,retracted for a reason that does not touch the results,PMC12649012,2025,BMC Med Res Methodol,perfunctory,False
+21772732>PMC12682257,21772732,retracted for a reason that does not touch the results,PMC12682257,2025,Cureus,substantive,False
+21772732>PMC12743400,21772732,retracted for a reason that does not touch the results,PMC12743400,2025,BMC Oral Health,perfunctory,False
+21772732>PMC12801967,21772732,retracted for a reason that does not touch the results,PMC12801967,2025,BMC Oral Health,perfunctory,False
+21772732>PMC12834446,21772732,retracted for a reason that does not touch the results,PMC12834446,2026,Plast Reconstr Surg Glob Open,substantive,False
+21772732>PMC12947968,21772732,retracted for a reason that does not touch the results,PMC12947968,2026,IEEE J Transl Eng Health Med,substantive,False
+21772732>PMC12964866,21772732,retracted for a reason that does not touch the results,PMC12964866,2026,BMC Nurs,perfunctory,False
+21772732>PMC13069734,21772732,retracted for a reason that does not touch the results,PMC13069734,2026,BMC Complement Med Ther,perfunctory,False
+21772732>PMC13088005,21772732,retracted for a reason that does not touch the results,PMC13088005,2026,J Prosthodont,perfunctory,False
+21772732>PMC13110672,21772732,retracted for a reason that does not touch the results,PMC13110672,2026,BMJ Open,perfunctory,False
+21772732>PMC13185373,21772732,retracted for a reason that does not touch the results,PMC13185373,2026,BMC Oral Health,perfunctory,False
+21772732>PMC13194408,21772732,retracted for a reason that does not touch the results,PMC13194408,2026,Front Psychiatry,perfunctory,False
+21772732>PMC13259797,21772732,retracted for a reason that does not touch the results,PMC13259797,2026,Front Med (Lausanne),perfunctory,False
+21772732>PMC13279952,21772732,retracted for a reason that does not touch the results,PMC13279952,2026,J Nutr Sci,substantive,False
+21772732>PMC13479865,21772732,retracted for a reason that does not touch the results,PMC13479865,2026,Pilot Feasibility Stud,perfunctory,False
+21772732>PMC13488088,21772732,retracted for a reason that does not touch the results,PMC13488088,2026,BMC Pregnancy Childbirth,substantive,False
+21772732>PMC13488250,21772732,retracted for a reason that does not touch the results,PMC13488250,2026,BMC Psychol,substantive,False
+21772732>PMC13597651,21772732,retracted for a reason that does not touch the results,PMC13597651,2026,Cardiovasc Intervent Radiol,perfunctory,False
+22621620>PMC10439874,22621620,retracted for a reason that does not touch the results,PMC10439874,2023,Discov Oncol,substantive,False
+22621620>PMC10509759,22621620,retracted for a reason that does not touch the results,PMC10509759,2023,Front Immunol,perfunctory,False
+22621620>PMC4452151,22621620,retracted for a reason that does not touch the results,PMC4452151,2015,Cancer Sci,perfunctory,False
+22621620>PMC5762575,22621620,retracted for a reason that does not touch the results,PMC5762575,2017,Oncotarget,substantive,False
+22621620>PMC7648040,22621620,retracted for a reason that does not touch the results,PMC7648040,2020,Cancer Sci,aware,False
+22912826>PMC4117189,22912826,retracted for a reason that does not touch the results,PMC4117189,2014,Cell Commun Signal,substantive,False
+22912826>PMC4165740,22912826,retracted for a reason that does not touch the results,PMC4165740,2014,Mediators Inflamm,substantive,False
+22912826>PMC5034486,22912826,retracted for a reason that does not touch the results,PMC5034486,2016,Cell Biosci,perfunctory,False
+22912826>PMC5137897,22912826,retracted for a reason that does not touch the results,PMC5137897,2016,PLoS One,perfunctory,False
+22912826>PMC5497723,22912826,retracted for a reason that does not touch the results,PMC5497723,2017,Cancer Sci,substantive,False
+22912826>PMC6050509,22912826,retracted for a reason that does not touch the results,PMC6050509,2018,J Cell Mol Med,perfunctory,False
+22912826>PMC6053825,22912826,retracted for a reason that does not touch the results,PMC6053825,2018,BMC Genet,substantive,False
+22912826>PMC6755417,22912826,retracted for a reason that does not touch the results,PMC6755417,2019,Exp Ther Med,substantive,False
+22912826>PMC7370282,22912826,retracted for a reason that does not touch the results,PMC7370282,2020,Int J Mol Sci,perfunctory,False
+22912826>PMC7772998,22912826,retracted for a reason that does not touch the results,PMC7772998,2021,J Oral Biol Craniofac Res,perfunctory,False
+22912826>PMC9789656,22912826,retracted for a reason that does not touch the results,PMC9789656,2022,BMC Mol Cell Biol,perfunctory,False
+24711954>PMC10000634,24711954,retracted for a reason that does not touch the results,PMC10000634,2023,Endocrinol Diabetes Metab,perfunctory,False
+24711954>PMC10101147,24711954,retracted for a reason that does not touch the results,PMC10101147,2023,Microbiol Spectr,perfunctory,False
+24711954>PMC10125752,24711954,retracted for a reason that does not touch the results,PMC10125752,2023,J Diabetes Res,perfunctory,False
+24711954>PMC10126301,24711954,retracted for a reason that does not touch the results,PMC10126301,2023,Front Endocrinol (Lausanne),perfunctory,False
+24711954>PMC10161496,24711954,retracted for a reason that does not touch the results,PMC10161496,2023,Diabetol Metab Syndr,perfunctory,False
+24711954>PMC10178199,24711954,retracted for a reason that does not touch the results,PMC10178199,2023,Int J Mol Sci,perfunctory,False
+24711954>PMC10214140,24711954,retracted for a reason that does not touch the results,PMC10214140,2023,J Nutr Sci,perfunctory,False
+24711954>PMC10222935,24711954,retracted for a reason that does not touch the results,PMC10222935,2022,J Tehran Heart Cent,perfunctory,False
+24711954>PMC10238348,24711954,retracted for a reason that does not touch the results,PMC10238348,2023,Daru,perfunctory,False
+24711954>PMC10293726,24711954,retracted for a reason that does not touch the results,PMC10293726,2023,Heliyon,perfunctory,False
+24711954>PMC10311433,24711954,retracted for a reason that does not touch the results,PMC10311433,2023,Front Clin Diabetes Healthc,perfunctory,False
+24711954>PMC10316584,24711954,retracted for a reason that does not touch the results,PMC10316584,2023,BMC Geriatr,substantive,False
+24711954>PMC10318230,24711954,retracted for a reason that does not touch the results,PMC10318230,2023,Health Sci Rep,perfunctory,False
+24711954>PMC10382531,24711954,retracted for a reason that does not touch the results,PMC10382531,2023,Sci Rep,perfunctory,False
+24711954>PMC10407910,24711954,retracted for a reason that does not touch the results,PMC10407910,2023,Saudi Pharm J,perfunctory,False
+24711954>PMC10417794,24711954,retracted for a reason that does not touch the results,PMC10417794,2023,Diagnostics (Basel),perfunctory,False
+24711954>PMC10420765,24711954,retracted for a reason that does not touch the results,PMC10420765,2023,Food Sci Nutr,perfunctory,False
+24711954>PMC10458500,24711954,retracted for a reason that does not touch the results,PMC10458500,2023,Molecules,perfunctory,False
+24711954>PMC10491590,24711954,retracted for a reason that does not touch the results,PMC10491590,2023,Sci Rep,perfunctory,False
+24711954>PMC10496761,24711954,retracted for a reason that does not touch the results,PMC10496761,2023,Braz J Med Biol Res,substantive,False
+24711954>PMC10503218,24711954,retracted for a reason that does not touch the results,PMC10503218,2023,Endocr Connect,perfunctory,False
+24711954>PMC10556596,24711954,retracted for a reason that does not touch the results,PMC10556596,2023,Heliyon,perfunctory,False
+24711954>PMC10567965,24711954,retracted for a reason that does not touch the results,PMC10567965,2023,Naunyn Schmiedebergs Arch Pharmacol,perfunctory,False
+24711954>PMC10568541,24711954,retracted for a reason that does not touch the results,PMC10568541,2023,Health Sci Rep,perfunctory,False
+24711954>PMC10585655,24711954,retracted for a reason that does not touch the results,PMC10585655,2023,Front Nutr,perfunctory,False
+24711954>PMC10605445,24711954,retracted for a reason that does not touch the results,PMC10605445,2023,Curr Issues Mol Biol,perfunctory,False
+24711954>PMC10620391,24711954,retracted for a reason that does not touch the results,PMC10620391,2023,Nat Commun,perfunctory,False
+24711954>PMC10685837,24711954,retracted for a reason that does not touch the results,PMC10685837,2023,Arch Iran Med,substantive,False
+24711954>PMC10730827,24711954,retracted for a reason that does not touch the results,PMC10730827,2023,Sci Rep,perfunctory,False
+24711954>PMC10731713,24711954,retracted for a reason that does not touch the results,PMC10731713,2023,Eur J Med Res,perfunctory,False
+24711954>PMC10743187,24711954,retracted for a reason that does not touch the results,PMC10743187,2023,Int J Mol Sci,perfunctory,False
+24711954>PMC10769614,24711954,retracted for a reason that does not touch the results,PMC10769614,2023,Cardiol Res,perfunctory,False
+24711954>PMC10795886,24711954,retracted for a reason that does not touch the results,PMC10795886,2023,Indian J Community Med,perfunctory,False
+24711954>PMC10804332,24711954,retracted for a reason that does not touch the results,PMC10804332,2024,Obes Sci Pract,perfunctory,False
+24711954>PMC10820431,24711954,retracted for a reason that does not touch the results,PMC10820431,2023,J Pers Med,substantive,False
+24711954>PMC10829692,24711954,retracted for a reason that does not touch the results,PMC10829692,2024,J Clin Lab Anal,perfunctory,False
+24711954>PMC10888057,24711954,retracted for a reason that does not touch the results,PMC10888057,2024,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC10908134,24711954,retracted for a reason that does not touch the results,PMC10908134,2024,BMC Cardiovasc Disord,perfunctory,False
+24711954>PMC10922179,24711954,retracted for a reason that does not touch the results,PMC10922179,2024,Ann Afr Med,substantive,False
+24711954>PMC10932422,24711954,retracted for a reason that does not touch the results,PMC10932422,2024,J Clin Med,perfunctory,False
+24711954>PMC10957696,24711954,retracted for a reason that does not touch the results,PMC10957696,2024,Metab Brain Dis,substantive,False
+24711954>PMC10968681,24711954,retracted for a reason that does not touch the results,PMC10968681,2024,Aging (Albany NY),perfunctory,False
+24711954>PMC11006532,24711954,retracted for a reason that does not touch the results,PMC11006532,2024,Cell Rep,perfunctory,False
+24711954>PMC11053558,24711954,retracted for a reason that does not touch the results,PMC11053558,2024,Nutrients,perfunctory,False
+24711954>PMC11090887,24711954,retracted for a reason that does not touch the results,PMC11090887,2024,Physiol Rep,perfunctory,False
+24711954>PMC11217042,24711954,retracted for a reason that does not touch the results,PMC11217042,2024,Support Care Cancer,substantive,False
+24711954>PMC11287576,24711954,retracted for a reason that does not touch the results,PMC11287576,2024,Gut,perfunctory,False
+24711954>PMC11296594,24711954,retracted for a reason that does not touch the results,PMC11296594,2024,Iran J Nurs Midwifery Res,perfunctory,False
+24711954>PMC11366034,24711954,retracted for a reason that does not touch the results,PMC11366034,2024,Sci Rep,perfunctory,False
+24711954>PMC11368305,24711954,retracted for a reason that does not touch the results,PMC11368305,2024,J Family Med Prim Care,perfunctory,False
+24711954>PMC11370876,24711954,retracted for a reason that does not touch the results,PMC11370876,2024,Rev Fac Cien Med Univ Nac Cordoba,perfunctory,False
+24711954>PMC11416408,24711954,retracted for a reason that does not touch the results,PMC11416408,2024,J Mol Med (Berl),perfunctory,False
+24711954>PMC11438483,24711954,retracted for a reason that does not touch the results,PMC11438483,2024,Cureus,substantive,False
+24711954>PMC11498733,24711954,retracted for a reason that does not touch the results,PMC11498733,2024,PLoS One,perfunctory,False
+24711954>PMC11504790,24711954,retracted for a reason that does not touch the results,PMC11504790,2024,J Family Med Prim Care,perfunctory,False
+24711954>PMC11504821,24711954,retracted for a reason that does not touch the results,PMC11504821,2024,J Family Med Prim Care,perfunctory,False
+24711954>PMC11521704,24711954,retracted for a reason that does not touch the results,PMC11521704,2024,Food Sci Nutr,perfunctory,False
+24711954>PMC11522196,24711954,retracted for a reason that does not touch the results,PMC11522196,2024,Curr Obes Rep,substantive,False
+24711954>PMC11538282,24711954,retracted for a reason that does not touch the results,PMC11538282,2024,Sci Rep,substantive,False
+24711954>PMC11647454,24711954,retracted for a reason that does not touch the results,PMC11647454,2024,Tob Induc Dis,perfunctory,False
+24711954>PMC11673706,24711954,retracted for a reason that does not touch the results,PMC11673706,2024,Mol Med,perfunctory,False
+24711954>PMC11708075,24711954,retracted for a reason that does not touch the results,PMC11708075,2025,BMC Endocr Disord,perfunctory,False
+24711954>PMC11716991,24711954,retracted for a reason that does not touch the results,PMC11716991,2025,Food Sci Nutr,perfunctory,False
+24711954>PMC11742777,24711954,retracted for a reason that does not touch the results,PMC11742777,2025,Nutr Metab (Lond),substantive,False
+24711954>PMC11775477,24711954,retracted for a reason that does not touch the results,PMC11775477,2024,Front Nutr,perfunctory,False
+24711954>PMC11787848,24711954,retracted for a reason that does not touch the results,PMC11787848,2025,Iran J Public Health,perfunctory,False
+24711954>PMC11947138,24711954,retracted for a reason that does not touch the results,PMC11947138,2025,Sci Rep,perfunctory,False
+24711954>PMC12039379,24711954,retracted for a reason that does not touch the results,PMC12039379,2025,J Pediatr (Rio J),perfunctory,True
+24711954>PMC12063789,24711954,retracted for a reason that does not touch the results,PMC12063789,2025,Environ Epidemiol,perfunctory,False
+24711954>PMC12124063,24711954,retracted for a reason that does not touch the results,PMC12124063,2025,Cardiovasc Diabetol,perfunctory,False
+24711954>PMC12182743,24711954,retracted for a reason that does not touch the results,PMC12182743,2025,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC12193251,24711954,retracted for a reason that does not touch the results,PMC12193251,2025,Genes (Basel),perfunctory,False
+24711954>PMC12228156,24711954,retracted for a reason that does not touch the results,PMC12228156,2025,BMC Oral Health,substantive,False
+24711954>PMC12315321,24711954,retracted for a reason that does not touch the results,PMC12315321,2025,Lipids Health Dis,perfunctory,False
+24711954>PMC12324026,24711954,retracted for a reason that does not touch the results,PMC12324026,2025,Medicine (Baltimore),perfunctory,False
+24711954>PMC12449115,24711954,retracted for a reason that does not touch the results,PMC12449115,2025,Int J Microbiol,perfunctory,False
+24711954>PMC12467195,24711954,retracted for a reason that does not touch the results,PMC12467195,2025,Biomedicines,perfunctory,False
+24711954>PMC12663542,24711954,retracted for a reason that does not touch the results,PMC12663542,2025,Sci Rep,perfunctory,False
+24711954>PMC13009904,24711954,retracted for a reason that does not touch the results,PMC13009904,2026,Ther Adv Endocrinol Metab,substantive,True
+24711954>PMC13024294,24711954,retracted for a reason that does not touch the results,PMC13024294,2026,Biomedicines,substantive,False
+24711954>PMC13031246,24711954,retracted for a reason that does not touch the results,PMC13031246,2026,Brain Imaging Behav,perfunctory,False
+24711954>PMC13056578,24711954,retracted for a reason that does not touch the results,PMC13056578,2026,Int J Obes (Lond),perfunctory,True
+24711954>PMC13149714,24711954,retracted for a reason that does not touch the results,PMC13149714,2026,Genes Genomics,perfunctory,False
+24711954>PMC13218083,24711954,retracted for a reason that does not touch the results,PMC13218083,2026,Front Nutr,substantive,False
+24711954>PMC13391110,24711954,retracted for a reason that does not touch the results,PMC13391110,2025,Niger Med J,perfunctory,False
+24711954>PMC13447998,24711954,retracted for a reason that does not touch the results,PMC13447998,2026,Cureus,perfunctory,False
+24711954>PMC6946588,24711954,retracted for a reason that does not touch the results,PMC6946588,2020,PLoS One,perfunctory,False
+24711954>PMC6954077,24711954,retracted for a reason that does not touch the results,PMC6954077,2020,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC6971076,24711954,retracted for a reason that does not touch the results,PMC6971076,2020,Sci Rep,perfunctory,False
+24711954>PMC6976911,24711954,retracted for a reason that does not touch the results,PMC6976911,2020,Ann Med Surg (Lond),perfunctory,False
+24711954>PMC6993347,24711954,retracted for a reason that does not touch the results,PMC6993347,2020,BMC Public Health,perfunctory,False
+24711954>PMC6996958,24711954,retracted for a reason that does not touch the results,PMC6996958,2020,Aging Cell,perfunctory,False
+24711954>PMC6997359,24711954,retracted for a reason that does not touch the results,PMC6997359,2020,Sci Rep,perfunctory,False
+24711954>PMC7004461,24711954,retracted for a reason that does not touch the results,PMC7004461,2020,Asia Pac J Ophthalmol (Phila),substantive,False
+24711954>PMC7035102,24711954,retracted for a reason that does not touch the results,PMC7035102,2020,Medicine (Baltimore),perfunctory,False
+24711954>PMC7039578,24711954,retracted for a reason that does not touch the results,PMC7039578,2020,BMJ Open Diabetes Res Care,perfunctory,False
+24711954>PMC7041598,24711954,retracted for a reason that does not touch the results,PMC7041598,2020,Diabetes Metab Syndr Obes,substantive,False
+24711954>PMC7066746,24711954,retracted for a reason that does not touch the results,PMC7066746,2020,BMC Res Notes,perfunctory,False
+24711954>PMC7145845,24711954,retracted for a reason that does not touch the results,PMC7145845,2020,Sci Rep,perfunctory,False
+24711954>PMC7174409,24711954,retracted for a reason that does not touch the results,PMC7174409,2020,Sci Rep,perfunctory,False
+24711954>PMC7175042,24711954,retracted for a reason that does not touch the results,PMC7175042,2020,An Bras Dermatol,substantive,False
+24711954>PMC7183206,24711954,retracted for a reason that does not touch the results,PMC7183206,2020,J Exerc Sci Fit,substantive,False
+24711954>PMC7196222,24711954,retracted for a reason that does not touch the results,PMC7196222,2020,BMC Public Health,substantive,False
+24711954>PMC7201776,24711954,retracted for a reason that does not touch the results,PMC7201776,2020,J Transl Med,perfunctory,False
+24711954>PMC7211326,24711954,retracted for a reason that does not touch the results,PMC7211326,2020,Diabetes Metab Syndr Obes,substantive,False
+24711954>PMC7218069,24711954,retracted for a reason that does not touch the results,PMC7218069,2020,Front Nutr,substantive,False
+24711954>PMC7240035,24711954,retracted for a reason that does not touch the results,PMC7240035,2020,Front Bioeng Biotechnol,perfunctory,False
+24711954>PMC7277953,24711954,retracted for a reason that does not touch the results,PMC7277953,2020,Diagnostics (Basel),substantive,False
+24711954>PMC7292762,24711954,retracted for a reason that does not touch the results,PMC7292762,2020,Clin Pharmacol Ther,perfunctory,False
+24711954>PMC7304592,24711954,retracted for a reason that does not touch the results,PMC7304592,2020,PLoS One,perfunctory,False
+24711954>PMC7323963,24711954,retracted for a reason that does not touch the results,PMC7323963,2020,Diabetes Metab Syndr Obes,substantive,False
+24711954>PMC7326131,24711954,retracted for a reason that does not touch the results,PMC7326131,2020,Front Public Health,perfunctory,False
+24711954>PMC7328526,24711954,retracted for a reason that does not touch the results,PMC7328526,2020,Indian J Endocrinol Metab,perfunctory,False
+24711954>PMC7334615,24711954,retracted for a reason that does not touch the results,PMC7334615,2020,J Exerc Sci Fit,perfunctory,False
+24711954>PMC7346213,24711954,retracted for a reason that does not touch the results,PMC7346213,2020,Antioxidants (Basel),perfunctory,False
+24711954>PMC7352228,24711954,retracted for a reason that does not touch the results,PMC7352228,2020,Nutrients,perfunctory,False
+24711954>PMC7352386,24711954,retracted for a reason that does not touch the results,PMC7352386,2020,Nutrients,perfunctory,False
+24711954>PMC7354914,24711954,retracted for a reason that does not touch the results,PMC7354914,2020,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC7356044,24711954,retracted for a reason that does not touch the results,PMC7356044,2020,Plants (Basel),perfunctory,False
+24711954>PMC7401230,24711954,retracted for a reason that does not touch the results,PMC7401230,2020,BMC Nutr,perfunctory,False
+24711954>PMC7403910,24711954,retracted for a reason that does not touch the results,PMC7403910,2020,Evid Based Complement Alternat Med,perfunctory,False
+24711954>PMC7407035,24711954,retracted for a reason that does not touch the results,PMC7407035,2020,Int J Endocrinol,perfunctory,False
+24711954>PMC7413996,24711954,retracted for a reason that does not touch the results,PMC7413996,2020,Heliyon,substantive,False
+24711954>PMC7442237,24711954,retracted for a reason that does not touch the results,PMC7442237,2020,PLoS One,perfunctory,False
+24711954>PMC7453621,24711954,retracted for a reason that does not touch the results,PMC7453621,2020,Mol Med Rep,substantive,False
+24711954>PMC7462285,24711954,retracted for a reason that does not touch the results,PMC7462285,2020,PLoS One,perfunctory,False
+24711954>PMC7515810,24711954,retracted for a reason that does not touch the results,PMC7515810,2020,Cureus,substantive,False
+24711954>PMC7539338,24711954,retracted for a reason that does not touch the results,PMC7539338,2020,J Obes Metab Syndr,perfunctory,False
+24711954>PMC7547286,24711954,retracted for a reason that does not touch the results,PMC7547286,2020,Diabetes Metab Syndr Obes,substantive,False
+24711954>PMC7552860,24711954,retracted for a reason that does not touch the results,PMC7552860,2020,BMJ Open,perfunctory,False
+24711954>PMC7567201,24711954,retracted for a reason that does not touch the results,PMC7567201,2020,J Family Med Prim Care,substantive,False
+24711954>PMC7573814,24711954,retracted for a reason that does not touch the results,PMC7573814,2020,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC7585828,24711954,retracted for a reason that does not touch the results,PMC7585828,2020,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC7596362,24711954,retracted for a reason that does not touch the results,PMC7596362,2020,Front Physiol,perfunctory,False
+24711954>PMC7647782,24711954,retracted for a reason that does not touch the results,PMC7647782,2020,Oxid Med Cell Longev,perfunctory,False
+24711954>PMC7679472,24711954,retracted for a reason that does not touch the results,PMC7679472,2020,Saudi Pharm J,perfunctory,False
+24711954>PMC7690560,24711954,retracted for a reason that does not touch the results,PMC7690560,2020,Front Cardiovasc Med,substantive,False
+24711954>PMC7703308,24711954,retracted for a reason that does not touch the results,PMC7703308,2020,Biores Open Access,perfunctory,False
+24711954>PMC7721212,24711954,retracted for a reason that does not touch the results,PMC7721212,2020,Porto Biomed J,substantive,False
+24711954>PMC7731373,24711954,retracted for a reason that does not touch the results,PMC7731373,2020,Int J Environ Res Public Health,perfunctory,False
+24711954>PMC7744821,24711954,retracted for a reason that does not touch the results,PMC7744821,2020,Front Physiol,perfunctory,False
+24711954>PMC7752760,24711954,retracted for a reason that does not touch the results,PMC7752760,2021,Int J Obes (Lond),perfunctory,False
+24711954>PMC7753886,24711954,retracted for a reason that does not touch the results,PMC7753886,2020,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC7767256,24711954,retracted for a reason that does not touch the results,PMC7767256,2020,Mar Drugs,substantive,False
+24711954>PMC7789020,24711954,retracted for a reason that does not touch the results,PMC7789020,2020,J Obes Metab Syndr,perfunctory,False
+24711954>PMC7792416,24711954,retracted for a reason that does not touch the results,PMC7792416,2020,J Am Heart Assoc,perfunctory,False
+24711954>PMC7822078,24711954,retracted for a reason that does not touch the results,PMC7822078,2021,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC7826716,24711954,retracted for a reason that does not touch the results,PMC7826716,2021,Nutrients,perfunctory,False
+24711954>PMC7827833,24711954,retracted for a reason that does not touch the results,PMC7827833,2021,Int J Environ Res Public Health,perfunctory,False
+24711954>PMC7849135,24711954,retracted for a reason that does not touch the results,PMC7849135,2021,BMC Public Health,perfunctory,False
+24711954>PMC7865704,24711954,retracted for a reason that does not touch the results,PMC7865704,2021,J Clin Med,perfunctory,False
+24711954>PMC7866543,24711954,retracted for a reason that does not touch the results,PMC7866543,2021,Molecules,perfunctory,False
+24711954>PMC7867145,24711954,retracted for a reason that does not touch the results,PMC7867145,2021,Int J Mol Sci,perfunctory,False
+24711954>PMC7913905,24711954,retracted for a reason that does not touch the results,PMC7913905,2021,Molecules,perfunctory,False
+24711954>PMC7916099,24711954,retracted for a reason that does not touch the results,PMC7916099,2021,Healthcare (Basel),perfunctory,False
+24711954>PMC7941776,24711954,retracted for a reason that does not touch the results,PMC7941776,2020,Environ Epidemiol,perfunctory,False
+24711954>PMC8033699,24711954,retracted for a reason that does not touch the results,PMC8033699,2021,J Health Popul Nutr,perfunctory,False
+24711954>PMC8062508,24711954,retracted for a reason that does not touch the results,PMC8062508,2021,Sci Rep,perfunctory,False
+24711954>PMC8073713,24711954,retracted for a reason that does not touch the results,PMC8073713,2021,Int J Mol Sci,perfunctory,False
+24711954>PMC8087567,24711954,retracted for a reason that does not touch the results,PMC8087567,2021,Rev Endocr Metab Disord,perfunctory,False
+24711954>PMC8140899,24711954,retracted for a reason that does not touch the results,PMC8140899,2021,Cancer Manag Res,perfunctory,False
+24711954>PMC8145067,24711954,retracted for a reason that does not touch the results,PMC8145067,2021,Metabolites,perfunctory,False
+24711954>PMC8150752,24711954,retracted for a reason that does not touch the results,PMC8150752,2021,Antioxidants (Basel),perfunctory,False
+24711954>PMC8160603,24711954,retracted for a reason that does not touch the results,PMC8160603,2021,J Pers Med,perfunctory,False
+24711954>PMC8185298,24711954,retracted for a reason that does not touch the results,PMC8185298,2021,Front Psychiatry,perfunctory,False
+24711954>PMC8189781,24711954,retracted for a reason that does not touch the results,PMC8189781,2021,Evid Based Complement Alternat Med,perfunctory,False
+24711954>PMC8195648,24711954,retracted for a reason that does not touch the results,PMC8195648,2021,Oxid Med Cell Longev,substantive,False
+24711954>PMC8237302,24711954,retracted for a reason that does not touch the results,PMC8237302,2021,EBioMedicine,perfunctory,False
+24711954>PMC8277310,24711954,retracted for a reason that does not touch the results,PMC8277310,2021,JMIR Form Res,perfunctory,False
+24711954>PMC8294748,24711954,retracted for a reason that does not touch the results,PMC8294748,2021,Arq Bras Cardiol,substantive,False
+24711954>PMC8297378,24711954,retracted for a reason that does not touch the results,PMC8297378,2021,Int J Environ Res Public Health,perfunctory,False
+24711954>PMC8308366,24711954,retracted for a reason that does not touch the results,PMC8308366,2021,Nutrients,substantive,False
+24711954>PMC8315099,24711954,retracted for a reason that does not touch the results,PMC8315099,2021,Front Cell Dev Biol,perfunctory,False
+24711954>PMC8330017,24711954,retracted for a reason that does not touch the results,PMC8330017,2021,Syst Rev,perfunctory,False
+24711954>PMC8347773,24711954,retracted for a reason that does not touch the results,PMC8347773,2021,J Clin Med,perfunctory,False
+24711954>PMC8363263,24711954,retracted for a reason that does not touch the results,PMC8363263,2021,Front Pharmacol,perfunctory,False
+24711954>PMC8385560,24711954,retracted for a reason that does not touch the results,PMC8385560,2021,Front Pharmacol,substantive,False
+24711954>PMC8398762,24711954,retracted for a reason that does not touch the results,PMC8398762,2021,Metabolites,substantive,False
+24711954>PMC8415577,24711954,retracted for a reason that does not touch the results,PMC8415577,2021,PLoS One,perfunctory,False
+24711954>PMC8415985,24711954,retracted for a reason that does not touch the results,PMC8415985,2021,Front Cell Dev Biol,substantive,False
+24711954>PMC8462065,24711954,retracted for a reason that does not touch the results,PMC8462065,2021,Nat Metab,perfunctory,False
+24711954>PMC8469823,24711954,retracted for a reason that does not touch the results,PMC8469823,2021,Foods,perfunctory,False
+24711954>PMC8481327,24711954,retracted for a reason that does not touch the results,PMC8481327,2021,Sci Rep,perfunctory,False
+24711954>PMC8481784,24711954,retracted for a reason that does not touch the results,PMC8481784,2021,Front Endocrinol (Lausanne),perfunctory,False
+24711954>PMC8481817,24711954,retracted for a reason that does not touch the results,PMC8481817,2021,Front Physiol,perfunctory,False
+24711954>PMC8492848,24711954,retracted for a reason that does not touch the results,PMC8492848,2021,J Genet Eng Biotechnol,substantive,False
+24711954>PMC8517636,24711954,retracted for a reason that does not touch the results,PMC8517636,2021,Integr Blood Press Control,perfunctory,False
+24711954>PMC8528323,24711954,retracted for a reason that does not touch the results,PMC8528323,2021,PLoS One,perfunctory,False
+24711954>PMC8533599,24711954,retracted for a reason that does not touch the results,PMC8533599,2021,Antioxidants (Basel),substantive,False
+24711954>PMC8564990,24711954,retracted for a reason that does not touch the results,PMC8564990,2021,BMC Nutr,substantive,False
+24711954>PMC8593343,24711954,retracted for a reason that does not touch the results,PMC8593343,2021,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC8641755,24711954,retracted for a reason that does not touch the results,PMC8641755,2021,J Educ Health Promot,perfunctory,False
+24711954>PMC8643162,24711954,retracted for a reason that does not touch the results,PMC8643162,2021,Diabetes Metab Syndr Obes,perfunctory,False
+24711954>PMC8645984,24711954,retracted for a reason that does not touch the results,PMC8645984,2021,Front Pharmacol,perfunctory,False
+24711954>PMC8693283,24711954,retracted for a reason that does not touch the results,PMC8693283,2022,Metabol Open,perfunctory,False
+24711954>PMC8707707,24711954,retracted for a reason that does not touch the results,PMC8707707,2021,Nutrients,perfunctory,False
+24711954>PMC8759283,24711954,retracted for a reason that does not touch the results,PMC8759283,2022,BMC Pregnancy Childbirth,perfunctory,False
+24711954>PMC8771565,24711954,retracted for a reason that does not touch the results,PMC8771565,2022,Theranostics,perfunctory,False
+24711954>PMC8794109,24711954,retracted for a reason that does not touch the results,PMC8794109,2022,PLoS One,perfunctory,False
+24711954>PMC8799849,24711954,retracted for a reason that does not touch the results,PMC8799849,2022,An Bras Dermatol,substantive,False
+24711954>PMC8869304,24711954,retracted for a reason that does not touch the results,PMC8869304,2022,Antioxidants (Basel),perfunctory,False
+24711954>PMC8873594,24711954,retracted for a reason that does not touch the results,PMC8873594,2021,Front Bioeng Biotechnol,perfunctory,False
+24711954>PMC8891217,24711954,retracted for a reason that does not touch the results,PMC8891217,2022,Front Nutr,perfunctory,False
+24711954>PMC8943496,24711954,retracted for a reason that does not touch the results,PMC8943496,2022,Food Sci Biotechnol,perfunctory,False
+24711954>PMC8949493,24711954,retracted for a reason that does not touch the results,PMC8949493,2022,J Pers Med,perfunctory,False
+24711954>PMC8967113,24711954,retracted for a reason that does not touch the results,PMC8967113,2022,Cureus,perfunctory,False
+24711954>PMC8983061,24711954,retracted for a reason that does not touch the results,PMC8983061,2022,Genet Epidemiol,perfunctory,False
+24711954>PMC9069128,24711954,retracted for a reason that does not touch the results,PMC9069128,2022,Front Vet Sci,perfunctory,False
+24711954>PMC9102123,24711954,retracted for a reason that does not touch the results,PMC9102123,2022,Nutrients,perfunctory,False
+24711954>PMC9165641,24711954,retracted for a reason that does not touch the results,PMC9165641,2022,Front Nutr,perfunctory,False
+24711954>PMC9242782,24711954,retracted for a reason that does not touch the results,PMC9242782,2022,Biomed Res Int,perfunctory,False
+24711954>PMC9258047,24711954,retracted for a reason that does not touch the results,PMC9258047,2022,BMC Womens Health,perfunctory,False
+24711954>PMC9291184,24711954,retracted for a reason that does not touch the results,PMC9291184,2021,J Gastroenterol Hepatol,perfunctory,False
+24711954>PMC9326538,24711954,retracted for a reason that does not touch the results,PMC9326538,2022,Geriatrics (Basel),substantive,False
+24711954>PMC9332103,24711954,retracted for a reason that does not touch the results,PMC9332103,2022,Nutrients,perfunctory,False
+24711954>PMC9389015,24711954,retracted for a reason that does not touch the results,PMC9389015,2022,Front Public Health,perfunctory,False
+24711954>PMC9417764,24711954,retracted for a reason that does not touch the results,PMC9417764,2022,Biochem Res Int,perfunctory,False
+24711954>PMC9441834,24711954,retracted for a reason that does not touch the results,PMC9441834,2023,Indian J Clin Biochem,substantive,False
+24711954>PMC9501741,24711954,retracted for a reason that does not touch the results,PMC9501741,2022,Gerontology,perfunctory,False
+24711954>PMC9571776,24711954,retracted for a reason that does not touch the results,PMC9571776,2022,Nutrients,perfunctory,False
+24711954>PMC9632145,24711954,retracted for a reason that does not touch the results,PMC9632145,2022,Cardiovasc Diabetol,substantive,False
+24711954>PMC9656563,24711954,retracted for a reason that does not touch the results,PMC9656563,2022,Int J Environ Res Public Health,perfunctory,False
+24711954>PMC9673846,24711954,retracted for a reason that does not touch the results,PMC9673846,2020,Sao Paulo Med J,perfunctory,False
+24711954>PMC9686671,24711954,retracted for a reason that does not touch the results,PMC9686671,2022,Antioxidants (Basel),perfunctory,False
+24711954>PMC9737240,24711954,retracted for a reason that does not touch the results,PMC9737240,2022,Int J Environ Res Public Health,perfunctory,False
+24711954>PMC9774456,24711954,retracted for a reason that does not touch the results,PMC9774456,2022,Biology (Basel),perfunctory,False
+24711954>PMC9866669,24711954,retracted for a reason that does not touch the results,PMC9866669,2023,Int J Mol Sci,substantive,False
+24711954>PMC9878956,24711954,retracted for a reason that does not touch the results,PMC9878956,2022,Curr Neuropharmacol,perfunctory,False
+24711954>PMC9937665,24711954,retracted for a reason that does not touch the results,PMC9937665,2022,ARYA Atheroscler,perfunctory,False
+24711954>PMC9937669,24711954,retracted for a reason that does not touch the results,PMC9937669,2022,ARYA Atheroscler,substantive,False
+24711954>PMC9943976,24711954,retracted for a reason that does not touch the results,PMC9943976,2022,Chin Med J (Engl),perfunctory,False
+24711954>PMC9952893,24711954,retracted for a reason that does not touch the results,PMC9952893,2023,Biomedicines,perfunctory,True
+24711954>PMC9977763,24711954,retracted for a reason that does not touch the results,PMC9977763,2023,Br J Cancer,perfunctory,False
+24711954>PMC9983501,24711954,retracted for a reason that does not touch the results,PMC9983501,2023,Glob Heart,perfunctory,False
+25336793>PMC8808661,25336793,retracted for a reason that does not touch the results,PMC8808661,2022,Cureus,substantive,False
+27183876>PMC10942979,27183876,retracted for a reason that does not touch the results,PMC10942979,2024,Sci Rep,perfunctory,False
+27183876>PMC10974213,27183876,retracted for a reason that does not touch the results,PMC10974213,2024,Microorganisms,substantive,False
+27183876>PMC11058960,27183876,retracted for a reason that does not touch the results,PMC11058960,2024,Appl Microbiol Biotechnol,substantive,False
+27183876>PMC11065333,27183876,retracted for a reason that does not touch the results,PMC11065333,2024,Eng Life Sci,substantive,False
+27183876>PMC11203915,27183876,retracted for a reason that does not touch the results,PMC11203915,2024,ISME J,substantive,False
+27183876>PMC11437934,27183876,retracted for a reason that does not touch the results,PMC11437934,2024,Heliyon,substantive,False
+27183876>PMC11490648,27183876,retracted for a reason that does not touch the results,PMC11490648,2024,Sci Rep,substantive,False
+27183876>PMC11632376,27183876,retracted for a reason that does not touch the results,PMC11632376,2025,Nutr Rev,perfunctory,False
+27183876>PMC12153399,27183876,retracted for a reason that does not touch the results,PMC12153399,2025,Future Microbiol,perfunctory,False
+27183876>PMC12953344,27183876,retracted for a reason that does not touch the results,PMC12953344,2026,Curr Obes Rep,perfunctory,False
+28260102>PMC10705041,28260102,retracted for a reason that does not touch the results,PMC10705041,2024,Int J Oncol,perfunctory,True
+28260102>PMC10909450,28260102,retracted for a reason that does not touch the results,PMC10909450,2023,Wiley Interdiscip Rev RNA,substantive,False
+28260102>PMC11049917,28260102,retracted for a reason that does not touch the results,PMC11049917,2024,Genes (Basel),substantive,False
+28260102>PMC6350192,28260102,retracted for a reason that does not touch the results,PMC6350192,2019,Oncol Lett,perfunctory,False
+28260102>PMC6379223,28260102,retracted for a reason that does not touch the results,PMC6379223,2019,Biosci Rep,perfunctory,False
+28260102>PMC6388959,28260102,retracted for a reason that does not touch the results,PMC6388959,2019,Onco Targets Ther,substantive,False
+28260102>PMC6396228,28260102,retracted for a reason that does not touch the results,PMC6396228,2019,Oncol Lett,perfunctory,False
+28260102>PMC6578570,28260102,retracted for a reason that does not touch the results,PMC6578570,2019,Onco Targets Ther,substantive,False
+28260102>PMC6691960,28260102,retracted for a reason that does not touch the results,PMC6691960,2019,Onco Targets Ther,substantive,False
+28260102>PMC6980870,28260102,retracted for a reason that does not touch the results,PMC6980870,2020,Onco Targets Ther,perfunctory,False
+28260102>PMC7357251,28260102,retracted for a reason that does not touch the results,PMC7357251,2020,Med Sci Monit,substantive,False
+28260102>PMC7575067,28260102,retracted for a reason that does not touch the results,PMC7575067,2020,Cancer Manag Res,substantive,False
+28260102>PMC7640441,28260102,retracted for a reason that does not touch the results,PMC7640441,2020,Cancer Cell Int,substantive,False
+28260102>PMC7845733,28260102,retracted for a reason that does not touch the results,PMC7845733,2020,Front Oncol,substantive,False
+28260102>PMC7851525,28260102,retracted for a reason that does not touch the results,PMC7851525,2020,Oncol Res,substantive,False
+28260102>PMC8275198,28260102,retracted for a reason that does not touch the results,PMC8275198,2021,Onco Targets Ther,substantive,False
+28260102>PMC8505617,28260102,retracted for a reason that does not touch the results,PMC8505617,2021,Cell Death Discov,substantive,False
+29273065>PMC10138367,29273065,retracted for a reason that does not touch the results,PMC10138367,2023,Int J Mol Sci,substantive,False
+29273065>PMC10344727,29273065,retracted for a reason that does not touch the results,PMC10344727,2023,Cancer Drug Resist,perfunctory,False
+29273065>PMC10455605,29273065,retracted for a reason that does not touch the results,PMC10455605,2023,J Funct Biomater,substantive,False
+29273065>PMC10721789,29273065,retracted for a reason that does not touch the results,PMC10721789,2023,Cell Death Dis,perfunctory,False
+29273065>PMC10838088,29273065,retracted for a reason that does not touch the results,PMC10838088,2024,Onco Targets Ther,perfunctory,False
+29273065>PMC11494898,29273065,retracted for a reason that does not touch the results,PMC11494898,2024,Immun Inflamm Dis,substantive,False
+29273065>PMC12423487,29273065,retracted for a reason that does not touch the results,PMC12423487,2025,Phytother Res,perfunctory,False
+29273065>PMC9976389,29273065,retracted for a reason that does not touch the results,PMC9976389,2023,J Ovarian Res,perfunctory,False
+29316313>PMC10242804,29316313,retracted for a reason that does not touch the results,PMC10242804,2023,BMC Cancer,perfunctory,False
+29316313>PMC10377645,29316313,retracted for a reason that does not touch the results,PMC10377645,2023,Cancers (Basel),substantive,False
+29316313>PMC10562590,29316313,retracted for a reason that does not touch the results,PMC10562590,2023,Front Pharmacol,substantive,False
+29316313>PMC10604872,29316313,retracted for a reason that does not touch the results,PMC10604872,2023,Biomedicines,substantive,False
+29316313>PMC10940798,29316313,retracted for a reason that does not touch the results,PMC10940798,2024,Comput Struct Biotechnol J,perfunctory,False
+29316313>PMC11069487,29316313,retracted for a reason that does not touch the results,PMC11069487,2024,J Cancer Res Clin Oncol,perfunctory,False
+29316313>PMC11118806,29316313,retracted for a reason that does not touch the results,PMC11118806,2024,Biomedicines,substantive,False
+29316313>PMC11512435,29316313,retracted for a reason that does not touch the results,PMC11512435,2023,Galen Med J,perfunctory,False
+29316313>PMC11573320,29316313,retracted for a reason that does not touch the results,PMC11573320,2025,Int J Mol Med,perfunctory,False
+29316313>PMC13545411,29316313,retracted for a reason that does not touch the results,PMC13545411,2026,J Cell Mol Med,perfunctory,False
+29316313>PMC8711590,29316313,retracted for a reason that does not touch the results,PMC8711590,2022,Int J Mol Med,perfunctory,False
+29316313>PMC8807705,29316313,retracted for a reason that does not touch the results,PMC8807705,2022,Sci Rep,perfunctory,False
+29316313>PMC9185682,29316313,retracted for a reason that does not touch the results,PMC9185682,2022,Mol Med Rep,perfunctory,False
+29316313>PMC9410791,29316313,retracted for a reason that does not touch the results,PMC9410791,2022,Evid Based Complement Alternat Med,perfunctory,True
+29316313>PMC9662265,29316313,retracted for a reason that does not touch the results,PMC9662265,2022,Aging Dis,perfunctory,False
+29316313>PMC9929792,29316313,retracted for a reason that does not touch the results,PMC9929792,2023,Ann Transl Med,perfunctory,False
+29445078>PMC6522833,29445078,retracted for a reason that does not touch the results,PMC6522833,2019,Mol Med Rep,substantive,False
+29445078>PMC6580040,29445078,retracted for a reason that does not touch the results,PMC6580040,2019,Mol Med Rep,substantive,False
+29445078>PMC7027162,29445078,retracted for a reason that does not touch the results,PMC7027162,2020,Exp Ther Med,substantive,False
+29445078>PMC7384632,29445078,retracted for a reason that does not touch the results,PMC7384632,2020,PLoS One,substantive,False
+29445078>PMC7426600,29445078,retracted for a reason that does not touch the results,PMC7426600,2020,Clinics (Sao Paulo),perfunctory,False
+29445078>PMC7545670,29445078,retracted for a reason that does not touch the results,PMC7545670,2020,J Cancer,substantive,False
+29445078>PMC7883630,29445078,retracted for a reason that does not touch the results,PMC7883630,2021,Neuropsychiatr Dis Treat,substantive,False
+29445078>PMC8291797,29445078,retracted for a reason that does not touch the results,PMC8291797,2021,Bioengineered,substantive,False
+29445078>PMC9423964,29445078,retracted for a reason that does not touch the results,PMC9423964,2022,Evid Based Complement Alternat Med,substantive,False
+30080301>PMC10129035,30080301,retracted for a reason that does not touch the results,PMC10129035,2023,Dev Neurosci,perfunctory,False
+30080301>PMC11983647,30080301,retracted for a reason that does not touch the results,PMC11983647,2025,Front Oncol,substantive,True
+30080301>PMC12161405,30080301,retracted for a reason that does not touch the results,PMC12161405,2025,BMJ Open Ophthalmol,perfunctory,True
+30080301>PMC7221840,30080301,retracted for a reason that does not touch the results,PMC7221840,2020,Molecules,substantive,False
+30080301>PMC7368871,30080301,retracted for a reason that does not touch the results,PMC7368871,2020,J Mol Histol,perfunctory,False
+30080301>PMC7426600,30080301,retracted for a reason that does not touch the results,PMC7426600,2020,Clinics (Sao Paulo),perfunctory,False
+30080301>PMC7521580,30080301,retracted for a reason that does not touch the results,PMC7521580,2020,Int J Mol Med,perfunctory,False
+30080301>PMC8789461,30080301,retracted for a reason that does not touch the results,PMC8789461,2022,J Oncol,substantive,False
+30080301>PMC8791743,30080301,retracted for a reason that does not touch the results,PMC8791743,2022,J Oncol,substantive,False
+30080301>PMC8808993,30080301,retracted for a reason that does not touch the results,PMC8808993,2022,BMC Urol,perfunctory,False
+30080301>PMC9439784,30080301,retracted for a reason that does not touch the results,PMC9439784,2022,Medicine (Baltimore),substantive,False
+30080301>PMC9816416,30080301,retracted for a reason that does not touch the results,PMC9816416,2022,Front Cell Dev Biol,substantive,False
+30080301>PMC9856815,30080301,retracted for a reason that does not touch the results,PMC9856815,2023,Cells,perfunctory,True
+30385776>PMC10956261,30385776,retracted for a reason that does not touch the results,PMC10956261,2024,BMC Womens Health,perfunctory,False
+30385776>PMC6998358,30385776,retracted for a reason that does not touch the results,PMC6998358,2020,Cell Commun Signal,substantive,False
+30385776>PMC7397601,30385776,retracted for a reason that does not touch the results,PMC7397601,2020,Cancer Cell Int,substantive,False
+30385776>PMC7541166,30385776,retracted for a reason that does not touch the results,PMC7541166,2020,Cancer Med,perfunctory,False
+30385776>PMC7542768,30385776,retracted for a reason that does not touch the results,PMC7542768,2020,Cancer Cell Int,perfunctory,False
+30385776>PMC7643928,30385776,retracted for a reason that does not touch the results,PMC7643928,2020,Braz J Med Biol Res,substantive,False
+30385776>PMC7874118,30385776,retracted for a reason that does not touch the results,PMC7874118,2020,Front Genet,substantive,False
+30385776>PMC8774301,30385776,retracted for a reason that does not touch the results,PMC8774301,2021,Genes (Basel),perfunctory,False
+30385776>PMC8798779,30385776,retracted for a reason that does not touch the results,PMC8798779,2020,Transl Cancer Res,substantive,False
+32286091>PMC10001446,32286091,retracted for a reason that does not touch the results,PMC10001446,2023,Int J Environ Res Public Health,substantive,False
+32286091>PMC10023203,32286091,retracted for a reason that does not touch the results,PMC10023203,2023,J Affect Disord,perfunctory,False
+32286091>PMC10048897,32286091,retracted for a reason that does not touch the results,PMC10048897,2023,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC10065042,32286091,retracted for a reason that does not touch the results,PMC10065042,2022,An Sist Sanit Navar,substantive,False
+32286091>PMC10081737,32286091,retracted for a reason that does not touch the results,PMC10081737,2023,PLoS One,perfunctory,False
+32286091>PMC10158877,32286091,retracted for a reason that does not touch the results,PMC10158877,2023,Porto Biomed J,perfunctory,False
+32286091>PMC10198012,32286091,retracted for a reason that does not touch the results,PMC10198012,2023,BMC Geriatr,perfunctory,False
+32286091>PMC10204693,32286091,retracted for a reason that does not touch the results,PMC10204693,2023,BMC Health Serv Res,substantive,False
+32286091>PMC10215427,32286091,retracted for a reason that does not touch the results,PMC10215427,2023,Behav Sci (Basel),perfunctory,False
+32286091>PMC10276821,32286091,retracted for a reason that does not touch the results,PMC10276821,2023,Sci Rep,perfunctory,False
+32286091>PMC10506218,32286091,retracted for a reason that does not touch the results,PMC10506218,2023,Hum Resour Health,perfunctory,False
+32286091>PMC10796027,32286091,retracted for a reason that does not touch the results,PMC10796027,2024,PLoS One,perfunctory,False
+32286091>PMC10897044,32286091,retracted for a reason that does not touch the results,PMC10897044,2024,Front Public Health,perfunctory,False
+32286091>PMC10915202,32286091,retracted for a reason that does not touch the results,PMC10915202,2024,Front Psychol,perfunctory,False
+32286091>PMC11353291,32286091,retracted for a reason that does not touch the results,PMC11353291,2024,Eur J Investig Health Psychol Educ,perfunctory,False
+32286091>PMC11504835,32286091,retracted for a reason that does not touch the results,PMC11504835,2024,J Family Med Prim Care,substantive,False
+32286091>PMC11536703,32286091,retracted for a reason that does not touch the results,PMC11536703,2024,Front Psychiatry,perfunctory,False
+32286091>PMC11649555,32286091,retracted for a reason that does not touch the results,PMC11649555,2025,Mol Psychiatry,substantive,False
+32286091>PMC11784924,32286091,retracted for a reason that does not touch the results,PMC11784924,2025,Thorac Res Pract,perfunctory,False
+32286091>PMC11785730,32286091,retracted for a reason that does not touch the results,PMC11785730,2025,Sci Rep,perfunctory,False
+32286091>PMC11833433,32286091,retracted for a reason that does not touch the results,PMC11833433,2024,J Caring Sci,substantive,False
+32286091>PMC12502396,32286091,retracted for a reason that does not touch the results,PMC12502396,2025,BMC Psychol,perfunctory,False
+32286091>PMC12595798,32286091,retracted for a reason that does not touch the results,PMC12595798,2025,Hum Resour Health,perfunctory,False
+32286091>PMC12876003,32286091,retracted for a reason that does not touch the results,PMC12876003,2026,Front Med (Lausanne),perfunctory,False
+32286091>PMC13062612,32286091,retracted for a reason that does not touch the results,PMC13062612,2026,J Nurs Scholarsh,perfunctory,False
+32286091>PMC7411383,32286091,retracted for a reason that does not touch the results,PMC7411383,2021,Prog Neuropsychopharmacol Biol Psychiatry,perfunctory,False
+32286091>PMC7574785,32286091,retracted for a reason that does not touch the results,PMC7574785,2021,Compr Psychiatry,perfunctory,False
+32286091>PMC7605790,32286091,retracted for a reason that does not touch the results,PMC7605790,2021,J Affect Disord,perfunctory,False
+32286091>PMC7668285,32286091,retracted for a reason that does not touch the results,PMC7668285,2022,Int J Ment Health Addict,substantive,False
+32286091>PMC7689353,32286091,retracted for a reason that does not touch the results,PMC7689353,2021,Psychiatry Res,perfunctory,False
+32286091>PMC7705418,32286091,retracted for a reason that does not touch the results,PMC7705418,2021,J Affect Disord,perfunctory,False
+32286091>PMC7710473,32286091,retracted for a reason that does not touch the results,PMC7710473,2021,J Affect Disord,perfunctory,False
+32286091>PMC7778560,32286091,retracted for a reason that does not touch the results,PMC7778560,2021,Curr Psychol,perfunctory,False
+32286091>PMC7786866,32286091,retracted for a reason that does not touch the results,PMC7786866,2021,J Soc Econ Dev,substantive,False
+32286091>PMC7832486,32286091,retracted for a reason that does not touch the results,PMC7832486,2021,J Affect Disord,perfunctory,False
+32286091>PMC7837092,32286091,retracted for a reason that does not touch the results,PMC7837092,2021,Psychiatry Res,perfunctory,False
+32286091>PMC7845579,32286091,retracted for a reason that does not touch the results,PMC7845579,2021,BMC Psychiatry,substantive,False
+32286091>PMC7857980,32286091,retracted for a reason that does not touch the results,PMC7857980,2021,Environ Res,substantive,False
+32286091>PMC7859573,32286091,retracted for a reason that does not touch the results,PMC7859573,2021,Scand J Public Health,perfunctory,False
+32286091>PMC7876399,32286091,retracted for a reason that does not touch the results,PMC7876399,2021,Front Psychiatry,perfunctory,False
+32286091>PMC7920474,32286091,retracted for a reason that does not touch the results,PMC7920474,2021,Int J Environ Res Public Health,substantive,False
+32286091>PMC7936707,32286091,retracted for a reason that does not touch the results,PMC7936707,2021,Int J Gen Med,substantive,False
+32286091>PMC7937808,32286091,retracted for a reason that does not touch the results,PMC7937808,2021,Front Psychol,substantive,False
+32286091>PMC7946321,32286091,retracted for a reason that does not touch the results,PMC7946321,2021,PLoS One,substantive,False
+32286091>PMC7985752,32286091,retracted for a reason that does not touch the results,PMC7985752,2021,Asian Bioeth Rev,perfunctory,False
+32286091>PMC7995388,32286091,retracted for a reason that does not touch the results,PMC7995388,2021,BMC Psychiatry,substantive,False
+32286091>PMC8006628,32286091,retracted for a reason that does not touch the results,PMC8006628,2021,Global Health,substantive,True
+32286091>PMC8011049,32286091,retracted for a reason that does not touch the results,PMC8011049,2022,Curr Psychol,substantive,False
+32286091>PMC8037799,32286091,retracted for a reason that does not touch the results,PMC8037799,2021,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC8101604,32286091,retracted for a reason that does not touch the results,PMC8101604,2021,Transl Psychiatry,perfunctory,False
+32286091>PMC8103505,32286091,retracted for a reason that does not touch the results,PMC8103505,2021,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC8117956,32286091,retracted for a reason that does not touch the results,PMC8117956,2021,JMIR Res Protoc,perfunctory,False
+32286091>PMC8130820,32286091,retracted for a reason that does not touch the results,PMC8130820,2021,J Med Internet Res,perfunctory,False
+32286091>PMC8158238,32286091,retracted for a reason that does not touch the results,PMC8158238,2021,Health Psychol Behav Med,perfunctory,False
+32286091>PMC8177307,32286091,retracted for a reason that does not touch the results,PMC8177307,2021,Cogn Behav Pract,substantive,False
+32286091>PMC8185312,32286091,retracted for a reason that does not touch the results,PMC8185312,2021,EPMA J,substantive,False
+32286091>PMC8208774,32286091,retracted for a reason that does not touch the results,PMC8208774,2021,Braz J Med Biol Res,substantive,False
+32286091>PMC8226323,32286091,retracted for a reason that does not touch the results,PMC8226323,2021,Front Psychol,perfunctory,False
+32286091>PMC8235082,32286091,retracted for a reason that does not touch the results,PMC8235082,2021,J Pers Med,substantive,False
+32286091>PMC8264352,32286091,retracted for a reason that does not touch the results,PMC8264352,2021,J Affect Disord,substantive,False
+32286091>PMC8266633,32286091,retracted for a reason that does not touch the results,PMC8266633,2021,Transl Psychiatry,substantive,False
+32286091>PMC8312570,32286091,retracted for a reason that does not touch the results,PMC8312570,2021,Front Psychol,perfunctory,False
+32286091>PMC8329079,32286091,retracted for a reason that does not touch the results,PMC8329079,2021,Front Psychiatry,substantive,False
+32286091>PMC8342270,32286091,retracted for a reason that does not touch the results,PMC8342270,2021,EPMA J,perfunctory,False
+32286091>PMC8413096,32286091,retracted for a reason that does not touch the results,PMC8413096,2021,J Affect Disord,perfunctory,False
+32286091>PMC8413818,32286091,retracted for a reason that does not touch the results,PMC8413818,2021,Brain Behav,substantive,False
+32286091>PMC8423319,32286091,retracted for a reason that does not touch the results,PMC8423319,2021,SAGE Open Med,perfunctory,False
+32286091>PMC8431592,32286091,retracted for a reason that does not touch the results,PMC8431592,2021,Int J Environ Res Public Health,substantive,False
+32286091>PMC8461524,32286091,retracted for a reason that does not touch the results,PMC8461524,2021,Sleep Med Rev,substantive,False
+32286091>PMC8477722,32286091,retracted for a reason that does not touch the results,PMC8477722,2022,Int J Behav Med,perfunctory,False
+32286091>PMC8478263,32286091,retracted for a reason that does not touch the results,PMC8478263,2021,World J Emerg Surg,perfunctory,False
+32286091>PMC8542799,32286091,retracted for a reason that does not touch the results,PMC8542799,2021,Front Psychiatry,substantive,False
+32286091>PMC8550405,32286091,retracted for a reason that does not touch the results,PMC8550405,2021,PLoS One,aware,True
+32286091>PMC8565804,32286091,retracted for a reason that does not touch the results,PMC8565804,2021,JMIR Ment Health,substantive,False
+32286091>PMC8568275,32286091,retracted for a reason that does not touch the results,PMC8568275,2021,PLoS One,substantive,False
+32286091>PMC8608308,32286091,retracted for a reason that does not touch the results,PMC8608308,2021,PLoS One,perfunctory,False
+32286091>PMC8609892,32286091,retracted for a reason that does not touch the results,PMC8609892,2022,Eur Neuropsychopharmacol,perfunctory,False
+32286091>PMC8619187,32286091,retracted for a reason that does not touch the results,PMC8619187,2021,Int J Environ Res Public Health,substantive,False
+32286091>PMC8620700,32286091,retracted for a reason that does not touch the results,PMC8620700,2021,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC8637751,32286091,retracted for a reason that does not touch the results,PMC8637751,2021,Pan Afr Med J,substantive,False
+32286091>PMC8723801,32286091,retracted for a reason that does not touch the results,PMC8723801,2022,Curr Psychol,perfunctory,False
+32286091>PMC8764301,32286091,retracted for a reason that does not touch the results,PMC8764301,2021,Front Public Health,perfunctory,False
+32286091>PMC8809129,32286091,retracted for a reason that does not touch the results,PMC8809129,2022,Ann Thorac Med,substantive,False
+32286091>PMC8833312,32286091,retracted for a reason that does not touch the results,PMC8833312,2022,Int J Public Health,substantive,False
+32286091>PMC8882410,32286091,retracted for a reason that does not touch the results,PMC8882410,2022,J Transp Health,perfunctory,False
+32286091>PMC8943357,32286091,retracted for a reason that does not touch the results,PMC8943357,2022,Soc Psychiatry Psychiatr Epidemiol,substantive,False
+32286091>PMC8980603,32286091,retracted for a reason that does not touch the results,PMC8980603,2022,Front Psychiatry,substantive,False
+32286091>PMC8997823,32286091,retracted for a reason that does not touch the results,PMC8997823,2022,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC9087150,32286091,retracted for a reason that does not touch the results,PMC9087150,2022,Int J Disaster Risk Reduct,substantive,False
+32286091>PMC9141890,32286091,retracted for a reason that does not touch the results,PMC9141890,2022,Int J Environ Res Public Health,substantive,False
+32286091>PMC9222994,32286091,retracted for a reason that does not touch the results,PMC9222994,2022,Int J Environ Res Public Health,perfunctory,True
+32286091>PMC9234110,32286091,retracted for a reason that does not touch the results,PMC9234110,2022,Front Psychiatry,perfunctory,False
+32286091>PMC9250998,32286091,retracted for a reason that does not touch the results,PMC9250998,2022,Front Psychiatry,perfunctory,False
+32286091>PMC9281234,32286091,retracted for a reason that does not touch the results,PMC9281234,2022,Advers Resil Sci,perfunctory,False
+32286091>PMC9288138,32286091,retracted for a reason that does not touch the results,PMC9288138,2022,Int J Health Sci (Qassim),perfunctory,False
+32286091>PMC9317662,32286091,retracted for a reason that does not touch the results,PMC9317662,2022,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC9385772,32286091,retracted for a reason that does not touch the results,PMC9385772,2022,Health Place,perfunctory,False
+32286091>PMC9410502,32286091,retracted for a reason that does not touch the results,PMC9410502,2022,J Clin Med,perfunctory,False
+32286091>PMC9422344,32286091,retracted for a reason that does not touch the results,PMC9422344,2022,Heliyon,perfunctory,False
+32286091>PMC9555820,32286091,retracted for a reason that does not touch the results,PMC9555820,2022,JMIR Ment Health,perfunctory,False
+32286091>PMC9580569,32286091,retracted for a reason that does not touch the results,PMC9580569,2022,Iran J Nurs Midwifery Res,substantive,False
+32286091>PMC9603399,32286091,retracted for a reason that does not touch the results,PMC9603399,2022,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC9603498,32286091,retracted for a reason that does not touch the results,PMC9603498,2022,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC9603769,32286091,retracted for a reason that does not touch the results,PMC9603769,2022,Int J Environ Res Public Health,perfunctory,False
+32286091>PMC9617045,32286091,retracted for a reason that does not touch the results,PMC9617045,2022,BMC Sports Sci Med Rehabil,perfunctory,False
+32286091>PMC9665417,32286091,retracted for a reason that does not touch the results,PMC9665417,2022,Acta Inform Med,perfunctory,False
+32286091>PMC9701545,32286091,retracted for a reason that does not touch the results,PMC9701545,2021,Int J Nurs Stud,perfunctory,False
+32286091>PMC9707851,32286091,retracted for a reason that does not touch the results,PMC9707851,2022,Qual Quant,substantive,True
+32286091>PMC9710794,32286091,retracted for a reason that does not touch the results,PMC9710794,2022,PLoS One,perfunctory,False
+32286091>PMC9754746,32286091,retracted for a reason that does not touch the results,PMC9754746,2023,J Affect Disord,perfunctory,False
+32286091>PMC9883055,32286091,retracted for a reason that does not touch the results,PMC9883055,2022,Cureus,substantive,False
+32286091>PMC9982799,32286091,retracted for a reason that does not touch the results,PMC9982799,2023,Soc Psychiatry Psychiatr Epidemiol,perfunctory,False
+32647692>PMC10308456,32647692,retracted for a reason that does not touch the results,PMC10308456,2023,Oncol Rep,substantive,False
+32647692>PMC11063438,32647692,retracted for a reason that does not touch the results,PMC11063438,2024,Heliyon,substantive,False
+32647692>PMC11130610,32647692,retracted for a reason that does not touch the results,PMC11130610,2024,Oncol Lett,perfunctory,False
+32647692>PMC11549674,32647692,retracted for a reason that does not touch the results,PMC11549674,2024,Front Pharmacol,substantive,False
+32647692>PMC7989207,32647692,retracted for a reason that does not touch the results,PMC7989207,2021,Respir Res,substantive,False
+32647692>PMC8008344,32647692,retracted for a reason that does not touch the results,PMC8008344,2021,Monatsh Chem,perfunctory,False
+32647692>PMC8117216,32647692,retracted for a reason that does not touch the results,PMC8117216,2021,Front Oncol,substantive,False
+32647692>PMC8228376,32647692,retracted for a reason that does not touch the results,PMC8228376,2021,Oncol Lett,substantive,False
+32647692>PMC8436334,32647692,retracted for a reason that does not touch the results,PMC8436334,2021,Oncol Lett,substantive,False
+32647692>PMC9805133,32647692,retracted for a reason that does not touch the results,PMC9805133,2022,Microb Cell Fact,substantive,False

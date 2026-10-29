@@ -1,0 +1,80 @@
+b260159ea966308de590b22ba9032585f90560503ec26de671206d1a115e5e72  PROTOCOL.md
+e0922a02a50cd7f88e8c2bc6c95d770bca5a36715db623f477f99fb154bb5ebc  scripts/judge.py
+b4c8fdcf0e0d451b2e74896d14fbf0c496f362d12eef5b24e842994f8e6f9b57  scripts/sample.py
+b6ab656042e787608ad88b10eb880350c03e4d60aa295b02810bc6fee476a787  scripts/judge.py
+783d7db28ad88b92c4167c86393c8f6a91b05698364517dffe6f576cf1009894  run.sh
+fae8fe69bc181e06c6b5851288d80c550bfb2643e70a1acf2983074838882c85  DEVIATIONS.md
+153101bfbf3c4d3756dc6ad6bcb9f7218abfde9285c9ad419e576a2778dc9bce  PROTOCOL_TUNING_2026-10-22.md
+7d8b2412ddc4e795e8e394ce3ff8e3593ca9bc1eb517b28eea99ad3f0c3af5b5  METHOD_CHOSEN_2026-10-22.md
+8c0232d7d3692a82fc5caf31feeb431467d637df2f0302e657855b721b51d47a  METHOD_CHOSEN_v2_2026-10-22.md
+3e1398c8a389487c30ab97aad971d9b2e5e87310f45c9cb95b32513e4bc0ad27  run_batch.sh
+a69546aad4339ddc1a823b1fceea6707ed6a8d232493b9b9c954e963f1fbc710  scripts/panel_rates.py
+dfc7a229c30834bb6c864e7a5c4438c35cedbf1afa225b7915f651006f1a8e19  METHOD_CHOSEN_v3_2026-10-22.md
+a69546aad4339ddc1a823b1fceea6707ed6a8d232493b9b9c954e963f1fbc710  scripts/panel_rates.py
+92d51fa4a92ed37efcce7df0b8b44728cac34074c0b712a9f274738a4b74a3dc  scripts/judge_v2.py
+# re-hash 04:07: only the timestamp typo in METHOD_CHOSEN_v3 fixed (4:20 -> 4:05); no batch 5 output existed yet
+285083a82de3c7d92f303ea53cb8c4d4e9bc9eb7fa51678e8c09a43b442bfb92  METHOD_CHOSEN_v3_2026-10-22.md
+ad854b1bff24f4c318c8688cf98c457d9b606311c2d8a84934126f14bf2e08cd  PREREG_CLEF_SCREEN_2026-10-22.md
+2026-10-22T13:38:08Z d02d7e6c6b5725f9528f507ac9423921b9739d8d1e293f7f48082aa7832f6a42  PREREG_RERUN_2026-10-22.md
+2026-10-22T13:38:08Z 331b76cc0c1aa763aaaaaad4340d7ea76dc7566e2d4a0af13daf3cb20704e493  MODEL_CARDS_2026-10-22.md
+2026-10-22T13:38:08Z 4bbfba16a2445d2d8a0423bd68667de1b3954ae606a3c345a4e133dcb1e401b1  model-cards/configs.json
+2026-10-22T13:38:08Z 2ee36659243ac98cda18a5484dcf6c00bd429010e15a7acfddf8083504fe4bfe  scripts/score_v3.py
+2026-10-22T13:38:08Z f3c581f8f67b092572a6b144bf495dc3bb14dcbd2a130ef0bf32c0d7ed0cff57  scripts/judge_v3.py
+21023aa0ae659facf743127c0c680bb1563f025a4aae8a9518f2107fd2b8f85c  PREREG_SYSTEM_2026-10-22.md
+0345f4ef354f56fdc05e6e281f00b0994e24a2da757c2e59c92d9a954f9dbf5b  scripts/two_stage_explore.py
+79a2646b6c17cbc257d19075ebb7eec7d6efd45fdeab5d6f1fb752b8d9b38611  batches/b6/sample_test.jsonl
+1d905448a506013381f3dab9d1e0454eb0a2bb90c2a886d02b3287bf91ddc4e3  batches/b6/draws_test.json
+9def4af1ee47f4a972328b1b6a2e058b7d5f4cdf8fa5af2b5c48618f1002b818  PREREG_SYSTEM_2026-10-22.md  (amendment 1)
+c8c17f1892a2c3f5a3c16fc3b52ced36e5a3c8e5560ecc6ad17f6127e551c37a  PREREG_SYSTEM_2026-10-22.md  (amendment 2)
+1771f6d164fee1d3f3a4b8ae295b0f66af35bfb28ccaccd7af986aa54d0fe90f  PREREG_SYSTEM_2026-10-22.md  (time note)
+f7f99be52bb658d7fa83c930b4d5e05a68d175c2808a8c438eadc7e770909c92  batches/b6/ref_claude (930 Claude reads, sorted concat)
+9c0f7cdce42a6e00288d475cd48a35e4b122e8804fa2dacdfe62db3942a981d3  PREREG_SYSTEM_2026-10-22.md  (amendment 3)
+44bcc8a3cd325315245be8384dd64d0edbb6dcbbb76e1ddfa2ebe3398c31789f  scripts/gemini_read.py
+f1375e4a1c23bb71c2751dab15127468a91e0414420a0f5717004e470e593094  batches/b2/gemini_calib_draws.json
+24bed1563ee9c94932fa2be8e7b9a6e4431ecc6b49f6f0e8b237708f55684b52  batches/b3/gemini_calib_draws.json
+57f962ec317eb15ed62a3866b8c1c9b107818a0f45eb07a72ac05f09f3a244c7  batches/b4/gemini_calib_draws.json
+a7f025dccda8909a1b2f10b7af87ac589eb4ca689e05a2c713ba1692652398f1  PREREG_SYSTEM_2026-10-22.md  (amendment 4)
+905bd8c5f9da4f1bd58e5dc4d2515d6053d2e0cacc19c0b9ecef8cf5bcd8699e  scripts/openrouter_read.py
+83660fbdf3c0524d451b54e61fc7b45ee2d45905a705c4d3d7c38c4e5f765903  PREREG_SYSTEM_2026-10-22.md  (amendment 3 note)
+352b97dbd587a8c80ad6bd68812eb309dde3e7f0b31da753b45a11a8a2d60b08  batches/b6/ref_grok_or.jsonl  (66 Grok reads, before any comparison)
+4110de0602f8805d068a15cb857dbccf7579f6ec10acdb678d5b5fc6b052295d  batches/b6/ref_gemini.jsonl  (66 Gemini reads, second check)
+e61e410568742fb72eb8f76b94ee8bd342abc15f17d9b2a0bcdb84671c6e6cf9  ref_A/readerA.jsonl  (reader A = 930 Claude + 66 Grok)
+# 2026-10-22T22:07:41Z re-hash recorded after the fact (audit 22 Oct). The 13:38:08Z lines above are the registered versions.
+# Amendments 1-6 were made after 13:38 without a hash each; versions between amendments were not kept and cannot
+# be hashed or rebuilt. Copies of the files hashed below are in versions/ (suffix .20261022T2210Z).
+2026-10-22T22:07:41Z c5937e04d2b0a5213d4642c50c19672e0ebef04e0fc607b0b831eef67cab12ac  PREREG_RERUN_2026-10-22.md  (current, after amendments 1-6; recorded after the fact)
+2026-10-22T22:07:41Z f8ab6624dfa8c789d8693ef68a0b1c6d56100a818e6feb1c794a378d0b2aa5a8  MODEL_CARDS_2026-10-22.md  (current, after amendments 1-6; recorded after the fact)
+2026-10-22T22:07:41Z 9188e199c398cd453b7e23b5852416ab2795897a94525a1ace647faf72a5eb33  model-cards/configs.json  (current, after amendments 1-6; recorded after the fact)
+2026-10-22T22:07:41Z db35fd8a3ea84693dc2db71979bfac334d865d3668a250046d3fc2955af234ba  scripts/judge_v3.py  (current, after amendments 1-6; recorded after the fact)
+2026-10-22T22:07:41Z 983389fc063fae462c954be21f2cf70ee55e1259c09f48f73ecc0f94b40c19cc  scripts/score_v3.py  (audit code completion, DEVIATIONS.md item 2; registered 2ee36659... kept as scripts/score_v3.py.bak-audit)
+2026-10-22T22:07:41Z cd04c10f7d5400f1d4fbee6483b634439da52399cbbe559965cf63b5c6955a29  DEVIATIONS.md  (item 2 added)
+834efc31b642f41aee967a79e9ee4c8a0df690fe82150a5177096edd40d02960  PREREG_SYSTEM_2026-10-22.md  (calibration note)
+# 2026-10-22T22:54:56Z audit (research validity): Amendments 7-8 appended to PREREG_RERUN, item 3 to DEVIATIONS; hashed after the fact
+2026-10-22T22:54:56Z 02afea7bb519656cbed840c56e21df25fd40154a210f8015dd8adf79f7ca11f5  PREREG_RERUN_2026-10-22.md  (after amendments 7-8)
+2026-10-22T22:54:56Z c9e7caeaa9680a6b18218c3b963619a140d64ab9c4be6a8720ef1ffbe7d02980  DEVIATIONS.md  (item 3 added)
+2026-10-22T22:54:56Z 50750de23c0f2b2cf8f50e8cfef417dc55878d2c9c53f56e2d88edd74e0adab1  runs/full/score_partial_1130.json  (interim look, listed in Amendment 7)
+2026-10-22T22:54:56Z 3744edac398375ca236dde358b74c1990da2e8b0eeda26833dc838fc175de791  runs/full/score_interim_1400.json  (interim look, listed in Amendment 7)
+2026-10-22T22:54:56Z 3636fe69e261e1cdd9c7bcfc15fee7fdbc73f0479e7cf7e00f594787c35a7f38  runs/full/two_stage_explore_interim.json  (interim look, listed in Amendment 7)
+2026-10-22T22:54:56Z e3844058e015246124d0114537788dc0559f5676e69e829f7a1c62726cb67c25  runs/full/two_stage_explore_1455.json  (interim look, listed in Amendment 7)
+2026-10-22T22:54:56Z 8cdf0cc233f739fd8cbf70c58146e8698adbb323bdc8ea5ede97df782a50c7c5  audit-20261022/score_before.json  (interim look, listed in Amendment 7)
+421a2f9f2317257068ef94a3a9cdc2686fd56a9cb83487a595c156cf98ac774a  PREREG_SYSTEM_2026-10-22.md  (amendment 5)
+7ae9422db2101f757cd871cad19a2bb0473d61f3d9c896a5b45810cde3c2b197  batches/b6/ref_muse/muse.jsonl  (996 Muse reads)
+d4ce0cb78258ba7d44323e11d674c22963a81733f5edc46090ee08510f9b948c  scripts/adj_openrouter.py
+01eea5bd5059b875708200cf30dc405108e84583d3176e2e1b0810efbc7baae5  batches/b6/gold/gold.jsonl  (b6 gold, before any system output)
+12900ee13cf6710d576a9b7ae96b37dd03fb5124f82c5994dee203b5b6d71c5f  batches/b6/gold/adjudicated.jsonl  (b6 gold, before any system output)
+34535c6f731a87df1cab28b89b1cc1e5432174f7b8f54a93d2fdaef7d1cf3ce5  scripts/lock_system.py
+0d7fd807eabf922327fbb2609fc684cc9235b00aa06c902e856f3975297fee33  scripts/score_b6.py
+72df639173eb5c2615db2dd9236c00a481f10ff07b4e5f15d56b41ebee6b7d30  batches/b6/gold_gemini/gold.jsonl  (b6 gold, Gemini-reader sensitivity, before any system output)
+44dd2be2d73ac8d3f026d3a5400088d49f4c0f103a3ba29e1e0bcc2e80fca20e  scripts/lock_system.py  (lock fix)
+9054adce57a063b5f0003d93c41b544540c0804121d366d4875dd403529058ab  PREREG_SYSTEM_2026-10-22.md  (lock fix)
+28dce9cab1241fbba1ebe322cda44cce834bd10abca6acb7439f7bc962ecde21  SYSTEM_LOCKED_2026-10-22.json  (SYSTEM LOCKED, before any batch 6 model call)
+9188e199c398cd453b7e23b5852416ab2795897a94525a1ace647faf72a5eb33  model-cards/configs.json  (SYSTEM LOCKED, before any batch 6 model call)
+3dc4788a38315af2dda9b33283ff1b60cc020ab0c5f59c2e1147623c4afb0a4b  scripts/score_b6.py  (unpack fix)
+05516742e0557bab79609f1ca24dc2175316a9ded156a46ef4d4d9a93b5522a6  batches/b6/draws_flagged.json
+cce4a5034ef5775b2c5d95de5fd3d94c7e18d92d756355cfe58e45e29ce5cf5a  B6_RESULT_2026-10-22.md
+c97508602b9c9ec714180e8933849fa56fb1a5b239784892d5e74b90c8eb107c  B6_RESULT_2026-10-22.json
+# 2026-10-23T19:40:55Z recorded after the fact (audit 23 Oct). These three files changed after their last hash above and were not
+# hashed at the time. The versions in between were not kept.
+2026-10-23T19:40:55Z 8c6fbf91e1a3b7cf8673c4dbf52c721693316201e266752c0db659cf29dfe97f  PREREG_SYSTEM_2026-10-22.md  (with amendment 6, written 23 Oct ~12:05 AM ET after the batch 6 result was known; the text before the amendment 6 heading, with one trailing newline, is the 'lock fix' version above, 9054adce...)
+2026-10-23T19:40:55Z 770623964079524d14f1203d7c9a1b9e58c7e59fb9b0e4e7a5aae77eb05b6c43  scripts/adj_openrouter.py  (23 Oct, after batch 6: free models only, new default model; last hashed above as d4ce0cb7...)
+2026-10-23T19:40:55Z f1c9c43dce1848a954e80b7ce8b4e075bed8e63001921808b93b3dea54966023  scripts/openrouter_read.py  (23 Oct, after batch 6: free models only, new default model; last hashed above as 905bd8c5...)

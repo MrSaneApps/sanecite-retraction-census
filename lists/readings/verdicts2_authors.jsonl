@@ -1,0 +1,54 @@
+{"pair_id": "18713984>PMC5736671", "group": "0000-0002-2989-121X Haque S", "verdict": "CONFIRM", "review": false, "reason": "Tregs convert to Th17 cells, cited as fact."}
+{"pair_id": "23878789>PMC11751200", "group": "0000-0002-2989-121X Haque S", "verdict": "REJECT_OTHER", "review": true, "reason": "Silymarin bioavailability claim; not the hTERT paper's finding, likely mislinked."}
+{"pair_id": "28701916>PMC10873238", "group": "0000-0002-2989-121X Haque S", "verdict": "CONFIRM", "review": true, "reason": "HOTAIR/miR-148b-3p/USF1 BTB finding in text and table."}
+{"pair_id": "28701916>PMC11140545", "group": "0000-0002-2989-121X Haque S", "verdict": "CONFIRM", "review": true, "reason": "Table row lists the finding."}
+{"pair_id": "29036788>PMC11803034", "group": "0000-0002-2989-121X Haque S", "verdict": "REJECT_OTHER", "review": true, "reason": "NEAT1 row; cites a CCAT2 paper, mislinked."}
+{"pair_id": "29473328>PMC10873238", "group": "0000-0002-2989-121X Haque S", "verdict": "CONFIRM", "review": true, "reason": "HOTAIR/miR-20a-5p/HMGA2 finding."}
+{"pair_id": "29512690>PMC9697248", "group": "0000-0002-2989-121X Haque S", "verdict": "CONFIRM", "review": true, "reason": "Table rows restate the daidzein SKOV3 results."}
+{"pair_id": "35799628>PMC10873238", "group": "0000-0002-2989-121X Haque S", "verdict": "CONFIRM", "review": true, "reason": "HOTAIR/HMGB1 spinal cord injury finding."}
+{"pair_id": "35799628>PMC11140545", "group": "0000-0002-2989-121X Haque S", "verdict": "CONFIRM", "review": true, "reason": "Same finding."}
+{"pair_id": "19223576>PMC7643726", "group": "0000-0003-4072-4997 Imran M", "verdict": "CONFIRM", "review": true, "reason": "Table row restates psoralidin results."}
+{"pair_id": "21127198>PMC9631725", "group": "0000-0003-4072-4997 Imran M", "verdict": "REJECT_PASSING", "review": false, "reason": "One of a list of activity references."}
+{"pair_id": "25087727>PMC11742186", "group": "0000-0003-4072-4997 Imran M", "verdict": "CONFIRM", "review": true, "reason": "Luteolin neuroprotection finding, text and table."}
+{"pair_id": "29113236>PMC11896816", "group": "0000-0003-4072-4997 Imran M", "verdict": "CONFIRM", "review": true, "reason": "Biochanin A melanoma finding."}
+{"pair_id": "29512690>PMC11896816", "group": "0000-0003-4072-4997 Imran M", "verdict": "CONFIRM", "review": true, "reason": "Daidzein table row."}
+{"pair_id": "34221094>PMC12558816", "group": "0000-0003-4072-4997 Imran M", "verdict": "REJECT_PASSING", "review": true, "reason": "General statement of pharmacological potential."}
+{"pair_id": "34824600>PMC10756970", "group": "0000-0003-4072-4997 Imran M", "verdict": "REJECT_OTHER", "review": false, "reason": "Comparison-table row of image counts."}
+{"pair_id": "12670382>PMC6081075", "group": "0000-0002-8589-7456 Lee LH", "verdict": "CONFIRM", "review": false, "reason": "Acupressure improved sleep in dialysis patients."}
+{"pair_id": "12670382>PMC8154401", "group": "0000-0002-8589-7456 Lee LH", "verdict": "CONFIRM", "review": false, "reason": "Same finding."}
+{"pair_id": "15543611>PMC9688668", "group": "0000-0002-8589-7456 Lee LH", "verdict": "CONFIRM", "review": true, "reason": "PTEN inactivation hyperactivates mTOR, cited to the paper."}
+{"pair_id": "26987594>PMC6165876", "group": "0000-0002-8589-7456 Lee LH", "verdict": "CONFIRM", "review": true, "reason": "WalK/WalR as the key regulator, cited as finding."}
+{"pair_id": "28179900>PMC6896111", "group": "0000-0002-8589-7456 Lee LH", "verdict": "REJECT_PASSING", "review": false, "reason": "Names a compound with a reference."}
+{"pair_id": "29687840>PMC9688668", "group": "0000-0002-8589-7456 Lee LH", "verdict": "REJECT_OTHER", "review": true, "reason": "circTPCN/miR-634 claim; cites a miR-214 paper, mislinked."}
+{"pair_id": "31322140>PMC9688668", "group": "0000-0002-8589-7456 Lee LH", "verdict": "CONFIRM", "review": true, "reason": "Parthenolide thyroid results in text and table."}
+{"pair_id": "31803643>PMC9138548", "group": "0000-0002-8589-7456 Lee LH", "verdict": "CONFIRM", "review": true, "reason": "Gut toxin and butyrate claims cited to the paper."}
+{"pair_id": "14612541>PMC7917704", "group": "0000-0002-8642-6795 Baradaran B", "verdict": "CONFIRM", "review": true, "reason": "Bcl-2/HMGA2 feedback finding."}
+{"pair_id": "17420722>PMC7812983", "group": "0000-0002-8642-6795 Baradaran B", "verdict": "CONFIRM", "review": true, "reason": "Rituximab PI3K/AKT table row."}
+{"pair_id": "20068105>PMC7335982", "group": "0000-0002-8642-6795 Baradaran B", "verdict": "CONFIRM", "review": true, "reason": "Galectin-3 from CSCs triggers T-cell apoptosis."}
+{"pair_id": "24475975>PMC12909375", "group": "0000-0002-8642-6795 Baradaran B", "verdict": "CONFIRM", "review": true, "reason": "Cell-based vaccine finding used to support CAR-T argument."}
+{"pair_id": "25030358>PMC10278211", "group": "0000-0002-8642-6795 Baradaran B", "verdict": "CONFIRM", "review": false, "reason": "miR-302a inhibits BC invasiveness, as prior evidence."}
+{"pair_id": "25738402>PMC12305408", "group": "0000-0002-8642-6795 Baradaran B", "verdict": "CONFIRM", "review": false, "reason": "Sorafenib + cisplatin results, 'consistent with our results'."}
+{"pair_id": "17875968>PMC8459600", "group": "0000-0003-2347-0411 Huang CY", "verdict": "CONFIRM", "review": false, "reason": "PTEN activation under HG, cited as a demonstration."}
+{"pair_id": "19524507>PMC6827018", "group": "0000-0003-2347-0411 Huang CY", "verdict": "CONFIRM", "review": false, "reason": "miR-31 acts as tumour suppressor in breast cancer."}
+{"pair_id": "20462402>PMC7202519", "group": "0000-0003-2347-0411 Huang CY", "verdict": "CONFIRM", "review": true, "reason": "Marathon raised SIRT1 expression."}
+{"pair_id": "23637992>PMC12434812", "group": "0000-0003-2347-0411 Huang CY", "verdict": "CONFIRM", "review": false, "reason": "Nassirpour et al. found high miR-221 in TNBC."}
+{"pair_id": "24001238>PMC4974905", "group": "0000-0003-2347-0411 Huang CY", "verdict": "CONFIRM", "review": false, "reason": "'In our previous study we found...': the authors' own retracted result."}
+{"pair_id": "34900185>PMC10887337", "group": "0000-0003-2347-0411 Huang CY", "verdict": "CONFIRM", "review": true, "reason": "Chrysanthemum stroke trial results in text and table."}
+{"pair_id": "17948911>PMC7052875", "group": "0000-0002-8215-2045 Luo P", "verdict": "CONFIRM", "review": false, "reason": "'Strong evidence' for celecoxib + EGFR-TKI."}
+{"pair_id": "19413639>PMC12784535", "group": "0000-0002-8215-2045 Luo P", "verdict": "CONFIRM", "review": true, "reason": "Dll4 expression in malignant cells."}
+{"pair_id": "25409614>PMC12176387", "group": "0000-0002-8215-2045 Luo P", "verdict": "CONFIRM", "review": false, "reason": "Uses the paper's 71 DEGs to build a model."}
+{"pair_id": "29530052>PMC11467208", "group": "0000-0002-8215-2045 Luo P", "verdict": "CONFIRM", "review": true, "reason": "Table row restates miR-32-5p finding."}
+{"pair_id": "30237408>PMC11733683", "group": "0000-0002-8215-2045 Luo P", "verdict": "CONFIRM", "review": true, "reason": "miR-665 HCC finding."}
+{"pair_id": "36238494>PMC11333198", "group": "0000-0002-8215-2045 Luo P", "verdict": "CONFIRM", "review": false, "reason": "Zhao and colleagues found four HCM biomarkers."}
+{"pair_id": "21753854>PMC9734980", "group": "0000-0003-3823-6572 Singh SK", "verdict": "CONFIRM", "review": true, "reason": "Table row: piperlongumine apoptosis."}
+{"pair_id": "25798602>PMC10771618", "group": "0000-0003-3823-6572 Singh SK", "verdict": "REJECT_PASSING", "review": false, "reason": "One of a list of activity references."}
+{"pair_id": "25798602>PMC10933165", "group": "0000-0003-3823-6572 Singh SK", "verdict": "CONFIRM", "review": false, "reason": "Antioxidant mechanism (GSH, TBARS) cited to the paper."}
+{"pair_id": "29512690>PMC10691498", "group": "0000-0003-3823-6572 Singh SK", "verdict": "CONFIRM", "review": true, "reason": "Table row restates the daidzein SKOV3 results."}
+{"pair_id": "34017029>PMC9874620", "group": "0000-0003-3823-6572 Singh SK", "verdict": "REJECT_OTHER", "review": true, "reason": "SARS-CoV-2 / vitamin D observational claims; mislinked."}
+{"pair_id": "35664430>PMC11126788", "group": "0000-0003-3823-6572 Singh SK", "verdict": "CONFIRM", "review": true, "reason": "Table row miR-421 finding."}
+{"pair_id": "15604363>PMC10600231", "group": "0000-0002-9572-7151 Rak A", "verdict": "REJECT_PASSING", "review": false, "reason": "Credits the paper with naming visfatin only."}
+{"pair_id": "15604363>PMC10889815", "group": "0000-0002-9572-7151 Rak A", "verdict": "REJECT_PASSING", "review": false, "reason": "Credits the paper with identifying visfatin only."}
+{"pair_id": "15604363>PMC11199572", "group": "0000-0002-9572-7151 Rak A", "verdict": "CONFIRM", "review": false, "reason": "Does not compete with insulin for the receptor."}
+{"pair_id": "15604363>PMC11232246", "group": "0000-0002-9572-7151 Rak A", "verdict": "CONFIRM", "review": true, "reason": "Insulin-mimetic effects 'proven' by the paper."}
+{"pair_id": "15604363>PMC11833490", "group": "0000-0002-9572-7151 Rak A", "verdict": "CONFIRM", "review": false, "reason": "Fukuhara et al. demonstrated INSR activation (debate noted, retraction not)."}
+{"pair_id": "15604363>PMC8062436", "group": "0000-0002-9572-7151 Rak A", "verdict": "REJECT_PASSING", "review": false, "reason": "Credits the paper with identifying visfatin only."}

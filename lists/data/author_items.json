@@ -1,0 +1,1677 @@
+{
+ "made": "2026-10-21",
+ "source": "outputs/sanecite-top10-20261020/author_items.py from the author letter data",
+ "citing": {
+  "PMC10011470": {
+   "title": "Exosomal circular RNAs: New player in breast cancer progression and therapeutic targets",
+   "journal": "Front Genet",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10051376": {
+   "title": "Anticancer Potential of Apigenin and Isovitexin with Focus on Oncogenic Metabolism in Cancer Stem Cells",
+   "journal": "Metabolites",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10070735": {
+   "title": "Importance of long non-coding RNAs in the pathogenesis, diagnosis, and treatment of prostate cancer",
+   "journal": "Front Oncol",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10114484": {
+   "title": "MiRNA-93: a novel signature in human disorders and drug resistance",
+   "journal": "Cell Commun Signal",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10122325": {
+   "title": "Deciphering STAT3 signaling potential in hepatocellular carcinoma: tumorigenesis, treatment resistance, and pharmacological significance",
+   "journal": "Cell Mol Biol Lett",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10209650": {
+   "title": "Emerging functions and clinical applications of exosomal microRNAs in diseases",
+   "journal": "Noncoding RNA Res",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10278211": {
+   "title": "The Effect of miR-4800 Restoration on Proliferation and Migration of Human Breast Cancer Cells In Vitro",
+   "journal": "Adv Pharm Bull",
+   "year": "2022",
+   "review": false
+  },
+  "PMC10333929": {
+   "title": "Interaction between SIRT1 and non-coding RNAs in different disorders",
+   "journal": "Front Genet",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10417502": {
+   "title": "Targeting Cell Signaling Pathways in Lung Cancer by Bioactive Phytocompounds",
+   "journal": "Cancers (Basel)",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10455605": {
+   "title": "Recent Advances in Curcumin-Based Combination Nanomedicines for Cancer Therapy",
+   "journal": "J Funct Biomater",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10463971": {
+   "title": "MiRNA-related metastasis in oral cancer: moving and shaking",
+   "journal": "Cancer Cell Int",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10515066": {
+   "title": "LncRNA SNHG6 role in clinicopathological parameters in cancers",
+   "journal": "Eur J Med Res",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10580988": {
+   "title": "MicroRNAs, long non-coding RNAs, and circular RNAs and gynecological cancers: focus on metastasis",
+   "journal": "Front Oncol",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10605195": {
+   "title": "Naringin-Dextrin Nanocomposite Abates Diethylnitrosamine/Acetylaminofluorene-Induced Lung Carcinogenesis by Modulating Oxidative Stress, Inflammation, Apoptosis, and Cell Proliferation",
+   "journal": "Cancers (Basel)",
+   "year": "2023",
+   "review": false
+  },
+  "PMC10611521": {
+   "title": "The role of the tumor microenvironment in endocrine therapy resistance in hormone receptor-positive breast cancer",
+   "journal": "Front Endocrinol (Lausanne)",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10618356": {
+   "title": "A review on the role of HAND2-AS1 in cancer",
+   "journal": "Clin Exp Med",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10716031": {
+   "title": "Biological landscape and nanostructural view in development and reversal of oxaliplatin resistance in colorectal cancer",
+   "journal": "Transl Oncol",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10761534": {
+   "title": "Role of miR-424 in the carcinogenesis",
+   "journal": "Clin Transl Oncol",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10771991": {
+   "title": "Role of circular RNAs and gut microbiome in gastrointestinal cancers and therapeutic targets",
+   "journal": "Noncoding RNA Res",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10826257": {
+   "title": "Paclitaxel and its semi-synthetic derivatives: comprehensive insights into chemical structure, mechanisms of action, and anticancer properties",
+   "journal": "Eur J Med Res",
+   "year": "2024",
+   "review": true
+  },
+  "PMC10826439": {
+   "title": "Antioxidant therapy against TGF-β/SMAD pathway involved in organ fibrosis",
+   "journal": "J Cell Mol Med",
+   "year": "2023",
+   "review": true
+  },
+  "PMC10887337": {
+   "title": "A prospective review of the health-promoting potential of Jing Si Herbal Tea",
+   "journal": "Tzu Chi Med J",
+   "year": "2024",
+   "review": true
+  },
+  "PMC10902086": {
+   "title": "Targeting the NF-κB pathway as a potential regulator of immune checkpoints in cancer immunotherapy",
+   "journal": "Cell Mol Life Sci",
+   "year": "2024",
+   "review": true
+  },
+  "PMC10999493": {
+   "title": "Advanced approaches of the use of circRNAs as a replacement for cancer therapy",
+   "journal": "Noncoding RNA Res",
+   "year": "2024",
+   "review": true
+  },
+  "PMC11061711": {
+   "title": "Clinical applications and mechanism insights of natural flavonoids against type 2 diabetes mellitus",
+   "journal": "Heliyon",
+   "year": "2024",
+   "review": true
+  },
+  "PMC11066643": {
+   "title": "NF-ĸB axis in diabetic neuropathy, cardiomyopathy and nephropathy: A roadmap from molecular intervention to therapeutic strategies",
+   "journal": "Heliyon",
+   "year": "2024",
+   "review": true
+  },
+  "PMC11079401": {
+   "title": "MicroRNAs as the critical regulators of epithelial mesenchymal transition in pancreatic tumor cells",
+   "journal": "Heliyon",
+   "year": "2024",
+   "review": true
+  },
+  "PMC11333198": {
+   "title": "Machine learning and experimental validation of novel biomarkers for hypertrophic cardiomyopathy and cancers",
+   "journal": "J Cell Mol Med",
+   "year": "2024",
+   "review": false
+  },
+  "PMC11406677": {
+   "title": "Emerging roles of non-coding RNAs in modulating the PI3K/Akt pathway in cancer",
+   "journal": "Noncoding RNA Res",
+   "year": "2024",
+   "review": true
+  },
+  "PMC11467208": {
+   "title": "Multi-stage mechanisms of tumor metastasis and therapeutic strategies",
+   "journal": "Signal Transduct Target Ther",
+   "year": "2024",
+   "review": true
+  },
+  "PMC11474201": {
+   "title": "Highlighting function of Wnt signalling in urological cancers: Molecular interactions, therapeutic strategies, and (nano)strategies",
+   "journal": "Transl Oncol",
+   "year": "2024",
+   "review": true
+  },
+  "PMC11733683": {
+   "title": "Harnessing the tumor microenvironment: targeted cancer therapies through modulation of epithelial-mesenchymal transition",
+   "journal": "J Hematol Oncol",
+   "year": "2025",
+   "review": true
+  },
+  "PMC12107871": {
+   "title": "Targeting inflammation in cancer therapy: from mechanistic insights to emerging therapeutic approaches",
+   "journal": "J Transl Med",
+   "year": "2025",
+   "review": true
+  },
+  "PMC12176387": {
+   "title": "A multi-gene predictive model for the radiation sensitivity of nasopharyngeal carcinoma based on machine learning",
+   "journal": "Elife",
+   "year": "2025",
+   "review": false
+  },
+  "PMC12305408": {
+   "title": "Synergistic Effect of miR-383 and Cisplatin on Inhibition of Growth, Proliferation, and Migration of Lung Cancer Cells",
+   "journal": "Arch Iran Med",
+   "year": "2025",
+   "review": false
+  },
+  "PMC12434812": {
+   "title": "miR-6126 modulates GRP78 to suppress the Warburg effect and mitochondrial dynamics in triple-negative breast cancer",
+   "journal": "Int J Med Sci",
+   "year": "2025",
+   "review": false
+  },
+  "PMC12784535": {
+   "title": "Tumor-associated endothelial cells in tumor immune escape and immunotherapy: multifaceted roles and treatment approaches",
+   "journal": "Biomark Res",
+   "year": "2025",
+   "review": true
+  },
+  "PMC12905997": {
+   "title": "Bioactive black tea phytochemicals partially influenced doxorubicin sensitivity by modulation of NRF2-regulatory pathways in lung cancer",
+   "journal": "J Ayurveda Integr Med",
+   "year": "2026",
+   "review": false
+  },
+  "PMC12909375": {
+   "title": "Innovative combinatory approaches with dendritic cell-based vaccines: bridging preclinical insights and clinical challenges",
+   "journal": "Clin Exp Med",
+   "year": "2026",
+   "review": true
+  },
+  "PMC4414170": {
+   "title": "Artesunate suppresses tumor growth and induces apoptosis through the modulation of multiple oncogenic cascades in a chronic myeloid leukemia xenograft mouse model",
+   "journal": "Oncotarget",
+   "year": "2015",
+   "review": false
+  },
+  "PMC4974905": {
+   "title": "Heat-killed Lactobacillus Reuteri GMNL-263 Prevents Epididymal Fat Accumulation and Cardiac Injury in High-Calorie Diet-Fed Rats",
+   "journal": "Int J Med Sci",
+   "year": "2016",
+   "review": false
+  },
+  "PMC6413012": {
+   "title": "Potential of Zerumbone as an Anti-Cancer Agent",
+   "journal": "Molecules",
+   "year": "2019",
+   "review": true
+  },
+  "PMC6827018": {
+   "title": "FOXC1 Regulation of miR-31-5p Confers Oxaliplatin Resistance by Targeting LATS2 in Colorectal Cancer",
+   "journal": "Cancers (Basel)",
+   "year": "2019",
+   "review": false
+  },
+  "PMC7017214": {
+   "title": "Cytoskeletal Proteins in Cancer and Intracellular Stress: A Therapeutic Perspective",
+   "journal": "Cancers (Basel)",
+   "year": "2020",
+   "review": true
+  },
+  "PMC7052875": {
+   "title": "Comparison of the benefits of celecoxib combined with anticancer therapy in advanced non-small cell lung cancer: A meta-analysis",
+   "journal": "J Cancer",
+   "year": "2020",
+   "review": false
+  },
+  "PMC7139730": {
+   "title": "Autophagy: A Potential Therapeutic Target of Polyphenols in Hepatocellular Carcinoma",
+   "journal": "Cancers (Basel)",
+   "year": "2020",
+   "review": true
+  },
+  "PMC7202519": {
+   "title": "Swimming exercise stimulates IGF1/ PI3K/Akt and AMPK/SIRT1/PGC1α survival signaling to suppress apoptosis and inflammation in aging hippocampus",
+   "journal": "Aging (Albany NY)",
+   "year": "2020",
+   "review": false
+  },
+  "PMC7281690": {
+   "title": "TGF-β and WNT signaling pathways in cardiac fibrosis: non-coding RNAs come into focus",
+   "journal": "Cell Commun Signal",
+   "year": "2020",
+   "review": true
+  },
+  "PMC7335982": {
+   "title": "Recent Advances in Targeting of Breast Cancer Stem Cells Based on Biological Concepts and Drug Delivery System Modification",
+   "journal": "Adv Pharm Bull",
+   "year": "2020",
+   "review": true
+  },
+  "PMC7397575": {
+   "title": "Role of exosomes in malignant glioma: microRNAs and proteins in pathogenesis and diagnosis",
+   "journal": "Cell Commun Signal",
+   "year": "2020",
+   "review": true
+  },
+  "PMC7427778": {
+   "title": "Role of tyrosine kinases in bladder cancer progression: an overview",
+   "journal": "Cell Commun Signal",
+   "year": "2020",
+   "review": true
+  },
+  "PMC7643726": {
+   "title": "Pharmacological Activities of Psoralidin: A Comprehensive Review of the Molecular Mechanisms of Action",
+   "journal": "Front Pharmacol",
+   "year": "2020",
+   "review": true
+  },
+  "PMC7812983": {
+   "title": "The roles of signaling pathways in SARS-CoV-2 infection; lessons learned from SARS-CoV and MERS-CoV",
+   "journal": "Arch Virol",
+   "year": "2021",
+   "review": true
+  },
+  "PMC7917704": {
+   "title": "HMGA2 as a Critical Regulator in Cancer Development",
+   "journal": "Genes (Basel)",
+   "year": "2021",
+   "review": true
+  },
+  "PMC7938334": {
+   "title": "Effect of COVID-19 on Mortality of Pregnant and Postpartum Women: A Systematic Review and Meta-Analysis",
+   "journal": "J Pregnancy",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8100681": {
+   "title": "MicroRNA Signature in Melanoma: Biomarkers and Therapeutic Targets",
+   "journal": "Front Oncol",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8182944": {
+   "title": "MicroRNAs as the critical regulators of cisplatin resistance in gastric tumor cells",
+   "journal": "Genes Environ",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8226258": {
+   "title": "X-Inactive-Specific Transcript: Review of Its Functions in the Carcinogenesis",
+   "journal": "Front Cell Dev Biol",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8459600": {
+   "title": "E3 ligase activity of Carboxyl terminus of Hsc70 interacting protein (CHIP) in Wharton's jelly derived mesenchymal stem cells improves their persistence under hyperglycemic stress and promotes the prophylactic effects against diabetic cardiac damages",
+   "journal": "Bioeng Transl Med",
+   "year": "2021",
+   "review": false
+  },
+  "PMC8467637": {
+   "title": "Harnessing the Therapeutic Potential of Decoys in Non-Atherosclerotic Cardiovascular Diseases: State of the Art",
+   "journal": "J Cardiovasc Dev Dis",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8508555": {
+   "title": "Sulforaphane: A Broccoli Bioactive Phytocompound with Cancer Preventive Potential",
+   "journal": "Cancers (Basel)",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8523229": {
+   "title": "The Multifaceted Therapeutic Mechanisms of Curcumin in Osteosarcoma: State-of-the-Art",
+   "journal": "J Oncol",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8553480": {
+   "title": "MicroRNAs as Biomarkers for Early Diagnosis, Prognosis, and Therapeutic Targeting of Ovarian Cancer",
+   "journal": "J Oncol",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8582349": {
+   "title": "MicroRNAs: Important Players in Breast Cancer Angiogenesis and Therapeutic Targets",
+   "journal": "Front Mol Biosci",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8621755": {
+   "title": "Natural Bioactive Compounds Targeting Epigenetic Pathways in Cancer: A Review on Alkaloids, Terpenoids, Quinones, and Isothiocyanates",
+   "journal": "Nutrients",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8666285": {
+   "title": "Circular RNAs in cell cycle regulation: Mechanisms to clinical significance",
+   "journal": "Cell Prolif",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8666534": {
+   "title": "A Review on the Role of AFAP1-AS1 in the Pathoetiology of Cancer",
+   "journal": "Front Oncol",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8695688": {
+   "title": "Regulatory Role of Non-Coding RNAs on Immune Responses During Sepsis",
+   "journal": "Front Immunol",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8762369": {
+   "title": "Non-coding RNAs and glioblastoma: Insight into their roles in metastasis",
+   "journal": "Mol Ther Oncolytics",
+   "year": "2021",
+   "review": true
+  },
+  "PMC8789461": {
+   "title": "Epi-miRNAs: Regulators of the Histone Modification Machinery in Human Cancer",
+   "journal": "J Oncol",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8828342": {
+   "title": "Therapeutic Applications of Curcumin in Diabetes: A Review and Perspective",
+   "journal": "Biomed Res Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8832734": {
+   "title": "Long non-coding RNAs as the critical regulators of epithelial mesenchymal transition in colorectal tumor cells: an overview",
+   "journal": "Cancer Cell Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8860555": {
+   "title": "The Pharmacological Activities of Crocus sativus L.: A Review Based on the Mechanisms and Therapeutic Opportunities of its Phytoconstituents",
+   "journal": "Oxid Med Cell Longev",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8862212": {
+   "title": "The emerging role non-coding RNAs in B cell-related disorders",
+   "journal": "Cancer Cell Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8892735": {
+   "title": "The long and short non-coding RNAs modulating EZH2 signaling in cancer",
+   "journal": "J Hematol Oncol",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8916230": {
+   "title": "DLX6-AS1: A Long Non-coding RNA With Oncogenic Features",
+   "journal": "Front Cell Dev Biol",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8918517": {
+   "title": "The Role of Circular RNAs in the Carcinogenesis of Bladder Cancer",
+   "journal": "Front Oncol",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8945214": {
+   "title": "The Role of Epigenetic Modifications in Human Cancers and the Use of Natural Compounds as Epidrugs: Mechanistic Pathways and Pharmacodynamic Actions",
+   "journal": "Biomolecules",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8976361": {
+   "title": "Single-nucleotide polymorphisms as important risk factors of diabetes among Middle East population",
+   "journal": "Hum Genomics",
+   "year": "2022",
+   "review": true
+  },
+  "PMC8983884": {
+   "title": "Interplay Between Non-Coding RNAs and Programmed Cell Death Proteins",
+   "journal": "Front Oncol",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9027183": {
+   "title": "Natural Bioactive Compounds Targeting Histone Deacetylases in Human Cancers: Recent Updates",
+   "journal": "Molecules",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9167543": {
+   "title": "MicroRNAs as the critical regulators of cell migration and invasion in thyroid cancer",
+   "journal": "Biomark Res",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9238168": {
+   "title": "Emerging role of exosomes in cancer progression and tumor microenvironment remodeling",
+   "journal": "J Hematol Oncol",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9258118": {
+   "title": "A review on the role of MCM3AP-AS1 in the carcinogenesis and tumor progression",
+   "journal": "Cancer Cell Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9259992": {
+   "title": "Lysophosphatidic Acid Signaling and microRNAs: New Roles in Various Cancers",
+   "journal": "Front Oncol",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9262756": {
+   "title": "Aberrant expression of miRNAs in epilepsy",
+   "journal": "Mol Biol Rep",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9265746": {
+   "title": "Phytochemicals for the Prevention and Treatment of Renal Cell Carcinoma: Preclinical and Clinical Evidence and Molecular Mechanisms",
+   "journal": "Cancers (Basel)",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9289514": {
+   "title": "Assessment of Expression of Regulatory T Cell Differentiation Genes in Autism Spectrum Disorder",
+   "journal": "Front Mol Neurosci",
+   "year": "2022",
+   "review": false
+  },
+  "PMC9306174": {
+   "title": "Functional interplay between long non-coding RNAs and Breast CSCs",
+   "journal": "Cancer Cell Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9375325": {
+   "title": "Role of PI3K/AKT pathway in squamous cell carcinoma with an especial focus on head and neck cancers",
+   "journal": "Cancer Cell Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9453090": {
+   "title": "Impact of Phytochemicals on PPAR Receptors: Implications for Disease Treatments",
+   "journal": "PPAR Res",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9461221": {
+   "title": "Apoptosis evasion via long non-coding RNAs in colorectal cancer",
+   "journal": "Cancer Cell Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9467740": {
+   "title": "Artemisia spp.: An Update on Its Chemical Composition, Pharmacological and Toxicological Profiles",
+   "journal": "Oxid Med Cell Longev",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9486161": {
+   "title": "A review on the importance of miRNA-135 in human diseases",
+   "journal": "Front Genet",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9513225": {
+   "title": "Implication of non-coding RNA-mediated ROCK1 regulation in various diseases",
+   "journal": "Front Mol Biosci",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9524725": {
+   "title": "Disease-associated regulation of gene expression by resveratrol: Special focus on the PI3K/AKT signaling pathway",
+   "journal": "Cancer Cell Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9608775": {
+   "title": "MicroRNA-383: A tumor suppressor miRNA in human cancer",
+   "journal": "Front Cell Dev Biol",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9685618": {
+   "title": "Epigenetic regulation in myocardial infarction: Non-coding RNAs and exosomal non-coding RNAs",
+   "journal": "Front Cardiovasc Med",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9688668": {
+   "title": "Targeting mTOR as a Cancer Therapy: Recent Advances in Natural Bioactive Compounds and Immunotherapy",
+   "journal": "Cancers (Basel)",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9741527": {
+   "title": "Ursolic acid: a natural modulator of signaling networks in different cancers",
+   "journal": "Cancer Cell Int",
+   "year": "2022",
+   "review": true
+  },
+  "PMC9808980": {
+   "title": "Cell cycle related long non-coding RNAs as the critical regulators of breast cancer progression and metastasis",
+   "journal": "Biol Res",
+   "year": "2023",
+   "review": true
+  },
+  "PMC9816416": {
+   "title": "Role of non-coding RNAs and exosomal non-coding RNAs in retinoblastoma progression",
+   "journal": "Front Cell Dev Biol",
+   "year": "2022",
+   "review": true
+  }
+ },
+ "cited": {
+  "14612541": {
+   "first_author": "Pentimalli F",
+   "journal": "Cancer Res",
+   "year": "2003",
+   "title": "Suppression of HMGA2 protein synthesis could be a tool for the therapy of well differentiated liposarcomas overexpressing HMGA2",
+   "retraction_year": "2018"
+  },
+  "16033772": {
+   "first_author": "Yeh CT",
+   "journal": "Carcinogenesis",
+   "year": "2005",
+   "title": "Effect of sulforaphane on metallothionein expression and induction of apoptosis in human hepatoma HepG2 cells",
+   "retraction_year": "2013"
+  },
+  "16510599": {
+   "first_author": "Wang Z",
+   "journal": "Cancer Res",
+   "year": "2006",
+   "title": "Down-regulation of notch-1 inhibits invasion by inactivation of nuclear factor-kappaB, vascular endothelial growth factor, and matrix metalloproteinase-9 in pancreatic cancer cells",
+   "retraction_year": "2018"
+  },
+  "16603085": {
+   "first_author": "Tomita M",
+   "journal": "Retrovirology",
+   "year": "2006",
+   "title": "Inhibition of constitutively active Jak-Stat pathway suppresses cell growth of human T-cell leukemia virus type 1-infected T-cell lines and primary adult T-cell leukemia cells",
+   "retraction_year": "2011"
+  },
+  "16807438": {
+   "first_author": "Roberts JT",
+   "journal": "Ann Oncol",
+   "year": "2006",
+   "title": "Long-term survival results of a randomized trial comparing gemcitabine/cisplatin and methotrexate/vinblastine/doxorubicin/cisplatin in patients with locally advanced and metastatic bladder cancer",
+   "retraction_year": "2011"
+  },
+  "17420722": {
+   "first_author": "Suzuki E",
+   "journal": "Oncogene",
+   "year": "2007",
+   "title": "Rituximab inhibits the constitutively activated PI3K-Akt pathway in B-NHL cell lines: involvement in chemosensitization to drug-induced apoptosis",
+   "retraction_year": "2016"
+  },
+  "17442669": {
+   "first_author": "Mariño G",
+   "journal": "J Biol Chem",
+   "year": "2007",
+   "title": "Tissue-specific autophagy alterations and increased tumorigenesis in mice deficient in Atg4C/autophagin-3",
+   "retraction_year": "2019"
+  },
+  "17875968": {
+   "first_author": "Song P",
+   "journal": "Circulation",
+   "year": "2007",
+   "title": "Reactive nitrogen species induced by hyperglycemia suppresses Akt signaling and triggers apoptosis by upregulating phosphatase PTEN (phosphatase and tensin homologue deleted on chromosome 10) in an LKB1-dependent manner",
+   "retraction_year": "2020"
+  },
+  "17948911": {
+   "first_author": "Gadgeel SM",
+   "journal": "Cancer",
+   "year": "2007",
+   "title": "Response to dual blockade of epidermal growth factor receptor (EGFR) and cycloxygenase-2 in nonsmall cell lung cancer may be dependent on the EGFR mutational status of the tumor",
+   "retraction_year": "2016"
+  },
+  "18483362": {
+   "first_author": "Zhang P",
+   "journal": "Clin Cancer Res",
+   "year": "2008",
+   "title": "Critical role of notch signaling in osteosarcoma invasion and metastasis",
+   "retraction_year": "2013"
+  },
+  "19190327": {
+   "first_author": "Sung B",
+   "journal": "Cancer Res",
+   "year": "2009",
+   "title": "Zerumbone abolishes RANKL-induced NF-kappaB activation, inhibits osteoclastogenesis, and suppresses human breast cancer-induced bone loss in athymic nude mice",
+   "retraction_year": "2018"
+  },
+  "19223576": {
+   "first_author": "Kumar R",
+   "journal": "Cancer Prev Res (Phila)",
+   "year": "2009",
+   "title": "Psoralidin, an herbal molecule, inhibits phosphatidylinositol 3-kinase-mediated Akt signaling in androgen-independent prostate cancer cells",
+   "retraction_year": "2011"
+  },
+  "19288574": {
+   "first_author": "Gadgeel SM",
+   "journal": "Cancer",
+   "year": "2009",
+   "title": "Genistein enhances the effect of epidermal growth factor receptor tyrosine kinase inhibitors and inhibits nuclear factor kappa B in nonsmall cell lung cancer cell lines",
+   "retraction_year": "2016"
+  },
+  "19413639": {
+   "first_author": "Martinez JC",
+   "journal": "Histopathology",
+   "year": "2009",
+   "title": "Nuclear and membrane expression of the angiogenesis regulator delta-like ligand 4 (DLL4) in normal and malignant human tissues",
+   "retraction_year": "2009"
+  },
+  "19524507": {
+   "first_author": "Valastyan S",
+   "journal": "Cell",
+   "year": "2009",
+   "title": "A pleiotropically acting microRNA, miR-31, inhibits breast cancer metastasis",
+   "retraction_year": "2015"
+  },
+  "20068105": {
+   "first_author": "Wei J",
+   "journal": "Clin Cancer Res",
+   "year": "2010",
+   "title": "Glioma-associated cancer-initiating cells induce immunosuppression",
+   "retraction_year": "2015"
+  },
+  "20419128": {
+   "first_author": "Lahat G",
+   "journal": "PLoS One",
+   "year": "2010",
+   "title": "Vimentin is a novel anti-cancer therapeutic target; insights from in vitro and in vivo mice xenograft studies",
+   "retraction_year": "2019"
+  },
+  "20462402": {
+   "first_author": "Marfe G",
+   "journal": "BMC Physiol",
+   "year": "2010",
+   "title": "The effect of marathon on mRNA expression of anti-apoptotic and pro-apoptotic proteins and sirtuins family in male recreational long-distance runners",
+   "retraction_year": "2014"
+  },
+  "23637992": {
+   "first_author": "Nassirpour R",
+   "journal": "PLoS One",
+   "year": "2013",
+   "title": "miR-221 promotes tumorigenesis in human triple negative breast cancer cells",
+   "retraction_year": "2017"
+  },
+  "24001238": {
+   "first_author": "Lin CH",
+   "journal": "Br J Nutr",
+   "year": "2013",
+   "title": "Oral Lactobacillus reuteri GMN-32 treatment reduces blood glucose concentrations and promotes cardiac function in rats with streptozotocin-induced diabetes mellitus",
+   "retraction_year": "2014"
+  },
+  "24288678": {
+   "first_author": "Samarghandian S",
+   "journal": "Biomed Res Int",
+   "year": "2013",
+   "title": "Crocus sativus L. (saffron) stigma aqueous extract induces apoptosis in alveolar human lung cancer cells through caspase-dependent pathways activation",
+   "retraction_year": "2020"
+  },
+  "24475975": {
+   "first_author": "Tian H",
+   "journal": "BMC Cancer",
+   "year": "2014",
+   "title": "Cellular immunotherapy using irradiated lung cancer cell vaccine co-expressing GM-CSF and IL-18 can induce significant antitumor effects",
+   "retraction_year": "2023"
+  },
+  "24909173": {
+   "first_author": "Sun X",
+   "journal": "Oncogene",
+   "year": "2014",
+   "title": "IL-6 secreted by cancer-associated fibroblasts induces tamoxifen resistance in luminal breast cancer",
+   "retraction_year": "2014"
+  },
+  "25030358": {
+   "first_author": "Liang Z",
+   "journal": "Breast Cancer Res Treat",
+   "year": "2014",
+   "title": "Inhibition of breast cancer metastasis with microRNA-302a by downregulation of CXCR4 expression",
+   "retraction_year": "2022"
+  },
+  "25104350": {
+   "first_author": "Nagalingam RS",
+   "journal": "J Biol Chem",
+   "year": "2014",
+   "title": "Deficiency of cardiomyocyte-specific microRNA-378 contributes to the development of cardiac fibrosis involving a transforming growth factor β (TGFβ1)-dependent paracrine mechanism",
+   "retraction_year": "2017"
+  },
+  "25311085": {
+   "first_author": "Li JT",
+   "journal": "Breast Cancer Res",
+   "year": "2014",
+   "title": "Nuclear factor of activated T cells 5 maintained by Hotair suppression of miR-568 upregulates S100 calcium binding protein A4 to promote breast cancer metastasis",
+   "retraction_year": "2018"
+  },
+  "25311221": {
+   "first_author": "Smyth MJ",
+   "journal": "J Clin Oncol",
+   "year": "2014",
+   "title": "Combination Anti-CTLA-4 and Anti-RANKL in Metastatic Melanoma",
+   "retraction_year": "2023"
+  },
+  "25409614": {
+   "first_author": "Liu J",
+   "journal": "Tumour Biol",
+   "year": "2014",
+   "title": "A comprehensive analysis of candidate genes and pathways in pancreatic cancer",
+   "retraction_year": "2015"
+  },
+  "25738402": {
+   "first_author": "Yang Q",
+   "journal": "Oncol Rep",
+   "year": "2015",
+   "title": "Synergistic growth inhibition by sorafenib and cisplatin in human osteosarcoma cells",
+   "retraction_year": "2021"
+  },
+  "25936406": {
+   "first_author": "Dai Z",
+   "journal": "Mol Med Rep",
+   "year": "2015",
+   "title": "Antitumor effect of resveratrol on chondrosarcoma cells via phosphoinositide 3-kinase/AKT and p38 mitogen-activated protein kinase pathways",
+   "retraction_year": "2021"
+  },
+  "26064984": {
+   "first_author": "Alkhalidy H",
+   "journal": "J Diabetes Res",
+   "year": "2015",
+   "title": "Small Molecule Kaempferol Promotes Insulin Sensitivity and Preserved Pancreatic β -Cell Mass in Middle-Aged Obese Diabetic Mice",
+   "retraction_year": "2020"
+  },
+  "26239517": {
+   "first_author": "Wen Q",
+   "journal": "Oncol Rep",
+   "year": "2015",
+   "title": "miR-126 inhibits papillary thyroid carcinoma growth by targeting LRP6",
+   "retraction_year": "2021"
+  },
+  "26408293": {
+   "first_author": "Wang Y",
+   "journal": "Target Oncol",
+   "year": "2016",
+   "title": "MicroRNA-216b is Down-Regulated in Human Gastric Adenocarcinoma and Inhibits Proliferation and Cell Cycle Progression by Targeting Oncogene HDAC8",
+   "retraction_year": "2016"
+  },
+  "26648487": {
+   "first_author": "Li J",
+   "journal": "Int J Oncol",
+   "year": "2015",
+   "title": "MicroRNA-200b inhibits the growth and metastasis of glioma cells via targeting ZEB2",
+   "retraction_year": "2021"
+  },
+  "26675721": {
+   "first_author": "Huang W",
+   "journal": "Nature",
+   "year": "2015",
+   "title": "DDX5 and its associated lncRNA Rmrp modulate TH17 cell effector functions",
+   "retraction_year": "2018"
+  },
+  "26847706": {
+   "first_author": "Dong S",
+   "journal": "Oncol Rep",
+   "year": "2016",
+   "title": "MiR-137 acts as a tumor suppressor in papillary thyroid carcinoma by targeting CXCL12",
+   "retraction_year": "2021"
+  },
+  "27160836": {
+   "first_author": "Li J",
+   "journal": "Cell Physiol Biochem",
+   "year": "2016",
+   "title": "Exosomes-Derived MiR-302b Suppresses Lung Cancer Cell Proliferation and Migration via TGFβRII Inhibition",
+   "retraction_year": "2016"
+  },
+  "27416558": {
+   "first_author": "Wang Q",
+   "journal": "Biomed Pharmacother",
+   "year": "2016",
+   "title": "Physcion 8-O-β-glucopyranoside induces apoptosis, suppresses invasion and inhibits epithelial to mesenchymal transition of hepatocellular carcinoma HepG2 cells",
+   "retraction_year": "2020"
+  },
+  "27648141": {
+   "first_author": "Peng T",
+   "journal": "Am J Transl Res",
+   "year": "2016",
+   "title": "MicroRNA-141 inhibits glioma cells growth and metastasis by targeting TGF-β2",
+   "retraction_year": "2021"
+  },
+  "27657824": {
+   "first_author": "Zhang D",
+   "journal": "Biomed Pharmacother",
+   "year": "2016",
+   "title": "Upregulation of miR-124 by physcion 8-O-β-glucopyranoside inhibits proliferation and invasion of malignant melanoma cells via repressing RLIP76",
+   "retraction_year": "2020"
+  },
+  "27735939": {
+   "first_author": "Zhang T",
+   "journal": "Cell Death Dis",
+   "year": "2016",
+   "title": "Natural product pectolinarigenin inhibits osteosarcoma growth and metastasis via SHP-1-mediated STAT3 signaling inhibition",
+   "retraction_year": "2021"
+  },
+  "27768961": {
+   "first_author": "Chen X",
+   "journal": "Pharmacol Rep",
+   "year": "2016",
+   "title": "Physcion 8-O-β-glucopyranoside suppresses the metastasis of breast cancer in vitro and in vivo by modulating DNMT1",
+   "retraction_year": "2020"
+  },
+  "28368401": {
+   "first_author": "Chen L",
+   "journal": "Oncogene",
+   "year": "2017",
+   "title": "circRNA_100290 plays a role in oral cancer by functioning as a sponge of the miR-29 family",
+   "retraction_year": "2019"
+  },
+  "28425477": {
+   "first_author": "Qiao B",
+   "journal": "Sci Rep",
+   "year": "2017",
+   "title": "MicroRNA-27a-3p Modulates the Wnt/β-Catenin Signaling Pathway to Promote Epithelial-Mesenchymal Transition in Oral Squamous Carcinoma Stem Cells by Targeting SFRP1",
+   "retraction_year": "2020"
+  },
+  "28522550": {
+   "first_author": "Xie XJ",
+   "journal": "Biosci Rep",
+   "year": "2017",
+   "title": "Suppression of microRNA-135b-5p protects against myocardial ischemia/reperfusion injury by activating JAK2/STAT3 signaling pathway in mice during sevoflurane anesthesia",
+   "retraction_year": "2021"
+  },
+  "28586066": {
+   "first_author": "Peng L",
+   "journal": "Oncol Rep",
+   "year": "2017",
+   "title": "MicroRNA-148a suppresses epithelial-mesenchymal transition and invasion of pancreatic cancer cells by targeting Wnt10b and inhibiting the Wnt/β-catenin signaling pathway",
+   "retraction_year": "2023"
+  },
+  "28781618": {
+   "first_author": "Zou Q",
+   "journal": "Exp Ther Med",
+   "year": "2017",
+   "title": "MicroRNA-22 inhibits cell growth and metastasis in breast cancer via targeting of SIRT1",
+   "retraction_year": "2021"
+  },
+  "28791407": {
+   "first_author": "Zhang L",
+   "journal": "Oncol Rep",
+   "year": "2017",
+   "title": "Long non-coding RNA MEG3 inhibits cell growth of gliomas by targeting miR-93 and inactivating PI3K/AKT pathway",
+   "retraction_year": "2020"
+  },
+  "28962111": {
+   "first_author": "Si F",
+   "journal": "Exp Ther Med",
+   "year": "2017",
+   "title": "MicroRNA-138 suppresses cell proliferation in laryngeal squamous cell carcinoma via inhibiting EZH2 and PI3K/AKT signaling",
+   "retraction_year": "2021"
+  },
+  "29036788": {
+   "first_author": "Xie P",
+   "journal": "Cancer Biomark",
+   "year": "2017",
+   "title": "Knockdown of lncRNA CCAT2 inhibits endometrial cancer cells growth and metastasis via sponging miR-216b",
+   "retraction_year": "2023 (notice online 11 Dec 2022)"
+  },
+  "29119970": {
+   "first_author": "Gao H",
+   "journal": "Acta Pharmacol Sin",
+   "year": "2017",
+   "title": "Hispidulin mediates apoptosis in human renal cell carcinoma by inducing ceramide accumulation",
+   "retraction_year": "2021"
+  },
+  "29176314": {
+   "first_author": "Wang H",
+   "journal": "Cell Physiol Biochem",
+   "year": "2017",
+   "title": "Elevated Expression of Zinc Finger Protein 703 Promotes Cell Proliferation and Metastasis through PI3K/AKT/GSK-3β Signalling in Oral Squamous Cell Carcinoma",
+   "retraction_year": "2021"
+  },
+  "29194604": {
+   "first_author": "Wu DM",
+   "journal": "J Cell Physiol",
+   "year": "2018",
+   "title": "Effects of microRNA-129 and its target gene c-Fos on proliferation and apoptosis of hippocampal neurons in rats with epilepsy via the MAPK signaling pathway",
+   "retraction_year": "2021"
+  },
+  "29207181": {
+   "first_author": "Li D",
+   "journal": "Oncol Rep",
+   "year": "2017",
+   "title": "Function of miR-212 as a tumor suppressor in thyroid cancer by targeting SIRT1",
+   "retraction_year": "2021"
+  },
+  "29212249": {
+   "first_author": "Hu Y",
+   "journal": "Oncotarget",
+   "year": "2017",
+   "title": "Long non-coding RNA XIST promotes cell growth and metastasis through regulating miR-139-5p mediated Wnt/β-catenin signaling pathway in bladder cancer",
+   "retraction_year": "2022"
+  },
+  "29231261": {
+   "first_author": "Zhu F",
+   "journal": "J Cell Biochem",
+   "year": "2018",
+   "title": "LncRNA AWPPH inhibits SMAD4 via EZH2 to regulate bladder cancer progression",
+   "retraction_year": "2021"
+  },
+  "29273065": {
+   "first_author": "Zhang P",
+   "journal": "J Exp Clin Cancer Res",
+   "year": "2017",
+   "title": "Curcumin synergizes with 5-fluorouracil by impairing AMPK/ULK1-dependent autophagy, AKT activity and enhancing apoptosis in colon cancer cells with tumor growth inhibition in xenograft mice",
+   "retraction_year": "2022"
+  },
+  "29310682": {
+   "first_author": "Wang ZY",
+   "journal": "Mol Cancer",
+   "year": "2018",
+   "title": "Upregulation of the long non-coding RNA AFAP1-AS1 affects the proliferation, invasion and survival of tongue squamous cell carcinoma via the Wnt/β-catenin signaling pathway",
+   "retraction_year": "2019"
+  },
+  "29335299": {
+   "first_author": "Li Q",
+   "journal": "Biosci Rep",
+   "year": "2018",
+   "title": "HOTAIR contributes to cell proliferation and metastasis of cervical cancer via targetting miR-23b/MAPK1 axis",
+   "retraction_year": "2021"
+  },
+  "29384226": {
+   "first_author": "Yang C",
+   "journal": "J Cell Biochem",
+   "year": "2018",
+   "title": "Long non-coding RNA XIST promotes osteosarcoma progression by targeting YAP via miR-195-5p",
+   "retraction_year": "2020"
+  },
+  "29436638": {
+   "first_author": "Zeng N",
+   "journal": "Mol Med Rep",
+   "year": "2018",
+   "title": "Anticancer activity of caffeic acid n‑butyl ester against A431 skin carcinoma cell line occurs via induction of apoptosis and inhibition of the mTOR/PI3K/AKT signaling pathway",
+   "retraction_year": "2021"
+  },
+  "29530052": {
+   "first_author": "Fu X",
+   "journal": "J Exp Clin Cancer Res",
+   "year": "2018",
+   "title": "Exosomal microRNA-32-5p induces multidrug resistance in hepatocellular carcinoma via the PI3K/Akt pathway",
+   "retraction_year": "2023"
+  },
+  "29662310": {
+   "first_author": "Tong F",
+   "journal": "Int J Nanomedicine",
+   "year": "2018",
+   "title": "In vitro/vivo drug release and anti-diabetic cardiomyopathy properties of curcumin/PBLG-PEG-PBLG nanoparticles",
+   "retraction_year": "2021"
+  },
+  "29740437": {
+   "first_author": "Zhu L",
+   "journal": "Front Immunol",
+   "year": "2018",
+   "title": "Targeting and Therapy of Glioblastoma in a Mouse Model Using Exosomes Derived From Natural Killer Cells",
+   "retraction_year": "2019"
+  },
+  "29973492": {
+   "first_author": "Huo X",
+   "journal": "Molecules",
+   "year": "2018",
+   "title": "Protective Effect of Glycyrrhizic Acid on Alcoholic Liver Injury in Rats by Modulating Lipid Metabolism",
+   "retraction_year": "2019"
+  },
+  "30007957": {
+   "first_author": "Gu J",
+   "journal": "Cell Physiol Biochem",
+   "year": "2018",
+   "title": "Effect of the LncRNA GAS5-MiR-23a-ATG3 Axis in Regulating Autophagy in Patients with Breast Cancer",
+   "retraction_year": "2020"
+  },
+  "30015355": {
+   "first_author": "Yin Z",
+   "journal": "J Cell Biochem",
+   "year": "2018",
+   "title": "IL-6/STAT3 pathway intermediates M1/M2 macrophage polarization during the development of hepatocellular carcinoma",
+   "retraction_year": "2022"
+  },
+  "30015840": {
+   "first_author": "Wang Q",
+   "journal": "Mol Med Rep",
+   "year": "2018",
+   "title": "MicroRNA‑655 suppresses cell proliferation and invasion in oral squamous cell carcinoma by directly targeting metadherin and regulating the PTEN/AKT pathway",
+   "retraction_year": "2022"
+  },
+  "30045766": {
+   "first_author": "Jiang H",
+   "journal": "J Exp Clin Cancer Res",
+   "year": "2018",
+   "title": "Long non-coding RNA TPT1-AS1 promotes cell growth and metastasis in cervical cancer via acting AS a sponge for miR-324-5p",
+   "retraction_year": "2022"
+  },
+  "30071522": {
+   "first_author": "Wu DM",
+   "journal": "Cell Physiol Biochem",
+   "year": "2018",
+   "title": "Long Non-Coding RNA LINC01260 Inhibits the Proliferation, Migration and Invasion of Spinal Cord Glioma Cells by Targeting CARD11 Via the NF-κB Signaling Pathway",
+   "retraction_year": "2021"
+  },
+  "30080301": {
+   "first_author": "Wu L",
+   "journal": "Cell Biol Int",
+   "year": "2019",
+   "title": "MiR-506-3p inhibits cell proliferation, induces cell cycle arrest and apoptosis in retinoblastoma by directly targeting NEK6 by Lina Wu, Zhen Chen, Yiqiao Xing",
+   "retraction_year": "retraction date unknown (Retraction Watch estimate)"
+  },
+  "30117667": {
+   "first_author": "Cai M",
+   "journal": "J Cell Mol Med",
+   "year": "2018",
+   "title": "Epigenetic silenced miR-125a-5p could be self-activated through targeting Suv39H1 in gastric cancer",
+   "retraction_year": "2021"
+  },
+  "30121199": {
+   "first_author": "Ling Y",
+   "journal": "Life Sci",
+   "year": "2018",
+   "title": "MicroRNA-494 inhibition alleviates acute lung injury through Nrf2 signaling pathway via NQO1 in sepsis-associated acute respiratory distress syndrome",
+   "retraction_year": ""
+  },
+  "30237408": {
+   "first_author": "Hu Y",
+   "journal": "Cell Death Dis",
+   "year": "2018",
+   "title": "miR-665 promotes hepatocellular carcinoma cell migration, invasion, and proliferation by decreasing Hippo signaling through targeting PTPRB",
+   "retraction_year": "2023"
+  },
+  "30372802": {
+   "first_author": "Liu X",
+   "journal": "Biomed Pharmacother",
+   "year": "2018",
+   "title": "Long non-coding RNA LINC00460 promotes epithelial ovarian cancer progression by regulating microRNA-338-3p",
+   "retraction_year": "2022"
+  },
+  "30430634": {
+   "first_author": "Zheng Y",
+   "journal": "J Cell Biochem",
+   "year": "2018",
+   "title": "Long noncoding RNA HAGLROS regulates apoptosis and autophagy in colorectal cancer cells via sponging miR-100 to target ATG5 expression",
+   "retraction_year": "2021"
+  },
+  "30477461": {
+   "first_author": "Mohana S",
+   "journal": "BMC Cancer",
+   "year": "2018",
+   "title": "Flavonoids modulate multidrug resistance through wnt signaling in P-glycoprotein overexpressing cell lines",
+   "retraction_year": "2021"
+  },
+  "30537738": {
+   "first_author": "Li X",
+   "journal": "Cell Physiol Biochem",
+   "year": "2018",
+   "title": "Circular RNA circPVT1 Promotes Proliferation and Invasion Through Sponging miR-125b and Activating E2F2 Signaling in Non-Small Cell Lung Cancer",
+   "retraction_year": "2023"
+  },
+  "30551524": {
+   "first_author": "Kong F",
+   "journal": "Biomed Pharmacother",
+   "year": "2018",
+   "title": "Long noncoding RNA RMRP upregulation aggravates myocardial ischemia-reperfusion injury by sponging miR-206 to target ATG3 expression",
+   "retraction_year": "2021"
+  },
+  "30585737": {
+   "first_author": "Su Y",
+   "journal": "DNA Cell Biol",
+   "year": "2018",
+   "title": "miR-142 Suppresses Endometrial Cancer Proliferation In Vitro and In Vivo by Targeting Cyclin D1",
+   "retraction_year": "2022"
+  },
+  "30621700": {
+   "first_author": "Yang R",
+   "journal": "Mol Cancer",
+   "year": "2019",
+   "title": "The circRNA circAGFG1 acts as a sponge of miR-195-5p to promote triple-negative breast cancer progression through regulating CCNE1 expression",
+   "retraction_year": "2022"
+  },
+  "30668322": {
+   "first_author": "Munyangi J",
+   "journal": "Phytomedicine",
+   "year": "2018",
+   "title": "Artemisia annua and Artemisia afra tea infusions vs. artesunate-amodiaquine (ASAQ) in treating Plasmodium falciparum malaria in a large scale, double blind, randomized clinical trial",
+   "retraction_year": "2020"
+  },
+  "30772887": {
+   "first_author": "Liu P",
+   "journal": "Med Sci Monit",
+   "year": "2019",
+   "title": "Ursolic Acid Exhibits Potent Anticancer Effects in Human Metastatic Melanoma Cancer Cells (SK-MEL-24) via Apoptosis Induction, Inhibition of Cell Migration and Invasion, Cell Cycle Arrest, and Inhibition of Mitogen-Activated Protein Kinase (MAPK)/ERK Signaling Pathway",
+   "retraction_year": "2021"
+  },
+  "30791958": {
+   "first_author": "Xiu DH",
+   "journal": "J Exp Clin Cancer Res",
+   "year": "2019",
+   "title": "Long non-coding RNA LINC00968 attenuates drug resistance of breast cancer cells through inhibiting the Wnt2/β-catenin signaling pathway by regulating WNT2",
+   "retraction_year": "2021"
+  },
+  "30906471": {
+   "first_author": "Yin S",
+   "journal": "Exp Ther Med",
+   "year": "2019",
+   "title": "MicroRNA-130a regulated by HPV18 E6 promotes proliferation and invasion of cervical cancer cells by targeting TIMP2",
+   "retraction_year": "2022"
+  },
+  "31076544": {
+   "first_author": "Wang L",
+   "journal": "Biosci Rep",
+   "year": "2019",
+   "title": "Up-regulated circular RNA VANGL1 contributes to progression of non-small cell lung cancer through inhibition of miR-195 and activation of Bcl-2",
+   "retraction_year": "2022"
+  },
+  "31081079": {
+   "first_author": "Jia XN",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "year": "2019",
+   "title": "MiR-182-5p inhibited proliferation and migration of ovarian cancer cells by targeting BNIP3",
+   "retraction_year": "2020"
+  },
+  "31114273": {
+   "first_author": "Golsheh S",
+   "journal": "Diabetes Metab Syndr Obes",
+   "year": "2019",
+   "title": "Genetic variants linked to T2DM risk in Kurdish populations",
+   "retraction_year": "2019"
+  },
+  "31115031": {
+   "first_author": "Guo NF",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "year": "2019",
+   "title": "Lixisenatide protects doxorubicin-induced renal fibrosis by activating wNF-κB/TNF-α and TGF-β/Smad pathways",
+   "retraction_year": "2023"
+  },
+  "31122127": {
+   "first_author": "Gao H",
+   "journal": "Cell Cycle",
+   "year": "2019",
+   "title": "Long noncoding RNA MAGI1-IT1 promoted invasion and metastasis of epithelial ovarian cancer via the miR-200a/ZEB axis",
+   "retraction_year": "2022"
+  },
+  "31140597": {
+   "first_author": "Li GC",
+   "journal": "J Cell Physiol",
+   "year": "2019",
+   "title": "Upregulated microRNA-15b alleviates ovarian cancer through inhitbition of the PI3K/Akt pathway by targeting LPAR3",
+   "retraction_year": "2021"
+  },
+  "31208440": {
+   "first_author": "Cao X",
+   "journal": "J Exp Clin Cancer Res",
+   "year": "2019",
+   "title": "Isovitexin reduces carcinogenicity and stemness in hepatic carcinoma stem-like cells by modulating MnSOD and FoxM1",
+   "retraction_year": "2022"
+  },
+  "31266812": {
+   "first_author": "Kapora E",
+   "journal": "Biosci Rep",
+   "year": "2019",
+   "title": "MicroRNA-505-5p functions as a tumor suppressor by targeting cyclin-dependent kinase 5 in cervical cancer",
+   "retraction_year": "2021"
+  },
+  "31322140": {
+   "first_author": "Li C",
+   "journal": "Med Sci Monit",
+   "year": "2019",
+   "title": "Parthenolide Inhibits the Proliferation of MDA-T32 Papillary Thyroid Carcinoma Cells in Vitro and in Mouse Tumor Xenografts and Activates Autophagy and Apoptosis by Downregulation of the Mammalian Target of Rapamycin (mTOR)/PI3K/AKT Signaling Pathway",
+   "retraction_year": "2021"
+  },
+  "31363373": {
+   "first_author": "Wang Q",
+   "journal": "Exp Ther Med",
+   "year": "2019",
+   "title": "MicroRNA-873 inhibits the proliferation and invasion of endometrial cancer cells by directly targeting hepatoma-derived growth factor",
+   "retraction_year": "2022"
+  },
+  "31378882": {
+   "first_author": "Sun CM",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "year": "2019",
+   "title": "MiR-1266 suppresses the growth and metastasis of prostate cancer via targeting PRMT5",
+   "retraction_year": "2021"
+  },
+  "31378887": {
+   "first_author": "Cao HY",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "year": "2019",
+   "title": "MiR-129 reduces CDDP resistance in gastric cancer cells by inhibiting MAPK3",
+   "retraction_year": "2020"
+  },
+  "31378902": {
+   "first_author": "Hu CC",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "year": "2019",
+   "title": "LncRNA RUSC1-AS1 promotes the proliferation of breast cancer cells by epigenetic silence of KLF2 and CDKN1A",
+   "retraction_year": "2022"
+  },
+  "31388302": {
+   "first_author": "Song Z",
+   "journal": "Onco Targets Ther",
+   "year": "2019",
+   "title": "microRNA-564 inhibits the aggressive phenotypes of papillary thyroid cancer by directly targeting astrocyte-elevated gene-1",
+   "retraction_year": "2021"
+  },
+  "31411527": {
+   "first_author": "Zhu H",
+   "journal": "Cell Cycle",
+   "year": "2019",
+   "title": "Long noncoding RNA H19 regulates HIF-1α/AXL signaling through inhibiting miR-20b-5p in endometrial cancer",
+   "retraction_year": "2021"
+  },
+  "31533968": {
+   "first_author": "Chen P",
+   "journal": "Biosci Rep",
+   "year": "2019",
+   "title": "MicroRNA-202 inhibits cell migration and invasion through targeting FGF2 and inactivating Wnt/β-catenin signaling in endometrial carcinoma",
+   "retraction_year": "2022"
+  },
+  "31559899": {
+   "first_author": "Shang Y",
+   "journal": "Cell Cycle",
+   "year": "2019",
+   "title": "MicroRNA-93 regulates the neurological function, cerebral edema and neuronal apoptosis of rats with intracerebral hemorrhage through TLR4/NF-κB signaling pathway",
+   "retraction_year": "2022"
+  },
+  "31564894": {
+   "first_author": "Zhou K",
+   "journal": "Onco Targets Ther",
+   "year": "2019",
+   "title": "LncRNA XIST depletion prevents cancer progression in invasive pituitary neuroendocrine tumor by inhibiting bFGF via upregulation of microRNA-424-5p",
+   "retraction_year": "2023"
+  },
+  "31564913": {
+   "first_author": "Wang J",
+   "journal": "Onco Targets Ther",
+   "year": "2019",
+   "title": "MicroRNA-675 directly targets MAPK1 to suppress the oncogenicity of papillary thyroid cancer and is sponged by long non-coding RNA RMRP",
+   "retraction_year": "2021"
+  },
+  "31696466": {
+   "first_author": "Pan MZ",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "year": "2019",
+   "title": "MiR-605-3p inhibits malignant progression of prostate cancer by up-regulating EZH2",
+   "retraction_year": "2021"
+  },
+  "31776835": {
+   "first_author": "Wang Q",
+   "journal": "J Mammary Gland Biol Neoplasia",
+   "year": "2019",
+   "title": "Circ-TFCP2L1 Promotes the Proliferation and Migration of Triple Negative Breast Cancer through Sponging miR-7 by Inhibiting PAK1",
+   "retraction_year": "2021"
+  },
+  "31802647": {
+   "first_author": "Dou X",
+   "journal": "Anat Rec (Hoboken)",
+   "year": "2019",
+   "title": "Physcion 8-O-β-glucopyranoside inhibits testicular germ cell tumors through regulating microRNA-199a",
+   "retraction_year": "2020"
+  },
+  "31838274": {
+   "first_author": "Chen Y",
+   "journal": "Mol Ther Nucleic Acids",
+   "year": "2019",
+   "title": "LINC01234/MicroRNA-31-5p/MAGEA3 Axis Mediates the Proliferation and Chemoresistance of Hepatocellular Carcinoma Cells",
+   "retraction_year": "2022"
+  },
+  "31865777": {
+   "first_author": "Chi G",
+   "journal": "Artif Cells Nanomed Biotechnol",
+   "year": "2020",
+   "title": "Silencing hsa_circ_PVT1 (circPVT1) suppresses the growth and metastasis of glioblastoma multiforme cells by up-regulation of miR-199a-5p",
+   "retraction_year": "2021"
+  },
+  "31905172": {
+   "first_author": "Diling C",
+   "journal": "Aging (Albany NY)",
+   "year": "2020",
+   "title": "CircNF1-419 improves the gut microbiome structure and function in AD-like mice",
+   "retraction_year": "2023"
+  },
+  "31930662": {
+   "first_author": "Yang X",
+   "journal": "Anat Rec (Hoboken)",
+   "year": "2020",
+   "title": "Long noncoding RNA TUG1 facilitates cell ovarian cancer progression through targeting MiR-29b-3p/MDM2 axis",
+   "retraction_year": "2021"
+  },
+  "31933941": {
+   "first_author": "Wang X",
+   "journal": "Int J Clin Exp Pathol",
+   "year": "2019",
+   "title": "Dysregulation of long non-coding RNA SNHG12 alters the viability, apoptosis, and autophagy of prostate cancer cells by regulating miR-195/CCNE1 axis",
+   "retraction_year": "2022"
+  },
+  "32006899": {
+   "first_author": "Liu X",
+   "journal": "Biomed Pharmacother",
+   "year": "2020",
+   "title": "Long non-coding RNA TTN-AS1 promotes tumorigenesis of ovarian cancer through modulating the miR-139-5p/ROCK2 axis",
+   "retraction_year": "2022"
+  },
+  "32035086": {
+   "first_author": "Ding F",
+   "journal": "Exp Eye Res",
+   "year": "2020",
+   "title": "LncRNA MIR7-3HG executes a positive role in retinoblastoma progression via modulating miR-27a-3p/PEG10 axis",
+   "retraction_year": ""
+  },
+  "32158221": {
+   "first_author": "Wu F",
+   "journal": "Onco Targets Ther",
+   "year": "2020",
+   "title": "Long Noncoding RNA SNHG7, a Molecular Sponge for microRNA-485, Promotes the Aggressive Behavior of Cervical Cancer by Regulating PAK4",
+   "retraction_year": "2021"
+  },
+  "32158226": {
+   "first_author": "Liu Y",
+   "journal": "Onco Targets Ther",
+   "year": "2020",
+   "title": "Hsa_circ_RNA_0011780 Represses the Proliferation and Metastasis of Non-Small Cell Lung Cancer by Decreasing FBXW7 via Targeting miR-544a",
+   "retraction_year": "2022"
+  },
+  "32196596": {
+   "first_author": "Wang H",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "year": "2020",
+   "title": "Molecular mechanisms of MCM3AP-AS1 targeted the regulation of miR-708-5p on cell proliferation and apoptosis in gastric cancer cells",
+   "retraction_year": "2021"
+  },
+  "32201822": {
+   "first_author": "Wu Y",
+   "journal": "ACS Omega",
+   "year": "2020",
+   "title": "Anticancer Effect of Rosiglitazone, a PPAR-γ Agonist against Diethylnitrosamine-Induced Lung Carcinogenesis",
+   "retraction_year": "2021"
+  },
+  "32207530": {
+   "first_author": "Yang T",
+   "journal": "Biosci Rep",
+   "year": "2020",
+   "title": "Study of the biological function of LncRNA LUCAT1 on cervical cancer cells by targeting miR-199b-5p",
+   "retraction_year": "2021"
+  },
+  "32273764": {
+   "first_author": "Gao J",
+   "journal": "Cancer Manag Res",
+   "year": "2020",
+   "title": "Long Noncoding RNA FGD5-AS1 Acts as a Competing Endogenous RNA on microRNA-383 to Enhance the Malignant Characteristics of Esophageal Squamous Cell Carcinoma by Increasing SP1 Expression",
+   "retraction_year": "2021"
+  },
+  "32283217": {
+   "first_author": "Karami P",
+   "journal": "Travel Med Infect Dis",
+   "year": "2020",
+   "title": "WITHDRAWN: Mortality of a pregnant patient diagnosed with COVID-19: A case report with clinical, radiological, and histopathological findings",
+   "retraction_year": "2020"
+  },
+  "32356626": {
+   "first_author": "Mehra MR",
+   "journal": "N Engl J Med",
+   "year": "2020",
+   "title": "Cardiovascular Disease, Drug Therapy, and Mortality in Covid-19",
+   "retraction_year": "2020"
+  },
+  "32365279": {
+   "first_author": "Gao ZG",
+   "journal": "Anat Rec (Hoboken)",
+   "year": "2020",
+   "title": "CircFBXW7 alleviates glioma progression through regulating miR-23a-3p/PTEN axis",
+   "retraction_year": "2021"
+  },
+  "32368078": {
+   "first_author": "Yu L",
+   "journal": "Onco Targets Ther",
+   "year": "2020",
+   "title": "Long Non-Coding RNA HAND2-AS1 Inhibits Growth and Migration of Gastric Cancer Cells Through Regulating the miR-590-3p/KCNT2 Axis",
+   "retraction_year": "2021"
+  },
+  "32468088": {
+   "first_author": "Lu J",
+   "journal": "Cell Tissue Res",
+   "year": "2020",
+   "title": "CiRS-126 inhibits proliferation of ovarian granulosa cells through targeting the miR-21-PDCD4-ROS axis in a polycystic ovarian syndrome model",
+   "retraction_year": "2021"
+  },
+  "32484204": {
+   "first_author": "Zhao Y",
+   "journal": "Biosci Rep",
+   "year": "2020",
+   "title": "miR-135a inhibits malignant proliferation and diffusion of non-small cell lung cancer cells by down-regulating ROCK1 protein",
+   "retraction_year": "2021"
+  },
+  "32495864": {
+   "first_author": "Feng F",
+   "journal": "Eur Rev Med Pharmacol Sci",
+   "year": "2020",
+   "title": "Circ_0061140 promotes metastasis of bladder cancer through adsorbing microRNA-1236",
+   "retraction_year": "2021"
+  },
+  "32594528": {
+   "first_author": "Wu J",
+   "journal": "Hepatology",
+   "year": "2021",
+   "title": "M2 Macrophage-Derived Exosomes Facilitate HCC Metastasis by Transferring αM β2 Integrin to Tumor Cells",
+   "retraction_year": "2021"
+  },
+  "32716637": {
+   "first_author": "Kong F",
+   "journal": "Cancer Biother Radiopharm",
+   "year": "2020",
+   "title": "LncRNA SNHG16 Promotes Proliferation, Migration, and Invasion of Glioma Cells Through Regulating the miR-490/PCBP2 Axis",
+   "retraction_year": "2021"
+  },
+  "32790092": {
+   "first_author": "Velu P",
+   "journal": "J Pharm Pharmacol",
+   "year": "2020",
+   "title": "Inhibiting the PI3K/Akt, NF-κB signalling pathways with syringic acid for attenuating the development of oral squamous cell carcinoma cells SCC131",
+   "retraction_year": "2021"
+  },
+  "32816608": {
+   "first_author": "Zheng D",
+   "journal": "Cell Cycle",
+   "year": "2020",
+   "title": "LncRNA MACC1-AS1/MACC1 enhances the progression of glioma via regulating metabolic plasticity",
+   "retraction_year": "2021"
+  },
+  "32848463": {
+   "first_author": "Zheng W",
+   "journal": "Cancer Manag Res",
+   "year": "2020",
+   "title": "microRNA-26a Directly Targeting MMP14 and MMP16 Inhibits the Cancer Cell Proliferation, Migration and Invasion in Cutaneous Squamous Cell Carcinoma",
+   "retraction_year": "2021"
+  },
+  "32850336": {
+   "first_author": "Zhao Z",
+   "journal": "Front Oncol",
+   "year": "2020",
+   "title": "LncRNA DLX6-AS1 Promotes Malignant Phenotype and Lymph Node Metastasis in Prostate Cancer by Inducing LARGE Methylation",
+   "retraction_year": "2021"
+  },
+  "32910747": {
+   "first_author": "Song XZ",
+   "journal": "Technol Cancer Res Treat",
+   "year": "2020",
+   "title": "LncRNA RHPN1-AS1 Promotes Cell Proliferation, Migration and Invasion Through Targeting miR-7-5p and Activating PI3K/AKT/mTOR Pathway in Hepatocellular Carcinoma",
+   "retraction_year": "2023"
+  },
+  "33116856": {
+   "first_author": "Wang Y",
+   "journal": "Cancer Manag Res",
+   "year": "2020",
+   "title": "LncRNA MALAT1 Regulates the Progression and Cisplatin Resistance of Ovarian Cancer Cells via Modulating miR-1271-5p/E2F5 Axis",
+   "retraction_year": "2022"
+  },
+  "33192095": {
+   "first_author": "Wang K",
+   "journal": "Cancer Manag Res",
+   "year": "2020",
+   "title": "LncRNA MALAT1 Promotes Survival of Epithelial Ovarian Cancer Cells by Downregulating miR-145-5p",
+   "retraction_year": "2021"
+  },
+  "33230463": {
+   "first_author": "Ma HY",
+   "journal": "Mol Ther Nucleic Acids",
+   "year": "2020",
+   "title": "TNFAIP8 Promotes Cisplatin Chemoresistance in Triple-Negative Breast Cancer by Repressing p53-Mediated miR-205-5p Expression",
+   "retraction_year": "2023"
+  },
+  "33347877": {
+   "first_author": "Mao R",
+   "journal": "Life Sci",
+   "year": "2020",
+   "title": "BMSCs-derived exosomal microRNA-let-7a plays a protective role in diabetic nephropathy via inhibition of USP22 expression",
+   "retraction_year": "2021"
+  },
+  "33408484": {
+   "first_author": "Fan S",
+   "journal": "Onco Targets Ther",
+   "year": "2020",
+   "title": "Circular RNA circGSE1 Promotes Cervical Cancer Progression Through miR-138-5p/Vimentin",
+   "retraction_year": "2022"
+  },
+  "33450262": {
+   "first_author": "Li H",
+   "journal": "Life Sci",
+   "year": "2021",
+   "title": "Depleting microRNA-183-3p improves renal tubulointerstitial fibrosis after acute kidney injury via SIRT1/PUMA/FOXO3a deacetylation",
+   "retraction_year": "2021"
+  },
+  "33531835": {
+   "first_author": "Bian WX",
+   "journal": "Cancer Manag Res",
+   "year": "2021",
+   "title": "Circular RNA CircCDYL Regulates Proliferation and Apoptosis in Non-Small Cell Lung Cancer Cells by Sponging miR-185-5p and Upregulating TNRC6A",
+   "retraction_year": "2023"
+  },
+  "33868015": {
+   "first_author": "Wang R",
+   "journal": "Front Physiol",
+   "year": "2021",
+   "title": "MiR-22 Inhibition Alleviates Cardiac Dysfunction in Doxorubicin-Induced Cardiomyopathy by Targeting the sirt1/PGC-1α Pathway",
+   "retraction_year": "2022"
+  },
+  "33958893": {
+   "first_author": "Zeng H",
+   "journal": "Cancer Manag Res",
+   "year": "2021",
+   "title": "LINC00908 Promotes Diffuse Large B-Cell Lymphoma Development by Down-Regulating miR-671-5p",
+   "retraction_year": "2021"
+  },
+  "34186282": {
+   "first_author": "Tian J",
+   "journal": "Int Immunopharmacol",
+   "year": "2021",
+   "title": "Exosomal microRNA-16-5p from adipose mesenchymal stem cells promotes TLR4-mediated M2 macrophage polarization in septic lung injury",
+   "retraction_year": "2022"
+  },
+  "34712356": {
+   "first_author": "Xu H",
+   "journal": "Comput Math Methods Med",
+   "year": "2021",
+   "title": "FAM87A as a Competing Endogenous RNA of miR-424-5p Suppresses Glioma Progression by Regulating PPM1H",
+   "retraction_year": "2023"
+  },
+  "34900185": {
+   "first_author": "Zhu Z",
+   "journal": "J Healthc Eng",
+   "year": "2021",
+   "title": "Protective Properties of the Extract of Chrysanthemum on Patients with Ischemic Stroke",
+   "retraction_year": "2023"
+  },
+  "34974791": {
+   "first_author": "Jiang Z",
+   "journal": "Bioengineered",
+   "year": "2022",
+   "title": "Circular RNA protein tyrosine kinase 2 (circPTK2) promotes colorectal cancer proliferation, migration, invasion and chemoresistance",
+   "retraction_year": "2023"
+  },
+  "35033815": {
+   "first_author": "Wei J",
+   "journal": "Bioorg Chem",
+   "year": "2021",
+   "title": "LncRNA SNHG6 facilitates cell proliferation, migration, invasion and EMT by upregulating UCK2 and activating the Wnt/β-catenin signaling in cervical cancer",
+   "retraction_year": "2022"
+  },
+  "35432585": {
+   "first_author": "Zuo Y",
+   "journal": "Comput Math Methods Med",
+   "year": "2022",
+   "title": "Study on the Mechanism of Action of Paclitaxel-Loaded Polylactic-co-glycolic Acid Nanoparticles in Non-Small-Cell Lung Carcinoma Cells",
+   "retraction_year": "2023"
+  },
+  "36072636": {
+   "first_author": "Luo J",
+   "journal": "Contrast Media Mol Imaging",
+   "year": "2022",
+   "title": "Lidocaine Ameliorates Diabetic Peripheral Neuropathy in Streptozotocin-Induced Diabetic Rats through Modulating the c-Jun Signaling Pathway",
+   "retraction_year": "2023"
+  },
+  "36238494": {
+   "first_author": "Zhao W",
+   "journal": "Comput Math Methods Med",
+   "year": "2022",
+   "title": "Identification of the Immune Status of Hypertrophic Cardiomyopathy by Integrated Analysis of Bulk- and Single-Cell RNA Sequencing Data",
+   "retraction_year": "2023"
+  }
+ }
+}

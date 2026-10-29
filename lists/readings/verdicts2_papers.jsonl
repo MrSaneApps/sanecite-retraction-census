@@ -1,0 +1,15 @@
+{"pair_id": "19918075>PMC8490744", "group": "19918075", "verdict": "CONFIRM", "reason": "Insulin sensitivity benefit of PGC-1a attributed to the paper."}
+{"pair_id": "19918075>PMC9101554", "group": "19918075", "verdict": "CONFIRM", "reason": "Restates the title finding."}
+{"pair_id": "19918075>PMC7302154", "group": "19918075", "verdict": "CONFIRM", "reason": "Mitochondrial biogenesis preserves muscle mass, cited to the paper."}
+{"pair_id": "19918075>PMC7113536", "group": "19918075", "verdict": "CONFIRM", "reason": "LC3-II up-regulation in a sarcopenia model, cited as a finding."}
+{"pair_id": "19918075>PMC8942428", "group": "19918075", "verdict": "CONFIRM", "reason": "PPARGC1A overexpression mitigates sarcopenia."}
+{"pair_id": "19918075>PMC5659061", "group": "19918075", "verdict": "CONFIRM", "reason": "Wenz et al. showed overexpression prevented atrophy and extended life span."}
+{"pair_id": "19918075>PMC8869656", "group": "19918075", "verdict": "REJECT_OTHER", "reason": "Adipocyte dysfunction / NF-kB claim the paper does not make; likely mislinked."}
+{"pair_id": "19918075>PMC10067483", "group": "19918075", "verdict": "CONFIRM", "reason": "PGC1-a signalling prevents sarcopenia."}
+{"pair_id": "19918075>PMC9582522", "group": "19918075", "verdict": "REJECT_OTHER", "reason": "IGF-1/PI3K claim; likely mislinked."}
+{"pair_id": "19918075>PMC8350689", "group": "19918075", "verdict": "CONFIRM", "reason": "Age-dependent PGC-1a decline cited to the paper."}
+{"pair_id": "19918075>PMC7503908", "group": "19918075", "verdict": "CONFIRM", "reason": "Upregulation attenuates mitochondrial dysfunction and sarcopenia."}
+{"pair_id": "19918075>PMC7218978", "group": "19918075", "verdict": "CONFIRM", "reason": "Overexpression lowered IL-6/TNF-a."}
+{"pair_id": "19918075>PMC6458556", "group": "19918075", "verdict": "CONFIRM", "reason": "Overexpression in old mice prevented atrophy and insulin resistance."}
+{"pair_id": "19918075>PMC6696113", "group": "19918075", "verdict": "CONFIRM", "reason": "Higher PGC1a in old mice: less oxidative stress, inflammation."}
+{"pair_id": "19918075>PMC9782515", "group": "19918075", "verdict": "CONFIRM", "reason": "Transgenic mice: longer life, resistance to obesity and diabetes."}

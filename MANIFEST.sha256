@@ -139,3 +139,5 @@ f7fb828d9bc31060bd4e5a0d26c5172a8615bb1d3bd7b69ec0672786f5b0e727  ./scripts/stag
 841bc1ff4cef57695bf9be0e986a9aca03eb0550907e1fc48ad054dadcbcef05  ./scripts/verify_manifest.py
 # 2026-10-24T00:36Z 2026-10-23 README location; release-check tests moved to the private repo
 2a90875a885d66449fe36e5c70c539cc0f8fca8120d28dcda5cd95d5a2ad678c  ./README.md
+# 2026-10-29T12:47Z v1.3.0
+d794bc904b0156ac945752ec74c8e1261959869d104be92806b0bb89fdbab45c  ./scripts/stage_release.py

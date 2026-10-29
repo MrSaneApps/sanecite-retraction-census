@@ -1,0 +1,225 @@
+{"pair_id": "12609035>PMC6913711", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: transient expression done according to Voinnet et al. 2003 (p19 system)."}
+{"pair_id": "12609035>PMC9884027", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: uses the P19 Agrobacterium strain from the paper in infiltrations."}
+{"pair_id": "12609035>PMC5888981", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: uses the pBIN61-P19 strain and adapts the expression protocol from the paper."}
+{"pair_id": "12609035>PMC5405970", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: co-infiltrates the p19 silencing suppressor strain."}
+{"pair_id": "12609035>PMC7285161", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: infiltration buffer and OD600 conditions taken from the paper."}
+{"pair_id": "12609035>PMC11415240", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: uses the 35S::p19 plasmid from the paper."}
+{"pair_id": "12609035>PMC7336373", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: uses the p19 suppressor construct from the paper."}
+{"pair_id": "12609035>PMC11799908", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: co-expresses with the p19 suppressor strain from the paper."}
+{"pair_id": "12609035>PMC4754535", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: includes p19 to reduce silencing, citing the paper."}
+{"pair_id": "12609035>PMC10984862", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: uses the P19 suppressor construct from the paper."}
+{"pair_id": "12609035>PMC5921532", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: uses the pCaMV35S:p19 construct from the paper."}
+{"pair_id": "12609035>PMC7465787", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: co-infiltrates p19 to limit silencing, citing the paper."}
+{"pair_id": "12609035>PMC5385521", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: co-infiltrates p19 in pBIN61 to enhance expression."}
+{"pair_id": "12609035>PMC11629743", "group": "12609035", "verdict": "CONFIRM", "reason": "Method only: p19 co-infiltrated in all experiments, citing the paper."}
+{"pair_id": "12609035>PMC5534519", "group": "12609035", "verdict": "CONFIRM", "reason": "States the paper's result that p19 raised GFP expression 50-fold as fact."}
+{"pair_id": "15604363>PMC7096459", "group": "15604363", "verdict": "CONFIRM", "reason": "Presents visfatin as first identified as a visceral-fat adipokine per the paper; the insulin-receptor claim is hedged as superseded."}
+{"pair_id": "15604363>PMC12588879", "group": "15604363", "verdict": "CONFIRM", "reason": "States as reported fact that visfatin mimics insulin and lowers glucose."}
+{"pair_id": "15604363>PMC3765747", "group": "15604363", "verdict": "CONFIRM", "reason": "States the paper's finding that the molecule is expressed in adipose tissue."}
+{"pair_id": "15604363>PMC3655867", "group": "15604363", "verdict": "REJECT_OTHER", "reason": "The same reference also backs resistin claims the visfatin paper never made, so the citation likely points to a different source."}
+{"pair_id": "15604363>PMC3214353", "group": "15604363", "verdict": "REJECT_PASSING", "reason": "Only contrasts its own result with the paper among several studies, quotes its title, and cites it in a group."}
+{"pair_id": "15604363>PMC11144723", "group": "15604363", "verdict": "REJECT_PASSING", "reason": "Only credits the paper with discovering the protein; nothing rests on its results."}
+{"pair_id": "15604363>PMC10981885", "group": "15604363", "verdict": "CONFIRM", "reason": "States the paper's tissue-expression pattern for visfatin as fact."}
+{"pair_id": "15604363>PMC3221028", "group": "15604363", "verdict": "CONFIRM", "reason": "Presents the paper's finding that visfatin relates to insulin sensitivity as a valid prior result."}
+{"pair_id": "15604363>PMC2905911", "group": "15604363", "verdict": "REJECT_AWARE", "reason": "Says recent results excluded the insulin-receptor mechanism the paper reported."}
+{"pair_id": "15604363>PMC3991522", "group": "15604363", "verdict": "CONFIRM", "reason": "States that visfatin binds the insulin receptor and mimics insulin, citing the paper."}
+{"pair_id": "15604363>PMC8269388", "group": "15604363", "verdict": "REJECT_PASSING", "reason": "Lists insulin mimicry only as one proposed role among several."}
+{"pair_id": "15604363>PMC6878710", "group": "15604363", "verdict": "CONFIRM", "reason": "States that recombinant visfatin was shown to bind the insulin receptor and raise glucose uptake."}
+{"pair_id": "15604363>PMC4166205", "group": "15604363", "verdict": "CONFIRM", "reason": "States the paper's visceral-fat expression finding and insulin-mimetic action as fact."}
+{"pair_id": "15604363>PMC3649306", "group": "15604363", "verdict": "CONFIRM", "reason": "States that visfatin has insulin-like effects and lowers glucose in mice, citing the paper."}
+{"pair_id": "15604363>PMC7696687", "group": "15604363", "verdict": "REJECT_AWARE", "reason": "Elsewhere in the paper (outside the census window) it notes the retraction of some visfatin insulin-receptor data."}
+{"pair_id": "32356626>PMC9143631", "group": "32356626", "verdict": "REJECT_PASSING", "reason": "Cited for general COVID-19 background (fatality, WHO naming) that does not rest on the paper's data."}
+{"pair_id": "32356626>PMC9206216", "group": "32356626", "verdict": "CONFIRM", "reason": "Presents the 8,910-patient finding (comorbidity, not ACEI/ARB, linked to death) as confirmed and undisputed."}
+{"pair_id": "32356626>PMC7308629", "group": "32356626", "verdict": "REJECT_OTHER", "reason": "Garbled: the arrow sits in an infection-control list unrelated to the paper, likely a reference-number mismatch."}
+{"pair_id": "32356626>PMC7863036", "group": "32356626", "verdict": "CONFIRM", "reason": "Review counts the paper among its ten appraised observational studies and rates it as high quality."}
+{"pair_id": "32356626>PMC9452130", "group": "32356626", "verdict": "CONFIRM", "reason": "Reports the paper's ACEI/ARB mortality odds ratios as valid evidence."}
+{"pair_id": "32356626>PMC9437522", "group": "32356626", "verdict": "CONFIRM", "reason": "States that prior coronary disease raises in-hospital COVID-19 death risk, citing only the paper."}
+{"pair_id": "32356626>PMC7771377", "group": "32356626", "verdict": "CONFIRM", "reason": "Uses the paper's arrhythmia odds ratio of 1.95 for in-hospital death."}
+{"pair_id": "32356626>PMC8479451", "group": "32356626", "verdict": "CONFIRM", "reason": "Cites the paper alone for the observed link between cardiovascular events and COVID-19."}
+{"pair_id": "32356626>PMC11284692", "group": "32356626", "verdict": "REJECT_PASSING", "reason": "Cited for a general cytokine and heart-damage mechanism that the paper did not study."}
+{"pair_id": "32356626>PMC8294691", "group": "32356626", "verdict": "CONFIRM", "reason": "Cites the paper as evidence that cardiovascular disease raises in-hospital COVID-19 mortality."}
+{"pair_id": "32356626>PMC8230847", "group": "32356626", "verdict": "CONFIRM", "reason": "Lists the paper's risk factors for in-hospital death as established findings."}
+{"pair_id": "32356626>PMC7775794", "group": "32356626", "verdict": "REJECT_PASSING", "reason": "Cited for general statements about cardiac care burden that do not rest on the paper's results."}
+{"pair_id": "32356626>PMC8243370", "group": "32356626", "verdict": "CONFIRM", "reason": "Reports the paper's lower in-hospital mortality with ACEI as a finding."}
+{"pair_id": "32356626>PMC7868677", "group": "32356626", "verdict": "CONFIRM", "reason": "Reports the paper's finding that those who died had more coronary disease, heart failure and arrhythmia."}
+{"pair_id": "32356626>PMC7577279", "group": "32356626", "verdict": "CONFIRM", "reason": "Presents the paper as new evidence that RAAS drugs do not worsen COVID-19 and may reduce inflammation."}
+{"pair_id": "21772732>PMC6485816", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for using block randomization."}
+{"pair_id": "21772732>PMC8430718", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for block randomisation of participants."}
+{"pair_id": "21772732>PMC8860492", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for coin-toss randomization; the table hits are stray reference numbers."}
+{"pair_id": "21772732>PMC11603153", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for simple randomization."}
+{"pair_id": "21772732>PMC11095706", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for randomizing animals by tumour size."}
+{"pair_id": "21772732>PMC10395843", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for a block randomization procedure."}
+{"pair_id": "21772732>PMC6982360", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for nonstratified block randomization."}
+{"pair_id": "21772732>PMC11275076", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for the block randomization technique."}
+{"pair_id": "21772732>PMC13488088", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for simple randomization."}
+{"pair_id": "21772732>PMC9435385", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for simple random allocation by the chit method."}
+{"pair_id": "21772732>PMC7338782", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for random assignment with online software."}
+{"pair_id": "21772732>PMC9586722", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for Fisher's randomization technique."}
+{"pair_id": "21772732>PMC10024317", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for block randomization allocation."}
+{"pair_id": "21772732>PMC8377702", "group": "21772732", "verdict": "CONFIRM", "reason": "Presents a claim attributed to the overview (randomization often fails to balance confounders) as shown."}
+{"pair_id": "21772732>PMC7382793", "group": "21772732", "verdict": "CONFIRM", "reason": "Method only: cites the overview for computer-generated random numbers."}
+{"pair_id": "18453793>PMC13414886", "group": "18453793", "verdict": "REJECT_OTHER", "reason": "Cites Morisky 2008 for a Chinese EQ-5D-5L utility table, which that paper does not contain; a miscitation."}
+{"pair_id": "18453793>PMC12625146", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument only: uses the MMAS to measure adherence."}
+{"pair_id": "18453793>PMC11353715", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument only: applies the 8-item scale and its cut-offs."}
+{"pair_id": "18453793>PMC11465833", "group": "18453793", "verdict": "CONFIRM", "reason": "States the paper's retracted validity results (alpha 0.83, link to blood-pressure control) as fact."}
+{"pair_id": "18453793>PMC13454762", "group": "18453793", "verdict": "REJECT_AWARE", "reason": "Names the scale via the paper and, in the same paragraph, says the original MMAS-8 publication has been retracted."}
+{"pair_id": "18453793>PMC11707837", "group": "18453793", "verdict": "REJECT_PASSING", "reason": "Only names the MMAS in a list of available adherence scales."}
+{"pair_id": "18453793>PMC11309676", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument only: uses the MMAS-8 and its adherence cut-offs."}
+{"pair_id": "18453793>PMC12491024", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument use, calling the MMAS-8 validated on the paper's authority."}
+{"pair_id": "18453793>PMC12281826", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument only: uses the MMAS-8."}
+{"pair_id": "18453793>PMC11086791", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument only: measures adherence with the MMAS-8."}
+{"pair_id": "18453793>PMC11401307", "group": "18453793", "verdict": "CONFIRM", "reason": "Uses the scale as rigorously validated with shown reliability and validity, resting on the paper."}
+{"pair_id": "18453793>PMC13369247", "group": "18453793", "verdict": "REJECT_PASSING", "reason": "Cited in a group of five references listing tools used across studies."}
+{"pair_id": "18453793>PMC11879294", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument only: uses the MMAS-8 and its cut-offs."}
+{"pair_id": "18453793>PMC11491311", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument only: measures ART adherence with the MMAS-8."}
+{"pair_id": "18453793>PMC11829210", "group": "18453793", "verdict": "CONFIRM", "reason": "Instrument only: measures HBV adherence with the MMAS-8."}
+{"pair_id": "30193239>PMC9093651", "group": "30193239", "verdict": "CONFIRM", "reason": "States the 2018 meta-analysis finding that burnout harms patient safety, care quality and satisfaction."}
+{"pair_id": "30193239>PMC9281982", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper alone for physician burnout lowering patient satisfaction."}
+{"pair_id": "30193239>PMC9196029", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper alone for burnout causing medical errors and lower care quality."}
+{"pair_id": "30193239>PMC7904297", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper for burnout being tied to safety incidents, low professionalism and lower satisfaction."}
+{"pair_id": "30193239>PMC11330859", "group": "30193239", "verdict": "REJECT_PASSING", "reason": "The only real use is a grouped citation [1-4]; the table hit is a garbled superscript."}
+{"pair_id": "30193239>PMC10021551", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper for staff burnout as a factor in patient safety."}
+{"pair_id": "30193239>PMC9158305", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper for burnout being linked to safety events, poorer care and lower satisfaction."}
+{"pair_id": "30193239>PMC9536518", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper for burnout being linked to lower professionalism and patient safety."}
+{"pair_id": "30193239>PMC8069627", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper for patients rating burned-out clinicians lower."}
+{"pair_id": "30193239>PMC11094957", "group": "30193239", "verdict": "REJECT_OTHER", "reason": "The same reference is used for a review of burnout interventions, so it is likely Panagioti 2017 (interventions), not the retracted 2018 paper."}
+{"pair_id": "30193239>PMC10157943", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper for burned-out clinicians being at higher risk of harming patients."}
+{"pair_id": "30193239>PMC8635641", "group": "30193239", "verdict": "REJECT_OTHER", "reason": "Passages are about workplace violence toward physicians, which the paper did not address; likely a wrong reference match."}
+{"pair_id": "30193239>PMC8811459", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the 47-study, 42,473-physician meta-analysis as showing burnout affects patient safety."}
+{"pair_id": "30193239>PMC8318147", "group": "30193239", "verdict": "REJECT_OTHER", "reason": "Cited for DASS-21 validity results, which have nothing to do with the paper; likely a wrong reference match."}
+{"pair_id": "30193239>PMC8507633", "group": "30193239", "verdict": "CONFIRM", "reason": "Cites the paper as the meta-analysis showing burnout is linked to patient safety."}
+{"pair_id": "17715156>PMC4943944", "group": "17715156", "verdict": "CONFIRM", "reason": "Uses the paper's miR-1/miR-133 apoptosis finding to interpret its own results."}
+{"pair_id": "17715156>PMC5094948", "group": "17715156", "verdict": "CONFIRM", "reason": "States the paper's finding that miR-1 is pro-apoptotic and miR-133 anti-apoptotic."}
+{"pair_id": "17715156>PMC3528764", "group": "17715156", "verdict": "REJECT_PASSING", "reason": "Cited only for the textbook fact that miR-1 and miR-133 are expressed in heart and skeletal muscle."}
+{"pair_id": "17715156>PMC8019842", "group": "17715156", "verdict": "CONFIRM", "reason": "Cites the paper alone for miR-1's role in apoptosis and myocardial ischaemic injury."}
+{"pair_id": "17715156>PMC4190440", "group": "17715156", "verdict": "CONFIRM", "reason": "States the paper's HSP60/HSP70 and caspase-9 targeting results as fact."}
+{"pair_id": "17715156>PMC3694448", "group": "17715156", "verdict": "CONFIRM", "reason": "States that miR-133 has opposing apoptotic effects via HSP60/70 and caspase-9, citing the paper."}
+{"pair_id": "17715156>PMC12552689", "group": "17715156", "verdict": "CONFIRM", "reason": "Cites the paper for miR-1 targeting heat shock proteins to drive apoptosis."}
+{"pair_id": "17715156>PMC3409211", "group": "17715156", "verdict": "CONFIRM", "reason": "Treats the paper's pro- and anti-apoptotic roles of miR-1 and miR-133 as known."}
+{"pair_id": "17715156>PMC5979519", "group": "17715156", "verdict": "CONFIRM", "reason": "Cites the paper for miR-133 repressing caspase-9."}
+{"pair_id": "17715156>PMC7664614", "group": "17715156", "verdict": "CONFIRM", "reason": "Describes the paper's opposing miR-1/miR-133 effects as a demonstrated result."}
+{"pair_id": "17715156>PMC7875238", "group": "17715156", "verdict": "CONFIRM", "reason": "A table row credits the paper alone for miR-1 targeting HSP60/HSP70, though the row's vitiligo details look mixed with another source."}
+{"pair_id": "17715156>PMC4519775", "group": "17715156", "verdict": "CONFIRM", "reason": "Cites the paper, slightly misstated, for miR-133 suppressing apoptosis via Hsp70."}
+{"pair_id": "17715156>PMC4895272", "group": "17715156", "verdict": "REJECT_PASSING", "reason": "Cited for the general statement that miRNAs regulate apoptosis."}
+{"pair_id": "17715156>PMC4827073", "group": "17715156", "verdict": "CONFIRM", "reason": "Restates the paper's oxidative-stress miR-1/HSP70 apoptosis result in detail."}
+{"pair_id": "17715156>PMC5304257", "group": "17715156", "verdict": "CONFIRM", "reason": "A table row credits the paper for miR-133 targeting caspase-9 with an anti-apoptotic role."}
+{"pair_id": "19772305>PMC12329905", "group": "19772305", "verdict": "CONFIRM", "reason": "Cites the paper for nanotubes entering seed coats and improving germination."}
+{"pair_id": "19772305>PMC4278344", "group": "19772305", "verdict": "CONFIRM", "reason": "Reports the paper's germination figures (90% vs 71%) as a finding."}
+{"pair_id": "19772305>PMC10143637", "group": "19772305", "verdict": "CONFIRM", "reason": "States that the paper first showed nanotubes enter tomato seed coats and raise water uptake."}
+{"pair_id": "19772305>PMC8950913", "group": "19772305", "verdict": "CONFIRM", "reason": "Cites the paper alone for nanotubes being shown to raise germination and growth."}
+{"pair_id": "19772305>PMC8950276", "group": "19772305", "verdict": "CONFIRM", "reason": "Cites the paper for seed-coat entry and water uptake behind the growth effect."}
+{"pair_id": "19772305>PMC4897911", "group": "19772305", "verdict": "CONFIRM", "reason": "Cites the paper as giving optical evidence of nanotube uptake."}
+{"pair_id": "19772305>PMC4113778", "group": "19772305", "verdict": "CONFIRM", "reason": "Cites the paper for nanotubes entering tomato seeds."}
+{"pair_id": "19772305>PMC4038422", "group": "19772305", "verdict": "CONFIRM", "reason": "States the paper's seed-coat entry and water-uptake results as found."}
+{"pair_id": "19772305>PMC8912827", "group": "19772305", "verdict": "REJECT_OTHER", "reason": "Cited for stress-gene up-regulation, which the 2009 paper did not report; likely a later Khodakovskaya paper."}
+{"pair_id": "19772305>PMC6100068", "group": "19772305", "verdict": "CONFIRM", "reason": "Method only: seed sterilization procedure taken from the paper; the other hit is a group citation."}
+{"pair_id": "19772305>PMC8459368", "group": "19772305", "verdict": "CONFIRM", "reason": "Cites the paper for nanotubes entering thick seed coats."}
+{"pair_id": "19772305>PMC7246787", "group": "19772305", "verdict": "CONFIRM", "reason": "Lists the paper's tomato germination and biomass gains as results, in text and tables."}
+{"pair_id": "19772305>PMC4014205", "group": "19772305", "verdict": "CONFIRM", "reason": "Says the paper showed tomato seedlings absorb nanotubes and that water uptake raised germination."}
+{"pair_id": "19772305>PMC4898372", "group": "19772305", "verdict": "CONFIRM", "reason": "Describes the paper's seed-coat entry and germination results as the first evidence of benefit."}
+{"pair_id": "19772305>PMC6353767", "group": "19772305", "verdict": "CONFIRM", "reason": "Cites the paper for nanotubes at 10-40 mg/L sharply raising tomato germination and growth."}
+{"pair_id": "24711954>PMC7218069", "group": "24711954", "verdict": "REJECT_PASSING", "reason": "Cites the review for a general insulin-lipogenesis mechanism used as background."}
+{"pair_id": "24711954>PMC13218083", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: reports the review's claim that about 25% of adults have MetS."}
+{"pair_id": "24711954>PMC7567201", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: cites the review alone for MetS doubling CVD risk and raising diabetes risk five-fold."}
+{"pair_id": "24711954>PMC8564990", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: cites the review's 10-84% global prevalence range."}
+{"pair_id": "24711954>PMC10957696", "group": "24711954", "verdict": "REJECT_OTHER", "reason": "Cites \"Kaur 2014\" for niclosamide in MetS, which this review does not cover; likely a different source."}
+{"pair_id": "24711954>PMC7175042", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: uses the review's fold-risk numbers for diabetes, CVD, stroke and MI."}
+{"pair_id": "24711954>PMC7721212", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: reports the review's prevalence ranges by BMI and age."}
+{"pair_id": "24711954>PMC7767256", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: cites the review for a worldwide prevalence of about 84% (a misreading of its range)."}
+{"pair_id": "24711954>PMC11438483", "group": "24711954", "verdict": "REJECT_PASSING", "reason": "Cites the review for general COPD and MetS naming background, not its content."}
+{"pair_id": "24711954>PMC9326538", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: reports the review's 10-84% prevalence."}
+{"pair_id": "24711954>PMC7413996", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: reports the review's 10-84% prevalence by population."}
+{"pair_id": "24711954>PMC8385560", "group": "24711954", "verdict": "REJECT_PASSING", "reason": "Cites the review for a general statement about drug side effects in MetS treatment."}
+{"pair_id": "24711954>PMC8398762", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: cites the review for prevalence reaching about 80%."}
+{"pair_id": "24711954>PMC8308366", "group": "24711954", "verdict": "CONFIRM", "reason": "Review figure: cites the review's prevalence range and its IL-6 correlations."}
+{"pair_id": "24711954>PMC10496761", "group": "24711954", "verdict": "CONFIRM", "reason": "Cites the review alone for MetS being linked to higher leptin and IL-1 beta."}
+{"pair_id": "32450107>PMC7656497", "group": "32450107", "verdict": "CONFIRM", "reason": "States as fact that WHO suspended the drug pairing because the paper found more cardiac events."}
+{"pair_id": "32450107>PMC8058706", "group": "32450107", "verdict": "CONFIRM", "reason": "Muddled, but cites the 96,032-patient analysis as evidence on hydroxychloroquine's benefit."}
+{"pair_id": "32450107>PMC7454434", "group": "32450107", "verdict": "CONFIRM", "reason": "Cites the paper as an observational analysis tying hydroxychloroquine to higher in-hospital mortality."}
+{"pair_id": "32450107>PMC8877570", "group": "32450107", "verdict": "CONFIRM", "reason": "Cites the paper alone as a study where HCQ treatment failed."}
+{"pair_id": "32450107>PMC10016996", "group": "32450107", "verdict": "CONFIRM", "reason": "Reports the registry's lower survival and more arrhythmias with the drugs as findings."}
+{"pair_id": "32450107>PMC8056783", "group": "32450107", "verdict": "REJECT_PASSING", "reason": "Only records that regulators added safety checks after the paper's reports; a historical note, not reliance."}
+{"pair_id": "32450107>PMC7822757", "group": "32450107", "verdict": "REJECT_PASSING", "reason": "Describes the Lancet study as \"claiming\" higher risk and notes the concern it raised; no reliance."}
+{"pair_id": "32450107>PMC8176881", "group": "32450107", "verdict": "REJECT_OTHER", "reason": "Cited for the FDA cancelling chloroquine's emergency authorization, which is not the paper's content; likely a wrong reference."}
+{"pair_id": "32450107>PMC8299389", "group": "32450107", "verdict": "REJECT_AWARE", "reason": "The sentences after the window say the study caused controversy and was recently retracted."}
+{"pair_id": "32450107>PMC8006633", "group": "32450107", "verdict": "CONFIRM", "reason": "Cites the paper as research showing hydroxychloroquine has no benefit."}
+{"pair_id": "32450107>PMC11335168", "group": "32450107", "verdict": "CONFIRM", "reason": "Reports the paper's mortality figures and hazard ratio as findings."}
+{"pair_id": "32450107>PMC8052528", "group": "32450107", "verdict": "CONFIRM", "reason": "States that a large study found the drugs raise the risk of death."}
+{"pair_id": "32450107>PMC7524676", "group": "32450107", "verdict": "REJECT_AWARE", "reason": "The next sentences (outside the census window) call the paper fraudulent and say it was retracted."}
+{"pair_id": "32450107>PMC10328169", "group": "32450107", "verdict": "CONFIRM", "reason": "Says the paper \"conclusively assessed\" the drugs and found no benefit."}
+{"pair_id": "32450107>PMC8210417", "group": "32450107", "verdict": "REJECT_OTHER", "reason": "Describes a New York QTc study (23% prolonged), not the multinational registry; a miscitation."}
+{"pair_id": "28368401>PMC8524891", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper for circRNA_100290 promoting oral cancer."}
+{"pair_id": "28368401>PMC7658378", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper alone as the oral-cancer case of circRNA dysregulation."}
+{"pair_id": "28368401>PMC8064214", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper for circRNA_100290 sponging miR-29b to regulate CDK6."}
+{"pair_id": "28368401>PMC8513283", "group": "28368401", "verdict": "CONFIRM", "reason": "Reports the paper's finding that circRNA_100290 regulates the miR-29 family in oral cancer."}
+{"pair_id": "28368401>PMC8973616", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper for circRNA_100290 promoting oral cancer by sponging miR-29."}
+{"pair_id": "28368401>PMC8302139", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper alone as the oral-cancer example of circRNA carcinogenesis."}
+{"pair_id": "28368401>PMC7047435", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper alone as the oral-cancer example of circRNAs in tumours."}
+{"pair_id": "28368401>PMC11973036", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper alone for miR-29 as a prognostic marker in oral squamous cell carcinoma."}
+{"pair_id": "28368401>PMC7186775", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper for circRNA_100290 sponging the miR-29 family in oral cancer."}
+{"pair_id": "28368401>PMC11881191", "group": "28368401", "verdict": "CONFIRM", "reason": "Reports the paper's circRNA_100290/miR-29b/CDK6 pathway in OSCC as shown."}
+{"pair_id": "28368401>PMC8666285", "group": "28368401", "verdict": "CONFIRM", "reason": "Reports the paper's upregulation and CDK6/miR-29b sponging result in text and a table."}
+{"pair_id": "28368401>PMC7334013", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper alone as the oral-cancer example of circRNA-miRNA interaction."}
+{"pair_id": "28368401>PMC8039208", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper for circRNA_100290 acting on CDK6 via miR-29 in OSCC."}
+{"pair_id": "28368401>PMC9100602", "group": "28368401", "verdict": "CONFIRM", "reason": "Cites the paper for circRNA_100290 acting as a ceRNA for CDK6 by sponging miR-29b."}
+{"pair_id": "28368401>PMC7057816", "group": "28368401", "verdict": "CONFIRM", "reason": "Reports the paper's finding that circ_100290 is upregulated and drives oral cancer via miR-29/CDK6."}
+{"pair_id": "32286091>PMC8266633", "group": "32286091", "verdict": "CONFIRM", "reason": "Meta-analysis lists the paper as an included study and extracts its prevalence data."}
+{"pair_id": "32286091>PMC8943357", "group": "32286091", "verdict": "CONFIRM", "reason": "Meta-analysis includes the paper's data, merged with its unretracted twin (Psychiatry Res 2020, same sample)."}
+{"pair_id": "32286091>PMC7946321", "group": "32286091", "verdict": "CONFIRM", "reason": "Meta-analysis counts the paper (ref 44) among its 55 included studies."}
+{"pair_id": "32286091>PMC11504835", "group": "32286091", "verdict": "REJECT_OTHER", "reason": "The fatigue 63%, sleep 26% and anxiety 23% figures come from a different Huang study, not this one; a miscitation."}
+{"pair_id": "32286091>PMC8809129", "group": "32286091", "verdict": "CONFIRM", "reason": "Reports the paper's 18% poor-sleep rate in 7,236 Chinese adults as a finding."}
+{"pair_id": "32286091>PMC9883055", "group": "32286091", "verdict": "REJECT_OTHER", "reason": "Attributes a claim about company profits and worker health to the paper, which it does not contain."}
+{"pair_id": "32286091>PMC8542799", "group": "32286091", "verdict": "CONFIRM", "reason": "Reports the paper's 35.1% anxiety prevalence as a finding."}
+{"pair_id": "32286091>PMC7668285", "group": "32286091", "verdict": "CONFIRM", "reason": "Cites the paper for high anxiety, stress and depression among Chinese medical staff."}
+{"pair_id": "32286091>PMC7920474", "group": "32286091", "verdict": "CONFIRM", "reason": "Cites the paper for higher depression and anxiety under age 35, in support of its own results."}
+{"pair_id": "32286091>PMC8208774", "group": "32286091", "verdict": "CONFIRM", "reason": "Reports the paper's 37.37% anxiety rate among 2,250 health workers."}
+{"pair_id": "32286091>PMC8568275", "group": "32286091", "verdict": "CONFIRM", "reason": "Cites the paper alone for young people being at higher risk."}
+{"pair_id": "32286091>PMC9141890", "group": "32286091", "verdict": "CONFIRM", "reason": "Reports the paper's finding that under-35s had more depression and anxiety."}
+{"pair_id": "32286091>PMC11649555", "group": "32286091", "verdict": "REJECT_OTHER", "reason": "Cited for the 15-20-year shorter life expectancy in schizophrenia, which the paper never studied; a miscitation."}
+{"pair_id": "32286091>PMC7857980", "group": "32286091", "verdict": "CONFIRM", "reason": "Reports the paper's finding that health workers who thought more about the outbreak had more problems."}
+{"pair_id": "32286091>PMC8235082", "group": "32286091", "verdict": "REJECT_OTHER", "reason": "Cited for an Italian lockdown study of young adults, which is not this paper; a miscitation."}
+{"pair_id": "35480139>PMC12301772", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review for a five-year survival under 30% even with chemotherapy."}
+{"pair_id": "35480139>PMC11288493", "group": "35480139", "verdict": "REJECT_PASSING", "reason": "Compares its findings with textbook breast-cancer risk factors; nothing rests on the review's content."}
+{"pair_id": "35480139>PMC11632411", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review for about 2.3 million new cases a year (a GLOBOCAN number)."}
+{"pair_id": "35480139>PMC12414292", "group": "35480139", "verdict": "REJECT_PASSING", "reason": "General statement that burden varies with human development."}
+{"pair_id": "35480139>PMC12182699", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review's \"one in four develop, one in eight die\" figures."}
+{"pair_id": "35480139>PMC12537639", "group": "35480139", "verdict": "REJECT_PASSING", "reason": "General statement that breast cancer leads female cancer incidence."}
+{"pair_id": "35480139>PMC11397187", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review for metastatic five-year survival under 30%."}
+{"pair_id": "35480139>PMC10777047", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review for metastatic five-year survival under 30%."}
+{"pair_id": "35480139>PMC11047431", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review's high- vs low-income incidence rates."}
+{"pair_id": "35480139>PMC11782780", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review for breast cancer being 7-10% of all tumours."}
+{"pair_id": "35480139>PMC12534352", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review's 2040 incidence projections."}
+{"pair_id": "35480139>PMC11545256", "group": "35480139", "verdict": "REJECT_PASSING", "reason": "Cites the review for textbook risk factors (late childbirth, late menopause, oestrogen exposure)."}
+{"pair_id": "35480139>PMC11480388", "group": "35480139", "verdict": "CONFIRM", "reason": "Review figure: cites the review as a study linking 35-44 g/day of alcohol to a 46% higher risk."}
+{"pair_id": "35480139>PMC12123721", "group": "35480139", "verdict": "REJECT_PASSING", "reason": "General statement that screening and treatment advances raised survival."}
+{"pair_id": "35480139>PMC10845232", "group": "35480139", "verdict": "REJECT_PASSING", "reason": "Cited as the IARC GLOBOCAN report for a well-known incidence fact; likely a loose or wrong reference."}
+{"pair_id": "15833829>PMC8781097", "group": "15833829", "verdict": "REJECT_OTHER", "reason": "Ref 83 is Rubio 2005, but it is cited for better healing in head and neck cancer after soft-tissue filling, which the paper does not report."}
+{"pair_id": "15833829>PMC5118416", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper's in-vitro abnormalities after passaging as a real caution."}
+{"pair_id": "15833829>PMC7588840", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper as a report that ex vivo MSC expansion causes spontaneous malignant change."}
+{"pair_id": "15833829>PMC4601861", "group": "15833829", "verdict": "CONFIRM", "reason": "States that the paper showed long-cultured ASCs can immortalize and transform."}
+{"pair_id": "15833829>PMC4533800", "group": "15833829", "verdict": "CONFIRM", "reason": "States as fact that long-cultured MSCs transform spontaneously, citing the paper."}
+{"pair_id": "15833829>PMC6580016", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper, misstated, for spontaneous mutations in long-term MSC culture."}
+{"pair_id": "15833829>PMC4880954", "group": "15833829", "verdict": "REJECT_AWARE", "reason": "The next sentence (outside the census window) says the study was retracted because of a contaminating cell line."}
+{"pair_id": "15833829>PMC10513094", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper for fat stem cells immortalizing in long-term culture."}
+{"pair_id": "15833829>PMC4762113", "group": "15833829", "verdict": "CONFIRM", "reason": "Reports the paper's immortalisation and spontaneous transformation finding as a real risk."}
+{"pair_id": "15833829>PMC3514047", "group": "15833829", "verdict": "REJECT_AWARE", "reason": "The same section later says the transformation was an HT1080 cross-contamination artifact."}
+{"pair_id": "15833829>PMC5085986", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper for neoplastic transformation of ASCs after four months of culture."}
+{"pair_id": "15833829>PMC3203738", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper for prolonged culture causing neoplastic transformation of ADSCs."}
+{"pair_id": "15833829>PMC7555322", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper for cultured stem cells turning into cancer cells."}
+{"pair_id": "15833829>PMC9387309", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper for karyotypic abnormalities in passaged ADSCs as a safety concern."}
+{"pair_id": "15833829>PMC5822963", "group": "15833829", "verdict": "CONFIRM", "reason": "Cites the paper alone for the risk of tumour formation from stem cells."}
+{"pair_id": "21753854>PMC6939652", "group": "21753854", "verdict": "CONFIRM", "reason": "States that piperlongumine selectively kills cancer cells but not normal cells, citing the paper."}
+{"pair_id": "21753854>PMC6861633", "group": "21753854", "verdict": "CONFIRM", "reason": "Uses the paper's cancer-selectivity and GSTP1 mechanism to benchmark its own hit."}
+{"pair_id": "21753854>PMC12183059", "group": "21753854", "verdict": "CONFIRM", "reason": "Cites the paper for PL killing cancer cells via ROS without raising ROS in normal cells."}
+{"pair_id": "21753854>PMC7591508", "group": "21753854", "verdict": "CONFIRM", "reason": "Cites the paper alone for cancer cells being more sensitive to oxidative stress than normal cells."}
+{"pair_id": "21753854>PMC8651289", "group": "21753854", "verdict": "REJECT_PASSING", "reason": "Meta-research table lists the paper among those picked for replication; no reliance on its results."}
+{"pair_id": "21753854>PMC7903972", "group": "21753854", "verdict": "CONFIRM", "reason": "Cites the paper for PL raising p53/PUMA and lowering pro-survival proteins in cancer cells."}
+{"pair_id": "21753854>PMC9669594", "group": "21753854", "verdict": "CONFIRM", "reason": "Cites the paper alone for PL acting through ROS accumulation."}
+{"pair_id": "21753854>PMC11096327", "group": "21753854", "verdict": "CONFIRM", "reason": "Restates the paper's selective oxidative-stress mechanism (GSTP1, CBR1) as fact."}
+{"pair_id": "21753854>PMC9409298", "group": "21753854", "verdict": "CONFIRM", "reason": "Method only: cites the paper for using NAC as a ROS inhibitor."}
+{"pair_id": "21753854>PMC9635433", "group": "21753854", "verdict": "CONFIRM", "reason": "Cites the paper for ROS-driven selective killing of cancer cells."}
+{"pair_id": "21753854>PMC6877958", "group": "21753854", "verdict": "CONFIRM", "reason": "Cites the paper alone for ROS mediating selective killing of cancer cells."}
+{"pair_id": "21753854>PMC6449919", "group": "21753854", "verdict": "CONFIRM", "reason": "A drug table cites the paper for piperlongumine's anti-cancer properties."}
+{"pair_id": "21753854>PMC7795772", "group": "21753854", "verdict": "CONFIRM", "reason": "Cites the paper's screen as showing PL kills cancer cells selectively."}
+{"pair_id": "21753854>PMC8074261", "group": "21753854", "verdict": "CONFIRM", "reason": "Cites the paper for piperlongumine's low toxicity and oral bioavailability."}
+{"pair_id": "21753854>PMC9881195", "group": "21753854", "verdict": "CONFIRM", "reason": "Builds its rationale on the paper's finding that PL kills cancer cells selectively by inducing ROS."}

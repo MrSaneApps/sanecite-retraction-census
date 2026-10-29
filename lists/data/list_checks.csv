@@ -1,0 +1,817 @@
+list,entry,pair_id,retracted_pmid,citing_pmcid,census_label,second_reading,note
+author,0000-0001-6431-4605 Hamblin MR,25104350>PMC7281690,25104350,PMC7281690,cited it as support,cited it as support,Table row presents miR-378 anti-fibrotic finding in cardiac fibrosis.
+author,0000-0001-6431-4605 Hamblin MR,25311221>PMC10902086,25311221,PMC10902086,cited it as support,cited it as support,Third passage describes Smyth et al.'s ipilimumab+denosumab case and reports its response as fact; other passages misattribute or only describe.
+author,0000-0001-6431-4605 Hamblin MR,26648487>PMC8762369,26648487,PMC8762369,cited it as support,cited it as support,Table row presents miR-200b/ZEB2 glioma finding.
+author,0000-0001-6431-4605 Hamblin MR,27648141>PMC8762369,27648141,PMC8762369,cited it as support,cited it as support,Table row presents miR-141/TGF-b2 glioma finding.
+author,0000-0001-6431-4605 Hamblin MR,28425477>PMC10463971,28425477,PMC10463971,cited it as support,cited it as support,"States miR-27a-3p targets SFRP1 and initiates EMT in OSCC stem cells, sole citation."
+author,0000-0001-6431-4605 Hamblin MR,29036788>PMC10580988,29036788,PMC10580988,cited it as support,cited it as support,Table row lists CCAT2 up/miR-216b as a metastasis-related finding.
+author,0000-0001-6431-4605 Hamblin MR,29335299>PMC10580988,29335299,PMC10580988,cited it as support,cited it as support,Table row lists HOTAIR/miR-23b metastasis finding.
+author,0000-0001-6431-4605 Hamblin MR,29740437>PMC7397575,29740437,PMC7397575,cited it as support,cited it as support,Table row reports NK-exosome xenograft growth inhibition as finding; also single-reference list item.
+author,0000-0001-6431-4605 Hamblin MR,30007957>PMC9685618,30007957,PMC9685618,cited it as support,cited it as support,Single-reference list item citing it as evidence ATG3 is linked to autophagy in breast cancer; other passage mis-attributes a miR-130 result.
+author,0000-0001-6431-4605 Hamblin MR,30015840>PMC10463971,30015840,PMC10463971,cited it as support,cited it as support,Table row presents miR-655 suppression of invasion via PTEN/AKT as finding.
+author,0000-0001-6431-4605 Hamblin MR,30045766>PMC10580988,30045766,PMC10580988,cited it as support,cited it as support,Table row lists TPT1-AS1/miR-324-5p metastasis finding.
+author,0000-0001-6431-4605 Hamblin MR,30071522>PMC8762369,30071522,PMC8762369,cited it as support,cited it as support,Table row presents LINC01260/CARD11 glioma finding.
+author,0000-0001-6431-4605 Hamblin MR,30080301>PMC9816416,30080301,PMC9816416,cited it as support,cited it as support,Table row presents miR-506-3p/NEK6 retinoblastoma finding.
+author,0000-0001-6431-4605 Hamblin MR,30121199>PMC9251346,30121199,PMC9251346,cited it as support,mentioned it in passing,"Single item in a broad list ('Nrf2 may have beneficial roles in ... sepsis'); general statement, not reliance on the result."
+author,0000-0001-6431-4605 Hamblin MR,30372802>PMC10580988,30372802,PMC10580988,cited it as support,cited it as support,Second table row lists LINC00460/miR-338-3p ovarian finding (first row content misaligned).
+author,0000-0001-6431-4605 Hamblin MR,30551524>PMC9685618,30551524,PMC9685618,cited it as support,cited it as support,Summarises RMRP/miR-206/ATG3 myocardial I/R mechanism from Kong et al. as fact.
+author,0000-0001-6431-4605 Hamblin MR,30585737>PMC10580988,30585737,PMC10580988,cited it as support,cited it as support,Table row lists miR-142/CCND1 endometrial finding.
+author,0000-0001-6431-4605 Hamblin MR,30906471>PMC10580988,30906471,PMC10580988,cited it as support,cited it as support,Table row lists miR-130a/TIMP2 cervical finding.
+author,0000-0001-6431-4605 Hamblin MR,31122127>PMC10580988,31122127,PMC10580988,cited it as support,cited it as support,Table row lists MAGI1-IT1/miR-200a ovarian finding.
+author,0000-0001-6431-4605 Hamblin MR,31140597>PMC9259992,31140597,PMC9259992,cited it as support,cited it as support,States miR-15b represses ovarian cancer cells via LPAR3/PI3K-Akt and is anti-tumorigenic.
+author,0000-0001-6431-4605 Hamblin MR,31266812>PMC10580988,31266812,PMC10580988,cited it as support,cited it as support,Table row lists miR-505-5p/CDK5 cervical finding.
+author,0000-0001-6431-4605 Hamblin MR,31363373>PMC10580988,31363373,PMC10580988,cited it as support,cited it as support,Table row lists miR-873 (typed 837)/HDGF endometrial finding.
+author,0000-0001-6431-4605 Hamblin MR,31371979>PMC10580988,31371979,PMC10580988,cited it as support,"other: wrong reference, or not about the paper","Marked table row describes miR-650/KLF12, not the retracted miR-936/FGF2 paper; table references look misaligned."
+author,0000-0001-6431-4605 Hamblin MR,31411527>PMC10580988,31411527,PMC10580988,cited it as support,cited it as support,Table row lists H19/miR-20b-5p endometrial finding.
+author,0000-0001-6431-4605 Hamblin MR,31533968>PMC10580988,31533968,PMC10580988,cited it as support,cited it as support,Table row lists miR-202/FGF2 endometrial finding.
+author,0000-0001-6431-4605 Hamblin MR,31806990>PMC10580988,31806990,PMC10580988,cited it as support,"other: wrong reference, or not about the paper","Marked table row describes miR-488/CCNG1, not the retracted miR-139-3p/ELAVL1 paper; table references look misaligned."
+author,0000-0001-6431-4605 Hamblin MR,31865777>PMC8762369,31865777,PMC8762369,cited it as support,cited it as support,Table row presents circPVT1/miR-199a-5p glioma finding.
+author,0000-0001-6431-4605 Hamblin MR,31930662>PMC10580988,31930662,PMC10580988,cited it as support,cited it as support,Table row lists TUG1/miR-29b-3p ovarian finding.
+author,0000-0001-6431-4605 Hamblin MR,32006899>PMC10580988,32006899,PMC10580988,cited it as support,cited it as support,Table row lists TTN-AS1/miR-139-5p ovarian finding.
+author,0000-0001-6431-4605 Hamblin MR,32035086>PMC9816416,32035086,PMC9816416,cited it as support,cited it as support,Table row presents MIR7-3HG/miR-27a-3p retinoblastoma finding.
+author,0000-0001-6431-4605 Hamblin MR,32158221>PMC10580988,32158221,PMC10580988,cited it as support,cited it as support,Table row lists SNHG7/miR-485 cervical finding.
+author,0000-0001-6431-4605 Hamblin MR,32207530>PMC10580988,32207530,PMC10580988,cited it as support,cited it as support,Table row lists LUCAT1/miR-199b-5p cervical finding.
+author,0000-0001-6431-4605 Hamblin MR,32273764>PMC9608775,32273764,PMC9608775,cited it as support,cited it as support,States FGD5-AS1/miR-383/SP1 axis and shorter survival with high FGD5-AS1 in ESCC (Gao et al.).
+author,0000-0001-6431-4605 Hamblin MR,32365279>PMC8762369,32365279,PMC8762369,cited it as support,cited it as support,Describes Gao et al.'s circFBXW7 results and conclusion; also tabulated.
+author,0000-0001-6431-4605 Hamblin MR,32716637>PMC8762369,32716637,PMC8762369,cited it as support,cited it as support,Table row presents SNHG16/miR-490/PCBP2 glioma finding.
+author,0000-0001-6431-4605 Hamblin MR,32816608>PMC8762369,32816608,PMC8762369,cited it as support,cited it as support,Table row presents MACC1-AS1/MACC1 glioma finding.
+author,0000-0001-6431-4605 Hamblin MR,33116856>PMC10580988,33116856,PMC10580988,cited it as support,cited it as support,Table row lists MALAT1/miR-1271-5p cisplatin-resistance finding.
+author,0000-0001-6431-4605 Hamblin MR,33192095>PMC10580988,33192095,PMC10580988,cited it as support,cited it as support,Table row lists MALAT1/miR-145-5p ovarian finding.
+author,0000-0001-6431-4605 Hamblin MR,33408484>PMC10580988,33408484,PMC10580988,cited it as support,cited it as support,Table row lists circGSE1/miR-138-5p cervical finding.
+author,0000-0001-8381-0591 Taheri M,25311085>PMC8582349,25311085,PMC8582349,cited it as support,cited it as support,"States Hotair suppresses miR-568 and the NFAT5/S100A4 mechanism, as fact."
+author,0000-0001-8381-0591 Taheri M,25936406>PMC9524725,25936406,PMC9524725,cited it as support,cited it as support,Table row presents resveratrol chondrosarcoma finding.
+author,0000-0001-8381-0591 Taheri M,26675721>PMC9289514,26675721,PMC9289514,cited it as support,cited it as support,States RMRP has been shown to influence TH17 effector functions with DDX5 (retracted Nature paper).
+author,0000-0001-8381-0591 Taheri M,27657824>PMC8100681,27657824,PMC8100681,cited it as support,cited it as support,Table row presents miR-124/RLIP76 melanoma finding.
+author,0000-0001-8381-0591 Taheri M,28791407>PMC10114484,28791407,PMC10114484,cited it as support,cited it as support,Single-reference item in a list stating MEG3 sponges miR-93 as fact (codebook: list item carrying target alone is specific).
+author,0000-0001-8381-0591 Taheri M,28962111>PMC9375325,28962111,PMC9375325,cited it as support,cited it as support,Table row presents miR-138/EZH2 LSCC finding.
+author,0000-0001-8381-0591 Taheri M,29176314>PMC9375325,29176314,PMC9375325,cited it as support,cited it as support,Table row presents ZNF703/PI3K-AKT OSCC finding.
+author,0000-0001-8381-0591 Taheri M,29194604>PMC9262756,29194604,PMC9262756,cited it as support,cited it as support,Table row presents miR-129/c-Fos epilepsy finding (other passages pin miR-146a claims on it in error).
+author,0000-0001-8381-0591 Taheri M,29310682>PMC8666534,29310682,PMC8666534,cited it as support,cited it as support,"Table rows present AFAP1-AS1 cell, xenograft and clinical findings in TSCC."
+author,0000-0001-8381-0591 Taheri M,29384226>PMC8226258,29384226,PMC8226258,cited it as support,cited it as support,Table row presents XIST knockdown reducing osteosarcoma growth in mice.
+author,0000-0001-8381-0591 Taheri M,29436638>PMC9375325,29436638,PMC9375325,cited it as support,cited it as support,Table row presents caffeic acid n-butyl ester skin cancer finding.
+author,0000-0001-8381-0591 Taheri M,30121199>PMC8695688,30121199,PMC8695688,cited it as support,cited it as support,Table row presents miR-494 sepsis/ALI finding.
+author,0000-0001-8381-0591 Taheri M,30537738>PMC10999493,30537738,PMC10999493,cited it as support,cited it as support,Table row presents circPVT1/miR-125b/E2F2 finding as diagnostic indicator.
+author,0000-0001-8381-0591 Taheri M,30551524>PMC8918307,30551524,PMC8918307,cited it as support,"other: wrong reference, or not about the paper",Sentence about estradiol and MALAT1 in endometriosis does not match the retracted RMRP/myocardial injury paper; likely mis-linked.
+author,0000-0001-8381-0591 Taheri M,30621700>PMC10011470,30621700,PMC10011470,cited it as support,cited it as support,Table row presents circAGFG1/miR-195-5p/CCNE1 oncogenic finding as established.
+author,0000-0001-8381-0591 Taheri M,30791958>PMC9306174,30791958,PMC9306174,cited it as support,cited it as support,"States LINC00968 overexpression reduces breast cancer drug resistance via Wnt2, sole citation."
+author,0000-0001-8381-0591 Taheri M,31076544>PMC10999493,31076544,PMC10999493,cited it as support,cited it as support,Table row presents circVANGL1/miR-195/Bcl-2 finding as therapeutic target.
+author,0000-0001-8381-0591 Taheri M,31115031>PMC10826439,31115031,PMC10826439,cited it as support,cited it as support,Table row presents lixisenatide anti-fibrosis finding.
+author,0000-0001-8381-0591 Taheri M,31559899>PMC10114484,31559899,PMC10114484,cited it as support,cited it as support,"States Shang et al. found miR-93 controls ICH outcomes via TLR4/NF-kB, as fact."
+author,0000-0001-8381-0591 Taheri M,31564894>PMC10761534,31564894,PMC10761534,cited it as support,cited it as support,"States XIST depletion reduced pituitary tumour cell growth via miR-424-5p/bFGF, as fact; also tabulated."
+author,0000-0001-8381-0591 Taheri M,31564913>PMC9552576,31564913,PMC9552576,cited it as support,"other: wrong reference, or not about the paper","All passages describe rapamycin/NLRP3 in intestinal I/R, not the retracted miR-675/MAPK1 thyroid paper; reference mis-linked."
+author,0000-0001-8381-0591 Taheri M,31776835>PMC10011470,31776835,PMC10011470,cited it as support,cited it as support,Table row presents circ-TFCP2L1/miR-7/PAK1 proliferation finding as established.
+author,0000-0001-8381-0591 Taheri M,31905172>PMC10771991,31905172,PMC10771991,cited it as support,cited it as support,Describes circNF1-419 gut-microbiota findings in detail as fact; also tabulated.
+author,0000-0001-8381-0591 Taheri M,31933941>PMC10070735,31933941,PMC10070735,cited it as support,cited it as support,Table row presents SNHG12/miR-195/CCNE1 finding as established.
+author,0000-0001-8381-0591 Taheri M,32158226>PMC10999493,32158226,PMC10999493,cited it as support,cited it as support,Table row presents hsa_circ_0011780/miR-544a/FBXW7 finding.
+author,0000-0001-8381-0591 Taheri M,32196596>PMC9258118,32196596,PMC9258118,cited it as support,cited it as support,States MCM3AP-AS1 regulates gastric cancer proliferation via miR-708-5p; also tabulated.
+author,0000-0001-8381-0591 Taheri M,32368078>PMC10618356,32368078,PMC10618356,cited it as support,cited it as support,Table rows present HAND2-AS1 gastric cancer cell and survival findings.
+author,0000-0001-8381-0591 Taheri M,32468088>PMC8983884,32468088,PMC8983884,cited it as support,cited it as support,States CiRS-126 controls miR-21/PDCD4 in PCOS; table row gives the finding.
+author,0000-0001-8381-0591 Taheri M,32484204>PMC9513225,32484204,PMC9513225,cited it as support,cited it as support,States miR-135a acts as NSCLC tumour suppressor via ROCK1; also tabulated.
+author,0000-0001-8381-0591 Taheri M,32495864>PMC8918517,32495864,PMC8918517,cited it as support,cited it as support,Table rows present circ_0061140 knockdown and prognosis findings.
+author,0000-0001-8381-0591 Taheri M,32790092>PMC9375325,32790092,PMC9375325,cited it as support,cited it as support,Table row presents syringic acid OSCC finding.
+author,0000-0001-8381-0591 Taheri M,32850336>PMC8916230,32850336,PMC8916230,cited it as support,cited it as support,"Table rows present DLX6-AS1 cell, mouse and clinical findings."
+author,0000-0001-8381-0591 Taheri M,33347877>PMC10209650,33347877,PMC10209650,cited it as support,cited it as support,Table row presents exosomal let-7a protective effect in diabetic nephropathy as finding.
+author,0000-0001-8381-0591 Taheri M,33450262>PMC10333929,33450262,PMC10333929,cited it as support,cited it as support,Table row presents miR-183-3p/SIRT1 renal fibrosis finding.
+author,0000-0001-8381-0591 Taheri M,33531835>PMC10999493,33531835,PMC10999493,cited it as support,cited it as support,Table row presents circCDYL/miR-185-5p/TNRC6A finding.
+author,0000-0001-8381-0591 Taheri M,33868015>PMC10333929,33868015,PMC10333929,cited it as support,cited it as support,Sentence and table row present miR-22/SIRT1/PGC-1a heart-failure finding as fact.
+author,0000-0001-8381-0591 Taheri M,33958893>PMC8862212,33958893,PMC8862212,cited it as support,cited it as support,Table row presents LINC00908/miR-671-5p DLBCL findings.
+author,0000-0001-8381-0591 Taheri M,34186282>PMC10209650,34186282,PMC10209650,cited it as support,cited it as support,Table row presents exosomal miR-16-5p M2 polarization finding as established.
+author,0000-0001-8381-0591 Taheri M,34712356>PMC10761534,34712356,PMC10761534,cited it as support,cited it as support,Table rows present FAM87A/miR-424-5p glioma cell and clinical findings.
+author,0000-0001-9159-960X Bishayee A,16033772>PMC8508555,16033772,PMC8508555,cited it as support,cited it as support,Reports SFN effects on metallothionein and apoptosis in HepG2 as fact; also tabulated.
+author,0000-0001-9159-960X Bishayee A,17442669>PMC7139730,17442669,PMC7139730,cited it as support,cited it as support,"States Atg4C knockout mice were more susceptible to fibrosarcoma, sole citation."
+author,0000-0001-9159-960X Bishayee A,19288574>PMC10417502,19288574,PMC10417502,cited it as support,cited it as support,States genistein inhibited NF-kB binding and COX-2/EGFR in NSCLC lines; also tabulated.
+author,0000-0001-9159-960X Bishayee A,24367172>PMC8072616,24367172,PMC8072616,cited it as support,"other: wrong reference, or not about the paper",Sentence on cyclin B overexpression and age/Ki-67 does not match the retracted TNBC-in-Indian-women paper; likely mis-linked.
+author,0000-0001-9159-960X Bishayee A,29119970>PMC9265746,29119970,PMC9265746,cited it as support,cited it as support,Describes Gao et al.'s hispidulin in vitro and in vivo RCC results as confirming efficacy; also tabulated.
+author,0000-0001-9159-960X Bishayee A,30477461>PMC12905997,30477461,PMC12905997,cited it as support,cited it as support,"States theaflavin has strong MDR-reversal effect against Dox, sole citation, in own discussion."
+author,0000-0001-9159-960X Bishayee A,31208440>PMC10051376,31208440,PMC10051376,cited it as support,cited it as support,Describes isovitexin MnSOD/FoxM1 results in detail and concludes they demonstrate the mechanism; also in results tables.
+author,0000-0001-9159-960X Bishayee A,32201822>PMC10605195,32201822,PMC10605195,cited it as support,cited it as support,Own results said to corroborate Wu et al.'s retracted rosiglitazone lung findings (codebook: 'consistent with' is specific).
+author,0000-0001-9159-960X Bishayee A,32277673>PMC13204765,32277673,PMC13204765,cited it as support,mentioned it in passing,"Cited for textbook causes of cell-cycle arrest (background), not the daidzein melanoma result."
+author,0000-0001-9317-1631 Bouyahya A,15543611>PMC9688668,15543611,PMC9688668,cited it as support,mentioned it in passing,Cited for the textbook point that PTEN loss hyperactivates PI3K/mTOR (background).
+author,0000-0001-9317-1631 Bouyahya A,24288678>PMC8860555,24288678,PMC8860555,cited it as support,cited it as support,Reports Samarghandian et al.'s saffron IC50 values on A549 and apoptosis as fact.
+author,0000-0001-9317-1631 Bouyahya A,26064984>PMC11061711,26064984,PMC11061711,cited it as support,cited it as support,"Reports kaempferol effects on insulin sensitivity, AMPK/GLUT4 in obese mice as fact; also tabulated."
+author,0000-0001-9317-1631 Bouyahya A,27416558>PMC8621755,27416558,PMC8621755,cited it as support,cited it as support,Table row reports PG growth/invasion inhibition in HepG2 via DNMT1/AMPK/Sp1.
+author,0000-0001-9317-1631 Bouyahya A,27735939>PMC8945214,27735939,PMC8945214,cited it as support,cited it as support,Describes Zhang et al.'s pectolinarigenin STAT3 results and proposes therapeutic use; also tabulated.
+author,0000-0001-9317-1631 Bouyahya A,27735939>PMC9027183,27735939,PMC9027183,cited it as support,cited it as support,Table row reports pectolinarigenin STAT3/DNMT1/HDAC1 and SHP-1 results.
+author,0000-0001-9317-1631 Bouyahya A,27768961>PMC8621755,27768961,PMC8621755,cited it as support,cited it as support,"States PG metastasis-suppressing effect has been confirmed in vivo in breast cancer, sole citation."
+author,0000-0001-9317-1631 Bouyahya A,29687840>PMC9688668,29687840,PMC9688668,cited it as support,"other: wrong reference, or not about the paper",Sentence about circTPCN/miR-634/mTOR does not match the retracted miR-214 cervical cancer paper; likely mis-linked.
+author,0000-0001-9317-1631 Bouyahya A,30015355>PMC12107871,30015355,PMC12107871,cited it as support,cited it as support,"States IL-6/STAT3 activation drives M1/M2 polarization accelerating HCC, sole citation."
+author,0000-0001-9317-1631 Bouyahya A,31322140>PMC9688668,31322140,PMC9688668,cited it as support,cited it as support,States parthenolide induced apoptosis via AKT/mTOR and inhibited xenograft growth; also tabulated.
+author,0000-0001-9317-1631 Bouyahya A,31802647>PMC8621755,31802647,PMC8621755,cited it as support,cited it as support,"States PG antitumour effect on testicular germ cell tumours is mediated by miR-199a, sole citation."
+author,0000-0001-9317-1631 Bouyahya A,32764961>PMC9027183,32764961,PMC9027183,cited it as support,"other: wrong reference, or not about the paper",Sentence on HDAC1/2/6-driven Sp1 and G2/M only loosely relates to the retracted miR-638/SP1 paper; likely mis-cited.
+author,0000-0001-9317-1631 Bouyahya A,33192095>PMC8945214,33192095,PMC8945214,cited it as support,cited it as support,"States MALAT1 promotes ovarian cancer cell survival by sponging miRNAs, sole citation."
+author,0000-0001-9317-1631 Bouyahya A,35446915>PMC11846941,35446915,PMC11846941,cited it as support,"other: wrong reference, or not about the paper",Passage is a one-word table cell ('Anticancer'); too short to judge reliance.
+author,0000-0001-9680-0309 Moghbeli M,16510599>PMC8832734,16510599,PMC8832734,cited it as support,cited it as support,"States Notch inhibition impairs NF-kB binding and lowers MMP9 in pancreatic cancer, sole citation."
+author,0000-0001-9680-0309 Moghbeli M,16807438>PMC7427778,16807438,PMC7427778,cited it as support,cited it as support,Cites the trial's 5-year survival and median survival figures as fact.
+author,0000-0001-9680-0309 Moghbeli M,26239517>PMC9167543,26239517,PMC9167543,cited it as support,cited it as support,States miR-126 suppression of LRP6 lowered CCND1/MMP7/c-myc in PTC; also tabulated.
+author,0000-0001-9680-0309 Moghbeli M,26847706>PMC9167543,26847706,PMC9167543,cited it as support,cited it as support,States miR-137 inhibited PTC migration via CXCL12; also tabulated.
+author,0000-0001-9680-0309 Moghbeli M,28586066>PMC11079401,28586066,PMC11079401,cited it as support,cited it as support,"States miR-148a reduced beta-catenin, CCND1, MMP-9 in pancreatic tumour cells; also tabulated."
+author,0000-0001-9680-0309 Moghbeli M,29207181>PMC9167543,29207181,PMC9167543,cited it as support,cited it as support,States miR-212 inhibited thyroid cancer growth via SIRT1; also tabulated.
+author,0000-0001-9680-0309 Moghbeli M,30532558>PMC8381522,30532558,PMC8381522,cited it as support,mentioned it in passing,Marked TUG1-feedback sentence does not match the paper; the matching polydatin sentence cites it with another reference (n>=2).
+author,0000-0001-9680-0309 Moghbeli M,31114273>PMC8976361,31114273,PMC8976361,cited it as support,cited it as support,Table of SNP associations reports the retracted study's sample sizes and odds ratios.
+author,0000-0001-9680-0309 Moghbeli M,31378887>PMC8182944,31378887,PMC8182944,cited it as support,cited it as support,States miR-129 reduced CDDP resistance via MAPK3 in GC cells; also tabulated.
+author,0000-0001-9680-0309 Moghbeli M,31378902>PMC9808980,31378902,PMC9808980,cited it as support,cited it as support,States RUSC1-AS1 enhanced breast cancer growth by silencing KLF2/CDKN1A; also tabulated.
+author,0000-0001-9680-0309 Moghbeli M,31388302>PMC9167543,31388302,PMC9167543,cited it as support,cited it as support,States miR-564 under-expression correlates with lymph node involvement and stage; also tabulated.
+author,0000-0001-9680-0309 Moghbeli M,31564913>PMC9167543,31564913,PMC9167543,cited it as support,cited it as support,States miR-675 inhibited PTC migration and growth via MAPK1; also tabulated.
+author,0000-0002-0223-499X Ghafouri-Fard S,25311085>PMC8582349,25311085,PMC8582349,cited it as support,cited it as support,"States Hotair suppresses miR-568 and the NFAT5/S100A4 mechanism, as fact."
+author,0000-0002-0223-499X Ghafouri-Fard S,25936406>PMC9524725,25936406,PMC9524725,cited it as support,cited it as support,Table row presents resveratrol chondrosarcoma finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,26675721>PMC9289514,26675721,PMC9289514,cited it as support,cited it as support,States RMRP has been shown to influence TH17 effector functions with DDX5 (retracted Nature paper).
+author,0000-0002-0223-499X Ghafouri-Fard S,27657824>PMC8100681,27657824,PMC8100681,cited it as support,cited it as support,Table row presents miR-124/RLIP76 melanoma finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,28522550>PMC9486161,28522550,PMC9486161,cited it as support,cited it as support,States Xie et al. showed miR-135b-5p inhibition protects myocardium via JAK2/STAT3.
+author,0000-0002-0223-499X Ghafouri-Fard S,28962111>PMC9375325,28962111,PMC9375325,cited it as support,cited it as support,Table row presents miR-138/EZH2 LSCC finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,29176314>PMC9375325,29176314,PMC9375325,cited it as support,cited it as support,Table row presents ZNF703/PI3K-AKT OSCC finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,29194604>PMC9262756,29194604,PMC9262756,cited it as support,cited it as support,Table row presents miR-129/c-Fos epilepsy finding (other passages pin miR-146a claims on it in error).
+author,0000-0002-0223-499X Ghafouri-Fard S,29310682>PMC8666534,29310682,PMC8666534,cited it as support,cited it as support,"Table rows present AFAP1-AS1 cell, xenograft and clinical findings in TSCC."
+author,0000-0002-0223-499X Ghafouri-Fard S,29384226>PMC8226258,29384226,PMC8226258,cited it as support,cited it as support,Table row presents XIST knockdown reducing osteosarcoma growth in mice.
+author,0000-0002-0223-499X Ghafouri-Fard S,29436638>PMC9375325,29436638,PMC9375325,cited it as support,cited it as support,Table row presents caffeic acid n-butyl ester skin cancer finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,30121199>PMC8695688,30121199,PMC8695688,cited it as support,cited it as support,Table row presents miR-494 sepsis/ALI finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,30551524>PMC8918307,30551524,PMC8918307,cited it as support,"other: wrong reference, or not about the paper",Sentence about estradiol and MALAT1 in endometriosis does not match the retracted RMRP/myocardial injury paper; likely mis-linked.
+author,0000-0002-0223-499X Ghafouri-Fard S,30621700>PMC10011470,30621700,PMC10011470,cited it as support,cited it as support,Table row presents circAGFG1/miR-195-5p/CCNE1 oncogenic finding as established.
+author,0000-0002-0223-499X Ghafouri-Fard S,30791958>PMC9306174,30791958,PMC9306174,cited it as support,cited it as support,"States LINC00968 overexpression reduces breast cancer drug resistance via Wnt2, sole citation."
+author,0000-0002-0223-499X Ghafouri-Fard S,31115031>PMC10826439,31115031,PMC10826439,cited it as support,cited it as support,Table row presents lixisenatide anti-fibrosis finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,31564894>PMC10761534,31564894,PMC10761534,cited it as support,cited it as support,"States XIST depletion reduced pituitary tumour cell growth via miR-424-5p/bFGF, as fact; also tabulated."
+author,0000-0002-0223-499X Ghafouri-Fard S,31564913>PMC9552576,31564913,PMC9552576,cited it as support,"other: wrong reference, or not about the paper","All passages describe rapamycin/NLRP3 in intestinal I/R, not the retracted miR-675/MAPK1 thyroid paper; reference mis-linked."
+author,0000-0002-0223-499X Ghafouri-Fard S,31776835>PMC10011470,31776835,PMC10011470,cited it as support,cited it as support,Table row presents circ-TFCP2L1/miR-7/PAK1 proliferation finding as established.
+author,0000-0002-0223-499X Ghafouri-Fard S,31933941>PMC10070735,31933941,PMC10070735,cited it as support,cited it as support,Table row presents SNHG12/miR-195/CCNE1 finding as established.
+author,0000-0002-0223-499X Ghafouri-Fard S,32196596>PMC9258118,32196596,PMC9258118,cited it as support,cited it as support,States MCM3AP-AS1 regulates gastric cancer proliferation via miR-708-5p; also tabulated.
+author,0000-0002-0223-499X Ghafouri-Fard S,32368078>PMC10618356,32368078,PMC10618356,cited it as support,cited it as support,Table rows present HAND2-AS1 gastric cancer cell and survival findings.
+author,0000-0002-0223-499X Ghafouri-Fard S,32468088>PMC8983884,32468088,PMC8983884,cited it as support,cited it as support,States CiRS-126 controls miR-21/PDCD4 in PCOS; table row gives the finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,32484204>PMC9513225,32484204,PMC9513225,cited it as support,cited it as support,States miR-135a acts as NSCLC tumour suppressor via ROCK1; also tabulated.
+author,0000-0002-0223-499X Ghafouri-Fard S,32495864>PMC8918517,32495864,PMC8918517,cited it as support,cited it as support,Table rows present circ_0061140 knockdown and prognosis findings.
+author,0000-0002-0223-499X Ghafouri-Fard S,32790092>PMC9375325,32790092,PMC9375325,cited it as support,cited it as support,Table row presents syringic acid OSCC finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,32850336>PMC8916230,32850336,PMC8916230,cited it as support,cited it as support,"Table rows present DLX6-AS1 cell, mouse and clinical findings."
+author,0000-0002-0223-499X Ghafouri-Fard S,33347877>PMC10209650,33347877,PMC10209650,cited it as support,cited it as support,Table row presents exosomal let-7a protective effect in diabetic nephropathy as finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,33450262>PMC10333929,33450262,PMC10333929,cited it as support,cited it as support,Table row presents miR-183-3p/SIRT1 renal fibrosis finding.
+author,0000-0002-0223-499X Ghafouri-Fard S,33868015>PMC10333929,33868015,PMC10333929,cited it as support,cited it as support,Sentence and table row present miR-22/SIRT1/PGC-1a heart-failure finding as fact.
+author,0000-0002-0223-499X Ghafouri-Fard S,33958893>PMC8862212,33958893,PMC8862212,cited it as support,cited it as support,Table row presents LINC00908/miR-671-5p DLBCL findings.
+author,0000-0002-0223-499X Ghafouri-Fard S,34186282>PMC10209650,34186282,PMC10209650,cited it as support,cited it as support,Table row presents exosomal miR-16-5p M2 polarization finding as established.
+author,0000-0002-0223-499X Ghafouri-Fard S,34712356>PMC10761534,34712356,PMC10761534,cited it as support,cited it as support,Table rows present FAM87A/miR-424-5p glioma cell and clinical findings.
+author,0000-0002-0787-702X Jaremko M,23244711>PMC10934468,23244711,PMC10934468,cited it as support,cited it as support,"States DOX-loaded SPION nanoparticles were biocompatible on A549 cells, sole citation."
+author,0000-0002-0787-702X Jaremko M,29049321>PMC10377637,29049321,PMC10377637,cited it as support,cited it as support,Table row reports compounds and MIC values from the retracted strain study.
+author,0000-0002-0787-702X Jaremko M,30245628>PMC9696412,30245628,PMC9696412,cited it as support,cited it as support,Synthesis method taken from the retracted paper ('as described by'); codebook counts a borrowed method as reliance.
+author,0000-0002-0787-702X Jaremko M,30912120>PMC11184612,30912120,PMC11184612,cited it as support,cited it as support,Table row presents miR-135a/PI3K-AKT RA finding.
+author,0000-0002-0787-702X Jaremko M,30975731>PMC11184612,30975731,PMC11184612,cited it as support,cited it as support,Table row presents miR-506/TLR4 RA finding.
+author,0000-0002-0787-702X Jaremko M,31239367>PMC11184612,31239367,PMC11184612,cited it as support,cited it as support,Table row presents miR-142-3p/NF-kB RA finding.
+author,0000-0002-0787-702X Jaremko M,31766130>PMC10593664,31766130,PMC10593664,cited it as support,mentioned it in passing,"Cited for general facts about vanillic acid (flavoring, anti-inflammatory), not the retracted antibacterial result."
+author,0000-0002-0787-702X Jaremko M,31776092>PMC11184612,31776092,PMC11184612,cited it as support,cited it as support,Table row presents exosomal miR-192-5p RA finding (sparse row).
+author,0000-0002-0787-702X Jaremko M,31894846>PMC11184612,31894846,PMC11184612,cited it as support,cited it as support,Table row presents miR-101-3p/PTGS2 RA finding.
+author,0000-0002-0787-702X Jaremko M,31902746>PMC11184612,31902746,PMC11184612,cited it as support,cited it as support,Table row presents HOTTIP/SFRP1 demethylation RA finding.
+author,0000-0002-0787-702X Jaremko M,32116107>PMC11184612,32116107,PMC11184612,cited it as support,cited it as support,Table row presents miR-411/NF-kB RA finding.
+author,0000-0002-0787-702X Jaremko M,32373945>PMC11184612,32373945,PMC11184612,cited it as support,cited it as support,Table row presents H19/Notch RA finding.
+author,0000-0002-0787-702X Jaremko M,32881056>PMC11184612,32881056,PMC11184612,cited it as support,cited it as support,Table row presents XIST/let-7c-5p RA finding (garbled cell text).
+author,0000-0002-0787-702X Jaremko M,32954132>PMC10934468,32954132,PMC10934468,cited it as support,cited it as support,States DOX/sorafenib NLCs stimulated immune response and inhibited esophageal tumours; also tabulated.
+author,0000-0002-0787-702X Jaremko M,36277597>PMC11196411,36277597,PMC11196411,cited it as support,cited it as support,Cites Zhang et al. for elevated TRAF6/IRAK and says own results are in line with it.
+author,0000-0002-2989-121X Haque S,18713984>PMC5736671,18713984,PMC5736671,cited it as support,cited it as support,"Tregs convert to Th17 cells, cited as fact."
+author,0000-0002-2989-121X Haque S,23878789>PMC11751200,23878789,PMC11751200,cited it as support,"other: wrong reference, or not about the paper","Silymarin bioavailability claim; not the hTERT paper's finding, likely mislinked."
+author,0000-0002-2989-121X Haque S,28701916>PMC10873238,28701916,PMC10873238,cited it as support,cited it as support,HOTAIR/miR-148b-3p/USF1 BTB finding in text and table.
+author,0000-0002-2989-121X Haque S,28701916>PMC11140545,28701916,PMC11140545,cited it as support,cited it as support,Table row lists the finding.
+author,0000-0002-2989-121X Haque S,29036788>PMC11803034,29036788,PMC11803034,cited it as support,"other: wrong reference, or not about the paper","NEAT1 row; cites a CCAT2 paper, mislinked."
+author,0000-0002-2989-121X Haque S,29473328>PMC10873238,29473328,PMC10873238,cited it as support,cited it as support,HOTAIR/miR-20a-5p/HMGA2 finding.
+author,0000-0002-2989-121X Haque S,29512690>PMC9697248,29512690,PMC9697248,cited it as support,cited it as support,Table rows restate the daidzein SKOV3 results.
+author,0000-0002-2989-121X Haque S,35799628>PMC10873238,35799628,PMC10873238,cited it as support,cited it as support,HOTAIR/HMGB1 spinal cord injury finding.
+author,0000-0002-2989-121X Haque S,35799628>PMC11140545,35799628,PMC11140545,cited it as support,cited it as support,Same finding.
+author,0000-0002-5471-6229 Nabavi N,29036788>PMC11406677,29036788,PMC11406677,cited it as support,cited it as support,Table row states CCAT2 sponges miR-216b to induce PI3K/Akt in endometrial cancer.
+author,0000-0002-5471-6229 Nabavi N,29212249>PMC11474201,29212249,PMC11474201,cited it as support,cited it as support,Table row states XIST promotes Wnt via miR-139-5p sponging in bladder cancer.
+author,0000-0002-5471-6229 Nabavi N,29231261>PMC8892735,29231261,PMC8892735,cited it as support,cited it as support,Table row presents AWPPH/EZH2/Smad4 bladder cancer finding.
+author,0000-0002-5471-6229 Nabavi N,31696466>PMC8892735,31696466,PMC8892735,cited it as support,cited it as support,States miR-605-3p/EZH2 prostate cancer results were shown in vitro and in vivo.
+author,0000-0002-5471-6229 Nabavi N,31838274>PMC10122325,31838274,PMC10122325,cited it as support,cited it as support,"States LINC01234/miR-31-5p/MAGEA3 promotes proliferation and drug resistance in HCC, sole citation."
+author,0000-0002-5471-6229 Nabavi N,31984860>PMC11665378,31984860,PMC11665378,cited it as support,"other: wrong reference, or not about the paper","Marked sentence is about miR-193 silencing and EMT, not the retracted miR-331-3p/elf4B paper; reference likely mis-linked."
+author,0000-0002-5471-6229 Nabavi N,32190008>PMC11250880,32190008,PMC11250880,cited it as support,"other: wrong reference, or not about the paper","Marked sentence is about hsa_circ_0008367/ALKBH5, not the retracted circ_0008035/miR-599 paper; reference likely mis-linked."
+author,0000-0002-5471-6229 Nabavi N,32848463>PMC8892735,32848463,PMC8892735,cited it as support,cited it as support,"States miR-26a suppresses cancer progression by down-regulating MMPs, sole citation."
+author,0000-0002-5471-6229 Nabavi N,32910747>PMC11406677,32910747,PMC11406677,cited it as support,cited it as support,Table row states RHPN1-AS1/miR-7-5p activates PI3K/Akt in HCC.
+author,0000-0002-5471-6229 Nabavi N,33230463>PMC11406677,33230463,PMC11406677,cited it as support,cited it as support,Table row presents miR-205-5p drug-resistance finding in TNBC (gene named TGFA rather than TNFAIP8).
+author,0000-0002-5471-6229 Nabavi N,34974791>PMC10716031,34974791,PMC10716031,cited it as support,cited it as support,Table row presents circ-PTK2/miR-136-5p/YTHDF1 drug-resistance finding.
+author,0000-0002-5471-6229 Nabavi N,36072636>PMC11066643,36072636,PMC11066643,cited it as support,cited it as support,"States lidocaine ameliorates diabetic neuropathy by reducing c-Jun, sole citation."
+author,0000-0002-7301-8151 Sharifi-Rad J,19223576>PMC7643726,19223576,PMC7643726,cited it as support,cited it as support,Table row reports psoralidin Akt/PI3K results and IC50 values.
+author,0000-0002-7301-8151 Sharifi-Rad J,24288678>PMC8860555,24288678,PMC8860555,cited it as support,cited it as support,Reports Samarghandian et al.'s saffron IC50 values on A549 and apoptosis as fact.
+author,0000-0002-7301-8151 Sharifi-Rad J,29662310>PMC8828342,29662310,PMC8828342,cited it as support,cited it as support,States nanocurcumin alleviated diabetic cardiomyopathy with the reported mechanisms; also tabulated.
+author,0000-0002-7301-8151 Sharifi-Rad J,30430634>PMC9461221,30430634,PMC9461221,cited it as support,cited it as support,"States HAGLROS promotes autophagy via miR-100/ATG5 and knockdown effects, sole citation."
+author,0000-0002-7301-8151 Sharifi-Rad J,30668322>PMC9467740,30668322,PMC9467740,cited it as support,cited it as support,States the trial results 'proved' Artemisia infusions clear gametocytes better than ASAQ.
+author,0000-0002-7301-8151 Sharifi-Rad J,30772887>PMC9741527,30772887,PMC9741527,cited it as support,cited it as support,"States UA reduced P38 and ERK in melanoma cells, sole citation."
+author,0000-0002-7301-8151 Sharifi-Rad J,35033815>PMC10515066,35033815,PMC10515066,cited it as support,cited it as support,Single-reference item ('EMT [40]') in list resting on the target's SNHG6 finding.
+author,0000-0002-7301-8151 Sharifi-Rad J,35432585>PMC10826257,35432585,PMC10826257,cited it as support,cited it as support,"Presents PTX-PLGA nanoparticle results as making them a promising carrier, sole citation."
+author,0000-0002-8012-3646 Dlamini Z,16127174>PMC10181082,16127174,PMC10181082,cited it as support,cited it as support,"States uPA knockdown in PC3/Du145 xenografts caused apoptosis and reduced metastasis, sole citation."
+author,0000-0002-8012-3646 Dlamini Z,21829495>PMC5932548,21829495,PMC5932548,cited it as support,cited it as support,"States miRNA changes in HIV raised apoptosis, sole citation; topic only loosely matches the retracted PBMC study."
+author,0000-0002-8012-3646 Dlamini Z,25326893>PMC8872331,25326893,PMC8872331,cited it as support,cited it as support,Single-reference list item stating PI3K/Akt works with CXCR4 signalling in glioblastoma EMT.
+author,0000-0002-8012-3646 Dlamini Z,25636449>PMC10046518,25636449,PMC10046518,cited it as support,"other: wrong reference, or not about the paper",Sentence about beta-blockers/antimuscarinics preventing prostate cancer migration does not match the retracted CIP2A/c-MYC paper; likely reference mismatch.
+author,0000-0002-8012-3646 Dlamini Z,27330076>PMC8698559,27330076,PMC8698559,cited it as support,mentioned it in passing,Cited only for the general point that apoptosis inhibition contributes to drug resistance (background).
+author,0000-0002-8012-3646 Dlamini Z,29145888>PMC8872331,29145888,PMC8872331,cited it as support,cited it as support,States the study showed autophagy is essential for TGF-b-induced glioma invasion.
+author,0000-0002-8012-3646 Dlamini Z,29845246>PMC11015109,29845246,PMC11015109,cited it as support,cited it as support,"States exosomes from erlotinib-tolerant NSCLC were enriched in RP11-838N2.4, sole citation."
+author,0000-0002-8012-3646 Dlamini Z,30049286>PMC11015109,30049286,PMC11015109,cited it as support,cited it as support,"States elevated serum exosomal PART1 indicates gefitinib resistance, sole citation."
+author,0000-0002-8215-2045 Luo P,17948911>PMC7052875,17948911,PMC7052875,cited it as support,cited it as support,'Strong evidence' for celecoxib + EGFR-TKI.
+author,0000-0002-8215-2045 Luo P,19413639>PMC12784535,19413639,PMC12784535,cited it as support,cited it as support,Dll4 expression in malignant cells.
+author,0000-0002-8215-2045 Luo P,25409614>PMC12176387,25409614,PMC12176387,cited it as support,cited it as support,Uses the paper's 71 DEGs to build a model.
+author,0000-0002-8215-2045 Luo P,29530052>PMC11467208,29530052,PMC11467208,cited it as support,cited it as support,Table row restates miR-32-5p finding.
+author,0000-0002-8215-2045 Luo P,30237408>PMC11733683,30237408,PMC11733683,cited it as support,cited it as support,miR-665 HCC finding.
+author,0000-0002-8215-2045 Luo P,36238494>PMC11333198,36238494,PMC11333198,cited it as support,cited it as support,Zhao and colleagues found four HCM biomarkers.
+author,0000-0002-8589-7456 Lee LH,12670382>PMC6081075,12670382,PMC6081075,cited it as support,cited it as support,Acupressure improved sleep in dialysis patients.
+author,0000-0002-8589-7456 Lee LH,12670382>PMC8154401,12670382,PMC8154401,cited it as support,cited it as support,Same finding.
+author,0000-0002-8589-7456 Lee LH,15543611>PMC9688668,15543611,PMC9688668,cited it as support,cited it as support,"PTEN inactivation hyperactivates mTOR, cited to the paper."
+author,0000-0002-8589-7456 Lee LH,26987594>PMC6165876,26987594,PMC6165876,cited it as support,cited it as support,"WalK/WalR as the key regulator, cited as finding."
+author,0000-0002-8589-7456 Lee LH,28179900>PMC6896111,28179900,PMC6896111,cited it as support,mentioned it in passing,Names a compound with a reference.
+author,0000-0002-8589-7456 Lee LH,29687840>PMC9688668,29687840,PMC9688668,cited it as support,"other: wrong reference, or not about the paper","circTPCN/miR-634 claim; cites a miR-214 paper, mislinked."
+author,0000-0002-8589-7456 Lee LH,31322140>PMC9688668,31322140,PMC9688668,cited it as support,cited it as support,Parthenolide thyroid results in text and table.
+author,0000-0002-8589-7456 Lee LH,31803643>PMC9138548,31803643,PMC9138548,cited it as support,cited it as support,Gut toxin and butyrate claims cited to the paper.
+author,0000-0002-8642-6795 Baradaran B,14612541>PMC7917704,14612541,PMC7917704,cited it as support,cited it as support,Bcl-2/HMGA2 feedback finding.
+author,0000-0002-8642-6795 Baradaran B,17420722>PMC7812983,17420722,PMC7812983,cited it as support,cited it as support,Rituximab PI3K/AKT table row.
+author,0000-0002-8642-6795 Baradaran B,20068105>PMC7335982,20068105,PMC7335982,cited it as support,cited it as support,Galectin-3 from CSCs triggers T-cell apoptosis.
+author,0000-0002-8642-6795 Baradaran B,24475975>PMC12909375,24475975,PMC12909375,cited it as support,cited it as support,Cell-based vaccine finding used to support CAR-T argument.
+author,0000-0002-8642-6795 Baradaran B,25030358>PMC10278211,25030358,PMC10278211,cited it as support,cited it as support,"miR-302a inhibits BC invasiveness, as prior evidence."
+author,0000-0002-8642-6795 Baradaran B,25738402>PMC12305408,25738402,PMC12305408,cited it as support,cited it as support,"Sorafenib + cisplatin results, 'consistent with our results'."
+author,0000-0002-8656-1444 Sahebkar A,18483362>PMC8523229,18483362,PMC8523229,cited it as support,cited it as support,"States osteosarcoma invasive/metastatic potential is associated with Hes-1, sole citation."
+author,0000-0002-8656-1444 Sahebkar A,26408293>PMC8789461,26408293,PMC8789461,cited it as support,cited it as support,States Wang et al. showed miR-216b controlling HDAC8 is downregulated in gastric adenocarcinoma.
+author,0000-0002-8656-1444 Sahebkar A,28781618>PMC8789461,28781618,PMC8789461,cited it as support,cited it as support,"States miR-22 downregulation accompanies SIRT1 overexpression in breast cancer, sole citation."
+author,0000-0002-8656-1444 Sahebkar A,29273065>PMC10455605,29273065,PMC10455605,cited it as support,cited it as support,"States curcumin improved CRC xenograft sensitivity to 5-FU, sole citation."
+author,0000-0002-8656-1444 Sahebkar A,29973492>PMC9453090,29973492,PMC9453090,cited it as support,cited it as support,Table row presents glycyrrhizic acid alcoholic liver injury findings in detail.
+author,0000-0002-8656-1444 Sahebkar A,30080301>PMC8789461,30080301,PMC8789461,cited it as support,cited it as support,States NEK6 is a direct target of miR-506-3p in retinoblastoma; also tabulated.
+author,0000-0002-8656-1444 Sahebkar A,30117667>PMC8789461,30117667,PMC8789461,cited it as support,cited it as support,States miR-125a-5p regulates SUV39H1 and prevents angiogenesis in gastric cancer; also tabulated.
+author,0000-0002-8656-1444 Sahebkar A,31081079>PMC8553480,31081079,PMC8553480,cited it as support,cited it as support,Table row presents miR-182/BNIP3 ovarian finding.
+author,0000-0002-8656-1444 Sahebkar A,31378882>PMC8789461,31378882,PMC8789461,cited it as support,cited it as support,States miR-1266 overexpression lowers PRMT5 and growth in prostate cancer; also tabulated.
+author,0000-0002-8656-1444 Sahebkar A,32283217>PMC7938334,32283217,PMC7938334,cited it as support,cited it as support,Systematic review includes the retracted case report as a row of included studies (counted data).
+author,0000-0002-8656-1444 Sahebkar A,32356626>PMC8467637,32356626,PMC8467637,cited it as support,cited it as support,"States CVD has been shown to be a risk factor for COVID-19 mortality, citing the retracted Surgisphere NEJM paper."
+author,0000-0002-8677-8475 Sethi G,16603085>PMC4414170,16603085,PMC4414170,cited it as support,cited it as support,"States STAT5 increases survivin in T-cell leukemia, sole citation."
+author,0000-0002-8677-8475 Sethi G,19190327>PMC6413012,19190327,PMC6413012,cited it as support,cited it as support,States zerumbone blocked RANKL-induced NF-kB and reduced osteolysis in mice; also tabulated.
+author,0000-0002-8677-8475 Sethi G,20419128>PMC7017214,20419128,PMC7017214,cited it as support,cited it as support,"States withaferin-A induces apoptosis in vimentin-expressing cancer cells, sole citation in the sentence."
+author,0000-0002-8677-8475 Sethi G,24909173>PMC10611521,24909173,PMC10611521,cited it as support,cited it as support,"States CAF-secreted IL-6 drives tamoxifen resistance via JAK/STAT3, the retracted paper's finding."
+author,0000-0002-8677-8475 Sethi G,27160836>PMC9238168,27160836,PMC9238168,cited it as support,cited it as support,Table row presents exosomal miR-302b lung cancer finding.
+author,0000-0002-8677-8475 Sethi G,28368401>PMC8666285,28368401,PMC8666285,cited it as support,cited it as support,States circRNA_100290 up-regulated in OSCC and acts via miR-29b/CDK6; also tabulated.
+author,0000-0002-8677-8475 Sethi G,32266056>PMC10436543,32266056,PMC10436543,cited it as support,mentioned it in passing,Cites retracted review only for well-established mTORC1 feedback mechanism (background).
+author,0000-0002-8677-8475 Sethi G,32594528>PMC9238168,32594528,PMC9238168,cited it as support,cited it as support,States M2-exosome CD11b/CD18 transfer activates MMP-9 to promote HCC metastasis.
+author,0000-0002-9572-7151 Rak A,15604363>PMC10600231,15604363,PMC10600231,cited it as support,mentioned it in passing,Credits the paper with naming visfatin only.
+author,0000-0002-9572-7151 Rak A,15604363>PMC10889815,15604363,PMC10889815,cited it as support,mentioned it in passing,Credits the paper with identifying visfatin only.
+author,0000-0002-9572-7151 Rak A,15604363>PMC11199572,15604363,PMC11199572,cited it as support,cited it as support,Does not compete with insulin for the receptor.
+author,0000-0002-9572-7151 Rak A,15604363>PMC11232246,15604363,PMC11232246,cited it as support,cited it as support,Insulin-mimetic effects 'proven' by the paper.
+author,0000-0002-9572-7151 Rak A,15604363>PMC11833490,15604363,PMC11833490,cited it as support,cited it as support,"Fukuhara et al. demonstrated INSR activation (debate noted, retraction not)."
+author,0000-0002-9572-7151 Rak A,15604363>PMC8062436,15604363,PMC8062436,cited it as support,mentioned it in passing,Credits the paper with identifying visfatin only.
+author,0000-0003-0391-1769 Zarrabi A,16609730>PMC8036441,16609730,PMC8036441,cited it as support,cited it as support,"States that prostate tumours with RNASEL variants were found to harbour retroviruses, as fact (XMRV paper)."
+author,0000-0003-0391-1769 Zarrabi A,19797762>PMC7821926,19797762,PMC7821926,cited it as support,cited it as support,"States phospho-eIF2a/CHOP correlate with COPD severity independent of smoking, sole citation."
+author,0000-0003-0391-1769 Zarrabi A,27160836>PMC9238168,27160836,PMC9238168,cited it as support,cited it as support,Table row presents exosomal miR-302b lung cancer finding.
+author,0000-0003-0391-1769 Zarrabi A,29231261>PMC8892735,29231261,PMC8892735,cited it as support,cited it as support,Table row presents AWPPH/EZH2/Smad4 bladder cancer finding.
+author,0000-0003-0391-1769 Zarrabi A,31696466>PMC8892735,31696466,PMC8892735,cited it as support,cited it as support,States miR-605-3p/EZH2 prostate cancer results were shown in vitro and in vivo.
+author,0000-0003-0391-1769 Zarrabi A,31773696>PMC7922700,31773696,PMC7922700,cited it as support,mentioned it in passing,Cited only for the general statement that miRNAs regulate apoptosis (background).
+author,0000-0003-0391-1769 Zarrabi A,32594528>PMC9238168,32594528,PMC9238168,cited it as support,cited it as support,States M2-exosome CD11b/CD18 transfer activates MMP-9 to promote HCC metastasis.
+author,0000-0003-0391-1769 Zarrabi A,32848463>PMC8892735,32848463,PMC8892735,cited it as support,cited it as support,"States miR-26a suppresses cancer progression by down-regulating MMPs, sole citation."
+author,0000-0003-0391-1769 Zarrabi A,33244230>PMC10383758,33244230,PMC10383758,cited it as support,cited it as support,Table row reports encapsulation efficiency and release figures from the retracted study.
+author,0000-0003-1060-6527 Hussen BM,25311085>PMC8582349,25311085,PMC8582349,cited it as support,cited it as support,"States Hotair suppresses miR-568 and the NFAT5/S100A4 mechanism, as fact."
+author,0000-0003-1060-6527 Hussen BM,25936406>PMC9524725,25936406,PMC9524725,cited it as support,cited it as support,Table row presents resveratrol chondrosarcoma finding.
+author,0000-0003-1060-6527 Hussen BM,26675721>PMC9289514,26675721,PMC9289514,cited it as support,cited it as support,States RMRP has been shown to influence TH17 effector functions with DDX5 (retracted Nature paper).
+author,0000-0003-1060-6527 Hussen BM,28791407>PMC10114484,28791407,PMC10114484,cited it as support,cited it as support,Single-reference item in a list stating MEG3 sponges miR-93 as fact (codebook: list item carrying target alone is specific).
+author,0000-0003-1060-6527 Hussen BM,28962111>PMC9375325,28962111,PMC9375325,cited it as support,cited it as support,Table row presents miR-138/EZH2 LSCC finding.
+author,0000-0003-1060-6527 Hussen BM,29176314>PMC9375325,29176314,PMC9375325,cited it as support,cited it as support,Table row presents ZNF703/PI3K-AKT OSCC finding.
+author,0000-0003-1060-6527 Hussen BM,29194604>PMC9262756,29194604,PMC9262756,cited it as support,cited it as support,Table row presents miR-129/c-Fos epilepsy finding (other passages pin miR-146a claims on it in error).
+author,0000-0003-1060-6527 Hussen BM,29310682>PMC8666534,29310682,PMC8666534,cited it as support,cited it as support,"Table rows present AFAP1-AS1 cell, xenograft and clinical findings in TSCC."
+author,0000-0003-1060-6527 Hussen BM,29436638>PMC9375325,29436638,PMC9375325,cited it as support,cited it as support,Table row presents caffeic acid n-butyl ester skin cancer finding.
+author,0000-0003-1060-6527 Hussen BM,30121199>PMC8695688,30121199,PMC8695688,cited it as support,cited it as support,Table row presents miR-494 sepsis/ALI finding.
+author,0000-0003-1060-6527 Hussen BM,30537738>PMC10999493,30537738,PMC10999493,cited it as support,cited it as support,Table row presents circPVT1/miR-125b/E2F2 finding as diagnostic indicator.
+author,0000-0003-1060-6527 Hussen BM,30551524>PMC8918307,30551524,PMC8918307,cited it as support,"other: wrong reference, or not about the paper",Sentence about estradiol and MALAT1 in endometriosis does not match the retracted RMRP/myocardial injury paper; likely mis-linked.
+author,0000-0003-1060-6527 Hussen BM,30621700>PMC10011470,30621700,PMC10011470,cited it as support,cited it as support,Table row presents circAGFG1/miR-195-5p/CCNE1 oncogenic finding as established.
+author,0000-0003-1060-6527 Hussen BM,30791958>PMC9306174,30791958,PMC9306174,cited it as support,cited it as support,"States LINC00968 overexpression reduces breast cancer drug resistance via Wnt2, sole citation."
+author,0000-0003-1060-6527 Hussen BM,31076544>PMC10999493,31076544,PMC10999493,cited it as support,cited it as support,Table row presents circVANGL1/miR-195/Bcl-2 finding as therapeutic target.
+author,0000-0003-1060-6527 Hussen BM,31115031>PMC10826439,31115031,PMC10826439,cited it as support,cited it as support,Table row presents lixisenatide anti-fibrosis finding.
+author,0000-0003-1060-6527 Hussen BM,31559899>PMC10114484,31559899,PMC10114484,cited it as support,cited it as support,"States Shang et al. found miR-93 controls ICH outcomes via TLR4/NF-kB, as fact."
+author,0000-0003-1060-6527 Hussen BM,31564894>PMC10761534,31564894,PMC10761534,cited it as support,cited it as support,"States XIST depletion reduced pituitary tumour cell growth via miR-424-5p/bFGF, as fact; also tabulated."
+author,0000-0003-1060-6527 Hussen BM,31564913>PMC9552576,31564913,PMC9552576,cited it as support,"other: wrong reference, or not about the paper","All passages describe rapamycin/NLRP3 in intestinal I/R, not the retracted miR-675/MAPK1 thyroid paper; reference mis-linked."
+author,0000-0003-1060-6527 Hussen BM,31776835>PMC10011470,31776835,PMC10011470,cited it as support,cited it as support,Table row presents circ-TFCP2L1/miR-7/PAK1 proliferation finding as established.
+author,0000-0003-1060-6527 Hussen BM,31905172>PMC10771991,31905172,PMC10771991,cited it as support,cited it as support,Describes circNF1-419 gut-microbiota findings in detail as fact; also tabulated.
+author,0000-0003-1060-6527 Hussen BM,31933941>PMC10070735,31933941,PMC10070735,cited it as support,cited it as support,Table row presents SNHG12/miR-195/CCNE1 finding as established.
+author,0000-0003-1060-6527 Hussen BM,32158226>PMC10999493,32158226,PMC10999493,cited it as support,cited it as support,Table row presents hsa_circ_0011780/miR-544a/FBXW7 finding.
+author,0000-0003-1060-6527 Hussen BM,32196596>PMC9258118,32196596,PMC9258118,cited it as support,cited it as support,States MCM3AP-AS1 regulates gastric cancer proliferation via miR-708-5p; also tabulated.
+author,0000-0003-1060-6527 Hussen BM,32368078>PMC10618356,32368078,PMC10618356,cited it as support,cited it as support,Table rows present HAND2-AS1 gastric cancer cell and survival findings.
+author,0000-0003-1060-6527 Hussen BM,32468088>PMC8983884,32468088,PMC8983884,cited it as support,cited it as support,States CiRS-126 controls miR-21/PDCD4 in PCOS; table row gives the finding.
+author,0000-0003-1060-6527 Hussen BM,32484204>PMC9513225,32484204,PMC9513225,cited it as support,cited it as support,States miR-135a acts as NSCLC tumour suppressor via ROCK1; also tabulated.
+author,0000-0003-1060-6527 Hussen BM,32495864>PMC8918517,32495864,PMC8918517,cited it as support,cited it as support,Table rows present circ_0061140 knockdown and prognosis findings.
+author,0000-0003-1060-6527 Hussen BM,32790092>PMC9375325,32790092,PMC9375325,cited it as support,cited it as support,Table row presents syringic acid OSCC finding.
+author,0000-0003-1060-6527 Hussen BM,32850336>PMC8916230,32850336,PMC8916230,cited it as support,cited it as support,"Table rows present DLX6-AS1 cell, mouse and clinical findings."
+author,0000-0003-1060-6527 Hussen BM,33347877>PMC10209650,33347877,PMC10209650,cited it as support,cited it as support,Table row presents exosomal let-7a protective effect in diabetic nephropathy as finding.
+author,0000-0003-1060-6527 Hussen BM,33450262>PMC10333929,33450262,PMC10333929,cited it as support,cited it as support,Table row presents miR-183-3p/SIRT1 renal fibrosis finding.
+author,0000-0003-1060-6527 Hussen BM,33531835>PMC10999493,33531835,PMC10999493,cited it as support,cited it as support,Table row presents circCDYL/miR-185-5p/TNRC6A finding.
+author,0000-0003-1060-6527 Hussen BM,33868015>PMC10333929,33868015,PMC10333929,cited it as support,cited it as support,Sentence and table row present miR-22/SIRT1/PGC-1a heart-failure finding as fact.
+author,0000-0003-1060-6527 Hussen BM,33958893>PMC8862212,33958893,PMC8862212,cited it as support,cited it as support,Table row presents LINC00908/miR-671-5p DLBCL findings.
+author,0000-0003-1060-6527 Hussen BM,34186282>PMC10209650,34186282,PMC10209650,cited it as support,cited it as support,Table row presents exosomal miR-16-5p M2 polarization finding as established.
+author,0000-0003-1060-6527 Hussen BM,34712356>PMC10761534,34712356,PMC10761534,cited it as support,cited it as support,Table rows present FAM87A/miR-424-5p glioma cell and clinical findings.
+author,0000-0003-2347-0411 Huang CY,17875968>PMC8459600,17875968,PMC8459600,cited it as support,cited it as support,"PTEN activation under HG, cited as a demonstration."
+author,0000-0003-2347-0411 Huang CY,19524507>PMC6827018,19524507,PMC6827018,cited it as support,cited it as support,miR-31 acts as tumour suppressor in breast cancer.
+author,0000-0003-2347-0411 Huang CY,20462402>PMC7202519,20462402,PMC7202519,cited it as support,cited it as support,Marathon raised SIRT1 expression.
+author,0000-0003-2347-0411 Huang CY,23637992>PMC12434812,23637992,PMC12434812,cited it as support,cited it as support,Nassirpour et al. found high miR-221 in TNBC.
+author,0000-0003-2347-0411 Huang CY,24001238>PMC4974905,24001238,PMC4974905,cited it as support,cited it as support,'In our previous study we found...': the authors' own retracted result.
+author,0000-0003-2347-0411 Huang CY,34900185>PMC10887337,34900185,PMC10887337,cited it as support,cited it as support,Chrysanthemum stroke trial results in text and table.
+author,0000-0003-3823-6572 Singh SK,21753854>PMC9734980,21753854,PMC9734980,cited it as support,cited it as support,Table row: piperlongumine apoptosis.
+author,0000-0003-3823-6572 Singh SK,25798602>PMC10771618,25798602,PMC10771618,cited it as support,mentioned it in passing,One of a list of activity references.
+author,0000-0003-3823-6572 Singh SK,25798602>PMC10933165,25798602,PMC10933165,cited it as support,cited it as support,"Antioxidant mechanism (GSH, TBARS) cited to the paper."
+author,0000-0003-3823-6572 Singh SK,29512690>PMC10691498,29512690,PMC10691498,cited it as support,cited it as support,Table row restates the daidzein SKOV3 results.
+author,0000-0003-3823-6572 Singh SK,34017029>PMC9874620,34017029,PMC9874620,cited it as support,"other: wrong reference, or not about the paper",SARS-CoV-2 / vitamin D observational claims; mislinked.
+author,0000-0003-3823-6572 Singh SK,35664430>PMC11126788,35664430,PMC11126788,cited it as support,cited it as support,Table row miR-421 finding.
+author,0000-0003-4025-8586 Selim S,24701142>PMC8003077,24701142,PMC8003077,cited it as support,mentioned it in passing,Cites a retracted review for a general statement that Gram-negative bacteria accumulate PHB (background).
+author,0000-0003-4025-8586 Selim S,25087727>PMC11742186,25087727,PMC11742186,cited it as support,cited it as support,"States luteolin protects dopaminergic neurons (Patil et al.), as fact; also tabulated."
+author,0000-0003-4025-8586 Selim S,25725211>PMC9329751,25725211,PMC9329751,cited it as support,mentioned it in passing,"Single list item noting ZnO nanoparticles have been made from Moringa extract (describes what was done, not its result)."
+author,0000-0003-4025-8586 Selim S,29113236>PMC11896816,29113236,PMC11896816,cited it as support,cited it as support,"States biochanin A reduced melanoma cell invasion and modulated MAPK/NF-kB, sole citation."
+author,0000-0003-4025-8586 Selim S,29251335>PMC11717051,29251335,PMC11717051,cited it as support,cited it as support,Reports marmesin's in vitro/in vivo anti-leukemia results and conclusion as fact.
+author,0000-0003-4025-8586 Selim S,29512690>PMC11896816,29512690,PMC11896816,cited it as support,cited it as support,Table row presents daidzein SKOV3 apoptosis/Raf-MEK-ERK finding.
+author,0000-0003-4025-8586 Selim S,30245628>PMC9696412,30245628,PMC9696412,cited it as support,cited it as support,Synthesis method taken from the retracted paper ('as described by'); codebook counts a borrowed method as reliance.
+author,0000-0003-4025-8586 Selim S,34221094>PMC12558816,34221094,PMC12558816,cited it as support,mentioned it in passing,Cites a retracted review for general statements about flavonoids and formulations (background).
+author,0000-0003-4072-4997 Imran M,19223576>PMC7643726,19223576,PMC7643726,cited it as support,cited it as support,Table row restates psoralidin results.
+author,0000-0003-4072-4997 Imran M,21127198>PMC9631725,21127198,PMC9631725,cited it as support,mentioned it in passing,One of a list of activity references.
+author,0000-0003-4072-4997 Imran M,25087727>PMC11742186,25087727,PMC11742186,cited it as support,cited it as support,"Luteolin neuroprotection finding, text and table."
+author,0000-0003-4072-4997 Imran M,29113236>PMC11896816,29113236,PMC11896816,cited it as support,cited it as support,Biochanin A melanoma finding.
+author,0000-0003-4072-4997 Imran M,29512690>PMC11896816,29512690,PMC11896816,cited it as support,cited it as support,Daidzein table row.
+author,0000-0003-4072-4997 Imran M,34221094>PMC12558816,34221094,PMC12558816,cited it as support,mentioned it in passing,General statement of pharmacological potential.
+author,0000-0003-4072-4997 Imran M,34824600>PMC10756970,34824600,PMC10756970,cited it as support,"other: wrong reference, or not about the paper",Comparison-table row of image counts.
+journal,Bioengineered,28381518>PMC8974110,28381518,PMC8974110,cited it as support,cited it as support,Sole citation for EIF4G2 repression suppressing osteosarcoma (list item).
+journal,Bioengineered,29377244>PMC9162020,29377244,PMC9162020,cited it as support,cited it as support,Reports the miR-132/TRAF6 LPS injury result as found by the authors.
+journal,Bioengineered,29445078>PMC8291797,29445078,PMC8291797,cited it as support,cited it as support,Sole citation for miR-144-3p downregulation in ovarian cancer (list item).
+journal,Bioengineered,30209783>PMC8974140,30209783,PMC8974140,cited it as support,cited it as support,"Sole citation for matrine's therapeutic effect in malignancy (generic list item, weak)."
+journal,Bioengineered,31059049>PMC8974004,31059049,PMC8974004,cited it as support,cited it as support,States LINC01638 knockdown suppressing CRC proliferation via RUNX2 as fact.
+journal,Bioengineered,31655854>PMC8291820,31655854,PMC8291820,cited it as support,cited it as support,States chrysophanol's anti-tumour action in lung cancer via ROS/HIF-1a/VEGF as reported.
+journal,Bioengineered,31858549>PMC9208492,31858549,PMC9208492,cited it as support,cited it as support,States SNHG14 promotes LUAD via miR-613 as fact.
+journal,Bioengineered,32190008>PMC8973856,32190008,PMC8973856,cited it as support,cited it as support,"States the circ_0008035/miR-599/EIF4A1 result as fact, though it calls the cancer colorectal."
+journal,Bioengineered,32495864>PMC9208531,32495864,PMC9208531,cited it as support,cited it as support,States circ_0061140 promoting bladder cancer via miR-1236 as reported (second passage mismatched).
+journal,Bioengineered,32765702>PMC10841002,32765702,PMC10841002,cited it as support,cited it as support,"Cited for the luciferase assay protocol (method citation, counts as specific under the codebook)."
+journal,Cancer Cell Int,22484149>PMC9396820,22484149,PMC9396820,cited it as support,cited it as support,"Sole citation for curcumin delivery to brain by nanosystems (list item, weak)."
+journal,Cancer Cell Int,25157103>PMC6836386,25157103,PMC6836386,cited it as support,mentioned it in passing,Single-cited passage is a broad background claim about p62/Nrf2 in tumours; other passages cite it in groups.
+journal,Cancer Cell Int,26164001>PMC10544213,26164001,PMC10544213,cited it as support,cited it as support,States SENP6 deSUMOylation of FOXM1 promoting GC growth as fact.
+journal,Cancer Cell Int,29424922>PMC10337107,29424922,PMC10337107,cited it as support,cited it as support,States miR-182 inhibiting mTOR signalling in RCC as evidenced.
+journal,Cancer Cell Int,30385776>PMC7397601,30385776,PMC7397601,cited it as support,cited it as support,States TET2 loss promoting breast cancer tumorigenesis via caspase-4 as fact.
+journal,Cancer Cell Int,30430634>PMC9461221,30430634,PMC9461221,cited it as support,cited it as support,Describes the HAGLROS/miR-100/ATG5 results as established.
+journal,Cancer Cell Int,30949340>PMC12977789,30949340,PMC12977789,cited it as support,cited it as support,Meta-analysis counts the retracted study as included data and the discussion relies on its SNHG7 result.
+journal,Cancer Cell Int,31391063>PMC10770979,31391063,PMC10770979,cited it as support,cited it as support,Reports the MACC1-AS1 knockdown result in text and table.
+journal,Cancer Cell Int,34168502>PMC8897953,34168502,PMC8897953,cited it as support,mentioned it in passing,"Cited only for general OSCC survival and recurrence statistics, not its own result."
+journal,Cancer Cell Int,36193123>PMC12273008,36193123,PMC12273008,cited it as support,cited it as support,Review tables list the retracted study's CTC numbers and prognostic findings.
+journal,Cancers (Basel),12676581>PMC10854702,12676581,PMC10854702,cited it as support,cited it as support,"Sole citation for TSP-1/TSP-2 in tumour angiogenesis (list item, wording garbled)."
+journal,Cancers (Basel),15609310>PMC7407580,15609310,PMC7407580,cited it as support,cited it as support,Uses the retracted LMP1-induces-CCL5 finding as an established fact.
+journal,Cancers (Basel),20052673>PMC9139180,20052673,PMC9139180,cited it as support,cited it as support,Sole citation for NOTCH promoting prostate cancer cell migration.
+journal,Cancers (Basel),22110128>PMC6679127,22110128,PMC6679127,cited it as support,mentioned it in passing,Cited for textbook Wnt biology (beta-catenin moves to the nucleus).
+journal,Cancers (Basel),2714889>PMC3756376,2714889,PMC3756376,cited it as support,mentioned it in passing,"Cited for the historical fact that midostaurin was an early PKC inhibitor in trials, not the study's data."
+journal,Cancers (Basel),2788173>PMC5406704,2788173,PMC5406704,cited it as support,cited it as support,Table cell credits TNF-alpha stimulating AML blast growth to the retracted study.
+journal,Cancers (Basel),29316313>PMC10377645,29316313,PMC10377645,cited it as support,cited it as support,States miR-21 acts via PTEN/PI3K/AKT in glioma as Chai et al. reported.
+journal,Cancers (Basel),30171944>PMC10252630,30171944,PMC10252630,cited it as support,cited it as support,"States propofol inhibits tumour cell proliferation, migration and invasion on the retracted study."
+journal,Cancers (Basel),32271411>PMC8834032,32271411,PMC8834032,cited it as support,cited it as support,Review table lists PROX1-AS1/miR-647 in prostate cancer.
+journal,Cancers (Basel),32380053>PMC10000071,32380053,PMC10000071,cited it as support,mentioned it in passing,Mentioned as an example of in vitro studies that were left out of the review's table.
+journal,Cell Commun Signal,17210694>PMC10506215,17210694,PMC10506215,cited it as support,cited it as support,Relies on the retracted study for PGK1 secretion and metastasis effects in prostate cancer.
+journal,Cell Commun Signal,21860410>PMC11492701,21860410,PMC11492701,cited it as support,cited it as support,"Sole citation for HIF-1-assisted extravasation, the retracted study's claim."
+journal,Cell Commun Signal,22912826>PMC4117189,22912826,PMC4117189,cited it as support,cited it as support,Reports miR-338-3p targeting cyclin D1 as the retracted study's result.
+journal,Cell Commun Signal,25104350>PMC7281690,25104350,PMC7281690,cited it as support,cited it as support,Review table row lists the retracted miR-378 fibrosis finding.
+journal,Cell Commun Signal,26675721>PMC12178073,26675721,PMC12178073,cited it as support,"other: wrong reference, or not about the paper",Cited for a DDX5/TBK1 interferon claim that is not what the retracted Rmrp/TH17 paper reported.
+journal,Cell Commun Signal,26976451>PMC11488203,26976451,PMC11488203,cited it as support,cited it as support,Relies on the retracted miR-454/SDF-1 binding result to frame its own hypothesis.
+journal,Cell Commun Signal,28692662>PMC11040964,28692662,PMC11040964,cited it as support,cited it as support,Reports the retracted mouse infection result on p53/p21 as demonstrated.
+journal,Cell Commun Signal,31144388>PMC10478474,31144388,PMC10478474,cited it as support,cited it as support,Reports the PRC1 silencing results in retinoblastoma as valid findings.
+journal,Cell Commun Signal,35978332>PMC10795323,35978332,PMC10795323,cited it as support,cited it as support,States the NAT10 ac4C mechanism in PDAC as the retracted study's finding.
+journal,Cell Commun Signal,37576407>PMC11492701,37576407,PMC11492701,cited it as support,cited it as support,States the miR-4780 neutrophil EV finding as fact.
+journal,Cell Death Discov,20522778>PMC9847446,20522778,PMC9847446,cited it as support,cited it as support,Sole citation for SPHK1 inhibition benefiting sepsis.
+journal,Cell Death Discov,24305048>PMC5447127,24305048,PMC5447127,cited it as support,cited it as support,States the HMGA2 3'UTR ceRNA effect on let-7 in lung cancer as reported.
+journal,Cell Death Discov,24632577>PMC8358062,24632577,PMC8358062,cited it as support,cited it as support,Sole citation for miR-210 promoting colorectal cancer metastasis (list item in table).
+journal,Cell Death Discov,28260102>PMC8505617,28260102,PMC8505617,cited it as support,cited it as support,States MALAT1 raising JAG1 via miR-124 as fact.
+journal,Cell Death Discov,28653601>PMC8770558,28653601,PMC8770558,cited it as support,cited it as support,States DEX inhibits osteosarcoma cells via miR-520a-3p as shown.
+journal,Cell Death Discov,28721581>PMC10808186,28721581,PMC10808186,cited it as support,cited it as support,Sole citation for HOTAIR modulating chemotherapy via autophagy in endometrial cancer (list item).
+journal,Cell Death Discov,31838274>PMC12339970,31838274,PMC12339970,cited it as support,cited it as support,Review table lists the LINC01234/miR-31-5p/MAGEA3 cisplatin result.
+journal,Cell Death Discov,32396690>PMC9329358,32396690,PMC9329358,cited it as support,cited it as support,Review table lists alpinumisoflavone GSDME pyroptosis in ESCC from the retracted study.
+journal,Cell Death Discov,32396707>PMC9329358,32396707,PMC9329358,cited it as support,cited it as support,Review table lists resibufogenin-induced pyroptosis from the retracted study.
+journal,Cell Death Discov,33608454>PMC12501081,33608454,PMC12501081,cited it as support,cited it as support,States IL-21 suppressing Th1/Th17 and worsening Chlamydia lung infection as the retracted finding.
+journal,Cells,12370229>PMC8699089,12370229,PMC8699089,cited it as support,cited it as support,States the PBSC implantation mechanisms from the retracted study as reported.
+journal,Cells,16088114>PMC8946995,16088114,PMC8946995,cited it as support,"other: wrong reference, or not about the paper","Cited for VDR-knockout mice developing sarcopenia, which the retracted human stroke trial did not report."
+journal,Cells,17003335>PMC9562180,17003335,PMC9562180,cited it as support,cited it as support,Sole citation for low-dose IL-1beta stimulating beta-cell proliferation.
+journal,Cells,17478559>PMC9180692,17478559,PMC9180692,cited it as support,cited it as support,Describes the retracted adipocyte EV findings as results.
+journal,Cells,24447880>PMC7600611,24447880,PMC7600611,cited it as support,cited it as support,Reports the retracted CX3CR1 siRNA results in detail.
+journal,Cells,27160836>PMC6523673,27160836,PMC6523673,cited it as support,cited it as support,States exosomal miR-302b suppresses lung cancer via TGFbetaRII/ERK as fact.
+journal,Cells,29464486>PMC11119608,29464486,PMC11119608,cited it as support,cited it as support,Review table lists the retracted miR-322/BDNF/Tau finding.
+journal,Cells,31298373>PMC9139553,31298373,PMC9139553,cited it as support,cited it as support,Sole citation for LUCAT1 driving therapy resistance in NSCLC.
+journal,Cells,31571906>PMC11505732,31571906,PMC11505732,cited it as support,cited it as support,Lists circZFR (hsa_circ_0072088) as a proven miR-206 regulator and uses it as a test candidate.
+journal,Cells,32790092>PMC10706021,32790092,PMC10706021,cited it as support,cited it as support,States syringic acid suppressed squamous carcinoma cell invasion as shown.
+journal,Cureus,10095977>PMC5878093,10095977,PMC5878093,cited it as support,cited it as support,Takes the 0.3% insertion complication rate from the retracted paper.
+journal,Cureus,11133754>PMC9399680,11133754,PMC9399680,cited it as support,mentioned it in passing,"Cited for the textbook genetic cause of cyclic neutropenia (ELA2 mutation), not the progenitor survival result."
+journal,Cureus,18453793>PMC12321158,18453793,PMC12321158,cited it as support,cited it as support,Uses the MMAS-8 instrument from the retracted paper as its adherence measure (method citation).
+journal,Cureus,19371446>PMC9904424,19371446,PMC9904424,cited it as support,"other: wrong reference, or not about the paper","Cited for a basketball return-to-play rate, which the retracted football back-pain survey did not report."
+journal,Cureus,2145649>PMC10257952,2145649,PMC10257952,cited it as support,mentioned it in passing,"Cited for a textbook list of ischaemia presentations, not the angioplasty outcome analysis."
+journal,Cureus,24984017>PMC11177234,24984017,PMC11177234,cited it as support,cited it as support,States miR-204 is downregulated in H. pylori gastric cancer as found.
+journal,Cureus,25336793>PMC8808661,25336793,PMC8808661,cited it as support,cited it as support,Compares its non-responder rate with the retracted study's 16% figure.
+journal,Cureus,29943058>PMC10019903,29943058,PMC10019903,cited it as support,cited it as support,Reports the retracted trial's OAGB weight-loss result as found.
+journal,Cureus,34971398>PMC12448261,34971398,PMC12448261,cited it as support,cited it as support,Describes the retracted RCT and its AHI and airway findings.
+journal,Cureus,35449845>PMC11162347,35449845,PMC11162347,cited it as support,cited it as support,Systematic review counts the retracted study's 55 patients as included data.
+journal,Discov Oncol,29943841>PMC11896959,29943841,PMC11896959,cited it as support,cited it as support,Review table lists miR-198 down and its HGF/c-Met target from the retracted study.
+journal,Discov Oncol,30015825>PMC11183017,30015825,PMC11183017,cited it as support,cited it as support,States miR-488 reduces osteosarcoma proliferation and EMT as fact.
+journal,Discov Oncol,30015837>PMC13350640,30015837,PMC13350640,cited it as support,cited it as support,Sole citation for SNHG14-induced trastuzumab resistance via Bcl-2/BAX (list item).
+journal,Discov Oncol,30317640>PMC12098248,30317640,PMC12098248,cited it as support,cited it as support,Reports the resistin/TLR4/CAP1/STAT3 chemoresistance result as found by the authors.
+journal,Discov Oncol,30791932>PMC11811353,30791932,PMC11811353,cited it as support,cited it as support,"Sole citation for Wnt inhibition suppressing nasopharyngeal carcinoma (list item, weak)."
+journal,Discov Oncol,32198978>PMC11607202,32198978,PMC11607202,cited it as support,mentioned it in passing,"Table cites it only as an example of the overlapping lncRNA class, a definition rather than its result."
+journal,Discov Oncol,32764963>PMC12031705,32764963,PMC12031705,cited it as support,"other: wrong reference, or not about the paper","Cited for miR-15b-5p/LATS2 in prostate cancer, which does not match the retracted PVT1/NOP2 paper."
+journal,Discov Oncol,32884341>PMC11164845,32884341,PMC11164845,cited it as support,cited it as support,States ZFAS1 sponging miR-421 to drive cisplatin resistance as the retracted study's result.
+journal,Discov Oncol,34103994>PMC11953504,34103994,PMC11953504,cited it as support,cited it as support,States LINC-PINT restraining bladder cancer via miR-155-5p as reported fact.
+journal,Discov Oncol,35368958>PMC11700069,35368958,PMC11700069,cited it as support,cited it as support,Relies on the SPINK5/PSIP1 rescue result in NSCLC cells.
+journal,Front Cardiovasc Med,21753854>PMC7903972,21753854,PMC7903972,cited it as support,cited it as support,"States piperlongumine's effects on p53, PUMA and pro-survival proteins on the retracted study's evidence."
+journal,Front Cardiovasc Med,22326955>PMC10516301,22326955,PMC10516301,cited it as support,cited it as support,"Sole citation for trastuzumab activating NK cells (list item, weak)."
+journal,Front Cardiovasc Med,23447532>PMC8339264,23447532,PMC8339264,cited it as support,cited it as support,Sole citation for miR-378 acting on GSK3beta in cardiac hypertrophy (list item).
+journal,Front Cardiovasc Med,29669232>PMC10752922,29669232,PMC10752922,cited it as support,mentioned it in passing,"Cited for textbook uses of ambulatory BP monitoring, not the paper's mortality findings."
+journal,Front Cardiovasc Med,30551524>PMC9685618,30551524,PMC9685618,cited it as support,cited it as support,States the RMRP/miR-206/ATG3 axis in myocardial I/R as found.
+journal,Front Cardiovasc Med,31996667>PMC9251177,31996667,PMC9251177,cited it as support,"other: wrong reference, or not about the paper","Cited for andrographolide inhibiting valve calcification, which is not the retracted Schnurri-3/BMP9 paper's content."
+journal,Front Cardiovasc Med,32086130>PMC11876399,32086130,PMC11876399,cited it as support,cited it as support,Reports the miR-208a-5p/SOCS2 sepsis myocardial result in text and table.
+journal,Front Cardiovasc Med,32418959>PMC9872118,32418959,PMC9872118,cited it as support,cited it as support,Sole citation for kaempferol acting via miR-15b/Bcl-2/TLR4 (list item).
+journal,Front Cardiovasc Med,32669853>PMC13310670,32669853,PMC13310670,cited it as support,cited it as support,States CCDC7 promotes cervical cancer via IL-6/VEGF/JAK-STAT3 as reported.
+journal,Front Cardiovasc Med,34285763>PMC12894255,34285763,PMC12894255,cited it as support,"other: wrong reference, or not about the paper","Cited for statins as first-line therapy, which is not what the retracted nicorandil study reported."
+journal,Front Cell Dev Biol,19168635>PMC9945545,19168635,PMC9945545,cited it as support,cited it as support,States anthracyclines block HIF-1 DNA binding on the retracted study's evidence.
+journal,Front Cell Dev Biol,21060833>PMC9045800,21060833,PMC9045800,cited it as support,cited it as support,Relies on the retracted study for uPAR control of the Bcl-2/Bax ratio.
+journal,Front Cell Dev Biol,22493480>PMC12982390,22493480,PMC12982390,cited it as support,cited it as support,Reports the PATZ1 knockout tumour phenotype as the retracted study's finding.
+journal,Front Cell Dev Biol,24711954>PMC8415985,24711954,PMC8415985,cited it as support,cited it as support,Takes cardiovascular and diabetes risk figures from the retracted review.
+journal,Front Cell Dev Biol,25095974>PMC8056046,25095974,PMC8056046,cited it as support,cited it as support,"Sole citation for FXR regulating gastric cancer (list item, weak)."
+journal,Front Cell Dev Biol,28608628>PMC11165363,28608628,PMC11165363,cited it as support,cited it as support,States miR-143-5p targeting RUNX2 via OPG/RANKL as known.
+journal,Front Cell Dev Biol,30139377>PMC9449368,30139377,PMC9449368,cited it as support,cited it as support,Repeatedly presents the miR-126 exosome thrombosis results as fact.
+journal,Front Cell Dev Biol,30367473>PMC10936223,30367473,PMC10936223,cited it as support,cited it as support,States the HOTAIR knockdown radiosensitivity result in text and table.
+journal,Front Cell Dev Biol,32239675>PMC10413580,32239675,PMC10413580,cited it as support,cited it as support,Reports the HO-1 overexpression results in nucleus pulposus cells as fact.
+journal,Front Cell Dev Biol,35602346>PMC13017818,35602346,PMC13017818,cited it as support,mentioned it in passing,"Cited for textbook endometrial thickness and triple-line criteria, not the study's own result."
+journal,Front Immunol,20818377>PMC9039247,20818377,PMC9039247,cited it as support,cited it as support,Reports the CXCR2 NADPH-independent NET findings in text and table.
+journal,Front Immunol,22427667>PMC7005066,22427667,PMC7005066,cited it as support,cited it as support,States Grp94 delivery of TLR4 and its LPS induction as the retracted study's findings.
+journal,Front Immunol,23177319>PMC5296614,23177319,PMC5296614,cited it as support,cited it as support,States SOCS3 suppresses M2 via STAT6 on the retracted study's evidence.
+journal,Front Immunol,28336765>PMC10248152,28336765,PMC10248152,cited it as support,cited it as support,Sole citation for miR-330-5p inhibiting GBM (list item).
+journal,Front Immunol,28648972>PMC11194342,28648972,PMC11194342,cited it as support,cited it as support,Review table lists DATS renal protection in rats from the retracted study (details garbled).
+journal,Front Immunol,28732288>PMC8858953,28732288,PMC8858953,cited it as support,cited it as support,States HOTAIR protects in RA via miR-138/NF-kB in text and table.
+journal,Front Immunol,30098283>PMC11688235,30098283,PMC11688235,cited it as support,cited it as support,Reports the hBD-2/hBD-3 T cell proliferation results in detail.
+journal,Front Immunol,30334373>PMC11799554,30334373,PMC11799554,cited it as support,cited it as support,Relies on the retracted euxanthone/COX-2 findings in osteosarcoma.
+journal,Front Immunol,32190008>PMC12901348,32190008,PMC12901348,cited it as support,cited it as support,States circ_0008035 regulates apoptosis and ferroptosis via miR-599/EIF4A1 as fact.
+journal,Front Immunol,34979165>PMC12378483,34979165,PMC12378483,cited it as support,cited it as support,States PINK1 deficiency drives the Warburg effect and M2 recruitment as found.
+journal,Front Mol Biosci,16127174>PMC7930745,16127174,PMC7930745,cited it as support,"other: wrong reference, or not about the paper",Cited for a TMEM16A silencing result the uPA/uPAR paper did not report; miscitation.
+journal,Front Mol Biosci,24255131>PMC9465715,24255131,PMC9465715,cited it as support,cited it as support,Describes the ST6Gal1 overexpression and knockdown experiments as established results.
+journal,Front Mol Biosci,24984017>PMC8144459,24984017,PMC8144459,cited it as support,cited it as support,Review table row lists the retracted study's miR-204/SOX4 finding.
+journal,Front Mol Biosci,25311085>PMC8582349,25311085,PMC8582349,cited it as support,cited it as support,States the Hotair/miR-568/NFAT5 mechanism as the retracted study's finding.
+journal,Front Mol Biosci,29277893>PMC9560780,29277893,PMC9560780,cited it as support,cited it as support,Uses the retracted study's DCLK1 silencing result in CRC as support.
+journal,Front Mol Biosci,29454093>PMC8960148,29454093,PMC8960148,cited it as support,cited it as support,"Sole citation for circRNA involvement in pancreatic cancer in a list (weak, intro list item)."
+journal,Front Mol Biosci,30621700>PMC10134903,30621700,PMC10134903,cited it as support,cited it as support,Reports the retracted study's miR-195-5p tissue measurements as evidence.
+journal,Front Mol Biosci,31637704>PMC8874010,31637704,PMC8874010,cited it as support,cited it as support,States circFNDC3B's role in RCC signalling as the retracted study's result.
+journal,Front Mol Biosci,31836919>PMC10382028,31836919,PMC10382028,cited it as support,cited it as support,"Table row and text attribute decreased PD-L1 in Jurkat cells to the retracted study, unflagged."
+journal,Front Mol Biosci,33968206>PMC8918680,33968206,PMC8918680,cited it as support,cited it as support,Presents the retracted oncolytic HSV findings in gastric cancer as support for the approach.
+journal,Front Neurosci,19203584>PMC4635215,19203584,PMC4635215,cited it as support,cited it as support,Relies on the retracted finding that DNA-PK activates caspase-2.
+journal,Front Neurosci,22393233>PMC6541114,22393233,PMC6541114,cited it as support,"other: wrong reference, or not about the paper","Cited for MLKL Thr357/Ser358 phosphorylation driving ROS, which the retracted GRIM-19/STAT3 paper did not report."
+journal,Front Neurosci,22898818>PMC6213750,22898818,PMC6213750,cited it as support,cited it as support,Reports SIRT2 deletion reducing MPTP damage via FOXO3a as shown.
+journal,Front Neurosci,23461657>PMC6213750,23461657,PMC6213750,cited it as support,cited it as support,Uses the retracted study's finding that SIRT1 is unchanged after short OGD.
+journal,Front Neurosci,23883936>PMC6529571,23883936,PMC6529571,cited it as support,cited it as support,Uses the retracted study as the evidence that disease status alters genotype-expression links.
+journal,Front Neurosci,26567107>PMC8215678,26567107,PMC8215678,cited it as support,cited it as support,Cites it for the ICH model protocol (method citation).
+journal,Front Neurosci,30048421>PMC9278698,30048421,PMC9278698,cited it as support,cited it as support,Sole citation for Astragalus polysaccharide protecting neurons in a PD model (list item).
+journal,Front Neurosci,33578037>PMC9932922,33578037,PMC9932922,cited it as support,cited it as support,Reports the circTulp4 neurite and AD findings as fact.
+journal,Front Neurosci,34621501>PMC10015606,34621501,PMC10015606,cited it as support,cited it as support,States the 0.5 ug/kg dexmedetomidine benefit as the retracted trial's finding.
+journal,Front Neurosci,35419186>PMC11099244,35419186,PMC11099244,cited it as support,mentioned it in passing,"Listed in a critical table auditing data leakage in EEG studies (rated Unclear), not used as support."
+journal,Front Oncol,17079479>PMC8116711,17079479,PMC8116711,cited it as support,"other: wrong reference, or not about the paper",Credits the preclinical genistein paper with a patient survival result and an inverted Akt/NF-kB claim; second passage is background.
+journal,Front Oncol,24255131>PMC7841262,24255131,PMC7841262,cited it as support,cited it as support,States the retracted sialylation result on HCC invasion and chemosensitivity.
+journal,Front Oncol,28586066>PMC10978783,28586066,PMC10978783,cited it as support,cited it as support,States miR-148a loss and its link to poor prognosis in pancreatic cancer on the retracted study's evidence.
+journal,Front Oncol,29310682>PMC8666534,29310682,PMC8666534,cited it as support,cited it as support,"Three review tables list the retracted AFAP1-AS1 cell, xenograft and clinical results."
+journal,Front Oncol,31061416>PMC11317299,31061416,PMC11317299,cited it as support,cited it as support,Describes the retracted m6A/YTHDF1/Snail findings as demonstrated.
+journal,Front Oncol,32903907>PMC9389335,32903907,PMC9389335,cited it as support,cited it as support,States MAFG-AS1 drives ESCC via miR-143/LASP1 as an example finding.
+journal,Front Oncol,33116856>PMC10580988,33116856,PMC10580988,cited it as support,cited it as support,Review table lists the retracted MALAT1/miR-1271-5p cisplatin result.
+journal,Front Oncol,33577844>PMC8828506,33577844,PMC8828506,cited it as support,cited it as support,States exosomal miR-378b promotes HCC angiogenesis in text and table.
+journal,Front Oncol,36119927>PMC10860711,36119927,PMC10860711,cited it as support,cited it as support,Uses the retracted SEER analysis's grade-survival finding and says its own data agree.
+journal,Front Oncol,36212952>PMC11983647,36212952,PMC11983647,cited it as support,cited it as support,Review tables list the retracted NEK2 RCC biomarker and Wnt findings.
+journal,Front Pharmacol,22162948>PMC5290458,22162948,PMC5290458,cited it as support,mentioned it in passing,"Cited for a general mechanism (cytokines impair insulin signalling), not the retracted TLR2 knockout result."
+journal,Front Pharmacol,23749897>PMC6113671,23749897,PMC6113671,cited it as support,cited it as support,States DPPC is more abundant in HER2-positive tumours as the retracted study found.
+journal,Front Pharmacol,29277893>PMC9201484,29277893,PMC9201484,cited it as support,cited it as support,States DCLK1 activating NF-kB and EMT via PI3K/Akt as the retracted study's finding.
+journal,Front Pharmacol,29973492>PMC12137275,29973492,PMC12137275,cited it as support,cited it as support,Review table lists glycyrrhizic acid's effect on alcoholic liver injury from the retracted study.
+journal,Front Pharmacol,30288025>PMC12497719,30288025,PMC12497719,cited it as support,cited it as support,Reports the LBP/MLTC-1 ER-stress results in text and a detailed table.
+journal,Front Pharmacol,31732527>PMC10203425,31732527,PMC10203425,cited it as support,cited it as support,Reports the luteolin allograft survival result as fact.
+journal,Front Pharmacol,31752383>PMC11284502,31752383,PMC11284502,cited it as support,cited it as support,Reports acetylshikonin ROS/apoptosis results in HCC in text and table.
+journal,Front Pharmacol,32135185>PMC11754259,32135185,PMC11754259,cited it as support,cited it as support,States the METTL1/let-7e/HMGA2 axis in colon cancer in text and table.
+journal,Front Pharmacol,35126934>PMC10991850,35126934,PMC10991850,cited it as support,"other: wrong reference, or not about the paper","Cited for LBP reducing Adriamycin immunotoxicity, which is not what the retracted liver-fibrosis/IoMT paper reported."
+journal,Front Pharmacol,35633920>PMC9998491,35633920,PMC9998491,cited it as support,cited it as support,States chlorogenic acid reduced LPS-induced cytokines in BV2 cells as found.
+journal,Heliyon,19288944>PMC8488477,19288944,PMC8488477,cited it as support,cited it as support,Compares its awareness figures directly with the retracted Pakistan study's results.
+journal,Heliyon,27183876>PMC11437934,27183876,PMC11437934,cited it as support,cited it as support,States M. smithii depletion in children with SAM on the retracted study's evidence.
+journal,Heliyon,30288025>PMC10912389,30288025,PMC10912389,cited it as support,"other: wrong reference, or not about the paper","Cited for LBP reducing cardiomyocyte apoptosis in I/R rats, not the retracted Leydig cell study."
+journal,Heliyon,31013312>PMC11696662,31013312,PMC11696662,cited it as support,"other: wrong reference, or not about the paper","Cited for the Rahimi nano-curcumin trial result, not the retracted meta-analysis; wrong match."
+journal,Heliyon,32135185>PMC10199227,32135185,PMC10199227,cited it as support,cited it as support,Sole citation for m7G inhibiting colon cancer migration (list item).
+journal,Heliyon,33614623>PMC9489975,33614623,PMC9489975,cited it as support,cited it as support,States parthenolide plus cisplatin synergy in NSCLC as the retracted study found.
+journal,Heliyon,35571707>PMC11033103,35571707,PMC11033103,cited it as support,cited it as support,Sole citation for visual sensing tech optimising political-education teaching (list item).
+journal,Heliyon,35832243>PMC11098830,35832243,PMC11098830,cited it as support,cited it as support,Compares its autoantibody positive rates with the retracted study's reported rates.
+journal,Heliyon,35872956>PMC11416499,35872956,PMC11416499,cited it as support,cited it as support,States OIP5-AS1/GPX4 promotes oesophageal cancer as confirmed.
+journal,Heliyon,36247849>PMC11133705,36247849,PMC11133705,cited it as support,cited it as support,Meta-analysis counts the retracted trial as an included study with data.
+journal,Int J Mol Sci,16203862>PMC3588029,16203862,PMC3588029,cited it as support,cited it as support,Sole citation for insulin signalling regulating PGC-1alpha (list item).
+journal,Int J Mol Sci,23010656>PMC9958549,23010656,PMC9958549,cited it as support,cited it as support,States hyaluronan-induced IL-1beta release depends on NLRP3 as shown by the retracted study.
+journal,Int J Mol Sci,23177319>PMC6829322,23177319,PMC6829322,cited it as support,cited it as support,Sole citation for SOCS2 controlling macrophage polarization (garbled wording but rests on it).
+journal,Int J Mol Sci,25085584>PMC6829292,25085584,PMC6829292,cited it as support,cited it as support,Says its own MMP13/MEK-ERK result matches the retracted gastric cancer study.
+journal,Int J Mol Sci,28627687>PMC10889831,28627687,PMC10889831,cited it as support,cited it as support,Relies on miR-205 directly targeting YAP1 to interpret its own heart data.
+journal,Int J Mol Sci,30551524>PMC10531487,30551524,PMC10531487,cited it as support,cited it as support,Review table lists the RMRP/miR-206/ATG3 result from the retracted study.
+journal,Int J Mol Sci,31771044>PMC9699074,31771044,PMC9699074,cited it as support,"other: wrong reference, or not about the paper",Table row attributes a breast cancer doxorubicin/paclitaxel result to the retracted oral cancer DDP paper; miscitation.
+journal,Int J Mol Sci,33316267>PMC10671577,33316267,PMC10671577,cited it as support,cited it as support,Table cell states the retracted miR-218 knee OA result.
+journal,Int J Mol Sci,34979165>PMC10342140,34979165,PMC10342140,cited it as support,cited it as support,States PINK1 loss drives M2 polarization via the Warburg effect as found.
+journal,Int J Mol Sci,35912140>PMC10969921,35912140,PMC10969921,cited it as support,cited it as support,States the NBAT1/miR-21-5p results in endometrial cancer as confirmed.
+journal,J Cancer,20627396>PMC6959022,20627396,PMC6959022,cited it as support,cited it as support,States the annexin A2 peptide activating JAK-STAT and MCP-1 as shown.
+journal,J Cancer,25060179>PMC5665030,25060179,PMC5665030,cited it as support,cited it as support,Uses the retracted meta-analysis as the evidence that MMP-7 predicts poor CRC prognosis.
+journal,J Cancer,25621061>PMC9174856,25621061,PMC9174856,cited it as support,cited it as support,States miR-133a inhibits CRC invasion via FSCN1 as the retracted study's result.
+journal,J Cancer,28534937>PMC8247393,28534937,PMC8247393,cited it as support,cited it as support,States MEG3 upregulating AIFM2 via miR-214 in T-LBL as found.
+journal,J Cancer,29445078>PMC7545670,29445078,PMC7545670,cited it as support,cited it as support,Reports the miR-144/RUNX1 ovarian result in text and table.
+journal,J Cancer,30676784>PMC10539556,30676784,PMC10539556,cited it as support,mentioned it in passing,"Cited for a generic claim that miR-424 is linked to invasion and metastasis, not the hepatoma result."
+journal,J Cancer,30791958>PMC11310873,30791958,PMC11310873,cited it as support,cited it as support,Sole citation for LINC00968 attenuating breast cancer drug resistance (list item).
+journal,J Cancer,31539135>PMC8965134,31539135,PMC8965134,cited it as support,cited it as support,Relies on the retracted glioma study for miR-130b-3p's effects (statement garbled but rests on it).
+journal,J Cancer,31564913>PMC11660139,31564913,PMC11660139,cited it as support,cited it as support,Sole citation for miR-675 acting as a tumour suppressor via MAPK in thyroid cancer.
+journal,J Cancer,36017155>PMC11632979,36017155,PMC11632979,cited it as support,cited it as support,Uses the retracted study as the prior evidence for FUNDC1 in HCC progression and immunity.
+journal,Medicine (Baltimore),14722058>PMC7447366,14722058,PMC7447366,cited it as support,cited it as support,Sole citation for mPGES-1 being altered in IBD.
+journal,Medicine (Baltimore),19040571>PMC6531223,19040571,PMC6531223,cited it as support,cited it as support,Reports the retracted study's alpha7 nAChR expression ranking in lung cancers.
+journal,Medicine (Baltimore),19607689>PMC7302662,19607689,PMC7302662,cited it as support,cited it as support,Sole citation for acupuncture raising endorphins and substance P.
+journal,Medicine (Baltimore),22318734>PMC7360247,22318734,PMC7360247,cited it as support,cited it as support,States salvaged dysferlin restores membrane resealing as the retracted study showed.
+journal,Medicine (Baltimore),24252176>PMC10063264,24252176,PMC10063264,cited it as support,cited it as support,States the enrichment-after-mTBI results as the retracted study's findings.
+journal,Medicine (Baltimore),24305048>PMC5228706,24305048,PMC5228706,cited it as support,cited it as support,"Sole citation for ceRNAs acting in metastasis (list item, weak)."
+journal,Medicine (Baltimore),28421384>PMC9524897,28421384,PMC9524897,cited it as support,cited it as support,States the Guolin-Qigong anxiety reduction as shown by the retracted trial.
+journal,Medicine (Baltimore),31793706>PMC10082291,31793706,PMC10082291,cited it as support,cited it as support,States TNF-alpha lowers miR-145 in aortic endothelial cells as found.
+journal,Medicine (Baltimore),33464758>PMC12303425,33464758,PMC12303425,cited it as support,cited it as support,Uses the retracted phase 1 trial as evidence that ciprofol doses were safe.
+journal,Medicine (Baltimore),35463653>PMC11365669,35463653,PMC11365669,cited it as support,cited it as support,Reports the retracted study's claim that US-guided nerve blocks work and keep vital signs stable.
+journal,Molecules,17903207>PMC7696052,17903207,PMC7696052,cited it as support,mentioned it in passing,The retracted review is cited for general statements about macrophage NO and inflammation.
+journal,Molecules,18163565>PMC5943923,18163565,PMC5943923,cited it as support,mentioned it in passing,"Cited for a generic statement that isothiocyanates are protective, not the retracted heart study's result."
+journal,Molecules,19190327>PMC6413012,19190327,PMC6413012,cited it as support,cited it as support,Reports the zerumbone RANKL/NF-kB and osteolysis results in text and table.
+journal,Molecules,21753854>PMC7795772,21753854,PMC7795772,cited it as support,cited it as support,States piperlongumine selectively kills cancer cells as the retracted screen found.
+journal,Molecules,29960169>PMC11085520,29960169,PMC11085520,cited it as support,cited it as support,Sole citation for A. sinensis polysaccharide protecting H9c2 cells via miR-22.
+journal,Molecules,30368518>PMC9227697,30368518,PMC9227697,cited it as support,cited it as support,Reports the KYZ3 STAT3 results with IC50 values in text and table.
+journal,Molecules,31094031>PMC9781648,31094031,PMC9781648,cited it as support,cited it as support,States sinomenine protects ATDC5 cells via miR-192 as reported.
+journal,Molecules,31243880>PMC10818773,31243880,PMC10818773,cited it as support,cited it as support,Reports the sinomenine/miR-204 GC results in text and table.
+journal,Molecules,31626920>PMC8510452,31626920,PMC8510452,cited it as support,cited it as support,Reports the retracted pomegranate diet result on fish mortality as found.
+journal,Molecules,32277648>PMC8874997,32277648,PMC8874997,cited it as support,cited it as support,States berberine blocks gastric cancer invasion via JNK/p38 as shown.
+journal,Noncoding RNA Res,22899565>PMC11250886,22899565,PMC11250886,cited it as support,cited it as support,Sole citation for hesperetin's anti-proliferative effect in colon cancer.
+journal,Noncoding RNA Res,24035906>PMC11250886,24035906,PMC11250886,cited it as support,cited it as support,Describes the circRNA sponge results as demonstrated efficacy.
+journal,Noncoding RNA Res,26341496>PMC9361211,26341496,PMC9361211,cited it as support,cited it as support,Sole citation for HOTAIR acting via Wnt/beta-catenin (list item).
+journal,Noncoding RNA Res,28732288>PMC11417496,28732288,PMC11417496,cited it as support,cited it as support,Review table row presents the retracted HOTAIR/miR-138 RA finding.
+journal,Noncoding RNA Res,29157986>PMC10950597,29157986,PMC10950597,cited it as support,cited it as support,Reports the MIAT/miR-93/TLR4 result as evidence.
+journal,Noncoding RNA Res,30417553>PMC10950597,30417553,PMC10950597,cited it as support,cited it as support,Sole citation for MEG3 suppressing PI3K/AKT/mTOR in glioma.
+journal,Noncoding RNA Res,31371979>PMC10950570,31371979,PMC10950570,cited it as support,cited it as support,States miR-936 targeting FGF2 in ovarian cancer as proven.
+journal,Noncoding RNA Res,32179451>PMC11254504,32179451,PMC11254504,cited it as support,cited it as support,Reports the PVT1/miR-17-5p/PTEN result in PCOS in text and table.
+journal,Noncoding RNA Res,32190008>PMC11250880,32190008,PMC11250880,cited it as support,"other: wrong reference, or not about the paper","Arrowed reference is attributed to a different circRNA (circ_0008367), not the retracted circ_0008035 study."
+journal,Noncoding RNA Res,33347877>PMC10209650,33347877,PMC10209650,cited it as support,cited it as support,Table row presents the retracted exosomal let-7a finding.
+journal,Onco Targets Ther,15879012>PMC4211860,15879012,PMC4211860,cited it as support,cited it as support,Reports the retracted Gendicine/TACE case as clinical evidence.
+journal,Onco Targets Ther,21078664>PMC5261847,21078664,PMC5261847,cited it as support,cited it as support,"Sole citation for DR4/DR5 upregulation enhancing TRAIL apoptosis, the retracted study's finding."
+journal,Onco Targets Ther,24240111>PMC5916454,24240111,PMC5916454,cited it as support,cited it as support,Presents PF-4989216 as a candidate therapy for PIK3CA-mutant SCLC on the retracted study's evidence.
+journal,Onco Targets Ther,25926384>PMC6091470,25926384,PMC6091470,cited it as support,"other: wrong reference, or not about the paper","Cited as showing miR-497 is a downregulated tumour suppressor in CRC, the opposite of the retracted paper's claim that it promotes metastasis."
+journal,Onco Targets Ther,26214494>PMC6885654,26214494,PMC6885654,cited it as support,cited it as support,Repeatedly presents propofol's suppression of GC cells via miR-221 as established.
+journal,Onco Targets Ther,26550248>PMC7494231,26550248,PMC7494231,cited it as support,cited it as support,Sole citation for the NRF2/KEAP1 link in gastric cancer (list item).
+journal,Onco Targets Ther,28260102>PMC6578570,28260102,PMC6578570,cited it as support,cited it as support,States the MALAT1/miR-124 tongue cancer result as reported fact.
+journal,Onco Targets Ther,28368401>PMC7041611,28368401,PMC7041611,cited it as support,cited it as support,Sole citation for circRNA dysregulation in oral cancer (list item; second passage is a mismatched claim).
+journal,Onco Targets Ther,28368401>PMC7334013,28368401,PMC7334013,cited it as support,cited it as support,"Sole citation for circRNA-miRNA interaction in oral cancer (list item, weak)."
+journal,Onco Targets Ther,29143985>PMC11542476,29143985,PMC11542476,cited it as support,cited it as support,"Relies on the THBS2/PI3K-AKT apoptosis result, though it calls the cancer colon rather than gastric."
+journal,Oncol Rep,21829575>PMC6775811,21829575,PMC6775811,cited it as support,cited it as support,Reports the retracted silymarin migration results in detail and compares its own.
+journal,Oncol Rep,24305048>PMC5783590,24305048,PMC5783590,cited it as support,mentioned it in passing,"Cited for general HMGA2 biology in embryonic development, not the ceRNA lung cancer result."
+journal,Oncol Rep,29200874>PMC7934214,29200874,PMC7934214,cited it as support,cited it as support,Presents the miR-126/miR-34a oncolytic adenovirus result in text and table.
+journal,Oncol Rep,30121199>PMC7709825,30121199,PMC7709825,cited it as support,cited it as support,Sole citation for miR-494 restraining Nrf2 signalling (list item).
+journal,Oncol Rep,31118676>PMC11253085,31118676,PMC11253085,cited it as support,cited it as support,States miR-143-3p targets CTNND1 in CRC in text and table.
+journal,Oncol Rep,32647692>PMC10308456,32647692,PMC10308456,cited it as support,cited it as support,Sole citation for artesunate's MEK/ERK and PI3K/Akt effects in leukaemia cells (list item).
+journal,Oncol Rep,32764963>PMC11253085,32764963,PMC11253085,cited it as support,cited it as support,States PVT1 raises NOP2 via miR-143-3p in prostate cancer in text and table.
+journal,Oncol Rep,33064959>PMC10807360,33064959,PMC10807360,cited it as support,mentioned it in passing,Cited only inside a range of nine references for mTORC2 inhibitors in pancreatic cancer.
+journal,Oncol Rep,33510938>PMC10777459,33510938,PMC10777459,cited it as support,cited it as support,Sole citation for METTL3 m6A driving EMT in lung cancer (list item).
+journal,Oncol Rep,35126924>PMC10308491,35126924,PMC10308491,cited it as support,cited it as support,States miR-483 targets NDRG2 to promote CRC as the retracted study showed.
+journal,Oncotarget,14709792>PMC5029690,14709792,PMC5029690,cited it as support,cited it as support,Sole citation for HSP90 overexpression in malignant pheochromocytoma (list item).
+journal,Oncotarget,15700311>PMC5752468,15700311,PMC5752468,cited it as support,cited it as support,Sole citation for RPRM hypermethylation in non-malignant gastric epithelium (list item).
+journal,Oncotarget,16157701>PMC5348427,16157701,PMC5348427,cited it as support,cited it as support,Sole citation for reduced FOXO1 in alveolar rhabdomyosarcoma (list item).
+journal,Oncotarget,18718126>PMC5029656,18718126,PMC5029656,cited it as support,cited it as support,States the saponin fraction inhibited HL-60 proliferation and induced apoptosis.
+journal,Oncotarget,20530680>PMC5095022,20530680,PMC5095022,cited it as support,cited it as support,"States miR-31 represses RhoA, ITGA5 and RDX to block breast cancer metastasis as reported."
+journal,Oncotarget,22621320>PMC5641175,22621320,PMC5641175,cited it as support,mentioned it in passing,"Cited as one item for the well-known myostatin role in muscle wasting, background rather than its tumour-factor result."
+journal,Oncotarget,22621620>PMC5762575,22621620,PMC5762575,cited it as support,cited it as support,Reports the retracted study's claim that TCR-transduced gamma-delta T cells were more effective.
+journal,Oncotarget,23272116>PMC5522315,23272116,PMC5522315,cited it as support,cited it as support,Relies on the retracted finding that EMT confers anoikis resistance.
+journal,Oncotarget,24305048>PMC5029620,24305048,PMC5029620,cited it as support,cited it as support,States the HMGA2 3'UTR promotes lung cancer transformation in vitro and in vivo.
+journal,Oncotarget,26125902>PMC5589676,26125902,PMC5589676,cited it as support,cited it as support,Systematic review counts the retracted study among its included prognostic studies.
+journal,PLoS One,12034030>PMC4595202,12034030,PMC4595202,cited it as support,cited it as support,Meta-analysis counts the retracted study as an included data row.
+journal,PLoS One,15222900>PMC4963129,15222900,PMC4963129,cited it as support,cited it as support,Cites the retracted TREEFINDER paper for the software used (tool citation; that retraction was not about data).
+journal,PLoS One,16618605>PMC3883652,16618605,PMC3883652,cited it as support,cited it as support,Cites the retracted study's TLR/integrin/TGF-beta finding as earlier evidence.
+journal,PLoS One,17327231>PMC3842420,17327231,PMC3842420,cited it as support,cited it as support,Sole citation for IL-15/IL-15Ra being released as a soluble complex.
+journal,PLoS One,19015639>PMC2942851,19015639,PMC2942851,cited it as support,cited it as support,Relies on the retracted study for E2F1 exclusion leading to chromatin remodelling.
+journal,PLoS One,20798047>PMC3445615,20798047,PMC3445615,cited it as support,cited it as support,Uses primers the retracted XMRV/MLV study showed to work and repeats its CFS finding unflagged.
+journal,PLoS One,20929972>PMC7302686,20929972,PMC7302686,cited it as support,cited it as support,Sole citation for raised cervical abnormality risk in SLE (list item).
+journal,PLoS One,2452833>PMC3723876,2452833,PMC3723876,cited it as support,cited it as support,Sole citation for IL-1 inducing growth factor production by T cells (list item).
+journal,PLoS One,27072064>PMC5542509,27072064,PMC5542509,cited it as support,cited it as support,Cites the retracted study for its apoptosis scoring protocol (method citation).
+journal,PLoS One,33860460>PMC10843119,33860460,PMC10843119,cited it as support,cited it as support,States roflumilast enhanced synaptic plasticity and memory in rats as found.
+journal,Sci Rep,18494624>PMC7419495,18494624,PMC7419495,cited it as support,cited it as support,States manuka honey healed diabetic wounds via pH reduction as the retracted study found.
+journal,Sci Rep,21305343>PMC4763198,21305343,PMC4763198,cited it as support,cited it as support,Sole citation for fenofibrate protecting the liver from I/R injury (list item).
+journal,Sci Rep,21740098>PMC11408589,21740098,PMC11408589,cited it as support,cited it as support,Takes the cholesterol concentration and its effect on entrapment from the retracted study.
+journal,Sci Rep,21933391>PMC4870704,21933391,PMC4870704,cited it as support,mentioned it in passing,"Every passage cites it only together with reference 24, which the codebook counts as perfunctory."
+journal,Sci Rep,29364485>PMC7035273,29364485,PMC7035273,cited it as support,cited it as support,Sole citation for FGF23 inducing renal interstitial fibrosis.
+journal,Sci Rep,31969042>PMC11603152,31969042,PMC11603152,cited it as support,cited it as support,Uses the retracted deep-learning model as a comparison baseline for its own results (borderline).
+journal,Sci Rep,34630991>PMC10894250,34630991,PMC10894250,cited it as support,mentioned it in passing,Single-cited sentences are a general remark on wrapper methods and a description of what was proposed; the accuracy figure sits in an uncited next sentence (borderline).
+journal,Sci Rep,34919542>PMC11514278,34919542,PMC11514278,cited it as support,cited it as support,Says analogous germination results were observed in the retracted chickpea study.
+journal,Sci Rep,35222885>PMC11538306,35222885,PMC11538306,cited it as support,mentioned it in passing,"Cited for the standard accuracy formula, a definition rather than its result."
+journal,Sci Rep,35237690>PMC12929605,35237690,PMC12929605,cited it as support,cited it as support,"Says the UPRmt causal relationship was confirmed, citing the retracted study alone."
+paper,12609035,12609035>PMC10984862,12609035,PMC10984862,cited it as support,cited it as support,Method only: uses the P19 suppressor construct from the paper.
+paper,12609035,12609035>PMC11415240,12609035,PMC11415240,cited it as support,cited it as support,Method only: uses the 35S::p19 plasmid from the paper.
+paper,12609035,12609035>PMC11629743,12609035,PMC11629743,cited it as support,cited it as support,"Method only: p19 co-infiltrated in all experiments, citing the paper."
+paper,12609035,12609035>PMC11799908,12609035,PMC11799908,cited it as support,cited it as support,Method only: co-expresses with the p19 suppressor strain from the paper.
+paper,12609035,12609035>PMC4754535,12609035,PMC4754535,cited it as support,cited it as support,"Method only: includes p19 to reduce silencing, citing the paper."
+paper,12609035,12609035>PMC5385521,12609035,PMC5385521,cited it as support,cited it as support,Method only: co-infiltrates p19 in pBIN61 to enhance expression.
+paper,12609035,12609035>PMC5405970,12609035,PMC5405970,cited it as support,cited it as support,Method only: co-infiltrates the p19 silencing suppressor strain.
+paper,12609035,12609035>PMC5534519,12609035,PMC5534519,cited it as support,cited it as support,States the paper's result that p19 raised GFP expression 50-fold as fact.
+paper,12609035,12609035>PMC5888981,12609035,PMC5888981,cited it as support,cited it as support,Method only: uses the pBIN61-P19 strain and adapts the expression protocol from the paper.
+paper,12609035,12609035>PMC5921532,12609035,PMC5921532,cited it as support,cited it as support,Method only: uses the pCaMV35S:p19 construct from the paper.
+paper,12609035,12609035>PMC6913711,12609035,PMC6913711,cited it as support,cited it as support,Method only: transient expression done according to Voinnet et al. 2003 (p19 system).
+paper,12609035,12609035>PMC7285161,12609035,PMC7285161,cited it as support,cited it as support,Method only: infiltration buffer and OD600 conditions taken from the paper.
+paper,12609035,12609035>PMC7336373,12609035,PMC7336373,cited it as support,cited it as support,Method only: uses the p19 suppressor construct from the paper.
+paper,12609035,12609035>PMC7465787,12609035,PMC7465787,cited it as support,cited it as support,"Method only: co-infiltrates p19 to limit silencing, citing the paper."
+paper,12609035,12609035>PMC9884027,12609035,PMC9884027,cited it as support,cited it as support,Method only: uses the P19 Agrobacterium strain from the paper in infiltrations.
+paper,15604363,15604363>PMC10981885,15604363,PMC10981885,cited it as support,cited it as support,States the paper's tissue-expression pattern for visfatin as fact.
+paper,15604363,15604363>PMC11144723,15604363,PMC11144723,cited it as support,mentioned it in passing,Only credits the paper with discovering the protein; nothing rests on its results.
+paper,15604363,15604363>PMC12588879,15604363,PMC12588879,cited it as support,cited it as support,States as reported fact that visfatin mimics insulin and lowers glucose.
+paper,15604363,15604363>PMC2905911,15604363,PMC2905911,cited it as support,flagged it as retracted or unreliable,Says recent results excluded the insulin-receptor mechanism the paper reported.
+paper,15604363,15604363>PMC3214353,15604363,PMC3214353,cited it as support,mentioned it in passing,"Only contrasts its own result with the paper among several studies, quotes its title, and cites it in a group."
+paper,15604363,15604363>PMC3221028,15604363,PMC3221028,cited it as support,cited it as support,Presents the paper's finding that visfatin relates to insulin sensitivity as a valid prior result.
+paper,15604363,15604363>PMC3649306,15604363,PMC3649306,cited it as support,cited it as support,"States that visfatin has insulin-like effects and lowers glucose in mice, citing the paper."
+paper,15604363,15604363>PMC3655867,15604363,PMC3655867,cited it as support,"other: wrong reference, or not about the paper","The same reference also backs resistin claims the visfatin paper never made, so the citation likely points to a different source."
+paper,15604363,15604363>PMC3765747,15604363,PMC3765747,cited it as support,cited it as support,States the paper's finding that the molecule is expressed in adipose tissue.
+paper,15604363,15604363>PMC3991522,15604363,PMC3991522,cited it as support,cited it as support,"States that visfatin binds the insulin receptor and mimics insulin, citing the paper."
+paper,15604363,15604363>PMC4166205,15604363,PMC4166205,cited it as support,cited it as support,States the paper's visceral-fat expression finding and insulin-mimetic action as fact.
+paper,15604363,15604363>PMC6878710,15604363,PMC6878710,cited it as support,cited it as support,States that recombinant visfatin was shown to bind the insulin receptor and raise glucose uptake.
+paper,15604363,15604363>PMC7096459,15604363,PMC7096459,cited it as support,cited it as support,Presents visfatin as first identified as a visceral-fat adipokine per the paper; the insulin-receptor claim is hedged as superseded.
+paper,15604363,15604363>PMC7696687,15604363,PMC7696687,cited it as support,flagged it as retracted or unreliable,Elsewhere in the paper (outside the census window) it notes the retraction of some visfatin insulin-receptor data.
+paper,15604363,15604363>PMC8269388,15604363,PMC8269388,cited it as support,mentioned it in passing,Lists insulin mimicry only as one proposed role among several.
+paper,15833829,15833829>PMC10513094,15833829,PMC10513094,cited it as support,cited it as support,Cites the paper for fat stem cells immortalizing in long-term culture.
+paper,15833829,15833829>PMC3203738,15833829,PMC3203738,cited it as support,cited it as support,Cites the paper for prolonged culture causing neoplastic transformation of ADSCs.
+paper,15833829,15833829>PMC3514047,15833829,PMC3514047,cited it as support,flagged it as retracted or unreliable,The same section later says the transformation was an HT1080 cross-contamination artifact.
+paper,15833829,15833829>PMC4533800,15833829,PMC4533800,cited it as support,cited it as support,"States as fact that long-cultured MSCs transform spontaneously, citing the paper."
+paper,15833829,15833829>PMC4601861,15833829,PMC4601861,cited it as support,cited it as support,States that the paper showed long-cultured ASCs can immortalize and transform.
+paper,15833829,15833829>PMC4762113,15833829,PMC4762113,cited it as support,cited it as support,Reports the paper's immortalisation and spontaneous transformation finding as a real risk.
+paper,15833829,15833829>PMC4880954,15833829,PMC4880954,cited it as support,flagged it as retracted or unreliable,The next sentence (outside the census window) says the study was retracted because of a contaminating cell line.
+paper,15833829,15833829>PMC5085986,15833829,PMC5085986,cited it as support,cited it as support,Cites the paper for neoplastic transformation of ASCs after four months of culture.
+paper,15833829,15833829>PMC5118416,15833829,PMC5118416,cited it as support,cited it as support,Cites the paper's in-vitro abnormalities after passaging as a real caution.
+paper,15833829,15833829>PMC5822963,15833829,PMC5822963,cited it as support,cited it as support,Cites the paper alone for the risk of tumour formation from stem cells.
+paper,15833829,15833829>PMC6580016,15833829,PMC6580016,cited it as support,cited it as support,"Cites the paper, misstated, for spontaneous mutations in long-term MSC culture."
+paper,15833829,15833829>PMC7555322,15833829,PMC7555322,cited it as support,cited it as support,Cites the paper for cultured stem cells turning into cancer cells.
+paper,15833829,15833829>PMC7588840,15833829,PMC7588840,cited it as support,cited it as support,Cites the paper as a report that ex vivo MSC expansion causes spontaneous malignant change.
+paper,15833829,15833829>PMC8781097,15833829,PMC8781097,cited it as support,"other: wrong reference, or not about the paper","Ref 83 is Rubio 2005, but it is cited for better healing in head and neck cancer after soft-tissue filling, which the paper does not report."
+paper,15833829,15833829>PMC9387309,15833829,PMC9387309,cited it as support,cited it as support,Cites the paper for karyotypic abnormalities in passaged ADSCs as a safety concern.
+paper,17715156,17715156>PMC12552689,17715156,PMC12552689,cited it as support,cited it as support,Cites the paper for miR-1 targeting heat shock proteins to drive apoptosis.
+paper,17715156,17715156>PMC3409211,17715156,PMC3409211,cited it as support,cited it as support,Treats the paper's pro- and anti-apoptotic roles of miR-1 and miR-133 as known.
+paper,17715156,17715156>PMC3528764,17715156,PMC3528764,cited it as support,mentioned it in passing,Cited only for the textbook fact that miR-1 and miR-133 are expressed in heart and skeletal muscle.
+paper,17715156,17715156>PMC3694448,17715156,PMC3694448,cited it as support,cited it as support,"States that miR-133 has opposing apoptotic effects via HSP60/70 and caspase-9, citing the paper."
+paper,17715156,17715156>PMC4190440,17715156,PMC4190440,cited it as support,cited it as support,States the paper's HSP60/HSP70 and caspase-9 targeting results as fact.
+paper,17715156,17715156>PMC4519775,17715156,PMC4519775,cited it as support,cited it as support,"Cites the paper, slightly misstated, for miR-133 suppressing apoptosis via Hsp70."
+paper,17715156,17715156>PMC4827073,17715156,PMC4827073,cited it as support,cited it as support,Restates the paper's oxidative-stress miR-1/HSP70 apoptosis result in detail.
+paper,17715156,17715156>PMC4895272,17715156,PMC4895272,cited it as support,mentioned it in passing,Cited for the general statement that miRNAs regulate apoptosis.
+paper,17715156,17715156>PMC4943944,17715156,PMC4943944,cited it as support,cited it as support,Uses the paper's miR-1/miR-133 apoptosis finding to interpret its own results.
+paper,17715156,17715156>PMC5094948,17715156,PMC5094948,cited it as support,cited it as support,States the paper's finding that miR-1 is pro-apoptotic and miR-133 anti-apoptotic.
+paper,17715156,17715156>PMC5304257,17715156,PMC5304257,cited it as support,cited it as support,A table row credits the paper for miR-133 targeting caspase-9 with an anti-apoptotic role.
+paper,17715156,17715156>PMC5979519,17715156,PMC5979519,cited it as support,cited it as support,Cites the paper for miR-133 repressing caspase-9.
+paper,17715156,17715156>PMC7664614,17715156,PMC7664614,cited it as support,cited it as support,Describes the paper's opposing miR-1/miR-133 effects as a demonstrated result.
+paper,17715156,17715156>PMC7875238,17715156,PMC7875238,cited it as support,cited it as support,"A table row credits the paper alone for miR-1 targeting HSP60/HSP70, though the row's vitiligo details look mixed with another source."
+paper,17715156,17715156>PMC8019842,17715156,PMC8019842,cited it as support,cited it as support,Cites the paper alone for miR-1's role in apoptosis and myocardial ischaemic injury.
+paper,18453793,18453793>PMC11086791,18453793,PMC11086791,cited it as support,cited it as support,Instrument only: measures adherence with the MMAS-8.
+paper,18453793,18453793>PMC11309676,18453793,PMC11309676,cited it as support,cited it as support,Instrument only: uses the MMAS-8 and its adherence cut-offs.
+paper,18453793,18453793>PMC11353715,18453793,PMC11353715,cited it as support,cited it as support,Instrument only: applies the 8-item scale and its cut-offs.
+paper,18453793,18453793>PMC11401307,18453793,PMC11401307,cited it as support,cited it as support,"Uses the scale as rigorously validated with shown reliability and validity, resting on the paper."
+paper,18453793,18453793>PMC11465833,18453793,PMC11465833,cited it as support,cited it as support,"States the paper's retracted validity results (alpha 0.83, link to blood-pressure control) as fact."
+paper,18453793,18453793>PMC11491311,18453793,PMC11491311,cited it as support,cited it as support,Instrument only: measures ART adherence with the MMAS-8.
+paper,18453793,18453793>PMC11707837,18453793,PMC11707837,cited it as support,mentioned it in passing,Only names the MMAS in a list of available adherence scales.
+paper,18453793,18453793>PMC11829210,18453793,PMC11829210,cited it as support,cited it as support,Instrument only: measures HBV adherence with the MMAS-8.
+paper,18453793,18453793>PMC11879294,18453793,PMC11879294,cited it as support,cited it as support,Instrument only: uses the MMAS-8 and its cut-offs.
+paper,18453793,18453793>PMC12281826,18453793,PMC12281826,cited it as support,cited it as support,Instrument only: uses the MMAS-8.
+paper,18453793,18453793>PMC12491024,18453793,PMC12491024,cited it as support,cited it as support,"Instrument use, calling the MMAS-8 validated on the paper's authority."
+paper,18453793,18453793>PMC12625146,18453793,PMC12625146,cited it as support,cited it as support,Instrument only: uses the MMAS to measure adherence.
+paper,18453793,18453793>PMC13369247,18453793,PMC13369247,cited it as support,mentioned it in passing,Cited in a group of five references listing tools used across studies.
+paper,18453793,18453793>PMC13414886,18453793,PMC13414886,cited it as support,"other: wrong reference, or not about the paper","Cites Morisky 2008 for a Chinese EQ-5D-5L utility table, which that paper does not contain; a miscitation."
+paper,18453793,18453793>PMC13454762,18453793,PMC13454762,cited it as support,flagged it as retracted or unreliable,"Names the scale via the paper and, in the same paragraph, says the original MMAS-8 publication has been retracted."
+paper,19772305,19772305>PMC10143637,19772305,PMC10143637,cited it as support,cited it as support,States that the paper first showed nanotubes enter tomato seed coats and raise water uptake.
+paper,19772305,19772305>PMC12329905,19772305,PMC12329905,cited it as support,cited it as support,Cites the paper for nanotubes entering seed coats and improving germination.
+paper,19772305,19772305>PMC4014205,19772305,PMC4014205,cited it as support,cited it as support,Says the paper showed tomato seedlings absorb nanotubes and that water uptake raised germination.
+paper,19772305,19772305>PMC4038422,19772305,PMC4038422,cited it as support,cited it as support,States the paper's seed-coat entry and water-uptake results as found.
+paper,19772305,19772305>PMC4113778,19772305,PMC4113778,cited it as support,cited it as support,Cites the paper for nanotubes entering tomato seeds.
+paper,19772305,19772305>PMC4278344,19772305,PMC4278344,cited it as support,cited it as support,Reports the paper's germination figures (90% vs 71%) as a finding.
+paper,19772305,19772305>PMC4897911,19772305,PMC4897911,cited it as support,cited it as support,Cites the paper as giving optical evidence of nanotube uptake.
+paper,19772305,19772305>PMC4898372,19772305,PMC4898372,cited it as support,cited it as support,Describes the paper's seed-coat entry and germination results as the first evidence of benefit.
+paper,19772305,19772305>PMC6100068,19772305,PMC6100068,cited it as support,cited it as support,Method only: seed sterilization procedure taken from the paper; the other hit is a group citation.
+paper,19772305,19772305>PMC6353767,19772305,PMC6353767,cited it as support,cited it as support,Cites the paper for nanotubes at 10-40 mg/L sharply raising tomato germination and growth.
+paper,19772305,19772305>PMC7246787,19772305,PMC7246787,cited it as support,cited it as support,"Lists the paper's tomato germination and biomass gains as results, in text and tables."
+paper,19772305,19772305>PMC8459368,19772305,PMC8459368,cited it as support,cited it as support,Cites the paper for nanotubes entering thick seed coats.
+paper,19772305,19772305>PMC8912827,19772305,PMC8912827,cited it as support,"other: wrong reference, or not about the paper","Cited for stress-gene up-regulation, which the 2009 paper did not report; likely a later Khodakovskaya paper."
+paper,19772305,19772305>PMC8950276,19772305,PMC8950276,cited it as support,cited it as support,Cites the paper for seed-coat entry and water uptake behind the growth effect.
+paper,19772305,19772305>PMC8950913,19772305,PMC8950913,cited it as support,cited it as support,Cites the paper alone for nanotubes being shown to raise germination and growth.
+paper,19918075,19918075>PMC10067483,19918075,PMC10067483,cited it as support,cited it as support,PGC1-a signalling prevents sarcopenia.
+paper,19918075,19918075>PMC5659061,19918075,PMC5659061,cited it as support,cited it as support,Wenz et al. showed overexpression prevented atrophy and extended life span.
+paper,19918075,19918075>PMC6458556,19918075,PMC6458556,cited it as support,cited it as support,Overexpression in old mice prevented atrophy and insulin resistance.
+paper,19918075,19918075>PMC6696113,19918075,PMC6696113,cited it as support,cited it as support,"Higher PGC1a in old mice: less oxidative stress, inflammation."
+paper,19918075,19918075>PMC7113536,19918075,PMC7113536,cited it as support,cited it as support,"LC3-II up-regulation in a sarcopenia model, cited as a finding."
+paper,19918075,19918075>PMC7218978,19918075,PMC7218978,cited it as support,cited it as support,Overexpression lowered IL-6/TNF-a.
+paper,19918075,19918075>PMC7302154,19918075,PMC7302154,cited it as support,cited it as support,"Mitochondrial biogenesis preserves muscle mass, cited to the paper."
+paper,19918075,19918075>PMC7503908,19918075,PMC7503908,cited it as support,cited it as support,Upregulation attenuates mitochondrial dysfunction and sarcopenia.
+paper,19918075,19918075>PMC8350689,19918075,PMC8350689,cited it as support,cited it as support,Age-dependent PGC-1a decline cited to the paper.
+paper,19918075,19918075>PMC8490744,19918075,PMC8490744,cited it as support,cited it as support,Insulin sensitivity benefit of PGC-1a attributed to the paper.
+paper,19918075,19918075>PMC8869656,19918075,PMC8869656,cited it as support,"other: wrong reference, or not about the paper",Adipocyte dysfunction / NF-kB claim the paper does not make; likely mislinked.
+paper,19918075,19918075>PMC8942428,19918075,PMC8942428,cited it as support,cited it as support,PPARGC1A overexpression mitigates sarcopenia.
+paper,19918075,19918075>PMC9101554,19918075,PMC9101554,cited it as support,cited it as support,Restates the title finding.
+paper,19918075,19918075>PMC9582522,19918075,PMC9582522,cited it as support,"other: wrong reference, or not about the paper",IGF-1/PI3K claim; likely mislinked.
+paper,19918075,19918075>PMC9782515,19918075,PMC9782515,cited it as support,cited it as support,"Transgenic mice: longer life, resistance to obesity and diabetes."
+paper,21753854,21753854>PMC11096327,21753854,PMC11096327,cited it as support,cited it as support,"Restates the paper's selective oxidative-stress mechanism (GSTP1, CBR1) as fact."
+paper,21753854,21753854>PMC12183059,21753854,PMC12183059,cited it as support,cited it as support,Cites the paper for PL killing cancer cells via ROS without raising ROS in normal cells.
+paper,21753854,21753854>PMC6449919,21753854,PMC6449919,cited it as support,cited it as support,A drug table cites the paper for piperlongumine's anti-cancer properties.
+paper,21753854,21753854>PMC6861633,21753854,PMC6861633,cited it as support,cited it as support,Uses the paper's cancer-selectivity and GSTP1 mechanism to benchmark its own hit.
+paper,21753854,21753854>PMC6877958,21753854,PMC6877958,cited it as support,cited it as support,Cites the paper alone for ROS mediating selective killing of cancer cells.
+paper,21753854,21753854>PMC6939652,21753854,PMC6939652,cited it as support,cited it as support,"States that piperlongumine selectively kills cancer cells but not normal cells, citing the paper."
+paper,21753854,21753854>PMC7591508,21753854,PMC7591508,cited it as support,cited it as support,Cites the paper alone for cancer cells being more sensitive to oxidative stress than normal cells.
+paper,21753854,21753854>PMC7795772,21753854,PMC7795772,cited it as support,cited it as support,Cites the paper's screen as showing PL kills cancer cells selectively.
+paper,21753854,21753854>PMC7903972,21753854,PMC7903972,cited it as support,cited it as support,Cites the paper for PL raising p53/PUMA and lowering pro-survival proteins in cancer cells.
+paper,21753854,21753854>PMC8074261,21753854,PMC8074261,cited it as support,cited it as support,Cites the paper for piperlongumine's low toxicity and oral bioavailability.
+paper,21753854,21753854>PMC8651289,21753854,PMC8651289,cited it as support,mentioned it in passing,Meta-research table lists the paper among those picked for replication; no reliance on its results.
+paper,21753854,21753854>PMC9409298,21753854,PMC9409298,cited it as support,cited it as support,Method only: cites the paper for using NAC as a ROS inhibitor.
+paper,21753854,21753854>PMC9635433,21753854,PMC9635433,cited it as support,cited it as support,Cites the paper for ROS-driven selective killing of cancer cells.
+paper,21753854,21753854>PMC9669594,21753854,PMC9669594,cited it as support,cited it as support,Cites the paper alone for PL acting through ROS accumulation.
+paper,21753854,21753854>PMC9881195,21753854,PMC9881195,cited it as support,cited it as support,Builds its rationale on the paper's finding that PL kills cancer cells selectively by inducing ROS.
+paper,21772732,21772732>PMC10024317,21772732,PMC10024317,cited it as support,cited it as support,Method only: cites the overview for block randomization allocation.
+paper,21772732,21772732>PMC10395843,21772732,PMC10395843,cited it as support,cited it as support,Method only: cites the overview for a block randomization procedure.
+paper,21772732,21772732>PMC11095706,21772732,PMC11095706,cited it as support,cited it as support,Method only: cites the overview for randomizing animals by tumour size.
+paper,21772732,21772732>PMC11275076,21772732,PMC11275076,cited it as support,cited it as support,Method only: cites the overview for the block randomization technique.
+paper,21772732,21772732>PMC11603153,21772732,PMC11603153,cited it as support,cited it as support,Method only: cites the overview for simple randomization.
+paper,21772732,21772732>PMC13488088,21772732,PMC13488088,cited it as support,cited it as support,Method only: cites the overview for simple randomization.
+paper,21772732,21772732>PMC6485816,21772732,PMC6485816,cited it as support,cited it as support,Method only: cites the overview for using block randomization.
+paper,21772732,21772732>PMC6982360,21772732,PMC6982360,cited it as support,cited it as support,Method only: cites the overview for nonstratified block randomization.
+paper,21772732,21772732>PMC7338782,21772732,PMC7338782,cited it as support,cited it as support,Method only: cites the overview for random assignment with online software.
+paper,21772732,21772732>PMC7382793,21772732,PMC7382793,cited it as support,cited it as support,Method only: cites the overview for computer-generated random numbers.
+paper,21772732,21772732>PMC8377702,21772732,PMC8377702,cited it as support,cited it as support,Presents a claim attributed to the overview (randomization often fails to balance confounders) as shown.
+paper,21772732,21772732>PMC8430718,21772732,PMC8430718,cited it as support,cited it as support,Method only: cites the overview for block randomisation of participants.
+paper,21772732,21772732>PMC8860492,21772732,PMC8860492,cited it as support,cited it as support,Method only: cites the overview for coin-toss randomization; the table hits are stray reference numbers.
+paper,21772732,21772732>PMC9435385,21772732,PMC9435385,cited it as support,cited it as support,Method only: cites the overview for simple random allocation by the chit method.
+paper,21772732,21772732>PMC9586722,21772732,PMC9586722,cited it as support,cited it as support,Method only: cites the overview for Fisher's randomization technique.
+paper,24711954,24711954>PMC10496761,24711954,PMC10496761,cited it as support,cited it as support,Cites the review alone for MetS being linked to higher leptin and IL-1 beta.
+paper,24711954,24711954>PMC10957696,24711954,PMC10957696,cited it as support,"other: wrong reference, or not about the paper","Cites ""Kaur 2014"" for niclosamide in MetS, which this review does not cover; likely a different source."
+paper,24711954,24711954>PMC11438483,24711954,PMC11438483,cited it as support,mentioned it in passing,"Cites the review for general COPD and MetS naming background, not its content."
+paper,24711954,24711954>PMC13218083,24711954,PMC13218083,cited it as support,cited it as support,Review figure: reports the review's claim that about 25% of adults have MetS.
+paper,24711954,24711954>PMC7175042,24711954,PMC7175042,cited it as support,cited it as support,"Review figure: uses the review's fold-risk numbers for diabetes, CVD, stroke and MI."
+paper,24711954,24711954>PMC7218069,24711954,PMC7218069,cited it as support,mentioned it in passing,Cites the review for a general insulin-lipogenesis mechanism used as background.
+paper,24711954,24711954>PMC7413996,24711954,PMC7413996,cited it as support,cited it as support,Review figure: reports the review's 10-84% prevalence by population.
+paper,24711954,24711954>PMC7567201,24711954,PMC7567201,cited it as support,cited it as support,Review figure: cites the review alone for MetS doubling CVD risk and raising diabetes risk five-fold.
+paper,24711954,24711954>PMC7721212,24711954,PMC7721212,cited it as support,cited it as support,Review figure: reports the review's prevalence ranges by BMI and age.
+paper,24711954,24711954>PMC7767256,24711954,PMC7767256,cited it as support,cited it as support,Review figure: cites the review for a worldwide prevalence of about 84% (a misreading of its range).
+paper,24711954,24711954>PMC8308366,24711954,PMC8308366,cited it as support,cited it as support,Review figure: cites the review's prevalence range and its IL-6 correlations.
+paper,24711954,24711954>PMC8385560,24711954,PMC8385560,cited it as support,mentioned it in passing,Cites the review for a general statement about drug side effects in MetS treatment.
+paper,24711954,24711954>PMC8398762,24711954,PMC8398762,cited it as support,cited it as support,Review figure: cites the review for prevalence reaching about 80%.
+paper,24711954,24711954>PMC8564990,24711954,PMC8564990,cited it as support,cited it as support,Review figure: cites the review's 10-84% global prevalence range.
+paper,24711954,24711954>PMC9326538,24711954,PMC9326538,cited it as support,cited it as support,Review figure: reports the review's 10-84% prevalence.
+paper,28368401,28368401>PMC11881191,28368401,PMC11881191,cited it as support,cited it as support,Reports the paper's circRNA_100290/miR-29b/CDK6 pathway in OSCC as shown.
+paper,28368401,28368401>PMC11973036,28368401,PMC11973036,cited it as support,cited it as support,Cites the paper alone for miR-29 as a prognostic marker in oral squamous cell carcinoma.
+paper,28368401,28368401>PMC7047435,28368401,PMC7047435,cited it as support,cited it as support,Cites the paper alone as the oral-cancer example of circRNAs in tumours.
+paper,28368401,28368401>PMC7057816,28368401,PMC7057816,cited it as support,cited it as support,Reports the paper's finding that circ_100290 is upregulated and drives oral cancer via miR-29/CDK6.
+paper,28368401,28368401>PMC7186775,28368401,PMC7186775,cited it as support,cited it as support,Cites the paper for circRNA_100290 sponging the miR-29 family in oral cancer.
+paper,28368401,28368401>PMC7334013,28368401,PMC7334013,cited it as support,cited it as support,Cites the paper alone as the oral-cancer example of circRNA-miRNA interaction.
+paper,28368401,28368401>PMC7658378,28368401,PMC7658378,cited it as support,cited it as support,Cites the paper alone as the oral-cancer case of circRNA dysregulation.
+paper,28368401,28368401>PMC8039208,28368401,PMC8039208,cited it as support,cited it as support,Cites the paper for circRNA_100290 acting on CDK6 via miR-29 in OSCC.
+paper,28368401,28368401>PMC8064214,28368401,PMC8064214,cited it as support,cited it as support,Cites the paper for circRNA_100290 sponging miR-29b to regulate CDK6.
+paper,28368401,28368401>PMC8302139,28368401,PMC8302139,cited it as support,cited it as support,Cites the paper alone as the oral-cancer example of circRNA carcinogenesis.
+paper,28368401,28368401>PMC8513283,28368401,PMC8513283,cited it as support,cited it as support,Reports the paper's finding that circRNA_100290 regulates the miR-29 family in oral cancer.
+paper,28368401,28368401>PMC8524891,28368401,PMC8524891,cited it as support,cited it as support,Cites the paper for circRNA_100290 promoting oral cancer.
+paper,28368401,28368401>PMC8666285,28368401,PMC8666285,cited it as support,cited it as support,Reports the paper's upregulation and CDK6/miR-29b sponging result in text and a table.
+paper,28368401,28368401>PMC8973616,28368401,PMC8973616,cited it as support,cited it as support,Cites the paper for circRNA_100290 promoting oral cancer by sponging miR-29.
+paper,28368401,28368401>PMC9100602,28368401,PMC9100602,cited it as support,cited it as support,Cites the paper for circRNA_100290 acting as a ceRNA for CDK6 by sponging miR-29b.
+paper,30193239,30193239>PMC10021551,30193239,PMC10021551,cited it as support,cited it as support,Cites the paper for staff burnout as a factor in patient safety.
+paper,30193239,30193239>PMC10157943,30193239,PMC10157943,cited it as support,cited it as support,Cites the paper for burned-out clinicians being at higher risk of harming patients.
+paper,30193239,30193239>PMC11094957,30193239,PMC11094957,cited it as support,"other: wrong reference, or not about the paper","The same reference is used for a review of burnout interventions, so it is likely Panagioti 2017 (interventions), not the retracted 2018 paper."
+paper,30193239,30193239>PMC11330859,30193239,PMC11330859,cited it as support,mentioned it in passing,The only real use is a grouped citation [1-4]; the table hit is a garbled superscript.
+paper,30193239,30193239>PMC7904297,30193239,PMC7904297,cited it as support,cited it as support,"Cites the paper for burnout being tied to safety incidents, low professionalism and lower satisfaction."
+paper,30193239,30193239>PMC8069627,30193239,PMC8069627,cited it as support,cited it as support,Cites the paper for patients rating burned-out clinicians lower.
+paper,30193239,30193239>PMC8318147,30193239,PMC8318147,cited it as support,"other: wrong reference, or not about the paper","Cited for DASS-21 validity results, which have nothing to do with the paper; likely a wrong reference match."
+paper,30193239,30193239>PMC8507633,30193239,PMC8507633,cited it as support,cited it as support,Cites the paper as the meta-analysis showing burnout is linked to patient safety.
+paper,30193239,30193239>PMC8635641,30193239,PMC8635641,cited it as support,"other: wrong reference, or not about the paper","Passages are about workplace violence toward physicians, which the paper did not address; likely a wrong reference match."
+paper,30193239,30193239>PMC8811459,30193239,PMC8811459,cited it as support,cited it as support,"Cites the 47-study, 42,473-physician meta-analysis as showing burnout affects patient safety."
+paper,30193239,30193239>PMC9093651,30193239,PMC9093651,cited it as support,cited it as support,"States the 2018 meta-analysis finding that burnout harms patient safety, care quality and satisfaction."
+paper,30193239,30193239>PMC9158305,30193239,PMC9158305,cited it as support,cited it as support,"Cites the paper for burnout being linked to safety events, poorer care and lower satisfaction."
+paper,30193239,30193239>PMC9196029,30193239,PMC9196029,cited it as support,cited it as support,Cites the paper alone for burnout causing medical errors and lower care quality.
+paper,30193239,30193239>PMC9281982,30193239,PMC9281982,cited it as support,cited it as support,Cites the paper alone for physician burnout lowering patient satisfaction.
+paper,30193239,30193239>PMC9536518,30193239,PMC9536518,cited it as support,cited it as support,Cites the paper for burnout being linked to lower professionalism and patient safety.
+paper,32286091,32286091>PMC11504835,32286091,PMC11504835,cited it as support,"other: wrong reference, or not about the paper","The fatigue 63%, sleep 26% and anxiety 23% figures come from a different Huang study, not this one; a miscitation."
+paper,32286091,32286091>PMC11649555,32286091,PMC11649555,cited it as support,"other: wrong reference, or not about the paper","Cited for the 15-20-year shorter life expectancy in schizophrenia, which the paper never studied; a miscitation."
+paper,32286091,32286091>PMC7668285,32286091,PMC7668285,cited it as support,cited it as support,"Cites the paper for high anxiety, stress and depression among Chinese medical staff."
+paper,32286091,32286091>PMC7857980,32286091,PMC7857980,cited it as support,cited it as support,Reports the paper's finding that health workers who thought more about the outbreak had more problems.
+paper,32286091,32286091>PMC7920474,32286091,PMC7920474,cited it as support,cited it as support,"Cites the paper for higher depression and anxiety under age 35, in support of its own results."
+paper,32286091,32286091>PMC7946321,32286091,PMC7946321,cited it as support,cited it as support,Meta-analysis counts the paper (ref 44) among its 55 included studies.
+paper,32286091,32286091>PMC8208774,32286091,PMC8208774,cited it as support,cited it as support,"Reports the paper's 37.37% anxiety rate among 2,250 health workers."
+paper,32286091,32286091>PMC8235082,32286091,PMC8235082,cited it as support,"other: wrong reference, or not about the paper","Cited for an Italian lockdown study of young adults, which is not this paper; a miscitation."
+paper,32286091,32286091>PMC8266633,32286091,PMC8266633,cited it as support,cited it as support,Meta-analysis lists the paper as an included study and extracts its prevalence data.
+paper,32286091,32286091>PMC8542799,32286091,PMC8542799,cited it as support,cited it as support,Reports the paper's 35.1% anxiety prevalence as a finding.
+paper,32286091,32286091>PMC8568275,32286091,PMC8568275,cited it as support,cited it as support,Cites the paper alone for young people being at higher risk.
+paper,32286091,32286091>PMC8809129,32286091,PMC8809129,cited it as support,cited it as support,"Reports the paper's 18% poor-sleep rate in 7,236 Chinese adults as a finding."
+paper,32286091,32286091>PMC8943357,32286091,PMC8943357,cited it as support,cited it as support,"Meta-analysis includes the paper's data, merged with its unretracted twin (Psychiatry Res 2020, same sample)."
+paper,32286091,32286091>PMC9141890,32286091,PMC9141890,cited it as support,cited it as support,Reports the paper's finding that under-35s had more depression and anxiety.
+paper,32286091,32286091>PMC9883055,32286091,PMC9883055,cited it as support,"other: wrong reference, or not about the paper","Attributes a claim about company profits and worker health to the paper, which it does not contain."
+paper,32356626,32356626>PMC11284692,32356626,PMC11284692,cited it as support,mentioned it in passing,Cited for a general cytokine and heart-damage mechanism that the paper did not study.
+paper,32356626,32356626>PMC7308629,32356626,PMC7308629,cited it as support,"other: wrong reference, or not about the paper","Garbled: the arrow sits in an infection-control list unrelated to the paper, likely a reference-number mismatch."
+paper,32356626,32356626>PMC7577279,32356626,PMC7577279,cited it as support,cited it as support,Presents the paper as new evidence that RAAS drugs do not worsen COVID-19 and may reduce inflammation.
+paper,32356626,32356626>PMC7771377,32356626,PMC7771377,cited it as support,cited it as support,Uses the paper's arrhythmia odds ratio of 1.95 for in-hospital death.
+paper,32356626,32356626>PMC7775794,32356626,PMC7775794,cited it as support,mentioned it in passing,Cited for general statements about cardiac care burden that do not rest on the paper's results.
+paper,32356626,32356626>PMC7863036,32356626,PMC7863036,cited it as support,cited it as support,Review counts the paper among its ten appraised observational studies and rates it as high quality.
+paper,32356626,32356626>PMC7868677,32356626,PMC7868677,cited it as support,cited it as support,"Reports the paper's finding that those who died had more coronary disease, heart failure and arrhythmia."
+paper,32356626,32356626>PMC8230847,32356626,PMC8230847,cited it as support,cited it as support,Lists the paper's risk factors for in-hospital death as established findings.
+paper,32356626,32356626>PMC8243370,32356626,PMC8243370,cited it as support,cited it as support,Reports the paper's lower in-hospital mortality with ACEI as a finding.
+paper,32356626,32356626>PMC8294691,32356626,PMC8294691,cited it as support,cited it as support,Cites the paper as evidence that cardiovascular disease raises in-hospital COVID-19 mortality.
+paper,32356626,32356626>PMC8479451,32356626,PMC8479451,cited it as support,cited it as support,Cites the paper alone for the observed link between cardiovascular events and COVID-19.
+paper,32356626,32356626>PMC9143631,32356626,PMC9143631,cited it as support,mentioned it in passing,"Cited for general COVID-19 background (fatality, WHO naming) that does not rest on the paper's data."
+paper,32356626,32356626>PMC9206216,32356626,PMC9206216,cited it as support,cited it as support,"Presents the 8,910-patient finding (comorbidity, not ACEI/ARB, linked to death) as confirmed and undisputed."
+paper,32356626,32356626>PMC9437522,32356626,PMC9437522,cited it as support,cited it as support,"States that prior coronary disease raises in-hospital COVID-19 death risk, citing only the paper."
+paper,32356626,32356626>PMC9452130,32356626,PMC9452130,cited it as support,cited it as support,Reports the paper's ACEI/ARB mortality odds ratios as valid evidence.
+paper,32450107,32450107>PMC10016996,32450107,PMC10016996,cited it as support,cited it as support,Reports the registry's lower survival and more arrhythmias with the drugs as findings.
+paper,32450107,32450107>PMC10328169,32450107,PMC10328169,cited it as support,cited it as support,"Says the paper ""conclusively assessed"" the drugs and found no benefit."
+paper,32450107,32450107>PMC11335168,32450107,PMC11335168,cited it as support,cited it as support,Reports the paper's mortality figures and hazard ratio as findings.
+paper,32450107,32450107>PMC7454434,32450107,PMC7454434,cited it as support,cited it as support,Cites the paper as an observational analysis tying hydroxychloroquine to higher in-hospital mortality.
+paper,32450107,32450107>PMC7524676,32450107,PMC7524676,cited it as support,flagged it as retracted or unreliable,The next sentences (outside the census window) call the paper fraudulent and say it was retracted.
+paper,32450107,32450107>PMC7656497,32450107,PMC7656497,cited it as support,cited it as support,States as fact that WHO suspended the drug pairing because the paper found more cardiac events.
+paper,32450107,32450107>PMC7822757,32450107,PMC7822757,cited it as support,mentioned it in passing,"Describes the Lancet study as ""claiming"" higher risk and notes the concern it raised; no reliance."
+paper,32450107,32450107>PMC8006633,32450107,PMC8006633,cited it as support,cited it as support,Cites the paper as research showing hydroxychloroquine has no benefit.
+paper,32450107,32450107>PMC8052528,32450107,PMC8052528,cited it as support,cited it as support,States that a large study found the drugs raise the risk of death.
+paper,32450107,32450107>PMC8056783,32450107,PMC8056783,cited it as support,mentioned it in passing,"Only records that regulators added safety checks after the paper's reports; a historical note, not reliance."
+paper,32450107,32450107>PMC8058706,32450107,PMC8058706,cited it as support,cited it as support,"Muddled, but cites the 96,032-patient analysis as evidence on hydroxychloroquine's benefit."
+paper,32450107,32450107>PMC8176881,32450107,PMC8176881,cited it as support,"other: wrong reference, or not about the paper","Cited for the FDA cancelling chloroquine's emergency authorization, which is not the paper's content; likely a wrong reference."
+paper,32450107,32450107>PMC8210417,32450107,PMC8210417,cited it as support,"other: wrong reference, or not about the paper","Describes a New York QTc study (23% prolonged), not the multinational registry; a miscitation."
+paper,32450107,32450107>PMC8299389,32450107,PMC8299389,cited it as support,flagged it as retracted or unreliable,The sentences after the window say the study caused controversy and was recently retracted.
+paper,32450107,32450107>PMC8877570,32450107,PMC8877570,cited it as support,cited it as support,Cites the paper alone as a study where HCQ treatment failed.
+paper,35480139,35480139>PMC10777047,35480139,PMC10777047,cited it as support,cited it as support,Review figure: cites the review for metastatic five-year survival under 30%.
+paper,35480139,35480139>PMC10845232,35480139,PMC10845232,cited it as support,mentioned it in passing,Cited as the IARC GLOBOCAN report for a well-known incidence fact; likely a loose or wrong reference.
+paper,35480139,35480139>PMC11047431,35480139,PMC11047431,cited it as support,cited it as support,Review figure: cites the review's high- vs low-income incidence rates.
+paper,35480139,35480139>PMC11288493,35480139,PMC11288493,cited it as support,mentioned it in passing,Compares its findings with textbook breast-cancer risk factors; nothing rests on the review's content.
+paper,35480139,35480139>PMC11397187,35480139,PMC11397187,cited it as support,cited it as support,Review figure: cites the review for metastatic five-year survival under 30%.
+paper,35480139,35480139>PMC11480388,35480139,PMC11480388,cited it as support,cited it as support,Review figure: cites the review as a study linking 35-44 g/day of alcohol to a 46% higher risk.
+paper,35480139,35480139>PMC11545256,35480139,PMC11545256,cited it as support,mentioned it in passing,"Cites the review for textbook risk factors (late childbirth, late menopause, oestrogen exposure)."
+paper,35480139,35480139>PMC11632411,35480139,PMC11632411,cited it as support,cited it as support,Review figure: cites the review for about 2.3 million new cases a year (a GLOBOCAN number).
+paper,35480139,35480139>PMC11782780,35480139,PMC11782780,cited it as support,cited it as support,Review figure: cites the review for breast cancer being 7-10% of all tumours.
+paper,35480139,35480139>PMC12123721,35480139,PMC12123721,cited it as support,mentioned it in passing,General statement that screening and treatment advances raised survival.
+paper,35480139,35480139>PMC12182699,35480139,PMC12182699,cited it as support,cited it as support,"Review figure: cites the review's ""one in four develop, one in eight die"" figures."
+paper,35480139,35480139>PMC12301772,35480139,PMC12301772,cited it as support,cited it as support,Review figure: cites the review for a five-year survival under 30% even with chemotherapy.
+paper,35480139,35480139>PMC12414292,35480139,PMC12414292,cited it as support,mentioned it in passing,General statement that burden varies with human development.
+paper,35480139,35480139>PMC12534352,35480139,PMC12534352,cited it as support,cited it as support,Review figure: cites the review's 2040 incidence projections.
+paper,35480139,35480139>PMC12537639,35480139,PMC12537639,cited it as support,mentioned it in passing,General statement that breast cancer leads female cancer incidence.

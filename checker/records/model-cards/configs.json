@@ -1,0 +1,298 @@
+{
+ "kimi_off": {
+  "model": "@cf/moonshotai/kimi-k2.6",
+  "arm": "thinking off",
+  "enable_thinking": null,
+  "reasoning_effort": "none",
+  "temperature": 0.6,
+  "max_tokens": 2000,
+  "use_max_completion_tokens": true,
+  "timeout": 300,
+  "json_schema": true,
+  "extra": {
+   "top_p": 0.95,
+   "logprobs": true,
+   "top_logprobs": 20
+  }
+ },
+ "kimi_on": {
+  "model": "@cf/moonshotai/kimi-k2.6",
+  "arm": "thinking on",
+  "enable_thinking": null,
+  "reasoning_effort": "high",
+  "temperature": 1.0,
+  "max_tokens": 16000,
+  "use_max_completion_tokens": true,
+  "timeout": 900,
+  "json_schema": true,
+  "extra": {
+   "top_p": 0.95
+  },
+  "repeats": 3,
+  "workers": 16
+ },
+ "deepseek_off": {
+  "model": "@cf/deepseek-ai/deepseek-v4.1-flash-1017",
+  "arm": "thinking off",
+  "enable_thinking": null,
+  "reasoning_effort": "none",
+  "temperature": 1.0,
+  "max_tokens": 2000,
+  "use_max_completion_tokens": true,
+  "timeout": 300,
+  "json_schema": true,
+  "extra": {
+   "top_p": 1.0,
+   "logprobs": true,
+   "top_logprobs": 20
+  }
+ },
+ "deepseek_on": {
+  "model": "@cf/deepseek-ai/deepseek-v4.1-flash-1017",
+  "arm": "thinking on",
+  "enable_thinking": null,
+  "reasoning_effort": "high",
+  "temperature": 1.0,
+  "max_tokens": 16000,
+  "use_max_completion_tokens": true,
+  "timeout": 900,
+  "json_schema": true,
+  "extra": {
+   "top_p": 1.0,
+   "n": 3
+  },
+  "workers": 10
+ },
+ "qwen_off": {
+  "model": "@cf/qwen/qwen3.8-27b",
+  "arm": "thinking off",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 0.7,
+  "max_tokens": 2000,
+  "use_max_completion_tokens": true,
+  "timeout": 300,
+  "json_schema": true,
+  "extra": {
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "top_p": 0.8,
+   "presence_penalty": 1.5,
+   "logprobs": true,
+   "top_logprobs": 20
+  }
+ },
+ "qwen_on": {
+  "model": "@cf/qwen/qwen3.8-27b",
+  "arm": "thinking on",
+  "enable_thinking": null,
+  "reasoning_effort": "medium",
+  "temperature": 1.0,
+  "max_tokens": 16000,
+  "use_max_completion_tokens": true,
+  "timeout": 900,
+  "json_schema": true,
+  "extra": {
+   "chat_template_kwargs": {
+    "enable_thinking": true
+   },
+   "top_p": 0.95,
+   "n": 3
+  },
+  "workers": 10
+ },
+ "glm_off": {
+  "model": "@cf/zai-org/glm-5.2",
+  "arm": "thinking off",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 1.0,
+  "max_tokens": 2000,
+  "use_max_completion_tokens": true,
+  "timeout": 300,
+  "json_schema": true,
+  "extra": {
+   "top_p": 0.95,
+   "logprobs": true,
+   "top_logprobs": 20,
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   }
+  }
+ },
+ "glm_on": {
+  "model": "@cf/zai-org/glm-5.2",
+  "arm": "thinking on",
+  "enable_thinking": null,
+  "reasoning_effort": "high",
+  "temperature": 1.0,
+  "max_tokens": 16000,
+  "use_max_completion_tokens": true,
+  "timeout": 900,
+  "json_schema": true,
+  "extra": {
+   "top_p": 0.95,
+   "n": 3
+  },
+  "workers": 10
+ },
+ "gemma_off": {
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "arm": "thinking off",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 1.0,
+  "max_tokens": 2000,
+  "use_max_completion_tokens": true,
+  "timeout": 300,
+  "json_schema": true,
+  "extra": {
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "top_p": 0.95,
+   "logprobs": true,
+   "top_logprobs": 20
+  }
+ },
+ "gemma_on": {
+  "model": "@cf/google/gemma-4-26b-a4b-it",
+  "arm": "thinking on",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 1.0,
+  "max_tokens": 8000,
+  "use_max_completion_tokens": true,
+  "timeout": 600,
+  "json_schema": true,
+  "extra": {
+   "chat_template_kwargs": {
+    "enable_thinking": true
+   },
+   "top_p": 0.95
+  },
+  "workers": 16,
+  "repeats": 3
+ },
+ "nemotron_off": {
+  "model": "@cf/nvidia/nemotron-3-120b-a12b",
+  "arm": "thinking off",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 1.0,
+  "max_tokens": 2000,
+  "use_max_completion_tokens": true,
+  "timeout": 300,
+  "json_schema": true,
+  "extra": {
+   "chat_template_kwargs": {
+    "enable_thinking": false
+   },
+   "top_p": 0.95,
+   "logprobs": true,
+   "top_logprobs": 20
+  }
+ },
+ "nemotron_on": {
+  "model": "@cf/nvidia/nemotron-3-120b-a12b",
+  "arm": "thinking on, low effort",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 1.0,
+  "max_tokens": 8000,
+  "use_max_completion_tokens": true,
+  "timeout": 600,
+  "json_schema": true,
+  "extra": {
+   "chat_template_kwargs": {
+    "enable_thinking": true,
+    "low_effort": true,
+    "force_nonempty_content": true
+   },
+   "top_p": 0.95,
+   "n": 3
+  },
+  "workers": 10
+ },
+ "gptoss_med": {
+  "model": "@cf/openai/gpt-oss-120b",
+  "arm": "reasoning medium",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 1.0,
+  "max_tokens": 12000,
+  "use_max_completion_tokens": false,
+  "timeout": 600,
+  "json_schema": true,
+  "repeats": 3,
+  "extra": {
+   "top_p": 1.0,
+   "reasoning": {
+    "effort": "medium"
+   }
+  },
+  "workers": 12
+ },
+ "gptoss_high": {
+  "model": "@cf/openai/gpt-oss-120b",
+  "arm": "reasoning high",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 1.0,
+  "max_tokens": 12000,
+  "use_max_completion_tokens": false,
+  "timeout": 900,
+  "json_schema": true,
+  "repeats": 3,
+  "extra": {
+   "top_p": 1.0,
+   "reasoning": {
+    "effort": "high"
+   }
+  },
+  "workers": 12
+ },
+ "llama": {
+  "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "arm": "no reasoning mode",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 0.6,
+  "max_tokens": 1500,
+  "use_max_completion_tokens": false,
+  "timeout": 300,
+  "json_schema": true,
+  "repeats": 3,
+  "extra": {
+   "top_p": 0.9
+  }
+ },
+ "mistral": {
+  "model": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "arm": "no reasoning mode",
+  "enable_thinking": null,
+  "reasoning_effort": null,
+  "temperature": 0.15,
+  "max_tokens": 1500,
+  "use_max_completion_tokens": false,
+  "timeout": 300,
+  "json_schema": "guided_json",
+  "repeats": 3,
+  "extra": {}
+ },
+ "clef": {
+  "model": "@cf/cloudflare/clef",
+  "kind": "typed",
+  "arm": "4 option orders",
+  "permutations": 4,
+  "workers": 4
+ },
+ "jev": {
+  "model": "typesafe/jev",
+  "kind": "typed",
+  "arm": "4 option orders",
+  "permutations": 4,
+  "workers": 4
+ }
+}

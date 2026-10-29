@@ -1,0 +1,11 @@
+rank,journal,cited_as_support,judged,share_as_support,flagged,papers_citing_as_support,second_reading_read,second_reading_confirmed
+1,Front Mol Biosci,70,116,0.603448275862069,0,57,9,9
+2,Noncoding RNA Res,67,115,0.5826086956521739,1,42,9,9
+3,Cell Commun Signal,64,110,0.5818181818181818,0,54,8,8
+4,Front Cell Dev Biol,163,295,0.5525423728813559,3,134,8,8
+5,Cancer Cell Int,143,259,0.5521235521235521,1,116,9,7
+6,Onco Targets Ther,62,115,0.5391304347826087,0,62,7,6
+7,Bioengineered,83,157,0.5286624203821656,0,77,8,8
+8,Front Pharmacol,348,680,0.5117647058823529,7,320,10,8
+9,Discov Oncol,106,208,0.5096153846153846,0,92,9,8
+10,Front Neurosci,51,101,0.504950495049505,7,48,9,8

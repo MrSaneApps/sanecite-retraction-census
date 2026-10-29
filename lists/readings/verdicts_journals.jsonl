@@ -1,0 +1,260 @@
+{"pair_id": "31836919>PMC10382028", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "Table row and text attribute decreased PD-L1 in Jurkat cells to the retracted study, unflagged."}
+{"pair_id": "25311085>PMC8582349", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "States the Hotair/miR-568/NFAT5 mechanism as the retracted study's finding."}
+{"pair_id": "24984017>PMC8144459", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "Review table row lists the retracted study's miR-204/SOX4 finding."}
+{"pair_id": "30621700>PMC10134903", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "Reports the retracted study's miR-195-5p tissue measurements as evidence."}
+{"pair_id": "16127174>PMC7930745", "group": "Front Mol Biosci", "verdict": "REJECT_OTHER", "reason": "Cited for a TMEM16A silencing result the uPA/uPAR paper did not report; miscitation."}
+{"pair_id": "31637704>PMC8874010", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "States circFNDC3B's role in RCC signalling as the retracted study's result."}
+{"pair_id": "24255131>PMC9465715", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "Describes the ST6Gal1 overexpression and knockdown experiments as established results."}
+{"pair_id": "29277893>PMC9560780", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "Uses the retracted study's DCLK1 silencing result in CRC as support."}
+{"pair_id": "33968206>PMC8918680", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "Presents the retracted oncolytic HSV findings in gastric cancer as support for the approach."}
+{"pair_id": "29454093>PMC8960148", "group": "Front Mol Biosci", "verdict": "CONFIRM", "reason": "Sole citation for circRNA involvement in pancreatic cancer in a list (weak, intro list item)."}
+{"pair_id": "17210694>PMC10506215", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "Relies on the retracted study for PGK1 secretion and metastasis effects in prostate cancer."}
+{"pair_id": "31144388>PMC10478474", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "Reports the PRC1 silencing results in retinoblastoma as valid findings."}
+{"pair_id": "35978332>PMC10795323", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "States the NAT10 ac4C mechanism in PDAC as the retracted study's finding."}
+{"pair_id": "21860410>PMC11492701", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "Sole citation for HIF-1-assisted extravasation, the retracted study's claim."}
+{"pair_id": "28692662>PMC11040964", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "Reports the retracted mouse infection result on p53/p21 as demonstrated."}
+{"pair_id": "26976451>PMC11488203", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "Relies on the retracted miR-454/SDF-1 binding result to frame its own hypothesis."}
+{"pair_id": "25104350>PMC7281690", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "Review table row lists the retracted miR-378 fibrosis finding."}
+{"pair_id": "37576407>PMC11492701", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "States the miR-4780 neutrophil EV finding as fact."}
+{"pair_id": "26675721>PMC12178073", "group": "Cell Commun Signal", "verdict": "REJECT_OTHER", "reason": "Cited for a DDX5/TBK1 interferon claim that is not what the retracted Rmrp/TH17 paper reported."}
+{"pair_id": "22912826>PMC4117189", "group": "Cell Commun Signal", "verdict": "CONFIRM", "reason": "Reports miR-338-3p targeting cyclin D1 as the retracted study's result."}
+{"pair_id": "28732288>PMC11417496", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "Review table row presents the retracted HOTAIR/miR-138 RA finding."}
+{"pair_id": "32179451>PMC11254504", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "Reports the PVT1/miR-17-5p/PTEN result in PCOS in text and table."}
+{"pair_id": "32190008>PMC11250880", "group": "Noncoding RNA Res", "verdict": "REJECT_OTHER", "reason": "Arrowed reference is attributed to a different circRNA (circ_0008367), not the retracted circ_0008035 study."}
+{"pair_id": "24035906>PMC11250886", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "Describes the circRNA sponge results as demonstrated efficacy."}
+{"pair_id": "33347877>PMC10209650", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "Table row presents the retracted exosomal let-7a finding."}
+{"pair_id": "31371979>PMC10950570", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "States miR-936 targeting FGF2 in ovarian cancer as proven."}
+{"pair_id": "29157986>PMC10950597", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "Reports the MIAT/miR-93/TLR4 result as evidence."}
+{"pair_id": "22899565>PMC11250886", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "Sole citation for hesperetin's anti-proliferative effect in colon cancer."}
+{"pair_id": "26341496>PMC9361211", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "Sole citation for HOTAIR acting via Wnt/beta-catenin (list item)."}
+{"pair_id": "30417553>PMC10950597", "group": "Noncoding RNA Res", "verdict": "CONFIRM", "reason": "Sole citation for MEG3 suppressing PI3K/AKT/mTOR in glioma."}
+{"pair_id": "24240111>PMC5916454", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "Presents PF-4989216 as a candidate therapy for PIK3CA-mutant SCLC on the retracted study's evidence."}
+{"pair_id": "25926384>PMC6091470", "group": "Onco Targets Ther", "verdict": "REJECT_OTHER", "reason": "Cited as showing miR-497 is a downregulated tumour suppressor in CRC, the opposite of the retracted paper's claim that it promotes metastasis."}
+{"pair_id": "15879012>PMC4211860", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "Reports the retracted Gendicine/TACE case as clinical evidence."}
+{"pair_id": "28260102>PMC6578570", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "States the MALAT1/miR-124 tongue cancer result as reported fact."}
+{"pair_id": "26550248>PMC7494231", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "Sole citation for the NRF2/KEAP1 link in gastric cancer (list item)."}
+{"pair_id": "28368401>PMC7041611", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "Sole citation for circRNA dysregulation in oral cancer (list item; second passage is a mismatched claim)."}
+{"pair_id": "29143985>PMC11542476", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "Relies on the THBS2/PI3K-AKT apoptosis result, though it calls the cancer colon rather than gastric."}
+{"pair_id": "21078664>PMC5261847", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "Sole citation for DR4/DR5 upregulation enhancing TRAIL apoptosis, the retracted study's finding."}
+{"pair_id": "28368401>PMC7334013", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "Sole citation for circRNA-miRNA interaction in oral cancer (list item, weak)."}
+{"pair_id": "26214494>PMC6885654", "group": "Onco Targets Ther", "verdict": "CONFIRM", "reason": "Repeatedly presents propofol's suppression of GC cells via miR-221 as established."}
+{"pair_id": "34168502>PMC8897953", "group": "Cancer Cell Int", "verdict": "REJECT_PASSING", "reason": "Cited only for general OSCC survival and recurrence statistics, not its own result."}
+{"pair_id": "26164001>PMC10544213", "group": "Cancer Cell Int", "verdict": "CONFIRM", "reason": "States SENP6 deSUMOylation of FOXM1 promoting GC growth as fact."}
+{"pair_id": "31391063>PMC10770979", "group": "Cancer Cell Int", "verdict": "CONFIRM", "reason": "Reports the MACC1-AS1 knockdown result in text and table."}
+{"pair_id": "30430634>PMC9461221", "group": "Cancer Cell Int", "verdict": "CONFIRM", "reason": "Describes the HAGLROS/miR-100/ATG5 results as established."}
+{"pair_id": "36193123>PMC12273008", "group": "Cancer Cell Int", "verdict": "CONFIRM", "reason": "Review tables list the retracted study's CTC numbers and prognostic findings."}
+{"pair_id": "29424922>PMC10337107", "group": "Cancer Cell Int", "verdict": "CONFIRM", "reason": "States miR-182 inhibiting mTOR signalling in RCC as evidenced."}
+{"pair_id": "22484149>PMC9396820", "group": "Cancer Cell Int", "verdict": "CONFIRM", "reason": "Sole citation for curcumin delivery to brain by nanosystems (list item, weak)."}
+{"pair_id": "25157103>PMC6836386", "group": "Cancer Cell Int", "verdict": "REJECT_PASSING", "reason": "Single-cited passage is a broad background claim about p62/Nrf2 in tumours; other passages cite it in groups."}
+{"pair_id": "30949340>PMC12977789", "group": "Cancer Cell Int", "verdict": "CONFIRM", "reason": "Meta-analysis counts the retracted study as included data and the discussion relies on its SNHG7 result."}
+{"pair_id": "30385776>PMC7397601", "group": "Cancer Cell Int", "verdict": "CONFIRM", "reason": "States TET2 loss promoting breast cancer tumorigenesis via caspase-4 as fact."}
+{"pair_id": "35602346>PMC13017818", "group": "Front Cell Dev Biol", "verdict": "REJECT_PASSING", "reason": "Cited for textbook endometrial thickness and triple-line criteria, not the study's own result."}
+{"pair_id": "28608628>PMC11165363", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "States miR-143-5p targeting RUNX2 via OPG/RANKL as known."}
+{"pair_id": "25095974>PMC8056046", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "Sole citation for FXR regulating gastric cancer (list item, weak)."}
+{"pair_id": "24711954>PMC8415985", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "Takes cardiovascular and diabetes risk figures from the retracted review."}
+{"pair_id": "22493480>PMC12982390", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "Reports the PATZ1 knockout tumour phenotype as the retracted study's finding."}
+{"pair_id": "19168635>PMC9945545", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "States anthracyclines block HIF-1 DNA binding on the retracted study's evidence."}
+{"pair_id": "30139377>PMC9449368", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "Repeatedly presents the miR-126 exosome thrombosis results as fact."}
+{"pair_id": "32239675>PMC10413580", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "Reports the HO-1 overexpression results in nucleus pulposus cells as fact."}
+{"pair_id": "30367473>PMC10936223", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "States the HOTAIR knockdown radiosensitivity result in text and table."}
+{"pair_id": "21060833>PMC9045800", "group": "Front Cell Dev Biol", "verdict": "CONFIRM", "reason": "Relies on the retracted study for uPAR control of the Bcl-2/Bax ratio."}
+{"pair_id": "32198978>PMC11607202", "group": "Discov Oncol", "verdict": "REJECT_PASSING", "reason": "Table cites it only as an example of the overlapping lncRNA class, a definition rather than its result."}
+{"pair_id": "29943841>PMC11896959", "group": "Discov Oncol", "verdict": "CONFIRM", "reason": "Review table lists miR-198 down and its HGF/c-Met target from the retracted study."}
+{"pair_id": "30015837>PMC13350640", "group": "Discov Oncol", "verdict": "CONFIRM", "reason": "Sole citation for SNHG14-induced trastuzumab resistance via Bcl-2/BAX (list item)."}
+{"pair_id": "32884341>PMC11164845", "group": "Discov Oncol", "verdict": "CONFIRM", "reason": "States ZFAS1 sponging miR-421 to drive cisplatin resistance as the retracted study's result."}
+{"pair_id": "32764963>PMC12031705", "group": "Discov Oncol", "verdict": "REJECT_OTHER", "reason": "Cited for miR-15b-5p/LATS2 in prostate cancer, which does not match the retracted PVT1/NOP2 paper."}
+{"pair_id": "30791932>PMC11811353", "group": "Discov Oncol", "verdict": "CONFIRM", "reason": "Sole citation for Wnt inhibition suppressing nasopharyngeal carcinoma (list item, weak)."}
+{"pair_id": "30317640>PMC12098248", "group": "Discov Oncol", "verdict": "CONFIRM", "reason": "Reports the resistin/TLR4/CAP1/STAT3 chemoresistance result as found by the authors."}
+{"pair_id": "34103994>PMC11953504", "group": "Discov Oncol", "verdict": "CONFIRM", "reason": "States LINC-PINT restraining bladder cancer via miR-155-5p as reported fact."}
+{"pair_id": "35368958>PMC11700069", "group": "Discov Oncol", "verdict": "CONFIRM", "reason": "Relies on the SPINK5/PSIP1 rescue result in NSCLC cells."}
+{"pair_id": "30015825>PMC11183017", "group": "Discov Oncol", "verdict": "CONFIRM", "reason": "States miR-488 reduces osteosarcoma proliferation and EMT as fact."}
+{"pair_id": "31655854>PMC8291820", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "States chrysophanol's anti-tumour action in lung cancer via ROS/HIF-1a/VEGF as reported."}
+{"pair_id": "29445078>PMC8291797", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "Sole citation for miR-144-3p downregulation in ovarian cancer (list item)."}
+{"pair_id": "28381518>PMC8974110", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "Sole citation for EIF4G2 repression suppressing osteosarcoma (list item)."}
+{"pair_id": "32495864>PMC9208531", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "States circ_0061140 promoting bladder cancer via miR-1236 as reported (second passage mismatched)."}
+{"pair_id": "29377244>PMC9162020", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "Reports the miR-132/TRAF6 LPS injury result as found by the authors."}
+{"pair_id": "31858549>PMC9208492", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "States SNHG14 promotes LUAD via miR-613 as fact."}
+{"pair_id": "30209783>PMC8974140", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "Sole citation for matrine's therapeutic effect in malignancy (generic list item, weak)."}
+{"pair_id": "31059049>PMC8974004", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "States LINC01638 knockdown suppressing CRC proliferation via RUNX2 as fact."}
+{"pair_id": "32765702>PMC10841002", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "Cited for the luciferase assay protocol (method citation, counts as specific under the codebook)."}
+{"pair_id": "32190008>PMC8973856", "group": "Bioengineered", "verdict": "CONFIRM", "reason": "States the circ_0008035/miR-599/EIF4A1 result as fact, though it calls the cancer colorectal."}
+{"pair_id": "35419186>PMC11099244", "group": "Front Neurosci", "verdict": "REJECT_PASSING", "reason": "Listed in a critical table auditing data leakage in EEG studies (rated Unclear), not used as support."}
+{"pair_id": "22898818>PMC6213750", "group": "Front Neurosci", "verdict": "CONFIRM", "reason": "Reports SIRT2 deletion reducing MPTP damage via FOXO3a as shown."}
+{"pair_id": "23883936>PMC6529571", "group": "Front Neurosci", "verdict": "CONFIRM", "reason": "Uses the retracted study as the evidence that disease status alters genotype-expression links."}
+{"pair_id": "34621501>PMC10015606", "group": "Front Neurosci", "verdict": "CONFIRM", "reason": "States the 0.5 ug/kg dexmedetomidine benefit as the retracted trial's finding."}
+{"pair_id": "33578037>PMC9932922", "group": "Front Neurosci", "verdict": "CONFIRM", "reason": "Reports the circTulp4 neurite and AD findings as fact."}
+{"pair_id": "26567107>PMC8215678", "group": "Front Neurosci", "verdict": "CONFIRM", "reason": "Cites it for the ICH model protocol (method citation)."}
+{"pair_id": "19203584>PMC4635215", "group": "Front Neurosci", "verdict": "CONFIRM", "reason": "Relies on the retracted finding that DNA-PK activates caspase-2."}
+{"pair_id": "30048421>PMC9278698", "group": "Front Neurosci", "verdict": "CONFIRM", "reason": "Sole citation for Astragalus polysaccharide protecting neurons in a PD model (list item)."}
+{"pair_id": "23461657>PMC6213750", "group": "Front Neurosci", "verdict": "CONFIRM", "reason": "Uses the retracted study's finding that SIRT1 is unchanged after short OGD."}
+{"pair_id": "22393233>PMC6541114", "group": "Front Neurosci", "verdict": "REJECT_OTHER", "reason": "Cited for MLKL Thr357/Ser358 phosphorylation driving ROS, which the retracted GRIM-19/STAT3 paper did not report."}
+{"pair_id": "35126934>PMC10991850", "group": "Front Pharmacol", "verdict": "REJECT_OTHER", "reason": "Cited for LBP reducing Adriamycin immunotoxicity, which is not what the retracted liver-fibrosis/IoMT paper reported."}
+{"pair_id": "29973492>PMC12137275", "group": "Front Pharmacol", "verdict": "CONFIRM", "reason": "Review table lists glycyrrhizic acid's effect on alcoholic liver injury from the retracted study."}
+{"pair_id": "23749897>PMC6113671", "group": "Front Pharmacol", "verdict": "CONFIRM", "reason": "States DPPC is more abundant in HER2-positive tumours as the retracted study found."}
+{"pair_id": "30288025>PMC12497719", "group": "Front Pharmacol", "verdict": "CONFIRM", "reason": "Reports the LBP/MLTC-1 ER-stress results in text and a detailed table."}
+{"pair_id": "22162948>PMC5290458", "group": "Front Pharmacol", "verdict": "REJECT_PASSING", "reason": "Cited for a general mechanism (cytokines impair insulin signalling), not the retracted TLR2 knockout result."}
+{"pair_id": "29277893>PMC9201484", "group": "Front Pharmacol", "verdict": "CONFIRM", "reason": "States DCLK1 activating NF-kB and EMT via PI3K/Akt as the retracted study's finding."}
+{"pair_id": "31732527>PMC10203425", "group": "Front Pharmacol", "verdict": "CONFIRM", "reason": "Reports the luteolin allograft survival result as fact."}
+{"pair_id": "31752383>PMC11284502", "group": "Front Pharmacol", "verdict": "CONFIRM", "reason": "Reports acetylshikonin ROS/apoptosis results in HCC in text and table."}
+{"pair_id": "35633920>PMC9998491", "group": "Front Pharmacol", "verdict": "CONFIRM", "reason": "States chlorogenic acid reduced LPS-induced cytokines in BV2 cells as found."}
+{"pair_id": "32135185>PMC11754259", "group": "Front Pharmacol", "verdict": "CONFIRM", "reason": "States the METTL1/let-7e/HMGA2 axis in colon cancer in text and table."}
+{"pair_id": "20522778>PMC9847446", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "Sole citation for SPHK1 inhibition benefiting sepsis."}
+{"pair_id": "28260102>PMC8505617", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "States MALAT1 raising JAG1 via miR-124 as fact."}
+{"pair_id": "32396707>PMC9329358", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "Review table lists resibufogenin-induced pyroptosis from the retracted study."}
+{"pair_id": "24632577>PMC8358062", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "Sole citation for miR-210 promoting colorectal cancer metastasis (list item in table)."}
+{"pair_id": "33608454>PMC12501081", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "States IL-21 suppressing Th1/Th17 and worsening Chlamydia lung infection as the retracted finding."}
+{"pair_id": "31838274>PMC12339970", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "Review table lists the LINC01234/miR-31-5p/MAGEA3 cisplatin result."}
+{"pair_id": "28721581>PMC10808186", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "Sole citation for HOTAIR modulating chemotherapy via autophagy in endometrial cancer (list item)."}
+{"pair_id": "28653601>PMC8770558", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "States DEX inhibits osteosarcoma cells via miR-520a-3p as shown."}
+{"pair_id": "32396690>PMC9329358", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "Review table lists alpinumisoflavone GSDME pyroptosis in ESCC from the retracted study."}
+{"pair_id": "24305048>PMC5447127", "group": "Cell Death Discov", "verdict": "CONFIRM", "reason": "States the HMGA2 3'UTR ceRNA effect on let-7 in lung cancer as reported."}
+{"pair_id": "25621061>PMC9174856", "group": "J Cancer", "verdict": "CONFIRM", "reason": "States miR-133a inhibits CRC invasion via FSCN1 as the retracted study's result."}
+{"pair_id": "30676784>PMC10539556", "group": "J Cancer", "verdict": "REJECT_PASSING", "reason": "Cited for a generic claim that miR-424 is linked to invasion and metastasis, not the hepatoma result."}
+{"pair_id": "28534937>PMC8247393", "group": "J Cancer", "verdict": "CONFIRM", "reason": "States MEG3 upregulating AIFM2 via miR-214 in T-LBL as found."}
+{"pair_id": "25060179>PMC5665030", "group": "J Cancer", "verdict": "CONFIRM", "reason": "Uses the retracted meta-analysis as the evidence that MMP-7 predicts poor CRC prognosis."}
+{"pair_id": "20627396>PMC6959022", "group": "J Cancer", "verdict": "CONFIRM", "reason": "States the annexin A2 peptide activating JAK-STAT and MCP-1 as shown."}
+{"pair_id": "31564913>PMC11660139", "group": "J Cancer", "verdict": "CONFIRM", "reason": "Sole citation for miR-675 acting as a tumour suppressor via MAPK in thyroid cancer."}
+{"pair_id": "29445078>PMC7545670", "group": "J Cancer", "verdict": "CONFIRM", "reason": "Reports the miR-144/RUNX1 ovarian result in text and table."}
+{"pair_id": "30791958>PMC11310873", "group": "J Cancer", "verdict": "CONFIRM", "reason": "Sole citation for LINC00968 attenuating breast cancer drug resistance (list item)."}
+{"pair_id": "36017155>PMC11632979", "group": "J Cancer", "verdict": "CONFIRM", "reason": "Uses the retracted study as the prior evidence for FUNDC1 in HCC progression and immunity."}
+{"pair_id": "31539135>PMC8965134", "group": "J Cancer", "verdict": "CONFIRM", "reason": "Relies on the retracted glioma study for miR-130b-3p's effects (statement garbled but rests on it)."}
+{"pair_id": "28586066>PMC10978783", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "States miR-148a loss and its link to poor prognosis in pancreatic cancer on the retracted study's evidence."}
+{"pair_id": "29310682>PMC8666534", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "Three review tables list the retracted AFAP1-AS1 cell, xenograft and clinical results."}
+{"pair_id": "31061416>PMC11317299", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "Describes the retracted m6A/YTHDF1/Snail findings as demonstrated."}
+{"pair_id": "32903907>PMC9389335", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "States MAFG-AS1 drives ESCC via miR-143/LASP1 as an example finding."}
+{"pair_id": "33116856>PMC10580988", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "Review table lists the retracted MALAT1/miR-1271-5p cisplatin result."}
+{"pair_id": "36119927>PMC10860711", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "Uses the retracted SEER analysis's grade-survival finding and says its own data agree."}
+{"pair_id": "17079479>PMC8116711", "group": "Front Oncol", "verdict": "REJECT_OTHER", "reason": "Credits the preclinical genistein paper with a patient survival result and an inverted Akt/NF-kB claim; second passage is background."}
+{"pair_id": "33577844>PMC8828506", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "States exosomal miR-378b promotes HCC angiogenesis in text and table."}
+{"pair_id": "36212952>PMC11983647", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "Review tables list the retracted NEK2 RCC biomarker and Wnt findings."}
+{"pair_id": "24255131>PMC7841262", "group": "Front Oncol", "verdict": "CONFIRM", "reason": "States the retracted sialylation result on HCC invasion and chemosensitivity."}
+{"pair_id": "22326955>PMC10516301", "group": "Front Cardiovasc Med", "verdict": "CONFIRM", "reason": "Sole citation for trastuzumab activating NK cells (list item, weak)."}
+{"pair_id": "32669853>PMC13310670", "group": "Front Cardiovasc Med", "verdict": "CONFIRM", "reason": "States CCDC7 promotes cervical cancer via IL-6/VEGF/JAK-STAT3 as reported."}
+{"pair_id": "29669232>PMC10752922", "group": "Front Cardiovasc Med", "verdict": "REJECT_PASSING", "reason": "Cited for textbook uses of ambulatory BP monitoring, not the paper's mortality findings."}
+{"pair_id": "32086130>PMC11876399", "group": "Front Cardiovasc Med", "verdict": "CONFIRM", "reason": "Reports the miR-208a-5p/SOCS2 sepsis myocardial result in text and table."}
+{"pair_id": "31996667>PMC9251177", "group": "Front Cardiovasc Med", "verdict": "REJECT_OTHER", "reason": "Cited for andrographolide inhibiting valve calcification, which is not the retracted Schnurri-3/BMP9 paper's content."}
+{"pair_id": "32418959>PMC9872118", "group": "Front Cardiovasc Med", "verdict": "CONFIRM", "reason": "Sole citation for kaempferol acting via miR-15b/Bcl-2/TLR4 (list item)."}
+{"pair_id": "23447532>PMC8339264", "group": "Front Cardiovasc Med", "verdict": "CONFIRM", "reason": "Sole citation for miR-378 acting on GSK3beta in cardiac hypertrophy (list item)."}
+{"pair_id": "34285763>PMC12894255", "group": "Front Cardiovasc Med", "verdict": "REJECT_OTHER", "reason": "Cited for statins as first-line therapy, which is not what the retracted nicorandil study reported."}
+{"pair_id": "21753854>PMC7903972", "group": "Front Cardiovasc Med", "verdict": "CONFIRM", "reason": "States piperlongumine's effects on p53, PUMA and pro-survival proteins on the retracted study's evidence."}
+{"pair_id": "30551524>PMC9685618", "group": "Front Cardiovasc Med", "verdict": "CONFIRM", "reason": "States the RMRP/miR-206/ATG3 axis in myocardial I/R as found."}
+{"pair_id": "24305048>PMC5783590", "group": "Oncol Rep", "verdict": "REJECT_PASSING", "reason": "Cited for general HMGA2 biology in embryonic development, not the ceRNA lung cancer result."}
+{"pair_id": "32764963>PMC11253085", "group": "Oncol Rep", "verdict": "CONFIRM", "reason": "States PVT1 raises NOP2 via miR-143-3p in prostate cancer in text and table."}
+{"pair_id": "32647692>PMC10308456", "group": "Oncol Rep", "verdict": "CONFIRM", "reason": "Sole citation for artesunate's MEK/ERK and PI3K/Akt effects in leukaemia cells (list item)."}
+{"pair_id": "21829575>PMC6775811", "group": "Oncol Rep", "verdict": "CONFIRM", "reason": "Reports the retracted silymarin migration results in detail and compares its own."}
+{"pair_id": "35126924>PMC10308491", "group": "Oncol Rep", "verdict": "CONFIRM", "reason": "States miR-483 targets NDRG2 to promote CRC as the retracted study showed."}
+{"pair_id": "30121199>PMC7709825", "group": "Oncol Rep", "verdict": "CONFIRM", "reason": "Sole citation for miR-494 restraining Nrf2 signalling (list item)."}
+{"pair_id": "33510938>PMC10777459", "group": "Oncol Rep", "verdict": "CONFIRM", "reason": "Sole citation for METTL3 m6A driving EMT in lung cancer (list item)."}
+{"pair_id": "31118676>PMC11253085", "group": "Oncol Rep", "verdict": "CONFIRM", "reason": "States miR-143-3p targets CTNND1 in CRC in text and table."}
+{"pair_id": "29200874>PMC7934214", "group": "Oncol Rep", "verdict": "CONFIRM", "reason": "Presents the miR-126/miR-34a oncolytic adenovirus result in text and table."}
+{"pair_id": "33064959>PMC10807360", "group": "Oncol Rep", "verdict": "REJECT_PASSING", "reason": "Cited only inside a range of nine references for mTORC2 inhibitors in pancreatic cancer."}
+{"pair_id": "35912140>PMC10969921", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "States the NBAT1/miR-21-5p results in endometrial cancer as confirmed."}
+{"pair_id": "28627687>PMC10889831", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "Relies on miR-205 directly targeting YAP1 to interpret its own heart data."}
+{"pair_id": "23010656>PMC9958549", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "States hyaluronan-induced IL-1beta release depends on NLRP3 as shown by the retracted study."}
+{"pair_id": "25085584>PMC6829292", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "Says its own MMP13/MEK-ERK result matches the retracted gastric cancer study."}
+{"pair_id": "31771044>PMC9699074", "group": "Int J Mol Sci", "verdict": "REJECT_OTHER", "reason": "Table row attributes a breast cancer doxorubicin/paclitaxel result to the retracted oral cancer DDP paper; miscitation."}
+{"pair_id": "16203862>PMC3588029", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "Sole citation for insulin signalling regulating PGC-1alpha (list item)."}
+{"pair_id": "33316267>PMC10671577", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "Table cell states the retracted miR-218 knee OA result."}
+{"pair_id": "30551524>PMC10531487", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "Review table lists the RMRP/miR-206/ATG3 result from the retracted study."}
+{"pair_id": "23177319>PMC6829322", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "Sole citation for SOCS2 controlling macrophage polarization (garbled wording but rests on it)."}
+{"pair_id": "34979165>PMC10342140", "group": "Int J Mol Sci", "verdict": "CONFIRM", "reason": "States PINK1 loss drives M2 polarization via the Warburg effect as found."}
+{"pair_id": "21305343>PMC4763198", "group": "Sci Rep", "verdict": "CONFIRM", "reason": "Sole citation for fenofibrate protecting the liver from I/R injury (list item)."}
+{"pair_id": "34630991>PMC10894250", "group": "Sci Rep", "verdict": "REJECT_PASSING", "reason": "Single-cited sentences are a general remark on wrapper methods and a description of what was proposed; the accuracy figure sits in an uncited next sentence (borderline)."}
+{"pair_id": "34919542>PMC11514278", "group": "Sci Rep", "verdict": "CONFIRM", "reason": "Says analogous germination results were observed in the retracted chickpea study."}
+{"pair_id": "35222885>PMC11538306", "group": "Sci Rep", "verdict": "REJECT_PASSING", "reason": "Cited for the standard accuracy formula, a definition rather than its result."}
+{"pair_id": "31969042>PMC11603152", "group": "Sci Rep", "verdict": "CONFIRM", "reason": "Uses the retracted deep-learning model as a comparison baseline for its own results (borderline)."}
+{"pair_id": "29364485>PMC7035273", "group": "Sci Rep", "verdict": "CONFIRM", "reason": "Sole citation for FGF23 inducing renal interstitial fibrosis."}
+{"pair_id": "35237690>PMC12929605", "group": "Sci Rep", "verdict": "CONFIRM", "reason": "Says the UPRmt causal relationship was confirmed, citing the retracted study alone."}
+{"pair_id": "18494624>PMC7419495", "group": "Sci Rep", "verdict": "CONFIRM", "reason": "States manuka honey healed diabetic wounds via pH reduction as the retracted study found."}
+{"pair_id": "21740098>PMC11408589", "group": "Sci Rep", "verdict": "CONFIRM", "reason": "Takes the cholesterol concentration and its effect on entrapment from the retracted study."}
+{"pair_id": "21933391>PMC4870704", "group": "Sci Rep", "verdict": "REJECT_PASSING", "reason": "Every passage cites it only together with reference 24, which the codebook counts as perfunctory."}
+{"pair_id": "20929972>PMC7302686", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Sole citation for raised cervical abnormality risk in SLE (list item)."}
+{"pair_id": "19015639>PMC2942851", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Relies on the retracted study for E2F1 exclusion leading to chromatin remodelling."}
+{"pair_id": "20798047>PMC3445615", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Uses primers the retracted XMRV/MLV study showed to work and repeats its CFS finding unflagged."}
+{"pair_id": "16618605>PMC3883652", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Cites the retracted study's TLR/integrin/TGF-beta finding as earlier evidence."}
+{"pair_id": "27072064>PMC5542509", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Cites the retracted study for its apoptosis scoring protocol (method citation)."}
+{"pair_id": "17327231>PMC3842420", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Sole citation for IL-15/IL-15Ra being released as a soluble complex."}
+{"pair_id": "33860460>PMC10843119", "group": "PLoS One", "verdict": "CONFIRM", "reason": "States roflumilast enhanced synaptic plasticity and memory in rats as found."}
+{"pair_id": "15222900>PMC4963129", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Cites the retracted TREEFINDER paper for the software used (tool citation; that retraction was not about data)."}
+{"pair_id": "12034030>PMC4595202", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Meta-analysis counts the retracted study as an included data row."}
+{"pair_id": "2452833>PMC3723876", "group": "PLoS One", "verdict": "CONFIRM", "reason": "Sole citation for IL-1 inducing growth factor production by T cells (list item)."}
+{"pair_id": "23177319>PMC5296614", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "States SOCS3 suppresses M2 via STAT6 on the retracted study's evidence."}
+{"pair_id": "34979165>PMC12378483", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "States PINK1 deficiency drives the Warburg effect and M2 recruitment as found."}
+{"pair_id": "30334373>PMC11799554", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "Relies on the retracted euxanthone/COX-2 findings in osteosarcoma."}
+{"pair_id": "28336765>PMC10248152", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "Sole citation for miR-330-5p inhibiting GBM (list item)."}
+{"pair_id": "20818377>PMC9039247", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "Reports the CXCR2 NADPH-independent NET findings in text and table."}
+{"pair_id": "30098283>PMC11688235", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "Reports the hBD-2/hBD-3 T cell proliferation results in detail."}
+{"pair_id": "22427667>PMC7005066", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "States Grp94 delivery of TLR4 and its LPS induction as the retracted study's findings."}
+{"pair_id": "28648972>PMC11194342", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "Review table lists DATS renal protection in rats from the retracted study (details garbled)."}
+{"pair_id": "32190008>PMC12901348", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "States circ_0008035 regulates apoptosis and ferroptosis via miR-599/EIF4A1 as fact."}
+{"pair_id": "28732288>PMC8858953", "group": "Front Immunol", "verdict": "CONFIRM", "reason": "States HOTAIR protects in RA via miR-138/NF-kB in text and table."}
+{"pair_id": "35571707>PMC11033103", "group": "Heliyon", "verdict": "CONFIRM", "reason": "Sole citation for visual sensing tech optimising political-education teaching (list item)."}
+{"pair_id": "19288944>PMC8488477", "group": "Heliyon", "verdict": "CONFIRM", "reason": "Compares its awareness figures directly with the retracted Pakistan study's results."}
+{"pair_id": "30288025>PMC10912389", "group": "Heliyon", "verdict": "REJECT_OTHER", "reason": "Cited for LBP reducing cardiomyocyte apoptosis in I/R rats, not the retracted Leydig cell study."}
+{"pair_id": "33614623>PMC9489975", "group": "Heliyon", "verdict": "CONFIRM", "reason": "States parthenolide plus cisplatin synergy in NSCLC as the retracted study found."}
+{"pair_id": "36247849>PMC11133705", "group": "Heliyon", "verdict": "CONFIRM", "reason": "Meta-analysis counts the retracted trial as an included study with data."}
+{"pair_id": "32135185>PMC10199227", "group": "Heliyon", "verdict": "CONFIRM", "reason": "Sole citation for m7G inhibiting colon cancer migration (list item)."}
+{"pair_id": "31013312>PMC11696662", "group": "Heliyon", "verdict": "REJECT_OTHER", "reason": "Cited for the Rahimi nano-curcumin trial result, not the retracted meta-analysis; wrong match."}
+{"pair_id": "35832243>PMC11098830", "group": "Heliyon", "verdict": "CONFIRM", "reason": "Compares its autoantibody positive rates with the retracted study's reported rates."}
+{"pair_id": "35872956>PMC11416499", "group": "Heliyon", "verdict": "CONFIRM", "reason": "States OIP5-AS1/GPX4 promotes oesophageal cancer as confirmed."}
+{"pair_id": "27183876>PMC11437934", "group": "Heliyon", "verdict": "CONFIRM", "reason": "States M. smithii depletion in children with SAM on the retracted study's evidence."}
+{"pair_id": "12676581>PMC10854702", "group": "Cancers (Basel)", "verdict": "CONFIRM", "reason": "Sole citation for TSP-1/TSP-2 in tumour angiogenesis (list item, wording garbled)."}
+{"pair_id": "32271411>PMC8834032", "group": "Cancers (Basel)", "verdict": "CONFIRM", "reason": "Review table lists PROX1-AS1/miR-647 in prostate cancer."}
+{"pair_id": "15609310>PMC7407580", "group": "Cancers (Basel)", "verdict": "CONFIRM", "reason": "Uses the retracted LMP1-induces-CCL5 finding as an established fact."}
+{"pair_id": "20052673>PMC9139180", "group": "Cancers (Basel)", "verdict": "CONFIRM", "reason": "Sole citation for NOTCH promoting prostate cancer cell migration."}
+{"pair_id": "29316313>PMC10377645", "group": "Cancers (Basel)", "verdict": "CONFIRM", "reason": "States miR-21 acts via PTEN/PI3K/AKT in glioma as Chai et al. reported."}
+{"pair_id": "30171944>PMC10252630", "group": "Cancers (Basel)", "verdict": "CONFIRM", "reason": "States propofol inhibits tumour cell proliferation, migration and invasion on the retracted study."}
+{"pair_id": "2714889>PMC3756376", "group": "Cancers (Basel)", "verdict": "REJECT_PASSING", "reason": "Cited for the historical fact that midostaurin was an early PKC inhibitor in trials, not the study's data."}
+{"pair_id": "22110128>PMC6679127", "group": "Cancers (Basel)", "verdict": "REJECT_PASSING", "reason": "Cited for textbook Wnt biology (beta-catenin moves to the nucleus)."}
+{"pair_id": "2788173>PMC5406704", "group": "Cancers (Basel)", "verdict": "CONFIRM", "reason": "Table cell credits TNF-alpha stimulating AML blast growth to the retracted study."}
+{"pair_id": "32380053>PMC10000071", "group": "Cancers (Basel)", "verdict": "REJECT_PASSING", "reason": "Mentioned as an example of in vitro studies that were left out of the review's table."}
+{"pair_id": "18163565>PMC5943923", "group": "Molecules", "verdict": "REJECT_PASSING", "reason": "Cited for a generic statement that isothiocyanates are protective, not the retracted heart study's result."}
+{"pair_id": "31243880>PMC10818773", "group": "Molecules", "verdict": "CONFIRM", "reason": "Reports the sinomenine/miR-204 GC results in text and table."}
+{"pair_id": "21753854>PMC7795772", "group": "Molecules", "verdict": "CONFIRM", "reason": "States piperlongumine selectively kills cancer cells as the retracted screen found."}
+{"pair_id": "31626920>PMC8510452", "group": "Molecules", "verdict": "CONFIRM", "reason": "Reports the retracted pomegranate diet result on fish mortality as found."}
+{"pair_id": "30368518>PMC9227697", "group": "Molecules", "verdict": "CONFIRM", "reason": "Reports the KYZ3 STAT3 results with IC50 values in text and table."}
+{"pair_id": "32277648>PMC8874997", "group": "Molecules", "verdict": "CONFIRM", "reason": "States berberine blocks gastric cancer invasion via JNK/p38 as shown."}
+{"pair_id": "29960169>PMC11085520", "group": "Molecules", "verdict": "CONFIRM", "reason": "Sole citation for A. sinensis polysaccharide protecting H9c2 cells via miR-22."}
+{"pair_id": "19190327>PMC6413012", "group": "Molecules", "verdict": "CONFIRM", "reason": "Reports the zerumbone RANKL/NF-kB and osteolysis results in text and table."}
+{"pair_id": "31094031>PMC9781648", "group": "Molecules", "verdict": "CONFIRM", "reason": "States sinomenine protects ATDC5 cells via miR-192 as reported."}
+{"pair_id": "17903207>PMC7696052", "group": "Molecules", "verdict": "REJECT_PASSING", "reason": "The retracted review is cited for general statements about macrophage NO and inflammation."}
+{"pair_id": "19040571>PMC6531223", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "Reports the retracted study's alpha7 nAChR expression ranking in lung cancers."}
+{"pair_id": "33464758>PMC12303425", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "Uses the retracted phase 1 trial as evidence that ciprofol doses were safe."}
+{"pair_id": "28421384>PMC9524897", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "States the Guolin-Qigong anxiety reduction as shown by the retracted trial."}
+{"pair_id": "24305048>PMC5228706", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "Sole citation for ceRNAs acting in metastasis (list item, weak)."}
+{"pair_id": "19607689>PMC7302662", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "Sole citation for acupuncture raising endorphins and substance P."}
+{"pair_id": "24252176>PMC10063264", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "States the enrichment-after-mTBI results as the retracted study's findings."}
+{"pair_id": "31793706>PMC10082291", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "States TNF-alpha lowers miR-145 in aortic endothelial cells as found."}
+{"pair_id": "14722058>PMC7447366", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "Sole citation for mPGES-1 being altered in IBD."}
+{"pair_id": "22318734>PMC7360247", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "States salvaged dysferlin restores membrane resealing as the retracted study showed."}
+{"pair_id": "35463653>PMC11365669", "group": "Medicine (Baltimore)", "verdict": "CONFIRM", "reason": "Reports the retracted study's claim that US-guided nerve blocks work and keep vital signs stable."}
+{"pair_id": "29464486>PMC11119608", "group": "Cells", "verdict": "CONFIRM", "reason": "Review table lists the retracted miR-322/BDNF/Tau finding."}
+{"pair_id": "12370229>PMC8699089", "group": "Cells", "verdict": "CONFIRM", "reason": "States the PBSC implantation mechanisms from the retracted study as reported."}
+{"pair_id": "24447880>PMC7600611", "group": "Cells", "verdict": "CONFIRM", "reason": "Reports the retracted CX3CR1 siRNA results in detail."}
+{"pair_id": "17478559>PMC9180692", "group": "Cells", "verdict": "CONFIRM", "reason": "Describes the retracted adipocyte EV findings as results."}
+{"pair_id": "32790092>PMC10706021", "group": "Cells", "verdict": "CONFIRM", "reason": "States syringic acid suppressed squamous carcinoma cell invasion as shown."}
+{"pair_id": "16088114>PMC8946995", "group": "Cells", "verdict": "REJECT_OTHER", "reason": "Cited for VDR-knockout mice developing sarcopenia, which the retracted human stroke trial did not report."}
+{"pair_id": "27160836>PMC6523673", "group": "Cells", "verdict": "CONFIRM", "reason": "States exosomal miR-302b suppresses lung cancer via TGFbetaRII/ERK as fact."}
+{"pair_id": "31298373>PMC9139553", "group": "Cells", "verdict": "CONFIRM", "reason": "Sole citation for LUCAT1 driving therapy resistance in NSCLC."}
+{"pair_id": "17003335>PMC9562180", "group": "Cells", "verdict": "CONFIRM", "reason": "Sole citation for low-dose IL-1beta stimulating beta-cell proliferation."}
+{"pair_id": "31571906>PMC11505732", "group": "Cells", "verdict": "CONFIRM", "reason": "Lists circZFR (hsa_circ_0072088) as a proven miR-206 regulator and uses it as a test candidate."}
+{"pair_id": "22621320>PMC5641175", "group": "Oncotarget", "verdict": "REJECT_PASSING", "reason": "Cited as one item for the well-known myostatin role in muscle wasting, background rather than its tumour-factor result."}
+{"pair_id": "20530680>PMC5095022", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "States miR-31 represses RhoA, ITGA5 and RDX to block breast cancer metastasis as reported."}
+{"pair_id": "14709792>PMC5029690", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "Sole citation for HSP90 overexpression in malignant pheochromocytoma (list item)."}
+{"pair_id": "23272116>PMC5522315", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "Relies on the retracted finding that EMT confers anoikis resistance."}
+{"pair_id": "26125902>PMC5589676", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "Systematic review counts the retracted study among its included prognostic studies."}
+{"pair_id": "16157701>PMC5348427", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "Sole citation for reduced FOXO1 in alveolar rhabdomyosarcoma (list item)."}
+{"pair_id": "24305048>PMC5029620", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "States the HMGA2 3'UTR promotes lung cancer transformation in vitro and in vivo."}
+{"pair_id": "15700311>PMC5752468", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "Sole citation for RPRM hypermethylation in non-malignant gastric epithelium (list item)."}
+{"pair_id": "18718126>PMC5029656", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "States the saponin fraction inhibited HL-60 proliferation and induced apoptosis."}
+{"pair_id": "22621620>PMC5762575", "group": "Oncotarget", "verdict": "CONFIRM", "reason": "Reports the retracted study's claim that TCR-transduced gamma-delta T cells were more effective."}
+{"pair_id": "11133754>PMC9399680", "group": "Cureus", "verdict": "REJECT_PASSING", "reason": "Cited for the textbook genetic cause of cyclic neutropenia (ELA2 mutation), not the progenitor survival result."}
+{"pair_id": "25336793>PMC8808661", "group": "Cureus", "verdict": "CONFIRM", "reason": "Compares its non-responder rate with the retracted study's 16% figure."}
+{"pair_id": "24984017>PMC11177234", "group": "Cureus", "verdict": "CONFIRM", "reason": "States miR-204 is downregulated in H. pylori gastric cancer as found."}
+{"pair_id": "35449845>PMC11162347", "group": "Cureus", "verdict": "CONFIRM", "reason": "Systematic review counts the retracted study's 55 patients as included data."}
+{"pair_id": "34971398>PMC12448261", "group": "Cureus", "verdict": "CONFIRM", "reason": "Describes the retracted RCT and its AHI and airway findings."}
+{"pair_id": "19371446>PMC9904424", "group": "Cureus", "verdict": "REJECT_OTHER", "reason": "Cited for a basketball return-to-play rate, which the retracted football back-pain survey did not report."}
+{"pair_id": "29943058>PMC10019903", "group": "Cureus", "verdict": "CONFIRM", "reason": "Reports the retracted trial's OAGB weight-loss result as found."}
+{"pair_id": "2145649>PMC10257952", "group": "Cureus", "verdict": "REJECT_PASSING", "reason": "Cited for a textbook list of ischaemia presentations, not the angioplasty outcome analysis."}
+{"pair_id": "10095977>PMC5878093", "group": "Cureus", "verdict": "CONFIRM", "reason": "Takes the 0.3% insertion complication rate from the retracted paper."}
+{"pair_id": "18453793>PMC12321158", "group": "Cureus", "verdict": "CONFIRM", "reason": "Uses the MMAS-8 instrument from the retracted paper as its adherence measure (method citation)."}
