@@ -89,7 +89,7 @@ ALLOWED_EMAIL = {"hi@saneapps.com"}
 # files hold other authors' text, where "Spark" or "the Mini" (-Mental State) are ordinary words).
 HARD = {"private path": r"/Users/|stephansmac", "api key": r"\bsk-[A-Za-z0-9]{16,}|Bearer [A-Za-z0-9._-]{20,}",
         "correspondence": r"CORRESPONDENCE\.md", "account id": r"ACCOUNT_ID\S*?[0-9a-f]{32}"}
-INHOUSE = {"machine name": r"\bMac Mini\b|\bthe Mini\b|\bMini clock\b|\(Air[;)]", "agent name": r"\bSpark\b|\bsubagents?\b",
+INHOUSE = {"machine name": r"\bMac Mini\b|\bthe Mini\b|\bMini clock\b|\(Air[;)]", "agent name": r"(?<!Muse )\bSpark\b|\bsubagents?\b",  # "Muse Spark" is Meta's public model name
            "private folder": r"SaneApps/(?:outputs|websites|clients|infra)|\bSaneProcess\b",
            "secret store": r"\bsane-env\b", "internal procedure": r"\bSOP C\d+"}
 RULES = {k: re.compile(v) for k, v in {**HARD, **INHOUSE}.items()}

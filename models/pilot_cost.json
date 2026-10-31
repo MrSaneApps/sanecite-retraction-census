@@ -1,0 +1,36 @@
+{
+ "cf/cloudflare/clef": {
+  "calls": 1012,
+  "input_tokens": 808397,
+  "neurons": 0,
+  "usd": 0.194,
+  "avg_ms": 500,
+  "price_basis": "$0.24/M input tokens (Cloudflare model page, 2026-10-13)"
+ },
+ "typesafe/jev": {
+  "calls": 1012,
+  "input_tokens": 1008839,
+  "neurons": 0,
+  "usd": 0.0424,
+  "avg_ms": 671,
+  "price_basis": "$0.042/M input tokens (Cloudflare model page, 2026-10-13)"
+ },
+ "cf/google/gemma-4-26b-a4b-it": {
+  "calls": 1012,
+  "input_tokens": 728671,
+  "neurons": 5537,
+  "usd": 0.0609,
+  "avg_ms": 5822,
+  "price_basis": "Workers AI $0.011 per 1,000 neurons"
+ },
+ "cf/moonshotai/kimi-k2.6": {
+  "calls": 99,
+  "input_tokens": 71065,
+  "neurons": 1362,
+  "usd": 0.015,
+  "avg_ms": 124531,
+  "price_basis": "Workers AI $0.011 per 1,000 neurons"
+ },
+ "total_usd": 0.3123,
+ "panel_only_usd": 0.2514
+}

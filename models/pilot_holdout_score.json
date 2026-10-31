@@ -1,0 +1,22 @@
+{
+ "n": 73,
+ "agree": 70,
+ "accuracy": 0.959,
+ "wilson95": [
+  0.886,
+  0.986
+ ],
+ "confusion_audit_to_panel": {
+  "perfunctory": {
+   "perfunctory": 42,
+   "substantive": 1
+  },
+  "substantive": {
+   "substantive": 27,
+   "perfunctory": 2
+  },
+  "aware": {
+   "aware": 1
+  }
+ }
+}

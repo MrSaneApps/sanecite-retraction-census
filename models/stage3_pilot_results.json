@@ -1,0 +1,275 @@
+{
+ "sampling": {
+  "no-oa-fulltext": 4633,
+  "year-out": 1762,
+  "type-out": 965,
+  "no-pmid-refs": 2492,
+  "ok": 1600,
+  "no-usable-oa-reference": 354
+ },
+ "pairs_sampled": 1600,
+ "pairs_all_models": 1600,
+ "models": [
+  "cf/google/gemma-4-26b-a4b-it",
+  "cf/nvidia/nemotron-3-120b-a12b",
+  "cf/openai/gpt-oss-120b"
+ ],
+ "panel_verdicts": {
+  "accurate": 1228,
+  "major": 156,
+  "split": 137,
+  "cannot_tell": 24,
+  "minor": 55
+ },
+ "primary_major": {
+  "k": 156,
+  "n": 1439,
+  "pct": 10.8,
+  "ci95": [
+   9.3,
+   12.6
+  ]
+ },
+ "secondary_any_error": {
+  "k": 211,
+  "n": 1439,
+  "pct": 14.7,
+  "ci95": [
+   12.9,
+   16.6
+  ]
+ },
+ "major_all_pairs_base": {
+  "k": 156,
+  "n": 1600,
+  "pct": 9.8,
+  "ci95": [
+   8.4,
+   11.3
+  ]
+ },
+ "any_error_all_pairs_base": {
+  "k": 211,
+  "n": 1600,
+  "pct": 13.2,
+  "ci95": [
+   11.6,
+   14.9
+  ]
+ },
+ "per_model": {
+  "cf/google/gemma-4-26b-a4b-it": {
+   "verdicts": {
+    "accurate": 1216,
+    "major": 155,
+    "minor": 176,
+    "cannot_tell": 53
+   },
+   "major": {
+    "k": 155,
+    "n": 1547,
+    "pct": 10.0,
+    "ci95": [
+     8.6,
+     11.6
+    ]
+   },
+   "any_error": {
+    "k": 331,
+    "n": 1547,
+    "pct": 21.4,
+    "ci95": [
+     19.4,
+     23.5
+    ]
+   },
+   "verbatim_evidence_share": 0.908,
+   "lenient_parses": 1,
+   "calls": 1600,
+   "neurons": 27805.9,
+   "prompt_tokens": 2778853,
+   "completion_tokens": 135558
+  },
+  "cf/nvidia/nemotron-3-120b-a12b": {
+   "verdicts": {
+    "accurate": 1404,
+    "minor": 88,
+    "major": 60,
+    "cannot_tell": 48
+   },
+   "major": {
+    "k": 60,
+    "n": 1552,
+    "pct": 3.9,
+    "ci95": [
+     3.0,
+     4.9
+    ]
+   },
+   "any_error": {
+    "k": 148,
+    "n": 1552,
+    "pct": 9.5,
+    "ci95": [
+     8.2,
+     11.1
+    ]
+   },
+   "verbatim_evidence_share": 0.735,
+   "lenient_parses": 1236,
+   "calls": 1600,
+   "neurons": 148492.9,
+   "prompt_tokens": 2812200,
+   "completion_tokens": 161352
+  },
+  "cf/openai/gpt-oss-120b": {
+   "verdicts": {
+    "accurate": 909,
+    "major": 458,
+    "minor": 185,
+    "cannot_tell": 48
+   },
+   "major": {
+    "k": 458,
+    "n": 1552,
+    "pct": 29.5,
+    "ci95": [
+     27.3,
+     31.8
+    ]
+   },
+   "any_error": {
+    "k": 643,
+    "n": 1552,
+    "pct": 41.4,
+    "ci95": [
+     39.0,
+     43.9
+    ]
+   },
+   "verbatim_evidence_share": 0.568,
+   "lenient_parses": 0,
+   "calls": 1600,
+   "neurons": 143871.9,
+   "prompt_tokens": 2818306,
+   "completion_tokens": 794920
+  }
+ },
+ "agreement_pairwise": {
+  "gemma-4-26b-a4b-it vs nemotron-3-120b-a12b": 0.761,
+  "gemma-4-26b-a4b-it vs gpt-oss-120b": 0.648,
+  "nemotron-3-120b-a12b vs gpt-oss-120b": 0.589
+ },
+ "fleiss_kappa_verdict": 0.224,
+ "unanimous_share": 0.542,
+ "by_citation_type": {
+  "specific_claim": {
+   "n": 620,
+   "major": {
+    "k": 93,
+    "n": 620,
+    "pct": 15.0,
+    "ci95": [
+     12.4,
+     18.0
+    ]
+   },
+   "any_error": {
+    "k": 131,
+    "n": 620,
+    "pct": 21.1,
+    "ci95": [
+     18.1,
+     24.5
+    ]
+   }
+  },
+  "background": {
+   "n": 599,
+   "major": {
+    "k": 49,
+    "n": 599,
+    "pct": 8.2,
+    "ci95": [
+     6.2,
+     10.7
+    ]
+   },
+   "any_error": {
+    "k": 59,
+    "n": 599,
+    "pct": 9.8,
+    "ci95": [
+     7.7,
+     12.5
+    ]
+   }
+  },
+  "method_or_tool": {
+   "n": 174,
+   "major": {
+    "k": 8,
+    "n": 174,
+    "pct": 4.6,
+    "ci95": [
+     2.3,
+     8.8
+    ]
+   },
+   "any_error": {
+    "k": 15,
+    "n": 174,
+    "pct": 8.6,
+    "ci95": [
+     5.3,
+     13.7
+    ]
+   }
+  },
+  "data_source": {
+   "n": 24,
+   "major": {
+    "k": 3,
+    "n": 24,
+    "pct": 12.5,
+    "ci95": [
+     4.3,
+     31.0
+    ]
+   },
+   "any_error": {
+    "k": 3,
+    "n": 24,
+    "pct": 12.5,
+    "ci95": [
+     4.3,
+     31.0
+    ]
+   }
+  },
+  "split": {
+   "n": 22,
+   "major": {
+    "k": 3,
+    "n": 22,
+    "pct": 13.6,
+    "ci95": [
+     4.7,
+     33.3
+    ]
+   },
+   "any_error": {
+    "k": 3,
+    "n": 22,
+    "pct": 13.6,
+    "ci95": [
+     4.7,
+     33.3
+    ]
+   }
+  }
+ },
+ "cited_retracted_pairs": 3,
+ "neurons_total": 320170.7,
+ "usd_at_list_neurons": 3.52
+}

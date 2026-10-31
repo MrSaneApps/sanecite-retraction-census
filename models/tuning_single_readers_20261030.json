@@ -1,0 +1,441 @@
+{
+ "_note": "Tuning with Cloudflare off, 30 Oct 2026. Single readers scored on batches 2-5 ('tune', 39 majors) and on batch 6 ('b6', 66 majors, exploratory because batch 6 was already used). AI-made keys. usage.tokens for Cursor models are Cursor included usage (no dollar charge); usd for Claude models is list Message Batches price times usage.",
+ "singles": {
+  "claude-haiku-5-5": {
+   "tune": {
+    "n": 610,
+    "majors": 39,
+    "caught": 20,
+    "called": 42,
+    "recall": 0.513,
+    "precision": 0.476,
+    "kappa_major": 0.458,
+    "recall_lo95": 0.362,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 45,
+    "called": 77,
+    "recall": 0.682,
+    "precision": 0.584,
+    "kappa_major": 0.598,
+    "recall_lo95": 0.562,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 7472432.0,
+    "usd": 0.4548054299999991
+   }
+  },
+  "claude-haiku-5-5-high": {
+   "tune": {
+    "n": 610,
+    "majors": 39,
+    "caught": 27,
+    "called": 39,
+    "recall": 0.692,
+    "precision": 0.692,
+    "kappa_major": 0.671,
+    "recall_lo95": 0.536,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 52,
+    "called": 71,
+    "recall": 0.788,
+    "precision": 0.732,
+    "kappa_major": 0.74,
+    "recall_lo95": 0.675,
+    "pass": true
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 7964050.0,
+    "usd": 0.57750086
+   }
+  },
+  "claude-haiku-5-5-high-v3": {
+   "tune": {
+    "n": 610,
+    "majors": 39,
+    "caught": 25,
+    "called": 35,
+    "recall": 0.641,
+    "precision": 0.714,
+    "kappa_major": 0.655,
+    "recall_lo95": 0.484,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 52,
+    "called": 76,
+    "recall": 0.788,
+    "precision": 0.684,
+    "kappa_major": 0.71,
+    "recall_lo95": 0.675,
+    "pass": true
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 8499137.0,
+    "usd": 0.5900623349999998
+   }
+  },
+  "claude-haiku-5-5-max": {
+   "tune": {
+    "n": 600,
+    "majors": 37,
+    "caught": 28,
+    "called": 35,
+    "recall": 0.757,
+    "precision": 0.8,
+    "kappa_major": 0.764,
+    "recall_lo95": 0.599,
+    "pass": true
+   },
+   "b6": {
+    "n": 907,
+    "majors": 65,
+    "caught": 55,
+    "called": 76,
+    "recall": 0.846,
+    "precision": 0.724,
+    "kappa_major": 0.762,
+    "recall_lo95": 0.739,
+    "pass": true
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 20412099.0,
+    "usd": 3.689513110000003
+   }
+  },
+  "claude-haiku-5-5-xhigh": {
+   "tune": {
+    "n": 610,
+    "majors": 39,
+    "caught": 28,
+    "called": 36,
+    "recall": 0.718,
+    "precision": 0.778,
+    "kappa_major": 0.73,
+    "recall_lo95": 0.562,
+    "pass": true
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 53,
+    "called": 70,
+    "recall": 0.803,
+    "precision": 0.757,
+    "kappa_major": 0.762,
+    "recall_lo95": 0.692,
+    "pass": true
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 8526126.0,
+    "usd": 0.7180198599999991
+   }
+  },
+  "claude-haiku-5-5-xhigh-r2": {
+   "tune": {
+    "n": 610,
+    "majors": 39,
+    "caught": 25,
+    "called": 32,
+    "recall": 0.641,
+    "precision": 0.781,
+    "kappa_major": 0.686,
+    "recall_lo95": 0.484,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 53,
+    "called": 68,
+    "recall": 0.803,
+    "precision": 0.779,
+    "kappa_major": 0.775,
+    "recall_lo95": 0.692,
+    "pass": true
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 8531820.0,
+    "usd": 0.719513049999999
+   }
+  },
+  "claude-haiku-5-5-xhigh-r3": {
+   "tune": {
+    "n": 609,
+    "majors": 39,
+    "caught": 27,
+    "called": 39,
+    "recall": 0.692,
+    "precision": 0.692,
+    "kappa_major": 0.671,
+    "recall_lo95": 0.536,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 54,
+    "called": 71,
+    "recall": 0.818,
+    "precision": 0.761,
+    "kappa_major": 0.771,
+    "recall_lo95": 0.709,
+    "pass": true
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 8535207.0,
+    "usd": 0.7279560100000007
+   }
+  },
+  "composer-2.5": {
+   "tune": {
+    "n": 613,
+    "majors": 39,
+    "caught": 32,
+    "called": 59,
+    "recall": 0.821,
+    "precision": 0.542,
+    "kappa_major": 0.624,
+    "recall_lo95": 0.673,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 58,
+    "called": 101,
+    "recall": 0.879,
+    "precision": 0.574,
+    "kappa_major": 0.665,
+    "recall_lo95": 0.779,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 40434437.0,
+    "usd": 0.0
+   }
+  },
+  "composer-2.5-k10": {
+   "tune": {
+    "n": 613,
+    "majors": 39,
+    "caught": 35,
+    "called": 68,
+    "recall": 0.897,
+    "precision": 0.515,
+    "kappa_major": 0.624,
+    "recall_lo95": 0.764,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 61,
+    "called": 130,
+    "recall": 0.924,
+    "precision": 0.469,
+    "kappa_major": 0.583,
+    "recall_lo95": 0.835,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 7087751.999999963,
+    "usd": 0.0
+   }
+  },
+  "cursor-grok-4.5-medium": {
+   "tune": {
+    "n": 613,
+    "majors": 39,
+    "caught": 33,
+    "called": 57,
+    "recall": 0.846,
+    "precision": 0.579,
+    "kappa_major": 0.662,
+    "recall_lo95": 0.703,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 65,
+    "called": 120,
+    "recall": 0.985,
+    "precision": 0.542,
+    "kappa_major": 0.668,
+    "recall_lo95": 0.919,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 44178714.0,
+    "usd": 0.0
+   }
+  },
+  "cursor-grok-4.6-medium": {
+   "tune": {
+    "n": 613,
+    "majors": 39,
+    "caught": 38,
+    "called": 55,
+    "recall": 0.974,
+    "precision": 0.691,
+    "kappa_major": 0.793,
+    "recall_lo95": 0.868,
+    "pass": true
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 61,
+    "called": 103,
+    "recall": 0.924,
+    "precision": 0.592,
+    "kappa_major": 0.695,
+    "recall_lo95": 0.835,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 44601663.0,
+    "usd": 0.0
+   }
+  },
+  "cursor-grok-4.6-medium-k10": {
+   "tune": {
+    "n": 613,
+    "majors": 39,
+    "caught": 37,
+    "called": 62,
+    "recall": 0.949,
+    "precision": 0.597,
+    "kappa_major": 0.71,
+    "recall_lo95": 0.831,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 60,
+    "called": 114,
+    "recall": 0.909,
+    "precision": 0.526,
+    "kappa_major": 0.633,
+    "recall_lo95": 0.816,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 7771276.999999981,
+    "usd": 0.0
+   }
+  },
+  "grok-4.7-high": {
+   "tune": {
+    "n": 613,
+    "majors": 39,
+    "caught": 36,
+    "called": 93,
+    "recall": 0.923,
+    "precision": 0.387,
+    "kappa_major": 0.501,
+    "recall_lo95": 0.797,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 65,
+    "called": 177,
+    "recall": 0.985,
+    "precision": 0.367,
+    "kappa_major": 0.48,
+    "recall_lo95": 0.919,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 51662084.0,
+    "usd": 0.0
+   }
+  },
+  "grok-4.7-low": {
+   "tune": {
+    "n": 613,
+    "majors": 39,
+    "caught": 36,
+    "called": 92,
+    "recall": 0.923,
+    "precision": 0.391,
+    "kappa_major": 0.505,
+    "recall_lo95": 0.797,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 64,
+    "called": 163,
+    "recall": 0.97,
+    "precision": 0.393,
+    "kappa_major": 0.508,
+    "recall_lo95": 0.896,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 46730125.0,
+    "usd": 0.0
+   }
+  },
+  "grok-4.7-medium": {
+   "tune": {
+    "n": 613,
+    "majors": 39,
+    "caught": 35,
+    "called": 99,
+    "recall": 0.897,
+    "precision": 0.354,
+    "kappa_major": 0.458,
+    "recall_lo95": 0.764,
+    "pass": false
+   },
+   "b6": {
+    "n": 915,
+    "majors": 66,
+    "caught": 64,
+    "called": 162,
+    "recall": 0.97,
+    "precision": 0.395,
+    "kappa_major": 0.511,
+    "recall_lo95": 0.896,
+    "pass": false
+   },
+   "usage": {
+    "calls": 1646,
+    "tokens": 50176074.0,
+    "usd": 0.0
+   }
+  }
+ },
+ "systems": []
+}

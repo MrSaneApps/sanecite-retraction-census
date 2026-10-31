@@ -1,0 +1,1221 @@
+{
+ "labeler": "Claude (blind to model labels)",
+ "codebook": "v3 (citation groups counted by citegroup.py; v2 judgement on sole citations)",
+ "items": [
+  {
+   "i": 0,
+   "pair_id": "35912153>PMC11643259",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 1,
+   "pair_id": "31839484>PMC9870747",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 2,
+   "pair_id": "23927930>PMC9372994",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 3,
+   "pair_id": "8591811>PMC3516525",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": true
+  },
+  {
+   "i": 4,
+   "pair_id": "35782055>PMC11576696",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 5,
+   "pair_id": "17903207>PMC4786219",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 6,
+   "pair_id": "29054082>PMC9239483",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 7,
+   "pair_id": "25386557>PMC6130670",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 8,
+   "pair_id": "28710258>PMC9053239",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 9,
+   "pair_id": "30719287>PMC13051986",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 10,
+   "pair_id": "30365725>PMC10145165",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 11,
+   "pair_id": "2788173>PMC8064683",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 12,
+   "pair_id": "2788173>PMC4747366",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 13,
+   "pair_id": "30805085>PMC8863494",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": true
+  },
+  {
+   "i": 14,
+   "pair_id": "31204565>PMC10106693",
+   "ctx": [
+    "substantive",
+    "perfunctory"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 15,
+   "pair_id": "17267205>PMC7551056",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 16,
+   "pair_id": "30439868>PMC9986214",
+   "ctx": [
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 17,
+   "pair_id": "31013312>PMC11606848",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 18,
+   "pair_id": "20421270>PMC11502441",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 19,
+   "pair_id": "28604262>PMC11082481",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 20,
+   "pair_id": "19470456>PMC8097001",
+   "ctx": [
+    "substantive",
+    "perfunctory"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 21,
+   "pair_id": "30439868>PMC8535369",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 22,
+   "pair_id": "30621700>PMC10547073",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 23,
+   "pair_id": "20599780>PMC5630447",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 24,
+   "pair_id": "35224217>PMC12139305",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 25,
+   "pair_id": "12082091>PMC9834397",
+   "ctx": [
+    "perfunctory",
+    "substantive",
+    "perfunctory"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 26,
+   "pair_id": "25184296>PMC10056827",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 27,
+   "pair_id": "25006969>PMC9351075",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": true
+  },
+  {
+   "i": 28,
+   "pair_id": "18193107>PMC12715794",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": true
+  },
+  {
+   "i": 29,
+   "pair_id": "17267205>PMC4776554",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 30,
+   "pair_id": "27257256>PMC10306144",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 31,
+   "pair_id": "17267205>PMC8519449",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 32,
+   "pair_id": "28496323>PMC9960885",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 33,
+   "pair_id": "30419103>PMC6988702",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 34,
+   "pair_id": "34853582>PMC13251010",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 35,
+   "pair_id": "30439868>PMC8439029",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 36,
+   "pair_id": "14583958>PMC5634314",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 37,
+   "pair_id": "16088114>PMC8946995",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 38,
+   "pair_id": "19772305>PMC5104475",
+   "ctx": [
+    "substantive",
+    "substantive",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 39,
+   "pair_id": "21078664>PMC5938542",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 40,
+   "pair_id": "23971938>PMC8040393",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": true
+  },
+  {
+   "i": 41,
+   "pair_id": "19772305>PMC10328949",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 42,
+   "pair_id": "25006969>PMC12274712",
+   "ctx": [
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 43,
+   "pair_id": "30024092>PMC10037920",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 44,
+   "pair_id": "25834399>PMC12572083",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 45,
+   "pair_id": "35192615>PMC10610288",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 46,
+   "pair_id": "17267205>PMC6679851",
+   "ctx": [
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": true
+  },
+  {
+   "i": 47,
+   "pair_id": "33628404>PMC10682285",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 48,
+   "pair_id": "16625602>PMC7789423",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 49,
+   "pair_id": "19607689>PMC5043286",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 50,
+   "pair_id": "32892477>PMC8759637",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": true
+  },
+  {
+   "i": 51,
+   "pair_id": "35224217>PMC10941105",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 52,
+   "pair_id": "20530680>PMC5746350",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 53,
+   "pair_id": "26064984>PMC10647573",
+   "ctx": [
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 54,
+   "pair_id": "33014876>PMC11321202",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 55,
+   "pair_id": "29740437>PMC12149182",
+   "ctx": [
+    "substantive",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 56,
+   "pair_id": "17852805>PMC6773935",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 57,
+   "pair_id": "24132591>PMC5862575",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 58,
+   "pair_id": "22558104>PMC7896909",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 59,
+   "pair_id": "34853582>PMC11195425",
+   "ctx": [
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": true
+  },
+  {
+   "i": 60,
+   "pair_id": "18358812>PMC2658736",
+   "ctx": [
+    "aware"
+   ],
+   "pair": "aware",
+   "unsure": false
+  },
+  {
+   "i": 61,
+   "pair_id": "35399852>PMC13267429",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 62,
+   "pair_id": "28418474>PMC9771214",
+   "ctx": [
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 63,
+   "pair_id": "32035086>PMC8109123",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 64,
+   "pair_id": "29740437>PMC7178582",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 65,
+   "pair_id": "30840229>PMC10368482",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 66,
+   "pair_id": "32014002>PMC7952613",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 67,
+   "pair_id": "26866669>PMC7860087",
+   "ctx": [
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": true
+  },
+  {
+   "i": 68,
+   "pair_id": "17267205>PMC4969241",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 69,
+   "pair_id": "31889891>PMC8185857",
+   "ctx": [
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 70,
+   "pair_id": "31746372>PMC10234271",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 71,
+   "pair_id": "25926739>PMC10649041",
+   "ctx": [
+    "substantive",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 72,
+   "pair_id": "35677096>PMC11321541",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 73,
+   "pair_id": "27498977>PMC10174997",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 74,
+   "pair_id": "30439868>PMC7806937",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 75,
+   "pair_id": "19450708>PMC3834900",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 76,
+   "pair_id": "19168280>PMC6274009",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 77,
+   "pair_id": "17903207>PMC12560285",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 78,
+   "pair_id": "18306478>PMC8130375",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 79,
+   "pair_id": "32571324>PMC10679336",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 80,
+   "pair_id": "26969602>PMC6130835",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 81,
+   "pair_id": "26866274>PMC7725562",
+   "ctx": [
+    "substantive",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 82,
+   "pair_id": "12535428>PMC3929771",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 83,
+   "pair_id": "23623304>PMC10337056",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 84,
+   "pair_id": "35047108>PMC12780243",
+   "ctx": [
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 85,
+   "pair_id": "18802478>PMC2642760",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 86,
+   "pair_id": "30471098>PMC10135116",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": true
+  },
+  {
+   "i": 87,
+   "pair_id": "26432332>PMC10798721",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 88,
+   "pair_id": "33315506>PMC11302871",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 89,
+   "pair_id": "23993101>PMC7214741",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 90,
+   "pair_id": "25393328>PMC7036925",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 91,
+   "pair_id": "24701142>PMC5844095",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 92,
+   "pair_id": "30480801>PMC11307556",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 93,
+   "pair_id": "23547983>PMC6644504",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 94,
+   "pair_id": "30439868>PMC11151777",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 95,
+   "pair_id": "25006969>PMC7508636",
+   "ctx": [
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": true
+  },
+  {
+   "i": 96,
+   "pair_id": "38624372>PMC7693857",
+   "ctx": [
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 97,
+   "pair_id": "24733159>PMC11949868",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 98,
+   "pair_id": "27475458>PMC8272698",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 99,
+   "pair_id": "30106032>PMC12188836",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 100,
+   "pair_id": "25596088>PMC7510289",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 101,
+   "pair_id": "17054195>PMC6627268",
+   "ctx": [
+    "perfunctory",
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 102,
+   "pair_id": "35502354>PMC12522688",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 103,
+   "pair_id": "19607689>PMC4212539",
+   "ctx": [
+    "substantive",
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 104,
+   "pair_id": "20091522>PMC8977201",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 105,
+   "pair_id": "35755760>PMC11074353",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 106,
+   "pair_id": "17519423>PMC10068184",
+   "ctx": [
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 107,
+   "pair_id": "22258985>PMC6199873",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 108,
+   "pair_id": "19797762>PMC6036614",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 109,
+   "pair_id": "35800006>PMC11468304",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 110,
+   "pair_id": "32760196>PMC11440720",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 111,
+   "pair_id": "27573878>PMC9599226",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 112,
+   "pair_id": "21357264>PMC12832292",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 113,
+   "pair_id": "23884390>PMC9310494",
+   "ctx": [
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 114,
+   "pair_id": "26932804>PMC11557414",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 115,
+   "pair_id": "9703501>PMC3384945",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 116,
+   "pair_id": "18348170>PMC3282716",
+   "ctx": [
+    "perfunctory",
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 117,
+   "pair_id": "16437490>PMC6258399",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 118,
+   "pair_id": "12003802>PMC4048475",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 119,
+   "pair_id": "28151913>PMC7457848",
+   "ctx": [
+    "substantive",
+    "perfunctory"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 120,
+   "pair_id": "27185672>PMC10787012",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 121,
+   "pair_id": "34976109>PMC11612605",
+   "ctx": [
+    "perfunctory",
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 122,
+   "pair_id": "10796203>PMC7558715",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": true
+  },
+  {
+   "i": 123,
+   "pair_id": "30193758>PMC8088980",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 124,
+   "pair_id": "24314048>PMC5856436",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  },
+  {
+   "i": 125,
+   "pair_id": "18771528>PMC5432253",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 126,
+   "pair_id": "22174954>PMC4768671",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 127,
+   "pair_id": "20091522>PMC10699007",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": true
+  },
+  {
+   "i": 128,
+   "pair_id": "28024328>PMC12801138",
+   "ctx": [
+    "substantive"
+   ],
+   "pair": "substantive",
+   "unsure": false
+  },
+  {
+   "i": 129,
+   "pair_id": "19772305>PMC6915364",
+   "ctx": [
+    "perfunctory"
+   ],
+   "pair": "perfunctory",
+   "unsure": false
+  }
+ ]
+}

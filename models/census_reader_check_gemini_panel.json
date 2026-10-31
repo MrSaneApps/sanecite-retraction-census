@@ -1,0 +1,92 @@
+{
+ "_note": "Census reader check, 29 Oct 2026, on confirm_v33 (150 pairs, Claude Opus 5.5 key). Sonnet 5.5 here ran through the Claude app. Pair accuracy against the key.",
+ "gemini-3.8-flash (thinking high)": {
+  "agree": 146,
+  "pairs": 150,
+  "accuracy": 0.9733,
+  "wilson95": [
+   0.9334,
+   0.9896
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->perfunctory": 85,
+   "substantive->substantive": 55,
+   "aware->aware": 6,
+   "substantive->perfunctory": 2,
+   "perfunctory->substantive": 2
+  }
+ },
+ "claude-sonnet-5-5": {
+  "agree": 141,
+  "pairs": 150,
+  "accuracy": 0.94,
+  "wilson95": [
+   0.8899,
+   0.9681
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->substantive": 7,
+   "substantive->substantive": 56,
+   "perfunctory->perfunctory": 80,
+   "aware->aware": 5,
+   "aware->substantive": 1,
+   "substantive->perfunctory": 1
+  }
+ },
+ "gpt-oss-120b (reasoning medium)": {
+  "agree": 137,
+  "pairs": 150,
+  "accuracy": 0.9133,
+  "wilson95": [
+   0.8574,
+   0.9487
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->substantive": 8,
+   "substantive->substantive": 53,
+   "perfunctory->perfunctory": 79,
+   "aware->aware": 5,
+   "substantive->perfunctory": 4,
+   "aware->substantive": 1
+  }
+ },
+ "panel: gemini-3.8-flash + claude-sonnet-5-5 + gpt-oss-120b (Gemini breaks ties)": {
+  "agree": 143,
+  "pairs": 150,
+  "accuracy": 0.9533,
+  "wilson95": [
+   0.9068,
+   0.9772
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->substantive": 5,
+   "substantive->substantive": 56,
+   "perfunctory->perfunctory": 82,
+   "aware->aware": 5,
+   "aware->substantive": 1,
+   "substantive->perfunctory": 1
+  }
+ },
+ "panel: gemini-3.8-flash + gpt-oss-120b (Gemini breaks ties)": {
+  "agree": 145,
+  "pairs": 150,
+  "accuracy": 0.9667,
+  "wilson95": [
+   0.9243,
+   0.9857
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->perfunctory": 85,
+   "substantive->substantive": 55,
+   "aware->aware": 5,
+   "substantive->perfunctory": 2,
+   "perfunctory->substantive": 2,
+   "aware->substantive": 1
+  }
+ },
+ "errors_by_model": {
+  "claude-sonnet-5-5": 10,
+  "gpt-oss-120b (reasoning medium)": 10,
+  "gemini-3.8-flash (thinking high)": 6
+ }
+}

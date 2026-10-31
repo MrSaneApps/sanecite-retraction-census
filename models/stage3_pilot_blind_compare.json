@@ -1,0 +1,67 @@
+{
+ "n": 100,
+ "blind_verdicts": {
+  "accurate": 61,
+  "minor": 25,
+  "cannot_tell": 7,
+  "major": 7
+ },
+ "panel_verdicts": {
+  "accurate": 74,
+  "minor": 5,
+  "split": 10,
+  "major": 9,
+  "cannot_tell": 2
+ },
+ "panel_vs_blind_agreement": 0.64,
+ "panel_vs_blind_kappa": 0.348,
+ "error_vs_ok": {
+  "n": 85,
+  "agree": 0.741,
+  "blind_error_rate": 0.306,
+  "panel_error_rate": 0.141,
+  "blind_major_rate": 0.082,
+  "panel_major_rate": 0.082
+ },
+ "confusion_blind_rows_panel_cols": {
+  "accurate": {
+   "accurate": 55,
+   "major": 1,
+   "split": 2,
+   "minor": 3
+  },
+  "minor": {
+   "minor": 2,
+   "accurate": 16,
+   "split": 6,
+   "major": 1
+  },
+  "major": {
+   "major": 5,
+   "accurate": 2
+  },
+  "cannot_tell": {
+   "split": 2,
+   "cannot_tell": 2,
+   "major": 2,
+   "accurate": 1
+  }
+ },
+ "per_model_vs_blind": {
+  "gemma-4-26b-a4b-it": {
+   "agreement": 0.72,
+   "kappa": 0.444,
+   "major_calls": 11
+  },
+  "nemotron-3-120b-a12b": {
+   "agreement": 0.63,
+   "kappa": 0.173,
+   "major_calls": 2
+  },
+  "gpt-oss-120b": {
+   "agreement": 0.54,
+   "kappa": 0.236,
+   "major_calls": 24
+  }
+ }
+}

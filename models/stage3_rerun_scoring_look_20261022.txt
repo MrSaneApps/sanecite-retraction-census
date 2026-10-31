@@ -1,0 +1,116 @@
+# Stage 3 rerun, 18 arms on batches 2-5 (613 judgeable citations, 39 majors; AI-made key).
+# This is the scoring look of 22 Oct 2026, 6:04 PM ET, listed in checker/records/PREREG_RERUN_2026-10-22.md amendment 7.
+# It is not the registered final scoring, which is not on file. kimi_on was partial (332 items). Rows b2_* to b5_* with 0 items
+# are empty placeholders for discarded rounded outputs. Columns: items, bad parses, cut off, held-out majors caught, recall
+# [Wilson 95%], flag rate, AUC for major, kappa error vs accurate, kappa major vs not (decide alone), screen bar pass.
+arm            items  bad  cut caught/maj        recall [CI]   flag AUCmaj   kErr   kMaj pass
+b2_deepseek_off     0    0    0  None/None          None None   None  0.000   None   None None
+b2_gemma_off       0    0    0  None/None          None None   None  0.000   None   None None
+b2_glm_off         0    0    0  None/None          None None   None  0.000   None   None None
+b2_kimi_off        0    0    0  None/None          None None   None  0.000   None   None None
+b2_nemotron_off     0    0    0  None/None          None None   None  0.000   None   None None
+b2_qwen_off        0    0    0  None/None          None None   None  0.000   None   None None
+b3_deepseek_off     0    0    0  None/None          None None   None  0.000   None   None None
+b3_gemma_off       0    0    0  None/None          None None   None  0.000   None   None None
+b3_glm_off         0    0    0  None/None          None None   None  0.000   None   None None
+b3_kimi_off        0    0    0  None/None          None None   None  0.000   None   None None
+b3_nemotron_off     0    0    0  None/None          None None   None  0.000   None   None None
+b3_qwen_off        0    0    0  None/None          None None   None  0.000   None   None None
+b4_deepseek_off     0    0    0  None/None          None None   None  0.000   None   None None
+b4_gemma_off       0    0    0  None/None          None None   None  0.000   None   None None
+b4_kimi_off        0    0    0  None/None          None None   None  0.000   None   None None
+b4_nemotron_off     0    0    0  None/None          None None   None  0.000   None   None None
+b4_qwen_off        0    0    0  None/None          None None   None  0.000   None   None None
+b5_gemma_off       0    0    0  None/None          None None   None  0.000   None   None None
+b5_kimi_off        0    0    0  None/None          None None   None  0.000   None   None None
+b5_nemotron_off     0    0    0  None/None          None None   None  0.000   None   None None
+clef             613    0    0      35/39 0.897 (0.764, 0.959)  0.235  0.929  0.341  0.457 False
+    b2: t=0.1671 caught 11/13 flagged 41/190 AUC 0.9200347674923947
+    b3: t=0.138 caught 11/11 flagged 40/142 AUC 0.9736294240111034
+    b4: t=0.1671 caught 4/5 flagged 30/139 AUC 0.8388059701492537
+    b5: t=0.1466 caught 9/10 flagged 33/142 AUC 0.95
+deepseek_off     613    0    0      35/39 0.897 (0.764, 0.959)  0.364  0.915  0.316  0.424 False
+    b2: t=5.791196266503255e-05 caught 13/13 flagged 92/190 AUC 0.9513255106475446
+    b3: t=0.00012956963908575833 caught 10/11 flagged 52/142 AUC 0.9201943095072866
+    b4: t=0.00012956963908575833 caught 5/5 flagged 48/139 AUC 0.9522388059701492
+    b5: t=0.0013199108960022044 caught 7/10 flagged 31/142 AUC 0.853030303030303
+deepseek_on      613    0    0      39/39    1.0 (0.91, 1.0)    1.0  0.840  0.581  0.678 False
+    b2: t=0.0 caught 13/13 flagged 190/190 AUC 0.9589308996088657
+    b3: t=0.0 caught 11/11 flagged 142/142 AUC 0.8115891741845941
+    b4: t=0.0 caught 5/5 flagged 139/139 AUC 0.7888059701492537
+    b5: t=0.0 caught 10/10 flagged 142/142 AUC 0.7462121212121212
+gemma_off        613    0    0      35/39 0.897 (0.764, 0.959)  0.302  0.910  0.333  0.519 False
+    b2: t=1.9162024389661293e-06 caught 12/13 flagged 63/190 AUC 0.9213385484571925
+    b3: t=1.9162024389661293e-06 caught 10/11 flagged 40/142 AUC 0.9507286606523248
+    b4: t=1.9162024389661293e-06 caught 5/5 flagged 44/139 AUC 0.9059701492537313
+    b5: t=2.725465652848301e-06 caught 8/10 flagged 38/142 AUC 0.8583333333333333
+gemma_on         613    0    0      39/39    1.0 (0.91, 1.0)    1.0  0.845   0.56  0.426 False
+    b2: t=0.0 caught 13/13 flagged 190/190 AUC 0.7624945675793133
+    b3: t=0.0 caught 11/11 flagged 142/142 AUC 0.9576682859125607
+    b4: t=0.0 caught 5/5 flagged 139/139 AUC 0.858955223880597
+    b5: t=0.0 caught 10/10 flagged 142/142 AUC 0.8238636363636364
+glm_off          613    0    0      35/39 0.897 (0.764, 0.959)  0.183  0.945  0.394   0.54 False
+    b2: t=0.009708849554344158 caught 13/13 flagged 51/190 AUC 0.9756627553237722
+    b3: t=0.05521861411104022 caught 9/11 flagged 16/142 AUC 0.926439972241499
+    b4: t=0.02714893342017251 caught 5/5 flagged 25/139 AUC 0.9865671641791045
+    b5: t=0.05521861411104022 caught 8/10 flagged 20/142 AUC 0.928030303030303
+glm_on           613    0    0      35/39 0.897 (0.764, 0.959)  0.524  0.928  0.635  0.581 False
+    b2: t=0.3333333333333333 caught 11/13 flagged 24/190 AUC 0.9083007388092134
+    b3: t=0.3333333333333333 caught 9/11 flagged 16/142 AUC 0.892088827203331
+    b4: t=0.0 caught 5/5 flagged 139/139 AUC 0.9761194029850746
+    b5: t=0.0 caught 10/10 flagged 142/142 AUC 0.9742424242424242
+gptoss_high      613    0    0      39/39    1.0 (0.91, 1.0)    1.0  0.881  0.463  0.341 False
+    b2: t=0.0 caught 13/13 flagged 190/190 AUC 0.8717948717948718
+    b3: t=0.0 caught 11/11 flagged 142/142 AUC 0.9482997918112422
+    b4: t=0.0 caught 5/5 flagged 139/139 AUC 0.8425373134328358
+    b5: t=0.0 caught 10/10 flagged 142/142 AUC 0.8420454545454545
+gptoss_med       613    0    0      36/39 0.923 (0.797, 0.973)  0.447  0.913  0.413  0.343 True
+    b2: t=0.3333333333333333 caught 12/13 flagged 52/190 AUC 0.9241634072142547
+    b3: t=0.0 caught 11/11 flagged 142/142 AUC 0.9500346981263011
+    b4: t=0.3333333333333333 caught 5/5 flagged 42/139 AUC 0.9305970149253732
+    b5: t=0.3333333333333333 caught 8/10 flagged 38/142 AUC 0.853030303030303
+jev              613    0    0      36/39 0.923 (0.797, 0.973)  0.183  0.953  0.445  0.508 True
+    b2: t=0.2375 caught 13/13 flagged 35/190 AUC 0.9584963059539331
+    b3: t=0.25 caught 10/11 flagged 26/142 AUC 0.9677307425399029
+    b4: t=0.2525 caught 4/5 flagged 27/139 AUC 0.8783582089552239
+    b5: t=0.25 caught 9/10 flagged 24/142 AUC 0.9662878787878788
+jev_b4_fallback_mixed     0    0    0  None/None          None None   None  0.000   None   None None
+kimi_off         613    0    0      35/39 0.897 (0.764, 0.959)  0.191  0.947  0.361  0.468 False
+    b2: t=0.18837812396380266 caught 11/13 flagged 29/190 AUC 0.9478487614080835
+    b3: t=0.1251949398210884 caught 11/11 flagged 26/142 AUC 0.9805690492713394
+    b4: t=0.13212851845766074 caught 5/5 flagged 40/139 AUC 0.9477611940298507
+    b5: t=0.18837812396380266 caught 8/10 flagged 22/142 AUC 0.9227272727272727
+kimi_on          332    5    0      22/24 0.917 (0.742, 0.977)  0.616  0.948  0.639  0.708 False
+    b2: t=0.0 caught 13/13 flagged 190/190 AUC 0.9867448935245545
+    b3: t=0.3333333333333333 caught 9/11 flagged 14/141 AUC 0.9027972027972028
+llama            613    0    0      39/39    1.0 (0.91, 1.0)    1.0  0.626  0.234  0.221 False
+    b2: t=0.0 caught 13/13 flagged 190/190 AUC 0.6064754454584963
+    b3: t=0.0 caught 11/11 flagged 142/142 AUC 0.5732130464954892
+    b4: t=0.0 caught 5/5 flagged 139/139 AUC 0.6783582089552239
+    b5: t=0.0 caught 10/10 flagged 142/142 AUC 0.6916666666666667
+mistral          613    3    0      39/39    1.0 (0.91, 1.0)    1.0  0.568  0.283  0.095 False
+    b2: t=0.0 caught 13/13 flagged 190/190 AUC 0.6088657105606258
+    b3: t=0.0 caught 11/11 flagged 142/142 AUC 0.583969465648855
+    b4: t=0.0 caught 5/5 flagged 139/139 AUC 0.48880597014925375
+    b5: t=0.0 caught 10/10 flagged 142/142 AUC 0.5390151515151516
+nemotron_off     613    0    0      36/39 0.923 (0.797, 0.973)  0.692  0.766   0.12  0.104 False
+    b2: t=0.00012270622885992484 caught 11/13 flagged 118/190 AUC 0.7183833116036505
+    b3: t=7.427857341003375e-05 caught 10/11 flagged 100/142 AUC 0.8154059680777238
+    b4: t=7.427857341003375e-05 caught 5/5 flagged 104/139 AUC 0.6985074626865672
+    b5: t=7.41616663996722e-05 caught 10/10 flagged 102/142 AUC 0.8113636363636364
+nemotron_on      613    0    0      39/39    1.0 (0.91, 1.0)    1.0  0.858  0.291   0.34 False
+    b2: t=0.0 caught 13/13 flagged 190/190 AUC 0.9146023468057366
+    b3: t=0.0 caught 11/11 flagged 142/142 AUC 0.8632893823733518
+    b4: t=0.0 caught 5/5 flagged 139/139 AUC 0.7074626865671642
+    b5: t=0.0 caught 10/10 flagged 142/142 AUC 0.8617424242424242
+qwen_off         613    0    0      36/39 0.923 (0.797, 0.973)    0.3  0.929  0.374  0.447 True
+    b2: t=0.13351516265465788 caught 12/13 flagged 54/190 AUC 0.9404606692742286
+    b3: t=0.10616610022822368 caught 11/11 flagged 52/142 AUC 0.9417071478140181
+    b4: t=0.17309990233944428 caught 4/5 flagged 36/139 AUC 0.9074626865671642
+    b5: t=0.13351516265465788 caught 9/10 flagged 42/142 AUC 0.9212121212121213
+qwen_on          613    0    0      39/39    1.0 (0.91, 1.0)    1.0  0.877  0.455  0.712 False
+    b2: t=0.0 caught 13/13 flagged 190/190 AUC 0.9156888309430682
+    b3: t=0.0 caught 11/11 flagged 142/142 AUC 0.8546148507980569
+    b4: t=0.0 caught 5/5 flagged 139/139 AUC 0.8970149253731343
+    b5: t=0.0 caught 10/10 flagged 142/142 AUC 0.8416666666666667
+Clef vs Jev AUC (paired bootstrap): {'n_items': 613, 'auc': (0.9293978379344233, 0.952715983203788), 'diff': -0.023, 'ci95': (-0.049, 0.001)}

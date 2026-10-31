@@ -1,0 +1,120 @@
+{
+ "_note": "Census reader check on the Anthropic Message Batches API, same key: Haiku 5.5 effort medium and Sonnet 5.5 effort high on 30 Oct 2026, Opus 5.5 effort medium on 31 Oct 2026 (Opus wrote the key, so its row is a self-check). Costs are list batch price times usage.",
+ "claude-haiku-5-5": {
+  "agree": 147,
+  "pairs": 150,
+  "accuracy": 0.98,
+  "wilson95": [
+   0.9429,
+   0.9932
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->perfunctory": 86,
+   "substantive->substantive": 55,
+   "aware->aware": 6,
+   "substantive->perfunctory": 2,
+   "perfunctory->substantive": 1
+  }
+ },
+ "claude-sonnet-5-5": {
+  "agree": 143,
+  "pairs": 150,
+  "accuracy": 0.9533,
+  "wilson95": [
+   0.9068,
+   0.9772
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->perfunctory": 83,
+   "substantive->substantive": 54,
+   "substantive->perfunctory": 3,
+   "aware->aware": 6,
+   "perfunctory->substantive": 4
+  }
+ },
+ "claude-opus-5-5": {
+  "agree": 140,
+  "pairs": 147,
+  "accuracy": 0.9524,
+  "wilson95": [
+   0.905,
+   0.9767
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->perfunctory": 82,
+   "substantive->substantive": 52,
+   "aware->aware": 6,
+   "perfunctory->substantive": 4,
+   "substantive->perfunctory": 3
+  }
+ },
+ "panel: claude-haiku-5-5 + claude-sonnet-5-5 + claude-opus-5-5 (Haiku breaks ties)": {
+  "agree": 145,
+  "pairs": 150,
+  "accuracy": 0.9667,
+  "wilson95": [
+   0.9243,
+   0.9857
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->perfunctory": 84,
+   "substantive->substantive": 55,
+   "aware->aware": 6,
+   "substantive->perfunctory": 2,
+   "perfunctory->substantive": 3
+  }
+ },
+ "errors_by_model": {
+  "claude-opus-5-5": 4
+ },
+ "extra": {
+  "claude-haiku-5-5": {
+   "kappa_pair_4label": 0.961,
+   "kappa_aware_vs_not": 1.0,
+   "pairs": 150,
+   "usd_total": 0.0165,
+   "usd_per_context": 8.5e-05,
+   "usd_per_1k_contexts": 0.0851,
+   "contexts_per_200_usd": 2351515,
+   "turnaround_min": 6.3,
+   "tokens": {
+    "input_tokens": 53083,
+    "output_tokens": 48557,
+    "cache_creation_input_tokens": 1659,
+    "cache_read_input_tokens": 320187
+   }
+  },
+  "claude-sonnet-5-5": {
+   "kappa_pair_4label": 0.91,
+   "kappa_aware_vs_not": 1.0,
+   "pairs": 150,
+   "usd_total": 0.1399,
+   "usd_per_context": 0.000721,
+   "usd_per_1k_contexts": 0.7211,
+   "contexts_per_200_usd": 277340,
+   "turnaround_min": 6.3,
+   "tokens": {
+    "input_tokens": 53083,
+    "output_tokens": 13735,
+    "cache_creation_input_tokens": 1659,
+    "cache_read_input_tokens": 320187
+   }
+  },
+  "claude-opus-5-5": {
+   "kappa_pair_4label": 0.908,
+   "kappa_aware_vs_not": 1.0,
+   "pairs": 147,
+   "usd_total": 1.0435,
+   "usd_per_context": 0.005492,
+   "usd_per_1k_contexts": 5.4921,
+   "contexts_per_200_usd": 36415,
+   "turnaround_min": 3.1,
+   "tokens": {
+    "input_tokens": 53083,
+    "output_tokens": 13272,
+    "cache_creation_input_tokens": 321846,
+    "cache_read_input_tokens": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "_note": "Census reader check, 29 Oct 2026, same key. Muse Spark (Meta; version not recorded) ran on the Muse app. Sonnet 5.5 and gpt-oss-120b rows are the same reads as census_reader_check_gemini_panel.json.",
+ "Muse Spark (Meta; version not recorded)": {
+  "agree": 144,
+  "pairs": 150,
+  "accuracy": 0.96,
+  "wilson95": [
+   0.9155,
+   0.9815
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->perfunctory": 85,
+   "substantive->substantive": 53,
+   "substantive->perfunctory": 4,
+   "aware->aware": 6,
+   "perfunctory->substantive": 2
+  }
+ },
+ "claude-sonnet-5-5": {
+  "agree": 141,
+  "pairs": 150,
+  "accuracy": 0.94,
+  "wilson95": [
+   0.8899,
+   0.9681
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->substantive": 7,
+   "substantive->substantive": 56,
+   "perfunctory->perfunctory": 80,
+   "aware->aware": 5,
+   "aware->substantive": 1,
+   "substantive->perfunctory": 1
+  }
+ },
+ "gpt-oss-120b (reasoning medium)": {
+  "agree": 137,
+  "pairs": 150,
+  "accuracy": 0.9133,
+  "wilson95": [
+   0.8574,
+   0.9487
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->substantive": 8,
+   "substantive->substantive": 53,
+   "perfunctory->perfunctory": 79,
+   "aware->aware": 5,
+   "substantive->perfunctory": 4,
+   "aware->substantive": 1
+  }
+ },
+ "panel: Muse Spark (Meta) + claude-sonnet-5-5 + gpt-oss-120b (Muse breaks ties)": {
+  "agree": 144,
+  "pairs": 150,
+  "accuracy": 0.96,
+  "wilson95": [
+   0.9155,
+   0.9815
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->substantive": 4,
+   "substantive->substantive": 56,
+   "perfunctory->perfunctory": 83,
+   "aware->aware": 5,
+   "aware->substantive": 1,
+   "substantive->perfunctory": 1
+  }
+ },
+ "panel: Muse Spark (Meta) + gpt-oss-120b (Muse breaks ties)": {
+  "agree": 143,
+  "pairs": 150,
+  "accuracy": 0.9533,
+  "wilson95": [
+   0.9068,
+   0.9772
+  ],
+  "confusion_gold_to_model": {
+   "perfunctory->perfunctory": 85,
+   "substantive->substantive": 53,
+   "substantive->perfunctory": 4,
+   "aware->aware": 5,
+   "perfunctory->substantive": 2,
+   "aware->substantive": 1
+  }
+ },
+ "errors_by_model": {
+  "claude-sonnet-5-5": 10,
+  "gpt-oss-120b (reasoning medium)": 10
+ }
+}

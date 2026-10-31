@@ -1,0 +1,28 @@
+{
+ "_note": "Composer 2.5, one citation per call, on batch 6 (996 drawn, 915 judgeable), 30 Oct 2026; exploratory.",
+ "reference": {
+  "n": 996,
+  "verdicts": {
+   "minor": 120,
+   "major": 66,
+   "accurate": 729,
+   "cannot_tell": 81
+  }
+ },
+ "models": {
+  "composer-2.5": {
+   "n": 996,
+   "exact": 0.684,
+   "kappa4": 0.445,
+   "kappa_error": 0.457,
+   "kappa_major": 0.665,
+   "major_recall": 0.879,
+   "major_precision": 0.574,
+   "pred_major_rate": 0.11,
+   "pred_error_rate": 0.431,
+   "pred_cannot_tell": 35
+  }
+ },
+ "panels": {},
+ "best_panels": []
+}

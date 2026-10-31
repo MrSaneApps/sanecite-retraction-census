@@ -1,0 +1,327 @@
+{
+ "cf/meta/llama-3.3-70b-instruct-fp8-fast": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.753,
+  "macro_f1": 0.727,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.66,
+    "r": 0.9,
+    "f1": 0.76
+   },
+   "perfunctory": {
+    "p": 0.87,
+    "r": 0.66,
+    "f1": 0.75
+   }
+  },
+  "verbatim_evidence_share": 0.99,
+  "p50_ms": 1049,
+  "usd_per_1k_items": 0.1857,
+  "errors": []
+ },
+ "cf/openai/gpt-oss-120b": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.89,
+  "macro_f1": 0.82,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.81,
+    "r": 0.97,
+    "f1": 0.88
+   },
+   "perfunctory": {
+    "p": 0.97,
+    "r": 0.85,
+    "f1": 0.91
+   }
+  },
+  "verbatim_evidence_share": 0.68,
+  "p50_ms": 6538,
+  "usd_per_1k_items": 0.4149,
+  "errors": []
+ },
+ "cf/openai/gpt-oss-20b": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.781,
+  "macro_f1": 0.747,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.68,
+    "r": 0.87,
+    "f1": 0.76
+   },
+   "perfunctory": {
+    "p": 0.91,
+    "r": 0.73,
+    "f1": 0.81
+   }
+  },
+  "verbatim_evidence_share": 0.86,
+  "p50_ms": 6143,
+  "usd_per_1k_items": 0.2839,
+  "errors": []
+ },
+ "cf/moonshotai/kimi-k2.6": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.836,
+  "macro_f1": 0.883,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 1.0,
+    "f1": 1.0
+   },
+   "substantive": {
+    "p": 0.85,
+    "r": 0.73,
+    "f1": 0.79
+   },
+   "perfunctory": {
+    "p": 0.82,
+    "r": 0.9,
+    "f1": 0.86
+   }
+  },
+  "verbatim_evidence_share": 1.0,
+  "p50_ms": 58724,
+  "usd_per_1k_items": 0.1431,
+  "errors": []
+ },
+ "cf/zai-org/glm-5.2": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.904,
+  "macro_f1": 0.933,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 1.0,
+    "f1": 1.0
+   },
+   "substantive": {
+    "p": 0.9,
+    "r": 0.87,
+    "f1": 0.88
+   },
+   "perfunctory": {
+    "p": 0.9,
+    "r": 0.93,
+    "f1": 0.92
+   }
+  },
+  "verbatim_evidence_share": 0.96,
+  "p50_ms": 1030,
+  "usd_per_1k_items": 0.5284,
+  "errors": []
+ },
+ "cf/google/gemma-4-26b-a4b-it": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.836,
+  "macro_f1": 0.78,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.74,
+    "r": 0.93,
+    "f1": 0.82
+   },
+   "perfunctory": {
+    "p": 0.94,
+    "r": 0.78,
+    "f1": 0.85
+   }
+  },
+  "verbatim_evidence_share": 0.96,
+  "p50_ms": 1310,
+  "usd_per_1k_items": 0.0522,
+  "errors": []
+ },
+ "cf/zai-org/glm-4.7-flash": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.589,
+  "macro_f1": 0.607,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.5,
+    "r": 0.9,
+    "f1": 0.64
+   },
+   "perfunctory": {
+    "p": 0.83,
+    "r": 0.37,
+    "f1": 0.51
+   }
+  },
+  "verbatim_evidence_share": 0.97,
+  "p50_ms": 1265,
+  "usd_per_1k_items": 0.0422,
+  "errors": []
+ },
+ "cf/meta/llama-4-scout-17b-16e-instruct": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.74,
+  "macro_f1": 0.823,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 1.0,
+    "f1": 1.0
+   },
+   "substantive": {
+    "p": 0.65,
+    "r": 0.8,
+    "f1": 0.72
+   },
+   "perfunctory": {
+    "p": 0.82,
+    "r": 0.68,
+    "f1": 0.75
+   }
+  },
+  "verbatim_evidence_share": 0.97,
+  "p50_ms": 4410,
+  "usd_per_1k_items": 0.1405,
+  "errors": []
+ },
+ "cf/nvidia/nemotron-3-120b-a12b": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.822,
+  "macro_f1": 0.77,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.88,
+    "r": 0.7,
+    "f1": 0.78
+   },
+   "perfunctory": {
+    "p": 0.81,
+    "r": 0.93,
+    "f1": 0.86
+   }
+  },
+  "verbatim_evidence_share": 1.0,
+  "p50_ms": 1091,
+  "usd_per_1k_items": 0.2723,
+  "errors": []
+ },
+ "cf/deepseek-ai/deepseek-v4-pro-0813": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.795,
+  "macro_f1": 0.75,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.78,
+    "r": 0.7,
+    "f1": 0.74
+   },
+   "perfunctory": {
+    "p": 0.8,
+    "r": 0.88,
+    "f1": 0.84
+   }
+  },
+  "verbatim_evidence_share": 0.99,
+  "p50_ms": 2425,
+  "usd_per_1k_items": 0.51,
+  "errors": []
+ },
+ "typesafe/jev": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.822,
+  "macro_f1": 0.763,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.9,
+    "r": 0.63,
+    "f1": 0.75
+   },
+   "perfunctory": {
+    "p": 0.78,
+    "r": 0.98,
+    "f1": 0.87
+   }
+  },
+  "verbatim_evidence_share": null,
+  "p50_ms": 688,
+  "usd_per_1k_items": 0.029,
+  "errors": []
+ },
+ "cf/cloudflare/clef": {
+  "n": 73,
+  "valid": 73,
+  "accuracy": 0.863,
+  "macro_f1": 0.797,
+  "per_label": {
+   "aware": {
+    "p": 1.0,
+    "r": 0.5,
+    "f1": 0.67
+   },
+   "substantive": {
+    "p": 0.86,
+    "r": 0.8,
+    "f1": 0.83
+   },
+   "perfunctory": {
+    "p": 0.86,
+    "r": 0.93,
+    "f1": 0.89
+   }
+  },
+  "verbatim_evidence_share": null,
+  "p50_ms": 503,
+  "usd_per_1k_items": 0.0208,
+  "errors": []
+ },
+ "_note": "Phase 2 pilot bake-off v1, 13 Oct 2026: 12 models on 73 citations labelled by one AI reader (Claude), codebook v1. Clef's usd_per_1k_items uses an older price rule; at its list price ($0.24 per million input tokens) it is about $0.12 per 1,000."
+}
