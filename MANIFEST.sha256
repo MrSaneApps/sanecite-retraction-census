@@ -271,3 +271,5 @@ a3495b04437967bec22b71e1539df1a0028e7ba9f1d245750d1401c25bf00b14  ./scripts/stag
 0633ec6b2a8a042bdeb082c90a80fb9ace7199ae6d621af847a4630efe42fb1f  ./scripts/stage_release.py
 # 2026-10-31T13:16Z Stage 3 batch 7 registration 31 Oct 2026
 e36b7ccab857c081fd1007592b4f28a9402c98db0e4dbe9159226ffa1e518897  ./checker/records/PREREG_HASHES.txt
+# 2026-10-31T13:43Z Stage 3 batch 7 samples 31 Oct 2026
+964ab4b75b1455c382bd499078a57a4fdcdf29540b9b0084480499606a8f5225  ./checker/records/PREREG_HASHES.txt
