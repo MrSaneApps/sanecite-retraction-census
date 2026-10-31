@@ -119,3 +119,4 @@ c97508602b9c9ec714180e8933849fa56fb1a5b239784892d5e74b90c8eb107c  B6_RESULT_2026
 2026-10-31T13:43:31Z f10810a2ac5ed0505c81fce937ab945aa8501b6ea65c46b41e5d55e67e57e83b  batches/b7/sample_read.jsonl  (batch 7 Part A sample and run script, before any read)
 2026-10-31T13:43:31Z 591eb401aaa8faaf54d3b41bb716217a285f83acbe77ad81a42401dda089f7fc  batches/b7/run_system.sh  (batch 7 Part A sample and run script, before any read)
 2026-10-31T13:43:31Z 44bb26d8c6fa64daa83c20bcd00ef4af99445f8c94686c6eab5a7239e9e401b9  DEVIATIONS.md  (batch 7 Part A sample and run script, before any read)
+2026-10-31T13:50:19Z 50f5a6b4d29c832736889676898263b56ad7a2691a61ed48e9eb6762613933ee  batches/b7/score_b7.py  (canary rule to the registered text; DEVIATIONS batch 7 item 4)

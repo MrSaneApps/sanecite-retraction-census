@@ -273,3 +273,5 @@ a3495b04437967bec22b71e1539df1a0028e7ba9f1d245750d1401c25bf00b14  ./scripts/stag
 e36b7ccab857c081fd1007592b4f28a9402c98db0e4dbe9159226ffa1e518897  ./checker/records/PREREG_HASHES.txt
 # 2026-10-31T13:43Z Stage 3 batch 7 samples 31 Oct 2026
 964ab4b75b1455c382bd499078a57a4fdcdf29540b9b0084480499606a8f5225  ./checker/records/PREREG_HASHES.txt
+# 2026-10-31T13:51Z Stage 3 batch 7 canary rule fix 31 Oct 2026
+353f0402e249daececa8d6337987974b38c24305d62fa2d33e78a940dab861e5  ./checker/records/PREREG_HASHES.txt
