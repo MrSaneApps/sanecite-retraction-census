@@ -309,3 +309,18 @@ e5e96e24c1011ef7e912b9590afdde131c127f28e4e4ec74b4fb1830a04e4541  ./checker/scri
 bf3bbf15cd2d3ac7cd3d8fa3f28c112f2900d969e5b6d39af377bb157627cb8c  ./checker/scripts/judge_v3.py
 5f7ced3b2ab68569027c8302fe65f97aead2dcfc18f9ca9fdbf8d2a05c4e8f73  ./checker/scripts/model_cards.py
 46ae1db012ba8427ef4a4432b24649ecc7c9b4655138af73240645d80b1497b9  ./scripts/stage_release.py
+# 2026-11-01T07:14Z Public wording: internal procedure names and private folder notes replaced (checker records, Lists method and code)
+a00ed95e69fcabb11033738384ac8664018baaa90d727d307dcb3dc12761b9e7  ./checker/README.md
+a28ee03ba7b1c13a415bbb7178c16d1915bf3c87ea6b89d34cd1007ffa606599  ./checker/SOURCES.sha256
+d3ad097f4c085cc45c75062f50762cf526357a7c0276a2eb40346a89f78f8e44  ./checker/records/MODEL_CARDS_2026-10-22.md
+55fc612327436a1ce83de61c25930a861bf29ec1fb5ab30d6961a54c677476fd  ./checker/records/RESULTS.md
+6069b6667dabe7fc2865d240f133a61e70d863e91a1514f7c5d8c4fa22919673  ./checker/records/TUNING_RESULTS_2026-10-22.md
+98d9196519f1d399e4612d8edffc4d18b248585345c9b71dbd453eb6ad5fab80  ./checker/records/run.sh
+187c1ba71d1e53d4a7870efb38c6f14bfa58fd065fd84aa606d48b7ba3c972c5  ./checker/records/run_batch.sh
+9c1e99883dd2f971213afa409884bccb93b1d94c5fb7f6c83c6e7d09c1764292  ./checker/scripts/judge_v2.py
+4963625dcf885c067c4fb632e566e81f9d55ff31fda35efe22d6674174da46f6  ./checker/scripts/model_cards.py
+445de5ca447640c0bef736746f97ed6f49985cf0bae3aa6f88a4ea8983c2ad6b  ./lists/METHOD.md
+7fdb7b724252fd97eaef8fc92cbf1437f4210a45e7d91d3c430135fb3eb3ef38  ./lists/SOURCES.sha256
+9ef8c07f4c6617c215bd5ea0b5c72de20358a96874165a1d3aca54f90928528b  ./lists/code/crossref_check.py
+82185c7de116ea46287a219ce20572fb016eb3d54e0e8f143bcb6c3805a28f60  ./lists/code/site/lists.py
+f80e6ec8dbca87c2aed768ce9e0464782cd207984b6a2c49256466e4b0376477  ./scripts/stage_release.py

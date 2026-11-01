@@ -2,7 +2,7 @@
 # One batch of the SaneCite citation-accuracy check, start to finish, with the method chosen on 22 Oct 2026
 # (METHOD_CHOSEN_v2_2026-10-22.md): sample N random citations, judge them with the 5-voter panel, tabulate.
 #   run_batch.sh NAME SEED [N=1000]
-# Needs a fresh smoked research receipt for the panel models (LLM_VENDOR_API_SOP) in SANE_LLM_API_RECEIPT.
+# Check the panel models' live settings first.
 set -u
 NAME=${1:?name}; SEED=${2:?seed}; N=${3:-1000}
 D="${SANECITE_CHECKER_DIR:-$PWD}"

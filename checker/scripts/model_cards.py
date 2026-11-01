@@ -50,7 +50,7 @@ CARDS = {
         sources=["https://docs.typesafe.ai/api/system-one.md", "https://docs.typesafe.ai/models.md",
                  "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md", "https://docs.typesafe.ai/cookbooks/citation_check.md",
                  "https://typesafe.ai/blog/jev-1-14", "https://llm-aggrefact.github.io/"],
-        sop="LLM_VENDOR_API_SOP call-shape table row 'AI Gateway typesafe/jev (typed)': not in the Workers AI catalog, "
+        sop="our model-call notes, call-shape table row 'AI Gateway typesafe/jev (typed)': not in the Workers AI catalog, "
             "smoke on account /ai/run with {model, input:{state, questions}}; 'Typed-choice reviews': card-paid, own bars "
             "(Jev accept 0.8, hold 0.9), billing from the GraphQL record.",
         settings="Same schema as Clef. Limits 64k tokens per request, 32k per question. Known weaknesses: first-option bias "

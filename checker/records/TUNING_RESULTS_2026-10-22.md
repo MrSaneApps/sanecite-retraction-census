@@ -27,7 +27,7 @@ Why (evidence):
 (Claude and a second model family, disagreements settled by a further Claude read). Its samples and reading rules were
 fixed in advance, but pooling them into a rate was not in the plan; the registered primary estimate of this pilot is
 still 10.8% (PROTOCOL.md, Analysis 2). Neither has been checked by people. Outbound text copies the long form in
-SANECITE_SOP.md (facts sheet) and never calls 6.2% "pre-registered".
+our facts sheet and never calls 6.2% "pre-registered".
 Pooled batches 2-4 gold (500 random citations, 471 judgeable):
 - any error 89/471 = 18.9% (95% CI 15.6-22.7%); major 29/471 = 6.2% (4.3-8.7%).
 - specific_claim citations (219): any error 25.1%, major 7.8%. background (185): 15.7%, 5.4%.

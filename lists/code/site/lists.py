@@ -22,7 +22,7 @@ from charts import ADMIN, AS_OF, CENSUS, P2, PROVISIONAL, ROOT, ROWS, esc, n, pc
 L = json.load(open(f"{P2}/lists.json"))
 FIX = json.load(open(f"{P2}/list_corrections.json"))
 # A paper that rose into a place after the corrections is held (not named) until its authors have been written to and
-# have had the same time to reply (SOP H2). Everything that names it stays in tools/held.json, which is never served,
+# have had the same time to reply (the held-entries rule). Everything that names it stays in tools/held.json, which is never served,
 # and is merged in here; check_published() stops the build if a held id reaches any published file.
 HELD = json.load(open(f"{ROOT}/tools/held.json")) if os.path.exists(f"{ROOT}/tools/held.json") else {}
 if "pending_entries" in FIX:
@@ -826,7 +826,7 @@ def on_lists_json():
 
 # Census-wide files: one row per retracted paper or citation in the census, unranked, public since the census release.
 # They hold every paper, held ones included, and say nothing about the lists; every other served file must not
-# name a held entry until it is named on the page (SOP H2).
+# name a held entry until it is named on the page (the held-entries rule).
 CENSUS_WIDE = ("data/phase2/c/", "data/phase2/citations.csv", "data/phase2/contexts-", "data/phase2/paper_subjects.csv",
                "data/phase2/papers.json", "data/phase2/retraction_status.csv", "data/phase2/first_authors.json")
 NOT_SERVED = ("tools/", ".git/", ".git", ".gitignore", ".assetsignore", "AGENTS.md", "README.md", "VISION.md", "FUNDING.md",

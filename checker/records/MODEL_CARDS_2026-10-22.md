@@ -186,7 +186,7 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
 
 - what: TypeSafe's 'System One' typed-choice model, served through Cloudflare AI Gateway. $0.042/M input, output free; bills the card-paid gateway balance, not the grant (owner approved for this rerun, 22 Oct 9:16 AM).
 - sources: https://docs.typesafe.ai/api/system-one.md ; https://docs.typesafe.ai/models.md ; https://docs.typesafe.ai/model-jaggedness/jev-1.13.md ; https://docs.typesafe.ai/cookbooks/citation_check.md ; https://typesafe.ai/blog/jev-1-14 ; https://llm-aggrefact.github.io/
-- sop: LLM_VENDOR_API_SOP call-shape table row 'AI Gateway typesafe/jev (typed)': not in the Workers AI catalog, smoke on account /ai/run with {model, input:{state, questions}}; 'Typed-choice reviews': card-paid, own bars (Jev accept 0.8, hold 0.9), billing from the GraphQL record.
+- sop: our model-call notes, call-shape table row 'AI Gateway typesafe/jev (typed)': not in the Workers AI catalog, smoke on account /ai/run with {model, input:{state, questions}}; 'Typed-choice reviews': card-paid, own bars (Jev accept 0.8, hold 0.9), billing from the GraphQL record.
 - settings research: Same schema as Clef. Limits 64k tokens per request, 32k per question. Known weaknesses: first-option bias (rotate options), literal reading, accuracy falls with unrelated text, poor 'none of the above'. Gateway route cannot pin a version (jev-latest moves between releases); record the model field returned.
 - benches:
   - internal notes: the SOP.

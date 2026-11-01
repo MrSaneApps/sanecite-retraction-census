@@ -91,8 +91,8 @@ HARD = {"private path": r"/Users/|stephansmac", "api key": r"\bsk-[A-Za-z0-9]{16
         "correspondence": r"CORRESPONDENCE\.md", "account id": r"ACCOUNT_ID\S*?[0-9a-f]{32}"}
 INHOUSE = {"machine name": r"\bMac Mini\b|\bthe Mini\b|\bMini clock\b|\(Air[;)]", "agent name": r"(?<!Muse )\bSpark\b|\bsubagents?\b",  # "Muse Spark" is Meta's public model name
            "private folder": r"SaneApps/(?:outputs|websites|clients|infra)|\bSaneProcess\b",
-           "secret store": r"\bsane-env\b", "internal procedure": r"\bSOP C\d+",
-           "internal tool": r"\bplan_calls\b|\bVia Patrum\b|clients/translations|\btmux\b|\bagy\b"}
+           "secret store": r"\bsane-env\b", "internal procedure": r"\bSOP [A-Z]\d+|\b[A-Z_]+_SOP\b|SANE_LLM_API_RECEIPT",
+           "internal tool": r"\bplan_calls\b|\bVia Patrum\b|clients/translations|\btmux\b|\bagy\b|outreach/drafts|llm_api_research_gate"}
 RULES = {k: re.compile(v) for k, v in {**HARD, **INHOUSE}.items()}
 DATA_EXT = (".jsonl", ".gz", ".csv", ".tsv")
 # Repository files that may break a rule, each with the reason. Staged files get theirs from the sources file.

@@ -59,10 +59,10 @@ The census uses the Retraction Watch year. The Lists use the notice's date where
 ("retraction_dates", each with its notice PMID), and lists.py drops citations made before it (corrected_rows()).
 A citation found in the full read to be published online before the notice is excluded with the reason
 "Published online before the retraction notice." First-online dates are Europe PMC firstPublicationDate or the
-publisher's online date, never a Crossref registration date (SOP B11).
+publisher's online date, never a Crossref registration date (rule B11).
 
 ## 5. The full read
-Which papers: SOP B5. Before a paper is named at or near the last place, every paper whose current count could reach
+Which papers: rule B5. Before a paper is named at or near the last place, every paper whose current count could reach
 that place (listed, removed or unread) is read in full, the full-read labels are applied to all of them, and the
 recount is repeated after each batch until no paper can enter or leave. On 23 Oct 2026 that was 21 papers: 20 in
 list_corrections.json "full_read" plus 1 held entry in tools/held.json (held until its authors have had the same time
@@ -72,9 +72,9 @@ to reply; lists.py adds it to the full-read set at build time). Why: reading onl
 What is read: every citation the census counted as "cited as support" for those papers, checked against the citing
 paper's full text (Europe PMC or PMC) and the retracted paper's abstract and notice. For the papers at and just below
 the last places, each citation was read twice, blind, and a third reader settled the disagreements; the majority
-decides (outreach/drafts/round2-fullread/apply_round2.py).
+decides.
 
-Verdicts (outreach/drafts/round2-fullread/BRIEF.md):
+Verdicts:
 
     HOLDS: presents as established something the retracted paper reported, and uses it as support.
     NOT_IN_PAPER: credits the retracted paper with something it does not report.
@@ -84,7 +84,7 @@ Verdicts (outreach/drafts/round2-fullread/BRIEF.md):
     WRONG_REFERENCE: the marker does not point to the retracted paper, or the printed reference is the notice.
     CANNOT_CHECK: no full text reachable.
 
-How each verdict changes the List (outreach/drafts/place10-fullread/apply_fullread.py):
+How each verdict changes the List:
 
     PASSING -> perfunctory, NOT_IN_PAPER -> unclear, FLAGGED -> aware (relabel); WRONG_REFERENCE or online before
     the notice -> exclude_citing; HOLDS and CANNOT_CHECK -> no change.
@@ -133,17 +133,14 @@ make an entry a citation of the notice.
 ## Where the pieces are
 - Corrections and their sources: data/phase2/list_corrections.json (published with the Lists).
 - The code that applies them: tools/lists.py (site repo, Lists branch).
-- Full-read briefs, results and the scripts that turned results into corrections: outreach/drafts/round2-fullread/
-  and outreach/drafts/place10-fullread/ in the ops folder (private: they sit beside letter drafts). The scripts and
-  BRIEF.md files are in the ops git repo since 23 Oct 2026; letter text and data are not.
-- The rules that govern reading and naming: SANECITE_SOP.md, B1-B13.
+- Full-read briefs, results and the scripts that turned results into corrections are kept in our private records,
+  beside letter drafts; they can be shown on request.
+- The rules that govern reading and naming: our written rules B1-B13.
 
-## Not yet done (owner decisions, 23 Oct 2026)
+## Not yet done (23 Oct 2026)
 - The census protocol (protocol/PROTOCOL.md) has no amendment for these rules; its amendments stop at 11, and its
   heading says none was made after seeing final results. An amendment 12 written now would come after the Lists were
-  built and must say so. Owner to choose: a dated amendment 12 that says so, or this file published with the Lists
-  CSVs as the method of record (audit finding 16).
-- A public copy of this file for the Lists folder: drop the ops paths (outreach/drafts/..., SANECITE_SOP.md) and the
-  private tools/held.json detail, keep the rules. It goes on the Lists branch, not here.
+  built and must say so. Still to choose: a dated amendment 12 that says so, or this file published with the Lists
+  CSVs as the method of record.
 - The Lists page should say in one line that List counts use the full-read rule, which differs from the census label
-  in the two ways in section 8 (Lists branch, not this file).
+  in the two ways in section 8.

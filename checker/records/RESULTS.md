@@ -12,7 +12,7 @@
 > (Claude and a second model family, disagreements settled by a further Claude read). Its samples and reading rules were
 > fixed in advance, but pooling them into a rate was not in the plan; the registered primary estimate of this pilot is
 > still 10.8% (PROTOCOL.md, Analysis 2). Neither has been checked by people. Outbound text copies the long form in
-> SANECITE_SOP.md (facts sheet) and never calls 6.2% "pre-registered".
+> our facts sheet and never calls 6.2% "pre-registered".
 
 
 Pre-registered in PROTOCOL.md (hashes in PREREG_HASHES.txt) before judging; one logged deviation (DEVIATIONS.md:

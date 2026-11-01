@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""SOP B1 second source for every retracted work a Lists letter names: Crossref's record for the DOI (updated-by a
+"""Rule B1, second source for every retracted work a Lists letter names: Crossref's record for the DOI (updated-by a
 retraction, or a title marked retracted). PubMed's linked retraction notice is the first source (lists_data.py).
 Writes <letters>/crossref_check.json: doi -> {ok, how}. usage: python3 crossref_check.py <letters dir>"""
 import json, sys, time, urllib.parse, urllib.request

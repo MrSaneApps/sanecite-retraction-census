@@ -1,6 +1,6 @@
 #!/bin/zsh
 # Stage 3 pilot: sample 1,600 pairs and judge them as the sample grows. Prints timestamped stage lines for the watcher.
-# Needs CF_TOKEN and SANE_LLM_API_RECEIPT in the environment.
+# Needs CF_TOKEN in the environment.
 set -u
 D="${SANECITE_CHECKER_DIR:-$PWD}"
 cd "$D"

@@ -33,7 +33,7 @@ originals can be shown on request):
 - `records/RESULTS.md`: internal tool, machine and procedure names replaced
 - `records/PROTOCOL_TUNING_2026-10-22.md`: internal tool, machine and procedure names replaced
 - `records/TUNING_RESULTS_2026-10-22.md`: internal tool, machine and procedure names replaced
-- `records/run.sh`: a private folder path replaced
-- `records/run_batch.sh`: a private account ID and a private secret loader removed; a private folder path replaced
+- `records/run.sh`: a private folder path replaced; internal tool, machine and procedure names replaced
+- `records/run_batch.sh`: a private account ID and a private secret loader removed; a private folder path replaced; internal tool, machine and procedure names replaced
 
 All reads are by AI models; no human has checked them yet. Code MIT, data CC BY 4.0 (see the repository root).

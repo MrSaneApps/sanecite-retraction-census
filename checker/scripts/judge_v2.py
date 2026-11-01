@@ -124,7 +124,7 @@ def call_chat(m, r, token, prompt="v2"):
     res, parsed = {}, None
     while tries < 3:
         kw = {"max_tokens": MAX_TOKENS[m]} if m in MAX_TOKENS else {}
-        if "qwen3" in m:  # LLM_VENDOR_API_SOP: Qwen3 on Workers AI has no thinking flag; /no_think in the prompt
+        if "qwen3" in m:  # our model-call notes: Qwen3 on Workers AI has no thinking flag; /no_think in the prompt
             msgs = [msgs[0], {"role": "user", "content": msgs[1]["content"] + " /no_think"}]
         res = llm_bakeoff.vendor_call(m, msgs, cf_token=token, **kw)
         if REFUSED in str(res.get("error", "")) and waits < 40:
