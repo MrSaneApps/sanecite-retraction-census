@@ -326,3 +326,11 @@ d3ad097f4c085cc45c75062f50762cf526357a7c0276a2eb40346a89f78f8e44  ./checker/reco
 f80e6ec8dbca87c2aed768ce9e0464782cd207984b6a2c49256466e4b0376477  ./scripts/stage_release.py
 # 2026-11-01T13:29Z README: Hugging Face mirror line
 349ca8214197c1766cd030558018c245580166252e7799b2a6f966bf5e75b0d9  ./README.md
+# 2026-11-01T13:42Z Lists readings: only entries the Lists page names (places below the cut left out until their reply window closes)
+3b6e876cdfba19c1931faf22328d442622b42bc2ecdb687e688e16eeba14abf3  ./lists/SOURCES.sha256
+3c3f78c63b4714ce8350d4c267f0bf32446b94cf2b3ec052257563beb927fcb0  ./lists/csv/second-reading.csv
+de068385c55b7b172432168e3016219a3922032811054a2b688f5dab9f449a01  ./lists/data/list_checks.csv
+4a3702c087656e0b24010330f757d1c1d3cdd69b3c8cb36443eee3b07c313d05  ./lists/readings/verdicts2_authors.jsonl
+662cb3c55ff1e61317e454dd24f096a74cd4298265c7a84e9723af32401d74ba  ./lists/readings/verdicts_authors.jsonl
+aa7d9d2ae30d7c995634130588957741af7398402bd6b4bb9e2f1a9f7c47a62e  ./lists/readings/verdicts_journals.jsonl
+ff1f04b00fec36170d8c374660880de3e33c49fd391ca6567499ab44dc01d2db  ./lists/readings/verdicts_papers.jsonl
