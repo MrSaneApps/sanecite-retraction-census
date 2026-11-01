@@ -105,6 +105,9 @@ Joseph, S. (2026). *SaneCite retraction census: post-retraction citations to 22,
 This DOI always points to the latest version; each version also has its own DOI on Zenodo. GitHub's "Cite this
 repository" button uses [`CITATION.cff`](CITATION.cff).
 
+The citation labels are also on Hugging Face for easy loading: [SaneCite/retraction-census](https://huggingface.co/datasets/SaneCite/retraction-census).
+It is a mirror; please cite the Zenodo record above.
+
 ## History
 
 - **13 Oct 2026:** protocol registered before the final analysis.
