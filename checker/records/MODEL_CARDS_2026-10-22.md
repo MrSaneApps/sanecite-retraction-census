@@ -11,9 +11,9 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
 - sop: Call-shape: 'Kimi K2.6 ignores enable_thinking=false; its switch is reasoning_effort none' (llm_bakeoff); OCR section (lines 97-111) uses Kimi; Throughput: paid model, 20/min, batch overflow via the broker.
 - settings research: Live schema: reasoning_effort high|none (default high); temperature default 1; logprobs + top_logprobs 0-20; n 1-128; response_format json_schema. Moonshot: temperature 1.0 / top_p 0.95 with thinking, 0.6 without; max_completion_tokens >= 16000 with thinking; Moonshot blames bad third-party scores on wrong decoding settings. AA-LCR long-context reading 70% off, 81% on (single source).
 - benches:
-  - clients/translations/outputs/benches: open-checker: as a raiser 35% of findings judged real; pairs kimi+X kept 30/32 seeded recall.
-  - clients/translations/outputs/defect-bench: seeded-defect reader recall similar to DeepSeek V4 Pro.
-  - clients/translations/outputs/review-bench-20261009: translation review: thinking on caught 16/20 bad vs 12/20 off, but false flags 17/20 vs 10/20.
+  - internal test benches: open-checker: as a raiser 35% of findings judged real; pairs kimi+X kept 30/32 seeded recall.
+  - internal test defect-bench: seeded-defect reader recall similar to DeepSeek V4 Pro.
+  - internal test review-bench-20261009: translation review: thinking on caught 16/20 bad vs 12/20 off, but false flags 17/20 vs 10/20.
   - internal notes: OCR bench 99.3% Latin, 99.7-99.9% Greek.
   - outputs/sanecite-findings-2026-10-22: overnight brief: part of the cheap panel that over-flagged.
   - outputs/sanecite-stage3-pilot-20261021: b2 bake + 5-voter panel b3-b5, thinking off, top verdict, temperature 0.2; 0 bad parses on b2.
@@ -33,7 +33,7 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
 - settings research: Live schema: reasoning_effort max|high|low|none (default high); logprobs; n; json_schema. Maker: temperature 1.0, top_p 1.0. Thinking raised V4-Flash GPQA 71->87 in the maker's table. Catalog shows no batch badge for the 1017 build.
 - benches:
   - outputs/sanecite-stage3-pilot-20261021: b2 bake + panel b3-b5, thinking off, temperature 0.2.
-  - clients/translations/outputs/review-bench-20261009: NIM deepseek-v4.1-flash thinking on: 0/20 caught, 19 replies cut off at the token limit (budget, not the model).
+  - internal test review-bench-20261009: NIM deepseek-v4.1-flash thinking on: 0/20 caught, 19 replies cut off at the token limit (budget, not the model).
 - overnight: Thinking off; temperature 0.2 against the maker's 1.0; enable_thinking false also sent (SOP warns it can hang on NVIDIA).
 - arm deepseek_off (thinking off):
 - kwargs (deepseek_off): {"temperature": 1.0, "max_completion_tokens": 2000, "reasoning_effort": "none", "top_p": 1.0, "logprobs": true, "top_logprobs": 20}
@@ -65,8 +65,8 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
 - sop: Call-shape: 'CF Gemma / GLM: chat_template_kwargs.enable_thinking false (schema default true)'; Throughput: no batch, capped at ~20/min; doctrine-grade section notes GLM was rate-limited when shared.
 - settings research: Live schema: reasoning_effort max|high|none (default max; other values map to max). Maker evals at temperature 1.0 / top_p 0.95. AA-LCR 42% off, 78% on: the biggest loss from thinking off. Parse check 22 Oct: reasoning_effort none is IGNORED on CF (1,339 tokens, 5,974 characters of reasoning); enable_thinking false turns it off (56 tokens, 0 reasoning).
 - benches:
-  - clients/translations/outputs/benches: open-checker: raiser 37% real; best upholder 33%.
-  - clients/translations/outputs/review-bench-20261009: thinking on: 9/20 caught, 6/20 false flags.
+  - internal test benches: open-checker: raiser 37% real; best upholder 33%.
+  - internal test review-bench-20261009: thinking on: 9/20 caught, 6/20 false flags.
   - outputs/sanecite-phase2-full-20261013: census tie-breaker trial: did not beat the panel majority.
   - outputs/sanecite-phase2-pilot-20261013: pilot tie-breaker runs.
   - outputs/sanecite-stage3-pilot-20261021: named in the plan; not in the overnight bake.
@@ -87,7 +87,7 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
   - outputs/sanecite-phase2-full-20261013: census panel third model; default-length replies cut off and were retried; 6 pairs never answered.
   - outputs/sanecite-phase2-lean-20261019: lean census panel member.
   - outputs/sanecite-stage3-pilot-20261021: b2 bake + mix runs, thinking off, temperature 0: 58/200 quotes not found in the excerpts.
-  - clients/translations/outputs/referee-bench: gemma-4-31b (other SKU): best balanced 74.2%.
+  - internal test referee-bench: gemma-4-31b (other SKU): best balanced 74.2%.
 - overnight: Thinking off, temperature 0 against Google's 1.0.
 - arm gemma_off (thinking off):
 - kwargs (gemma_off): {"temperature": 1.0, "max_completion_tokens": 2000, "chat_template_kwargs": {"enable_thinking": false}, "top_p": 0.95, "logprobs": true, "top_logprobs": 20}
@@ -103,9 +103,9 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
 - settings research: NVIDIA: temperature 1.0, top_p 0.95 in both modes; reasoning-off was ~3% of fine-tuning data (tech report), so off is a weak mode; force_nonempty_content guards empty answers.
 - benches:
   - outputs/sanecite-stage3-pilot-20261021: b2 bake, thinking off, temperature 0.2: 19/200 replies were malformed JSON (lenient parse).
-  - clients/translations/outputs/benches: open-checker nemo120: pairing with gpt-oss dropped recall 30->25.
-  - clients/translations/outputs/defect-bench: REPORT-nemo120 seeded-defect run.
-  - clients/translations/outputs/referee-bench: NIM Super: balanced 59.4%.
+  - internal test benches: open-checker nemo120: pairing with gpt-oss dropped recall 30->25.
+  - internal test defect-bench: REPORT-nemo120 seeded-defect run.
+  - internal test referee-bench: NIM Super: balanced 59.4%.
 - overnight: Thinking off (the under-trained mode), temperature 0.2 against NVIDIA's 1.0; 19/200 malformed replies.
 - arm nemotron_off (thinking off):
 - kwargs (nemotron_off): {"temperature": 1.0, "max_completion_tokens": 2000, "chat_template_kwargs": {"enable_thinking": false}, "top_p": 0.95, "logprobs": true, "top_logprobs": 20}
@@ -124,8 +124,8 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
   - outputs/sanecite-phase2-full-20261013: census tie-breaker trial: did not beat the panel majority.
   - outputs/sanecite-phase2-pilot-20261013: pilot runs.
   - outputs/sanecite-stage3-pilot-20261021: b2 bake + panel b3-b5, temperature 0.6, default effort.
-  - clients/translations/outputs/benches: open-checker: weak raiser, best filter (69% upheld real).
-  - clients/translations/outputs/review-bench-20261009: 13/20 caught, 16/20 false flags, 8 cut off.
+  - internal test benches: open-checker: weak raiser, best filter (69% upheld real).
+  - internal test review-bench-20261009: 13/20 caught, 16/20 false flags, 8 cut off.
 - overnight: Temperature 0.6 (schema default) against OpenAI's 1.0; effort left at default.
 - arm gptoss_med (reasoning medium, 3 calls per citation):
 - kwargs (gptoss_med): {"temperature": 1.0, "max_tokens": 12000, "top_p": 1.0, "reasoning": {"effort": "medium"}}
@@ -165,13 +165,13 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
 
 - what: Cloudflare's typed-choice decision model: Qwen 3.8 27B with a frozen backbone, a small trained scoring head and LoRA adapters; one prefill pass scores every option, no text is generated. Jev-compatible API. $0.24/M input, output free (grant-covered).
 - sources: https://developers.cloudflare.com/workers-ai/models/clef/ ; https://blog.cloudflare.com/clef-decision-models/ ; https://huggingface.co/Cloudflare/clef ; https://docs.typesafe.ai/primitives/choice.md ; https://docs.typesafe.ai/model-jaggedness/jev-1.13.md ; https://docs.typesafe.ai/confidence.md
-- sop: LLM_VENDOR_API_SOP 'Typed-choice reviews' (lines 113-147): Clef by default, own bars per model, never share bars with Jev; census Clef 92.0% vs Jev 94.7%. Call-shape table: typed models smoke with --kind typed.
+- sop: our model-call notes (typed-choice reviews): Clef by default, own bars per model, never share bars with Jev; census Clef 92.0% vs Jev 94.7%. Call-shape table: typed models smoke with --kind typed.
 - settings research: No temperature, seed, n or logprobs exist. Live schema: question types noul (P yes), choice (per-option probabilities), score (ordered rubric); 1-64 questions; long state is cut silently to fit (our state is at most 3,962 tokens, no sign of cuts). TypeSafe documents a first-option bias and +-0.05 run-to-run wobble, so we rotate the 4 verdict options (4 calls) and average. Use probabilities, not 'confidence' (it depends on the option count). Do not use clef-flash (RAGTruth 35.6).
 - benches:
-  - clients/translations/outputs/clef-bench-20261013: Bible-citation bench: recognised 66% of true citations (Jev 53%), rejected 99% of near verses (Jev 95%), 0 high-confidence wrong (Jev 9).
-  - clients/translations/outputs/referee-bench: referee task: balanced 70.6%, second of the CF models, 0.6 s.
-  - clients/translations/outputs/held-review: Via Patrum held-review plans route typed checks to Clef.
-  - clients/translations/outputs: jev-correct-20261002 Clef dry runs (40) and pass log.
+  - internal test clef-bench-20261013: Bible-citation bench: recognised 66% of true citations (Jev 53%), rejected 99% of near verses (Jev 95%), 0 high-confidence wrong (Jev 9).
+  - internal test referee-bench: referee task: balanced 70.6%, second of the CF models, 0.6 s.
+  - internal review work: typed checks are routed to Clef.
+  - internal test jev-correct-20261002: Clef dry runs (40) and pass log.
   - internal notes: the SOP itself.
   - outputs/sanecite-phase2-full-20261013: census panel member; alone 92.0% vs Jev 94.7% on the clean confirmation set; 7 silent Jev fallbacks noted in methods.
   - outputs/sanecite-phase2-lean-20261019: lean census rerun panel member.
@@ -193,7 +193,7 @@ Every chat arm also sends response_format json_schema (Mistral: guided_json) wit
   - outputs/sanecite-phase2-full-20261013: census panel tie-breaker; alone 94.7% on the confirmation set.
   - outputs/sanecite-phase2-lean-20261019: lean census panel member.
   - outputs/sanecite-stage3-pilot-20261021: named in the rerun plan; not run in stage 3 yet.
-  - clients/translations/outputs/clef-bench-20261013: Bible-citation bench: 53% true recognised, 95% near verses rejected, 9 high-confidence wrong.
+  - internal test clef-bench-20261013: Bible-citation bench: 53% true recognised, 95% near verses rejected, 9 high-confidence wrong.
   - LLM-AggreFact (public): Jev 1.13: #2 of 14 at 78.7 balanced accuracy (single source).
 - overnight: Not run overnight.
 - arm jev (4 option orders): questions built by judge_v3.call_typed (v2 definitions, verdict options rotated 4 ways); the smoke body is the kwargs line.

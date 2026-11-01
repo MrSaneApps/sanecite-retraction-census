@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Stage 3 pilot judge: ask each panel model whether a citation accurately reports what the cited paper says.
 
-Calls go through the shared Workers AI harness (clients/translations/scripts/llm_bakeoff.vendor_call: researched
+Calls go through the shared Workers AI harness (vendor_call: researched
 model settings, the per-model rate limiter and the spend guard). Resumable: a (pair, model) already answered is skipped.
 
 Usage: judge.py SAMPLE.jsonl OUT_DIR [--models m1,m2,m3] [--workers 8] [--limit N]"""

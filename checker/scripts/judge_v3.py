@@ -5,7 +5,7 @@ reply keeps what is needed for a continuous score.
 Why (22 Oct 2026): overnight every reasoning model ran with thinking off and every model was scored by its top
 verdict only. The live Cloudflare schemas offer reasoning levels, n (several samples per call), logprobs and JSON
 schema output; v2 used none of them. Settings now come from model-cards/configs.json, which the model card gate
-(llm_api_research_gate.rb --card) checks against MODEL_CARDS_2026-10-22.md.
+(an internal research check) checks against MODEL_CARDS_2026-10-22.md.
 
 Per reply we store the parsed verdict of every sample, P(verdict) from the verdict token's logprobs when the
 model returns them, and Clef/Jev probabilities. Scores are computed later (score_v3.py), not here.

@@ -101,10 +101,6 @@ REPO_ALLOW = {
     "errata/epmc_titles.jsonl.gz": {"e-mail": "article titles exactly as Europe PMC returns them (one title has an "
                                               "author's address in it)"},
     "scripts/stage_release.py": {"*": "this file defines the rules"},
-    "checker/records/MODEL_CARDS_2026-10-22.md": {"internal tool": "hash-locked before batch 6 (PREREG_HASHES.txt); kept as registered"},
-    "checker/records/PREREG_SYSTEM_2026-10-22.md": {"internal tool": "hash-locked before batch 6 (PREREG_HASHES.txt); kept as registered"},
-    "checker/scripts/judge.py": {"internal tool": "hash-locked before batch 6 (PREREG_HASHES.txt); kept as registered"},
-    "checker/scripts/model_cards.py": {"internal tool": "builds the locked MODEL_CARDS file; must still reproduce it"},
     "lists/data/list_corrections.json": {"internal procedure": "kept as the site serves it (its replies_rule names "
                                                                "the rule SOP C9); same allow as the staging step"},
 }

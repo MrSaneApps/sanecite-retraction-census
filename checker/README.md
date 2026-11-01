@@ -30,6 +30,7 @@ originals can be shown on request):
 - `reads/ref_muse_muse.jsonl`: the quoted passages from the papers ("quote" fields) are left out
 - `records/MODEL_CARDS_2026-10-22.md`: a private folder path replaced; internal tool, machine and procedure names replaced
 - `records/PREREG_SYSTEM_2026-10-22.md`: an informal remark left out; internal tool, machine and procedure names replaced
+- `records/RESULTS.md`: internal tool, machine and procedure names replaced
 - `records/PROTOCOL_TUNING_2026-10-22.md`: internal tool, machine and procedure names replaced
 - `records/TUNING_RESULTS_2026-10-22.md`: internal tool, machine and procedure names replaced
 - `records/run.sh`: a private folder path replaced

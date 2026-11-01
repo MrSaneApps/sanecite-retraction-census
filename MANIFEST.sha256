@@ -300,3 +300,12 @@ e63e7876be9d08e756f8dbf67c81190e5cba38a07ad6269d958e4e12cb682cf8  ./models/tunin
 # 2026-11-01T07:07Z Release scan: internal tool names rule; RESULTS.md cost note reworded
 3d3d287b3f44a3aed4b2ecb9b4020181e7d1e6b83602cf6820896c33b3c4488e  ./checker/records/RESULTS.md
 071737179518a586286f237200df69e14fcd3d72688ed99b023227f705132b1b  ./scripts/stage_release.py
+# 2026-11-01T07:10Z Public wording: internal tool and folder names replaced in checker records and scripts
+f5918a70901c5f60ff88d751a4203baea03350c61bb3f20e5e44f031b62ec7a3  ./checker/README.md
+5e94826025a3cc7e890890e3689aec548fd635c49dc3a9aaa6ac49c7e5aecae3  ./checker/SOURCES.sha256
+1290e4e66d9e0ea1c57ee19f97b83d198234a82506205f6d92857c8872329208  ./checker/records/MODEL_CARDS_2026-10-22.md
+7ecbbcd78a0e7ab89dc16932a0de5551582ba487b421fddfebe5704ceb869d16  ./checker/records/PREREG_SYSTEM_2026-10-22.md
+e5e96e24c1011ef7e912b9590afdde131c127f28e4e4ec74b4fb1830a04e4541  ./checker/scripts/judge.py
+bf3bbf15cd2d3ac7cd3d8fa3f28c112f2900d969e5b6d39af377bb157627cb8c  ./checker/scripts/judge_v3.py
+5f7ced3b2ab68569027c8302fe65f97aead2dcfc18f9ca9fdbf8d2a05c4e8f73  ./checker/scripts/model_cards.py
+46ae1db012ba8427ef4a4432b24649ecc7c9b4655138af73240645d80b1497b9  ./scripts/stage_release.py

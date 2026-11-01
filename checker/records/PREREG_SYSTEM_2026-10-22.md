@@ -51,7 +51,7 @@ AI reference only; a human check of a random sample still comes before any publi
 
 Some Claude reader runs stop partway through a packet (a safety stop in the reading tool, not a reading choice). To
 keep the reference complete: packets are cut to 11 items; a part a Claude reader cannot complete is read instead by
-Grok 4.7 (xAI; a different family, not a candidate system) with the same rules, through plan_calls.py. Which reader
+Grok 4.7 (xAI; a different family, not a candidate system) with the same rules, through a Grok subscription. Which reader
 covered each item is recorded and reported. Disagreements with Muse are adjudicated as before.
 
 ## Amendment 2 (22 Oct 2026, ~3:20 PM ET, owner rule, before the system is locked or run on batch 6)
