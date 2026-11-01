@@ -62,7 +62,7 @@ cited paper is itself open access and has a PMID are covered. 3 of the 1,600 cit
 ## Cost and time
 
 4,800 model calls, 66 minutes of judging after 42 minutes of sampling. Cloudflare's own usage record for the run's
-UTC day: $4.63 (Via Patrum spending was paused all evening).
+UTC day: $4.63 (other work on the same account was paused all evening).
 
 ## Files
 

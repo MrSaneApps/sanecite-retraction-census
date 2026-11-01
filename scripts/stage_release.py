@@ -91,7 +91,8 @@ HARD = {"private path": r"/Users/|stephansmac", "api key": r"\bsk-[A-Za-z0-9]{16
         "correspondence": r"CORRESPONDENCE\.md", "account id": r"ACCOUNT_ID\S*?[0-9a-f]{32}"}
 INHOUSE = {"machine name": r"\bMac Mini\b|\bthe Mini\b|\bMini clock\b|\(Air[;)]", "agent name": r"(?<!Muse )\bSpark\b|\bsubagents?\b",  # "Muse Spark" is Meta's public model name
            "private folder": r"SaneApps/(?:outputs|websites|clients|infra)|\bSaneProcess\b",
-           "secret store": r"\bsane-env\b", "internal procedure": r"\bSOP C\d+"}
+           "secret store": r"\bsane-env\b", "internal procedure": r"\bSOP C\d+",
+           "internal tool": r"\bplan_calls\b|\bVia Patrum\b|clients/translations|\btmux\b|\bagy\b"}
 RULES = {k: re.compile(v) for k, v in {**HARD, **INHOUSE}.items()}
 DATA_EXT = (".jsonl", ".gz", ".csv", ".tsv")
 # Repository files that may break a rule, each with the reason. Staged files get theirs from the sources file.
@@ -100,6 +101,10 @@ REPO_ALLOW = {
     "errata/epmc_titles.jsonl.gz": {"e-mail": "article titles exactly as Europe PMC returns them (one title has an "
                                               "author's address in it)"},
     "scripts/stage_release.py": {"*": "this file defines the rules"},
+    "checker/records/MODEL_CARDS_2026-10-22.md": {"internal tool": "hash-locked before batch 6 (PREREG_HASHES.txt); kept as registered"},
+    "checker/records/PREREG_SYSTEM_2026-10-22.md": {"internal tool": "hash-locked before batch 6 (PREREG_HASHES.txt); kept as registered"},
+    "checker/scripts/judge.py": {"internal tool": "hash-locked before batch 6 (PREREG_HASHES.txt); kept as registered"},
+    "checker/scripts/model_cards.py": {"internal tool": "builds the locked MODEL_CARDS file; must still reproduce it"},
     "lists/data/list_corrections.json": {"internal procedure": "kept as the site serves it (its replies_rule names "
                                                                "the rule SOP C9); same allow as the staging step"},
 }

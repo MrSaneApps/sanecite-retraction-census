@@ -297,3 +297,6 @@ c0a3e8ab8aac0365b654a756a347c0dfb322f3c3e9ebe3a51981e993bbb4cfdc  ./models/stage
 e63e7876be9d08e756f8dbf67c81190e5cba38a07ad6269d958e4e12cb682cf8  ./models/tuning_composer_b6_score.json
 8ff35ec485aecdbf839e06eee4d761e42133a0ba980cbc3889aa022be47bcbee  ./models/tuning_single_readers_20261030.json
 05ab0988364ab4e2d3a10f41309c54ec21596950c3fe12b3e8975363b8e3fe75  ./scripts/stage_release.py
+# 2026-11-01T07:07Z Release scan: internal tool names rule; RESULTS.md cost note reworded
+3d3d287b3f44a3aed4b2ecb9b4020181e7d1e6b83602cf6820896c33b3c4488e  ./checker/records/RESULTS.md
+071737179518a586286f237200df69e14fcd3d72688ed99b023227f705132b1b  ./scripts/stage_release.py
