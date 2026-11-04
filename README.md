@@ -7,12 +7,15 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/code-MIT-5CDBF2" alt="Code: MIT license"></a>
   <a href="LICENSE-DATA"><img src="https://img.shields.io/badge/data-CC%20BY%204.0-5CDBF2" alt="Data: CC BY 4.0"></a>
   <a href="https://orcid.org/0009-0001-0250-5446"><img src="https://img.shields.io/badge/ORCID-0009--0001--0250--5446-A6CE39?logo=orcid&logoColor=white" alt="ORCID"></a>
+  <a href="https://doi.org/10.31222/osf.io/uwqxa_v1"><img src="https://img.shields.io/badge/preprint-MetaArXiv-5CDBF2" alt="Preprint on MetaArXiv"></a>
   <a href="https://sanecite.com"><img src="https://img.shields.io/badge/results-sanecite.com-5CDBF2" alt="Results at sanecite.com"></a>
 </p>
 
 When a paper is retracted, other papers keep citing it. This repository counts those citations, reads them, and asks
 one question: does the citing paper still cite the retracted result as support? Everything is here: the method (published
 before the results), the code, every model answer and every label, so anyone can check or re-run it.
+
+**Read the preprint:** [doi:10.31222/osf.io/uwqxa_v1](https://doi.org/10.31222/osf.io/uwqxa_v1) (MetaArXiv, 27 Oct 2026). How to cite it is at the end of this page.
 
 ## What we found
 
@@ -144,6 +147,12 @@ It is a mirror; please cite the Zenodo record above.
 
 Stephan Joseph, Georgia, USA · [hi@saneapps.com](mailto:hi@saneapps.com) ·
 [ORCID 0009-0001-0250-5446](https://orcid.org/0009-0001-0250-5446) · [sanecite.com](https://sanecite.com)
+
+## How to cite
+
+The paper: Joseph S. "Retracted, still cited as support: a census of post-retraction citations to 22,483 retracted biomedical papers." MetaArXiv, 2026. https://doi.org/10.31222/osf.io/uwqxa_v1
+
+The data and code: cite the census release, https://doi.org/10.5281/zenodo.23358099 (always the latest version; each version has its own DOI). `CITATION.cff` gives both.
 
 Code under the [MIT license](LICENSE). Data that SaneCite made (labels, counts, Lists, corrections) under
 [CC BY 4.0](LICENSE-DATA); quoted passages stay under each source article's license, and Retraction Watch records under

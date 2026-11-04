@@ -15,3 +15,16 @@ version: 1.3.0
 date-released: 2026-10-29
 repository-code: "https://github.com/MrSaneApps/sanecite-retraction-census"
 url: "https://sanecite.com/findings"
+preferred-citation:
+  type: article
+  title: "Retracted, still cited as support: a census of post-retraction citations to 22,483 retracted biomedical papers"
+  authors:
+    - family-names: Joseph
+      given-names: Stephan
+      orcid: "https://orcid.org/0009-0001-0250-5446"
+  doi: 10.31222/osf.io/uwqxa_v1
+  publisher:
+    name: MetaArXiv
+  year: 2026
+  month: 10
+  url: "https://doi.org/10.31222/osf.io/uwqxa_v1"

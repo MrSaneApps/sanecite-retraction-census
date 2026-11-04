@@ -334,3 +334,6 @@ de068385c55b7b172432168e3016219a3922032811054a2b688f5dab9f449a01  ./lists/data/l
 662cb3c55ff1e61317e454dd24f096a74cd4298265c7a84e9723af32401d74ba  ./lists/readings/verdicts_authors.jsonl
 aa7d9d2ae30d7c995634130588957741af7398402bd6b4bb9e2f1a9f7c47a62e  ./lists/readings/verdicts_journals.jsonl
 ff1f04b00fec36170d8c374660880de3e33c49fd391ca6567499ab44dc01d2db  ./lists/readings/verdicts_papers.jsonl
+# 2026-11-04T20:34Z preprint linked in README and CITATION.cff, 2026-11-04
+31614c0ec9912919e2e87c81bfb43cc1d24482ceef62775baa139296b2ed4ccf  ./CITATION.cff
+fcc67eae377d633bf19276aacd618cfc2aa7045b53205d8c24a3f019e0b67a9b  ./README.md
