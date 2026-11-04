@@ -110,6 +110,10 @@ REPO_ALLOW = {
     "scripts/stage_release.py": {"*": "this file defines the rules"},
     "lists/data/list_corrections.json": {"internal procedure": "kept as the site serves it (its replies_rule names "
                                                                "the rule SOP C9); same allow as the staging step"},
+    "lists/data/papers.json": {"machine name": "paper titles only ('Comparison of the Mini-Midvastus ...'), kept as "
+                                               "the site serves it; same allow as the staging step",
+                               "agent name": "paper titles only ('... Using Spark Framework ...'), kept as the site "
+                                             "serves it; same allow as the staging step"},
 }
 
 
