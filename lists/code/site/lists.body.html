@@ -1,0 +1,69 @@
+<main id="top">
+<section class="phero">
+  <span class="eyebrow">Lists</span>
+  <h1>Who keeps citing <em>retracted work?</em></h1>
+  <p class="lede">The retracted papers still cited most often as support, and the journals and authors whose papers do it most. <a href="#checked">How each list was checked, and replies from the people named</a>. Every entry is an AI reading, rung 2 on our <a href="/methods#severity">severity scale</a>, pending human review. <b><!--lists:as-of-->.</b></p>
+  <nav class="ljump" aria-label="Lists on this page"><a href="#papers">Papers</a><a href="#journals">Journals</a><a href="#authors">Authors</a><a href="#full">Full tables</a></nav>
+</section>
+
+<section class="sec" id="papers" style="padding-top:40px">
+  <div class="sec-head"><span class="eyebrow">Retracted papers</span><h2>The retracted papers most often still cited as support.</h2>
+  <p>Ranked by how many citations, made after the retraction, use the paper as support for a claim.</p>
+  <p><!--lists:reach-summary--></p></div>
+  <!--lists:papers-->
+</section>
+
+<section class="sec" id="journals">
+  <div class="sec-head"><span class="eyebrow">Citing journals</span><h2>The journals whose papers most often cite retracted work as support.</h2>
+  <p>Two ways to rank: the count favours large journals, the share is fairer to small ones. The census reads open-access papers, so journals that publish everything open access are counted in full and others in part: large open-access journals rank high on counts partly because more of their papers could be read. Compare journals by the share table. These are the journals that published the citing papers, not the retracted ones.</p>
+  <p><b>Why it matters:</b> a journal's editors and peer reviewers are the last check before a paper is published. A reference to a retracted paper, used as support, can be caught at that stage by checking the reference list against a list of retractions.</p></div>
+  <!--lists:journals-->
+</section>
+
+<section class="sec" id="authors">
+  <div class="sec-head"><span class="eyebrow">Citing authors</span><h2>The authors whose papers most often cite retracted work as support.</h2>
+  <p>This counts citations, not intent. It does not say anyone acted dishonestly, and it does not judge whether a review's conclusions still stand: most of these citations sit in review articles that sum up many earlier studies, often in a table, and a co-author may have written that part.</p>
+  <p><b>Why it matters:</b> readers trust a review to sum up sound evidence. A retracted study counted as support can carry an unreliable result into the review, and from there into the work that cites the review.</p></div>
+  <!--lists:authors-->
+</section>
+
+<section class="sec" style="padding-top:0">
+  <!--lists:full-->
+</section>
+<!--lists:below-cut-->
+
+<section class="sec">
+  <div class="sec-head"><span class="eyebrow">How we checked</span><h2>Counted by the census, then read again.</h2></div>
+  <!--lists:checked-->
+  <p class="lintro"><!--lists:replies-intro--></p>
+  <ul class="limits">
+    <li><b>AI readings.</b><span>Each label is our reading of a published passage by the method on this page, and each paper and author item links to its passages so you can judge it yourself. The counts come from the Phase 2 census: three AI models read every citing passage. Each list was then checked again, as set out in <a href="#checked">the box at the top</a>; those are AI readings too. <!--lists:sent-->; where one is, we correct the entry and say so beside it.</span></li>
+    <li><b>Dates and reasons from the notice.</b><span>Each retraction date and reason on the lists comes from the journal's retraction notice, not from a database. Where we have not yet read a notice, we say so instead of giving a reason. Corrections made after the data was built are listed, with their sources, in <a href="/data/phase2/list_corrections.json">list_corrections.json</a>.</span></li>
+    <li><b>What each paper reached.</b><span>For every paper the census found citing a listed paper as support after its retraction, we read its Europe PMC record on 29 October 2026: its publication type (review, systematic review, trial) and the grants it acknowledges. "In turn" counts the distinct later papers that cite any of those papers, for any reason, with the systematic reviews, trials and guidelines among them as Europe PMC types them; it measures reach, not harm. Registered trials are ClinicalTrials.gov records first submitted after the retraction that list the retracted paper among their references. Totals are in <a href="/data/phase2/reach.json">reach.json</a>.</span></li>
+    <li><b>Followed by reading.</b><span>For a paper we could follow, we took one of its most-cited supporting papers that repeats the retracted claim, then searched Europe PMC for later papers that cite it and mention the same topic. In every one we could read in full (among the first 100 search results), we found the sentence that cites it and judged by hand whether that sentence repeats the retracted claim. A search word can match a sentence that says the opposite, so no count rests on the word alone.</span></li>
+    <li><b>Only citations made after the retraction.</b><span>A citation counts if the citing paper came out after the retraction. Where we checked dates one by one, that means it went online after the notice: papers that went online before the notice are left out, and papers submitted or accepted before it carry their timeline. Elsewhere it means a calendar year after the retraction year, so the full tables may still hold a few citations made before a retraction.</span></li>
+    <li><b>Only retractions about the results.</b><span>Citations of a paper are left out when its retraction notice gives only reasons that do not touch the results, such as reused text, a duplicate of a result that stays published, authorship, ethics paperwork, copyright or a software licence, or a wrong journal; the census already leaves out paperwork retractions the same way. We apply this where we have read the notice. A notice that gives no reason, or an unclear one, still counts and is marked "reason unclear". <!--lists:excluded--></span></li>
+    <li><b>Only confirmed retractions.</b><span>The lists use only papers PubMed links to a retraction notice: <!--lists:scope-->. Papers replaced by a corrected version, and paperwork retractions that find no fault in the science, are left out.</span></li>
+    <li><b>Authors by ORCID only.</b><span>Authors are matched by their ORCID iD, so two people with the same name are never merged. Authors without an ORCID iD in Europe PMC cannot be listed, so this is not every author.</span></li>
+    <li><b>What the second reading found.</b><span><!--lists:reading--> Some papers were cited only for a tool or method that still works; those are left off, with the reason shown.</span></li>
+    <li><b>Open-access papers only.</b><span>The census reads papers whose full text is open in Europe PMC. Journals that publish everything open access are counted in full, others only in part, so the counts favour large open-access journals.</span></li>
+    <li><b>Check it yourself.</b><span>Each list as a CSV: <a href="/lists/papers.csv" download>papers</a> · <a href="/lists/journals-by-count.csv" download>journals by count</a> · <a href="/lists/journals-by-rate.csv" download>journals by share</a> · <a href="/lists/authors.csv" download>authors</a>. <a href="/lists/author-items.csv" download>every author item</a>, with the notice's reason class and any timeline. <a href="/lists/second-reading.csv" download>Every citation read again</a>, with its verdict and a note. <a href="/lists/replies.csv" download>Every reply</a> from the people named, as summarised. <a href="/lists/codebook.md">What each column means</a>.</span></li>
+    <li id="full-tables"><b>The full tables.</b><span>All <!--lists:papers-all--> retracted papers and all <!--lists:journals-all--> citing journals. <!--lists:full-tables--> <a href="/lists/all-papers.csv" download>All papers</a> · <a href="/lists/all-journals.csv" download>all journals</a> · <a href="/data/phase2/retraction_status.csv" download>PubMed retraction status of every paper</a>. Their reason column is grouped from Retraction Watch codes, not the notice's wording.</span></li>
+    <li id="corrections"><b>Corrections.</b><span>If you are named and think an entry is wrong, write to SaneCite at <!--contact:letters-->, with the citing paper's PMC number if you have it. We reply within two working days and decide within seven days. A correction is made beside the entry, dated, and logged in <a href="/data/phase2/list_corrections.json">list_corrections.json</a>. You can also ask us to take an entry down: it comes off when the evidence shows a reading is wrong or a citation is out of scope, the same rule for everyone, and if it stays we tell you why.</span></li>
+  </ul>
+</section>
+
+<section class="sec" id="your-data">
+  <div class="sec-head"><span class="eyebrow">Named people and your data</span><h2>What we hold about the people named, and why.</h2></div>
+  <ul class="limits">
+    <li><b>Who is responsible.</b><span>SaneCite, an independent research project in Georgia, USA. To reach us, write to SaneCite at <!--contact:letters-->.</span></li>
+    <li><b>What we use.</b><span>Names, ORCID iDs and publication records: titles, journals, dates, reference lists and the passages that cite retracted work. And the replies people send us.</span></li>
+    <li><b>Where it comes from.</b><span>Public records: Europe PMC (with the ORCID iDs it holds), PubMed, the Retraction Watch database and the journals' own retraction notices.</span></li>
+    <li><b>Why, and on what basis.</b><span>Research in the public interest on how the published record handles retracted work, and publishing its results. Where UK or European data protection law applies, we rely on legitimate interests in research and free expression, and on the exemptions those laws give to academic and journalistic work. Entries come from whole-set counts, never picked by hand.</span></li>
+    <li><b>How entries are made.</b><span>By AI readings of the citing passages, by the method on this page, with a right of reply for the people named before publication.</span></li>
+    <li><b>What we print from a reply.</b><span>A summary in our words, one short quote, and any statement written for publication, the same for everyone. From 2 November 2026, a reply that threatens legal action or a complaint to a regulator is printed in full beside the entry. We never print email addresses, phone numbers or details about other people. Any other full reply is kept privately and shared only when needed, with a journal, a fiscal sponsor or a lawyer.</span></li>
+    <li><b>How long.</b><span>Published entries stay as part of the research record, with every correction dated. Private correspondence is kept while the entry is published and for two years after.</span></li>
+    <li><b>Your rights.</b><span>You can ask us to correct your entry, to tell you what we hold about you, to restrict or stop a use, or to delete what we hold: write to SaneCite at <!--contact:letters-->. We reply within two working days and decide within one month. Where we keep a published entry because the research record needs it, we tell you why. You can also complain to your data protection authority (in the UK, the Information Commissioner's Office).</span></li>
+  </ul>
+</section>
+</main>

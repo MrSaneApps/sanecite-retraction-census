@@ -1,0 +1,3 @@
+group,citations,cited_as_support,share_support,support_ci95_low,support_ci95_high,flagged,share_flagged,flagged_ci95_low,flagged_ci95_high
+Reference list says “retracted”,3628,1465,0.4038037486218302,0.373837,0.435263,468,0.12899669239250275,0.076113,0.179985
+All citations,51626,21037,0.4074884747995196,0.398918,0.414787,1726,0.033432766435516986,0.02563,0.042857

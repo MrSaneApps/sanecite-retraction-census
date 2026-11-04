@@ -1,0 +1,69 @@
+{
+ "_note": "Plain-language lines for each paper on the Lists (added 29 Oct 2026). claimed: what the paper reported, from its abstract. matters: why the retraction matters, from the notice and the kinds of papers that cite it as support (data/phase2/reach.json). reach_note: what we found when we read the later papers ourselves. chain_*: the words for one chain we followed by reading; its counts are in reach.json \"chain\".",
+ "papers": {
+  "15604363": {
+   "claimed": "Belly fat releases a hormone, visfatin, that acts like insulin and lowers blood sugar, a possible new route to treating diabetes.",
+   "matters": "The insulin-like effect was the headline, and the notice says not every preparation of visfatin acts on the insulin receptor. Reviews of obesity and diabetes still cite the paper as support.",
+   "chain_relay": "review that repeats the insulin-like claim and cites the retracted paper for it",
+   "chain_claim": "the insulin-like claim",
+   "chain_found": "they name visfatin among the inflammatory hormones fat tissue releases"
+  },
+  "32356626": {
+   "claimed": "In records from 8,910 hospital patients with Covid-19, heart disease raised the risk of dying, but common blood-pressure drugs (ACE inhibitors and ARBs) did not.",
+   "matters": "It spoke to whether patients with Covid-19 should keep taking these drugs. Its data came from a database no one could check, yet later papers still cite it as support.",
+   "reach_note": "We read the three of those guidelines that are free to read: each cites those papers for other points, such as heart disease raising the risk from Covid-19, not for the retracted finding on blood-pressure drugs.",
+   "chain_relay": "review that repeats, with its numbers, the retracted paper's finding that ACE inhibitors and ARBs did not change the risk of dying",
+   "chain_claim": "that finding",
+   "chain_topic": "angiotensin",
+   "chain_found": "they cite it for how the virus uses the ACE2 receptor to drive inflammation, not for the drug finding"
+  },
+  "18453793": {
+   "claimed": "An eight-question survey shows which patients with high blood pressure skip their medicines; a score below 6 flags poor blood-pressure control.",
+   "matters": "The survey and its cut-off are widely used to measure whether patients take their medicines, including in trials. Papers that cite this paper as support use accuracy figures the journal now calls misleading.",
+   "reach_note": "All three of those registered trials use the MMAS-8 survey itself to measure their results (ClinicalTrials.gov NCT06068309, NCT06117722 and NCT07145983)."
+  },
+  "30193239": {
+   "claimed": "Pooling 47 studies of 42,473 doctors, burnout was linked to more patient-safety incidents, less professional care and less satisfied patients.",
+   "matters": "Its figures are used to argue that doctor burnout harms patients. The investigating panel could not confirm they are valid.",
+   "reach_note": "All three registered trials test programmes to reduce burnout in health workers and cite the paper in their background.",
+   "chain_relay": "review that repeats the link between doctor burnout and harm to patients, with the retracted paper among its sources",
+   "chain_claim": "that link",
+   "chain_topic": "burnout",
+   "chain_found": "though the review itself found a clear link in only 4 of the studies it covered, against 6 that found none",
+   "chain_found_sep": ", "
+  },
+  "17715156": {
+   "claimed": "Two small RNA molecules in heart muscle push stressed heart cells in opposite directions: miR-1 toward death, miR-133 toward survival.",
+   "matters": "The paper is cited as a building block in research on heart attacks and heart failure; the figures behind it were withdrawn.",
+   "chain_relay": "study that repeats the claim that miR-133 protects heart cells from dying, citing the retracted paper",
+   "chain_claim": "that claim",
+   "chain_topic": "miR-133",
+   "chain_found": "the others cite the study for its own results, on stem cells engineered to carry miR-133"
+  },
+  "28368401": {
+   "claimed": "A circular RNA, circRNA_100290, helps mouth-cancer cells grow by soaking up miR-29 molecules, which made it a possible treatment target.",
+   "matters": "Later cancer studies cite the mechanism as support; its own authors withdrew it."
+  },
+  "15833829": {
+   "claimed": "Human adult stem cells of the kind used in cell therapies can turn cancerous on their own after months in the lab.",
+   "matters": "It bears on the safety of stem-cell therapies and is cited in reviews of them. Its authors now suspect the cancer came from contaminated cultures.",
+   "reach_note": "Both registered trials test stem-cell treatments in patients, for traumatic brain injury and for diabetic foot ulcers, and cite the paper in their background.",
+   "chain_relay": "review of clinical uses of these stem cells that repeats the finding that they can turn cancerous in culture, citing the retracted paper",
+   "chain_claim": "that finding",
+   "chain_topic": "cell transformation",
+   "chain_found": "the other says most researchers think these cells do not turn cancerous in culture"
+  },
+  "21753854": {
+   "claimed": "A natural compound, piperlongumine, kills cancer cells but spares normal ones, and shrank tumours in mice.",
+   "matters": "Killing only cancer cells made it a lead for cancer drugs. The journal found problems with key figures and missing original data."
+  },
+  "19918075": {
+   "claimed": "Raising a muscle protein, PGC-1alpha, protected ageing mice from muscle loss and metabolic disease.",
+   "matters": "It is cited in research on age-related muscle loss (sarcopenia), but a university investigation found misconduct in its figures."
+  },
+  "20593161": {
+   "claimed": "Liraglutide, a diabetes drug, raised nitric oxide and calmed inflammation in cells that line blood vessels, a possible way it protects the heart and arteries.",
+   "matters": "Liraglutide is widely prescribed for diabetes and weight loss, and papers on its heart benefits cite this lab result as part of the explanation. The journal retracted it because part of a figure had been published before in another journal."
+  }
+ }
+}

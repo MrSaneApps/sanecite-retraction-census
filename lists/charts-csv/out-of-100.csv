@@ -1,0 +1,4 @@
+label,citations,judged_citations,share,ci95_low,ci95_high,dots_of_100
+treated it as support,21037,51626,0.4074884747995196,0.398918,0.414787,41
+mentioned it in passing,28863,51626,0.5590787587649634,0.550627,0.568112,56
+flagged it as retracted or unreliable,1726,51626,0.033432766435516986,0.02563,0.042857,3

@@ -1,6 +1,6 @@
 {
  "about": "Every correction the Lists page applies on top of the generated data (lists.json, author_items.json, citations.csv, list_checks.csv). tools/lists.py applies them at build time, so a data regeneration cannot undo one silently: each entry names the value it expects to find and the build stops if the data holds neither that value nor the corrected one. Dates and reasons come from the retraction notices, never from the Retraction Watch database.",
- "made": "2026-10-23",
+ "made": "2026-10-30",
  "retraction_dates": [
   {
    "retracted_pmid": "21772732",
@@ -336,6 +336,19 @@
    "boundary_drop": [],
    "source": "The notice PDF on the journal site was created 29 Jan 2022; the issue cover date (Nov-Dec 2021) is not the online date",
    "date": "2026-10-23"
+  },
+  {
+   "retracted_pmid": "32790092",
+   "field": "retraction_year",
+   "old": "2021",
+   "new": "2021",
+   "notice_pmid": "34382082",
+   "notice_online": "2021-08-12",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 34382082 (Retraction Notice): entered PubMed 12 Aug 2021; Crossref doi:10.1093/jpp/rgab119 record created 11 Aug 2021. Europe PMC firstPublicationDate and Crossref published-online give 2023-01-01, the print issue (J Pharm Pharmacol 2023;75(1)). The publisher page (academic.oup.com) refused an automated read on 30 Oct 2026, so the online date is 'on or before 12 Aug 2021', not the publisher's stated date.",
+   "date": "2026-10-30",
+   "reason": "Records the basis for the printed 2021; nothing changes. Every citing paper of this work is from 2022 or later, after the notice was online."
   }
  ],
  "exclude_citing": [
@@ -672,17 +685,17 @@
   {
    "citing_pmcid": "PMC10716031",
    "retracted_pmid": "34974791",
-   "text": "Submitted 21 Sep 2023, before the retraction of 18 Oct 2023; revised, accepted and published (1 Dec 2023) after it."
+   "text": "Submitted 21 Sep 2023, before the retraction of 18 Oct 2023; revised 9 Nov 2023, accepted 20 Nov 2023 and published 1 Dec 2023, after it."
   },
   {
    "citing_pmcid": "PMC10826439",
    "retracted_pmid": "31115031",
-   "text": "Submitted 15 May 2023, before the retraction (July 2023); accepted and published (2 Dec 2023) after it."
+   "text": "Submitted 15 May 2023, before the retraction (July 2023); accepted 14 Nov 2023 and published 2 Dec 2023, after it."
   },
   {
    "citing_pmcid": "PMC8100681",
    "retracted_pmid": "27657824",
-   "text": "Submitted 22 Sep 2020, before the retraction of 25 Nov 2020; accepted and published (22 Apr 2021) after it."
+   "text": "Submitted 22 Sep 2020, before the retraction of 25 Nov 2020; accepted 30 Mar 2021 and published 22 Apr 2021, after it."
   },
   {
    "citing_pmcid": "PMC8862212",
@@ -692,12 +705,12 @@
   {
    "citing_pmcid": "PMC8916230",
    "retracted_pmid": "32850336",
-   "text": "Submitted 23 Jul 2021, before the retraction of 30 Dec 2021; accepted and published (25 Feb 2022) after it."
+   "text": "Submitted 23 Jul 2021, before the retraction of 30 Dec 2021; accepted 4 Feb 2022 and published 25 Feb 2022, after it."
   },
   {
    "citing_pmcid": "PMC10902086",
    "retracted_pmid": "25311221",
-   "text": "Submitted 2 Jul 2023, before the retraction of 11 Aug 2023; accepted and published (29 Feb 2024) after it."
+   "text": "Submitted 2 Jul 2023, before the retraction of 11 Aug 2023; revised 1 Oct 2023, accepted 29 Oct 2023 and published 29 Feb 2024, after it."
   },
   {
    "citing_pmcid": "PMC10887337",
@@ -776,7 +789,7 @@
    "text": "Published online 9 Jun 2020, five days after the retraction notice of 4 Jun 2020; it was almost certainly written before the retraction."
   }
  ],
- "timelines_source": "Received, accepted and first online dates from the PMC XML and Europe PMC; retraction dates from the PubMed notice or the publisher's Crossref update",
+ "timelines_source": "Received, accepted and first online dates from the PMC XML and Europe PMC; retraction dates from the PubMed notice or the publisher's Crossref update 30 Oct 2026: five timelines that gave one date for accepted and published now give each date (PMC XML history for PMC10716031, PMC8100681, PMC10902086; Crossref history for PMC10826439; the Frontiers article page for PMC8916230).",
  "retracted_citing": {
   "PMC11066643": {
    "notice_pmid": "42581876",
@@ -957,8 +970,8 @@
    "notice_pmid": "37566792"
   },
   "25409614": {
-   "class": "results",
-   "why": "the notice names a problem with the data, images or results",
+   "class": "unclear",
+   "why": "the notice says only that \"the peer review process was compromised\"",
    "notice_pmid": "26281998"
   },
   "25738402": {
@@ -1548,7 +1561,7 @@
   },
   "34900185": {
    "class": "results",
-   "why": "the notice names a problem with the data, images or results",
+   "why": "the publisher found systematic manipulation of the publication and peer-review process and cannot vouch for the article's reliability",
    "notice_pmid": "38094822"
   },
   "34974791": {
@@ -1860,10 +1873,10 @@
   {
    "path": "cited/29036788/retraction_year",
    "old": "2022",
-   "new": "2023 (notice online 11 Dec 2022)",
-   "source": "PubMed 36502305: issue 2023;36(1); entered PubMed 11 Dec 2022",
+   "new": "2023 (notice online 2 Dec 2022)",
+   "source": "Notice PMID 36502305 (PMC12412797): online ahead of print 2 Dec 2022 (PMC record; Retraction Watch 2 Dec 2022), issue 2023;36(1), published 20 Jan 2023; it entered PubMed on 11 Dec 2022, the date first printed here (online date corrected 30 Oct 2026)",
    "date": "2026-10-21",
-   "reason": "The notice's issue year is 2023; it was online from 11 Dec 2022. The census window keeps 2022, the online year."
+   "reason": "The notice's issue year is 2023; it was online from 2 Dec 2022. The census window keeps 2022, the online year."
   },
   {
    "path": "cited/30080301/retraction_year",
@@ -4358,7 +4371,7 @@
    "new": 67,
    "source": "Recount after the 23 Oct 2026 label corrections (independent full-text check of the letters' citations)",
    "date": "2026-10-23",
-   "reason": "Count after citations an independent check found were not cited as support were relabelled."
+   "reason": "One citation removed: an independent full-text check found the in-text citation does not point to the retracted paper (reference numbering; exclude_citing PMC11250880, 23 Oct 2026)."
   },
   {
    "path": "journals/by_rate/Noncoding RNA Res/judged",
@@ -4366,7 +4379,7 @@
    "new": 115,
    "source": "Recount after the 23 Oct 2026 label corrections (independent full-text check of the letters' citations)",
    "date": "2026-10-23",
-   "reason": "Count after citations an independent check found were not cited as support were relabelled."
+   "reason": "One citation removed: an independent full-text check found the in-text citation does not point to the retracted paper (reference numbering; exclude_citing PMC11250880, 23 Oct 2026)."
   },
   {
    "path": "journals/by_rate/Noncoding RNA Res/papers_citing_as_support",
@@ -4374,7 +4387,7 @@
    "new": 42,
    "source": "Recount after the 23 Oct 2026 label corrections (independent full-text check of the letters' citations)",
    "date": "2026-10-23",
-   "reason": "Count after citations an independent check found were not cited as support were relabelled."
+   "reason": "One citation removed: an independent full-text check found the in-text citation does not point to the retracted paper (reference numbering; exclude_citing PMC11250880, 23 Oct 2026)."
   },
   {
    "path": "journals/by_rate/Noncoding RNA Res/read",
@@ -4382,7 +4395,7 @@
    "new": 9,
    "source": "Recount after the 23 Oct 2026 label corrections (independent full-text check of the letters' citations)",
    "date": "2026-10-23",
-   "reason": "Count after citations an independent check found were not cited as support were relabelled."
+   "reason": "One citation removed: an independent full-text check found the in-text citation does not point to the retracted paper (reference numbering; exclude_citing PMC11250880, 23 Oct 2026)."
   },
   {
    "path": "journals/by_rate/Cell Commun Signal/support",
@@ -5684,6 +5697,44 @@
    "source": "notice PMID 32511943 (PMC7274621)",
    "date": "2026-10-22",
    "reason": "A reading note never calls work fraud; it quotes the notice instead."
+  },
+  {
+   "list": "journal",
+   "entry": "PLoS One",
+   "pair_id": "20798047>PMC3445615",
+   "old": "Uses primers the retracted XMRV/MLV study showed to work and repeats its CFS finding unflagged.",
+   "new": "Uses primers the retracted XMRV/MLV study showed to work; its discussion reports the retraction and cites the notice.",
+   "source": "relabel of 20798047>PMC3445615 (full-text check, Europe PMC full text, confirmed 27 Oct 2026)",
+   "date": "2026-10-30",
+   "reason": "The note said the citing paper repeats the finding unflagged, but the full read found it reports the retraction and cites the notice (its reference 33); the final verdict is flagged."
+  },
+  {
+   "list": "author",
+   "entry": "0000-0002-8215-2045 Luo P",
+   "pair_id": "25409614>PMC12176387",
+   "old": "Uses the paper's 71 DEGs to build a model.",
+   "new": "Takes its cut-off for differentially expressed genes from the paper (a method).",
+   "source": "Europe PMC full text of PMC12176387, read 30 Oct 2026: the 71 DEGs come from the citing paper's own analysis; the citation backs the cut-off",
+   "date": "2026-10-30",
+   "reason": "The note said the citing paper uses the retracted paper's 71 DEGs; the 71 are its own, and it cites the paper for the cut-off. The label stays: a method taken from the paper is support."
+  }
+ ],
+ "titles": [
+  {
+   "retracted_pmid": "21357264",
+   "old": "Hypoxia-Inducible Factor-1a-Dependent Protection from Intestinal Ischemia/Reperfusion Injury Involves Ecto-5'-Nucleotidase (CD73) and the A2B Adenosine Receptor",
+   "new": "Hypoxia-Inducible Factor-1α-Dependent Protection from Intestinal Ischemia/Reperfusion Injury Involves Ecto-5'-Nucleotidase (CD73) and the A2B Adenosine Receptor",
+   "source": "PubMed 21357264 title (esummary, read 30 Oct 2026): factor-1α",
+   "date": "2026-10-30",
+   "reason": "The title in papers.json lost the Greek letter alpha."
+  },
+  {
+   "retracted_pmid": "18790736",
+   "old": "MicroRNA-221/222 Negatively Regulates Estrogen Receptor a and is Associated with Tamoxifen Resistance in Breast Cancer",
+   "new": "MicroRNA-221/222 Negatively Regulates Estrogen Receptor alpha and is Associated with Tamoxifen Resistance in Breast Cancer",
+   "source": "PubMed 18790736 title (esummary, read 30 Oct 2026): estrogen receptor alpha",
+   "date": "2026-10-30",
+   "reason": "The title in papers.json lost the Greek letter alpha."
   }
  ],
  "not_written": [],
@@ -5718,7 +5769,7 @@
    "our_response": "Her dates are exact, and the timeline is printed beside that citation; it stays counted, because every entry is measured by the paper as published. We did not defer her entry, since the list is published whole. If she shows that a reading is wrong, we correct the entry and say so here.",
    "changes": [
     "Timeline printed beside her Translational Oncology review's citation of Jiang Z et al. (Bioengineered 2022): submitted 21 Sep 2023, before the retraction of 18 Oct 2023; revised, accepted and published (1 Dec 2023) after it.",
-    "Xie P et al. (Cancer Biomark 2017): our letter gave the retraction year as 2022; the page gives the notice's year, 2023, with its online date (11 Dec 2022).",
+    "Xie P et al. (Cancer Biomark 2017): our letter gave the retraction year as 2022; the page gives the notice's year, 2023, with its online date (2 Dec 2022).",
     "The page now notes that her 2024 Heliyon review was itself retracted (Dec 2025) and that its authors dispute the retraction."
    ],
    "entry_now": {
@@ -5749,10 +5800,10 @@
    "quote": "I have never knowingly cited a retracted paper and frankly I find it difficult to believe that anybody would knowingly do this",
    "our_response": "He was right about the one item our letter marked: its reference carries a link to the retraction notice, most likely added during publication. For every author, such items now sit apart under their own heading, with a note that publishers often add these links and labels, so they do not show that the authors knew. The other citations stay counted, because the reviews were published after the retractions.",
    "changes": [
-    "Every author: an item whose published reference list links the retraction notice or labels the work retracted now sits apart under the heading \"The published reference list marks the work as retracted\", with a note that publishers often add such links and labels during publication, so they do not show that the authors knew.",
+    "Every author: an item whose published reference list links the retraction notice or labels the work retracted now sits apart under the heading \"The published reference list links the retraction notice or labels the work retracted\", with a note that publishers often add such links and labels during publication, so they do not show that the authors knew.",
     "Wu L et al. (Cell Biol Int) left out under the rule for retractions that do not touch the results (a missing copyright form), so his 2022 review on retinoblastoma is no longer counted.",
     "Timelines printed beside two reviews: his 2021 Mol Ther Oncolytics review (no submission date available; online 22 Dec 2021, after the cited works were retracted between July and November 2021) and his 2024 Cell Mol Life Sci review (submitted 2 Jul 2023, before the retraction of 11 Aug 2023).",
-    "Xie P et al. (Cancer Biomark 2017): our letter gave the retraction year as 2022; the page gives the notice's year, 2023, with its online date (11 Dec 2022).",
+    "Xie P et al. (Cancer Biomark 2017): our letter gave the retraction year as 2022; the page gives the notice's year, 2023, with its online date (2 Dec 2022).",
     "The page now notes that his 2023 Front Oncol review was itself retracted (Sep 2026), after an expression of concern in Jan 2026.",
     "His entry: from 10 papers and 35 citations in our letter to 9 papers and 34 citations, all in reviews."
    ],
@@ -5784,15 +5835,19 @@
    "paper": "15833829",
    "received": "2026-10-22",
    "from_role": "the senior author",
-   "summary": "Dr Bernad says the 2005 paper was the first report of an apparent spontaneous transformation of mesenchymal stem cells in culture, at a time when these cells were being tested in many cell therapies, so it had a large impact on the field. Soon after publication his group found that the main conclusion could not be reproduced and was most probably due to a very small number of contaminating transformed cells that overgrew the cultures. He says the group contacted Cancer Research to offer a retraction; the journal preferred a short notice to the longer one they wrote (de la Fuente et al., 2010). He says the group approached the journal soon after finding the result could not be reproduced. He did not give the date of that contact by 28 October (the notice was published in August 2010). He proposed a note for later authors, printed below as he wrote it, and points to his group's later work on long-term culture of these cells.",
+   "summary": "Dr Bernad says the 2005 paper was the first report of an apparent spontaneous transformation of mesenchymal stem cells in culture, at a time when these cells were being tested in many cell therapies, so it had a large impact on the field. Soon after publication his group found that the main conclusion could not be reproduced and was most probably due to a very small number of contaminating transformed cells that overgrew the cultures. He says the group contacted Cancer Research to offer a retraction; the journal preferred a short notice (de la Fuente et al., 2010) to the longer one they wrote. He says the group approached the journal soon after finding the result could not be reproduced. He did not give the date of that contact by 28 October (the notice was published in August 2010). He proposed a note for later authors, printed below as he wrote it, and points to his group's later work on long-term culture of these cells.",
    "quote": "Soon after publication (Rubio et al., 2005) we realized that the main conclusion was non reproducible and that the putative spontaneous transformation was most probably due to a highly minoritarian number of a transformed cell line.",
    "statement": "Please, be aware that the main conclusion of the manuscript (Rubio et al., 2005) was non-reproducible and that the putative spontaneous transformation of MSC, upon in vitro culture, was most probably due to a highly minoritarian number of contaminant- transformed cells, that with time overgrow the cultures. Then it was retracted (de la Fuente et al., 2010). Therefore, continue citing this work as a proof of the potential of MSC to be transformed upon prolonged in vitro culture, is no appropriate and can induce more confusion to the field",
    "our_response": "The retraction notice was published in Cancer Research in August 2010 (doi:10.1158/0008-5472.CAN-10-2451). His group's later papers: Estrada JC et al., Cell Death Dis 2013 (replicative senescence of these cells in long-term culture is closely linked to aneuploidy) and Sepúlveda JC et al., Stem Cells 2014 (senescence abrogates their therapeutic potential in a mouse model of lethal endotoxemia). The entry stands: the citations counted were made after the retraction and use the paper as support.",
    "changes": [
     "Reason changed from the Retraction Watch group \"error or unreliable results\" to the notice's wording: the authors could not reproduce some of the transformation events and suspect a cross-contamination artifact; five of the seven authors agreed to the retraction.",
     "Citations judged: from 135 in our letter to 134. One citing paper, which only mentions the work in passing, was published online on 13 July 2010, before the retraction, and is left out; the 33 citations that use it as support are unchanged.",
-    "23 Oct 2026: a check of the citing papers' full text found 3 of the 33 citations in our letter were not cited as support (two warn readers about the retraction, one credits the paper with something it does not report). A full-text check of the other 30 the same day kept 26: two more warn readers and two more credit the paper with something it does not report. Because every paper near the last places was read in full, the paper stays on the list, at place 8 with 26."
-   ]
+    "23 Oct 2026: a check of the citing papers' full text found 3 of the 33 citations in our letter were not cited as support (two warn readers about the retraction, one credits the paper with something it does not report). A full-text check of the other 30 the same day kept 26: two more warn readers and two more credit the paper with something it does not report. Because every paper near the last places was read in full, the paper stays on the list, at place 8 with 26. The three that credit the paper with something it does not report leave the judged base, so 131 citations are judged now: 26 of 131 cite it as support."
+   ],
+   "entry_now": {
+    "support": 26,
+    "judged": 131
+   }
   },
   {
    "id": "paper-suresh-2026-10-27",
@@ -7489,6 +7544,38 @@
    "reason": "the citing paper reports the retraction: its discussion says follow-up studies led to the retraction of the initial papers linking XMRV and P-MLVs with CFS, citing the retraction notice for this work (its reference 33).",
    "source": "Full-text check of every citing paper on the lists for the word retract (Europe PMC full text, 24 Oct 2026), confirmed against the Europe PMC full text 27 Oct 2026",
    "date": "2026-10-27"
+  },
+  {
+   "pair_id": "20593161>PMC8668951",
+   "old": "substantive",
+   "new": "unclear",
+   "reason": "the citation credits the retracted paper with something the paper does not report.",
+   "source": "Independent check of the citing paper's full text and the retracted paper (PubMed, Europe PMC), 23 Oct 2026",
+   "date": "2026-10-23"
+  },
+  {
+   "pair_id": "20593161>PMC8384515",
+   "old": "substantive",
+   "new": "perfunctory",
+   "reason": "a passing mention (background or one of several references), not support.",
+   "source": "Independent check of the citing paper's full text and the retracted paper (PubMed, Europe PMC), 23 Oct 2026",
+   "date": "2026-10-23"
+  },
+  {
+   "pair_id": "20593161>PMC7732484",
+   "old": "substantive",
+   "new": "unclear",
+   "reason": "the citation credits the retracted paper with something the paper does not report.",
+   "source": "Independent check of the citing paper's full text and the retracted paper (PubMed, Europe PMC), 23 Oct 2026",
+   "date": "2026-10-23"
+  },
+  {
+   "pair_id": "20593161>PMC4216654",
+   "old": "substantive",
+   "new": "unclear",
+   "reason": "the citation credits the retracted paper with something the paper does not report.",
+   "source": "Independent check of the citing paper's full text and the retracted paper (PubMed, Europe PMC), 23 Oct 2026",
+   "date": "2026-10-23"
   }
  ],
  "full_read": {
@@ -7513,7 +7600,8 @@
    "32384893",
    "32450107",
    "32594528",
-   "32660813"
+   "32660813",
+   "20593161"
   ],
   "source": "Full-text check of every citation counted as support for each listed paper and each paper near the last place, 23 Oct 2026",
   "note": "Every paper on this list, and each paper near the last place, was read in full on 23 October: each citation counted as \"cited as support\" was checked against the citing paper's full text, and those that turned out to be passing mentions, warnings about the retraction, citations of the retraction notice or of something else, or that credit the paper with something it does not report, no longer count. For the papers at and just below the last places, each citation was read twice, independently, and a third reading settled the 11 on which the first two disagreed. These are AI readings. The papers left off after reading were judged on their second reading, not read in full.",
@@ -7524,7 +7612,8 @@
    "32384893",
    "24305048",
    "29669232",
-   "32594528"
+   "32594528",
+   "20593161"
   ]
  }
 }

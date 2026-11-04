@@ -1,0 +1,614 @@
+{
+ "_note": "Reach after the retraction, from Europe PMC records read on 29 Oct 2026 for every paper the census found citing the retracted paper as support (label substantive). kinds: Europe PMC publication types. cited_in_turn: every later citation of those papers, not only for this claim. third_order: distinct later papers citing any of those papers (Europe PMC CITES search), with the systematic reviews or meta-analyses, trials and guidelines among them. registered_trials: ClinicalTrials.gov records first submitted after the retraction that list the retracted paper (census sweep). all: the same counts for every listed paper together, each citing paper counted once. chain: one supporting paper followed by reading (chain3.py): later papers that cite it and mention the topic, how many we could read, how many cite it in a sentence on the topic, and how many of those repeat the retracted claim. funded: papers that acknowledge at least one grant (a statement that there was no funding is not one); funders: grant agencies as the papers list them, with spelling variants of one funder merged (case, apostrophes, listed aliases) and US NIH institutes merged. Reach is not proof of harm.",
+ "read": "2026-10-29",
+ "papers": {
+  "15604363": {
+   "support_citers": 104,
+   "citers_sha": "c5f53ef0fcca8bf3",
+   "kinds": {
+    "other": 56,
+    "review": 44,
+    "systematic review or meta-analysis": 2,
+    "trial": 2
+   },
+   "third_order": {
+    "citing_papers": 4430,
+    "systematic_reviews": 141,
+    "trials": 116,
+    "guidelines": 1,
+    "supporting_papers_searched": 104
+   },
+   "registered_trials": {
+    "n": 0,
+    "enrollment": 0,
+    "ncts": []
+   },
+   "cited_in_turn": 4657,
+   "funded": 34,
+   "funders_n": 46,
+   "funders": {
+    "National Natural Science Foundation of China": 6,
+    "National Science Centre, Poland": 4,
+    "Instituto de Salud Carlos III": 3,
+    "US National Institutes of Health": 3,
+    "FEDER": 2,
+    "Fondo de Investigación Sanitaria": 2,
+    "Ministero dell'Istruzione, dell'Università e della Ricerca": 2,
+    "American Heart Association": 1,
+    "British Heart Foundation": 1,
+    "Bundesministerium für Bildung und Forschung": 1,
+    "CONACyT-México": 1,
+    "CSRD VA": 1,
+    "Catholic Medical Center Research Foundation": 1,
+    "Deputyship for Research and Innovation, Ministry of Education in Saudi Arabia": 1,
+    "Else Kröner-Fresenius-Stiftung": 1,
+    "Excellent Key Teachers in the “Qing Lan Project” of Jiangsu Colleges and Universities 2019": 1,
+    "Fondazione AIRC per la ricerca sul cancro ETS": 1,
+    "Gilead Foundation": 1,
+    "Guangzhou Municipal Science and Technology Bureau": 1,
+    "Guangzhou Science and Technology Program Key Projects": 1,
+    "H2020 Marie Skłodowska-Curie Actions": 1,
+    "Innovation Research Project of the Eye Hospital of Wenzhou Medical University": 1,
+    "Japan Society for the Promotion of Science": 1,
+    "Key Science and Technology Research Project of Henan Province": 1,
+    "Korea Health Industry Development Institute": 1,
+    "Ministerstvo Zdravotnictví Ceské Republiky": 1,
+    "Ministry of Education and Science": 1,
+    "Ministry of Science and Higher Education": 1,
+    "Ministry of Science, Innovation and Universities": 1,
+    "Mutua Madrileña Fundation": 1,
+    "NSFC-Henan joint grant": 1,
+    "National Children's Research Centre": 1,
+    "National Institute for Health Research (NIHR)": 1,
+    "National Key R&D Program of China": 1,
+    "National Science Council": 1,
+    "Natural Science Foundation of Hebei Province": 1,
+    "Nutricia Research Foundation": 1,
+    "Program for Innovation Research Team of Ministry of Education": 1,
+    "RETICS": 1,
+    "Shin Kong Wu Ho-Su Memorial Hospital": 1,
+    "Spanish Ministry of Health": 1,
+    "Telethon": 1,
+    "Undergraduate Research and Innovation Plan Project of Nantong University": 1,
+    "Universidad de Guadalajara": 1,
+    "University of South Carolina University Libraries": 1,
+    "«Development of a differentiated approach to management of patients of reproductive age with different forms of endometriosis»": 1
+   },
+   "chain": {
+    "supporting_pmid": "24733068",
+    "supporting_year": "2014",
+    "supporting_cited_by": 1301,
+    "supporting_rank": 1,
+    "topic": "visfatin",
+    "later_mentioning": 67,
+    "open_read": 56,
+    "cite_it_on_topic": 7,
+    "repeat_claim": 0
+   }
+  },
+  "15833829": {
+   "support_citers": 26,
+   "citers_sha": "41a476bb6a82ae12",
+   "kinds": {
+    "review": 14,
+    "other": 11,
+    "trial": 1
+   },
+   "third_order": {
+    "citing_papers": 1509,
+    "systematic_reviews": 26,
+    "trials": 9,
+    "guidelines": 0,
+    "supporting_papers_searched": 26
+   },
+   "registered_trials": {
+    "n": 2,
+    "enrollment": 90,
+    "ncts": [
+     "NCT01686139",
+     "NCT06163833"
+    ]
+   },
+   "cited_in_turn": 1518,
+   "funded": 9,
+   "funders_n": 15,
+   "funders": {
+    "National Natural Science Foundation of China": 3,
+    "US National Institutes of Health": 2,
+    "333 Project Talent Foundation of China": 1,
+    "China Shenzhen City Science and Technology Bureau": 1,
+    "Hong Kong Government Research Grant Council": 1,
+    "Japan Society for the Promotion of Science": 1,
+    "Key Talent Foundation of China": 1,
+    "Lui Che Woo Foundation Limited": 1,
+    "Lui Che Woo Institute of Innovative Medicine": 1,
+    "Narodowe Centrum Badań i Rozwoju": 1,
+    "National Science Centre, Poland": 1,
+    "SMART program": 1,
+    "The Chinese University of Hong Kong": 1,
+    "a Challenging Research (Exploratory) from the Ministry of Education, Culture, Sports, Science and Technology of Japan": 1,
+    "a Grant-in-Aid for Scientific Research (B) from the Ministry of Education, Culture, Sports, Science and Technology of Japan": 1
+   },
+   "chain": {
+    "supporting_pmid": "22546280",
+    "supporting_year": "2012",
+    "supporting_cited_by": 326,
+    "supporting_rank": 1,
+    "topic": "transformation",
+    "later_mentioning": 42,
+    "open_read": 31,
+    "cite_it_on_topic": 2,
+    "repeat_claim": 1
+   }
+  },
+  "17715156": {
+   "support_citers": 51,
+   "citers_sha": "c75c945a999d3590",
+   "kinds": {
+    "review": 19,
+    "other": 32
+   },
+   "third_order": {
+    "citing_papers": 2003,
+    "systematic_reviews": 31,
+    "trials": 10,
+    "guidelines": 0,
+    "supporting_papers_searched": 51
+   },
+   "registered_trials": {
+    "n": 0,
+    "enrollment": 0,
+    "ncts": []
+   },
+   "cited_in_turn": 2078,
+   "funded": 15,
+   "funders_n": 40,
+   "funders": {
+    "US National Institutes of Health": 6,
+    "National Natural Science Foundation of China": 4,
+    "British Heart Foundation": 2,
+    "Medical Research Council": 2,
+    "AFM-Téléthon": 1,
+    "Austrian Center of Industrial Biotechnology, ACIB": 1,
+    "Austrian Centre of Biopharmaceutical Technology": 1,
+    "Austrian Research Centre Seibersdorf": 1,
+    "Austrian Science Fund FWF": 1,
+    "BLRD VA": 1,
+    "BOKU DOC": 1,
+    "Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education": 1,
+    "Baxter AG": 1,
+    "Biotechnology and Biological Sciences Research Council": 1,
+    "Biotop": 1,
+    "China Postdoctoral Science Foundation": 1,
+    "FIRB": 1,
+    "Fundamental Research Funds for the Central Universities": 1,
+    "G. d'Annunzio University": 1,
+    "GuangXi Natural Science Foundation": 1,
+    "Hallym University Research Fund": 1,
+    "Harbin Medical University": 1,
+    "Harbin Medical University (HMU)": 1,
+    "Jiangsu clinical research center for cardiovascular surgery": 1,
+    "Ministero della Salute": 1,
+    "National Clinical Key Specialty of cardiovascular surgery": 1,
+    "Natural Science Foundation of Jiangsu Province": 1,
+    "Natural Science Foundation of Shandong Province": 1,
+    "Natural Science Foundation of Shandong Province (Shandong Provincial Natural Science Foundation)": 1,
+    "Natural Science Fund for Colleges and Universities in Jiangsu Province": 1,
+    "Natural Sciences and Engineering Research Council": 1,
+    "PRIN": 1,
+    "Qingdao Natural Science Foundation": 1,
+    "Science Foundation Ireland": 1,
+    "Science and Technology Department of Sichuan Province": 1,
+    "Sichuan Academy of Medical Sciences and Sichuan Provincial People's Hospital": 1,
+    "Suzhou Municipal Science and Technology Foundation": 1,
+    "Taishan Scholar Foundation of Shandong Province": 1,
+    "Vienna Science and Technology Fund (WWTF)": 1,
+    "Wellcome Trust": 1
+   },
+   "chain": {
+    "supporting_pmid": "29178928",
+    "supporting_year": "2017",
+    "supporting_cited_by": 145,
+    "supporting_rank": 1,
+    "topic": "miR-133",
+    "later_mentioning": 69,
+    "open_read": 63,
+    "cite_it_on_topic": 43,
+    "repeat_claim": 1
+   }
+  },
+  "18453793": {
+   "support_citers": 56,
+   "citers_sha": "74f983809965f504",
+   "kinds": {
+    "other": 46,
+    "trial": 7,
+    "systematic review or meta-analysis": 1,
+    "review": 2
+   },
+   "third_order": {
+    "citing_papers": 225,
+    "systematic_reviews": 16,
+    "trials": 7,
+    "guidelines": 0,
+    "supporting_papers_searched": 56
+   },
+   "registered_trials": {
+    "n": 3,
+    "enrollment": 1230,
+    "ncts": [
+     "NCT06068309",
+     "NCT06117722",
+     "NCT07145983"
+    ]
+   },
+   "cited_in_turn": 195,
+   "funded": 18,
+   "funders_n": 34,
+   "funders": {
+    "US National Institutes of Health": 2,
+    "2022 CALHN ALLIED HEALTH, PHARMACY & NURSING GRANT": 1,
+    "Agenzia Italiana del Farmaco, Ministero della Salute": 1,
+    "Beijing Aili Myasthenia Gravis Care Center": 1,
+    "Blood disease Clinical medical Center": 1,
+    "Boston Scientific": 1,
+    "European Research Council": 1,
+    "First People's Hospital of Yunnan Province": 1,
+    "Hawassa University": 1,
+    "Health Bureau": 1,
+    "Health and Medical Research Fund": 1,
+    "Horizon 2020": 1,
+    "Kollegium für Hausarztmedizin, Switzerland": 1,
+    "Medical Research Future Fund (MRFF)": 1,
+    "National Health and Medical Research Council": 1,
+    "National Kidney Foundation Singapore": 1,
+    "National Natural Science Foundation of China": 1,
+    "North South University": 1,
+    "Norwegian University of Science and Technology": 1,
+    "Physical Education Department of the University Center, Dr. Leão Sampaio": 1,
+    "Rapid Applied Research Translation (RART)": 1,
+    "Swiss National Science Foundation": 1,
+    "Swiss State Secretariat for Education, Research and Innovation": 1,
+    "Ten Thousand Person Program": 1,
+    "This research was supported by the Institute of Research and Community Service from the University of Jember": 1,
+    "University of Bern": 1,
+    "University of South Australia": 1,
+    "ViiV Healthcare": 1,
+    "Xuzhou science and technology project": 1,
+    "Yunnan Applied Basic Research Projects-Union Foundation": 1,
+    "Yunnan Province-The Special Project for Renowned Physicians": 1,
+    "Yunnan Provincial Department of Science and Technology and Kunming Medical-University": 1,
+    "the Science and technology development fund of Affiliated Hospital of Xuzhou Medical University": 1,
+    "the clinical research fund of West China Second University Hospital": 1
+   }
+  },
+  "19918075": {
+   "support_citers": 31,
+   "citers_sha": "e56b82153b16000d",
+   "kinds": {
+    "review": 15,
+    "other": 14,
+    "trial": 1,
+    "systematic review or meta-analysis": 1
+   },
+   "third_order": {
+    "citing_papers": 1288,
+    "systematic_reviews": 45,
+    "trials": 36,
+    "guidelines": 0,
+    "supporting_papers_searched": 31
+   },
+   "registered_trials": {
+    "n": 0,
+    "enrollment": 0,
+    "ncts": []
+   },
+   "cited_in_turn": 1292,
+   "funded": 14,
+   "funders_n": 20,
+   "funders": {
+    "Japan Society for the Promotion of Science": 3,
+    "US National Institutes of Health": 3,
+    "AIRC Programma di ricerca 5 per Mille 2019": 1,
+    "Associazione Italiana per la Ricerca sul Cancro": 1,
+    "Bando Ricerca Scientifica di Eccellenza 2017 della Fondazione Cassa di Risparmio di Padova e Rovigo": 1,
+    "Bando Ricerca Scientifica di Eccellenza 2018 della Fondazione Cassa di Risparmio di Padova e Rovigo": 1,
+    "Dept. of Biomedical Sciences, University of Padova": 1,
+    "Dept. of Biomedical sciences, UNIPD": 1,
+    "Institute for Basic Science": 1,
+    "JSPS KAKENHI": 1,
+    "Japanese Council for Science, Technology and Innovation": 1,
+    "MIUR PRIN 2020": 1,
+    "National Key Research and Development Program of China": 1,
+    "National Natural Science Foundation of China": 1,
+    "National Research Foundation of Korea": 1,
+    "National Science Centre, Poland": 1,
+    "Progetto ricerca sanitaria finalizzata Rep. 100/2019": 1,
+    "System for Poultry Production Technology, Beijing Agriculture Innovation Consortium": 1,
+    "Takeda Research Support": 1,
+    "University of Sharjah": 1
+   }
+  },
+  "20593161": {
+   "support_citers": 26,
+   "citers_sha": "500d7304eee2f465",
+   "kinds": {
+    "review": 14,
+    "other": 11,
+    "trial": 1
+   },
+   "third_order": {
+    "citing_papers": 1493,
+    "systematic_reviews": 49,
+    "trials": 37,
+    "guidelines": 1,
+    "supporting_papers_searched": 26
+   },
+   "registered_trials": {
+    "n": 0,
+    "enrollment": 0,
+    "ncts": []
+   },
+   "cited_in_turn": 1553,
+   "funded": 9,
+   "funders_n": 15,
+   "funders": {
+    "National Natural Science Foundation of China": 4,
+    "A Research Project Grant from Kawasaki Medical School": 1,
+    "American Heart Association": 1,
+    "CIHR": 1,
+    "Canadian Diabetes Association": 1,
+    "Huazhong University of Science and Technology": 1,
+    "Juvenile Diabetes Research Foundation International": 1,
+    "Ministry of Innovation and Technology of Hungary": 1,
+    "Ministry of Innovation and Technology of Hungary from the National Research, Development and Innovation Fund": 1,
+    "Natural Science Foundation of Hubei Province": 1,
+    "New National Excellence Program of The Ministry for Culture and Innovation": 1,
+    "New National Excellence Program of The Ministry for Culture and Innovation from the source of the National Research, Development and Innovation Fund": 1,
+    "Novo Nordisk": 1,
+    "Novo Nordisk Fonden": 1,
+    "US National Institutes of Health": 1
+   }
+  },
+  "21753854": {
+   "support_citers": 25,
+   "citers_sha": "c9de4312233e2bd6",
+   "kinds": {
+    "review": 7,
+    "other": 18
+   },
+   "third_order": {
+    "citing_papers": 543,
+    "systematic_reviews": 7,
+    "trials": 2,
+    "guidelines": 0,
+    "supporting_papers_searched": 25
+   },
+   "registered_trials": {
+    "n": 0,
+    "enrollment": 0,
+    "ncts": []
+   },
+   "cited_in_turn": 561,
+   "funded": 15,
+   "funders_n": 18,
+   "funders": {
+    "National Natural Science Foundation of China": 6,
+    "US National Institutes of Health": 2,
+    "Animal Cancer Foundation": 1,
+    "Brooke's Blossoming Hope for Childhood Cancer Foundation": 1,
+    "Cancer Institute NSW": 1,
+    "Cancer Research UK": 1,
+    "China Scholarship Council": 1,
+    "Education Department of Sichuan Province": 1,
+    "H2020 Marie Sklodowska-Curie Actions": 1,
+    "Hope Funds for Cancer Research": 1,
+    "Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg": 1,
+    "National Council for Scientific and Technological Development": 1,
+    "National Key Technology Support Program": 1,
+    "Oregon State University College of Veterinary Medicine": 1,
+    "Russian Foundation for Basic Research": 1,
+    "Science and Technology development plan of Taicang in jiangsu Province P.R.C.": 1,
+    "São Paulo Research Foundation": 1,
+    "University of New South Wales": 1
+   }
+  },
+  "28368401": {
+   "support_citers": 30,
+   "citers_sha": "581aa454bdc19d06",
+   "kinds": {
+    "other": 24,
+    "review": 6
+   },
+   "third_order": {
+    "citing_papers": 519,
+    "systematic_reviews": 4,
+    "trials": 0,
+    "guidelines": 0,
+    "supporting_papers_searched": 30
+   },
+   "registered_trials": {
+    "n": 0,
+    "enrollment": 0,
+    "ncts": []
+   },
+   "cited_in_turn": 526,
+   "funded": 12,
+   "funders_n": 13,
+   "funders": {
+    "National Natural Science Foundation of China": 6,
+    "Bureau of Science and Technology of Jingzhou Municipality": 1,
+    "China Postdoctoral Science Foundation": 1,
+    "Deputyship for Research and Innovation, Ministry of Education in Saudi Arabia": 1,
+    "Graduate Research and Innovation Projects of Jiangsu Province": 1,
+    "Natural Science Foundation of Hubei Province": 1,
+    "Nature Science Foundation of Shaanxi Province": 1,
+    "Priority Academic Program Development of Jiangsu Higher Education Institutions": 1,
+    "Scientific Research Project of Health Commission of Shanxi Province": 1,
+    "Shaanxi Science and Technology Innovation Project Plan": 1,
+    "ShanXi Science and Technology DepartmentS": 1,
+    "The Ningbo Natural Science Foundation of China": 1,
+    "Tianjin Municipal Bureau of Public Health": 1
+   }
+  },
+  "30193239": {
+   "support_citers": 53,
+   "citers_sha": "4b1e736533f76c69",
+   "kinds": {
+    "other": 45,
+    "trial": 1,
+    "review": 6,
+    "systematic review or meta-analysis": 1
+   },
+   "third_order": {
+    "citing_papers": 501,
+    "systematic_reviews": 32,
+    "trials": 10,
+    "guidelines": 0,
+    "supporting_papers_searched": 53
+   },
+   "registered_trials": {
+    "n": 3,
+    "enrollment": 349,
+    "ncts": [
+     "NCT04531774",
+     "NCT07220421",
+     "NCT07459868"
+    ]
+   },
+   "cited_in_turn": 472,
+   "funded": 15,
+   "funders_n": 19,
+   "funders": {
+    "US Department of Veterans Affairs": 2,
+    "US National Institutes of Health": 2,
+    "Chinese Nursing Association Research Project": 1,
+    "DST- NRF Centre of Excellence in Human Development": 1,
+    "Guangxi Graduate Education Innovation Project": 1,
+    "King Abdullah International Medical Research Center": 1,
+    "Korean Neurosurgical Society": 1,
+    "Medical Research Council": 1,
+    "Mölnlycke": 1,
+    "National Natural Science Foundation of China": 1,
+    "Natural Science Foundation of Guangxi Zhuang Autonomous Region": 1,
+    "Novo Nordisk Fonden": 1,
+    "Pain Foundation LTD": 1,
+    "South African Medical Research Council": 1,
+    "United Arab Emirates University": 1,
+    "University of Rochester Medical Center": 1,
+    "University of Sydney": 1,
+    "VHA Office of Primary Care": 1,
+    "Vietnam National Foundation for Science and Technology Development": 1
+   },
+   "chain": {
+    "supporting_pmid": "33879135",
+    "supporting_year": "2021",
+    "supporting_cited_by": 52,
+    "supporting_rank": 1,
+    "topic": "burnout",
+    "later_mentioning": 51,
+    "open_read": 37,
+    "cite_it_on_topic": 25,
+    "repeat_claim": 15
+   }
+  },
+  "32356626": {
+   "support_citers": 80,
+   "citers_sha": "f488e254c5d68863",
+   "kinds": {
+    "other": 46,
+    "review": 26,
+    "systematic review or meta-analysis": 8
+   },
+   "third_order": {
+    "citing_papers": 2463,
+    "systematic_reviews": 116,
+    "trials": 22,
+    "guidelines": 5,
+    "supporting_papers_searched": 80
+   },
+   "registered_trials": {
+    "n": 0,
+    "enrollment": 0,
+    "ncts": []
+   },
+   "cited_in_turn": 2569,
+   "funded": 23,
+   "funders_n": 44,
+   "funders": {
+    "National Institute for Health Research (NIHR)": 3,
+    "US National Institutes of Health": 2,
+    "ACE": 1,
+    "AHRQ HHS": 1,
+    "ATHENA Institute of Biomedical Sciences and EnergonBio Technologies S.A., Greece": 1,
+    "ATHENA Institute of Biomedical Sciences; EnergonBio Technologies S.A., Greece": 1,
+    "Academic Clinical Lecturer": 1,
+    "Agency for Healthcare Research and Quality": 1,
+    "AstraZeneca": 1,
+    "Bill & Melinda Gates Foundation": 1,
+    "Bill and Melinda Gates Institute for Population and Reproductive Health": 1,
+    "Boehringer Ingelheim": 1,
+    "British Heart Foundation": 1,
+    "British Journal of Anaesthesia": 1,
+    "CSRD VA": 1,
+    "Cancer Research UK": 1,
+    "Cancer Research UK Oxford Centre": 1,
+    "Chiesi Farmaceutici": 1,
+    "Fonds Léon Fredericq": 1,
+    "Foundation for Scientific and Technological Development in Health": 1,
+    "GlaxoSmithKline Australia": 1,
+    "Ilam University of Medical Sciences": 1,
+    "MRC Epidemiology Unit programme": 1,
+    "Medical Research Council": 1,
+    "Medizinische Fakultät, RWTH Aachen University": 1,
+    "Ministero dell'Istruzione, dell'Università e della Ricerca": 1,
+    "Ministry of Education – Kingdom of Saudi Arabi": 1,
+    "NHS": 1,
+    "National Key R&D Program of China": 1,
+    "Novartis": 1,
+    "Public Health England": 1,
+    "Qatar Foundation": 1,
+    "Research Centre for Gas Innovation": 1,
+    "Roche": 1,
+    "Russian Science Foundation": 1,
+    "Society of Critical Care Medicine": 1,
+    "Strong": 1,
+    "Swedish Research Council": 1,
+    "Swedish Research Council for Health, Working Life and Welfare": 1,
+    "Takeda Canada": 1,
+    "Umm Al-Qura University": 1,
+    "nantong science and technology bureau": 1,
+    "the Medical Science and Technology Project of Zhejiang Province,China": 1,
+    "the Natural Science Foundation of Zhejiang Province, China": 1
+   },
+   "chain": {
+    "supporting_pmid": "33029758",
+    "supporting_year": "2021",
+    "supporting_cited_by": 166,
+    "supporting_rank": 2,
+    "topic": "angiotensin",
+    "later_mentioning": 120,
+    "open_read": 88,
+    "cite_it_on_topic": 19,
+    "repeat_claim": 0
+   }
+  }
+ },
+ "all": {
+  "support_citers": 482,
+  "kinds": {
+   "other": 303,
+   "review": 153,
+   "trial": 13,
+   "systematic review or meta-analysis": 13
+  },
+  "funded": 164,
+  "third_order": {
+   "citing_papers": 14916,
+   "systematic_reviews": 466,
+   "trials": 249,
+   "guidelines": 7,
+   "supporting_papers_searched": 482
+  }
+ }
+}

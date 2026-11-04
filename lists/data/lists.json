@@ -1,5 +1,6 @@
 {
  "made": "2026-10-20",
+ "about": "The generated base, before the corrections in list_corrections.json. Its rankings and counts are not the corrected Lists (two papers ranked here were taken off; many counts changed). Quote the Lists page or the files in /lists/ (papers.csv, journals-by-count.csv, journals-by-rate.csv, authors.csv).",
  "cut": 10,
  "journals_min_n": 100,
  "journals_eligible": 78,
@@ -264,6 +265,26 @@
    "note": "",
    "left_off": "A review: citations use its summary figures, which come from other published sources.",
    "reason_source": "notice PMID 38188754 (PMC10769770), read in full"
+  },
+  {
+   "rank": 8,
+   "pmid": "20593161",
+   "title": "A glucagon-like peptide-1 (GLP-1) analogue, liraglutide, upregulates nitric oxide production and exerts anti-inflammatory action in endothelial cells",
+   "first_author": "Hattori Y",
+   "journal": "Diabetologia",
+   "year": "2010",
+   "doi": "10.1007/s00125-010-1831-8",
+   "retraction_year": "2011",
+   "reason": "Retracted \"following the discovery of redundant publication\": part of Figure 2c had been published before in Cardiovascular Research",
+   "notice_pmid": "22170464",
+   "support": 26,
+   "judged": 54,
+   "flagged": 0,
+   "read": 0,
+   "confirmed": 0,
+   "note": "",
+   "left_off": "",
+   "reason_source": "notice PMID 22170464, doi:10.1007/s00125-011-2394-z"
   }
  ],
  "journals": {

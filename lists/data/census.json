@@ -1,0 +1,1337 @@
+{
+ "data_as_of": "2026-10-14",
+ "data_as_of_note": "Retraction Watch list downloaded 13 Oct 2026; final census analysis run 14 Oct 2026. These figures change only when a new census is published.",
+ "headline_scope": "retractions other than administrative ones (out of date, replaced, moved journal, publisher duplicate)",
+ "administrative_pairs": 4044,
+ "substantive_administrative": {
+  "rate": 0.3796,
+  "k": 1535,
+  "ci95": [
+   0.339119,
+   0.428885
+  ],
+  "n": 4044,
+  "papers": 534
+ },
+ "codebook": "v3.3",
+ "panel": [
+  "typesafe/jev",
+  "@cf/google/gemma-4-26b-a4b-it",
+  "@cf/cloudflare/clef"
+ ],
+ "pairs_classified": 55688,
+ "judged": 51626,
+ "unclear": 4062,
+ "unclear_labels": 18,
+ "unclear_note": "unclear (4062) counts every classified pair that was not judged: the 18 pairs the panel labelled unclear plus the 4,044 administrative pairs (see administrative_pairs). unclear_labels (18) is the true unclear-labelled count.",
+ "notices_set_aside": 485,
+ "incomplete_pairs": 6,
+ "retracted_papers": 12864,
+ "routes": {
+  "unanimous": 46858,
+  "majority": 8807,
+  "split": 23
+ },
+ "panel_sizes": {
+  "3": 55688
+ },
+ "aware": {
+  "rate": 0.0334,
+  "k": 1726,
+  "ci95": [
+   0.02563,
+   0.042857
+  ],
+  "n": 51626,
+  "papers": 12328
+ },
+ "substantive": {
+  "rate": 0.4075,
+  "k": 21037,
+  "ci95": [
+   0.398918,
+   0.414787
+  ],
+  "n": 51626,
+  "papers": 12328
+ },
+ "perfunctory": {
+  "rate": 0.5591,
+  "k": 28863,
+  "ci95": [
+   0.550627,
+   0.568112
+  ],
+  "n": 51626,
+  "papers": 12328
+ },
+ "by_panel_size": {
+  "2": {
+   "aware": null,
+   "substantive": null
+  },
+  "3": {
+   "aware": {
+    "rate": 0.0334,
+    "k": 1726,
+    "ci95": [
+     0.02563,
+     0.042857
+    ],
+    "n": 51626,
+    "papers": 12328
+   },
+   "substantive": {
+    "rate": 0.4075,
+    "k": 21037,
+    "ci95": [
+     0.398918,
+     0.414787
+    ],
+    "n": 51626,
+    "papers": 12328
+   }
+  }
+ },
+ "substantive_band": {
+  "strict": {
+   "rate": 0.3451,
+   "k": 17818,
+   "ci95": [
+    0.336883,
+    0.35304
+   ],
+   "n": 51626,
+   "papers": 12328
+  },
+  "lenient": {
+   "rate": 0.4668,
+   "k": 24101,
+   "ci95": [
+    0.4574,
+    0.475382
+   ],
+   "n": 51626,
+   "papers": 12328
+  },
+  "note": "strict = a context the three models split on counts as substantive only if no model said perfunctory; lenient = if any said substantive"
+ },
+ "ref_list_says_retracted": {
+  "rate": 0.0656,
+  "k": 3652,
+  "ci95": [
+   0.060642,
+   0.072356
+  ],
+  "n": 55688,
+  "papers": 12864
+ },
+ "substantive_despite_ref_list_label": {
+  "rate": 0.4038,
+  "k": 1465,
+  "ci95": [
+   0.373837,
+   0.435263
+  ],
+  "n": 3628,
+  "papers": 2203
+ },
+ "aware_despite_ref_list_label": {
+  "rate": 0.129,
+  "k": 468,
+  "ci95": [
+   0.076113,
+   0.179985
+  ],
+  "n": 3628,
+  "papers": 2203
+ },
+ "aware_hs_window_citing_le_2019": {
+  "rate": 0.0508,
+  "k": 667,
+  "ci95": [
+   0.038251,
+   0.065728
+  ],
+  "n": 13129,
+  "papers": 3518
+ },
+ "papers_with_any_substantive": {
+  "papers": 12328,
+  "with_substantive": 8197,
+  "with_two_or_more_substantive": 3984,
+  "note": "papers = non-administrative retracted papers with at least one judged citation"
+ },
+ "by_years_after": {
+  "1-2": {
+   "substantive": {
+    "rate": 0.4355,
+    "k": 11286,
+    "ci95": [
+     0.425772,
+     0.443579
+    ],
+    "n": 25915,
+    "papers": 9501
+   },
+   "aware": {
+    "rate": 0.0274,
+    "k": 711,
+    "ci95": [
+     0.020712,
+     0.038053
+    ],
+    "n": 25915,
+    "papers": 9501
+   }
+  },
+  "11+": {
+   "substantive": {
+    "rate": 0.349,
+    "k": 1303,
+    "ci95": [
+     0.324006,
+     0.37239
+    ],
+    "n": 3734,
+    "papers": 1264
+   },
+   "aware": {
+    "rate": 0.0635,
+    "k": 237,
+    "ci95": [
+     0.032024,
+     0.120473
+    ],
+    "n": 3734,
+    "papers": 1264
+   }
+  },
+  "3-5": {
+   "substantive": {
+    "rate": 0.3909,
+    "k": 5355,
+    "ci95": [
+     0.37973,
+     0.402494
+    ],
+    "n": 13700,
+    "papers": 5814
+   },
+   "aware": {
+    "rate": 0.0336,
+    "k": 461,
+    "ci95": [
+     0.028541,
+     0.039341
+    ],
+    "n": 13700,
+    "papers": 5814
+   }
+  },
+  "6-10": {
+   "substantive": {
+    "rate": 0.3737,
+    "k": 3093,
+    "ci95": [
+     0.358921,
+     0.389756
+    ],
+    "n": 8277,
+    "papers": 2978
+   },
+   "aware": {
+    "rate": 0.0383,
+    "k": 317,
+    "ci95": [
+     0.027764,
+     0.053842
+    ],
+    "n": 8277,
+    "papers": 2978
+   }
+  }
+ },
+ "by_reason": {
+  "error or unreliable results": {
+   "substantive": {
+    "rate": 0.3999,
+    "k": 6284,
+    "ci95": [
+     0.388665,
+     0.411436
+    ],
+    "n": 15715,
+    "papers": 3230
+   },
+   "aware": {
+    "rate": 0.0654,
+    "k": 1027,
+    "ci95": [
+     0.050987,
+     0.080867
+    ],
+    "n": 15715,
+    "papers": 3230
+   }
+  },
+  "misconduct, fabrication or duplication": {
+   "substantive": {
+    "rate": 0.412,
+    "k": 13161,
+    "ci95": [
+     0.39986,
+     0.422625
+    ],
+    "n": 31947,
+    "papers": 8077
+   },
+   "aware": {
+    "rate": 0.0186,
+    "k": 594,
+    "ci95": [
+     0.011751,
+     0.031443
+    ],
+    "n": 31947,
+    "papers": 8077
+   }
+  },
+  "other or unstated": {
+   "substantive": {
+    "rate": 0.4016,
+    "k": 1592,
+    "ci95": [
+     0.379506,
+     0.423182
+    ],
+    "n": 3964,
+    "papers": 1021
+   },
+   "aware": {
+    "rate": 0.0265,
+    "k": 105,
+    "ci95": [
+     0.019618,
+     0.035194
+    ],
+    "n": 3964,
+    "papers": 1021
+   }
+  }
+ },
+ "by_reason_all": {
+  "administrative (no fault found in the science)": {
+   "substantive": {
+    "rate": 0.3796,
+    "k": 1535,
+    "ci95": [
+     0.339119,
+     0.428885
+    ],
+    "n": 4044,
+    "papers": 534
+   },
+   "aware": {
+    "rate": 0.0143,
+    "k": 58,
+    "ci95": [
+     0.009561,
+     0.019446
+    ],
+    "n": 4044,
+    "papers": 534
+   }
+  },
+  "error or unreliable results": {
+   "substantive": {
+    "rate": 0.3999,
+    "k": 6284,
+    "ci95": [
+     0.388665,
+     0.411436
+    ],
+    "n": 15715,
+    "papers": 3230
+   },
+   "aware": {
+    "rate": 0.0654,
+    "k": 1027,
+    "ci95": [
+     0.050987,
+     0.080867
+    ],
+    "n": 15715,
+    "papers": 3230
+   }
+  },
+  "misconduct, fabrication or duplication": {
+   "substantive": {
+    "rate": 0.412,
+    "k": 13161,
+    "ci95": [
+     0.39986,
+     0.422625
+    ],
+    "n": 31947,
+    "papers": 8077
+   },
+   "aware": {
+    "rate": 0.0186,
+    "k": 594,
+    "ci95": [
+     0.011751,
+     0.031443
+    ],
+    "n": 31947,
+    "papers": 8077
+   }
+  },
+  "other or unstated": {
+   "substantive": {
+    "rate": 0.4016,
+    "k": 1592,
+    "ci95": [
+     0.379506,
+     0.423182
+    ],
+    "n": 3964,
+    "papers": 1021
+   },
+   "aware": {
+    "rate": 0.0265,
+    "k": 105,
+    "ci95": [
+     0.019618,
+     0.035194
+    ],
+    "n": 3964,
+    "papers": 1021
+   }
+  }
+ },
+ "by_citing_year": {
+  "1997": {
+   "substantive": {
+    "rate": 0.4,
+    "k": 2,
+    "ci95": [
+     0.0,
+     0.8
+    ],
+    "n": 5,
+    "papers": 5
+   },
+   "aware": {
+    "rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 5,
+    "papers": 5
+   }
+  },
+  "1998": {
+   "substantive": {
+    "rate": 0.5,
+    "k": 3,
+    "ci95": [
+     0.0,
+     0.875
+    ],
+    "n": 6,
+    "papers": 5
+   },
+   "aware": {
+    "rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 6,
+    "papers": 5
+   }
+  },
+  "1999": {
+   "substantive": {
+    "rate": 1.0,
+    "k": 1,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 1,
+    "papers": 1
+   },
+   "aware": {
+    "rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 1,
+    "papers": 1
+   }
+  },
+  "2000": {
+   "substantive": {
+    "rate": 0.5,
+    "k": 3,
+    "ci95": [
+     0.166667,
+     0.833333
+    ],
+    "n": 6,
+    "papers": 5
+   },
+   "aware": {
+    "rate": 0.1667,
+    "k": 1,
+    "ci95": [
+     0.0,
+     0.6
+    ],
+    "n": 6,
+    "papers": 5
+   }
+  },
+  "2001": {
+   "substantive": {
+    "rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 1,
+    "papers": 1
+   },
+   "aware": {
+    "rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 1,
+    "papers": 1
+   }
+  },
+  "2002": {
+   "substantive": {
+    "rate": 1.0,
+    "k": 1,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 1,
+    "papers": 1
+   },
+   "aware": {
+    "rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 1,
+    "papers": 1
+   }
+  },
+  "2003": {
+   "substantive": {
+    "rate": 0.1429,
+    "k": 1,
+    "ci95": [
+     0.0,
+     0.428571
+    ],
+    "n": 7,
+    "papers": 7
+   },
+   "aware": {
+    "rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 7,
+    "papers": 7
+   }
+  },
+  "2004": {
+   "substantive": {
+    "rate": 0.5455,
+    "k": 6,
+    "ci95": [
+     0.25,
+     0.818182
+    ],
+    "n": 11,
+    "papers": 10
+   },
+   "aware": {
+    "rate": 0.0909,
+    "k": 1,
+    "ci95": [
+     0.0,
+     0.3
+    ],
+    "n": 11,
+    "papers": 10
+   }
+  },
+  "2005": {
+   "substantive": {
+    "rate": 0.4737,
+    "k": 9,
+    "ci95": [
+     0.25,
+     0.722222
+    ],
+    "n": 19,
+    "papers": 18
+   },
+   "aware": {
+    "rate": 0.1053,
+    "k": 2,
+    "ci95": [
+     0.0,
+     0.277778
+    ],
+    "n": 19,
+    "papers": 18
+   }
+  },
+  "2006": {
+   "substantive": {
+    "rate": 0.303,
+    "k": 10,
+    "ci95": [
+     0.178571,
+     0.448276
+    ],
+    "n": 33,
+    "papers": 27
+   },
+   "aware": {
+    "rate": 0.0909,
+    "k": 3,
+    "ci95": [
+     0.0,
+     0.212121
+    ],
+    "n": 33,
+    "papers": 27
+   }
+  },
+  "2007": {
+   "substantive": {
+    "rate": 0.3043,
+    "k": 21,
+    "ci95": [
+     0.185714,
+     0.415385
+    ],
+    "n": 69,
+    "papers": 53
+   },
+   "aware": {
+    "rate": 0.1739,
+    "k": 12,
+    "ci95": [
+     0.088235,
+     0.289855
+    ],
+    "n": 69,
+    "papers": 53
+   }
+  },
+  "2008": {
+   "substantive": {
+    "rate": 0.32,
+    "k": 24,
+    "ci95": [
+     0.2,
+     0.45679
+    ],
+    "n": 75,
+    "papers": 65
+   },
+   "aware": {
+    "rate": 0.0667,
+    "k": 5,
+    "ci95": [
+     0.013889,
+     0.131579
+    ],
+    "n": 75,
+    "papers": 65
+   }
+  },
+  "2009": {
+   "substantive": {
+    "rate": 0.3603,
+    "k": 49,
+    "ci95": [
+     0.28,
+     0.435484
+    ],
+    "n": 136,
+    "papers": 105
+   },
+   "aware": {
+    "rate": 0.1397,
+    "k": 19,
+    "ci95": [
+     0.086614,
+     0.2
+    ],
+    "n": 136,
+    "papers": 105
+   }
+  },
+  "2010": {
+   "substantive": {
+    "rate": 0.3756,
+    "k": 77,
+    "ci95": [
+     0.307292,
+     0.449761
+    ],
+    "n": 205,
+    "papers": 141
+   },
+   "aware": {
+    "rate": 0.0829,
+    "k": 17,
+    "ci95": [
+     0.044776,
+     0.131222
+    ],
+    "n": 205,
+    "papers": 141
+   }
+  },
+  "2011": {
+   "substantive": {
+    "rate": 0.3132,
+    "k": 114,
+    "ci95": [
+     0.266289,
+     0.365782
+    ],
+    "n": 364,
+    "papers": 245
+   },
+   "aware": {
+    "rate": 0.0824,
+    "k": 30,
+    "ci95": [
+     0.048851,
+     0.113821
+    ],
+    "n": 364,
+    "papers": 245
+   }
+  },
+  "2012": {
+   "substantive": {
+    "rate": 0.3525,
+    "k": 227,
+    "ci95": [
+     0.315436,
+     0.394107
+    ],
+    "n": 644,
+    "papers": 371
+   },
+   "aware": {
+    "rate": 0.1009,
+    "k": 65,
+    "ci95": [
+     0.060708,
+     0.148629
+    ],
+    "n": 644,
+    "papers": 371
+   }
+  },
+  "2013": {
+   "substantive": {
+    "rate": 0.3972,
+    "k": 363,
+    "ci95": [
+     0.357955,
+     0.431514
+    ],
+    "n": 914,
+    "papers": 517
+   },
+   "aware": {
+    "rate": 0.0678,
+    "k": 62,
+    "ci95": [
+     0.039691,
+     0.101291
+    ],
+    "n": 914,
+    "papers": 517
+   }
+  },
+  "2014": {
+   "substantive": {
+    "rate": 0.3984,
+    "k": 439,
+    "ci95": [
+     0.365611,
+     0.429108
+    ],
+    "n": 1102,
+    "papers": 685
+   },
+   "aware": {
+    "rate": 0.0662,
+    "k": 73,
+    "ci95": [
+     0.047091,
+     0.085635
+    ],
+    "n": 1102,
+    "papers": 685
+   }
+  },
+  "2015": {
+   "substantive": {
+    "rate": 0.3482,
+    "k": 467,
+    "ci95": [
+     0.317126,
+     0.375299
+    ],
+    "n": 1341,
+    "papers": 801
+   },
+   "aware": {
+    "rate": 0.05,
+    "k": 67,
+    "ci95": [
+     0.033165,
+     0.067982
+    ],
+    "n": 1341,
+    "papers": 801
+   }
+  },
+  "2016": {
+   "substantive": {
+    "rate": 0.373,
+    "k": 596,
+    "ci95": [
+     0.349398,
+     0.396301
+    ],
+    "n": 1598,
+    "papers": 950
+   },
+   "aware": {
+    "rate": 0.0325,
+    "k": 52,
+    "ci95": [
+     0.021978,
+     0.045238
+    ],
+    "n": 1598,
+    "papers": 950
+   }
+  },
+  "2017": {
+   "substantive": {
+    "rate": 0.3777,
+    "k": 781,
+    "ci95": [
+     0.350886,
+     0.408985
+    ],
+    "n": 2068,
+    "papers": 1136
+   },
+   "aware": {
+    "rate": 0.0363,
+    "k": 75,
+    "ci95": [
+     0.025501,
+     0.048524
+    ],
+    "n": 2068,
+    "papers": 1136
+   }
+  },
+  "2018": {
+   "substantive": {
+    "rate": 0.382,
+    "k": 772,
+    "ci95": [
+     0.356356,
+     0.400402
+    ],
+    "n": 2021,
+    "papers": 1168
+   },
+   "aware": {
+    "rate": 0.0391,
+    "k": 79,
+    "ci95": [
+     0.028311,
+     0.053607
+    ],
+    "n": 2021,
+    "papers": 1168
+   }
+  },
+  "2019": {
+   "substantive": {
+    "rate": 0.3753,
+    "k": 939,
+    "ci95": [
+     0.35066,
+     0.400082
+    ],
+    "n": 2502,
+    "papers": 1397
+   },
+   "aware": {
+    "rate": 0.0416,
+    "k": 104,
+    "ci95": [
+     0.029226,
+     0.055688
+    ],
+    "n": 2502,
+    "papers": 1397
+   }
+  },
+  "2020": {
+   "substantive": {
+    "rate": 0.3895,
+    "k": 1330,
+    "ci95": [
+     0.371403,
+     0.409197
+    ],
+    "n": 3415,
+    "papers": 1787
+   },
+   "aware": {
+    "rate": 0.031,
+    "k": 106,
+    "ci95": [
+     0.021972,
+     0.043492
+    ],
+    "n": 3415,
+    "papers": 1787
+   }
+  },
+  "2021": {
+   "substantive": {
+    "rate": 0.4038,
+    "k": 2326,
+    "ci95": [
+     0.389309,
+     0.421118
+    ],
+    "n": 5760,
+    "papers": 2505
+   },
+   "aware": {
+    "rate": 0.046,
+    "k": 265,
+    "ci95": [
+     0.025326,
+     0.07296
+    ],
+    "n": 5760,
+    "papers": 2505
+   }
+  },
+  "2022": {
+   "substantive": {
+    "rate": 0.4511,
+    "k": 3236,
+    "ci95": [
+     0.433494,
+     0.469318
+    ],
+    "n": 7173,
+    "papers": 3350
+   },
+   "aware": {
+    "rate": 0.0269,
+    "k": 193,
+    "ci95": [
+     0.019218,
+     0.038558
+    ],
+    "n": 7173,
+    "papers": 3350
+   }
+  },
+  "2023": {
+   "substantive": {
+    "rate": 0.4282,
+    "k": 2650,
+    "ci95": [
+     0.411954,
+     0.444611
+    ],
+    "n": 6188,
+    "papers": 3327
+   },
+   "aware": {
+    "rate": 0.0225,
+    "k": 139,
+    "ci95": [
+     0.016039,
+     0.031795
+    ],
+    "n": 6188,
+    "papers": 3327
+   }
+  },
+  "2024": {
+   "substantive": {
+    "rate": 0.4315,
+    "k": 3698,
+    "ci95": [
+     0.419502,
+     0.444247
+    ],
+    "n": 8570,
+    "papers": 4852
+   },
+   "aware": {
+    "rate": 0.0187,
+    "k": 160,
+    "ci95": [
+     0.01442,
+     0.02412
+    ],
+    "n": 8570,
+    "papers": 4852
+   }
+  },
+  "2025": {
+   "substantive": {
+    "rate": 0.4037,
+    "k": 2138,
+    "ci95": [
+     0.388333,
+     0.418135
+    ],
+    "n": 5296,
+    "papers": 3502
+   },
+   "aware": {
+    "rate": 0.0238,
+    "k": 126,
+    "ci95": [
+     0.018057,
+     0.030884
+    ],
+    "n": 5296,
+    "papers": 3502
+   }
+  },
+  "2026": {
+   "substantive": {
+    "rate": 0.3599,
+    "k": 754,
+    "ci95": [
+     0.336847,
+     0.380676
+    ],
+    "n": 2095,
+    "papers": 1652
+   },
+   "aware": {
+    "rate": 0.0334,
+    "k": 70,
+    "ci95": [
+     0.022682,
+     0.044749
+    ],
+    "n": 2095,
+    "papers": 1652
+   }
+  }
+ },
+ "by_retraction_decade": {
+  "1990s": {
+   "substantive": {
+    "rate": 0.3432,
+    "k": 139,
+    "ci95": [
+     0.302632,
+     0.391061
+    ],
+    "n": 405,
+    "papers": 114
+   },
+   "aware": {
+    "rate": 0.0691,
+    "k": 28,
+    "ci95": [
+     0.038647,
+     0.103365
+    ],
+    "n": 405,
+    "papers": 114
+   }
+  },
+  "2000s": {
+   "substantive": {
+    "rate": 0.3598,
+    "k": 1570,
+    "ci95": [
+     0.338321,
+     0.378596
+    ],
+    "n": 4363,
+    "papers": 737
+   },
+   "aware": {
+    "rate": 0.0516,
+    "k": 225,
+    "ci95": [
+     0.039753,
+     0.064992
+    ],
+    "n": 4363,
+    "papers": 737
+   }
+  },
+  "2010s": {
+   "substantive": {
+    "rate": 0.3823,
+    "k": 9109,
+    "ci95": [
+     0.369193,
+     0.395612
+    ],
+    "n": 23826,
+    "papers": 4297
+   },
+   "aware": {
+    "rate": 0.0399,
+    "k": 950,
+    "ci95": [
+     0.029335,
+     0.05829
+    ],
+    "n": 23826,
+    "papers": 4297
+   }
+  },
+  "2020s": {
+   "substantive": {
+    "rate": 0.4437,
+    "k": 10219,
+    "ci95": [
+     0.430088,
+     0.455728
+    ],
+    "n": 23032,
+    "papers": 7180
+   },
+   "aware": {
+    "rate": 0.0227,
+    "k": 523,
+    "ci95": [
+     0.014468,
+     0.034123
+    ],
+    "n": 23032,
+    "papers": 7180
+   }
+  }
+ },
+ "by_field": {
+  "?": {
+   "substantive": {
+    "rate": 0.2073,
+    "k": 17,
+    "ci95": [
+     0.098361,
+     0.318681
+    ],
+    "n": 82,
+    "papers": 49
+   },
+   "aware": {
+    "rate": 0.0,
+    "k": 0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 82,
+    "papers": 49
+   }
+  },
+  "basic life and health sciences": {
+   "substantive": {
+    "rate": 0.4129,
+    "k": 6908,
+    "ci95": [
+     0.396765,
+     0.428081
+    ],
+    "n": 16730,
+    "papers": 3748
+   },
+   "aware": {
+    "rate": 0.0356,
+    "k": 596,
+    "ci95": [
+     0.022381,
+     0.061008
+    ],
+    "n": 16730,
+    "papers": 3748
+   }
+  },
+  "basic life sciences only": {
+   "substantive": {
+    "rate": 0.4438,
+    "k": 8158,
+    "ci95": [
+     0.429033,
+     0.456146
+    ],
+    "n": 18384,
+    "papers": 4379
+   },
+   "aware": {
+    "rate": 0.021,
+    "k": 386,
+    "ci95": [
+     0.015636,
+     0.028189
+    ],
+    "n": 18384,
+    "papers": 4379
+   }
+  },
+  "health sciences only": {
+   "substantive": {
+    "rate": 0.3723,
+    "k": 4257,
+    "ci95": [
+     0.356252,
+     0.389119
+    ],
+    "n": 11433,
+    "papers": 2729
+   },
+   "aware": {
+    "rate": 0.0489,
+    "k": 559,
+    "ci95": [
+     0.033572,
+     0.069583
+    ],
+    "n": 11433,
+    "papers": 2729
+   }
+  },
+  "other fields": {
+   "substantive": {
+    "rate": 0.3396,
+    "k": 1697,
+    "ci95": [
+     0.318366,
+     0.359125
+    ],
+    "n": 4997,
+    "papers": 1423
+   },
+   "aware": {
+    "rate": 0.037,
+    "k": 185,
+    "ci95": [
+     0.025731,
+     0.050011
+    ],
+    "n": 4997,
+    "papers": 1423
+   }
+  }
+ },
+ "extraction": {
+  "pairs": 58358,
+  "status": {
+   "ok": 56179,
+   "no-in-text-citation": 967,
+   "no-fulltext": 175,
+   "reference-not-found": 1030,
+   "no-body": 7
+  },
+  "usable_rate": 0.9627
+ },
+ "cost_usd": {
+  "typesafe/jev": 4.46,
+  "@cf/cloudflare/clef": 21.91,
+  "@cf/google/gemma-4-26b-a4b-it": 5.68,
+  "total": 32.05
+ },
+ "calls": {
+  "typesafe/jev": 72339,
+  "@cf/cloudflare/clef": 72139,
+  "@cf/google/gemma-4-26b-a4b-it": 72155
+ },
+ "human_review_queue": {
+  "pairs_not_unanimous": 8830,
+  "substantive_or_aware_not_unanimous": 5259
+ },
+ "substantive_corrected": {
+  "rate": 0.3809,
+  "sens": 0.9649,
+  "fpr": 0.0645,
+  "basis": "confirm_v33 blind set, n=150",
+  "caveat": "Human adjudication is DEFERRED: the misclassification correction key is a single AI labeler (confirm_v33, n=150), not human experts.",
+  "ci95": [
+   0.3352,
+   0.4176
+  ]
+ },
+ "substantive_corrected_rescored": {
+  "caveat": "Human adjudication is DEFERRED: the misclassification correction key is a single AI labeler (confirm_v33, n=150), not human experts.",
+  "all_150": {
+   "n": 150,
+   "agree_substantive_or_not": 142,
+   "sens": 0.9649,
+   "fpr": 0.0645,
+   "rate": 0.3809
+  },
+  "non_administrative": {
+   "n": 137,
+   "agree_substantive_or_not": 130,
+   "sens": 0.9808,
+   "fpr": 0.0706,
+   "rate": 0.3702
+  },
+  "panel_differs_from_census_label": [
+   "21461636>PMC10676308",
+   "26806855>PMC7801470",
+   "27698958>PMC8593343"
+  ]
+ },
+ "cost_usd_note": "logged usage at list prices; Jev's AI Gateway billing record for 13-14 Oct 2026 is $1.835 (input tokens only, $0.042/M; fewer tokens billed than Jev reports per call)"
+}

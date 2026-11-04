@@ -1,7 +1,7 @@
 # Stories: the re-analyses behind sanecite.com/stories
 
 Code and data for the case stories published on sanecite.com/stories on 29 October 2026. Staged by
-`scripts/stage_release.py` on 2026-10-29. The papers' full texts and figures we read are not included; each story links them.
+`scripts/stage_release.py` on 2026-11-04. The papers' full texts and figures we read are not included; each story links them.
 
 | Path | What it is |
 |---|---|

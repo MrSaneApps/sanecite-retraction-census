@@ -1,0 +1,141 @@
+{
+ "title": "SaneCite citation-accuracy test, batch 6 (22 Oct 2026)",
+ "status": "Pending human review: measured against an adjudicated AI reference, not people. A two-person human check of a random sample is the next step.",
+ "sample": {
+  "population": "Open-access PubMed Central research and review articles, 2015-2025, citing an open-access paper with a PubMed ID",
+  "pairs_drawn": 1000,
+  "readable": 996,
+  "judged": 915,
+  "seed": 6006
+ },
+ "reference": {
+  "design": "Two blind AI readers from different model families; disagreements settled by a third read",
+  "disagreements_adjudicated": 169,
+  "backup_reader_items": 66,
+  "major": 66,
+  "any_error": 186,
+  "major_rate": "7.2%",
+  "major_ci95": "5.7-9.1%",
+  "any_error_rate": "20.3%",
+  "any_error_ci95": "17.8-23.1%",
+  "reader_vs_reader_kappa_major": 0.658
+ },
+ "by_citation_type": {
+  "specific_claim": {
+   "judged": 413,
+   "major": 40,
+   "any_error": 117
+  },
+  "background": {
+   "judged": 357,
+   "major": 20,
+   "any_error": 50
+  },
+  "method_or_tool": {
+   "judged": 124,
+   "major": 6,
+   "any_error": 17
+  }
+ },
+ "by_citation_type_note": "Exploratory, not in the pre-registered plan; the same order appears in an earlier separate set of 500.",
+ "pass_bars": {
+  "kappa_major": 0.6,
+  "recall": 0.7,
+  "precision": 0.65
+ },
+ "systems": {
+  "primary": {
+   "system": "clef screen -> deepseek_on+qwen_on+glm_on",
+   "missing_decider_votes": 0,
+   "n": 915,
+   "ref_majors": 66,
+   "caught": 56,
+   "major_calls": 81,
+   "recall": 0.848,
+   "recall_ci95": [
+    0.743,
+    0.916
+   ],
+   "precision": 0.691,
+   "precision_ci95": [
+    0.584,
+    0.781
+   ],
+   "kappa_major": 0.741,
+   "flag_rate": 0.291,
+   "system_major_rate": 0.0885,
+   "ref_major_rate": 0.0721,
+   "ref_major_rate_ci95": [
+    0.057,
+    0.091
+   ],
+   "kappa_error_on_flagged": 0.681,
+   "PASS": true,
+   "description": "Clef screen, then majority of DeepSeek, Qwen and GLM (thinking on)"
+  },
+  "secondary": {
+   "system": "jev screen -> deepseek_on+qwen_on+glm_on",
+   "missing_decider_votes": 0,
+   "n": 915,
+   "ref_majors": 66,
+   "caught": 55,
+   "major_calls": 83,
+   "recall": 0.833,
+   "recall_ci95": [
+    0.726,
+    0.904
+   ],
+   "precision": 0.663,
+   "precision_ci95": [
+    0.556,
+    0.755
+   ],
+   "kappa_major": 0.715,
+   "flag_rate": 0.214,
+   "system_major_rate": 0.0907,
+   "ref_major_rate": 0.0721,
+   "ref_major_rate_ci95": [
+    0.057,
+    0.091
+   ],
+   "kappa_error_on_flagged": 0.564,
+   "PASS": true,
+   "description": "Jev screen, same deciders"
+  },
+  "primary_alt_reference": {
+   "n": 915,
+   "ref_majors": 65,
+   "caught": 56,
+   "major_calls": 81,
+   "recall": 0.862,
+   "recall_ci95": [
+    0.757,
+    0.925
+   ],
+   "precision": 0.691,
+   "precision_ci95": [
+    0.584,
+    0.781
+   ],
+   "kappa_major": 0.747,
+   "flag_rate": 0.291,
+   "system_major_rate": 0.0885,
+   "ref_major_rate": 0.071,
+   "ref_major_rate_ci95": [
+    0.056,
+    0.09
+   ],
+   "kappa_error_on_flagged": 0.681,
+   "PASS": true,
+   "description": "Primary, with a different backup reader for the 66 items"
+  }
+ },
+ "cost_per_1000_citations": "about $11-13 at list price (Cloudflare billed usage)",
+ "plan_changes": [
+  "Before any result: reading packets cut to 11 items with a backup reader when a tool stopped",
+  "Before any result: Clef screen preferred unless Jev was clearly better",
+  "Before any result: backup readers for the 66 stopped items (reported both ways)",
+  "Before any result: how reader disagreements were settled",
+  "After the result: results published now, marked pending human review, instead of after the human check"
+ ]
+}

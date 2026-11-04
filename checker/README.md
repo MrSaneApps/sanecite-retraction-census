@@ -1,7 +1,7 @@
 # Checker: the citation-accuracy test (batch 6)
 
 The test of 996 random citations behind the accuracy figures on sanecite.com/checker, as recorded. Staged by
-`scripts/stage_release.py` on 2026-10-29.
+`scripts/stage_release.py` on 2026-11-04.
 
 | Path | What it is |
 |---|---|
@@ -30,8 +30,8 @@ originals can be shown on request):
 - `reads/ref_muse_muse.jsonl`: the quoted passages from the papers ("quote" fields) are left out
 - `records/MODEL_CARDS_2026-10-22.md`: a private folder path replaced; internal tool, machine and procedure names replaced
 - `records/PREREG_SYSTEM_2026-10-22.md`: an informal remark left out; internal tool, machine and procedure names replaced
-- `records/RESULTS.md`: internal tool, machine and procedure names replaced
 - `records/PROTOCOL_TUNING_2026-10-22.md`: internal tool, machine and procedure names replaced
+- `records/RESULTS.md`: internal tool, machine and procedure names replaced
 - `records/TUNING_RESULTS_2026-10-22.md`: internal tool, machine and procedure names replaced
 - `records/run.sh`: a private folder path replaced; internal tool, machine and procedure names replaced
 - `records/run_batch.sh`: a private account ID and a private secret loader removed; a private folder path replaced; internal tool, machine and procedure names replaced

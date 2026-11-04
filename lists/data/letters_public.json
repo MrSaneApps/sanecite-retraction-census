@@ -1,0 +1,279 @@
+{
+ "about": "For each entry the Lists page names or prints a reply for: whether our letter was delivered and the reply date it stated. Written by tools/lists.py; used only by the public re-run (SANECITE_PUBLIC_RERUN=1).",
+ "built_on": "2026-11-04",
+ "default_reply_by": "2026-10-28",
+ "entries": [
+  {
+   "delivered": true,
+   "entry": "0000-0001-6431-4605",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0001-8381-0591",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0001-9159-960X",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0001-9317-1631",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0001-9680-0309",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0002-0223-499X",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0002-5471-6229",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0002-7301-8151",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0002-8215-2045",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0002-8656-1444",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0002-8677-8475",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0003-1060-6527",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "0000-0003-2347-0411",
+   "list": "authors",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Bioengineered",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Cancer Cell Int",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Cancers (Basel)",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Cell Commun Signal",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Discov Oncol",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Front Cell Dev Biol",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Front Immunol",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Front Mol Biosci",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Front Neurosci",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Front Oncol",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Front Pharmacol",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Heliyon",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Int J Mol Sci",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Molecules",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Noncoding RNA Res",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Onco Targets Ther",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "PLoS One",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "Sci Rep",
+   "list": "journals",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "12609035",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "15604363",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "15833829",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "17715156",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "18453793",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "19918075",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "20593161",
+   "list": "papers",
+   "publish_on_or_after": "2026-10-31",
+   "reply_by": "2026-10-30"
+  },
+  {
+   "delivered": true,
+   "entry": "21753854",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "21772732",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "24711954",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "28368401",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "30193239",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "32356626",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  },
+  {
+   "delivered": true,
+   "entry": "35480139",
+   "list": "papers",
+   "reply_by": "2026-10-28"
+  }
+ ],
+ "publish_date": "2026-10-29"
+}

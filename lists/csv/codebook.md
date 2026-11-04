@@ -23,15 +23,17 @@ One row per citation on the author list.
   paperwork, copyright or a software licence, a wrong journal) are left out of every list and count here; they are
   published in excluded-works.csv and excluded-citations.csv.
 - `reference_list_shows_retraction`: 1 if the citing paper's published reference list links the retraction notice or
-  labels the work retracted. Such links are often added automatically during publication, from the cited record, so
-  they do not show the authors knew.
+  labels the work retracted, in the text of the reference as the publisher printed it. A retraction link that PMC or
+  Europe PMC shows beside a reference ("[Retracted]", from the cited record, not in the reference text) is not counted.
+  Such links and labels are often added automatically during publication, from the cited record, so they do not show
+  the authors knew.
 - `timeline`: printed where the citing paper was submitted or accepted before the retraction.
 - `citing_paper_retracted`: the citing paper has itself been retracted since.
 - `retraction_year`: as printed in our letters, with later corrections.
 
 ## replies.csv
 
-Everyone named was written to before publication, and told that replies received by 28 October would be
+Everyone named was written to before publication, and told that replies received by the date in each letter (28 October, 30 October) would be
 summarised fairly on the page. Every reply gets the same treatment (one rule for everyone): a summary in our words, one short
 verbatim quote, and any statement the writer supplied for publication, printed as written. One row per reply. The same fields are in /data/phase2/list_corrections.json under `replies`.
 - `list`, `entry_id`: the entry the reply belongs to: an author's ORCID iD, a retracted paper's PMID or a citing
@@ -73,7 +75,7 @@ Every retracted paper and citing journal in the lists' scope, ranked by the coun
 counts carry the corrections in list_corrections.json (label corrections from the full-text checks, dates from the
 notices, citations made before a retraction left out); only the listed entries and the papers near the last place were
 read again. `census_cited_as_support` and `census_judged` (all-papers.csv) give the census labels alone, so every
-difference can be traced. 1 paper is held out of all-papers.csv until it is named; its corrections still count in the journal tables.
+difference can be traced.
 
 ## excluded-works.csv and excluded-citations.csv
 

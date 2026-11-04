@@ -20,7 +20,7 @@ AS_OF = f"{_d.day} {_d:%b %Y}"  # e.g. 14 Oct 2026
 # images at once, and build.py draws the images again whenever it changes.
 IMG_KEY = hashlib.sha256(b"".join(open(f"{ROOT}/{f}", "rb").read() for f in (
     "data/phase2/census.json", "data/phase2/citations.csv", "data/phase2/by_subject.json", "data/phase2/paper_subjects.csv",
-    "data/stage3/batch6-result.json",
+    "data/stage3/batch6-result.json", "data/phase2/reach.json", "data/phase2/lists.json",
     "assets/site.css", "tools/charts.py",
     "tools/render_charts.mjs"))).hexdigest()[:10]
 LAB = {"substantive": "s", "perfunctory": "p", "aware": "a"}
@@ -93,7 +93,7 @@ def write_csv(name, header, rows):
 
 def share(cid, caption):
     """Download, copy and share row. Plain links: no third-party scripts."""
-    page = f"{SITE}/charts/{cid}.html"
+    page = f"{SITE}/charts/{cid}"  # extensionless like the canonical tag and sitemap (Pages 308s /x.html)
     q = urllib.parse.quote
     return f"""<div class="vz-share" role="group" aria-label="Share this chart">
   <a class="vz-btn solid" href="/charts/{cid}.png?v={IMG_KEY}" download="sanecite-{cid}.png">Download image</a>
@@ -124,11 +124,13 @@ def data_table(table, title):
 
 
 def figure(cid, kicker, title, sub, body, note, source, table, caption, hook, focus="", card_note="", drawn=None, simple="",
-           card_src="", as_of="", pill=""):
+           card_src="", as_of="", pill="", matters=""):
     """hook = (big number, short line, colour class): the share image leads with it.
     simple = the plain bar view from simple_bars(); when given it is the default view and the share image,
     and body (the detailed chart, with likely ranges) sits behind a Simple / Detailed switch.
     note = one plain caveat line shown under the chart, on the page and on the image.
+    matters = one plain line on why the finding matters to a reader (owner, 1 Nov 2026: explain why it matters, in
+    words ordinary people understand); page only, not the share image.
     focus = 's' or 'a': the share image keeps only that column of a forest plot."""
     big, line, tone = hook
     stage, _, question = kicker.partition(" · ")
@@ -143,6 +145,7 @@ def figure(cid, kicker, title, sub, body, note, source, table, caption, hook, fo
 <h3 class="vz-title">{title}</h3><p class="vz-sub">{sub}</p>
 <div class="vz-hook {tone}" aria-hidden="true"><b>{big}</b><span>{line}</span></div></figcaption>
 {body}
+{f'<p class="vz-why"><b>Why it matters.</b> {matters}</p>' if matters else ''}
 {f'<p class="vz-note">{note}</p>' if note else ''}
 {f'<p class="vz-note-card">{card_note}</p>' if card_note else ''}
 <p class="vz-src">{source} Data as of {as_of or AS_OF}.</p>
@@ -192,7 +195,7 @@ def out_of_100():
               [[WORDS[k], CENSUS[k]["k"], JUDGED, rt(CENSUS[k]), *CENSUS[k]["ci95"], dots[k]] for k in order])
     caption = (f"Of every 100 citations to a retracted paper, {dots['substantive']} still treat it as support and only "
                f"{dots['aware']} flag it as retracted or unreliable ({pct(rt(S))} and {pct(rt(A))} of {n(JUDGED)} citations). "
-               f"Source: {SRC}, provisional.")
+               f"Source: {SRC}, initial check.")
     return figure(
         "out-of-100", "Phase 2 census · what later papers do with a retracted study",
         f"{pct(rt(S))} of citations to retracted papers still treat them as support.",
@@ -200,7 +203,8 @@ def out_of_100():
         f"{dots['perfunctory']} mention it in passing, and just {dots['aware']} flag it as retracted or unreliable.",
         body, "",
         f"Source: {SRC}: {n(JUDGED)} citations to {n(PAPERS)} retracted papers, from {POP}. {PROVISIONAL}", table, caption,
-        (pct(rt(S)), "of citations to retracted papers still treat them as support.", "s"))
+        (pct(rt(S)), "of citations to retracted papers still treat them as support.", "s"),
+        matters="A retraction is the journal telling readers not to rely on a paper. When later papers still cite it as support, its claims keep spreading into new research, reviews and the advice doctors read.")
 
 
 def years_after():
@@ -256,7 +260,7 @@ def years_after():
              f"and the CSV, not drawn. {CI_NOTE}</p>")
     write_csv("years-after", ["years_after", "citations", "cited_as_support", "passing", "flagged", "share_support", "share_flagged"], rows)
     caption = (f"More than ten years after a retraction, {pct(t_s)} of citations still treat the paper as support "
-               f"({pct(f_s)} in the first two years). Source: {SRC}, provisional.")
+               f"({pct(f_s)} in the first two years). Source: {SRC}, initial check.")
     return figure(
         "years-after", "Phase 2 census · does time fix it?",
         f"{pct(t_s)} of citations still treat a retracted paper as support more than ten years later.",
@@ -272,7 +276,8 @@ def years_after():
         card_note="Bars mix papers retracted in different years: part of the drop is which papers are old enough to count.",
         simple=simple_bars("Treated it as support, by years since the retraction",
                            [(lab, rt(bt[b]["substantive"]), "s", True) for b, lab in
-                            (("1-2", "1–2 years after"), ("3-5", "3–5 years"), ("6-10", "6–10 years"), ("11+", "More than 10 years"))]))
+                            (("1-2", "1–2 years after"), ("3-5", "3–5 years"), ("6-10", "6–10 years"), ("11+", "More than 10 years"))]),
+        matters="Time does not fix it. Papers retracted more than ten years ago are still cited as support, and warnings stay rare, so an old retraction is not a safe one.")
 
 
 SCALE = {"substantive": 0.6, "aware": 0.1}  # default axis maximum per metric; a chart may widen one
@@ -335,14 +340,15 @@ def forest_csv(name, groups):
                 st["aware"]["k"], rt(st["aware"]), *st["aware"]["ci95"]] for g, _, st in groups if st])
 
 
-def simple_bars(lead, rows, foot=""):
+def simple_bars(lead, rows, foot="", fmt=pct):
     """The default view: one measure, bars from zero, the value on the end of each bar.
     rows: [(label, rate, colour class, highlighted)]. The longest bar fills the track, so lengths
-    stay in proportion to the rates. Highlighted bars take the colour; the rest are grey context."""
+    stay in proportion to the rates. Highlighted bars take the colour; the rest are grey context.
+    fmt prints each value (pct for rates, n for counts)."""
     top = max(r for _, r, _, _ in rows)
     bars = "".join(f'<span class="sb-lab">{esc(lab)}</span><span class="sb-bar {tone}{" hl" if hl else ""}" style="--v:{r / top:.4f}">'
-                   f'<i></i><b>{pct(r)}</b></span>' for lab, r, tone, hl in rows)
-    words = esc(f"{lead}: " + "; ".join(f"{lab} {pct(r)}" for lab, r, _, _ in rows))
+                   f'<i></i><b>{fmt(r)}</b></span>' for lab, r, tone, hl in rows)
+    words = esc(f"{lead}: " + "; ".join(f"{lab} {fmt(r)}" for lab, r, _, _ in rows))
     return (f'<div class="vz-body vz-simple"><p class="sb-lead">{lead}</p><div class="sb{" many" if len(rows) > 5 else ""}" role="img" aria-label="{words}">{bars}</div>'
             + (f'<p class="sb-foot">{foot}</p>' if foot else "") + "</div>")
 
@@ -368,7 +374,7 @@ def by_reason():
     forest_csv("by-reason", groups)
     caption = (f"Papers retracted for misconduct are cited as support as often as those retracted for error "
                f"({pct(rt(mis['substantive']))} vs {pct(rt(err['substantive']))}), but far fewer citations flag the problem "
-               f"({pct(rt(mis['aware']))} vs {pct(rt(err['aware']))}). Source: {SRC}, provisional.")
+               f"({pct(rt(mis['aware']))} vs {pct(rt(err['aware']))}). Source: {SRC}, initial check.")
     return figure(
         "by-reason", "Phase 2 census · does the reason matter?",
         f"Only {pct(rt(mis['aware']))} of citations to papers retracted for misconduct flag them as retracted or unreliable.",
@@ -384,7 +390,8 @@ def by_reason():
                            [(names[mk], rt(mis["aware"]), "a", True), (names[ek], rt(err["aware"]), "a", True),
                             (names[ok], rt(br[ok]["aware"]), "a", False)],
                            f"Misconduct and error are still cited as support about as often: {pct(rt(mis['substantive']))} and "
-                           f"{pct(rt(err['substantive']))}."))
+                           f"{pct(rt(err['substantive']))}."),
+        matters="Papers retracted for misconduct, where the data cannot be trusted, carry even fewer warnings than papers retracted for honest error. A reader of the citing paper cannot tell the difference.")
 
 
 def by_field():
@@ -428,7 +435,7 @@ def by_field():
     forest_csv("by-field", [(f"Subject: {a}", b, c) for a, b, c in subj_groups] +
                [(f"Registered group: {a}", b, c) for a, b, c in groups + [(FIELD_NAMES["?"], "", bf["?"])]])
     caption = (f"In every subject, {span} of citations to retracted papers still treat them as support. "
-               f"Source: {SRC}, provisional.")
+               f"Source: {SRC}, initial check.")
     return figure(
         "by-field", "Phase 2 census · is it one field's problem?",
         f"In every subject, {span} of citations to retracted papers still treat them as support.",
@@ -443,7 +450,8 @@ def by_field():
         simple=simple_bars("Treated it as support, by subject of the retracted paper",
                            [(sb[c]["name"], rt(sb[c]["substantive"]), "s", True) for c in sorder],
                            f"A paper can have more than one subject; its citations count under each. {sb[small]['name']} "
-                           f"rests on {n(sb[small]['substantive']['n'])} citations, so it is the least certain."))
+                           f"rests on {n(sb[small]['substantive']['n'])} citations, so it is the least certain."),
+        matters="This is not one field's bad habit. The same pattern holds across science, so the fix has to come from how journals and reference tools handle retractions everywhere.")
 
 
 def reference_list():
@@ -461,7 +469,7 @@ def reference_list():
              f"the work as support. The mark may come from the authors' reference software or from the journal. {CI_NOTE}</p>")
     forest_csv("reference-list", groups)
     caption = (f"Even when a paper's published reference list shows a cited study's retraction, {pct(rt(rs))} of those citations still "
-               f"treat it as support. Source: {SRC}, provisional.")
+               f"treat it as support. Source: {SRC}, initial check.")
     return figure(
         "reference-list", "Phase 2 census · was the warning on the page?",
         "2 in 5 citations still treat a retracted paper as support, even when the citing paper's published reference list shows the retraction.",
@@ -473,8 +481,89 @@ def reference_list():
         ("2 in 5", "citations still treat a retracted paper as support when the citing paper's published reference list shows the retraction.", "s"),
         simple=simple_bars("Treated it as support",
                            [("Reference list says “retracted”", rt(rs), "s", True), ("All citations", rt(S), "s", False)],
-                           f"Only {pct(rt(ra))} of the marked citations flagged it as retracted or unreliable in the text."))
+                           f"Only {pct(rt(ra))} of the marked citations flagged it as retracted or unreliable in the text."),
+        matters="The warning is often already printed in the reference list, usually added automatically at publication, yet the text still uses the paper as evidence. A label alone does not stop the citation.")
 
+
+
+def by_citing_type():
+    """Who leans on retracted work most: cited as support, by the type of the citing paper (owner-approved layout pending,
+    1 Nov 2026 audit: the strongest finding for doctors was one sentence with no chart). Source: the census repository's
+    coverage_types.json, copied to data/phase2/citing_types.json; the types add up to every judged citation."""
+    T = json.load(open(f"{P2}/citing_types.json"))["by_citing_type"]
+    check("citing types add up to the judged citations", sum(v["n"] for v in T.values()), JUDGED)
+    st = {k: {"k": v["substantive"], "n": v["n"], "rate": v["substantive"] / v["n"]} for k, v in T.items()}
+    names = [("meta-analysis", "Meta-analyses", True), ("systematic review", "Systematic reviews", True),
+             ("review", "Reviews", True), ("case report", "Case reports", False),
+             ("research article", "Research articles", False), ("clinical trial", "Clinical trials", False),
+             ("letter, editorial or comment", "Letters, editorials and comments", False)]
+    rows = [(f"{label} ({n(st[k]['n'])})", st[k]["rate"], "s", key) for k, label, key in names]
+    table = ("<table><tr><th scope=\"col\">Citing paper</th><th scope=\"col\">Citations</th><th scope=\"col\">Cited as support</th>"
+             "<th scope=\"col\">Flagged as retracted</th></tr>"
+             + "".join(f"<tr><td>{esc(k)}</td><td>{n(v['n'])}</td><td>{n(v['substantive'])} ({pct(v['substantive'] / v['n'])})</td>"
+                       f"<td>{n(v['aware'])} ({pct(v['aware'] / v['n'])})</td></tr>" for k, v in T.items()) + "</table>"
+             "<p>Types as Europe PMC records them. Guidelines (30 citations) and other types (4) are too few to show as bars.</p>")
+    write_csv("by-citing-type", ["citing_type", "citations", "cited_as_support", "flagged"],
+              [[k, v["n"], v["substantive"], v["aware"]] for k, v in T.items()])
+    ma, sr, rv, ra = (st[k]["rate"] for k in ("meta-analysis", "systematic review", "review", "research article"))
+    caption = (f"Meta-analyses ({pct(ma)}) and systematic reviews ({pct(sr)}) cite retracted papers as support more often than "
+               f"research articles ({pct(ra)}). Source: {SRC}.")
+    return figure(
+        "by-citing-type", "Phase 2 census · who leans on retracted work most?",
+        f"{pct(ma)} of citations in meta-analyses still treat a retracted paper as support.",
+        f"Systematic reviews: {pct(sr)}. Reviews: {pct(rv)}. Research articles: {pct(ra)}.",
+        simple_bars("Treated it as support, by type of citing paper", rows),
+        "Each bar is the share of that type's citations made after the retraction; the type is the citing paper's, not the retracted paper's.",
+        f"Source: {SRC}: {n(JUDGED)} citations from {POP}. {PROVISIONAL}",
+        table, caption,
+        (pct(ma), "of citations in meta-analyses still treat a retracted paper as support.", "s"),
+        matters="Meta-analyses, systematic reviews and reviews are what doctors and guideline panels read when they decide on care, and they lean on retracted work most.")
+
+
+def warnings_by_year():
+    """Exploratory (owner-approved 1 Nov 2026, addition E): the share of citations that flag the retraction, by the year
+    the citing paper appeared. The preprint reports the same series (1.9% in 2024). Years with fewer than 100 judged
+    citations (before 2009) stay in the table and CSV only."""
+    by = defaultdict(Counter)
+    for r in J:
+        by[int(r["citing_year"])][r["label"]] += 1
+    check("warnings by year add up", sum(c["aware"] for c in by.values()), A["k"])
+    check("citations by year add up", sum(sum(c.values()) for c in by.values()), JUDGED)
+    years = sorted(by)
+    drawn = [y for y in years if y >= 2009]
+    check("2009 on, each year has 100+ citations", all(sum(by[y].values()) >= 100 for y in drawn), True)
+    tot = lambda ys: (sum(by[y]["aware"] for y in ys), sum(sum(by[y].values()) for y in ys))
+    last = max(years)
+    check("three-year blocks end on the last year", (last - 2009 + 1) % 3, 0)
+    blocks = [list(range(y, y + 3)) for y in range(2009, last + 1, 3)]
+    rows = []
+    for b in blocks:
+        k, nn = tot(b)
+        rows.append((f"{b[0]}–{b[-1]}{' (to Oct)' if b[-1] == last else ''} · {n(nn)}", k / nn, "a", True))
+    (ek, en), (lk, ln) = tot(blocks[0]), tot(blocks[-1])
+    early, late = ek / en, lk / ln
+    e_lab, l_lab = f"{blocks[0][0]}–{blocks[0][-1]}", f"{blocks[-1][0]}–{last}"
+    table = ("<table><tr><th scope=\"col\">Year cited</th><th scope=\"col\">Citations</th><th scope=\"col\">Flagged as retracted</th>"
+             "<th scope=\"col\">Cited as support</th></tr>"
+             + "".join(f"<tr><td>{y}</td><td>{n(sum(by[y].values()))}</td><td>{n(by[y]['aware'])} ({pct(by[y]['aware'] / sum(by[y].values()))})</td>"
+                       f"<td>{n(by[y]['substantive'])} ({pct(by[y]['substantive'] / sum(by[y].values()))})</td></tr>" for y in years)
+             + f"</table><p>The chart groups the years from 2009 in threes; earlier years have fewer than 100 citations each. "
+             f"{e_lab}: {n(ek)} of {n(en)} flagged ({pct(early)}). {l_lab}: {n(lk)} of {n(ln)} ({pct(late)}). "
+             f"{last} runs to the data date. Not in the registered plan.</p>")
+    write_csv("warnings-by-year", ["citing_year", "citations", "flagged", "cited_as_support"],
+              [[y, sum(by[y].values()), by[y]["aware"], by[y]["substantive"]] for y in years])
+    caption = (f"Citations that warn a paper was retracted are getting rarer: {pct(early)} in {e_lab}, {pct(late)} in {l_lab}. "
+               f"Source: {SRC}, exploratory.")
+    return figure(
+        "warnings-by-year", "Phase 2 census · are warnings getting rarer?",
+        f"Warnings fell from {pct(early)} of citations in {e_lab} to {pct(late)} in {l_lab}.",
+        "The share of citations that flag the paper as retracted or unreliable, by the year the citing paper appeared.",
+        simple_bars("Flagged it as retracted or unreliable, by years cited (number of citations)", rows),
+        "Exploratory. Each year mixes papers retracted long ago and recently, so this shows the trend, not its cause.",
+        f"Source: {SRC}: {n(JUDGED)} citations from {POP}. {PROVISIONAL}",
+        table, caption,
+        (pct(late), f"of citations in {l_lab} warn that the paper was retracted, against {pct(early)} in {e_lab}.", "a"),
+        matters="A warning in the text is how the next reader learns a paper was withdrawn. As more papers cite retracted work, fewer of them pass that warning on.")
 
 
 # ---------------------------------------------------------------- first citation-accuracy test (batch 6, 22 Oct 2026)
@@ -526,7 +615,108 @@ def b6_by_type():
         (pct(rt(spec)), "of citations that credit a specific finding badly misreport the paper they cite.", "s"),
         card_note="Not in the test's plan. The same order held in an earlier, separate set of 500 citations.",
         card_src=f"Source: {B6_SRC}, {B6['sample']['judged']} citations, {B6_AS_OF}, pending human review",
-        as_of=B6_AS_OF, pill=B6_PILL)
+        as_of=B6_AS_OF, pill=B6_PILL,
+        matters="Citations that credit a specific finding are the ones readers act on, and they are the ones most often wrong about what the cited paper says.")
+
+
+# ---------------------------------------------------------------- what the listed papers reached (Lists, 29 Oct)
+REACH = json.load(open(f"{P2}/reach.json"))
+REACH_AS_OF = "29 Oct 2026"  # Europe PMC and ClinicalTrials.gov records read that day (reach.json _note)
+REACH_SRC = "SaneCite Lists, from Europe PMC and ClinicalTrials.gov records"
+REACH_PILL = "Reach, not harm"
+
+
+def reach_numbers():
+    """Totals for the papers on the Lists that have a reach record, each citing paper counted once (reach.json "all",
+    the same totals lists.py prints above the Papers list). Stops the build if the per-paper records disagree with
+    them, or if a registered trial is counted under two papers (enrollment is summed per paper)."""
+    a, papers = REACH["all"], REACH["papers"]
+    check("reach support citers", sum(p["support_citers"] for p in papers.values()), a["support_citers"])
+    check("reach funded", sum(p["funded"] for p in papers.values()), a["funded"])
+    ncts = [x for p in papers.values() for x in p["registered_trials"]["ncts"]]
+    check("reach registered trials counted once", len(set(ncts)), len(ncts))
+    for p in papers.values():
+        check("reach trial count", len(p["registered_trials"]["ncts"]), p["registered_trials"]["n"])
+    return {"papers": len(papers), "support": a["support_citers"], "funded": a["funded"],
+            "sr": a["kinds"].get("systematic review or meta-analysis", 0), "trials": a["kinds"].get("trial", 0),
+            "reg": len(ncts), "enrol": sum(p["registered_trials"]["enrollment"] for p in papers.values()),
+            "third": a["third_order"]}
+
+
+def reach_chart():
+    r = reach_numbers()
+    x = r["third"]
+    listed = {p["pmid"]: p for p in json.load(open(f"{P2}/lists.json"))["papers"]}
+    rows = sorted(REACH["papers"].items(), key=lambda kv: -kv[1]["support_citers"])
+    def who(pid):
+        p = listed[pid]
+        return f'{p["first_author"].split()[0]}, {p["journal"]} {p["year"]}'
+    table = ("<table><tr><th>Retracted paper</th><th>Retracted</th><th>Cited as support by</th><th>Of those, acknowledge grants</th>"
+             "<th>Systematic reviews or meta-analyses</th><th>Trials</th><th>Trials registered after the retraction</th>"
+             "<th>Later papers citing those papers</th></tr>"
+             + "".join(f'<tr><td>{esc(who(pid))}</td><td>{esc(listed[pid]["retraction_year"])}</td><td>{p["support_citers"]}</td>'
+                       f'<td>{p["funded"]}</td><td>{p["kinds"].get("systematic review or meta-analysis", 0)}</td>'
+                       f'<td>{p["kinds"].get("trial", 0)}</td><td>{p["registered_trials"]["n"]}</td>'
+                       f'<td>{n(p["third_order"]["citing_papers"])}</td></tr>' for pid, p in rows)
+             + f'<tr><td>All {r["papers"]} papers</td><td></td><td>{r["support"]}</td><td>{r["funded"]}</td><td>{r["sr"]}</td>'
+               f'<td>{r["trials"]}</td><td>{r["reg"]}</td><td>{n(x["citing_papers"])}</td></tr></table>'
+             f'<p>Papers published after the retraction that cite it as support, after every correction on the Lists. Grants: the '
+             f'funding the citing paper acknowledges in its Europe PMC record. Systematic reviews, trials and guidelines: Europe PMC '
+             f'publication types. Registered trials: ClinicalTrials.gov records first submitted after the retraction that list the '
+             f'retracted paper among their references ({n(r["enrol"])} people enrolled or planned). Later papers: distinct papers '
+             f'citing any of the {r["support"]} for any reason, among them {n(x["systematic_reviews"])} systematic reviews or '
+             f'meta-analyses, {n(x["trials"])} trials and {n(x["guidelines"])} guidelines.</p>')
+    write_csv("reach", ["retracted_pmid", "first_author", "journal", "year", "retraction_year", "support_citers", "acknowledge_grants",
+                        "systematic_reviews_or_meta_analyses", "trials", "registered_trials_after_retraction",
+                        "registered_trials_enrollment", "later_papers_citing_those", "later_systematic_reviews",
+                        "later_trials", "later_guidelines"],
+              [[pid, listed[pid]["first_author"], listed[pid]["journal"], listed[pid]["year"], listed[pid]["retraction_year"],
+                p["support_citers"], p["funded"], p["kinds"].get("systematic review or meta-analysis", 0), p["kinds"].get("trial", 0),
+                p["registered_trials"]["n"], p["registered_trials"]["enrollment"], p["third_order"]["citing_papers"],
+                p["third_order"]["systematic_reviews"], p["third_order"]["trials"], p["third_order"]["guidelines"]] for pid, p in rows])
+    caption = (f'{r["support"]} papers published after a retraction still cite one of {r["papers"]} retracted papers as support; '
+               f'{r["funded"]} of them acknowledge grants, and {r["reg"]} trials registered after the retraction list one among '
+               f'their references. Source: SaneCite Lists, {REACH_AS_OF}. This measures reach, not harm.')
+    simple = simple_bars(
+        f'After the retraction: papers citing {r["papers"]} retracted papers as support',
+        [("Papers citing them as support", r["support"], "s", False),
+         ("Of those, papers that acknowledge grants", r["funded"], "s", True),
+         ("Of those, systematic reviews or meta-analyses", r["sr"], "s", False),
+         ("Of those, trials", r["trials"], "s", False),
+         ("Trials registered after the retraction that list one", r["reg"], "s", True)],
+        f'In turn, {n(x["citing_papers"])} later papers cite those {r["support"]}, among them {n(x["systematic_reviews"])} '
+        f'systematic reviews or meta-analyses, {n(x["trials"])} trials and {n(x["guidelines"])} guidelines.', fmt=n)
+    detail = simple_bars("Papers citing each retracted paper as support after its retraction",
+                         [(who(pid), p["support_citers"], "s", False) for pid, p in rows], fmt=n
+                         ).replace('<div class="vz-body vz-simple">', '<div class="vz-body">', 1)
+    return figure(
+        "reach", "The Lists · what it reached",
+        f'{r["funded"]} papers that acknowledge grants still cite a retracted paper as support.',
+        f'They are among {r["support"]} papers, published after the retraction, that cite one of the {r["papers"]} retracted '
+        f'papers at the top of our Lists as support. {r["reg"]} trials registered after the retraction list one among their '
+        f'references, enrolling or planning {n(r["enrol"])} people.',
+        detail, "This measures reach, not harm: a citing paper may lean on the retracted result a little or a lot.",
+        f'Source: {REACH_SRC}, read {REACH_AS_OF}, for the {r["papers"]} retracted papers at the top of the Lists. '
+        'Support: judged by three AI models, then every support citation read again by AI models.',
+        table, caption,
+        (n(r["funded"]), "papers that acknowledge grants still cite a retracted paper as support.", "s"),
+        simple=simple,
+        card_note="This measures reach, not harm.",
+        card_src=f'Source: SaneCite Lists, {r["papers"]} retracted papers, Europe PMC and ClinicalTrials.gov, {REACH_AS_OF}',
+        as_of=REACH_AS_OF, pill=REACH_PILL,
+        matters="Grants and trials mean public money and patients. When funded papers and new trials still lean on a retracted paper, its claim is still at work in the real world.")
+
+
+def reach_band():
+    """Home page: the reach totals as four figures, from the same numbers as the chart."""
+    r = reach_numbers()
+    figs = [(n(r["support"]), f'papers published after the retraction cite one of {r["papers"]} retracted papers as support', False),
+            (n(r["funded"]), "of those papers acknowledge grants", True),
+            (n(r["sr"] + r["trials"]), f'of those are systematic reviews or meta-analyses ({r["sr"]}) or trials ({r["trials"]})', False),
+            (n(r["reg"]), f'trials registered after the retraction list one among their references, enrolling or planning {n(r["enrol"])} people', True)]
+    return ('<div class="figs row4" role="list">' + "".join(
+        f'<div class="fig{" hot" if hot else ""}" role="listitem"><div class="n">{big}</div><p>{esc(line)}</p></div>'
+        for big, line, hot in figs) + '</div>')
 
 
 PAGE_NOTES = {"stage3-by-type": (
@@ -537,10 +727,22 @@ PAGE_NOTES = {"stage3-by-type": (
     '<li><b>What it covers.</b><span>Random citations from open-access research and review papers in PubMed Central, 2015 to 2025, '
     'where the cited paper is also open access.</span></li>'
     '<li><b>Check it yourself.</b><span><a href="/charts/stage3-by-type.csv">This chart\'s data</a> · '
-    '<a href="/data/stage3/batch6-result.json">the full test result</a> · <a href="/checker.html#accuracy">how the test worked</a>.</span></li>')}
+    '<a href="/data/stage3/batch6-result.json">the full test result</a> · <a href="/checker#accuracy">how the test worked</a>.</span></li>'),
+    "reach": (
+    '<li><b>Which papers.</b><span>The retracted papers named on our Papers list, ranked by how many citations made after the '
+    'retraction use them as support.</span></li>'
+    '<li><b>What counts as support.</b><span>Three AI models judged every citation; every citation counted as support for these '
+    'papers was then read again by AI models before publication, and the corrections were applied. Each citing paper is counted once.</span></li>'
+    '<li><b>Where the rest comes from.</b><span>Grants, publication types and later citations come from Europe PMC records; '
+    'registered trials from ClinicalTrials.gov. A grant acknowledged by a citing paper did not necessarily pay for the part that '
+    'leans on the retracted work.</span></li>'
+    '<li><b>Reach, not harm.</b><span>Later papers cite the citing papers for any reason, not only for this claim. Where we followed a '
+    'chain by reading, the paper\'s entry on the Lists says what we found.</span></li>'
+    '<li><b>Check it yourself.</b><span><a href="/charts/reach.csv">This chart\'s data</a> · '
+    '<a href="/data/phase2/reach.json">the reach records</a> · <a href="/lists#papers">each paper on the Lists</a>.</span></li>')}
 
 CHARTS = {"out-of-100": out_of_100(), "years-after": years_after(), "reference-list": reference_list(),
-          "by-reason": by_reason(), "by-field": by_field(), "stage3-by-type": b6_by_type()}
+          "by-reason": by_reason(), "by-field": by_field(), "by-citing-type": by_citing_type(), "warnings-by-year": warnings_by_year(), "stage3-by-type": b6_by_type(), "reach": reach_chart()}
 TITLES = {cid: (f"{m['title'].rstrip('.')} | SaneCite", f"{m['sub']} Chart, data and caption, free to share.") for cid, m in META.items()}
 
 
@@ -591,6 +793,8 @@ def fill(body):
     """Replace <!--chart:NAME--> markers in a page body with the chart, and <!--charts:facts--> with the key numbers."""
     for cid, fig in CHARTS.items():
         body = body.replace(f"<!--chart:{cid}-->", fig)
+    if "<!--reach:band-->" in body:
+        body = body.replace("<!--reach:band-->", reach_band())
     if "<!--charts:facts-->" in body:
         body = body.replace("<!--charts:facts-->", facts())
     return body

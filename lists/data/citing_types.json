@@ -1,0 +1,68 @@
+{
+ "about": "Phase 2 census, judged post-retraction citations by type of citing paper (Europe PMC publication types). Copied from the census repository's data/coverage_types.json (by_citing_type), made by scripts/coverage_types.py.",
+ "by_citing_type": {
+  "research article": {
+   "n": 33648,
+   "substantive": 12150,
+   "aware": 817,
+   "substantive_rate": 0.361091,
+   "aware_rate": 0.024281
+  },
+  "review": {
+   "n": 14243,
+   "substantive": 7286,
+   "aware": 588,
+   "substantive_rate": 0.51155,
+   "aware_rate": 0.041283
+  },
+  "clinical trial": {
+   "n": 1117,
+   "substantive": 397,
+   "aware": 30,
+   "substantive_rate": 0.355416,
+   "aware_rate": 0.026858
+  },
+  "meta-analysis": {
+   "n": 865,
+   "substantive": 487,
+   "aware": 84,
+   "substantive_rate": 0.563006,
+   "aware_rate": 0.09711
+  },
+  "case report": {
+   "n": 660,
+   "substantive": 241,
+   "aware": 7,
+   "substantive_rate": 0.365152,
+   "aware_rate": 0.010606
+  },
+  "systematic review": {
+   "n": 660,
+   "substantive": 359,
+   "aware": 58,
+   "substantive_rate": 0.543939,
+   "aware_rate": 0.087879
+  },
+  "letter, editorial or comment": {
+   "n": 399,
+   "substantive": 99,
+   "aware": 141,
+   "substantive_rate": 0.24812,
+   "aware_rate": 0.353383
+  },
+  "guideline": {
+   "n": 30,
+   "substantive": 16,
+   "aware": 0,
+   "substantive_rate": 0.533333,
+   "aware_rate": 0.0
+  },
+  "other": {
+   "n": 4,
+   "substantive": 2,
+   "aware": 1,
+   "substantive_rate": 0.5,
+   "aware_rate": 0.25
+  }
+ }
+}

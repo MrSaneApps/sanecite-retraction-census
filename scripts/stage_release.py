@@ -59,10 +59,17 @@ LISTS_CODE = {
 }
 LISTS_READINGS = ["verdicts_papers.jsonl", "verdicts_journals.jsonl", "verdicts_authors.jsonl",
                   "verdicts2_papers.jsonl", "verdicts2_authors.jsonl"]   # second-reading verdicts (no passages)
-SITE_CODE = ["tools/lists.py", "tools/charts.py"]
+SITE_CODE = ["tools/lists.py", "tools/charts.py", "tools/render_charts.mjs", "tools/pages/lists.body.html",
+             "assets/charts.js", "assets/site.css"]   # all public site files; lists/rerun.py needs them (P0-1)
 SITE_DATA = ["data/phase2/lists.json", "data/phase2/list_corrections.json", "data/phase2/list_checks.csv",
              "data/phase2/author_items.json", "data/phase2/retraction_status.csv", "data/phase2/by_subject.json",
-             "data/phase2/paper_subjects.csv"]
+             "data/phase2/paper_subjects.csv",
+             # the rest of what lists.py and charts.py read, all served on sanecite.com (P0-1, 4 Nov 2026)
+             "data/phase2/census.json", "data/phase2/citations.csv", "data/phase2/citing_types.json",
+             "data/phase2/reach.json", "data/phase2/plain.json", "data/phase2/papers.json",
+             "data/stage3/batch6-result.json",
+             # delivery and reply dates for the entries the page names or prints a reply for (written by lists.py)
+             "tools/letters_public.json"]
 SITE_HELD = "tools/held.json"   # private on the site; entries held until their authors have been written to
 CENSUS_WIDE = ("lists/data/retraction_status.csv", "lists/data/paper_subjects.csv")   # every paper, unranked (site rule)
 CHECKER_RECORDS = ["PROTOCOL.md", "PREREG_RERUN_2026-10-22.md", "PREREG_SYSTEM_2026-10-22.md",
@@ -199,21 +206,23 @@ class Stager:
                 shutil.copyfile(src, out)
                 if rel: self.verbatim.append((src, rel, staged))
             else:
-                s = open(src, encoding="utf-8").read()
+                s = open(src, encoding="utf-8", newline="").read()
                 for old, new, why in fixes:
                     if old not in s: self.problems.append(f"{staged}: redaction text no longer in the record ({why})")
                     s = s.replace(old, new)
-                open(out, "w", encoding="utf-8").write(s)
+                open(out, "w", encoding="utf-8", newline="").write(s)
                 self.redacted.append((staged, "; ".join(sorted({w for _, _, w in fixes}))))
                 if rel: self.verbatim.append((src, rel, staged))   # the original must still match the log
         elif not src.endswith(TEXT):
             shutil.copyfile(src, out)
         else:
-            s = open(src, encoding="utf-8").read()
+            # newline="" keeps line endings as they are: the site writes CSVs with CRLF and lists/rerun.py
+            # compares byte for byte (4 Nov 2026: text mode had turned every CRLF into LF)
+            s = open(src, encoding="utf-8", newline="").read()
             for old, new in self.rewrite: s = s.replace(old, new)
             if src.endswith((".py", ".sh")):
                 for old, new in self.rewrite_code: s = s.replace(old, new)
-            open(out, "w", encoding="utf-8").write(s)
+            open(out, "w", encoding="utf-8", newline="").write(s)
         self.log.setdefault(folder, []).append((sha(src), sha(out), dest))
 
     def write(self, folder, dest, text):
@@ -332,11 +341,26 @@ with the code that builds them. Staged by `scripts/stage_release.py` on {date} f
 | `code/fetch_authors.py`, `code/status_all.py`, `code/crossref_check.py` | Author matching by ORCID iD; retraction status from PubMed and Crossref |
 | `code/listfix/` | Corrections of 21 Oct 2026: notices, reason rulings, fields, sync into `lists.json` |
 | `code/corrections/` | Corrections of 22 Oct 2026: notice and first-online dates, recounts |
-| `code/site/lists.py`, `code/site/charts.py` | The site code that turns the data into the Lists page and its CSV files |
+| `code/site/` | The site code that turns the data into the Lists page, its CSV files and the charts (`lists.py`, `charts.py`, `render_charts.mjs`, `charts.js`, the page template and its stylesheet) |
 | `readings/` | Second-reading verdicts (one line per citation read, with a one-sentence reason) |
 | `data/` | The inputs the page is built from (`lists.json`, `list_corrections.json`, `list_checks.csv`, ...) |
 | `csv/` | The CSV files the page offers for download, as published |
+| `charts-csv/` | The chart data files sanecite.com offers for download, as published |
+| `rerun.py` | Rebuilds every file in `csv/` and `charts-csv/` from `code/site/` and `data/` and checks each byte for byte |
 {method_row}
+## How to re-run a List
+
+From the repository root, with Python 3.9 or later and nothing else installed:
+
+    python3 lists/rerun.py
+
+It lays out the published code and inputs like the site in a temporary folder, runs the site's own `lists.py` and
+`charts.py` in their public re-run mode, and compares every file they write with the published copy here, printing one
+line per file. It exits 1 if any file differs. The public re-run mode reads reply dates from `data/letters_public.json`
+(delivery and reply date only, for the entries the page names or prints a reply for) and skips three checks that
+guard the live site and change no output: where each reply came from, and whether each passage link lands on a
+citation the checker lists. The date is pinned to the release day so the reply-window rule gives the same answer.
+
 Code is under the MIT license (`../LICENSE`); SaneCite-made data under CC BY 4.0 (`../LICENSE-DATA`).
 `SOURCES.sha256` lists each file's hash before and after staging. Paths to private working folders in the code were
 replaced by `work/<name>/`; nothing else was changed. Letters to authors and the replies themselves are not published;
@@ -411,6 +435,9 @@ def stage(cfg):
         for f in SITE_DATA: st.put("lists", st.src("site", f), "data/" + os.path.basename(f))
         for f in sorted(os.listdir(st.src("site", "lists"))):
             if f.endswith((".csv", ".md")): st.put("lists", st.src("site", "lists/" + f), "csv/" + f)
+        for f in sorted(os.listdir(st.src("site", "charts"))):   # the chart CSVs as published, for lists/rerun.py
+            if f.endswith(".csv"): st.put("lists", st.src("site", "charts/" + f), "charts-csv/" + f)
+        st.put("lists", os.path.join(ROOT, "scripts", "lists_rerun.py"), "rerun.py")
         method = os.path.expanduser(cfg.get("lists_method", ""))
         method_row = ""
         if method and os.path.exists(method):
