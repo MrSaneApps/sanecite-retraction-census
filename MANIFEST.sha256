@@ -337,3 +337,5 @@ ff1f04b00fec36170d8c374660880de3e33c49fd391ca6567499ab44dc01d2db  ./lists/readin
 # 2026-11-04T20:34Z preprint linked in README and CITATION.cff, 2026-11-04
 31614c0ec9912919e2e87c81bfb43cc1d24482ceef62775baa139296b2ed4ccf  ./CITATION.cff
 fcc67eae377d633bf19276aacd618cfc2aa7045b53205d8c24a3f019e0b67a9b  ./README.md
+# 2026-11-04T20:35Z Zenodo metadata: preprint as related identifier, 2026-11-04
+cb5a047c4958a0b2a27014b7bcd97d02300491cae936a8d68c310a0990a866d2  ./.zenodo.json

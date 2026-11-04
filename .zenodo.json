@@ -28,6 +28,12 @@
       "identifier": "https://sanecite.com/data.html",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.31222/osf.io/uwqxa_v1",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
     }
   ]
 }
