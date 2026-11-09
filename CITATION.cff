@@ -11,8 +11,8 @@ doi: 10.5281/zenodo.23358099
 license:
   - MIT
   - CC-BY-4.0
-version: 1.3.0
-date-released: 2026-10-29
+version: 1.4.0
+date-released: 2026-11-09
 repository-code: "https://github.com/MrSaneApps/sanecite-retraction-census"
 url: "https://sanecite.com/findings"
 preferred-citation:

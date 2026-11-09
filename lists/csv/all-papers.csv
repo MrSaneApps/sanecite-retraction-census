@@ -88,7 +88,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 21503965,Over-Expression of FoxM1 Leads to Epithelial-Mesenchymal Transition and Cancer Stem Cell Phenotype in Pancreatic Cancer Cells,2016,"misconduct, fabrication or duplication",,,13,23,0,36,0.3611111111111111,13,36
 22005302,Denitrosylation of HDAC2 by targeting Nrf2 restores glucocorticosteroid sensitivity in macrophages from COPD patients,2014,"misconduct, fabrication or duplication",,,13,14,0,27,0.48148148148148145,13,27
 22865623,Phenazine Content in the Cystic Fibrosis Respiratory Tract Negatively Correlates with Lung Function and Microbial Complexity,2018,error or unreliable results,,,13,11,0,24,0.5416666666666666,13,24
-23623304,Betatrophin: A Hormone that Controls Pancreatic beta Cell Proliferation,2017,error or unreliable results,,,13,19,12,44,0.29545454545454547,13,44
+23623304,Betatrophin: A Hormone that Controls Pancreatic beta Cell Proliferation,2017,error or unreliable results,2016,,13,19,12,44,0.29545454545454547,13,44
 28614301,Microglia-dependent synapse loss in type I interferon-mediated lupus,2020,error or unreliable results,,,13,10,0,23,0.5652173913043478,13,23
 29971151,"Mental health in UK Biobank: development, implementation and results from an online questionnaire completed by 157 366 participants",2019,error or unreliable results,,,13,9,1,23,0.5652173913043478,13,23
 30249278,Long noncoding RNA MLK7-AS1 promotes ovarian cancer cells progression by modulating miR-375/YAP1 axis,2020,error or unreliable results,,,13,9,0,22,0.5909090909090909,13,22
@@ -570,7 +570,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 36238494,Identification of the Immune Status of Hypertrophic Cardiomyopathy by Integrated Analysis of Bulk- and Single-Cell RNA Sequencing Data,2023,"misconduct, fabrication or duplication",,,6,0,0,6,1.0,6,6
 7708684,Selective inhibition of the platelet-derived growth factor signal transduction pathway by a protein-tyrosine kinase inhibitor of the 2-phenylaminopyrimidine class,1998,error or unreliable results,,,6,14,0,20,0.3,6,20
 9130629,Interferon-gamma is Essential for the Development of Cerebral Malaria,1998,other or unstated,,,6,12,0,18,0.3333333333333333,6,18
-11165366,Characterization of a transformed rat retinal ganglion cell line,2014,error or unreliable results,,,5,7,5,17,0.29411764705882354,5,17
+11165366,Characterization of a transformed rat retinal ganglion cell line,2014,error or unreliable results,2013,,5,7,5,17,0.29411764705882354,5,17
 11167165,"Point-of-care (POC) Testing of Lactate in the Intensive Care Patient. Accuracy, Reliability, and Costs of Different Measurement Systems",2011,"misconduct, fabrication or duplication",,,5,2,0,7,0.7142857142857143,5,7
 11527656,Effect of Vitamin and Trace-element Supplementation on Cognitive Function in Elderly Subjects,2005,error or unreliable results,,,5,2,3,10,0.5,5,10
 11546864,Structure of MsbA from E. coli: a homolog of the multidrug resistance ATP binding cassette (ABC) transporters,2006,error or unreliable results,,,5,17,5,27,0.18518518518518517,5,27
@@ -889,7 +889,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 18354009,Synaptic metaplasticity through NMDA receptor lateral diffusion,2011,"misconduct, fabrication or duplication",,,4,3,0,7,0.5714285714285714,4,7
 18394991,Elevated tRNA(iMet) Synthesis can Drive Cell Proliferation and Oncogenic Transformation,2012,"misconduct, fabrication or duplication",,,4,8,0,12,0.3333333333333333,4,12
 18411340,Native and aspirin-triggered lipoxins control innate immunity by inducing proteasomal degradation of TRAF6,2009,"misconduct, fabrication or duplication",,,4,5,0,9,0.4444444444444444,4,9
-18456874,Osteolineage niche cells initiate hematopoietic stem cell mobilization,2012,"misconduct, fabrication or duplication",,,4,2,0,6,0.6666666666666666,4,6
+18456874,Osteolineage niche cells initiate hematopoietic stem cell mobilization,2012,"misconduct, fabrication or duplication",2011,,4,2,0,6,0.6666666666666666,4,6
 18680715,The hepcidin-binding site on ferroportin is evolutionarily conserved,2014,error or unreliable results,,,4,6,0,10,0.4,4,10
 18832301,"Cyclic di-GMP: a second messenger required for long-term survival, but not for biofilm formation, in Mycobacterium smegmatis",2011,error or unreliable results,,,4,4,0,8,0.5,4,8
 19071213,"Expression of the longevity proteins by both red and white wines and their cardioprotective components, resveratrol, tyrosol, and hydroxytyrosol",2012,"misconduct, fabrication or duplication",,,4,7,0,11,0.36363636363636365,4,11
@@ -1305,7 +1305,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 16157701,FOXO1a acts as a Selective Tumor Suppressor in Alveolar Rhabdomyosarcoma,2007,"misconduct, fabrication or duplication",,,3,2,0,5,0.6,3,5
 16306613,SOCS1 and SOCS3 are targeted by hepatitis C virus core/gC1qR ligation to inhibit T-cell function,2006,error or unreliable results,,,3,2,0,5,0.6,3,5
 16327213,Pharmacokinetic interaction of paeoniflorin and sinomenine: pharmacokinetic parameters and tissue distribution characteristics in rats and protein binding ability in vitro,2007,"misconduct, fabrication or duplication",,,3,4,0,7,0.42857142857142855,3,7
-16341121,High Mobility Group A1 (HMGA1) Proteins Interact with p53 and Inhibit its Apoptotic Activity,2014,"misconduct, fabrication or duplication",,,3,2,0,5,0.6,3,5
+16341121,High Mobility Group A1 (HMGA1) Proteins Interact with p53 and Inhibit its Apoptotic Activity,2014,"misconduct, fabrication or duplication",2013,,3,2,0,5,0.6,3,5
 16373256,Drug-induced Lupus Erythematosus,2008,"misconduct, fabrication or duplication",,,3,8,0,11,0.2727272727272727,3,11
 16399846,Protective effects of Mentha piperita Linn on benzo[a]pyrene-induced lung carcinogenicity and mutagenicity in Swiss albino mice,2007,"misconduct, fabrication or duplication",,,3,1,0,4,0.75,3,4
 16451145,"Early recovery, Cognitive Function and Costs of a Desflurane Inhalational vs a Total Intravenous Anaesthesia Regimen in Long-term Surgery",2011,"misconduct, fabrication or duplication",,,3,1,0,4,0.75,3,4
@@ -2180,7 +2180,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 16410328,A randomized clinical trial of the effects of isosorbide mononitrate on bone formation and resorption in post-menopausal women: a pilot study,2006,"misconduct, fabrication or duplication",,,2,0,0,2,1.0,2,2
 16428532,Desflurane anesthesia after sevoflurane inhaled induction reduces severity of emergence agitation in children undergoing minor ear-nose-throat surgery compared with sevoflurane induction and maintenance,2011,"misconduct, fabrication or duplication",,,2,5,0,7,0.2857142857142857,2,7
 16436466,Vascularized tissue-engineered chambers promote survival and function of transplanted islets and improve glycemic control,2008,error or unreliable results,,,2,2,0,4,0.5,2,4
-16467873,Targeting gene-virotherapy of cancer,2007,"misconduct, fabrication or duplication",,,2,7,0,9,0.2222222222222222,2,9
+16467873,Targeting gene-virotherapy of cancer,2007,"misconduct, fabrication or duplication",2006,,2,7,0,9,0.2222222222222222,2,9
 16484492,Cdx2 gene expression and trophectoderm lineage specification in mouse embryos,2007,"misconduct, fabrication or duplication",,,2,4,1,7,0.2857142857142857,2,7
 16497925,Noncoding RNAs of Trithorax Response Elements Recruit Drosophila Ash1 to Ultrabithorax,2014,"misconduct, fabrication or duplication",,,2,15,1,18,0.1111111111111111,2,18
 16502480,Human papillomavirus type 16 E5 protein as a therapeutic target,2011,"misconduct, fabrication or duplication",,,2,2,0,4,0.5,2,4
@@ -2193,7 +2193,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 16779680,Oleandrin-mediated expression of Fas potentiates apoptosis in tumor cells,2013,"misconduct, fabrication or duplication",,,2,2,0,4,0.5,2,4
 16793547,The E3 SUMO Ligase PIASy Is a Regulator of Cellular Senescence and Apoptosis,2020,"misconduct, fabrication or duplication",,,2,5,0,7,0.2857142857142857,2,7
 16823852,Down-regulation of Jagged-1 induces cell growth inhibition and S phase arrest in prostate cancer cells,2016,"misconduct, fabrication or duplication",,,2,2,0,4,0.5,2,4
-16824631,Carvedilol restore cardiac calcium release channel structure and function in heart failure,2008,"misconduct, fabrication or duplication",,,2,0,0,2,1.0,2,2
+16824631,Carvedilol restore cardiac calcium release channel structure and function in heart failure,2008,"misconduct, fabrication or duplication",2007,,2,0,0,2,1.0,2,2
 16898225,"Survival and function of transplanted islet cells on an in vivo, vascularized tissue engineering platform in the rat: A pilot study",2007,error or unreliable results,,,2,0,0,2,1.0,2,2
 16916636,Cockayne Syndrome A and B Proteins Differentially Regulate Recruitment of Chromatin Remodeling and Repair Factors to Stalled RNA Polymerase II In Vivo,2021,"misconduct, fabrication or duplication",,,2,3,0,5,0.4,2,5
 16929120,Age-period-cohort analysis of female breast cancer mortality in Korea,2008,error or unreliable results,,,2,4,0,6,0.3333333333333333,2,6
@@ -2468,7 +2468,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 22749558,Visualization of lipid metabolism in the zebrafish intestine reveals a relationship between NPC1L1-mediated cholesterol uptake and dietary fatty acid,2015,error or unreliable results,,,2,0,0,2,1.0,2,2
 22783269,"Influence of ATP-Binding Cassette Transporters in Root Exudation of Phytoalexins, Signals, and in Disease Resistance.",2012,"misconduct, fabrication or duplication",,,2,4,0,6,0.3333333333333333,2,6
 22783975,A Comparison of Impulsivity and Sensation Seeking in Pathological Gamblers and Skydivers,2012,error or unreliable results,,,2,3,0,5,0.4,2,5
-22819313,Is the impact of the extent of lymphadenectomy in radical prostatectomy related to the disease risk? A single center prospective study.,2015,"misconduct, fabrication or duplication",,,2,4,3,9,0.2222222222222222,2,9
+22819313,Is the impact of the extent of lymphadenectomy in radical prostatectomy related to the disease risk? A single center prospective study.,2015,"misconduct, fabrication or duplication",2014,,2,4,3,9,0.2222222222222222,2,9
 22832605,"Altered neuroinflammatory, arachidonic acid cascade and synaptic markers in postmortem Alzheimer's disease brain.",2017,"misconduct, fabrication or duplication",,,2,9,0,11,0.18181818181818182,2,11
 22847454,Protective effects of transduced Tat-DJ-1 protein against oxidative stress and ischemic brain injury,2013,"misconduct, fabrication or duplication",,,2,2,0,4,0.5,2,4
 22859931,Proline-Rich Tyrosine Kinase 2 (Pyk2) Regulates IGF-I-Induced Cell Motility and Invasion of Urothelial Carcinoma Cells,2019,"misconduct, fabrication or duplication",,,2,0,0,2,1.0,2,2
@@ -3823,7 +3823,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 12397363,Histone Methylation by the Drosophila Epigenetic Transcriptional Regulator Ash1,2015,"misconduct, fabrication or duplication",,,1,5,0,6,0.16666666666666666,1,6
 12398910,MDMA- and p-chlorophenylalanine-induced Reduction in 5-HT Concentrations: Effects on Serotonin Transporter Densities,2004,error or unreliable results,,,1,1,0,2,0.5,1,2
 12407422,Size and topology of exogenous DNA as determinant factors of transgene transcription in mammalian cells,2006,error or unreliable results,,,1,1,0,2,0.5,1,2
-12409020,Exudation of Fluorescent Beta-carbolines From Oxalis tuberosa L. Roots,2010,error or unreliable results,,,1,0,0,1,1.0,1,1
+12409020,Exudation of Fluorescent Beta-carbolines From Oxalis tuberosa L. Roots,2010,error or unreliable results,2009,,1,0,0,1,1.0,1,1
 12424248,A novel germ line-specific gene of the phosducin-like protein (PhLP) family: A meiotic function conserved from yeast to mice,2019,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 12438421,Silencing of B cell receptor signals in human naive B cells.,2006,error or unreliable results,,,1,2,0,3,0.3333333333333333,1,3
 12451180,Functional complementation of yeast cytosolic pyrophosphatase by bacterial and plant H+-translocating pyrophosphatases,2022,"misconduct, fabrication or duplication",,,1,0,1,2,0.5,1,2
@@ -4216,7 +4216,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 19043384,Interim report of the SENTIS trial: cerebral perfusion augmentation via partial aortic occlusion in acute ischemic stroke,2009,other or unstated,,,1,0,0,1,1.0,1,1
 19052642,Central Exercise Action Increases the AMPK and mTOR Response to Leptin,2018,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 19056740,Ca2+/calmodulin-dependent protein kinase II promotes cell cycle progression by directly activating MEK1 and subsequently modulating p27 phosphorylation,2021,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
-19073167,The human placenta is a hematopoietic organ during the embryonic and fetal periods of development,2015,"misconduct, fabrication or duplication",,,1,1,0,2,0.5,1,2
+19073167,The human placenta is a hematopoietic organ during the embryonic and fetal periods of development,2015,"misconduct, fabrication or duplication",2014,,1,1,0,2,0.5,1,2
 19099434,Pyrenebutyrate-mediated delivery of quantum dots across the plasma membrane of living cells,2010,error or unreliable results,,,1,1,0,2,0.5,1,2
 19105710,RNA-based immunotherapy of cancer: role and therapeutic implications of dendritic cells.,2011,"misconduct, fabrication or duplication",,,1,1,0,2,0.5,1,2
 19109492,Lmx1b-controlled isthmic organizer is essential for development of midbrain dopaminergic neurons,2011,"misconduct, fabrication or duplication",,,1,1,0,2,0.5,1,2
@@ -4642,7 +4642,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 22983116,Wolfram syndrome 1 and adenylyl cyclase 8 interact at the plasma membrane to regulate insulin production and secretion,2014,error or unreliable results,,,1,3,1,5,0.2,1,5
 22985951,Attractiveness of women with rectovaginal endometriosis: a case-control study,2020,other or unstated,,,1,0,1,2,0.5,1,2
 22988296,The Breast Cancer Susceptibility Gene Product Fibroblast Growth Factor Receptor 2 Serves as a Scaffold for Regulation of NF-kappaB Signaling,2018,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
-22991669,Therapeutic management of the hallux rigidus,2015,error or unreliable results,,,1,0,0,1,1.0,1,1
+22991669,Therapeutic management of the hallux rigidus,2015,error or unreliable results,2014,,1,0,0,1,1.0,1,1
 23024541,Penile Strangulation by Metallic Rings,2013,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 23031085,Sex matching plays a role in outcome of kidney transplant,2013,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 23037849,In vitro osteoinduction of human mesenchymal stem cells in biomimetic surface modified titanium alloy implants,2014,other or unstated,,,1,0,0,1,1.0,1,1
@@ -4672,7 +4672,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 23274087,6-OHDA-induced apoptosis and mitochondrial dysfunction are mediated by early modulation of intracellular signals and interaction of Nrf2 and NF-kappaB factors,2017,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 23293498,Prosthetic rehabilitation of edentulous patient with limited oral access: A clinical report,2016,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 23304602,Combined Case of Blood-Injury-Injection Phobia and Social Phobia: Behavior Therapy Management and Effectiveness through Tilt Test,2016,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
-23306556,Acidotoxicity and Acid-sensing Ion Channels Contribute to Motoneuron Degeneration,2014,"misconduct, fabrication or duplication",,,1,0,1,2,0.5,1,2
+23306556,Acidotoxicity and Acid-sensing Ion Channels Contribute to Motoneuron Degeneration,2014,"misconduct, fabrication or duplication",2013,,1,0,1,2,0.5,1,2
 23314856,The Noncytotoxic Dose of Sorafenib Sensitizes Bel-7402/5-FU Cells to 5-FU by Down-Regulating 5-FU-Induced Nrf2 Expression,2023,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 23318981,Risk factors for increased left ventricular hypertrophy in patients with chronic kidney disease,2017,error or unreliable results,,,1,3,0,4,0.25,1,4
 23349038,"S14G-humanin Inhibits Aß1-42 Fibril Formation, Disaggregates Preformed Fibrils, and Protects Against Aß-induced Cytotoxicity in Vitro",2016,"misconduct, fabrication or duplication",,,1,1,0,2,0.5,1,2
@@ -6636,7 +6636,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 33732019,"Hsa_circ_0015326 Promotes the Proliferation, Invasion and Migration of Ovarian Cancer Through miR-127-3p/MYB",2021,error or unreliable results,,,1,0,0,1,1.0,1,1
 33732976,Pooled Analysis of Roxadustat for Anemia in Patients With Kidney Failure Incident to Dialysis,2022,error or unreliable results,,,1,1,0,2,0.5,1,2
 33737835,IL-33 Promotes the Growth of Non-Small Cell Lung Cancer Cells Through Regulating miR-128-3p/CDIP1 Signalling Pathway,2023,"misconduct, fabrication or duplication",,,1,1,0,2,0.5,1,2
-33739797,Comparing sequential vs day 3 vs day 5 embryo transfers in cases with recurrent implantation failure: randomized controlled trial,2023,error or unreliable results,,,1,1,0,2,0.5,1,2
+33739797,Comparing sequential vs day 3 vs day 5 embryo transfers in cases with recurrent implantation failure: randomized controlled trial,2023,error or unreliable results,2022,,1,1,0,2,0.5,1,2
 33747188,Actin‑binding protein anillin promotes the progression of hepatocellular carcinoma in vitro and in mice,2023,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 33763191,Study on Potential of Meridian Acupoints of Traditional Chinese Medicine,2023,"misconduct, fabrication or duplication",,,1,0,0,1,1.0,1,1
 33763194,Prediction Method of Gestational Diabetes Based on Electronic Medical Record Data,2023,error or unreliable results,,,1,0,0,1,1.0,1,1
@@ -7889,7 +7889,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 13679198,Molecular Based Treatment of Oral Cancer,2007,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 14512211,Assessment of the hypothalamic-pituitary-adrenal axis over a 24-hour diurnal period and in response to neuroendocrine challenges in women with and without childhood sexual abuse and posttraumatic stress disorder,2004,other or unstated,,,0,3,0,3,0.0,0,3
 14530809,Adjuvant Therapy of Breast Cancer with Docetaxel-Containing Combination (TAC),2003,other or unstated,,,0,1,0,1,0.0,0,1
-14572313,TGFß1 Activates c-Jun and Erk1 via aVß6 Integrin,2014,other or unstated,,,0,1,0,1,0.0,0,1
+14572313,TGFß1 Activates c-Jun and Erk1 via aVß6 Integrin,2014,other or unstated,2004,,0,1,0,1,0.0,0,1
 14585844,Regulation of ß1C and ß1A integrin expression in prostate carcinoma cells,2014,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 14623532,Neurological effects of aromatase deficiency in the mouse,2012,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 14633524,Kidney-specific proteins in elderly patients undergoing cardiac surgery with cardiopulmonary bypass,2011,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
@@ -8355,7 +8355,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 20421646,Targeting Neural-Restrictive Silencer Factor Sensitizes Tumor Cells to Antibody-Based Cancer Immunotherapy In Vitro via Multiple Mechanisms,2011,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 20432445,Early years of biological agents therapy in Crohn's disease and risk of the human polyomavirus JC reactivation,2014,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 20434775,Human health risk assessment from exposure to trihalomethanes in Canadian cities,2012,error or unreliable results,,,0,1,0,1,0.0,0,1
-20448536,Effect of Obesity at the Pathologic Response to Neoadjuvant Chemotherapy Among Premenopausal Tunisian Women with Breast Cancer,2011,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
+20448536,Effect of Obesity at the Pathologic Response to Neoadjuvant Chemotherapy Among Premenopausal Tunisian Women with Breast Cancer,2011,"misconduct, fabrication or duplication",2010,,0,1,0,1,0.0,0,1
 20452642,Particle-associated polycyclic aromatic hydrocarbons near power plants as determined by large volume injection--GC/MS,2012,other or unstated,,,0,1,0,1,0.0,0,1
 20457181,Mechanism(s) of deep brain stimulation and insights into cognitive outcomes in Parkinson's disease,2011,"misconduct, fabrication or duplication",,,0,2,0,2,0.0,0,2
 20462349,Immunotoxicity activity of the major essential oils of Valeriana fauriei Briq against Aedes aegypti L,2012,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
@@ -8487,7 +8487,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 21757743,Gq Protein-induced Apoptosis Is Mediated by AKT Kinase Inhibition That Leads to Protein Kinase C-induced c-Jun N-terminal Kinase Activation*,2017,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 2176153,Cyclic-AMP-responsive transcriptional activation domain of CREB-327 involves interdependent phosphorylated subdomains,1994,error or unreliable results,,,0,1,0,1,0.0,0,1
 21770839,Inhibitory effects of three oleanolic acid glycosides from Achyranthes japonica on the complement classical pathway,2012,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
-21802601,Redox Regulation of the Glutathione Reductase/iso-glutaredoxin System in Germinating Pea Seed Exposed to Cadmium,2012,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
+21802601,Redox Regulation of the Glutathione Reductase/iso-glutaredoxin System in Germinating Pea Seed Exposed to Cadmium,2012,"misconduct, fabrication or duplication",2011,,0,1,0,1,0.0,0,1
 21808117,Association between body mass index and risk of breast cancer in Tunisian women,2012,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 21821823,Money and mimicry: when being mimicked makes people feel threatened,2014,error or unreliable results,,,0,1,0,1,0.0,0,1
 21825080,Once-weekly risedronate for prevention of hip fracture in women with Parkinson's disease: a randomised controlled trial,2017,"misconduct, fabrication or duplication",,,0,0,1,1,0.0,0,1
@@ -8790,7 +8790,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 24122418,Adipose stromal-vascular fraction-derived paracrine factors regulate adipogenesis,2015,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 24130713,"Evaluation of the Replication, Pathogenicity, and Immunogenicity of Avian Paramyxovirus (APMV) Serotypes 2, 3, 4, 5, 7, and 9 in Rhesus Macaques",2020,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 24154878,Comprehensive gene expression analysis reveals multiple signal pathways associated with prostate cancer,2015,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
-24156249,Odanacatib for the treatment of postmenopausal osteoporosis,2014,error or unreliable results,,,0,1,0,1,0.0,0,1
+24156249,Odanacatib for the treatment of postmenopausal osteoporosis,2014,error or unreliable results,2013,,0,1,0,1,0.0,0,1
 24189456,"Ca2+/calmodulin-dependent protein kinase IIgamma, a critical mediator of the NF-kappaB network, is a novel therapeutic target in non-small cell lung cancer",2017,error or unreliable results,,,0,4,0,4,0.0,0,4
 24198626,Neurotransmitter Testing of the Urine: A Comprehensive Analysis,2020,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 24198631,Urinary Neurotransmitter Testing: Considerations of Spot Baseline Norepinephrine and Epinephrine,2020,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
@@ -9347,7 +9347,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 27922832,Individual external dose monitoring of all citizens of Date City by passive dosimeter 5 to 51 months after the Fukushima NPP accident (series): 1. Comparison of individual dose with ambient dose rate monitored by aircraft surveys,2020,error or unreliable results,,,0,0,1,1,0.0,0,1
 27924780,Activity of ergoferon against lethal influenza A (H3N2) virus infection in mice,2018,error or unreliable results,,,0,0,1,1,0.0,0,1
 27929045,Fractal Based Analysis of the Influence of Odorants on Heart Activity,2018,other or unstated,,,0,1,0,1,0.0,0,1
-27932778,Expression of Long Non-Coding RNA (lncRNA) Small Nucleolar RNA Host Gene 1 (SNHG1) Exacerbates Hepatocellular Carcinoma Through Suppressing miR-195,2022,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
+27932778,Expression of Long Non-Coding RNA (lncRNA) Small Nucleolar RNA Host Gene 1 (SNHG1) Exacerbates Hepatocellular Carcinoma Through Suppressing miR-195,2022,"misconduct, fabrication or duplication",2021,,0,1,0,1,0.0,0,1
 27934012,Synthesis of Phosphorodiamidate Morpholino Oligonucleotides and Their Chimeras Using Phosphoramidite Chemistry,2019,error or unreliable results,,,0,3,0,3,0.0,0,3
 27942479,Posterior fossa syndrome-a narrative review,2017,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 27978494,Salidroside alleviates cigarette smoke-induced COPD in mice,2023,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
@@ -11664,7 +11664,7 @@ retracted_pmid,title,retraction_year_retraction_watch,reason_group_retraction_wa
 8171334,"Nature's carbonylation catalyst: Raman spectroscopic evidence that carbon monoxide binds to iron, not nickel, in CO dehydrogenase",1997,error or unreliable results,,,0,2,0,2,0.0,0,2
 8254877,Effects of Laryngeal Mask Airway on Circulation and on Incidence of Postoperative Sore Throat and Hoarseness,2013,other or unstated,,,0,1,0,1,0.0,0,1
 8339817,Gonadotropin-releasing hormone agonist plus estrogen-progestin add-back therapy for endometriosis-related pelvic pain,1996,"misconduct, fabrication or duplication",,,0,2,0,2,0.0,0,2
-8435649,Evidence of Unmet Need in the Care of Severely Physically Disabled Adults,2000,"misconduct, fabrication or duplication",,,0,3,0,3,0.0,0,3
+8435649,Evidence of Unmet Need in the Care of Severely Physically Disabled Adults,2000,"misconduct, fabrication or duplication",1998,,0,3,0,3,0.0,0,3
 8591811,Stress experiments as a means of investigating age-specific mortality in Drosophila melanogaster,1997,other or unstated,,,0,1,0,1,0.0,0,1
 8610863,Postarthroscopic meniscus repair analgesia with intraarticular ketorolac or morphine,2009,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1
 8655018,Effect of fetal and neonatal growth on the occurrence of some diseases in adults,1998,"misconduct, fabrication or duplication",,,0,1,0,1,0.0,0,1

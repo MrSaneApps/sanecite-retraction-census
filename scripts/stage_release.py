@@ -68,6 +68,7 @@ SITE_DATA = ["data/phase2/lists.json", "data/phase2/list_corrections.json", "dat
              "data/phase2/census.json", "data/phase2/citations.csv", "data/phase2/citing_types.json",
              "data/phase2/reach.json", "data/phase2/plain.json", "data/phase2/papers.json",
              "data/stage3/batch6-result.json",
+             "data/econ/econ-result.json",   # charts.py reads it for the economics pilot chart (9 Nov 2026)
              # delivery and reply dates for the entries the page names or prints a reply for (written by lists.py)
              "tools/letters_public.json"]
 SITE_HELD = "tools/held.json"   # private on the site; entries held until their authors have been written to
@@ -77,7 +78,12 @@ CHECKER_RECORDS = ["PROTOCOL.md", "PREREG_RERUN_2026-10-22.md", "PREREG_SYSTEM_2
                    "METHOD_CHOSEN_v2_2026-10-22.md", "METHOD_CHOSEN_v3_2026-10-22.md", "MODEL_CARDS_2026-10-22.md",
                    "model-cards/configs.json", "DEVIATIONS.md", "PREREG_HASHES.txt", "SYSTEM_LOCKED_2026-10-22.json",
                    "B6_RESULT_2026-10-22.json", "B6_RESULT_2026-10-22.md", "TUNING_RESULTS_2026-10-22.md", "RESULTS.md",
-                   "run.sh", "run_batch.sh"]
+                   "run.sh", "run_batch.sh",
+                   "PREREG_REFSET_B7_2026-10-31.md"]   # batch 7 answer key, registered 31 Oct 2026
+# Batch 7 (scored 5 Nov 2026, pooled with batch 6 on sanecite.com/checker on 9 Nov): the registered scorer, the
+# 9 Nov two-of-three supplement, and the result file exactly as the site serves it
+CHECKER_B7_SCRIPTS = ["batches/b7/score_b7.py", "batches/b7/two_of_three_20261109.py"]
+CHECKER_SITE = ["data/stage3/batch7-result.json"]
 CHECKER_READS = ["batches/b6/gold/gold.jsonl", "batches/b6/gold/adjudicated.jsonl", "batches/b6/ref_A/readerA.jsonl",
                  "batches/b6/ref_muse/muse.jsonl", "batches/b6/ref_grok_or.jsonl", "batches/b6/ref_gemini.jsonl",
                  "batches/b6/gold_gemini/gold.jsonl", "batches/b6/draws_test.json", "batches/b6/draws_flagged.json"]
@@ -389,7 +395,7 @@ Each script prints its numbers; run it with Python 3 from this folder (`ctgov_sw
 `data/stage1_papers.jsonl` one folder up and calls the ClinicalTrials.gov API).
 """
 
-README_CHECKER = """# Checker: the citation-accuracy test (batch 6)
+README_CHECKER = """# Checker: the citation-accuracy test (batch 6; batch 7 added 9 Nov 2026)
 
 The test of 996 random citations behind the accuracy figures on sanecite.com/checker, as recorded. Staged by
 `scripts/stage_release.py` on {date}.
@@ -404,6 +410,9 @@ The test of 996 random citations behind the accuracy figures on sanecite.com/che
 | `reads/` | The reference reads: reader A, reader B, the adjudicated items and the final reference (`gold.jsonl`) |
 | `items.csv` | One row per citation: identifiers, both readers, the reference, the screen scores, each decider's vote and the system's call |
 | `scripts/` | The sampling, reading, scoring and locking scripts |
+| `records/PREREG_REFSET_B7_2026-10-31.md` | Batch 7: the answer key's registration, hashed on 31 Oct 2026 before any batch 7 sampling or reading |
+| `scripts/b7/score_b7.py`, `scripts/b7/two_of_three_20261109.py` | Batch 7: the registered scorer, and the 9 Nov 2026 supplement that settles reader disagreements by a two-of-three vote instead of the third read |
+| `batch7-result.json` | Batch 7's scored result and its pooling with batch 6, as sanecite.com/checker serves it |
 
 Records and reads are copied byte for byte unless listed below, so `shasum -a 256` on them matches the latest hash
 `PREREG_HASHES.txt` gives for them (paths in the log are relative to the original working folder). Some hashes in the
@@ -461,6 +470,10 @@ def stage(cfg):
         for f in sorted(os.listdir(st.src("checker", "scripts"))):
             if f.endswith(".py") and not SKIP_SCRIPT.search(f):
                 st.put("checker", st.src("checker", "scripts/" + f), "scripts/" + f)
+        for f in CHECKER_B7_SCRIPTS:
+            st.put("checker", st.src("checker", f), "scripts/b7/" + os.path.basename(f))
+        for f in CHECKER_SITE:
+            st.put("checker", st.src("site", f), os.path.basename(f))
         rows = checker_items(st)
         st.write("checker", "README.md", README_CHECKER.format(date=date, changed=changed_section(st.redacted)))
 

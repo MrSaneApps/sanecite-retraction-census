@@ -1,0 +1,158 @@
+{
+ "_about": "SaneCite economics pilot, 29 Oct 2026. Citations made after retraction to papers Retraction Watch tags (B/T) Business - Economics, retracted 1990-2023, with a DOI, read in PubMed Central full text. Three AI models labelled each citation (pre-registered: PREREG_ECON_PILOT_2026-10-29). Aggregate counts only. AI readings, pending human review. wilson95 = Wilson interval; cluster_boot95 = bootstrap over retracted papers.",
+ "judged": 231,
+ "papers": 130,
+ "pairs_ok": 249,
+ "notices": 9,
+ "administrative": 9,
+ "substantive": {
+  "k": 88,
+  "n": 231,
+  "share": 0.381,
+  "wilson95": [
+   0.3208,
+   0.445
+  ],
+  "cluster_boot95": [
+   0.3086,
+   0.455
+  ],
+  "papers": 130
+ },
+ "perfunctory": {
+  "k": 140,
+  "n": 231,
+  "share": 0.6061,
+  "wilson95": [
+   0.5418,
+   0.6668
+  ],
+  "cluster_boot95": [
+   0.5273,
+   0.6797
+  ],
+  "papers": 130
+ },
+ "aware": {
+  "k": 3,
+  "n": 231,
+  "share": 0.013,
+  "wilson95": [
+   0.0044,
+   0.0375
+  ],
+  "cluster_boot95": [
+   0.0,
+   0.0293
+  ],
+  "papers": 130
+ },
+ "substantive_all_reasons": {
+  "k": 90,
+  "n": 240,
+  "share": 0.375,
+  "wilson95": [
+   0.3162,
+   0.4378
+  ],
+  "cluster_boot95": [
+   0.3049,
+   0.4505
+  ],
+  "papers": 135
+ },
+ "substantive_band": {
+  "strict": {
+   "k": 62,
+   "n": 231,
+   "share": 0.2684,
+   "wilson95": [
+    0.2154,
+    0.329
+   ],
+   "cluster_boot95": [
+    0.203,
+    0.3377
+   ],
+   "papers": 130
+  },
+  "lenient": {
+   "k": 113,
+   "n": 231,
+   "share": 0.4892,
+   "wilson95": [
+    0.4254,
+    0.5533
+   ],
+   "cluster_boot95": [
+    0.4008,
+    0.582
+   ],
+   "papers": 130
+  }
+ },
+ "concentration": {
+  "top1_share": 0.0996,
+  "top5_share": 0.2511,
+  "papers_with_1_citation": 97
+ },
+ "substantive_one_per_paper": 0.3849,
+ "by_reason": {
+  "administrative (no fault found in the science)": {
+   "k": 2,
+   "n": 9,
+   "share": 0.2222,
+   "wilson95": [
+    0.0632,
+    0.5474
+   ],
+   "cluster_boot95": [
+    0.0,
+    0.6667
+   ],
+   "papers": 5
+  },
+  "error or unreliable results": {
+   "k": 30,
+   "n": 73,
+   "share": 0.411,
+   "wilson95": [
+    0.3053,
+    0.5255
+   ],
+   "cluster_boot95": [
+    0.3077,
+    0.5833
+   ],
+   "papers": 20
+  },
+  "misconduct, fabrication or duplication": {
+   "k": 51,
+   "n": 136,
+   "share": 0.375,
+   "wilson95": [
+    0.2981,
+    0.4587
+   ],
+   "cluster_boot95": [
+    0.2797,
+    0.4809
+   ],
+   "papers": 90
+  },
+  "other or unstated": {
+   "k": 7,
+   "n": 22,
+   "share": 0.3182,
+   "wilson95": [
+    0.1636,
+    0.5268
+   ],
+   "cluster_boot95": [
+    0.1429,
+    0.5
+   ],
+   "papers": 20
+  }
+ }
+}

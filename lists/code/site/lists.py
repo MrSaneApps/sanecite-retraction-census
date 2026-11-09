@@ -1081,7 +1081,10 @@ CENSUS_WIDE = ("data/phase2/c/", "data/phase2/citations.csv", "data/phase2/conte
                "data/phase2/papers.json", "data/phase2/retraction_status.csv", "data/phase2/first_authors.json",
                # IDs only (PMCID, PMID, DOI) for every citing paper in citations.csv; DOIs such as
                # 10.1590/1516-4446-2020-0941 have the ORCID shape (2 Nov 2026)
-               "data/phase2/citing_papers.csv")
+               "data/phase2/citing_papers.csv",
+               # Same IDs, joined for reuse (4 Nov 2026): one row per citation, citing paper or retracted paper, unranked, no people's
+               # names, same DOI shape
+               "data/phase2/citations_with_dois.csv", "data/phase2/flags_by_paper.csv", "data/retraction_dates.csv")
 NOT_SERVED = ("tools/", ".git/", ".git", ".gitignore", ".assetsignore", "AGENTS.md", "README.md", "VISION.md", "FUNDING.md",
               "wrangler.toml", ".DS_Store")
 
@@ -1363,7 +1366,7 @@ def below_cut_block():
         out = []
         for i in e["items"]:
             cites = "".join(
-                f'<li>cites {esc(c["who"])}, retracted {esc(c["retracted"])}: “{esc(c["title"])}” '
+                f'<li>cites {esc(c["who"])}, retracted {esc(c["retracted"])}: <q>{esc(c["title"])}</q> '
                 f'(<a href="{esc(c["notice"])}" rel="noopener">notice</a>)'
                 + (" The reference list marks it retracted." if c.get("ref_list_marks") else "")
                 + (f' <span class="small">{esc(c["timeline"][0].upper() + c["timeline"][1:])}.</span>' if c.get("timeline") else "")
@@ -1376,7 +1379,7 @@ def below_cut_block():
         r = e.get("reply")
         if not r:
             return f"<p><b>Reply:</b> none received by {day(reply_by)}.</p>"
-        q = f" In their words: “{esc(r['quote'])}”" if r.get("quote") else ""
+        q = f" In their words: <q>{esc(r['quote'])}</q>" if r.get("quote") else ""
         late = " (after the reply date)" if r["received"] > e["reply_by"] else ""
         full = ""
         if r.get("full_text"):  # the replies rule.11: a threat received after the notice went live is printed in full
@@ -1395,7 +1398,7 @@ def below_cut_block():
             line = (f"{n(e['support'])} of {n(e['citations'])} citations cited as support ({pct(e['support'] / e['citations'])}); "
                     f"we read {e['reread']} again and {ncit} held up.")
         else:
-            line = (f"{ncit} citation{'s' if ncit > 1 else ''} in {len(e['items'])} of their paper{'s' if len(e['items']) > 1 else ''} "
+            line = (f"{ncit} citation{'s' if ncit > 1 else ''} in {len(e['items'])} of their papers "
                     f"held up on a second reading.")
         rows.append(f'<details class="bc-row"><summary><b>{esc(e["name"])}</b> <span>{"Journal" if e["list"] == "journal" else "Author"} · '
                     f"{line} Written to {day(e['sent'])}.</span></summary>{reply(e)}{items(e)}</details>")

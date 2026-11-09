@@ -122,3 +122,4 @@ c97508602b9c9ec714180e8933849fa56fb1a5b239784892d5e74b90c8eb107c  B6_RESULT_2026
 2026-10-31T13:50:19Z 50f5a6b4d29c832736889676898263b56ad7a2691a61ed48e9eb6762613933ee  batches/b7/score_b7.py  (canary rule to the registered text; DEVIATIONS batch 7 item 4)
 2026-11-02T08:34:31Z 00280378d453d081e06c714da2f98699450b66d03302683f7c560aa893350405  batches/b7/score_b7.py  (third-read field fix; DEVIATIONS batch 7 item 5)
 2026-11-02T08:34:31Z d61c56863d10bad96e39cba4741ae05c177967f85a0e00438c24650e9f48c9a9  DEVIATIONS.md  (third-read field fix; DEVIATIONS batch 7 item 5)
+2026-11-09T15:45:10Z 5103802201bd8281e4c051b09f07f925f593a351001d22ae8c09830dc5c0d5e5  DEVIATIONS.md  (deviation 6, written 5 Nov 2026 before any scoring run and committed 7 Nov; recorded after the fact, 9 Nov 2026)

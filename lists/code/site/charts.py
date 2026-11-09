@@ -20,7 +20,7 @@ AS_OF = f"{_d.day} {_d:%b %Y}"  # e.g. 14 Oct 2026
 # images at once, and build.py draws the images again whenever it changes.
 IMG_KEY = hashlib.sha256(b"".join(open(f"{ROOT}/{f}", "rb").read() for f in (
     "data/phase2/census.json", "data/phase2/citations.csv", "data/phase2/by_subject.json", "data/phase2/paper_subjects.csv",
-    "data/stage3/batch6-result.json", "data/phase2/reach.json", "data/phase2/lists.json",
+    "data/stage3/batch6-result.json", "data/econ/econ-result.json", "data/phase2/reach.json", "data/phase2/lists.json",
     "assets/site.css", "tools/charts.py",
     "tools/render_charts.mjs"))).hexdigest()[:10]
 LAB = {"substantive": "s", "perfunctory": "p", "aware": "a"}
@@ -619,6 +619,52 @@ def b6_by_type():
         matters="Citations that credit a specific finding are the ones readers act on, and they are the ones most often wrong about what the cited paper says.")
 
 
+# ---------------------------------------------------------------- economics pilot (29 Oct 2026; on /findings 9 Nov)
+ECON = json.load(open(f"{ROOT}/data/econ/econ-result.json"))
+ECON_AS_OF = "29 Oct 2026"
+ECON_SRC = "SaneCite economics pilot"
+
+
+def econ_vs_medicine():
+    e, aw = ECON["substantive"], ECON["aware"]
+    check("economics judged", e["n"], ECON["judged"])
+    check("economics papers", e["papers"], ECON["papers"])
+    eco = {"k": e["k"], "n": e["n"], "ci95": e["wilson95"]}
+    med = {"k": S["k"], "n": S["n"], "ci95": S["ci95"]}
+    table = ("<table><tr><th>Field</th><th>Citations judged</th><th>Cited as support</th><th>Share (95% CI, %)</th>"
+             "<th>Retracted papers</th></tr>"
+             f"<tr><td>Economics (pilot)</td><td>{n(eco['n'])}</td><td>{n(eco['k'])}</td><td>{rc(eco)}</td><td>{n(e['papers'])}</td></tr>"
+             f"<tr><td>Medicine (Phase 2 census)</td><td>{n(med['n'])}</td><td>{n(med['k'])}</td><td>{rc(med)}</td><td>{n(S['papers'])}</td></tr></table>"
+             "<p>Economics: papers Retraction Watch tags as business or economics, retracted 1990–2023, cited after the "
+             "retraction in PubMed Central full text. Three AI models labelled each citation. The economics interval is a "
+             "Wilson interval; the medicine interval comes from re-running the numbers over whole retracted papers. "
+             f"{n(aw['k'])} of the {n(aw['n'])} economics citations mention the retraction.</p>")
+    write_csv("econ", ["field", "judged", "cited_as_support", "share", "ci95_low", "ci95_high", "retracted_papers"],
+              [["economics (pilot)", eco["n"], eco["k"], rt(eco), *eco["ci95"], e["papers"]],
+               ["medicine (Phase 2 census)", med["n"], med["k"], rt(med), *med["ci95"], S["papers"]]])
+    caption = (f"After a retraction, {pct(rt(eco))} of citations to retracted economics papers still cite them as support "
+               f"({eco['k']} of {eco['n']}), close to {pct(rt(med))} in medicine. Source: {ECON_SRC}, {ECON_AS_OF}, "
+               "pending human review.")
+    return figure(
+        "econ", "Economics pilot · beyond medicine",
+        f"{pct(rt(eco))} of citations to retracted economics papers still cite them as support.",
+        f"Close to medicine ({pct(rt(med))}). {n(eco['n'])} citations to {n(e['papers'])} retracted economics papers, "
+        f"all made after the retraction. Only {pct(aw['k'] / aw['n'])} mention the retraction.",
+        simple_bars("Cite the retracted paper as support, after the retraction",
+                    [("Medicine (Phase 2 census)", rt(med), "s", False), ("Economics (pilot)", rt(eco), "s", True)]),
+        "A pilot. The citing papers come from free full text in PubMed Central, mostly biomedical, health and "
+        "environmental journals, so this shows how economics retractions are cited there, not in economics journals.",
+        f"Source: {ECON_SRC}: {n(eco['n'])} citations to {n(e['papers'])} papers Retraction Watch tags as business or "
+        "economics, retracted 1990–2023. Three AI models labelled each citation; pending human review. "
+        '<a href="/data/econ/econ-result.json">The data</a>.',
+        table, caption,
+        (pct(rt(eco)), "of citations to retracted economics papers still cite them as support.", "s"),
+        card_note="A pilot. Citing papers from PubMed Central full text.",
+        card_src=f"Source: {ECON_SRC}, {n(eco['n'])} citations, {ECON_AS_OF}, pending human review",
+        as_of=ECON_AS_OF, pill="Pilot · pending human review",
+        matters="Retracted research keeps being cited as support outside medicine too, about as often.")
+
+
 # ---------------------------------------------------------------- what the listed papers reached (Lists, 29 Oct)
 REACH = json.load(open(f"{P2}/reach.json"))
 REACH_AS_OF = "29 Oct 2026"  # Europe PMC and ClinicalTrials.gov records read that day (reach.json _note)
@@ -730,7 +776,7 @@ PAGE_NOTES = {"stage3-by-type": (
     '<a href="/data/stage3/batch6-result.json">the full test result</a> · <a href="/checker#accuracy">how the test worked</a>.</span></li>'),
     "reach": (
     '<li><b>Which papers.</b><span>The retracted papers named on our Papers list, ranked by how many citations made after the '
-    'retraction use them as support.</span></li>'
+    'retraction cite them as support.</span></li>'
     '<li><b>What counts as support.</b><span>Three AI models judged every citation; every citation counted as support for these '
     'papers was then read again by AI models before publication, and the corrections were applied. Each citing paper is counted once.</span></li>'
     '<li><b>Where the rest comes from.</b><span>Grants, publication types and later citations come from Europe PMC records; '
@@ -742,7 +788,7 @@ PAGE_NOTES = {"stage3-by-type": (
     '<a href="/data/phase2/reach.json">the reach records</a> · <a href="/lists#papers">each paper on the Lists</a>.</span></li>')}
 
 CHARTS = {"out-of-100": out_of_100(), "years-after": years_after(), "reference-list": reference_list(),
-          "by-reason": by_reason(), "by-field": by_field(), "by-citing-type": by_citing_type(), "warnings-by-year": warnings_by_year(), "stage3-by-type": b6_by_type(), "reach": reach_chart()}
+          "by-reason": by_reason(), "by-field": by_field(), "by-citing-type": by_citing_type(), "warnings-by-year": warnings_by_year(), "stage3-by-type": b6_by_type(), "reach": reach_chart(), "econ": econ_vs_medicine()}
 TITLES = {cid: (f"{m['title'].rstrip('.')} | SaneCite", f"{m['sub']} Chart, data and caption, free to share.") for cid, m in META.items()}
 
 

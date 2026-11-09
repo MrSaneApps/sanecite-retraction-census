@@ -1,7 +1,7 @@
 # Lists: code and data
 
 The named Lists on sanecite.com (retracted papers, journals and authors whose papers cite retracted work as support),
-with the code that builds them. Staged by `scripts/stage_release.py` on 2026-11-04 from the site at cc7e09e.
+with the code that builds them. Staged by `scripts/stage_release.py` on 2026-11-09 from the site at 9831774.
 
 | Path | What it is |
 |---|---|

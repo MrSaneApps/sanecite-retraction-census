@@ -66,6 +66,10 @@ From the day SaneCite has a fiscal sponsor, every gift and every spend will be p
 | [`data/`](data/) | The census: frame, every citing passage, each model's answer, final labels, results |
 | [`validation/`](validation/) | Blind answer keys and scores for the model panel |
 | [`human_labels/`](human_labels/) | The human labelling round: draw and instructions, scoring fixed in advance |
+| [`lists/`](lists/) | The named Lists on sanecite.com and the charts: code, inputs and published files, with a re-run that rebuilds each file byte for byte (`lists/README.md`) |
+| [`checker/`](checker/) | The citation-accuracy test of the checker (batches 6 and 7): plans, hash log, reads, scores (`checker/README.md`) |
+| [`stories/`](stories/) | Code and data behind sanecite.com/stories (`stories/README.md`) |
+| [`models/`](models/) | Every model test, 13 to 31 Oct 2026 (`models/README.md`) |
 | [`EDITIONS.md`](EDITIONS.md) | The rule for re-runs with new models or prompts: a new edition, never mixed with an old one |
 | [`errata/`](errata/) | The 20 Oct 2026 census correction as data: the wrong Retraction Watch records and the pairs they carry |
 | [`MANIFEST.sha256`](MANIFEST.sha256) | Dated blocks of file hashes, added each time files are registered or changed |
@@ -146,6 +150,21 @@ It is a mirror; please cite the Zenodo record above.
   and data of the named Lists and of the checker's accuracy test on release day; data licensed CC BY 4.0, code
   still MIT; `MANIFEST.sha256` given a block for every file changed since registration and a checker
   (`scripts/verify_manifest.py`).
+- **9 Nov 2026:** version 1.4.0, matching what sanecite.com published that day.
+  - Accuracy test, batch 7 (`checker/`): the registered answer key (`records/PREREG_REFSET_B7_2026-10-31.md`, with
+    internal names replaced as `checker/README.md` lists), the registered scorer and the result as the site serves it
+    (`batch7-result.json`). Pooled with batch 6, blind AI reads found <!--f:stage3.pmajor_pct-->7.7%<!--/f--> (<!--f:stage3.p_major-->166<!--/f--> of the <!--f:stage3.p_judged-->2,156<!--/f--> citations they
+    could judge; 95% CI <!--f:stage3.pmajor_ci-->6.6-8.9%<!--/f-->) that badly misreport the cited paper. In batch 7, <!--f:stage3.b7any_pct-->19.2%<!--/f--> have some error
+    when a third read settles reader disagreements and <!--f:stage3.b7any23_pct-->15.7%<!--/f--> when a two-of-three vote does
+    (`scripts/b7/two_of_three_20261109.py`). These are AI reads; no person has checked them yet.
+  - Economics pilot: `lists/data/econ-result.json` and `lists/charts-csv/econ.csv`, behind the new chart. Of <!--f:econ.judged-->231<!--/f-->
+    judged citations to retracted economics papers, <!--f:econ.support_pct-->38.1%<!--/f--> cite them as support (95% CI <!--f:econ.support_ci-->32.1-44.5%<!--/f-->), against
+    <!--f:econ.med_pct-->40.7%<!--/f--> in the biomedical census. The pilot's own code is not in this repository yet.
+  - Lists (`lists/`): staged again from the site. Retraction years now follow each notice's online date where it
+    came before the print issue (`lists/data/list_corrections.json`), and the page code has the new section "Also
+    written to, not ranked": the journals and authors just below the cut that were sent their findings and whose
+    reply window has closed. That section's data holds our letters and their replies, so it stays private; the page
+    shows it. `lists/rerun.py` also rebuilds the economics chart file.
 
 ## Contact and license
 

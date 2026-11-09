@@ -1,7 +1,7 @@
-# Checker: the citation-accuracy test (batch 6)
+# Checker: the citation-accuracy test (batch 6; batch 7 added 9 Nov 2026)
 
 The test of 996 random citations behind the accuracy figures on sanecite.com/checker, as recorded. Staged by
-`scripts/stage_release.py` on 2026-11-04.
+`scripts/stage_release.py` on 2026-11-09.
 
 | Path | What it is |
 |---|---|
@@ -13,6 +13,9 @@ The test of 996 random citations behind the accuracy figures on sanecite.com/che
 | `reads/` | The reference reads: reader A, reader B, the adjudicated items and the final reference (`gold.jsonl`) |
 | `items.csv` | One row per citation: identifiers, both readers, the reference, the screen scores, each decider's vote and the system's call |
 | `scripts/` | The sampling, reading, scoring and locking scripts |
+| `records/PREREG_REFSET_B7_2026-10-31.md` | Batch 7: the answer key's registration, hashed on 31 Oct 2026 before any batch 7 sampling or reading |
+| `scripts/b7/score_b7.py`, `scripts/b7/two_of_three_20261109.py` | Batch 7: the registered scorer, and the 9 Nov 2026 supplement that settles reader disagreements by a two-of-three vote instead of the third read |
+| `batch7-result.json` | Batch 7's scored result and its pooling with batch 6, as sanecite.com/checker serves it |
 
 Records and reads are copied byte for byte unless listed below, so `shasum -a 256` on them matches the latest hash
 `PREREG_HASHES.txt` gives for them (paths in the log are relative to the original working folder). Some hashes in the
@@ -29,6 +32,7 @@ originals can be shown on request):
 - `reads/ref_grok_or.jsonl`: the quoted passages from the papers ("quote" fields) are left out
 - `reads/ref_muse_muse.jsonl`: the quoted passages from the papers ("quote" fields) are left out
 - `records/MODEL_CARDS_2026-10-22.md`: a private folder path replaced; internal tool, machine and procedure names replaced
+- `records/PREREG_REFSET_B7_2026-10-31.md`: internal tool, machine and procedure names replaced
 - `records/PREREG_SYSTEM_2026-10-22.md`: an informal remark left out; internal tool, machine and procedure names replaced
 - `records/PROTOCOL_TUNING_2026-10-22.md`: internal tool, machine and procedure names replaced
 - `records/RESULTS.md`: internal tool, machine and procedure names replaced

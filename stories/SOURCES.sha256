@@ -1,4 +1,4 @@
-# stories/ staged 2026-11-04: sha256 of the source file, sha256 of the staged file, staged path
+# stories/ staged 2026-11-09: sha256 of the source file, sha256 of the staged file, staged path
 # The two hashes differ where private folder paths were replaced, a record was redacted or
 # quoted passages were left out (see README.md).
 f155521bcf246bfb406cce78676019d3d8d208f840e9be80f5f10435ead4b01b  f155521bcf246bfb406cce78676019d3d8d208f840e9be80f5f10435ead4b01b  meta.py

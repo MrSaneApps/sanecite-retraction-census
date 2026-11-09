@@ -65,6 +65,7 @@ p{margin:0}
 .commit li{color:var(--text)}
 .family{margin-top:18px;font-size:14px;color:var(--text-dim)}
 .herofact{margin-top:52px}
+.hero .preprint{margin:16px 0 0;font-size:15px}.hero .preprint+.herofact{margin-top:40px}
 .nw{white-space:nowrap}
 .herofact .lead{font-family:var(--display);font-size:clamp(30px,4.2vw,48px);line-height:1.18;letter-spacing:-.01em;color:var(--text);margin:0;text-wrap:balance}
 .herofact .lead .n{color:var(--accent);white-space:nowrap;font-variant-numeric:lining-nums}
@@ -771,3 +772,12 @@ html.card #vz-reach .sb{gap:8px 28px}
 .ck-item .st{margin-top:6px;font-size:15px}
 .ck-item .rd{margin-top:6px;font-size:15px}
 @media (max-width:560px){.ck-form{flex-wrap:wrap}.ck-go{width:100%;justify-content:center}}
+.prow .snip{grid-column:2;font-size:15px;line-height:1.5;color:var(--text);border-left:2px solid var(--accent);padding-left:10px;margin-top:4px}
+.wayfind{list-style:none;margin:32px auto 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;text-align:left;max-width:760px}
+.wayfind li{display:flex;flex-direction:column;gap:3px;padding:12px 14px;border:1px solid rgba(255,255,255,.14);border-radius:10px}
+.wayfind a{font-weight:700;color:var(--accent)}
+.wayfind span{font-size:15px;line-height:1.4;color:var(--text)}
+@media (max-width:640px){.wayfind{grid-template-columns:1fr}}
+/* Section buttons at the top of a page (owner 6 Nov 2026): they must read as clickable. Tinted, with a solid-cyan hover like Donate, so Donate stays the strongest button. */
+.ljump a{background:rgba(92,219,242,.14);border:1px solid var(--accent);color:var(--text);font-weight:600}
+.ljump a:hover,.ljump a:focus-visible{background:var(--accent);border-color:var(--accent);color:#061016}

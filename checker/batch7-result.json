@@ -1,0 +1,153 @@
+{
+ "_about": "SaneCite citation accuracy test, batch 7 (scored 5 Nov 2026 by the registered score_b7.py; pooled with batch 6 under the plan's rules). Answer key: two blind AI readers from different model families, disagreements settled by a third read; two_of_three_view settles those disagreements by a two-of-three vote instead (computed 9 Nov 2026 with the scorer's own rule). AI readings, pending human review. Counts are k of n; ci95 is a Wilson interval.",
+ "batch": "b7",
+ "reading_set": 1320,
+ "keyed": 1320,
+ "coverage": 1.0,
+ "judged": 1241,
+ "major": {
+  "k": 100,
+  "n": 1241,
+  "rate": 0.0806,
+  "ci95": [
+   0.0667,
+   0.0971
+  ]
+ },
+ "any_error": {
+  "k": 238,
+  "n": 1241,
+  "rate": 0.1918,
+  "ci95": [
+   0.1708,
+   0.2146
+  ]
+ },
+ "ceiling_kappa_major": 0.803,
+ "ceiling_items": 1188,
+ "by_citation_type": {
+  "specific_claim": {
+   "k": 73,
+   "n": 571,
+   "rate": 0.1278,
+   "ci95": [
+    0.1029,
+    0.1577
+   ]
+  },
+  "background": {
+   "k": 19,
+   "n": 508,
+   "rate": 0.0374,
+   "ci95": [
+    0.0241,
+    0.0577
+   ]
+  },
+  "method_or_tool": {
+   "k": 7,
+   "n": 133,
+   "rate": 0.0526,
+   "ci95": [
+    0.0257,
+    0.1047
+   ]
+  },
+  "data_source": {
+   "k": 1,
+   "n": 28,
+   "rate": 0.0357,
+   "ci95": [
+    0.0063,
+    0.1771
+   ]
+  },
+  "specific_minus_background_95": [
+   0.0904,
+   [
+    0.0583,
+    0.1231
+   ]
+  ]
+ },
+ "without_fallback_items": {
+  "major": {
+   "k": 94,
+   "n": 1191,
+   "rate": 0.0789,
+   "ci95": [
+    0.0649,
+    0.0956
+   ]
+  },
+  "any_error": {
+   "k": 226,
+   "n": 1191,
+   "rate": 0.1898,
+   "ci95": [
+    0.1685,
+    0.213
+   ]
+  }
+ },
+ "without_grok_adjudicated": {
+  "items_removed": 11,
+  "major": {
+   "k": 95,
+   "n": 1230,
+   "rate": 0.0772,
+   "ci95": [
+    0.0636,
+    0.0935
+   ]
+  }
+ },
+ "two_of_three": {
+  "disagreement_items": 213,
+  "differ_from_key": 113,
+  "differ_share": 0.531,
+  "report_both_ways": true
+ },
+ "pooling": {
+  "b7_minus_b6": 0.0084,
+  "ci90": [
+   -0.0109,
+   0.0272
+  ],
+  "rules": {
+   "equivalence_inside_3pts": true,
+   "canary_28_of_33": true,
+   "ceiling_0.60": true
+  },
+  "pool": true,
+  "pooled_major": {
+   "k": 166,
+   "n": 2156,
+   "rate": 0.077,
+   "ci95": [
+    0.0665,
+    0.089
+   ]
+  }
+ },
+ "two_of_three_view": {
+  "major": {
+   "k": 101,
+   "n": 1191,
+   "rate": 0.0848,
+   "ci95": [
+    0.0703,
+    0.102
+   ]
+  },
+  "any_error": {
+   "k": 187,
+   "n": 1191,
+   "rate": 0.157,
+   "ci95": [
+    0.1375,
+    0.1788
+   ]
+  }
+ }
+}

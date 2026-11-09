@@ -22,13 +22,14 @@ import tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 CODE, DATA = os.path.join(HERE, "code", "site"), os.path.join(HERE, "data")
 STAGE3 = {"batch6-result.json"}  # read from data/stage3/ by the chart code
+ECON = {"econ-result.json"}      # read from data/econ/ by the chart code (economics pilot chart, 9 Nov 2026)
 TOP = {"results.json"}           # read from the site root when present
 
 
 def main() -> int:
     t = tempfile.mkdtemp(prefix="sanecite-rerun-")
     try:
-        for d in ("tools/pages", "assets", "data/phase2", "data/stage3", "lists", "charts"):
+        for d in ("tools/pages", "assets", "data/phase2", "data/stage3", "data/econ", "lists", "charts"):
             os.makedirs(os.path.join(t, d), exist_ok=True)
         for f in ("lists.py", "charts.py", "render_charts.mjs"):
             shutil.copy(os.path.join(CODE, f), os.path.join(t, "tools", f))
@@ -39,6 +40,8 @@ def main() -> int:
             src = os.path.join(DATA, f)
             if f in STAGE3:
                 dst = os.path.join(t, "data/stage3", f)
+            elif f in ECON:
+                dst = os.path.join(t, "data/econ", f)
             elif f in TOP:
                 dst = os.path.join(t, f)
             else:

@@ -1,6 +1,6 @@
 {
  "about": "For each entry the Lists page names or prints a reply for: whether our letter was delivered and the reply date it stated. Written by tools/lists.py; used only by the public re-run (SANECITE_PUBLIC_RERUN=1).",
- "built_on": "2026-11-04",
+ "built_on": "2026-11-09",
  "default_reply_by": "2026-10-28",
  "entries": [
   {
