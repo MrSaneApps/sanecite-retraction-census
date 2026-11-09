@@ -409,3 +409,5 @@ c175c8ac2b6b7f4601b5ee536bcd18e06285009b1d7e8006db7a6534f008edbb  ./scripts/list
 5fe609e266bfa889eacb742ff05ccbcbdf21fa3b0bc340b66ba6f24bc268ed6e  ./scripts/stage_release.py
 2cf8b83df2233c42c78456d7161b9953da90bbe01579147f849a9e6d81f0e725  ./stories/README.md
 6b79fc7731d4597ac4ff5b04cf07d72266d78160a0be4922b37560e7890edfc2  ./stories/SOURCES.sha256
+# 2026-11-09T15:50Z v1.4.0
+20bf09d2fcab356d79d6b4da02de595edfd94147031b22ff97ca6e78b400461a  ./checker/records/DEVIATIONS.md
