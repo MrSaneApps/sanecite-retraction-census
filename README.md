@@ -69,6 +69,7 @@ From the day SaneCite has a fiscal sponsor, every gift and every spend will be p
 | [`lists/`](lists/) | The named Lists on sanecite.com and the charts: code, inputs and published files, with a re-run that rebuilds each file byte for byte (`lists/README.md`) |
 | [`checker/`](checker/) | The citation-accuracy test of the checker (batches 6 and 7): plans, hash log, reads, scores (`checker/README.md`) |
 | [`stories/`](stories/) | Code and data behind sanecite.com/stories, including the Saez-Zucman audit check (`stories/README.md`) |
+| [`flags/`](flags/) | The census flags per citing paper and the open flag format, as sanecite.com/data serves them (`flags/README.md`) |
 | [`models/`](models/) | Every model test, 13 to 31 Oct 2026 (`models/README.md`) |
 | [`EDITIONS.md`](EDITIONS.md) | The rule for re-runs with new models or prompts: a new edition, never mixed with an old one |
 | [`errata/`](errata/) | The 20 Oct 2026 census correction as data: the wrong Retraction Watch records and the pairs they carry |
@@ -168,6 +169,22 @@ It is a mirror; please cite the Zenodo record above.
   - Stories (`stories/sz-check/`): our check of the anonymous AI audit of Saez and Zucman's research. Of the <!--f:szcheck.flags-->147<!--/f-->
     problems the audit says change a headline number, <!--f:szcheck.changes-->21<!--/f--> do. A pre-registered second pass graded the <!--f:szcheck.sp_n-->99<!--/f--> method choices first
     counted as disputed (`second-pass/`). The data, the PDF report and the page code are as the site serves them.
+- **9 Nov 2026, afternoon:** version 1.4.1, with the corrections sanecite.com published that afternoon.
+  - First-online rule (Lists and flags): a citation now counts only if the citing paper first went online after the
+    earliest dated sign of the retraction (the Retraction Watch date and the notice's dates in PubMed and Crossref,
+    both known to the day). Before, a citing paper from a later year than the retraction counted, and a paper's year
+    is its print issue, which can come months after it went online. We found <!--f:first_online.found-->302<!--/f--> such citations on the Lists and
+    checked every date again in PubMed and Crossref; <!--f:first_online.held-->296<!--/f--> held up and are left out (<!--f:first_online.support-->145<!--/f--> cited as support,
+    <!--f:first_online.passing-->148<!--/f--> in passing, <!--f:first_online.aware-->3<!--/f--> flagged as retracted). The papers and authors on the Lists do not change. Each
+    citation left out is in `lists/data/list_corrections.json` with both dates and their sources; the rule is
+    explained at https://sanecite.com/methods#dates.
+  - More full-text relabels (cited as support to flagged as retracted or unreliable), among them a 2022 review in
+    Science Progress that left the retracted trial out of its analysis, and retraction years set by the notice's
+    online date. Each is in `lists/data/list_corrections.json` with its source.
+  - Flags (`flags/`, new): the per-paper flag file and the open flag format, as sanecite.com/data serves them. After
+    all of that day's corrections the census has <!--f:first_online.flags_after-->43,818<!--/f--> flags (<!--f:first_online.flags_before-->44,132<!--/f--> before).
+  - The Phase 2 census figures above stay as published. With the first-online rule, <!--f:census_p2b.dropped-->337<!--/f--> census citations would
+    be left out, and <!--f:census_p2b.support_pct-->40.7%<!--/f--> of the <!--f:census_p2b.judged-->51,293<!--/f--> judged would still be cited as support (95% CI <!--f:census_p2b.support_ci-->39.9-41.4%<!--/f-->).
 
 ## Contact and license
 

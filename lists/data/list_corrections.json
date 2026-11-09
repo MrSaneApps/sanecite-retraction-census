@@ -583,6 +583,123 @@
    "source": "PubMed 9652920 (BMJ 1998 Jun 6;316(7146):1700, PMC56353 released 1998-06-06), RetractionIn link on PubMed 8435649; no notice DOI in Crossref",
    "date": "2026-11-08",
    "reason": "The 2000 year was the Retraction Watch date (2000-01-29); BMJ printed the retraction in its issue of 6 Jun 1998. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "2174558",
+   "field": "retraction_year",
+   "old": "2000",
+   "new": "1997",
+   "notice_pmid": "9247059",
+   "notice_online": "1997-06-27",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 9247059 (Brain Res 1997 Jun 27;761(1):3, publication type Retraction Notice, titled with this article's citation 'Proc. Natl. Acad. Sci. 87 (1990) 9290-9294'), RetractionIn link on PubMed 2174558 and RetractionOf link back; Retraction Watch record 259 notes 'The retraction is also published in Brain Research for the same article in 1997 PMID 9247059'; Crossref doi:10.1016/S0006-8993(97)00546-5 issued 1997-06. PNAS's own notice (PMIDs 10798958 and 16578858, Proc Natl Acad Sci U S A 2000 Feb 15;97(4):1949, PMC55974) came later",
+   "date": "2026-11-09",
+   "reason": "The 2000 year was PNAS's own notice (Retraction Watch 2000-02-15); Brain Research printed a retraction of the same article in its issue of 27 Jun 1997, the first notice. The publisher page (sciencedirect.com) refused an automated read on 8 Nov 2026, so the notice text was not read and the date is the print issue. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "12480817",
+   "field": "retraction_year",
+   "old": "2014",
+   "new": "2013",
+   "notice_pmid": "24368830",
+   "notice_online": "2013-12-24",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 24368830 (Circ Res 2014 Jan 17;114(2):e22, Epub 2013 Dec 24; PubMed entry 2013-12-26), RetractionIn link on PubMed 12480817; Europe PMC electronic publication 2013-12-24; Crossref doi:10.1161/01.RES.0000441275.92652.60, publisher retraction date 2013-12-24 on the paper's record (notice record created 2013-12-31)",
+   "date": "2026-11-09",
+   "reason": "The 2014 year was the notice's print issue (Retraction Watch 2014-01-16); the notice was online 24 Dec 2013. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "15079086",
+   "field": "retraction_year",
+   "old": "2005",
+   "new": "2004",
+   "notice_pmid": "15696627",
+   "notice_online": "2004-12-29",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 15696627 (Proc Natl Acad Sci U S A 2005 Jan 11;102(2):516, PMC544325), RetractionIn link on PubMed 15079086; PMC544325 epub date 2004-12-29; Crossref doi:10.1073/pnas.0408999101 published online 2004-12-29",
+   "date": "2026-11-09",
+   "reason": "The 2005 year was the notice's print issue (Retraction Watch 2005-01-11); PNAS published the notice online 29 Dec 2004. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "15131027",
+   "field": "retraction_year",
+   "old": "2013",
+   "new": "2012",
+   "notice_pmid": "23248096",
+   "notice_online": "2012-12-17",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 23248096 (Clin Cancer Res 2013 Jan 1;19(1):307, Epub 2012 Dec 17; PubMed entry 2012-12-19), RetractionIn link on PubMed 15131027; Europe PMC electronic publication 2012-12-17; Crossref doi:10.1158/1078-0432.CCR-12-3679 registered 2012-12-17 (its published-online field, 2013-01-02, is later than PubMed's copy)",
+   "date": "2026-11-09",
+   "reason": "The 2013 year was the notice's print issue (Retraction Watch 2013-01-01); the notice was online 17 Dec 2012 and in PubMed by 19 Dec 2012. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "17575123",
+   "field": "retraction_year",
+   "old": "2013",
+   "new": "2012",
+   "notice_pmid": "23271721",
+   "notice_online": "2012-12-27",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 23271721 (Cancer Res 2013 Jan 15;73(2):1034, Epub 2012 Dec 27; PubMed entry 2012-12-29), RetractionIn link on PubMed 17575123; Europe PMC electronic publication 2012-12-27; Crossref doi:10.1158/0008-5472.CAN-12-3286 registered 2012-12-27 (its published-online field, 2013-01-16, is later than PubMed's copy)",
+   "date": "2026-11-09",
+   "reason": "The 2013 year was the notice's print issue (Retraction Watch 2013-01-15); the notice was online 27 Dec 2012 and in PubMed by 29 Dec 2012. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "24018781",
+   "field": "retraction_year",
+   "old": "2016",
+   "new": "2015",
+   "notice_pmid": "26238280",
+   "notice_online": "2015-08-04",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 26238280 (Inflammation 2016 Feb;39(1):502; PubMed entry 2015-08-05), RetractionIn link on PubMed 24018781; Crossref doi:10.1007/s10753-015-0223-0 published online 2015-08-04 (registered 2015-08-03), print 2016-02",
+   "date": "2026-11-09",
+   "reason": "The 2016 year was the notice's print issue (Retraction Watch 2016-02-01); the notice was online 4 Aug 2015. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "24408401",
+   "field": "retraction_year",
+   "old": "2015",
+   "new": "2014",
+   "notice_pmid": "25538318",
+   "notice_online": "2014-12-23",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 25538318 (Diabetes Care 2015 Jan;38(1):179; PubMed entry 2014-12-25), RetractionIn link on PubMed 24408401; Crossref doi:10.2337/dc15-rt01a published online 2014-12-23 (registered 2014-12-23), print 2015-01",
+   "date": "2026-11-09",
+   "reason": "The 2015 year was the notice's print issue (Retraction Watch 2015-01-01); the notice was online 23 Dec 2014 and in PubMed by 25 Dec 2014. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "24757230",
+   "field": "retraction_year",
+   "old": "2015",
+   "new": "2014",
+   "notice_pmid": "25538317",
+   "notice_online": "2014-12-23",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 25538317 (Diabetes Care 2015 Jan;38(1):178; PubMed entry 2014-12-25), RetractionIn link on PubMed 24757230; Crossref doi:10.2337/dc15-rt01 published online 2014-12-23 (registered 2014-12-23), print 2015-01",
+   "date": "2026-11-09",
+   "reason": "The 2015 year was the notice's print issue (Retraction Watch 2015-01-01); the notice was online 23 Dec 2014 and in PubMed by 25 Dec 2014. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
+  },
+  {
+   "retracted_pmid": "7972134",
+   "field": "retraction_year",
+   "old": "2003",
+   "new": "2002",
+   "notice_pmid": "16576748",
+   "notice_online": "2002-12-26",
+   "boundary_keep": [],
+   "boundary_drop": [],
+   "source": "PubMed 16576748 (Proc Natl Acad Sci U S A 2003 Jan 7;100(1):382, PMC140860), RetractionIn link on PubMed 7972134; PMC140860 epub date 2002-12-26; Crossref doi:10.1073/pnas.0234540100 published online 2002-12-26",
+   "date": "2026-11-09",
+   "reason": "The 2003 year was the notice's print issue (Retraction Watch 2003-01-07); PNAS published the notice online 26 Dec 2002. No citation changes: every citing paper of this work in the census is from a year after the old year, so after the corrected one too. The printed retraction year changes."
   }
  ],
  "exclude_citing": [
@@ -904,8 +1021,3659 @@
    "source": "Independent check of the citing paper's full text and the retracted paper (PubMed, Europe PMC), 23 Oct 2026",
    "date": "2026-10-23",
    "reason": "the in-text citation or reference entry does not point to the retracted paper (for a printed reference, the notice's own title marks a citation of the notice)."
+  },
+  {
+   "citing_pmcid": "PMC7126766",
+   "pairs": [
+    "11535583>PMC7126766"
+   ],
+   "first_online": "2005-08-30",
+   "retracted": {
+    "11535583": "2005-12-30 (Retraction Watch, PubMed notice; notice PMID 16498716)"
+   },
+   "source": "PubMed 16137713 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC2667682",
+   "pairs": [
+    "16421562>PMC2667682"
+   ],
+   "first_online": "2008-10-29",
+   "retracted": {
+    "16421562": "2008-12-11 (Retraction Watch, PubMed notice; notice PMID 19079059)"
+   },
+   "source": "PubMed 18980639 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC3918146",
+   "pairs": [
+    "10026173>PMC3918146"
+   ],
+   "first_online": "2009-11-27",
+   "retracted": {
+    "10026173": "2009-12-04 (Retraction Watch, PubMed notice; notice PMID 19960604)"
+   },
+   "source": "PubMed 19945487 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC3025564",
+   "pairs": [
+    "19665971>PMC3025564"
+   ],
+   "first_online": "2010-09-19",
+   "retracted": {
+    "19665971": "2010-11-12 (Retraction Watch, PubMed notice; notice PMID 21074053)"
+   },
+   "source": "PubMed 20855290 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC3084322",
+   "pairs": [
+    "17057710>PMC3084322"
+   ],
+   "first_online": "2010-11-09",
+   "retracted": {
+    "17057710": "2011-01-07 (Retraction Watch; notice PMID 21217686)"
+   },
+   "source": "PubMed 21060324 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC3245923",
+   "pairs": [
+    "19815723>PMC3245923"
+   ],
+   "first_online": "2011-09-08",
+   "retracted": {
+    "19815723": "2011-12-23 (Retraction Watch, PubMed notice; notice PMID 22194552)"
+   },
+   "source": "PubMed 21908397 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC3535349",
+   "pairs": [
+    "22019085>PMC3535349"
+   ],
+   "first_online": "2012-05-13",
+   "retracted": {
+    "22019085": "2012-06-06 (Retraction Watch, PubMed notice; notice PMID 22866335)"
+   },
+   "source": "PubMed 22581367 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC3644861",
+   "pairs": [
+    "16609730>PMC3644861"
+   ],
+   "first_online": "2012-06-13",
+   "retracted": {
+    "16609730": "2012-09-18 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 23028303, doi:10.1371/annotation/7e2efc01-2e9b-4e9b-aef0-87ab0e4e4732)"
+   },
+   "source": "PubMed 22690676 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC3935006",
+   "pairs": [
+    "19776015>PMC3935006"
+   ],
+   "first_online": "2013-07-12",
+   "retracted": {
+    "19776015": "2013-10-18 (Retraction Watch, PubMed notice; notice PMID 24143014)"
+   },
+   "source": "PubMed 23845141 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC4364066",
+   "pairs": [
+    "22433437>PMC4364066"
+   ],
+   "first_online": "2014-04-09",
+   "retracted": {
+    "22433437": "2014-09-17 (Crossref notice registered; notice PMID 25779920, doi:10.1186/s12918-014-0105-3)"
+   },
+   "source": "PubMed 24723570 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC4198514",
+   "pairs": [
+    "17435748>PMC4198514"
+   ],
+   "first_online": "2014-04-15",
+   "retracted": {
+    "17435748": "2014-10-31 (Retraction Watch; notice PMID 25358354)"
+   },
+   "source": "PubMed 24732594 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC4305348",
+   "pairs": [
+    "23743517>PMC4305348"
+   ],
+   "first_online": "2014-07-24",
+   "retracted": {
+    "23743517": "2014-08-01 (Retraction Watch, PubMed notice Epub; notice PMID 25252332)"
+   },
+   "source": "PubMed 25056599 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC4375084",
+   "pairs": [
+    "17952062>PMC4375084"
+   ],
+   "first_online": "2014-10-28",
+   "retracted": {
+    "17952062": "2014-10-31 (Retraction Watch; notice PMID 25358353)"
+   },
+   "source": "PubMed 25352637 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC4767794",
+   "pairs": [
+    "19817545>PMC4767794"
+   ],
+   "first_online": "2015-05-30",
+   "retracted": {
+    "19817545": "2015-10-02 (Retraction Watch, PubMed notice Epub; notice PMID 26430839)"
+   },
+   "source": "PubMed 26966564 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC4486321",
+   "pairs": [
+    "18524889>PMC4486321"
+   ],
+   "first_online": "2015-06-29",
+   "retracted": {
+    "18524889": "2015-06-30 (Retraction Watch; notice PMID 26130290)"
+   },
+   "source": "PubMed 26119936 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5298004",
+   "pairs": [
+    "21688882>PMC5298004"
+   ],
+   "first_online": "2015-07-22",
+   "retracted": {
+    "21688882": "2016-08-01 (Retraction Watch; notice PMID 27504664)"
+   },
+   "source": "PubMed 28239234 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC4757517",
+   "pairs": [
+    "24985976>PMC4757517"
+   ],
+   "first_online": "2015-08-17",
+   "retracted": {
+    "24985976": "2015-08-18 (Retraction Watch; notice PMID 26285940)"
+   },
+   "source": "PubMed 26279298 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC4805362",
+   "pairs": [
+    "24049119>PMC4805362"
+   ],
+   "first_online": "2015-11-30",
+   "retracted": {
+    "24049119": "2015-12-01 (Retraction Watch, PubMed notice; notice PMID 26628114)"
+   },
+   "source": "PubMed 27073733 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5314998",
+   "pairs": [
+    "26134399>PMC5314998"
+   ],
+   "first_online": "2016-06-23",
+   "retracted": {
+    "26134399": "2016-10-28 (Crossref notice registered; notice PMID 27802803, doi:10.1186/s13000-016-0556-5)"
+   },
+   "source": "PubMed 27222038 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5359687",
+   "pairs": [
+    "25883318>PMC5359687"
+   ],
+   "first_online": "2016-07-13",
+   "retracted": {
+    "25883318": "2016-12-16 (Retraction Watch, PubMed notice; notice PMID 27980177)"
+   },
+   "source": "PubMed 27228792 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5589559",
+   "pairs": [
+    "18776222>PMC5589559"
+   ],
+   "first_online": "2016-07-13",
+   "retracted": {
+    "18776222": "2016-10-21 (Retraction Watch, PubMed notice; notice PMID 27825080)"
+   },
+   "source": "PubMed 28903320 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5701685",
+   "pairs": [
+    "24890648>PMC5701685",
+    "25142235>PMC5701685",
+    "26170013>PMC5701685",
+    "26248880>PMC5701685",
+    "26388701>PMC5701685"
+   ],
+   "first_online": "2016-07-20",
+   "retracted": {
+    "24890648": "2016-11-04 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 27814733, doi:10.1186/s12957-016-1032-0)",
+    "25142235": "2016-11-05 (Retraction Watch, PubMed notice Epub; notice PMID 27817084)",
+    "26170013": "2016-10-28 (Crossref notice registered; notice PMID 27802806, doi:10.1186/s13000-016-0559-2)",
+    "26248880": "2016-11-02 (Retraction Watch, PubMed notice Epub, PubMed notice; notice PMID 27802818)",
+    "26388701": "2016-11-04 (Retraction Watch, PubMed notice Epub; notice PMID 27822140)"
+   },
+   "source": "PubMed 29181070 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6040124",
+   "pairs": [
+    "24890648>PMC6040124",
+    "25142235>PMC6040124",
+    "26170013>PMC6040124",
+    "26388701>PMC6040124"
+   ],
+   "first_online": "2016-08-09",
+   "retracted": {
+    "24890648": "2016-11-04 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 27814733, doi:10.1186/s12957-016-1032-0)",
+    "25142235": "2016-11-05 (Retraction Watch, PubMed notice Epub; notice PMID 27817084)",
+    "26170013": "2016-10-28 (Crossref notice registered; notice PMID 27802806, doi:10.1186/s13000-016-0559-2)",
+    "26388701": "2016-11-04 (Retraction Watch, PubMed notice Epub; notice PMID 27822140)"
+   },
+   "source": "PubMed 30002700 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5293693",
+   "pairs": [
+    "24444100>PMC5293693"
+   ],
+   "first_online": "2016-10-10",
+   "retracted": {
+    "24444100": "2016-10-28 (Crossref notice registered; notice PMID 27802814, doi:10.1186/s13000-016-0576-1)"
+   },
+   "source": "PubMed 28190926 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5794886",
+   "pairs": [
+    "23566496>PMC5794886"
+   ],
+   "first_online": "2016-11-01",
+   "retracted": {
+    "23566496": "2017-07-04 (Retraction Watch)"
+   },
+   "source": "PubMed 27801890 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7844554",
+   "pairs": [
+    "25091573>PMC7844554"
+   ],
+   "first_online": "2017-04-03",
+   "retracted": {
+    "25091573": "2017-04-20 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued; notice PMID 28792236, doi:10.1007/s13277-017-5487-6)"
+   },
+   "source": "PubMed 28390112 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7844636",
+   "pairs": [
+    "27688736>PMC7844636"
+   ],
+   "first_online": "2017-05-22",
+   "retracted": {
+    "27688736": "2017-06-02 (Retraction Watch, PubMed notice Epub; notice PMID 28588425)"
+   },
+   "source": "PubMed 28550682 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5829270",
+   "pairs": [
+    "25525240>PMC5829270"
+   ],
+   "first_online": "2017-06-08",
+   "retracted": {
+    "25525240": "2017-10-26 (Retraction Watch; notice PMID 29074761)"
+   },
+   "source": "PubMed 28593618 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7844699",
+   "pairs": [
+    "26443801>PMC7844699"
+   ],
+   "first_online": "2017-06-23",
+   "retracted": {
+    "26443801": "2017-07-17 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued; notice PMID 28712335, doi:10.1177/1533034617722424)"
+   },
+   "source": "PubMed 28653601 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6323171",
+   "pairs": [
+    "23664770>PMC6323171"
+   ],
+   "first_online": "2017-08-16",
+   "retracted": {
+    "23664770": "2018-08-20 (Retraction Watch; notice PMID 30126731)"
+   },
+   "source": "PubMed 30662294 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC5684498",
+   "pairs": [
+    "21987578>PMC5684498"
+   ],
+   "first_online": "2017-10-05",
+   "retracted": {
+    "21987578": "2017-12-13 (Retraction Watch; notice PMID 29305523)"
+   },
+   "source": "PubMed 29159201 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7848420",
+   "pairs": [
+    "28964779>PMC7848420"
+   ],
+   "first_online": "2018-03-09",
+   "retracted": {
+    "28964779": "2018-06-04 (Retraction Watch; notice PMID 29880422)"
+   },
+   "source": "PubMed 29523222 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7848264",
+   "pairs": [
+    "28964779>PMC7848264"
+   ],
+   "first_online": "2018-04-20",
+   "retracted": {
+    "28964779": "2018-06-04 (Retraction Watch; notice PMID 29880422)"
+   },
+   "source": "PubMed 29678219 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7036057",
+   "pairs": [
+    "15665298>PMC7036057"
+   ],
+   "first_online": "2018-06-07",
+   "retracted": {
+    "15665298": "2018-06-14 (Retraction Watch, Crossref notice online, Crossref notice issued; notice PMID 29907685, doi:10.1158/0008-5472.can-18-1191)"
+   },
+   "source": "PubMed 29882089 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6300464",
+   "pairs": [
+    "25893447>PMC6300464"
+   ],
+   "first_online": "2018-06-25",
+   "retracted": {
+    "25893447": "2018-10-05 (Retraction Watch, PubMed notice Epub; notice PMID 30286604)"
+   },
+   "source": "PubMed 30581608 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6318039",
+   "pairs": [
+    "29253189>PMC6318039"
+   ],
+   "first_online": "2018-08-28",
+   "retracted": {
+    "29253189": "2018-10-29 (Retraction Watch; notice PMID 30376046)"
+   },
+   "source": "PubMed 30058263 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7033332",
+   "pairs": [
+    "25099178>PMC7033332"
+   ],
+   "first_online": "2018-10-06",
+   "retracted": {
+    "25099178": "2019-04-30 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 31039201, doi:10.1371/journal.pone.0216473)"
+   },
+   "source": "PubMed 32148394 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6319349",
+   "pairs": [
+    "20522802>PMC6319349"
+   ],
+   "first_online": "2018-11-01",
+   "retracted": {
+    "20522802": "2018-12-12 (Retraction Watch; notice PMID 30582463, doi:10.1161/res.0000000000000246)"
+   },
+   "source": "PubMed 30528086 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6351826",
+   "pairs": [
+    "26214134>PMC6351826"
+   ],
+   "first_online": "2018-11-18",
+   "retracted": {
+    "26214134": "2018-12-14 (Crossref notice registered; notice PMID 30559458, doi:10.1038/s41556-018-0259-0)"
+   },
+   "source": "PubMed 30450724 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6341838",
+   "pairs": [
+    "21738696>PMC6341838"
+   ],
+   "first_online": "2018-12-06",
+   "retracted": {
+    "21738696": "2018-12-31 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 30596780, doi:10.1371/journal.pone.0210343)"
+   },
+   "source": "PubMed 30675233 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7083578",
+   "pairs": [
+    "29971151>PMC7083578"
+   ],
+   "first_online": "2019-03-15",
+   "retracted": {
+    "29971151": "2019-06-17 (Retraction Watch, PubMed notice Epub, PubMed notice; notice PMID 31530304)"
+   },
+   "source": "PubMed 30874500 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6930832",
+   "pairs": [
+    "25057490>PMC6930832"
+   ],
+   "first_online": "2019-07-18",
+   "retracted": {
+    "25057490": "2019-10-29 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 31781618, doi:10.1155/2019/4729651)"
+   },
+   "source": "PubMed 31318169 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7367908",
+   "pairs": [
+    "28856631>PMC7367908"
+   ],
+   "first_online": "2019-07-20",
+   "retracted": {
+    "28856631": "2019-10-22 (Retraction Watch, Crossref notice online, Crossref notice issued; notice PMID 31641919, doi:10.1007/s10877-019-00403-y)"
+   },
+   "source": "PubMed 31327102 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7859428",
+   "pairs": [
+    "17875968>PMC7859428"
+   ],
+   "first_online": "2019-09-09",
+   "retracted": {
+    "17875968": "2020-09-25 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice registered; notice PMID 32975449, doi:10.1161/cir.0000000000000919)"
+   },
+   "source": "PubMed 33569517 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7468359",
+   "pairs": [
+    "12824177>PMC7468359"
+   ],
+   "first_online": "2019-09-12",
+   "retracted": {
+    "12824177": "2019-11-22 (Retraction Watch, PubMed notice; notice PMID 31757803)"
+   },
+   "source": "PubMed 31515527 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7058566",
+   "pairs": [
+    "25408499>PMC7058566"
+   ],
+   "first_online": "2019-09-16",
+   "retracted": {
+    "25408499": "2019-10-11 (Retraction Watch, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 31605267, doi:10.1007/s10508-019-01558-0)"
+   },
+   "source": "PubMed 31529224 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8924837",
+   "pairs": [
+    "28322459>PMC8924837"
+   ],
+   "first_online": "2019-09-17",
+   "retracted": {
+    "28322459": "2021-06-30 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34189745, doi:10.1002/jcb.30023)"
+   },
+   "source": "PubMed 35316914 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6920321",
+   "pairs": [
+    "29506272>PMC6920321"
+   ],
+   "first_online": "2019-11-18",
+   "retracted": {
+    "29506272": "2019-12-11 (Retraction Watch; notice PMID 31826230)"
+   },
+   "source": "PubMed 31841993 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10696993",
+   "pairs": [
+    "29332545>PMC10696993"
+   ],
+   "first_online": "2019-11-25",
+   "retracted": {
+    "29332545": "2021-08-24 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 34428083, doi:10.1177/15330338211039594)"
+   },
+   "source": "PubMed 38058696 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6924095",
+   "pairs": [
+    "25105419>PMC6924095"
+   ],
+   "first_online": "2019-11-28",
+   "retracted": {
+    "25105419": "2019-12-31 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 31891642, doi:10.1371/journal.pone.0227503)"
+   },
+   "source": "PubMed 31897178 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC6960393",
+   "pairs": [
+    "25105419>PMC6960393"
+   ],
+   "first_online": "2019-12-23",
+   "retracted": {
+    "25105419": "2019-12-31 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 31891642, doi:10.1371/journal.pone.0227503)"
+   },
+   "source": "PubMed 32002031 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7959056",
+   "pairs": [
+    "17626077>PMC7959056"
+   ],
+   "first_online": "2020-01-03",
+   "retracted": {
+    "17626077": "2020-09-14 (Crossref notice registered; notice PMID 32934071, doi:10.1128/jvi.01403-20)"
+   },
+   "source": "PubMed 33747272 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11094837",
+   "pairs": [
+    "29975944>PMC11094837"
+   ],
+   "first_online": "2020-02-02",
+   "retracted": {
+    "29975944": "2021-04-01 (Retraction Watch; notice PMID 33914442)"
+   },
+   "source": "PubMed 38757012 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11264155",
+   "pairs": [
+    "31198405>PMC11264155"
+   ],
+   "first_online": "2020-02-02",
+   "retracted": {
+    "31198405": "2022-12-14 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36517807, doi:10.1186/s12935-022-02823-4)"
+   },
+   "source": "PubMed 39050167 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10408017",
+   "pairs": [
+    "25728273>PMC10408017"
+   ],
+   "first_online": "2020-02-04",
+   "retracted": {
+    "25728273": "2022-10-12 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 36222169, doi:10.1002/1873-3468.14488)"
+   },
+   "source": "PubMed 37560720 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11094843",
+   "pairs": [
+    "31345099>PMC11094843"
+   ],
+   "first_online": "2020-02-24",
+   "retracted": {
+    "31345099": "2022-03-17 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 35297314, doi:10.1080/15384101.2022.2046802)"
+   },
+   "source": "PubMed 38757029 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10895959",
+   "pairs": [
+    "26156803>PMC10895959"
+   ],
+   "first_online": "2020-04-14",
+   "retracted": {
+    "26156803": "2021-12-21 (Retraction Watch; notice PMID 34957978)"
+   },
+   "source": "PubMed 38414466 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11969555",
+   "pairs": [
+    "31749882>PMC11969555"
+   ],
+   "first_online": "2020-04-15",
+   "retracted": {
+    "31749882": "2023-03-16 (Retraction Watch, PubMed notice Epub; notice PMID 37034538)"
+   },
+   "source": "PubMed 40190312 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12305514",
+   "pairs": [
+    "28114937>PMC12305514"
+   ],
+   "first_online": "2020-04-15",
+   "retracted": {
+    "28114937": "2022-12-28 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36577974, doi:10.1186/s12943-022-01702-w)"
+   },
+   "source": "PubMed 40741253 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12892276",
+   "pairs": [
+    "31749882>PMC12892276"
+   ],
+   "first_online": "2020-05-18",
+   "retracted": {
+    "31749882": "2023-03-16 (Retraction Watch, PubMed notice Epub; notice PMID 37034538)"
+   },
+   "source": "PubMed 41684581 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8640558",
+   "pairs": [
+    "27225984>PMC8640558"
+   ],
+   "first_online": "2020-05-23",
+   "retracted": {
+    "27225984": "2020-10-28 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 33116217, doi:10.1038/s41598-020-72330-x)"
+   },
+   "source": "PubMed 34736875 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8847843",
+   "pairs": [
+    "32910110>PMC8847843"
+   ],
+   "first_online": "2020-05-23",
+   "retracted": {
+    "32910110": "2020-08-30 (Retraction Watch, Crossref notice online, Crossref notice registered; , doi:10.1155/2020/5014928)"
+   },
+   "source": "PubMed 35166210 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11264078",
+   "pairs": [
+    "28912095>PMC11264078"
+   ],
+   "first_online": "2020-05-25",
+   "retracted": {
+    "28912095": "2023-01-07 (Retraction Watch; notice PMID 36623909)"
+   },
+   "source": "PubMed 39050153 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11969508",
+   "pairs": [
+    "30244246>PMC11969508"
+   ],
+   "first_online": "2020-05-25",
+   "retracted": {
+    "30244246": "2022-10-31 (Retraction Watch, PubMed notice; notice PMID 36354972)"
+   },
+   "source": "PubMed 40190330 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12892292",
+   "pairs": [
+    "30982999>PMC12892292"
+   ],
+   "first_online": "2020-05-30",
+   "retracted": {
+    "30982999": "2021-06-30 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued; notice PMID 34191357, doi:10.1002/jcb.30068)"
+   },
+   "source": "PubMed 41684559 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7806407",
+   "pairs": [
+    "30829011>PMC7806407"
+   ],
+   "first_online": "2020-06-10",
+   "retracted": {
+    "30829011": "2020-08-17 (Retraction Watch; notice PMID 32893535, doi:10.1631/jzus.b18r0122)"
+   },
+   "source": "PubMed 32517422 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12087337",
+   "pairs": [
+    "29512690>PMC12087337"
+   ],
+   "first_online": "2020-06-12",
+   "retracted": {
+    "29512690": "2021-04-07 (Retraction Watch; notice PMID 33846770)"
+   },
+   "source": "PubMed 40395888 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12892268",
+   "pairs": [
+    "32542094>PMC12892268"
+   ],
+   "first_online": "2020-06-12",
+   "retracted": {
+    "32542094": "2023-03-16 (Retraction Watch, PubMed notice Epub; notice PMID 37034514)"
+   },
+   "source": "PubMed 41684565 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11094829",
+   "pairs": [
+    "30745529>PMC11094829"
+   ],
+   "first_online": "2020-06-15",
+   "retracted": {
+    "30745529": "2022-01-29 (Retraction Watch; notice PMID 35095071)"
+   },
+   "source": "PubMed 38757011 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12892273",
+   "pairs": [
+    "28259970>PMC12892273",
+    "31749882>PMC12892273"
+   ],
+   "first_online": "2020-06-15",
+   "retracted": {
+    "28259970": "2023-09-18 (Retraction Watch; notice PMID 37732553)",
+    "31749882": "2023-03-16 (Retraction Watch, PubMed notice Epub; notice PMID 37034538)"
+   },
+   "source": "PubMed 41684577 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12892284",
+   "pairs": [
+    "31749882>PMC12892284"
+   ],
+   "first_online": "2020-06-15",
+   "retracted": {
+    "31749882": "2023-03-16 (Retraction Watch, PubMed notice Epub; notice PMID 37034538)"
+   },
+   "source": "PubMed 41684557 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7304245",
+   "pairs": [
+    "30865236>PMC7304245"
+   ],
+   "first_online": "2020-06-15",
+   "retracted": {
+    "30865236": "2020-06-17 (Retraction Watch; notice PMID 32629467)"
+   },
+   "source": "PubMed 32541809 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8288418",
+   "pairs": [
+    "25104378>PMC8288418"
+   ],
+   "first_online": "2020-06-17",
+   "retracted": {
+    "25104378": "2020-08-14 (Retraction Watch, PubMed notice; notice PMID 32792388)"
+   },
+   "source": "PubMed 34691629 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7891446",
+   "pairs": [
+    "28872184>PMC7891446"
+   ],
+   "first_online": "2020-06-21",
+   "retracted": {
+    "28872184": "2020-12-04 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 33496961, doi:10.1111/jre.12815)"
+   },
+   "source": "PubMed 32474936 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC13154746",
+   "pairs": [
+    "31749882>PMC13154746"
+   ],
+   "first_online": "2020-06-23",
+   "retracted": {
+    "31749882": "2023-03-16 (Retraction Watch, PubMed notice Epub; notice PMID 37034538)"
+   },
+   "source": "PubMed 42110598 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8841407",
+   "pairs": [
+    "30280766>PMC8841407"
+   ],
+   "first_online": "2020-06-25",
+   "retracted": {
+    "30280766": "2020-07-01 (Retraction Watch; notice PMID 32744675)"
+   },
+   "source": "PubMed 32356935 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7353829",
+   "pairs": [
+    "32361387>PMC7353829"
+   ],
+   "first_online": "2020-07-11",
+   "retracted": {
+    "32361387": "2020-11-03 (Retraction Watch; notice PMID 33271739)"
+   },
+   "source": "PubMed 32654065 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8486689",
+   "pairs": [
+    "26712979>PMC8486689"
+   ],
+   "first_online": "2020-07-16",
+   "retracted": {
+    "26712979": "2020-10-12 (Retraction Watch; notice PMID 33487843)"
+   },
+   "source": "PubMed 34632348 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7838147",
+   "pairs": [
+    "29119055>PMC7838147"
+   ],
+   "first_online": "2020-07-18",
+   "retracted": {
+    "29119055": "2020-12-01 (Retraction Watch, PubMed notice Epub; notice PMID 33415025)"
+   },
+   "source": "PubMed 32683508 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7862530",
+   "pairs": [
+    "26765842>PMC7862530"
+   ],
+   "first_online": "2020-07-22",
+   "retracted": {
+    "26765842": "2020-07-23 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 32702061, doi:10.1371/journal.pone.0236885)"
+   },
+   "source": "PubMed 32700246 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8046386",
+   "pairs": [
+    "25621839>PMC8046386"
+   ],
+   "first_online": "2020-07-26",
+   "retracted": {
+    "25621839": "2020-12-17 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 33332447, doi:10.1371/journal.pone.0244268)"
+   },
+   "source": "PubMed 33880345 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7993723",
+   "pairs": [
+    "31173293>PMC7993723"
+   ],
+   "first_online": "2020-08-07",
+   "retracted": {
+    "31173293": "2020-12-01 (Retraction Watch; notice PMID 33336716)"
+   },
+   "source": "PubMed 32784268 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC13266754",
+   "pairs": [
+    "28609843>PMC13266754"
+   ],
+   "first_online": "2020-08-14",
+   "retracted": {
+    "28609843": "2022-03-07 (Retraction Watch, PubMed notice Epub; notice PMID 35272894)"
+   },
+   "source": "PubMed 42305315 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC13266783",
+   "pairs": [
+    "28651608>PMC13266783"
+   ],
+   "first_online": "2020-08-25",
+   "retracted": {
+    "28651608": "2022-09-29 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry; notice PMID 36175912)"
+   },
+   "source": "PubMed 42305299 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8358202",
+   "pairs": [
+    "32285705>PMC8358202"
+   ],
+   "first_online": "2020-08-27",
+   "retracted": {
+    "32285705": "2020-10-21 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 33084442, doi:10.1080/21691401.2020.1807754)"
+   },
+   "source": "PubMed 33077406 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7893118",
+   "pairs": [
+    "30668322>PMC7893118"
+   ],
+   "first_online": "2020-09-08",
+   "retracted": {
+    "30668322": "2020-09-21 (Retraction Watch, PubMed notice Epub; notice PMID 32972797)"
+   },
+   "source": "PubMed 33643815 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9127839",
+   "pairs": [
+    "29227532>PMC9127839"
+   ],
+   "first_online": "2020-09-16",
+   "retracted": {
+    "29227532": "2021-06-10 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34111302, doi:10.1002/jcb.30020)"
+   },
+   "source": "PubMed 32935999 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9243315",
+   "pairs": [
+    "30368887>PMC9243315"
+   ],
+   "first_online": "2020-10-06",
+   "retracted": {
+    "30368887": "2021-08-12 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34383343, doi:10.1002/jcb.30130)"
+   },
+   "source": "PubMed 35782974 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12458067",
+   "pairs": [
+    "25170273>PMC12458067"
+   ],
+   "first_online": "2020-10-13",
+   "retracted": {
+    "25170273": "2022-06-23 (Retraction Watch, PubMed notice Epub; notice PMID 35769125)"
+   },
+   "source": "PubMed 41001137 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7734233",
+   "pairs": [
+    "28629431>PMC7734233"
+   ],
+   "first_online": "2020-10-15",
+   "retracted": {
+    "28629431": "2020-10-22 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 33092612, doi:10.1186/s13045-020-00969-0)"
+   },
+   "source": "PubMed 33335801 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7904710",
+   "pairs": [
+    "28550679>PMC7904710"
+   ],
+   "first_online": "2020-10-20",
+   "retracted": {
+    "28550679": "2020-11-01 (Retraction Watch)"
+   },
+   "source": "PubMed 33079227 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7590584",
+   "pairs": [
+    "30372446>PMC7590584"
+   ],
+   "first_online": "2020-10-24",
+   "retracted": {
+    "30372446": "2020-11-18 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 33206728, doi:10.1371/journal.pone.0242853)"
+   },
+   "source": "PubMed 33129107 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7791175",
+   "pairs": [
+    "29384226>PMC7791175"
+   ],
+   "first_online": "2020-10-25",
+   "retracted": {
+    "29384226": "2020-12-15 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 33590515, doi:10.1002/jcb.29872)"
+   },
+   "source": "PubMed 33103338 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7860603",
+   "pairs": [
+    "25247290>PMC7860603"
+   ],
+   "first_online": "2020-11-02",
+   "retracted": {
+    "25247290": "2020-12-30 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice registered; notice PMID 33380314, doi:10.1186/s10020-020-00263-2)"
+   },
+   "source": "PubMed 33140586 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC13426146",
+   "pairs": [
+    "18057003>PMC13426146",
+    "32542094>PMC13426146"
+   ],
+   "first_online": "2020-11-05",
+   "retracted": {
+    "18057003": "2022-06-07 (Retraction Watch; notice PMID 35738192)",
+    "32542094": "2023-03-16 (Retraction Watch, PubMed notice Epub; notice PMID 37034514)"
+   },
+   "source": "PubMed 42540563 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7965852",
+   "pairs": [
+    "29693289>PMC7965852"
+   ],
+   "first_online": "2020-11-10",
+   "retracted": {
+    "29693289": "2020-12-15 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 33590514, doi:10.1002/jcb.29877)"
+   },
+   "source": "PubMed 33170304 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8134847",
+   "pairs": [
+    "18955300>PMC8134847"
+   ],
+   "first_online": "2020-11-12",
+   "retracted": {
+    "18955300": "2020-11-24 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 33299446, doi:10.1155/2020/1698627)"
+   },
+   "source": "PubMed 34025131 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7932991",
+   "pairs": [
+    "26542803>PMC7932991"
+   ],
+   "first_online": "2020-11-14",
+   "retracted": {
+    "26542803": "2020-12-25 (Retraction Watch, PubMed notice; notice PMID 33361197)"
+   },
+   "source": "PubMed 33190170 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8918412",
+   "pairs": [
+    "29073721>PMC8918412"
+   ],
+   "first_online": "2020-11-16",
+   "retracted": {
+    "29073721": "2021-06-30 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued; notice PMID 34191323, doi:10.1002/jcb.30045)"
+   },
+   "source": "PubMed 33200535 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC7787996",
+   "pairs": [
+    "21245132>PMC7787996"
+   ],
+   "first_online": "2020-11-17",
+   "retracted": {
+    "21245132": "2020-11-23 (Retraction Watch; notice PMID 33454023)"
+   },
+   "source": "PubMed 33473326 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8119517",
+   "pairs": [
+    "32321451>PMC8119517"
+   ],
+   "first_online": "2020-11-18",
+   "retracted": {
+    "32321451": "2020-12-17 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice registered; notice PMID 33334304, doi:10.1186/s12883-020-02027-1)"
+   },
+   "source": "PubMed 33210266 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8918413",
+   "pairs": [
+    "29694511>PMC8918413"
+   ],
+   "first_online": "2020-11-21",
+   "retracted": {
+    "29694511": "2021-06-02 (Retraction Watch, PubMed notice Epub, PubMed notice; notice PMID 34133474)"
+   },
+   "source": "PubMed 33219594 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8343119",
+   "pairs": [
+    "28524762>PMC8343119"
+   ],
+   "first_online": "2020-11-28",
+   "retracted": {
+    "28524762": "2020-12-11 (Retraction Watch, PubMed notice Epub, PubMed notice entry; notice PMID 33305653)"
+   },
+   "source": "PubMed 34386320 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8843880",
+   "pairs": [
+    "30770778>PMC8843880"
+   ],
+   "first_online": "2020-12-01",
+   "retracted": {
+    "30770778": "2021-04-14 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 33853669, doi:10.1186/s13287-021-02299-5)"
+   },
+   "source": "PubMed 35224148 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9243319",
+   "pairs": [
+    "26341496>PMC9243319"
+   ],
+   "first_online": "2020-12-01",
+   "retracted": {
+    "26341496": "2021-12-21 (Retraction Watch; notice PMID 34957978)"
+   },
+   "source": "PubMed 35782973 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8843879",
+   "pairs": [
+    "31322006>PMC8843879"
+   ],
+   "first_online": "2020-12-02",
+   "retracted": {
+    "31322006": "2021-04-06 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 33821732, doi:10.1080/21691401.2021.1899424)"
+   },
+   "source": "PubMed 35224149 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8126826",
+   "pairs": [
+    "31641422>PMC8126826"
+   ],
+   "first_online": "2020-12-05",
+   "retracted": {
+    "31641422": "2020-12-19 (PubMed notice Epub; notice PMID 33414891, doi:10.1155/2020/4128985)"
+   },
+   "source": "PubMed 34027088 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8918416",
+   "pairs": [
+    "31643094>PMC8918416",
+    "31865777>PMC8918416"
+   ],
+   "first_online": "2020-12-05",
+   "retracted": {
+    "31643094": "2021-06-04 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34087000, doi:10.1002/jcp.30438)",
+    "31865777": "2021-08-10 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 34375539, doi:10.1080/21691401.2021.1951970)"
+   },
+   "source": "PubMed 33277969 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8918404",
+   "pairs": [
+    "32468088>PMC8918404"
+   ],
+   "first_online": "2020-12-28",
+   "retracted": {
+    "32468088": "2021-07-02 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34213639, doi:10.1007/s00441-021-03484-x)"
+   },
+   "source": "PubMed 33372369 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8978455",
+   "pairs": [
+    "32660813>PMC8978455"
+   ],
+   "first_online": "2021-01-10",
+   "retracted": {
+    "32660813": "2021-02-06 (Retraction Watch; notice PMID 33563391)"
+   },
+   "source": "PubMed 33426935 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8918408",
+   "pairs": [
+    "31637704>PMC8918408"
+   ],
+   "first_online": "2021-02-09",
+   "retracted": {
+    "31637704": "2021-06-04 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34086990, doi:10.1002/jcp.30440)"
+   },
+   "source": "PubMed 33560588 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9639530",
+   "pairs": [
+    "28138773>PMC9639530"
+   ],
+   "first_online": "2021-02-11",
+   "retracted": {
+    "28138773": "2021-12-11 (Retraction Watch, PubMed notice entry; notice PMID 34894272)"
+   },
+   "source": "PubMed 36353319 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9170579",
+   "pairs": [
+    "30848513>PMC9170579"
+   ],
+   "first_online": "2021-02-12",
+   "retracted": {
+    "30848513": "2021-06-09 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34107094, doi:10.1002/jcb.29996)"
+   },
+   "source": "PubMed 35685474 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8836343",
+   "pairs": [
+    "30794449>PMC8836343"
+   ],
+   "first_online": "2021-02-23",
+   "retracted": {
+    "30794449": "2021-08-12 (Retraction Watch, PubMed notice Epub; notice PMID 34559616)"
+   },
+   "source": "PubMed 35169630 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8940622",
+   "pairs": [
+    "31695410>PMC8940622",
+    "32103995>PMC8940622"
+   ],
+   "first_online": "2021-03-05",
+   "retracted": {
+    "31695410": "2021-09-03 (Retraction Watch; notice PMID 34526777)",
+    "32103995": "2021-10-05 (Retraction Watch, PubMed notice Epub; notice PMID 34675542)"
+   },
+   "source": "PubMed 33674778 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8762012",
+   "pairs": [
+    "30791958>PMC8762012"
+   ],
+   "first_online": "2021-03-10",
+   "retracted": {
+    "30791958": "2021-10-27 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34706758, doi:10.1186/s13046-021-02121-3)"
+   },
+   "source": "PubMed 33692094 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12892282",
+   "pairs": [
+    "26896463>PMC12892282",
+    "31564891>PMC12892282"
+   ],
+   "first_online": "2021-03-18",
+   "retracted": {
+    "26896463": "2023-04-21 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 37083009, doi:10.1042/bsr-2015-0258_ret)",
+    "31564891": "2021-11-15 (Retraction Watch, PubMed notice Epub; notice PMID 34848969)"
+   },
+   "source": "PubMed 41684556 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9102528",
+   "pairs": [
+    "30191987>PMC9102528"
+   ],
+   "first_online": "2021-03-21",
+   "retracted": {
+    "30191987": "2021-07-20 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34287860, doi:10.1002/jcp.30517)"
+   },
+   "source": "PubMed 35591828 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC13154808",
+   "pairs": [
+    "24376640>PMC13154808"
+   ],
+   "first_online": "2021-03-25",
+   "retracted": {
+    "24376640": "2023-03-29 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36989256, doi:10.1371/journal.pone.0283113)"
+   },
+   "source": "PubMed 42110643 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9012913",
+   "pairs": [
+    "24530291>PMC9012913"
+   ],
+   "first_online": "2021-04-03",
+   "retracted": {
+    "24530291": "2021-07-07 (Retraction Watch, PubMed notice Epub; notice PMID 34246492)"
+   },
+   "source": "PubMed 35517892 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12509590",
+   "pairs": [
+    "31749882>PMC12509590"
+   ],
+   "first_online": "2021-04-05",
+   "retracted": {
+    "31749882": "2023-03-16 (Retraction Watch, PubMed notice Epub; notice PMID 37034538)"
+   },
+   "source": "PubMed 41078912 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9674406",
+   "pairs": [
+    "31187597>PMC9674406"
+   ],
+   "first_online": "2021-04-14",
+   "retracted": {
+    "31187597": "2021-11-30 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34847283, doi:10.1002/sct3.13044)"
+   },
+   "source": "PubMed 33853147 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8799875",
+   "pairs": [
+    "31674073>PMC8799875"
+   ],
+   "first_online": "2021-05-12",
+   "retracted": {
+    "31674073": "2021-06-04 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34087030, doi:10.1002/jcb.30009)"
+   },
+   "source": "PubMed 35127170 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9292504",
+   "pairs": [
+    "28522550>PMC9292504"
+   ],
+   "first_online": "2021-05-25",
+   "retracted": {
+    "28522550": "2021-06-08 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 34100528, doi:10.1042/bsr-2017-0186_ret)"
+   },
+   "source": "PubMed 34036610 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8993068",
+   "pairs": [
+    "27785603>PMC8993068"
+   ],
+   "first_online": "2021-05-30",
+   "retracted": {
+    "27785603": "2021-10-18 (Retraction Watch; notice PMID 34664102)"
+   },
+   "source": "PubMed 34057028 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8807361",
+   "pairs": [
+    "32440211>PMC8807361"
+   ],
+   "first_online": "2021-06-18",
+   "retracted": {
+    "32440211": "2021-09-29 (Retraction Watch, PubMed notice Epub; notice PMID 34616181)"
+   },
+   "source": "PubMed 34080276 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9039675",
+   "pairs": [
+    "32426266>PMC9039675"
+   ],
+   "first_online": "2021-06-26",
+   "retracted": {
+    "32426266": "2021-12-30 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 35036357, doi:10.3389/fonc.2021.839904)"
+   },
+   "source": "PubMed 35499045 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9039712",
+   "pairs": [
+    "26708300>PMC9039712"
+   ],
+   "first_online": "2021-07-02",
+   "retracted": {
+    "26708300": "2021-07-05 (Retraction Watch; notice PMID 34278509)"
+   },
+   "source": "PubMed 35528985 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8739744",
+   "pairs": [
+    "32493454>PMC8739744"
+   ],
+   "first_online": "2021-07-08",
+   "retracted": {
+    "32493454": "2021-09-30 (Retraction Watch, PubMed notice Epub, PubMed notice; notice PMID 34593013)"
+   },
+   "source": "PubMed 35028083 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9037468",
+   "pairs": [
+    "32266056>PMC9037468"
+   ],
+   "first_online": "2021-07-09",
+   "retracted": {
+    "32266056": "2021-08-06 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34362455, doi:10.1186/s13578-021-00667-5)"
+   },
+   "source": "PubMed 34241570 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8897022",
+   "pairs": [
+    "30209783>PMC8897022"
+   ],
+   "first_online": "2021-07-21",
+   "retracted": {
+    "30209783": "2021-08-25 (Retraction Watch, PubMed notice Epub, PubMed notice entry; notice PMID 34432227)"
+   },
+   "source": "PubMed 35256949 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8757420",
+   "pairs": [
+    "25400209>PMC8757420"
+   ],
+   "first_online": "2021-07-23",
+   "retracted": {
+    "25400209": "2021-08-19 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice registered; notice PMID 34409656, doi:10.1002/jbmr.4421)"
+   },
+   "source": "PubMed 35035942 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8799784",
+   "pairs": [
+    "17167072>PMC8799784"
+   ],
+   "first_online": "2021-07-29",
+   "retracted": {
+    "17167072": "2021-10-29 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34714953, doi:10.1096/fsb2.22027)"
+   },
+   "source": "PubMed 34327836 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8753521",
+   "pairs": [
+    "31359794>PMC8753521"
+   ],
+   "first_online": "2021-07-30",
+   "retracted": {
+    "31359794": "2021-09-02 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 34472407, doi:10.1177/20587384211040399)"
+   },
+   "source": "PubMed 35058726 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9197817",
+   "pairs": [
+    "32731843>PMC9197817"
+   ],
+   "first_online": "2021-08-12",
+   "retracted": {
+    "32731843": "2021-08-17 (Retraction Watch, PubMed notice Epub, PubMed notice entry; notice PMID 34402754)"
+   },
+   "source": "PubMed 34383194 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8921146",
+   "pairs": [
+    "24315995>PMC8921146"
+   ],
+   "first_online": "2021-08-16",
+   "retracted": {
+    "24315995": "2021-09-14 (Retraction Watch, PubMed notice; notice PMID 34525341)"
+   },
+   "source": "PubMed 34398301 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8683616",
+   "pairs": [
+    "32286148>PMC8683616"
+   ],
+   "first_online": "2021-08-19",
+   "retracted": {
+    "32286148": "2021-09-01 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice registered; notice PMID 34468273, doi:10.1080/15384101.2021.1971878)"
+   },
+   "source": "PubMed 34976433 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9291215",
+   "pairs": [
+    "32765203>PMC9291215"
+   ],
+   "first_online": "2021-09-03",
+   "retracted": {
+    "32765203": "2021-11-01 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34790094, doi:10.3389/fnins.2021.793064)"
+   },
+   "source": "PubMed 34480369 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9201551",
+   "pairs": [
+    "33376626>PMC9201551"
+   ],
+   "first_online": "2021-09-06",
+   "retracted": {
+    "33376626": "2021-12-03 (PubMed notice; notice PMID 34938602)"
+   },
+   "source": "PubMed 35756810 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8790138",
+   "pairs": [
+    "32096164>PMC8790138"
+   ],
+   "first_online": "2021-09-07",
+   "retracted": {
+    "32096164": "2021-12-01 (Retraction Watch; notice PMID 34859842)"
+   },
+   "source": "PubMed 34493358 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8424618",
+   "pairs": [
+    "33492523>PMC8424618",
+    "33790308>PMC8424618"
+   ],
+   "first_online": "2021-09-08",
+   "retracted": {
+    "33492523": "2021-11-22 (Retraction Watch; notice PMID 34811571)",
+    "33790308": "2021-09-18 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34537808, doi:10.1038/s41598-021-98683-5)"
+   },
+   "source": "PubMed 34511844 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9432150",
+   "pairs": [
+    "23441155>PMC9432150"
+   ],
+   "first_online": "2021-09-09",
+   "retracted": {
+    "23441155": "2021-12-22 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34937070, doi:10.1371/journal.pone.0261919)"
+   },
+   "source": "PubMed 34508664 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8786697",
+   "pairs": [
+    "25775533>PMC8786697"
+   ],
+   "first_online": "2021-09-14",
+   "retracted": {
+    "25775533": "2021-10-27 (Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34706943, doi:10.1073/pnas.2117617118)"
+   },
+   "source": "PubMed 35106418 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8924146",
+   "pairs": [
+    "32426266>PMC8924146"
+   ],
+   "first_online": "2021-09-15",
+   "retracted": {
+    "32426266": "2021-12-30 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 35036357, doi:10.3389/fonc.2021.839904)"
+   },
+   "source": "PubMed 34524579 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8450134",
+   "pairs": [
+    "33674661>PMC8450134"
+   ],
+   "first_online": "2021-09-20",
+   "retracted": {
+    "33674661": "2021-12-14 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34907250, doi:10.1038/s41598-021-03250-7)"
+   },
+   "source": "PubMed 34547249 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9136534",
+   "pairs": [
+    "33546760>PMC9136534"
+   ],
+   "first_online": "2021-09-25",
+   "retracted": {
+    "33546760": "2021-10-07 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34620210, doi:10.1186/s13287-021-02606-0)"
+   },
+   "source": "PubMed 35646533 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8485709",
+   "pairs": [
+    "33674661>PMC8485709"
+   ],
+   "first_online": "2021-10-01",
+   "retracted": {
+    "33674661": "2021-12-14 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34907250, doi:10.1038/s41598-021-03250-7)"
+   },
+   "source": "PubMed 34629613 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9675921",
+   "pairs": [
+    "24719558>PMC9675921"
+   ],
+   "first_online": "2021-10-02",
+   "retracted": {
+    "24719558": "2021-10-08 (Retraction Watch, PubMed notice Epub; notice PMID 34803484)"
+   },
+   "source": "PubMed 36415638 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9871280",
+   "pairs": [
+    "30253373>PMC9871280"
+   ],
+   "first_online": "2021-10-09",
+   "retracted": {
+    "30253373": "2022-03-25 (Retraction Watch, PubMed notice Epub; notice PMID 35341641)"
+   },
+   "source": "PubMed 36721812 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8841261",
+   "pairs": [
+    "30009150>PMC8841261"
+   ],
+   "first_online": "2021-10-14",
+   "retracted": {
+    "30009150": "2021-10-22 (Retraction Watch, PubMed notice Epub; notice PMID 35075421)"
+   },
+   "source": "PubMed 34784460 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8526435",
+   "pairs": [
+    "34073401>PMC8526435"
+   ],
+   "first_online": "2021-10-20",
+   "retracted": {
+    "34073401": "2021-10-26 (Retraction Watch, PubMed notice Epub, PubMed notice, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 34751680, doi:10.3390/v13112154)"
+   },
+   "source": "PubMed 34687900 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8527699",
+   "pairs": [
+    "33492523>PMC8527699"
+   ],
+   "first_online": "2021-10-20",
+   "retracted": {
+    "33492523": "2021-11-22 (Retraction Watch; notice PMID 34811571)"
+   },
+   "source": "PubMed 34764042 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9611904",
+   "pairs": [
+    "30909750>PMC9611904"
+   ],
+   "first_online": "2021-10-21",
+   "retracted": {
+    "30909750": "2021-11-09 (Retraction Watch, PubMed notice Epub; notice PMID 34756103)"
+   },
+   "source": "PubMed 34728151 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10201560",
+   "pairs": [
+    "28651608>PMC10201560",
+    "29922070>PMC10201560"
+   ],
+   "first_online": "2021-10-23",
+   "retracted": {
+    "28651608": "2022-09-29 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry; notice PMID 36175912)",
+    "29922070": "2022-01-26 (Retraction Watch, PubMed notice Epub; notice PMID 35115786)"
+   },
+   "source": "PubMed 37223495 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10826620",
+   "pairs": [
+    "32384893>PMC10826620"
+   ],
+   "first_online": "2021-10-26",
+   "retracted": {
+    "32384893": "2022-06-17 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry; notice PMID 35715798)"
+   },
+   "source": "PubMed 34699315 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10802192",
+   "pairs": [
+    "32614239>PMC10802192"
+   ],
+   "first_online": "2021-10-28",
+   "retracted": {
+    "32614239": "2022-08-08 (Retraction Watch, PubMed notice entry; notice PMID 35939719)"
+   },
+   "source": "PubMed 34709983 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9297877",
+   "pairs": [
+    "30272368>PMC9297877"
+   ],
+   "first_online": "2021-10-28",
+   "retracted": {
+    "30272368": "2021-12-03 (Retraction Watch; notice PMID 34878157)"
+   },
+   "source": "PubMed 34679195 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8695379",
+   "pairs": [
+    "32424282>PMC8695379"
+   ],
+   "first_online": "2021-11-01",
+   "retracted": {
+    "32424282": "2021-12-14 (Retraction Watch; notice PMID 34907396)"
+   },
+   "source": "PubMed 34725437 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8600399",
+   "pairs": [
+    "30185781>PMC8600399"
+   ],
+   "first_online": "2021-11-02",
+   "retracted": {
+    "30185781": "2021-11-08 (Retraction Watch; notice PMID 34750496)"
+   },
+   "source": "PubMed 34726254 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9871276",
+   "pairs": [
+    "25327287>PMC9871276"
+   ],
+   "first_online": "2021-11-10",
+   "retracted": {
+    "25327287": "2021-12-21 (Retraction Watch; notice PMID 34957978)"
+   },
+   "source": "PubMed 36721820 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8585639",
+   "pairs": [
+    "34434540>PMC8585639"
+   ],
+   "first_online": "2021-11-12",
+   "retracted": {
+    "34434540": "2021-11-21 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 34840711, doi:10.1177/20406223211056430)"
+   },
+   "source": "PubMed 34801852 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8606168",
+   "pairs": [
+    "33492523>PMC8606168"
+   ],
+   "first_online": "2021-11-21",
+   "retracted": {
+    "33492523": "2021-11-22 (Retraction Watch; notice PMID 34811571)"
+   },
+   "source": "PubMed 34802072 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10014187",
+   "pairs": [
+    "27236543>PMC10014187"
+   ],
+   "first_online": "2021-12-02",
+   "retracted": {
+    "27236543": "2022-07-19 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry; notice PMID 35851000)"
+   },
+   "source": "PubMed 36926602 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC8764575",
+   "pairs": [
+    "33262943>PMC8764575"
+   ],
+   "first_online": "2021-12-27",
+   "retracted": {
+    "33262943": "2021-12-30 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 35036359, doi:10.3389/fonc.2021.840086)"
+   },
+   "source": "PubMed 35069851 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10308071",
+   "pairs": [
+    "30116351>PMC10308071"
+   ],
+   "first_online": "2022-02-18",
+   "retracted": {
+    "30116351": "2022-02-21 (Retraction Watch, PubMed notice Epub; notice PMID 35317449)"
+   },
+   "source": "PubMed 37396527 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9647095",
+   "pairs": [
+    "33407436>PMC9647095"
+   ],
+   "first_online": "2022-04-15",
+   "retracted": {
+    "33407436": "2022-06-25 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 35752804, doi:10.1186/s12931-022-02066-x)"
+   },
+   "source": "PubMed 36406327 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10125247",
+   "pairs": [
+    "28288411>PMC10125247"
+   ],
+   "first_online": "2022-04-18",
+   "retracted": {
+    "28288411": "2022-07-19 (Retraction Watch; notice PMID 35868875)"
+   },
+   "source": "PubMed 37102042 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10363596",
+   "pairs": [
+    "31819433>PMC10363596"
+   ],
+   "first_online": "2022-04-22",
+   "retracted": {
+    "31819433": "2022-08-04 (Retraction Watch, PubMed notice Epub; notice PMID 35959281)"
+   },
+   "source": "PubMed 37492708 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11045201",
+   "pairs": [
+    "32594292>PMC11045201"
+   ],
+   "first_online": "2022-05-19",
+   "retracted": {
+    "32594292": "2022-08-24 (Retraction Watch, PubMed notice entry; notice PMID 36001191)"
+   },
+   "source": "PubMed 38680509 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9817052",
+   "pairs": [
+    "32812996>PMC9817052"
+   ],
+   "first_online": "2022-05-27",
+   "retracted": {
+    "32812996": "2022-11-15 (Retraction Watch, PubMed notice entry; notice PMID 36377558)"
+   },
+   "source": "PubMed 36643042 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12254820",
+   "pairs": [
+    "31807002>PMC12254820",
+    "31901150>PMC12254820"
+   ],
+   "first_online": "2022-06-04",
+   "retracted": {
+    "31807002": "2022-07-08 (Retraction Watch, PubMed notice Epub; notice PMID 35837348)",
+    "31901150": "2023-05-14 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 37183304, doi:10.1002/jcla.24893)"
+   },
+   "source": "PubMed 40654486 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10191790",
+   "pairs": [
+    "31561723>PMC10191790"
+   ],
+   "first_online": "2022-06-10",
+   "retracted": {
+    "31561723": "2022-07-27 (Retraction Watch, PubMed notice Epub; notice PMID 38410957)"
+   },
+   "source": "PubMed 35686504 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10213615",
+   "pairs": [
+    "33932490>PMC10213615"
+   ],
+   "first_online": "2022-06-10",
+   "retracted": {
+    "33932490": "2022-09-09 (Retraction Watch; notice PMID 36095955)"
+   },
+   "source": "PubMed 37250158 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9939294",
+   "pairs": [
+    "29913408>PMC9939294"
+   ],
+   "first_online": "2022-06-23",
+   "retracted": {
+    "29913408": "2022-07-11 (Retraction Watch, PubMed notice Epub; notice PMID 35835662)"
+   },
+   "source": "PubMed 36815029 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9883439",
+   "pairs": [
+    "32679143>PMC9883439"
+   ],
+   "first_online": "2022-07-04",
+   "retracted": {
+    "32679143": "2022-08-06 (Retraction Watch, PubMed notice Epub; notice PMID 35945078)"
+   },
+   "source": "PubMed 35789548 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9281210",
+   "pairs": [
+    "33816415>PMC9281210"
+   ],
+   "first_online": "2022-07-13",
+   "retracted": {
+    "33816415": "2022-12-23 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36620245, doi:10.3389/fpubh.2022.1124839)"
+   },
+   "source": "PubMed 35855912 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9939231",
+   "pairs": [
+    "32982273>PMC9939231"
+   ],
+   "first_online": "2022-07-31",
+   "retracted": {
+    "32982273": "2022-12-06 (Retraction Watch, PubMed notice Epub; notice PMID 36510608)"
+   },
+   "source": "PubMed 35908280 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9939198",
+   "pairs": [
+    "33814931>PMC9939198"
+   ],
+   "first_online": "2022-08-03",
+   "retracted": {
+    "33814931": "2022-09-15 (Retraction Watch, PubMed notice Epub; notice PMID 36148317)"
+   },
+   "source": "PubMed 35920349 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10909450",
+   "pairs": [
+    "32319550>PMC10909450"
+   ],
+   "first_online": "2022-08-12",
+   "retracted": {
+    "32319550": "2022-08-25 (Retraction Watch, PubMed notice Epub, PubMed notice entry; notice PMID 36004464)"
+   },
+   "source": "PubMed 35959932 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9384546",
+   "pairs": [
+    "20399817>PMC9384546"
+   ],
+   "first_online": "2022-08-17",
+   "retracted": {
+    "20399817": "2022-08-22 (Retraction Watch; notice PMID 36030112)"
+   },
+   "source": "PubMed 35987701 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9794547",
+   "pairs": [
+    "33566191>PMC9794547"
+   ],
+   "first_online": "2022-08-18",
+   "retracted": {
+    "33566191": "2022-12-09 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36484896, doi:10.1186/s11671-022-03765-6)"
+   },
+   "source": "PubMed 35980542 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9452860",
+   "pairs": [
+    "23708709>PMC9452860",
+    "23764824>PMC9452860"
+   ],
+   "first_online": "2022-09-08",
+   "retracted": {
+    "23708709": "2023-01-06 (Retraction Watch, PubMed notice Epub; notice PMID 36621407)",
+    "23764824": "2023-01-12 (Retraction Watch; notice PMID 36746681)"
+   },
+   "source": "PubMed 36074211 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9538072",
+   "pairs": [
+    "33657152>PMC9538072"
+   ],
+   "first_online": "2022-09-27",
+   "retracted": {
+    "33657152": "2022-12-22 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36548369, doi:10.1371/journal.pone.0279796)"
+   },
+   "source": "PubMed 36168152 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9749596",
+   "pairs": [
+    "33298188>PMC9749596"
+   ],
+   "first_online": "2022-11-01",
+   "retracted": {
+    "33298188": "2022-12-02 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36461133, doi:10.1186/s40748-022-00145-x)"
+   },
+   "source": "PubMed 36319613 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9847525",
+   "pairs": [
+    "31563120>PMC9847525"
+   ],
+   "first_online": "2022-11-02",
+   "retracted": {
+    "31563120": "2022-12-16 (Retraction Watch, PubMed notice Epub; notice PMID 36589711)"
+   },
+   "source": "PubMed 36683744 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9630808",
+   "pairs": [
+    "23708709>PMC9630808"
+   ],
+   "first_online": "2022-11-03",
+   "retracted": {
+    "23708709": "2023-01-06 (Retraction Watch, PubMed notice Epub; notice PMID 36621407)"
+   },
+   "source": "PubMed 36327018 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9661635",
+   "pairs": [
+    "32158226>PMC9661635"
+   ],
+   "first_online": "2022-11-07",
+   "retracted": {
+    "32158226": "2022-11-16 (Retraction Watch, PubMed notice Epub; notice PMID 36419866)"
+   },
+   "source": "PubMed 36407660 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9883171",
+   "pairs": [
+    "33657152>PMC9883171"
+   ],
+   "first_online": "2022-11-07",
+   "retracted": {
+    "33657152": "2022-12-22 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36548369, doi:10.1371/journal.pone.0279796)"
+   },
+   "source": "PubMed 36344657 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10028171",
+   "pairs": [
+    "33145996>PMC10028171"
+   ],
+   "first_online": "2022-11-10",
+   "retracted": {
+    "33145996": "2022-12-12 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36504376, doi:10.1002/2211-5463.13529)"
+   },
+   "source": "PubMed 36366788 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9807357",
+   "pairs": [
+    "31533968>PMC9807357"
+   ],
+   "first_online": "2022-11-14",
+   "retracted": {
+    "31533968": "2022-11-23 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 36416086, doi:10.1042/bsr-2019-0680_ret)"
+   },
+   "source": "PubMed 36424704 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9837296",
+   "pairs": [
+    "32776307>PMC9837296"
+   ],
+   "first_online": "2022-11-17",
+   "retracted": {
+    "32776307": "2022-12-06 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued; notice PMID 36472755, doi:10.1007/s13577-022-00834-x)"
+   },
+   "source": "PubMed 36387061 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11193861",
+   "pairs": [
+    "34733336>PMC11193861"
+   ],
+   "first_online": "2022-11-23",
+   "retracted": {
+    "34733336": "2023-06-21 (Retraction Watch, PubMed notice Epub, Crossref notice online; notice PMID 37387960, doi:10.1155/2023/9850394)"
+   },
+   "source": "PubMed 38915952 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11729018",
+   "pairs": [
+    "34248965>PMC11729018"
+   ],
+   "first_online": "2022-12-01",
+   "retracted": {
+    "34248965": "2023-09-04 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37731486, doi:10.3389/fimmu.2023.1285110)"
+   },
+   "source": "PubMed 39811597 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9764052",
+   "pairs": [
+    "34956563>PMC9764052"
+   ],
+   "first_online": "2022-12-01",
+   "retracted": {
+    "34956563": "2022-12-11 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 36540351, doi:10.1155/2022/9795132)"
+   },
+   "source": "PubMed 36569433 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9715490",
+   "pairs": [
+    "33657152>PMC9715490"
+   ],
+   "first_online": "2022-12-02",
+   "retracted": {
+    "33657152": "2022-12-22 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36548369, doi:10.1371/journal.pone.0279796)"
+   },
+   "source": "PubMed 36509638 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12153399",
+   "pairs": [
+    "30069463>PMC12153399"
+   ],
+   "first_online": "2022-12-08",
+   "retracted": {
+    "30069463": "2023-04-10 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 37078007, doi:10.1155/2023/9848057)"
+   },
+   "source": "PubMed 36475828 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12912909",
+   "pairs": [
+    "30176397>PMC12912909",
+    "30266713>PMC12912909"
+   ],
+   "first_online": "2022-12-08",
+   "retracted": {
+    "30176397": "2023-08-04 (Retraction Watch; notice PMID 37550940)",
+    "30266713": "2023-08-04 (Retraction Watch; notice PMID 37550939)"
+   },
+   "source": "PubMed 36482003 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9792360",
+   "pairs": [
+    "30349370>PMC9792360"
+   ],
+   "first_online": "2022-12-14",
+   "retracted": {
+    "30349370": "2022-12-21 (Retraction Watch, PubMed notice Epub; notice PMID 36579352)"
+   },
+   "source": "PubMed 36605618 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9770025",
+   "pairs": [
+    "33816415>PMC9770025"
+   ],
+   "first_online": "2022-12-21",
+   "retracted": {
+    "33816415": "2022-12-23 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 36620245, doi:10.3389/fpubh.2022.1124839)"
+   },
+   "source": "PubMed 36564245 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10425756",
+   "pairs": [
+    "15300189>PMC10425756"
+   ],
+   "first_online": "2022-12-28",
+   "retracted": {
+    "15300189": "2023-02-10 (Retraction Watch, PubMed notice Epub; notice PMID 36774320)"
+   },
+   "source": "PubMed 37588202 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10425755",
+   "pairs": [
+    "34567285>PMC10425755"
+   ],
+   "first_online": "2023-01-11",
+   "retracted": {
+    "34567285": "2023-07-12 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 37476626, doi:10.1155/2023/9826727)"
+   },
+   "source": "PubMed 37588232 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10425748",
+   "pairs": [
+    "34796103>PMC10425748"
+   ],
+   "first_online": "2023-01-19",
+   "retracted": {
+    "34796103": "2023-01-31 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued; notice PMID 36816952, doi:10.3389/fonc.2023.1145873)"
+   },
+   "source": "PubMed 37588211 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC9875192",
+   "pairs": [
+    "29367952>PMC9875192"
+   ],
+   "first_online": "2023-01-25",
+   "retracted": {
+    "29367952": "2023-04-06 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37024726, doi:10.1038/s41562-023-01581-1)"
+   },
+   "source": "PubMed 36695897 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12807251",
+   "pairs": [
+    "32401803>PMC12807251"
+   ],
+   "first_online": "2023-02-07",
+   "retracted": {
+    "32401803": "2023-04-19 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37075052, doi:10.1371/journal.pone.0284070)"
+   },
+   "source": "PubMed 36751876 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10915996",
+   "pairs": [
+    "29315574>PMC10915996"
+   ],
+   "first_online": "2023-02-08",
+   "retracted": {
+    "29315574": "2023-08-17 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued; notice PMID 37590156, doi:10.1111/jnc.15931)"
+   },
+   "source": "PubMed 36756718 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12327864",
+   "pairs": [
+    "31784400>PMC12327864"
+   ],
+   "first_online": "2023-02-20",
+   "retracted": {
+    "31784400": "2023-03-11 (Retraction Watch, PubMed notice Epub; notice PMID 36914435)"
+   },
+   "source": "PubMed 40777809 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10785247",
+   "pairs": [
+    "33953832>PMC10785247"
+   ],
+   "first_online": "2023-02-21",
+   "retracted": {
+    "33953832": "2023-10-18 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 37886704, doi:10.1155/2023/9767412)"
+   },
+   "source": "PubMed 38223830 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10770120",
+   "pairs": [
+    "29892224>PMC10770120"
+   ],
+   "first_online": "2023-02-23",
+   "retracted": {
+    "29892224": "2023-07-07 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37484010, doi:10.3389/fphar.2023.1252194)"
+   },
+   "source": "PubMed 36828120 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10491877",
+   "pairs": [
+    "32133742>PMC10491877"
+   ],
+   "first_online": "2023-03-23",
+   "retracted": {
+    "32133742": "2023-12-11 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 38078665, doi:10.1111/cas.16018)"
+   },
+   "source": "PubMed 37692513 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10491881",
+   "pairs": [
+    "28535543>PMC10491881"
+   ],
+   "first_online": "2023-03-23",
+   "retracted": {
+    "28535543": "2023-08-31 (Retraction Watch, PubMed notice; notice PMID 37697991)"
+   },
+   "source": "PubMed 37692482 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11969557",
+   "pairs": [
+    "35126931>PMC11969557"
+   ],
+   "first_online": "2023-03-26",
+   "retracted": {
+    "35126931": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38094836, doi:10.1155/2023/9815921)"
+   },
+   "source": "PubMed 40190313 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10425806",
+   "pairs": [
+    "31823788>PMC10425806"
+   ],
+   "first_online": "2023-03-28",
+   "retracted": {
+    "31823788": "2023-08-12 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37573296, doi:10.1186/s12943-023-01840-9)"
+   },
+   "source": "PubMed 37588203 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10425810",
+   "pairs": [
+    "35186110>PMC10425810"
+   ],
+   "first_online": "2023-03-30",
+   "retracted": {
+    "35186110": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38094393, doi:10.1155/2023/9825684)"
+   },
+   "source": "PubMed 37588219 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10491942",
+   "pairs": [
+    "32982283>PMC10491942"
+   ],
+   "first_online": "2023-04-08",
+   "retracted": {
+    "32982283": "2023-04-21 (Retraction Watch, PubMed notice Epub; notice PMID 37113686)"
+   },
+   "source": "PubMed 37692481 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10491919",
+   "pairs": [
+    "31061416>PMC10491919"
+   ],
+   "first_online": "2023-04-13",
+   "retracted": {
+    "31061416": "2023-11-16 (Retraction Watch, PubMed notice Epub, PubMed notice; notice PMID 37973993)"
+   },
+   "source": "PubMed 37692496 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10990994",
+   "pairs": [
+    "35384605>PMC10990994"
+   ],
+   "first_online": "2023-04-26",
+   "retracted": {
+    "35384605": "2023-11-16 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37973712, doi:10.3758/s13428-023-02285-0)"
+   },
+   "source": "PubMed 37101100 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11102387",
+   "pairs": [
+    "35384605>PMC11102387"
+   ],
+   "first_online": "2023-04-28",
+   "retracted": {
+    "35384605": "2023-11-16 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37973712, doi:10.3758/s13428-023-02285-0)"
+   },
+   "source": "PubMed 37117990 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11032271",
+   "pairs": [
+    "35685731>PMC11032271"
+   ],
+   "first_online": "2023-05-11",
+   "retracted": {
+    "35685731": "2023-06-21 (Retraction Watch, PubMed notice Epub, Crossref notice online; notice PMID 37387888, doi:10.1155/2023/9824948)"
+   },
+   "source": "PubMed 37166521 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC12327837",
+   "pairs": [
+    "36061350>PMC12327837"
+   ],
+   "first_online": "2023-05-16",
+   "retracted": {
+    "36061350": "2023-07-19 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 37502590, doi:10.1155/2023/9808761)"
+   },
+   "source": "PubMed 40777810 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10874759",
+   "pairs": [
+    "30021198>PMC10874759"
+   ],
+   "first_online": "2023-05-25",
+   "retracted": {
+    "30021198": "2023-08-31 (Retraction Watch, PubMed notice; notice PMID 37697994)"
+   },
+   "source": "PubMed 38375041 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11670708",
+   "pairs": [
+    "34812265>PMC11670708"
+   ],
+   "first_online": "2023-05-30",
+   "retracted": {
+    "34812265": "2023-06-21 (Retraction Watch, PubMed notice Epub, Crossref notice online; notice PMID 37387915, doi:10.1155/2023/9803064)"
+   },
+   "source": "PubMed 39734533 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11228088",
+   "pairs": [
+    "33116874>PMC11228088"
+   ],
+   "first_online": "2023-06-14",
+   "retracted": {
+    "33116874": "2023-09-14 (Retraction Watch, PubMed notice Epub; notice PMID 37727811)"
+   },
+   "source": "PubMed 37317637 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11081970",
+   "pairs": [
+    "30622236>PMC11081970"
+   ],
+   "first_online": "2023-06-24",
+   "retracted": {
+    "30622236": "2023-12-20 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 38123555, doi:10.1038/s41419-023-06390-y)"
+   },
+   "source": "PubMed 37356803 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11931318",
+   "pairs": [
+    "34219538>PMC11931318"
+   ],
+   "first_online": "2023-06-29",
+   "retracted": {
+    "34219538": "2023-09-01 (Retraction Watch, Crossref notice online; notice PMID 37658543, doi:10.1177/09603271231192805)"
+   },
+   "source": "PubMed 37385291 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11031460",
+   "pairs": [
+    "30546088>PMC11031460"
+   ],
+   "first_online": "2023-07-05",
+   "retracted": {
+    "30546088": "2023-07-24 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37488195, doi:10.1038/s41388-023-02786-4)"
+   },
+   "source": "PubMed 37405532 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10771618",
+   "pairs": [
+    "25798602>PMC10771618"
+   ],
+   "first_online": "2023-07-13",
+   "retracted": {
+    "25798602": "2023-11-10 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37948334, doi:10.1371/journal.pone.0294009)"
+   },
+   "source": "PubMed 37439806 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11245990",
+   "pairs": [
+    "35958280>PMC11245990"
+   ],
+   "first_online": "2023-07-16",
+   "retracted": {
+    "35958280": "2023-07-19 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 37502599, doi:10.1155/2023/9824132)"
+   },
+   "source": "PubMed 39006182 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11233902",
+   "pairs": [
+    "31823788>PMC11233902"
+   ],
+   "first_online": "2023-07-18",
+   "retracted": {
+    "31823788": "2023-08-12 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37573296, doi:10.1186/s12943-023-01840-9)"
+   },
+   "source": "PubMed 38988321 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11224101",
+   "pairs": [
+    "31746366>PMC11224101"
+   ],
+   "first_online": "2023-07-24",
+   "retracted": {
+    "31746366": "2023-08-04 (Retraction Watch, PubMed notice Epub, PubMed notice entry; notice PMID 37539720)"
+   },
+   "source": "PubMed 37486450 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11289031",
+   "pairs": [
+    "35384605>PMC11289031"
+   ],
+   "first_online": "2023-07-24",
+   "retracted": {
+    "35384605": "2023-11-16 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37973712, doi:10.3758/s13428-023-02285-0)"
+   },
+   "source": "PubMed 37488465 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10794267",
+   "pairs": [
+    "12642610>PMC10794267"
+   ],
+   "first_online": "2023-07-25",
+   "retracted": {
+    "12642610": "2023-09-06 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued; notice PMID 37672658, doi:10.1083/jcb.20021212808022023r)"
+   },
+   "source": "PubMed 38250470 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11224086",
+   "pairs": [
+    "35813429>PMC11224086"
+   ],
+   "first_online": "2023-07-25",
+   "retracted": {
+    "35813429": "2023-09-27 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 37811280, doi:10.1155/2023/9863953)"
+   },
+   "source": "PubMed 37490177 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11367050",
+   "pairs": [
+    "36072623>PMC11367050"
+   ],
+   "first_online": "2023-08-02",
+   "retracted": {
+    "36072623": "2023-08-09 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 37593746, doi:10.1155/2023/9765812)"
+   },
+   "source": "PubMed 39224110 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11006765",
+   "pairs": [
+    "36726526>PMC11006765"
+   ],
+   "first_online": "2023-08-04",
+   "retracted": {
+    "36726526": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38093873, doi:10.1155/2023/9857193)"
+   },
+   "source": "PubMed 37541971 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11289326",
+   "pairs": [
+    "35384605>PMC11289326"
+   ],
+   "first_online": "2023-08-07",
+   "retracted": {
+    "35384605": "2023-11-16 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37973712, doi:10.3758/s13428-023-02285-0)"
+   },
+   "source": "PubMed 37550466 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11259206",
+   "pairs": [
+    "35384605>PMC11259206"
+   ],
+   "first_online": "2023-08-10",
+   "retracted": {
+    "35384605": "2023-11-16 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37973712, doi:10.3758/s13428-023-02285-0)"
+   },
+   "source": "PubMed 37563867 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11304420",
+   "pairs": [
+    "36105553>PMC11304420"
+   ],
+   "first_online": "2023-08-16",
+   "retracted": {
+    "36105553": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 38125040, doi:10.1155/2023/9869615)"
+   },
+   "source": "PubMed 39118949 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10848084",
+   "pairs": [
+    "34691228>PMC10848084"
+   ],
+   "first_online": "2023-08-21",
+   "retracted": {
+    "34691228": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38125173, doi:10.1155/2023/9864904)"
+   },
+   "source": "PubMed 37602891 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10927456",
+   "pairs": [
+    "35832515>PMC10927456"
+   ],
+   "first_online": "2023-08-24",
+   "retracted": {
+    "35832515": "2023-11-01 (Retraction Watch, PubMed notice Epub; notice PMID 37946712)"
+   },
+   "source": "PubMed 38481548 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10785270",
+   "pairs": [
+    "33953832>PMC10785270"
+   ],
+   "first_online": "2023-08-29",
+   "retracted": {
+    "33953832": "2023-10-18 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 37886704, doi:10.1155/2023/9767412)"
+   },
+   "source": "PubMed 38223824 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10763721",
+   "pairs": [
+    "31695323>PMC10763721"
+   ],
+   "first_online": "2023-08-30",
+   "retracted": {
+    "31695323": "2023-09-20 (Retraction Watch, PubMed notice Epub; notice PMID 37750067)"
+   },
+   "source": "PubMed 37599617 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10788551",
+   "pairs": [
+    "35419079>PMC10788551"
+   ],
+   "first_online": "2023-09-01",
+   "retracted": {
+    "35419079": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38124966, doi:10.1155/2023/9786412)"
+   },
+   "source": "PubMed 37661087 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10861751",
+   "pairs": [
+    "34853603>PMC10861751"
+   ],
+   "first_online": "2023-09-06",
+   "retracted": {
+    "34853603": "2023-09-27 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 37811263, doi:10.1155/2023/9814841)"
+   },
+   "source": "PubMed 37672148 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10764518",
+   "pairs": [
+    "34790249>PMC10764518"
+   ],
+   "first_online": "2023-09-09",
+   "retracted": {
+    "34790249": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38094446, doi:10.1155/2023/9825043)"
+   },
+   "source": "PubMed 37688682 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10846832",
+   "pairs": [
+    "33567349>PMC10846832"
+   ],
+   "first_online": "2023-09-15",
+   "retracted": {
+    "33567349": "2023-10-05 (PubMed notice Epub; notice PMID 37802729)"
+   },
+   "source": "PubMed 37738151 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11304550",
+   "pairs": [
+    "29802402>PMC11304550"
+   ],
+   "first_online": "2023-09-21",
+   "retracted": {
+    "29802402": "2023-11-28 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 38017059, doi:10.1038/s41598-023-48298-9)"
+   },
+   "source": "PubMed 37739089 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11236079",
+   "pairs": [
+    "35898602>PMC11236079"
+   ],
+   "first_online": "2023-09-22",
+   "retracted": {
+    "35898602": "2023-10-04 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 37829516, doi:10.1155/2023/9780439)"
+   },
+   "source": "PubMed 38993823 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10828123",
+   "pairs": [
+    "36213001>PMC10828123"
+   ],
+   "first_online": "2023-09-24",
+   "retracted": {
+    "36213001": "2023-11-29 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 38077108, doi:10.1155/2023/9864247)"
+   },
+   "source": "PubMed 37743559 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10825070",
+   "pairs": [
+    "36176925>PMC10825070"
+   ],
+   "first_online": "2023-09-30",
+   "retracted": {
+    "36176925": "2023-11-29 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 38075707, doi:10.1155/2023/9873585)"
+   },
+   "source": "PubMed 37776166 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10976464",
+   "pairs": [
+    "28120490>PMC10976464"
+   ],
+   "first_online": "2023-09-30",
+   "retracted": {
+    "28120490": "2023-12-26 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 38147025, doi:10.1111/apm.13370)"
+   },
+   "source": "PubMed 37776274 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11188703",
+   "pairs": [
+    "33613927>PMC11188703"
+   ],
+   "first_online": "2023-10-10",
+   "retracted": {
+    "33613927": "2023-10-11 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 37860457, doi:10.1155/2023/9870918)"
+   },
+   "source": "PubMed 38912238 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10805444",
+   "pairs": [
+    "28903184>PMC10805444"
+   ],
+   "first_online": "2023-10-13",
+   "retracted": {
+    "28903184": "2023-11-25 (Retraction Watch, PubMed notice Epub; notice PMID 38008611)"
+   },
+   "source": "PubMed 37830170 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10997939",
+   "pairs": [
+    "34745284>PMC10997939"
+   ],
+   "first_online": "2023-10-14",
+   "retracted": {
+    "34745284": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38125160, doi:10.1155/2023/9809240)"
+   },
+   "source": "PubMed 38585464 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10828713",
+   "pairs": [
+    "35281950>PMC10828713",
+    "36777629>PMC10828713"
+   ],
+   "first_online": "2023-10-18",
+   "retracted": {
+    "35281950": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38124913, doi:10.1155/2023/9845010)",
+    "36777629": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38125086, doi:10.1155/2023/9846190)"
+   },
+   "source": "PubMed 37853846 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10933165",
+   "pairs": [
+    "25798602>PMC10933165"
+   ],
+   "first_online": "2023-10-18",
+   "retracted": {
+    "25798602": "2023-11-10 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37948334, doi:10.1371/journal.pone.0294009)"
+   },
+   "source": "PubMed 37851060 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10974823",
+   "pairs": [
+    "33981334>PMC10974823"
+   ],
+   "first_online": "2023-10-24",
+   "retracted": {
+    "33981334": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 38093939, doi:10.1155/2023/9895049)"
+   },
+   "source": "PubMed 38560710 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10761432",
+   "pairs": [
+    "32021248>PMC10761432"
+   ],
+   "first_online": "2023-10-28",
+   "retracted": {
+    "32021248": "2023-11-28 (Retraction Watch, PubMed notice Epub; notice PMID 38047059)"
+   },
+   "source": "PubMed 37897508 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11173197",
+   "pairs": [
+    "36890373>PMC11173197"
+   ],
+   "first_online": "2023-10-31",
+   "retracted": {
+    "36890373": "2023-11-07 (Retraction Watch, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 37935926, doi:10.1038/s41586-023-06774-2)"
+   },
+   "source": "PubMed 38883291 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10920003",
+   "pairs": [
+    "35815288>PMC10920003"
+   ],
+   "first_online": "2023-11-02",
+   "retracted": {
+    "35815288": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38125075, doi:10.1155/2023/9769574)"
+   },
+   "source": "PubMed 38465214 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10799829",
+   "pairs": [
+    "30866863>PMC10799829"
+   ],
+   "first_online": "2023-11-03",
+   "retracted": {
+    "30866863": "2023-12-07 (Retraction Watch, PubMed notice Epub, PubMed notice, PubMed notice entry, Crossref notice online, Crossref notice issued, Crossref notice registered; notice PMID 38062383, doi:10.1186/s12885-023-11698-1)"
+   },
+   "source": "PubMed 37922108 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10999723",
+   "pairs": [
+    "35845930>PMC10999723"
+   ],
+   "first_online": "2023-11-03",
+   "retracted": {
+    "35845930": "2023-11-29 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38075337, doi:10.1155/2023/9847302)"
+   },
+   "source": "PubMed 37926522 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10796534",
+   "pairs": [
+    "35937397>PMC10796534"
+   ],
+   "first_online": "2023-11-08",
+   "retracted": {
+    "35937397": "2023-12-29 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38188800, doi:10.1155/2023/9893018)"
+   },
+   "source": "PubMed 37935870 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10805400",
+   "pairs": [
+    "35937410>PMC10805400"
+   ],
+   "first_online": "2023-11-10",
+   "retracted": {
+    "35937410": "2023-12-29 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38188757, doi:10.1155/2023/9829405)"
+   },
+   "source": "PubMed 37950551 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11367031",
+   "pairs": [
+    "35317194>PMC11367031"
+   ],
+   "first_online": "2023-11-14",
+   "retracted": {
+    "35317194": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38124937, doi:10.1155/2023/9895238)"
+   },
+   "source": "PubMed 39224111 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10711238",
+   "pairs": [
+    "35464043>PMC10711238"
+   ],
+   "first_online": "2023-11-16",
+   "retracted": {
+    "35464043": "2023-12-20 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 38152549, doi:10.1155/2023/9893564)"
+   },
+   "source": "PubMed 38089566 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10766778",
+   "pairs": [
+    "36874922>PMC10766778"
+   ],
+   "first_online": "2023-11-17",
+   "retracted": {
+    "36874922": "2023-12-29 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38188778, doi:10.1155/2023/9856426)"
+   },
+   "source": "PubMed 37978075 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10787077",
+   "pairs": [
+    "29473328>PMC10787077"
+   ],
+   "first_online": "2023-11-20",
+   "retracted": {
+    "29473328": "2023-12-15 (Retraction Watch, PubMed notice Epub, PubMed notice entry, Crossref notice online, Crossref notice registered; notice PMID 38100296, doi:10.1002/cam4.6773)"
+   },
+   "source": "PubMed 37984872 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10932769",
+   "pairs": [
+    "34992673>PMC10932769"
+   ],
+   "first_online": "2023-11-20",
+   "retracted": {
+    "34992673": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38094376, doi:10.1155/2023/9896050)"
+   },
+   "source": "PubMed 37987035 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11001717",
+   "pairs": [
+    "35607309>PMC11001717"
+   ],
+   "first_online": "2023-11-22",
+   "retracted": {
+    "35607309": "2023-11-29 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38075308, doi:10.1155/2023/9864219)"
+   },
+   "source": "PubMed 37993736 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10696434",
+   "pairs": [
+    "24270883>PMC10696434"
+   ],
+   "first_online": "2023-11-27",
+   "retracted": {
+    "24270883": "2023-12-27 (Retraction Watch; notice PMID 38186310)"
+   },
+   "source": "PubMed 38059120 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11228090",
+   "pairs": [
+    "35069780>PMC11228090"
+   ],
+   "first_online": "2023-11-28",
+   "retracted": {
+    "35069780": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38094417, doi:10.1155/2023/9797154)"
+   },
+   "source": "PubMed 38013618 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11297883",
+   "pairs": [
+    "35419186>PMC11297883"
+   ],
+   "first_online": "2023-11-28",
+   "retracted": {
+    "35419186": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38094798, doi:10.1155/2023/9856982)"
+   },
+   "source": "PubMed 39104684 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10703597",
+   "pairs": [
+    "34790249>PMC10703597"
+   ],
+   "first_online": "2023-12-03",
+   "retracted": {
+    "34790249": "2023-12-06 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38094446, doi:10.1155/2023/9825043)"
+   },
+   "source": "PubMed 38075236 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11473578",
+   "pairs": [
+    "35498204>PMC11473578"
+   ],
+   "first_online": "2023-12-08",
+   "retracted": {
+    "35498204": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38124820, doi:10.1155/2023/9828251)"
+   },
+   "source": "PubMed 38064139 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10761579",
+   "pairs": [
+    "35571732>PMC10761579"
+   ],
+   "first_online": "2023-12-10",
+   "retracted": {
+    "35571732": "2023-12-13 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38125106, doi:10.1155/2023/9763612)"
+   },
+   "source": "PubMed 38173486 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10713435",
+   "pairs": [
+    "35799892>PMC10713435"
+   ],
+   "first_online": "2023-12-11",
+   "retracted": {
+    "35799892": "2023-12-29 (Retraction Watch, PubMed notice Epub, Crossref notice print, Crossref notice issued, Crossref notice registered; notice PMID 38189021, doi:10.1155/2023/9864513)"
+   },
+   "source": "PubMed 38081642 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC11163195",
+   "pairs": [
+    "36093396>PMC11163195"
+   ],
+   "first_online": "2023-12-11",
+   "retracted": {
+    "36093396": "2023-12-29 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38188833, doi:10.1155/2023/9806907)"
+   },
+   "source": "PubMed 38082503 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
+  },
+  {
+   "citing_pmcid": "PMC10788442",
+   "pairs": [
+    "35187159>PMC10788442"
+   ],
+   "first_online": "2023-12-19",
+   "retracted": {
+    "35187159": "2023-12-29 (Retraction Watch, PubMed notice Epub, Crossref notice online, Crossref notice registered; notice PMID 38188812, doi:10.1155/2023/9787901)"
+   },
+   "source": "PubMed 38226265 (PubMed epubdate); retraction: earliest of Retraction Watch, PubMed notice and Crossref notice dates; all read 9 Nov 2026",
+   "date": "2026-11-09",
+   "reason": "first-online rule: published online before the work it cites was retracted."
   }
  ],
+ "first_online_rule": "Since 9 Nov 2026 a citation counts as made after the retraction only if the citing paper first went online on or after the earliest dated sign of the retraction we hold: the Retraction Watch date, the notice's PubMed dates (online, issue and entry) and the notice's Crossref dates (online and registration). Both dates must be known to the day. Before then we compared the citing paper's issue year with the retraction year, except where we had checked dates one by one. Citations that fail the rule are listed under exclude_citing with reason \"first-online rule\". The rule can only take citations out: citations from years before the retraction year were never collected.",
  "checks_exclude": [],
  "left_off_kept": {
   "enabled": false,
@@ -5816,6 +9584,158 @@
    "source": "Red team N3 (27 Oct 2026): the entry printed the notice reason twice, once as the reason and again in the note; the notice is linked from the entry",
    "date": "2026-10-28",
    "reason": "Duplicate sentence removed; no count or reason changes"
+  },
+  {
+   "path": "journals/by_count/Int J Mol Sci/support",
+   "old": 654,
+   "new": 653,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/Int J Mol Sci/flagged",
+   "old": 22,
+   "new": 23,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/Int J Mol Sci/papers_citing_as_support",
+   "old": 610,
+   "new": 609,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/Sci Rep/support",
+   "old": 582,
+   "new": 580,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/Sci Rep/flagged",
+   "old": 29,
+   "new": 31,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/Sci Rep/papers_citing_as_support",
+   "old": 570,
+   "new": 568,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/PLoS One/support",
+   "old": 497,
+   "new": 496,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/PLoS One/flagged",
+   "old": 101,
+   "new": 102,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/PLoS One/papers_citing_as_support",
+   "old": 487,
+   "new": 486,
+   "source": "Recount after the 9 Nov 2026 full-text check of readings at the three-passage limit",
+   "date": "2026-11-09",
+   "reason": "Count after the citations a full-text check found flag the retraction were relabelled aware."
+  },
+  {
+   "path": "journals/by_count/Heliyon/judged",
+   "old": 650,
+   "new": 648,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Count after the first-online rule left out Heliyon citing papers that went online before the work they cite was retracted."
+  },
+  {
+   "path": "journals/by_count/Heliyon/papers_citing_as_support",
+   "old": 276,
+   "new": 275,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Count after the first-online rule left out Heliyon citing papers that went online before the work they cite was retracted."
+  },
+  {
+   "path": "journals/by_count/Heliyon/support",
+   "old": 298,
+   "new": 297,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Count after the first-online rule left out Heliyon citing papers that went online before the work they cite was retracted."
+  },
+  {
+   "path": "journals/by_rate/Bioengineered/judged",
+   "old": 157,
+   "new": 155,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Count after the first-online rule left out Bioengineered citing papers that went online before the work they cite was retracted."
+  },
+  {
+   "path": "journals/by_rate/Bioengineered/papers_citing_as_support",
+   "old": 77,
+   "new": 76,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Count after the first-online rule left out Bioengineered citing papers that went online before the work they cite was retracted."
+  },
+  {
+   "path": "journals/by_rate/Bioengineered/support",
+   "old": 83,
+   "new": 82,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Count after the first-online rule left out Bioengineered citing papers that went online before the work they cite was retracted."
+  },
+  {
+   "path": "journals/by_rate/Cell Commun Signal/rank",
+   "old": 3,
+   "new": 2,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Place after the recount: the rates of the neighbouring journals changed order."
+  },
+  {
+   "path": "journals/by_rate/Noncoding RNA Res/judged",
+   "old": 115,
+   "new": 113,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Count after the first-online rule left out Noncoding RNA Res citing papers that went online before the work they cite was retracted."
+  },
+  {
+   "path": "journals/by_rate/Noncoding RNA Res/rank",
+   "old": 2,
+   "new": 3,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Place after the recount: the rates of the neighbouring journals changed order."
+  },
+  {
+   "path": "journals/by_rate/Noncoding RNA Res/support",
+   "old": 67,
+   "new": 65,
+   "source": "Recount after the first-online rule (9 Nov 2026): citations by papers first online before the retraction left out (exclude_citing, reason \"first-online rule\")",
+   "date": "2026-11-09",
+   "reason": "Count after the first-online rule left out Noncoding RNA Res citing papers that went online before the work they cite was retracted."
   }
  ],
  "excluded_works_rule": "Citations of a work are left out when its retraction notice gives only reasons that do not touch the results: author withdrawal with a stated non-results reason, ethics paperwork, redundant or duplicate publication of a result that stays published, plagiarism or reuse of text only, copyright or software-licence changes, a wrong journal, or forged or disputed authorship. Figure or image duplication or reuse, data problems, errors, fabrication, paper mills and compromised peer review still count. A notice with no stated reason, or an unclear one, still counts and is marked reason unclear. Applied where we have read the notice.",
@@ -7810,6 +11730,206 @@
    "reason": "the citation credits the retracted paper with something the paper does not report.",
    "source": "Independent check of the citing paper's full text and the retracted paper (PubMed, Europe PMC), 23 Oct 2026",
    "date": "2026-10-23"
+  },
+  {
+   "pair_id": "20130482>PMC10450487",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper left the trial out of its analysis because it had been retracted, citing the retraction notice; the three sentences read only describe the earlier review it drew its trials from.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC10450487) against the retraction notice (PMID 20921858), 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "9886454>PMC6830710",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper is a study of the impact of this group's retracted trials; it lists this trial as retracted in August 2017 and reports which reviews excluded it.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC6830710), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "16087822>PMC6830710",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper is a study of the impact of this group's retracted trials; it lists this trial as retracted in June 2016 and cites it only to trace where it was used.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC6830710), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "15664003>PMC6830710",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper is a study of the impact of this group's retracted trials; it lists this trial as retracted in October 2017 and cites it only to trace where it was used.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC6830710), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "16087821>PMC6830710",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper is a study of the impact of this group's retracted trials; it lists this trial as retracted in June 2016 and cites it only to trace where it was used.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC6830710), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "16609730>PMC4008767",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the XMRV discovery paper was retracted and that it likely reflected contamination; the three sentences read only describe the discovery.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC4008767), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "16609730>PMC3560155",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper adds in proof that the study was retracted because its samples were contaminated; the three sentences read come earlier, in the introduction.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC3560155), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "17393877>PMC3634790",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the article was retracted and its data can be given no evidential weight; the three sentences read describe the study before that sentence.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC3634790), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "19815723>PMC3644861",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the article was retracted after the blood studies; the three sentences read describe what it had reported.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC3644861), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "19815723>PMC4226024",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the report is retracted and argues that its result came from technical problems; the three sentences read are earlier methods and background mentions.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC4226024), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "20798047>PMC4226024",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the report is retracted and argues that the XMRV result came from technical problems; the three sentences read are earlier methods and background mentions.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC4226024), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "23432189>PMC6950215",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the original 2013 publication was retracted and cites the republished version beside it; the three sentences read do not mention the retraction.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC6950215), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "27478534>PMC10299547",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper notes in the text and in a table footnote that the study was retracted for duplicated images; the three sentences read report its results.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC10299547), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "9500320>PMC9940232",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper calls the Wakefield study \"now infamous and withdrawn\" and treats the vaccine-autism link as alleged (it gives the year as 1996).",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC9940232), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "12652308>PMC3378965",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the 2003 Sawada studies were retracted in 2007, then cites other work for the same finding; the three sentences read do not mention the retraction.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC3378965), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "19892983>PMC3897388",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper is the original authors' follow-up: it says they found errors and retracted the paper, and reports that its key results do not hold.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC3897388), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "24476887>PMC4904271",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the STAP report was retracted for scientific misconduct, cites the retraction notice, and reports a failed attempt to repeat it.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC4904271), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "24675098>PMC8747931",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper's only mention of the retracted methotrexate trial says it was retracted (citing the notice); the sentences read cite reference 24, a hydroxychloroquine abstract whose entry carries this trial's PMID and DOI.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC8747931), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "32204667>PMC8682034",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper uses the article as a test case of post-publication concerns and says it was retracted by the journal.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC8682034), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "33020663>PMC9389577",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the authors retracted the paper and reports data that contrast with it.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC9389577), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "11165366>PMC10531351",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says the original RGC-5 paper was retracted over doubts about the cell line's origin; the three sentences read describe the cell line's first report.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC10531351), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "16271909>PMC8350623",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper marks the study \"article retracted\" in its table of included studies (it still pools its data).",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC8350623), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "18569468>PMC11187099",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper says this trial was retracted and leaves it out; its in-text numbers run one behind its reference list, so the sentences read (PRISMA and statistics methods) were not about this trial.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC11187099), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "20462659>PMC6362737",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper marks the study \"Retracted article\" in its table of wart treatments.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC6362737), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
+  },
+  {
+   "pair_id": "23440041>PMC6563427",
+   "old": "substantive",
+   "new": "aware",
+   "reason": "the citing paper carries a note that reference 41 (this study, from the same laboratory) has been retracted since its publication.",
+   "source": "Full-text check of the citing paper (Europe PMC full-text XML, PMC6563427), sweep of readings at the three-passage limit, 9 Nov 2026",
+   "date": "2026-11-09"
   }
  ],
  "full_read": {

@@ -1,0 +1,7 @@
+# flags/ staged 2026-11-09: sha256 of the source file, sha256 of the staged file, staged path
+# The two hashes differ where private folder paths were replaced, a record was redacted or
+# quoted passages were left out (see README.md).
+edd902c878773f577a5bbfc77919fd72794337e9d40ff88e1a9ba2daaa3d2461  edd902c878773f577a5bbfc77919fd72794337e9d40ff88e1a9ba2daaa3d2461  flags_by_paper.csv
+c9b09edde6c001b83042323a71490dc40084168d957d925cd8981addd5f5d586  c9b09edde6c001b83042323a71490dc40084168d957d925cd8981addd5f5d586  flags_by_paper.summary.json
+f64e367f837b386b660451884307f36cb053a71cb1604997b52f41d227a2c339  f64e367f837b386b660451884307f36cb053a71cb1604997b52f41d227a2c339  schema/v0.json
+450121cfa0c519ca75bfb4f3c154f597e976df784ac3da3c7f128a6fe97ad870  450121cfa0c519ca75bfb4f3c154f597e976df784ac3da3c7f128a6fe97ad870  schema/example.jsonl

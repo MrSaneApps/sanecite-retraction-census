@@ -1,41 +1,41 @@
 journal,cited_as_support,mentioned_in_passing,flagged,judged,share_as_support
-Int J Mol Sci,654,871,22,1547,0.4227537168713639
-Sci Rep,582,1120,29,1731,0.3362218370883882
-PLoS One,497,988,101,1586,0.3133669609079445
+Int J Mol Sci,653,871,23,1547,0.42210730446024564
+Sci Rep,580,1120,31,1731,0.3350664355863663
+PLoS One,496,988,102,1586,0.31273644388398486
 Front Pharmacol,348,325,7,680,0.5117647058823529
 Front Immunol,326,371,23,720,0.4527777777777778
 Front Oncol,313,311,5,629,0.49761526232114467
-Heliyon,298,348,4,650,0.4584615384615385
+Heliyon,297,347,4,648,0.4583333333333333
 Cancers (Basel),238,290,16,544,0.4375
 Molecules,203,279,6,488,0.41598360655737704
 Front Cell Dev Biol,163,129,3,295,0.5525423728813559
 Medicine (Baltimore),160,214,6,380,0.42105263157894735
 Cells,152,218,6,376,0.40425531914893614
 Cancer Cell Int,143,115,1,259,0.5521235521235521
-Oncotarget,143,241,5,389,0.3676092544987147
+Oncotarget,142,241,5,388,0.36597938144329895
 Nutrients,138,144,6,288,0.4791666666666667
 Cureus,136,176,18,330,0.4121212121212121
 Front Plant Sci,132,154,7,293,0.45051194539249145
-J Cell Mol Med,131,168,6,305,0.42950819672131146
 Biomed Res Int,127,175,2,304,0.41776315789473684
-Oncol Lett,126,167,0,293,0.4300341296928328
+J Cell Mol Med,126,167,6,299,0.4214046822742475
+Oncol Lett,125,165,0,290,0.43103448275862066
 Front Genet,122,127,5,254,0.48031496062992124
-Exp Ther Med,116,134,3,253,0.45849802371541504
+Exp Ther Med,115,133,3,251,0.4581673306772908
 Front Endocrinol (Lausanne),112,131,8,251,0.44621513944223107
 Discov Oncol,106,102,0,208,0.5096153846153846
-Mol Med Rep,101,153,0,254,0.39763779527559057
+Mol Med Rep,101,152,0,253,0.39920948616600793
 Biomedicines,97,118,7,222,0.4369369369369369
 Front Physiol,97,122,4,223,0.4349775784753363
 J Cancer,94,93,0,187,0.5026737967914439
 Oxid Med Cell Longev,94,110,0,204,0.46078431372549017
 BMC Cancer,92,152,0,244,0.3770491803278688
-Aging (Albany NY),91,117,0,208,0.4375
+Aging (Albany NY),91,116,0,207,0.4396135265700483
 Cell Death Dis,90,148,2,240,0.375
 J Transl Med,88,90,6,184,0.4782608695652174
 Front Med (Lausanne),87,151,8,246,0.35365853658536583
 Antioxidants (Basel),85,120,1,206,0.41262135922330095
-Bioengineered,83,74,0,157,0.5286624203821656
 Int J Environ Res Public Health,83,135,11,229,0.3624454148471616
+Bioengineered,82,73,0,155,0.5290322580645161
 Evid Based Complement Alternat Med,81,127,4,212,0.38207547169811323
 Front Microbiol,79,155,8,242,0.32644628099173556
 Biomolecules,76,103,4,183,0.41530054644808745
@@ -43,13 +43,13 @@ Front Cardiovasc Med,74,74,4,152,0.4868421052631579
 Pharmaceutics,72,82,0,154,0.4675324675324675
 Front Mol Biosci,70,46,0,116,0.603448275862069
 Nat Commun,70,207,15,292,0.23972602739726026
-PeerJ,70,89,4,163,0.4294478527607362
-Noncoding RNA Res,67,47,1,115,0.5826086956521739
+PeerJ,69,89,5,163,0.4233128834355828
 Genes (Basel),65,77,2,144,0.4513888888888889
+Noncoding RNA Res,65,47,1,113,0.5752212389380531
 Cell Commun Signal,64,46,0,110,0.5818181818181818
 Onco Targets Ther,62,53,0,115,0.5391304347826087
-J Clin Med,61,90,17,168,0.3630952380952381
 Pharmaceuticals (Basel),61,78,2,141,0.4326241134751773
+J Clin Med,60,90,18,168,0.35714285714285715
 Cell Death Discov,59,58,0,117,0.5042735042735043
 Stem Cell Res Ther,59,75,3,137,0.4306569343065693
 Int J Mol Med,58,69,0,127,0.4566929133858268
@@ -62,25 +62,24 @@ Oncol Rep,51,58,0,109,0.46788990825688076
 Int J Biol Sci,50,65,1,116,0.43103448275862066
 Mediators Inflamm,50,57,4,111,0.45045045045045046
 Plants (Basel),50,70,2,122,0.4098360655737705
-Ann Transl Med,47,41,2,90,0.5222222222222223
 BMC Plant Biol,47,63,0,110,0.42727272727272725
-Cancer Med,47,76,1,124,0.3790322580645161
 Int J Oncol,47,34,0,81,0.5802469135802469
+Ann Transl Med,46,40,3,89,0.5168539325842697
 Food Sci Nutr,46,26,0,72,0.6388888888888888
 Iran J Basic Med Sci,46,34,3,83,0.5542168674698795
+Cancer Med,45,74,1,120,0.375
 Front Nutr,45,66,1,112,0.4017857142857143
-Genes Dis,44,44,0,88,0.5
 ACS Omega,43,87,1,131,0.3282442748091603
-BMJ Open,42,56,18,116,0.3620689655172414
 Eur J Med Res,41,43,0,84,0.4880952380952381
 J Orthop Surg Res,41,61,3,105,0.3904761904761905
 Front Psychol,40,87,7,134,0.29850746268656714
 Int J Gen Med,40,48,1,89,0.449438202247191
 MedComm (2020),40,33,1,74,0.5405405405405406
+BMJ Open,39,56,21,116,0.33620689655172414
 Cancer Manag Res,39,53,0,92,0.42391304347826086
 Drug Des Devel Ther,39,66,0,105,0.37142857142857144
 Med Sci Monit,39,75,1,115,0.3391304347826087
-Transl Oncol,39,48,0,87,0.4482758620689655
+Transl Oncol,39,47,0,86,0.45348837209302323
 J Inflamm Res,38,55,1,94,0.40425531914893614
 J Oncol,38,47,0,85,0.4470588235294118
 Signal Transduct Target Ther,38,40,2,80,0.475
@@ -96,7 +95,6 @@ Stem Cells Int,36,45,8,89,0.4044943820224719
 Cancer Sci,35,49,6,90,0.3888888888888889
 Front Aging Neurosci,35,33,0,68,0.5147058823529411
 J Nanobiotechnology,35,55,0,90,0.3888888888888889
-Arch Med Sci,34,55,1,90,0.37777777777777777
 Biology (Basel),34,50,3,87,0.39080459770114945
 J Immunol Res,34,30,0,64,0.53125
 Aging Dis,33,23,0,56,0.5892857142857143
@@ -109,16 +107,17 @@ Front Cell Infect Microbiol,32,50,3,85,0.3764705882352941
 Qual Quant,32,0,3,35,0.9142857142857143
 BMC Public Health,31,56,4,91,0.34065934065934067
 Front Pediatr,31,36,0,67,0.4626865671641791
+Genes Dis,31,34,0,65,0.47692307692307695
 Open Med (Wars),31,24,0,55,0.5636363636363636
 Ann Med Surg (Lond),30,34,2,66,0.45454545454545453
 BMC Complement Med Ther,30,36,0,66,0.45454545454545453
 Front Mol Neurosci,29,32,0,61,0.47540983606557374
 BMC Anesthesiol,28,32,5,65,0.4307692307692308
 Biochem Biophys Rep,28,20,0,48,0.5833333333333334
-Cell Mol Life Sci,28,35,1,64,0.4375
 Health Sci Rep,28,22,0,50,0.56
-Nucleic Acids Res,28,78,8,114,0.24561403508771928
+Nucleic Acids Res,28,77,7,112,0.25
 BMC Musculoskelet Disord,27,47,1,75,0.36
+Cell Mol Life Sci,27,33,1,61,0.4426229508196721
 Elife,27,48,9,84,0.32142857142857145
 Int J Med Sci,27,40,3,70,0.38571428571428573
 J Pers Med,27,27,0,54,0.5
@@ -126,21 +125,20 @@ World J Gastroenterol,27,50,2,79,0.34177215189873417
 J Clin Lab Anal,26,34,0,60,0.43333333333333335
 Mol Med,26,26,4,56,0.4642857142857143
 Thorac Cancer,26,21,0,47,0.5531914893617021
-Adv Sci (Weinh),25,55,2,82,0.3048780487804878
+Adv Sci (Weinh),25,54,2,81,0.30864197530864196
 Br J Cancer,25,33,2,60,0.4166666666666667
 Front Psychiatry,25,51,9,85,0.29411764705882354
 Technol Cancer Res Treat,25,23,0,48,0.5208333333333334
 World J Surg Oncol,25,29,0,54,0.46296296296296297
-Acta Pharm Sin B,24,34,0,58,0.41379310344827586
 Adv Biomed Res,24,22,1,47,0.5106382978723404
 Front Vet Sci,24,52,0,76,0.3157894736842105
-J Adv Res,24,36,0,60,0.4
 J Anaesthesiol Clin Pharmacol,24,22,5,51,0.47058823529411764
 J Neuroinflammation,24,49,2,75,0.32
 Kaohsiung J Med Sci,24,20,0,44,0.5454545454545454
 Mar Drugs,24,41,1,66,0.36363636363636365
 Medicina (Kaunas),24,50,1,75,0.32
 Theranostics,24,58,1,83,0.2891566265060241
+Arch Med Sci,23,26,1,50,0.46
 Biosci Rep,23,51,0,74,0.3108108108108108
 Cell Biosci,23,23,3,49,0.46938775510204084
 Commun Biol,23,43,2,68,0.3382352941176471
@@ -159,37 +157,36 @@ Microorganisms,22,50,1,73,0.3013698630136986
 Pharm Biol,22,21,0,43,0.5116279069767442
 Poult Sci,22,39,0,61,0.36065573770491804
 Saudi J Biol Sci,22,32,0,54,0.4074074074074074
-Adv Pharm Bull,21,17,0,38,0.5526315789473685
 BMC Cardiovasc Disord,21,32,0,53,0.39622641509433965
 Brain Sci,21,26,1,48,0.4375
-Cell Prolif,21,21,0,42,0.5
+Cell Prolif,21,20,0,41,0.5121951219512195
 Dis Markers,21,39,2,62,0.3387096774193548
 J Biol Chem,21,36,1,58,0.3620689655172414
-Mol Ther Nucleic Acids,21,30,1,52,0.40384615384615385
-Oncol Res,21,20,0,41,0.5121951219512195
 World J Gastrointest Oncol,21,25,0,46,0.45652173913043476
+Acta Pharm Sin B,20,32,0,52,0.38461538461538464
 Arthritis Res Ther,20,26,2,48,0.4166666666666667
 BMC Pulm Med,20,17,0,37,0.5405405405405406
 Cell Mol Biol Lett,20,22,0,42,0.47619047619047616
-Immun Inflamm Dis,20,26,0,46,0.43478260869565216
+J Adv Res,20,34,0,54,0.37037037037037035
 Nanomaterials (Basel),20,55,0,75,0.26666666666666666
 BMC Oral Health,19,33,0,52,0.36538461538461536
 Clin Epigenetics,19,23,0,42,0.4523809523809524
+Immun Inflamm Dis,19,26,0,45,0.4222222222222222
 J Exp Bot,19,12,0,31,0.6129032258064516
+Mol Ther Nucleic Acids,19,28,1,48,0.3958333333333333
 Pak J Med Sci,19,36,0,55,0.34545454545454546
 Plant Biotechnol J,19,10,2,31,0.6129032258064516
 Regen Ther,19,14,3,36,0.5277777777777778
+Adv Pharm Bull,18,14,0,32,0.5625
 BMC Nurs,18,25,3,46,0.391304347826087
 BMC Pregnancy Childbirth,18,28,1,47,0.3829787234042553
 BMC Psychiatry,18,33,1,52,0.34615384615384615
 Biomark Res,18,15,0,33,0.5454545454545454
-CNS Neurosci Ther,18,31,0,49,0.3673469387755102
 EXCLI J,18,3,1,22,0.8181818181818182
 Front Chem,18,19,1,38,0.47368421052631576
 J Cancer Res Clin Oncol,18,23,0,41,0.43902439024390244
 J Med Internet Res,18,25,21,64,0.28125
 Materials (Basel),18,57,0,75,0.24
-Naunyn Schmiedebergs Arch Pharmacol,18,13,6,37,0.4864864864864865
 Noncoding RNA,18,11,0,29,0.6206896551724138
 PLoS Pathog,18,32,3,53,0.33962264150943394
 Vaccines (Basel),18,16,9,43,0.4186046511627907
@@ -202,19 +199,22 @@ Diabetol Metab Syndr,17,15,1,33,0.5151515151515151
 J Diabetes Res,17,22,3,42,0.40476190476190477
 J Hematol Oncol,17,20,1,38,0.4473684210526316
 J Pharm Anal,17,5,0,22,0.7727272727272727
-Mol Neurobiol,17,22,0,39,0.4358974358974359
+Oncol Res,17,18,0,35,0.4857142857142857
 PLoS Negl Trop Dis,17,22,0,39,0.4358974358974359
 Proc Natl Acad Sci U S A,17,37,5,59,0.288135593220339
 Anesth Essays Res,16,19,0,35,0.45714285714285713
 BMC Gastroenterol,16,23,0,39,0.41025641025641024
 BMC Nephrol,16,15,1,32,0.5
-Bioact Mater,16,30,0,46,0.34782608695652173
+CNS Neurosci Ther,16,27,0,43,0.37209302325581395
 Cell J,16,9,0,25,0.64
 Front Surg,16,19,1,36,0.4444444444444444
 Healthcare (Basel),16,32,3,51,0.3137254901960784
+Mol Neurobiol,16,21,0,37,0.43243243243243246
+Naunyn Schmiedebergs Arch Pharmacol,16,13,6,35,0.45714285714285713
 Saudi Pharm J,16,17,0,33,0.48484848484848486
 ScientificWorldJournal,16,18,1,35,0.45714285714285713
 Asian Pac J Cancer Prev,15,14,0,29,0.5172413793103449
+Bioact Mater,15,30,0,45,0.3333333333333333
 Cancer Biol Ther,15,24,0,39,0.38461538461538464
 Diabetes Metab Syndr Obes,15,19,0,34,0.4411764705882353
 Iran J Public Health,15,23,1,39,0.38461538461538464
@@ -223,9 +223,7 @@ J Fungi (Basel),15,7,0,22,0.6818181818181818
 J Thorac Dis,15,12,0,27,0.5555555555555556
 Lipids Health Dis,15,25,1,41,0.36585365853658536
 Mol Biol Rep,15,11,1,27,0.5555555555555556
-Mol Oncol,15,18,0,33,0.45454545454545453
 Mol Ther Oncolytics,15,13,0,28,0.5357142857142857
-Oncogene,15,37,0,52,0.28846153846153844
 World J Stem Cells,15,9,2,26,0.5769230769230769
 Acta Biochim Biophys Sin (Shanghai),14,21,0,35,0.4
 BMC Geriatr,14,14,0,28,0.5
@@ -237,23 +235,22 @@ Int J Surg,14,10,0,24,0.5833333333333334
 J Int Med Res,14,28,1,43,0.32558139534883723
 J Pain Res,14,20,0,34,0.4117647058823529
 Mater Today Bio,14,37,0,51,0.27450980392156865
+Mol Oncol,14,18,0,32,0.4375
 Nutr Metab (Lond),14,8,0,22,0.6363636363636364
+Oncogene,14,36,0,50,0.28
 Patient Prefer Adherence,14,15,1,30,0.4666666666666667
 Ren Fail,14,21,0,35,0.4
 Sci Adv,14,45,4,63,0.2222222222222222
 Toxicol Rep,14,18,0,32,0.4375
 Vet Med Sci,14,13,0,27,0.5185185185185185
-Virol J,14,28,4,46,0.30434782608695654
 BMC Complement Altern Med,13,13,1,27,0.48148148148148145
 BMC Surg,13,20,3,36,0.3611111111111111
 Biomol Biomed,13,7,0,20,0.65
 Cancer Rep (Hoboken),13,15,0,28,0.4642857142857143
 Int J Prev Med,13,17,0,30,0.43333333333333335
-Int Wound J,13,26,0,39,0.3333333333333333
 J Biomed Sci,13,18,1,32,0.40625
 Metabolites,13,30,2,45,0.28888888888888886
 Microbiol Spectr,13,19,1,33,0.3939393939393939
-Orthop Surg,13,11,0,24,0.5416666666666666
 Physiol Rep,13,18,0,31,0.41935483870967744
 Reprod Biol Endocrinol,13,5,3,21,0.6190476190476191
 Sensors (Basel),13,35,0,48,0.2708333333333333
@@ -265,11 +262,12 @@ Bone Res,12,13,0,25,0.48
 Cardiovasc Diabetol,12,20,0,32,0.375
 Infect Drug Resist,12,18,0,30,0.4
 Int J Surg Case Rep,12,20,1,33,0.36363636363636365
+Int Wound J,12,23,0,35,0.34285714285714286
 J Cardiothorac Surg,12,22,0,34,0.35294117647058826
 J Family Med Prim Care,12,16,1,29,0.41379310344827586
 Microb Cell Fact,12,14,0,26,0.46153846153846156
-Mol Cell Biochem,12,9,0,21,0.5714285714285714
 Open Life Sci,12,11,0,23,0.5217391304347826
+Orthop Surg,12,11,0,23,0.5217391304347826
 Pathogens,12,20,0,32,0.375
 BMC Endocr Disord,11,14,2,27,0.4074074074074074
 BMC Neurosci,11,11,0,22,0.5
@@ -283,31 +281,29 @@ Genome Biol,11,11,2,24,0.4583333333333333
 Iran J Pharm Res,11,16,0,27,0.4074074074074074
 J Anim Sci Biotechnol,11,6,0,17,0.6470588235294118
 J Educ Health Promot,11,13,0,24,0.4583333333333333
-J Ginseng Res,11,16,0,27,0.4074074074074074
 Neuropsychiatr Dis Treat,11,12,1,24,0.4583333333333333
 Orphanet J Rare Dis,11,7,0,18,0.6111111111111112
 PLoS Genet,11,31,1,43,0.2558139534883721
 Saudi J Anaesth,11,14,3,28,0.39285714285714285
 Transl Psychiatry,11,23,0,34,0.3235294117647059
+Virol J,11,28,7,46,0.2391304347826087
 Ann Med,10,24,1,35,0.2857142857142857
 BMC Pharmacol Toxicol,10,9,0,19,0.5263157894736842
 BMJ,10,7,6,23,0.43478260869565216
 Breast Cancer Res,10,21,0,31,0.3225806451612903
 Cancer Biol Med,10,8,0,18,0.5555555555555556
-Cancer Metastasis Rev,10,5,0,15,0.6666666666666666
 Cell Biol Toxicol,10,9,0,19,0.5263157894736842
 Clin Transl Med,10,20,1,31,0.3225806451612903
 Clin Transl Oncol,10,5,0,15,0.6666666666666666
-Diabetes,10,12,2,24,0.4166666666666667
 ESC Heart Fail,10,6,2,18,0.5555555555555556
-Inflammopharmacology,10,7,0,17,0.5882352941176471
+Inflammopharmacology,10,6,0,16,0.625
 Int J Chron Obstruct Pulmon Dis,10,12,0,22,0.45454545454545453
 Int J Immunopathol Pharmacol,10,6,0,16,0.625
 Iran J Med Sci,10,7,0,17,0.5882352941176471
-J Clin Transl Hepatol,10,5,0,15,0.6666666666666666
 J Healthc Eng,10,22,0,32,0.3125
 J Pharm Bioallied Sci,10,18,2,30,0.3333333333333333
 Med Res Rev,10,2,0,12,0.8333333333333334
+Mol Cell Biochem,10,8,0,18,0.5555555555555556
 Neural Plast,10,6,0,16,0.625
 Transl Lung Cancer Res,10,3,0,13,0.7692307692307693
 World J Gastrointest Surg,10,25,0,35,0.2857142857142857
@@ -316,14 +312,14 @@ BMC Med Imaging,9,14,0,23,0.391304347826087
 BMC Microbiol,9,21,0,30,0.3
 BMC Neurol,9,9,2,20,0.45
 BMC Nutr,9,0,0,9,1.0
-Biomed J,9,10,0,19,0.47368421052631576
 Biomol Ther (Seoul),9,8,2,19,0.47368421052631576
-Cancer Gene Ther,9,10,0,19,0.47368421052631576
-Cancer Immunol Immunother,9,6,0,15,0.6
+Cancer Gene Ther,9,8,0,17,0.5294117647058824
+Cancer Metastasis Rev,9,5,0,14,0.6428571428571429
 Cell Cycle,9,2,0,11,0.8181818181818182
 Cell Mol Neurobiol,9,7,0,16,0.5625
 Children (Basel),9,14,1,24,0.375
 Clin Interv Aging,9,18,0,27,0.3333333333333333
+Diabetes,9,12,2,23,0.391304347826087
 Discov Nano,9,9,0,18,0.5
 Drug Deliv,9,14,0,23,0.391304347826087
 Epigenetics Chromatin,9,3,0,12,0.75
@@ -350,12 +346,14 @@ Virus Res,9,8,0,17,0.5294117647058824
 World J Clin Oncol,9,5,0,14,0.6428571428571429
 Zhongguo Fei Ai Za Zhi,9,11,0,20,0.45
 mBio,9,20,9,38,0.23684210526315788
-Aging Cell,8,13,0,21,0.38095238095238093
+Aging Cell,8,12,0,20,0.4
 BMC Bioinformatics,8,24,2,34,0.23529411764705882
 Basic Clin Neurosci,8,5,0,13,0.6153846153846154
 Biol Sex Differ,8,1,0,9,0.8888888888888888
 Biol Trace Elem Res,8,3,0,11,0.7272727272727273
+Biomed J,8,8,0,16,0.5
 Braz J Anesthesiol,8,5,0,13,0.6153846153846154
+Cancer Immunol Immunother,8,5,0,13,0.6153846153846154
 Cancer Pathog Ther,8,3,0,11,0.7272727272727273
 Cell Death Differ,8,9,0,17,0.47058823529411764
 Cell Oncol (Dordr),8,7,0,15,0.5333333333333333
@@ -401,13 +399,11 @@ Biol Res,7,13,0,20,0.35
 Biomed Eng Online,7,10,0,17,0.4117647058823529
 Biomed Rep,7,13,0,20,0.35
 Breast Cancer (Dove Med Press),7,7,0,14,0.5
-Brief Bioinform,7,13,0,20,0.35
+Brief Bioinform,7,12,0,19,0.3684210526315789
 Burns Trauma,7,8,0,15,0.4666666666666667
 Cancer Drug Resist,7,1,0,8,0.875
-Clin Respir J,7,4,0,11,0.6363636363636364
 Curr Cardiol Rev,7,10,1,18,0.3888888888888889
 Dent Res J (Isfahan),7,3,0,10,0.7
-Epigenetics,7,5,0,12,0.5833333333333334
 FEBS Open Bio,7,18,0,25,0.28
 Front Hum Neurosci,7,24,2,33,0.21212121212121213
 Galen Med J,7,6,0,13,0.5384615384615384
@@ -415,6 +411,7 @@ Iran J Biotechnol,7,5,0,12,0.5833333333333334
 J Biomed Biotechnol,7,7,3,17,0.4117647058823529
 J Bone Oncol,7,5,0,12,0.5833333333333334
 J Clin Hypertens (Greenwich),7,11,0,18,0.3888888888888889
+J Clin Transl Hepatol,7,4,0,11,0.6363636363636364
 J Gastrointest Oncol,7,17,1,25,0.28
 J Indian Soc Periodontol,7,9,0,16,0.4375
 J Ophthalmol,7,9,0,16,0.4375
@@ -431,15 +428,14 @@ Vet Sci,7,4,0,11,0.6363636363636364
 3 Biotech,6,4,0,10,0.6
 AMB Express,6,10,1,17,0.35294117647058826
 Acta Naturae,6,2,0,8,0.75
-Acta Pharmacol Sin,6,7,0,13,0.46153846153846156
+Acta Pharmacol Sin,6,6,0,12,0.5
 Adipocyte,6,2,0,8,0.75
 Allergy Asthma Clin Immunol,6,3,0,9,0.6666666666666666
 Anesth Pain Med,6,16,0,22,0.2727272727272727
 Anim Nutr,6,4,0,10,0.6
-Animal Model Exp Med,6,10,0,16,0.375
 Asian J Pharm Sci,6,10,0,16,0.375
 Asian-Australas J Anim Sci,6,4,0,10,0.6
-Autophagy,6,7,0,13,0.46153846153846156
+Autophagy,6,6,0,12,0.5
 BMC Health Serv Res,6,19,1,26,0.23076923076923078
 BMC Med Inform Decis Mak,6,13,2,21,0.2857142857142857
 BMC Urol,6,5,0,11,0.5454545454545454
@@ -449,13 +445,13 @@ Cancer Biomark,6,12,1,19,0.3157894736842105
 Cardiovasc J Afr,6,2,1,9,0.6666666666666666
 Clin Appl Thromb Hemost,6,6,0,12,0.5
 Clin Exp Reprod Med,6,1,0,7,0.8571428571428571
+Clin Respir J,6,4,0,10,0.6
 Digit Health,6,23,1,30,0.2
 Dose Response,6,6,0,12,0.5
-Emerg Microbes Infect,6,1,2,9,0.6666666666666666
 Endocr Connect,6,6,0,12,0.5
+Epigenetics,6,5,0,11,0.5454545454545454
 Front Behav Neurosci,6,13,4,23,0.2608695652173913
 Global Spine J,6,4,0,10,0.6
-Ibrain,6,6,0,12,0.5
 Immun Ageing,6,6,0,12,0.5
 Immune Netw,6,5,0,11,0.5454545454545454
 Indian J Anaesth,6,9,4,19,0.3157894736842105
@@ -463,10 +459,10 @@ Int J Cardiol Heart Vasc,6,2,0,8,0.75
 Int J Microbiol,6,4,0,10,0.6
 Int J Mol Cell Med,6,5,0,11,0.5454545454545454
 J Alzheimers Dis,6,4,0,10,0.6
-J Atheroscler Thromb,6,3,0,9,0.6666666666666666
+J Atheroscler Thromb,6,2,0,8,0.75
 J Cell Biol,6,11,1,18,0.3333333333333333
 J Cosmet Dermatol,6,2,1,9,0.6666666666666666
-J Dent Sci,6,8,0,14,0.42857142857142855
+J Ginseng Res,6,13,0,19,0.3157894736842105
 J Korean Med Sci,6,8,5,19,0.3157894736842105
 J Med Biochem,6,12,0,18,0.3333333333333333
 J Med Chem,6,3,3,12,0.5
@@ -483,8 +479,7 @@ Neurosci Bull,6,2,0,8,0.75
 Oncoimmunology,6,16,0,22,0.2727272727272727
 PLoS Comput Biol,6,19,8,33,0.18181818181818182
 Plant Commun,6,4,1,11,0.5454545454545454
-Plant J,6,0,3,9,0.6666666666666666
-Postepy Dermatol Alergol,6,10,0,16,0.375
+Plant J,6,0,2,8,0.75
 Reprod Sci,6,1,1,8,0.75
 Rev Assoc Med Bras (1992),6,3,1,10,0.6
 Rev Cardiovasc Med,6,5,3,14,0.42857142857142855
@@ -494,6 +489,7 @@ Springerplus,6,8,0,14,0.42857142857142855
 Transl Pediatr,6,5,0,11,0.5454545454545454
 Acta Biomed,5,6,2,13,0.38461538461538464
 Acta Neuropathol Commun,5,4,0,9,0.5555555555555556
+Animal Model Exp Med,5,9,0,14,0.35714285714285715
 Apoptosis,5,2,1,8,0.625
 Arch Public Health,5,3,1,9,0.5555555555555556
 BMC Immunol,5,7,0,12,0.4166666666666667
@@ -504,24 +500,23 @@ Bioinformatics,5,2,0,7,0.7142857142857143
 Bioinformation,5,8,0,13,0.38461538461538464
 Bioinorg Chem Appl,5,9,0,14,0.35714285714285715
 Cardiovasc Ther,5,2,0,7,0.7142857142857143
-Chin Herb Med,5,7,0,12,0.4166666666666667
+Chin Herb Med,5,6,0,11,0.45454545454545453
 Clin Cardiol,5,4,0,9,0.5555555555555556
 Clin Hypertens,5,1,0,6,0.8333333333333334
-Clin Kidney J,5,2,0,7,0.7142857142857143
+Clin Kidney J,5,1,0,6,0.8333333333333334
 Contemp Oncol (Pozn),5,7,0,12,0.4166666666666667
 Dent J (Basel),5,9,0,14,0.35714285714285715
 Diabetologia,5,6,4,15,0.3333333333333333
 Diagn Pathol,5,14,7,26,0.19230769230769232
-Drug Deliv Transl Res,5,6,0,11,0.45454545454545453
+Emerg Microbes Infect,5,1,3,9,0.5555555555555556
 F1000Res,5,21,11,37,0.13513513513513514
 Front Artif Intell,5,4,0,9,0.5555555555555556
-Fundam Res,5,5,0,10,0.5
 G3 (Bethesda),5,6,0,11,0.45454545454545453
 Gastroenterol Res Pract,5,10,0,15,0.3333333333333333
 Genomics Proteomics Bioinformatics,5,3,0,8,0.625
 Gynecol Minim Invasive Ther,5,1,0,6,0.8333333333333334
 Hum Genomics,5,5,0,10,0.5
-Indian Dermatol Online J,5,2,0,7,0.7142857142857143
+Ibrain,5,5,0,10,0.5
 Infect Agent Cancer,5,5,0,10,0.5
 Inflamm Regen,5,4,0,9,0.5555555555555556
 Insects,5,12,0,17,0.29411764705882354
@@ -547,12 +542,10 @@ J Trop Med,5,1,0,6,0.8333333333333334
 JMIR Form Res,5,8,0,13,0.38461538461538464
 JMIR Public Health Surveill,5,5,2,12,0.4166666666666667
 Korean J Intern Med,5,2,2,9,0.5555555555555556
-Life Sci,5,1,0,6,0.8333333333333334
-Life Sci Alliance,5,10,0,15,0.3333333333333333
 Mamm Genome,5,0,0,5,1.0
 Mol Metab,5,20,2,27,0.18518518518518517
 Mol Pain,5,13,1,19,0.2631578947368421
-Mol Psychiatry,5,11,0,16,0.3125
+Mol Psychiatry,5,10,0,15,0.3333333333333333
 Nanoscale Res Lett,5,8,0,13,0.38461538461538464
 Neural Regen Res,5,6,0,11,0.45454545454545453
 PPAR Res,5,3,0,8,0.625
@@ -562,16 +555,15 @@ Pathol Oncol Res,5,6,1,12,0.4166666666666667
 Perioper Med (Lond),5,2,0,7,0.7142857142857143
 Plant Methods,5,9,0,14,0.35714285714285715
 Plast Reconstr Surg Glob Open,5,6,0,11,0.45454545454545453
-Protein Cell,5,7,0,12,0.4166666666666667
+Postepy Dermatol Alergol,5,10,0,15,0.3333333333333333
 Redox Rep,5,6,0,11,0.45454545454545453
 Res Pharm Sci,5,5,0,10,0.5
 Research (Wash D C),5,14,0,19,0.2631578947368421
 Risk Manag Healthc Policy,5,9,0,14,0.35714285714285715
 Saudi Dent J,5,2,0,7,0.7142857142857143
-Sci Prog,5,6,0,11,0.45454545454545453
 Scientifica (Cairo),5,6,1,12,0.4166666666666667
 Sports (Basel),5,3,0,8,0.625
-Stem Cell Rev Rep,5,7,5,17,0.29411764705882354
+Stem Cell Rev Rep,5,6,5,16,0.3125
 Surg Neurol Int,5,6,1,12,0.4166666666666667
 Syst Rev,5,7,3,15,0.3333333333333333
 Ther Adv Endocrinol Metab,5,0,0,5,1.0
@@ -600,7 +592,7 @@ BMC Evol Biol,4,7,0,11,0.36363636363636365
 BMC Genom Data,4,0,0,4,1.0
 BMC Ophthalmol,4,15,0,19,0.21052631578947367
 BMC Psychol,4,12,0,16,0.25
-Biochem Genet,4,9,0,13,0.3076923076923077
+Biochem Genet,4,8,0,12,0.3333333333333333
 Biochim Biophys Acta,4,0,0,4,1.0
 Biologics,4,5,0,9,0.4444444444444444
 Biomimetics (Basel),4,4,1,9,0.4444444444444444
@@ -618,7 +610,6 @@ Cell Div,4,10,0,14,0.2857142857142857
 Cell Rep,4,3,0,7,0.5714285714285714
 Clin Case Rep,4,10,0,14,0.2857142857142857
 Clin Exp Immunol,4,1,0,5,0.8
-Clin Exp Pediatr,4,1,0,5,0.8
 Clin Rheumatol,4,4,1,9,0.4444444444444444
 Contrast Media Mol Imaging,4,6,0,10,0.4
 Curr Oncol,4,7,0,11,0.36363636363636365
@@ -626,6 +617,7 @@ Curr Pharm Des,4,5,1,10,0.4
 Curr Res Pharmacol Drug Discov,4,4,0,8,0.5
 Curr Ther Res Clin Exp,4,1,0,5,0.8
 Dis Model Mech,4,12,1,17,0.23529411764705882
+Drug Deliv Transl Res,4,6,0,10,0.4
 EClinicalMedicine,4,3,5,12,0.3333333333333333
 EFORT Open Rev,4,2,7,13,0.3076923076923077
 EMBO J,4,14,0,18,0.2222222222222222
@@ -642,10 +634,10 @@ Funct Integr Genomics,4,1,0,5,0.8
 GM Crops Food,4,2,4,10,0.4
 Gastroenterol Hepatol Bed Bench,4,3,0,7,0.5714285714285714
 Genes Environ,4,2,0,6,0.6666666666666666
-Heart Fail Rev,4,0,0,4,1.0
 Histochem Cell Biol,4,3,0,7,0.5714285714285714
 Hum Cell,4,2,0,6,0.6666666666666666
 Immunology,4,3,0,7,0.5714285714285714
+Indian Dermatol Online J,4,2,1,7,0.5714285714285714
 Indian Heart J,4,3,1,8,0.5
 Indian J Community Med,4,4,0,8,0.5
 Indian J Endocrinol Metab,4,2,0,6,0.6666666666666666
@@ -663,7 +655,8 @@ J Biol Eng,4,4,0,8,0.5
 J Clin Exp Dent,4,3,0,7,0.5714285714285714
 J Clin Res Pediatr Endocrinol,4,1,0,5,0.8
 J Cogn Enhanc,4,0,0,4,1.0
-J Diabetes,4,4,0,8,0.5
+J Dent Sci,4,6,0,10,0.4
+J Diabetes,4,3,0,7,0.5714285714285714
 J Indian Prosthodont Soc,4,1,0,5,0.8
 J Lipid Res,4,4,1,9,0.4444444444444444
 J Med Life,4,8,0,12,0.3333333333333333
@@ -671,10 +664,11 @@ J Mol Histol,4,1,0,5,0.8
 J Neurosci Rural Pract,4,2,0,6,0.6666666666666666
 J Physiol,4,2,0,6,0.6666666666666666
 J Reprod Infertil,4,1,0,5,0.8
-J Tradit Complement Med,4,13,0,17,0.23529411764705882
+J Tradit Complement Med,4,12,0,16,0.25
 JMIR Med Inform,4,5,0,9,0.4444444444444444
+Life Sci,4,1,0,5,0.8
+Life Sci Alliance,4,10,0,14,0.2857142857142857
 Lupus Sci Med,4,4,0,8,0.5
-Malays J Med Sci,4,2,0,6,0.6666666666666666
 Med Gas Res,4,1,0,5,0.8
 Med Int (Lond),4,3,0,7,0.5714285714285714
 Mediterr J Hematol Infect Dis,4,2,0,6,0.6666666666666666
@@ -686,7 +680,6 @@ Mol Biotechnol,4,13,0,17,0.23529411764705882
 Mol Cell Oncol,4,0,0,4,1.0
 Mol Genet Genomic Med,4,7,0,11,0.36363636363636365
 Mol Neurodegener,4,8,0,12,0.3333333333333333
-Mol Ther,4,9,0,13,0.3076923076923077
 Nat Plants,4,0,0,4,1.0
 Nat Prod Bioprospect,4,5,0,9,0.4444444444444444
 Natl J Maxillofac Surg,4,4,0,8,0.5
@@ -696,11 +689,10 @@ Obes Facts,4,1,0,5,0.8
 Open Vet J,4,8,0,12,0.3333333333333333
 Oral Dis,4,0,0,4,1.0
 PeerJ Comput Sci,4,13,0,17,0.23529411764705882
-Pharmacol Rep,4,1,0,5,0.8
 Plant Direct,4,3,0,7,0.5714285714285714
-Plant Genome,4,5,0,9,0.4444444444444444
 Pol J Radiol,4,1,0,5,0.8
 Postepy Kardiol Interwencyjnej,4,0,0,4,1.0
+Protein Cell,4,7,0,11,0.36363636363636365
 Protein Pept Lett,4,0,0,4,1.0
 Psychiatry Clin Psychopharmacol,4,0,0,4,1.0
 Psychol Res Behav Manag,4,5,0,9,0.4444444444444444
@@ -710,6 +702,7 @@ Rev Bras Enferm,4,4,0,8,0.5
 Rev Endocr Metab Disord,4,4,0,8,0.5
 SAGE Open Med Case Rep,4,5,0,9,0.4444444444444444
 Sao Paulo Med J,4,3,0,7,0.5714285714285714
+Sci Prog,4,6,1,11,0.36363636363636365
 Sex Med,4,6,1,11,0.36363636363636365
 Sisli Etfal Hastan Tip Bul,4,3,0,7,0.5714285714285714
 Sleep Sci,4,1,0,5,0.8
@@ -718,7 +711,6 @@ Stem Cells Transl Med,4,18,2,24,0.16666666666666666
 Support Care Cancer,4,2,1,7,0.5714285714285714
 Tanaffos,4,5,0,9,0.4444444444444444
 Toxicol Res,4,6,0,10,0.4
-Wiley Interdiscip Rev RNA,4,0,0,4,1.0
 Womens Health (Lond),4,4,0,8,0.5
 World J Emerg Surg,4,4,1,9,0.4444444444444444
 World J Orthop,4,1,0,5,0.8
@@ -738,13 +730,11 @@ Anim Biosci,3,1,0,4,0.75
 Ann Card Anaesth,3,8,0,11,0.2727272727272727
 Ann Clin Microbiol Antimicrob,3,2,1,6,0.5
 Ann Indian Acad Neurol,3,2,0,5,0.6
-Antiviral Res,3,1,0,4,0.75
 Appl Biochem Biotechnol,3,3,0,6,0.5
 Arch Endocrinol Metab,3,4,0,7,0.42857142857142855
 Arch Med Sci Atheroscler Dis,3,4,0,7,0.42857142857142855
 Arch Rheumatol,3,6,0,9,0.3333333333333333
 Arch Virol,3,5,0,8,0.375
-Asian J Androl,3,10,0,13,0.23076923076923078
 Asian J Urol,3,0,1,4,0.75
 Ayu,3,0,0,3,1.0
 BMC Chem,3,6,0,9,0.3333333333333333
@@ -752,11 +742,10 @@ BMJ Glob Health,3,0,2,5,0.6
 Beilstein J Org Chem,3,5,0,8,0.375
 BioData Min,3,6,1,10,0.3
 BioTechnologia (Pozn),3,6,0,9,0.3333333333333333
-Bioeng Transl Med,3,11,0,14,0.21428571428571427
+Bioeng Transl Med,3,10,0,13,0.23076923076923078
 Biofactors,3,2,0,5,0.6
 Biomark Insights,3,3,1,7,0.42857142857142855
 Biomater Res,3,10,0,13,0.23076923076923078
-Biomed Pharmacother,3,3,0,6,0.5
 Biosensors (Basel),3,15,0,18,0.16666666666666666
 Biotechnol Adv,3,0,0,3,1.0
 Blood Cancer J,3,1,0,4,0.75
@@ -778,6 +767,7 @@ Chem Rev,3,2,4,9,0.3333333333333333
 Clin Dev Immunol,3,11,0,14,0.21428571428571427
 Clin Exp Dent Res,3,7,0,10,0.3
 Clin Exp Otorhinolaryngol,3,3,0,6,0.5
+Clin Exp Pediatr,3,1,0,4,0.75
 Clin Ophthalmol,3,5,0,8,0.375
 Clin Oral Investig,3,5,0,8,0.375
 Clin Rev Allergy Immunol,3,5,0,8,0.375
@@ -788,7 +778,7 @@ Contracept Reprod Med,3,0,0,3,1.0
 Curr Med Chem,3,2,0,5,0.6
 Curr Res Food Sci,3,5,0,8,0.375
 Curr Res Microb Sci,3,2,0,5,0.6
-Curr Zool,3,1,0,4,0.75
+Curr Zool,3,0,0,3,1.0
 Diabetes Metab J,3,2,0,5,0.6
 Drugs Aging,3,1,0,4,0.75
 EJIFCC,3,3,0,6,0.5
@@ -817,9 +807,10 @@ Gene,3,0,0,3,1.0
 Genet Mol Biol,3,3,0,6,0.5
 Geroscience,3,15,0,18,0.16666666666666666
 Glob Cardiol Sci Pract,3,1,0,4,0.75
-Gut Liver,3,7,0,10,0.3
+Gut Liver,3,6,0,9,0.3333333333333333
 Head Face Med,3,2,0,5,0.6
 Health Qual Life Outcomes,3,2,0,5,0.6
+Heart Fail Rev,3,0,0,3,1.0
 Hum Mol Genet,3,4,1,8,0.375
 Hum Mutat,3,2,0,5,0.6
 Hum Vaccin Immunother,3,14,1,18,0.16666666666666666
@@ -834,7 +825,6 @@ Indian J Psychiatry,3,3,2,8,0.375
 Indian J Urol,3,4,0,7,0.42857142857142855
 Infect Genet Evol,3,1,0,4,0.75
 Infect Immun,3,4,0,7,0.42857142857142855
-Innovation (Camb),3,1,0,4,0.75
 Int J Anal Chem,3,6,0,9,0.3333333333333333
 Int J Cancer,3,3,0,6,0.5
 Int J Infect Dis,3,1,1,5,0.6
@@ -851,7 +841,6 @@ J Allergy Clin Immunol,3,3,0,6,0.5
 J Am Chem Soc,3,6,0,9,0.3333333333333333
 J Appl Oral Sci,3,2,0,5,0.6
 J Arthropod Borne Dis,3,6,0,9,0.3333333333333333
-J Autism Dev Disord,3,1,1,5,0.6
 J Biol Res (Thessalon),3,1,0,4,0.75
 J Blood Med,3,1,0,4,0.75
 J Bras Nefrol,3,1,0,4,0.75
@@ -862,7 +851,6 @@ J Cardiovasc Thorac Res,3,5,0,8,0.375
 J Cardiovasc Transl Res,3,1,0,4,0.75
 J Caring Sci,3,4,0,7,0.42857142857142855
 J Cell Commun Signal,3,1,0,4,0.75
-J Clin Monit Comput,3,3,0,6,0.5
 J Clin Pract Res,3,0,0,3,1.0
 J Craniovertebr Junction Spine,3,4,0,7,0.42857142857142855
 J Cutan Aesthet Surg,3,2,0,5,0.6
@@ -872,7 +860,6 @@ J Evid Based Integr Med,3,0,0,3,1.0
 J Exp Pharmacol,3,3,0,6,0.5
 J Family Reprod Health,3,2,0,5,0.6
 J Hum Reprod Sci,3,3,0,6,0.5
-J Infect Public Health,3,1,0,4,0.75
 J Innate Immun,3,0,0,3,1.0
 J Korean Assoc Oral Maxillofac Surg,3,3,0,6,0.5
 J Med Case Rep,3,7,0,10,0.3
@@ -885,7 +872,7 @@ J Nutr Health Aging,3,4,0,7,0.42857142857142855
 J Nutr Metab,3,4,0,7,0.42857142857142855
 J Obes Metab Syndr,3,0,0,3,1.0
 J Occup Rehabil,3,0,0,3,1.0
-J Pediatr (Rio J),3,5,0,8,0.375
+J Pediatr (Rio J),3,4,0,7,0.42857142857142855
 J Pharmacol Pharmacother,3,1,0,4,0.75
 J Prev (2022),3,1,0,4,0.75
 J Prev Alzheimers Dis,3,2,0,5,0.6
@@ -903,6 +890,7 @@ Kidney Dis (Basel),3,2,0,5,0.6
 Korean Circ J,3,3,0,6,0.5
 Korean J Fam Med,3,1,0,4,0.75
 Korean J Physiol Pharmacol,3,9,0,12,0.25
+Malays J Med Sci,3,2,0,5,0.6
 Medicines (Basel),3,5,0,8,0.375
 Microbiologyopen,3,3,0,6,0.5
 Micromachines (Basel),3,9,0,12,0.25
@@ -910,6 +898,7 @@ Mol Biol Res Commun,3,4,0,7,0.42857142857142855
 Mol Cell Proteomics,3,7,0,10,0.3
 Mol Cells,3,10,0,13,0.23076923076923078
 Mol Reprod Dev,3,1,0,4,0.75
+Mol Ther,3,9,0,12,0.25
 Mol Ther Oncol,3,5,0,8,0.375
 N Am J Med Sci,3,1,0,4,0.75
 NAR Genom Bioinform,3,2,0,5,0.6
@@ -931,18 +920,20 @@ Open Dent J,3,0,0,3,1.0
 PLoS Med,3,1,5,9,0.3333333333333333
 Pain Rep,3,1,0,4,0.75
 Pain Res Manag,3,8,0,11,0.2727272727272727
-Pain Ther,3,2,0,5,0.6
+Pain Ther,3,1,0,4,0.75
 Part Fibre Toxicol,3,4,1,8,0.375
 Pediatr Cardiol,3,1,0,4,0.75
 Pediatr Res,3,5,0,8,0.375
 Pediatr Rheumatol Online J,3,4,0,7,0.42857142857142855
 Pharm Res,3,0,0,3,1.0
+Pharmacol Rep,3,1,0,4,0.75
 Physiol Plant,3,1,0,4,0.75
 Plant Cell,3,1,0,4,0.75
+Plant Genome,3,5,0,8,0.375
 Planta,3,2,0,5,0.6
 Precis Clin Med,3,0,0,3,1.0
 Probiotics Antimicrob Proteins,3,0,0,3,1.0
-Regen Biomater,3,5,0,8,0.375
+Regen Biomater,3,4,0,7,0.42857142857142855
 Rev Bras Ginecol Obstet,3,5,0,8,0.375
 Rev Esp Quimioter,3,0,0,3,1.0
 Rice (N Y),3,5,0,8,0.375
@@ -955,7 +946,6 @@ Trop Med Infect Dis,3,4,1,8,0.375
 Tumour Biol,3,0,0,3,1.0
 Tunis Med,3,4,0,7,0.42857142857142855
 Turk J Med Sci,3,7,0,10,0.3
-Tzu Chi Med J,3,2,0,5,0.6
 Ulus Travma Acil Cerrahi Derg,3,0,0,3,1.0
 Vasc Biol,3,0,0,3,1.0
 Vet Res,3,5,0,8,0.375
@@ -965,8 +955,7 @@ World J Methodol,3,3,1,7,0.42857142857142855
 Yonsei Med J,3,10,0,13,0.23076923076923078
 Zhejiang Da Xue Xue Bao Yi Xue Ban,3,2,0,5,0.6
 Zhonghua Xue Ye Xue Za Zhi,3,4,0,7,0.42857142857142855
-ACS Bio Med Chem Au,2,0,0,2,1.0
-ADMET DMPK,2,2,0,4,0.5
+ADMET DMPK,2,1,0,3,0.6666666666666666
 Access Microbiol,2,1,1,4,0.5
 Acta Biochim Pol,2,0,0,2,1.0
 Acta Derm Venereol,2,1,0,3,0.6666666666666666
@@ -979,7 +968,6 @@ Adv Med Educ Pract,2,5,0,7,0.2857142857142857
 Adv Nutr,2,3,1,6,0.3333333333333333
 Adv Respir Med,2,1,0,3,0.6666666666666666
 Adv Rheumatol,2,2,0,4,0.5
-Adv Ther,2,1,3,6,0.3333333333333333
 Age Ageing,2,4,0,6,0.3333333333333333
 Alzheimers Dement,2,5,2,9,0.2222222222222222
 Am Heart J Plus,2,1,0,3,0.6666666666666666
@@ -992,7 +980,7 @@ Ann Gastroenterol,2,2,0,4,0.5
 Ann Gen Psychiatry,2,1,0,3,0.6666666666666666
 Ann Maxillofac Surg,2,6,0,8,0.25
 Ann Surg Oncol,2,0,0,2,1.0
-Antioxid Redox Signal,2,2,1,5,0.4
+Antiviral Res,2,1,0,3,0.6666666666666666
 AoB Plants,2,2,0,4,0.5
 Appl Clin Genet,2,0,0,2,1.0
 Appl Sci (Basel),2,1,0,3,0.6666666666666666
@@ -1001,8 +989,8 @@ Arch Acad Emerg Med,2,2,0,4,0.5
 Arch Iran Med,2,3,0,5,0.4
 Arch Plast Surg,2,2,1,5,0.4
 Arch Toxicol,2,4,2,8,0.25
-Arthritis Rheumatol,2,1,0,3,0.6666666666666666
 Arthroplast Today,2,4,0,6,0.3333333333333333
+Asian J Androl,2,10,0,12,0.16666666666666666
 Asian J Neurosurg,2,2,0,4,0.5
 Aten Primaria,2,3,1,6,0.3333333333333333
 Autoimmune Dis,2,1,1,4,0.5
@@ -1026,6 +1014,7 @@ Biochem J,2,7,0,9,0.2222222222222222
 Biol Open,2,7,1,10,0.2
 Biol Reprod,2,0,0,2,1.0
 Biomark Cancer,2,2,0,4,0.5
+Biomed Pharmacother,2,3,0,5,0.4
 Biomedicine (Taipei),2,1,0,3,0.6666666666666666
 Biotechnol Biofuels Bioprod,2,3,0,5,0.4
 Biotechnol Rep (Amst),2,9,0,11,0.18181818181818182
@@ -1053,7 +1042,6 @@ Cell Biochem Funct,2,1,0,3,0.6666666666666666
 Cell Metab,2,0,0,2,1.0
 Cell Tissue Bank,2,2,0,4,0.5
 Chem Biodivers,2,3,0,5,0.4
-Child Psychiatry Hum Dev,2,1,0,3,0.6666666666666666
 Chin J Traumatol,2,2,0,4,0.5
 Circ Res,2,1,0,3,0.6666666666666666
 Clin Cancer Res,2,3,0,5,0.4
@@ -1064,7 +1052,6 @@ Clin Pract Epidemiol Ment Health,2,0,0,2,1.0
 Clin Sci (Lond),2,3,0,5,0.4
 Clujul Med,2,0,0,2,1.0
 Cogn Affect Behav Neurosci,2,0,0,2,1.0
-Cogn Neurodyn,2,0,0,2,1.0
 Comb Chem High Throughput Screen,2,3,0,5,0.4
 Commun Med (Lond),2,5,0,7,0.2857142857142857
 Compr Psychoneuroendocrinol,2,0,0,2,1.0
@@ -1094,7 +1081,7 @@ Epigenomes,2,0,0,2,1.0
 Eplasty,2,1,0,3,0.6666666666666666
 Equine Vet J,2,0,0,2,1.0
 Essays Biochem,2,0,0,2,1.0
-Eur Arch Otorhinolaryngol,2,3,0,5,0.4
+Eur Arch Otorhinolaryngol,2,2,0,4,0.5
 Eur J Breast Health,2,1,0,3,0.6666666666666666
 Eur J Cancer Prev,2,0,0,2,1.0
 Eur J Clin Nutr,2,2,1,5,0.4
@@ -1117,12 +1104,12 @@ FEMS Microbiol Rev,2,1,0,3,0.6666666666666666
 FEMS Yeast Res,2,0,0,2,1.0
 Fam Pract,2,1,0,3,0.6666666666666666
 Fibrogenesis Tissue Repair,2,1,0,3,0.6666666666666666
-Forensic Sci Res,2,2,1,5,0.4
 Front Aging,2,2,0,4,0.5
 Front Dent Med,2,2,0,4,0.5
 Front Drug Deliv,2,3,0,5,0.4
 Front Sociol,2,3,0,5,0.4
 Front Synaptic Neurosci,2,3,0,5,0.4
+Fundam Res,2,5,0,7,0.2857142857142857
 Geburtshilfe Frauenheilkd,2,0,0,2,1.0
 Genes Cancer,2,1,0,3,0.6666666666666666
 Genes Dev,2,6,0,8,0.25
@@ -1147,17 +1134,15 @@ Immunotargets Ther,2,5,0,7,0.2857142857142857
 Immunother Adv,2,3,0,5,0.4
 Indian J Orthop,2,2,0,4,0.5
 Indian J Palliat Care,2,2,0,4,0.5
-Indian J Radiol Imaging,2,0,1,3,0.6666666666666666
 Inform Med Unlocked,2,2,0,4,0.5
 Innate Immun,2,3,0,5,0.4
-Inquiry,2,4,2,8,0.25
+Innovation (Camb),2,1,0,3,0.6666666666666666
 Int Arch Occup Environ Health,2,3,0,5,0.4
 Int Arch Otorhinolaryngol,2,1,0,3,0.6666666666666666
 Int Endod J,2,1,0,3,0.6666666666666666
 Int J Appl Basic Med Res,2,3,0,5,0.4
 Int J Biomater,2,6,0,8,0.25
 Int J Cardiol,2,1,0,3,0.6666666666666666
-Int J Cell Biol,2,1,1,4,0.5
 Int J Clin Pediatr Dent,2,6,0,8,0.25
 Int J Colorectal Dis,2,2,0,4,0.5
 Int J Endocrinol Metab,2,6,0,8,0.25
@@ -1169,7 +1154,6 @@ Int J Oral Sci,2,5,0,7,0.2857142857142857
 Int J Pharm,2,0,0,2,1.0
 Int J Retina Vitreous,2,1,0,3,0.6666666666666666
 Int Urogynecol J,2,0,0,2,1.0
-Int Urol Nephrol,2,3,0,5,0.4
 Intensive Care Med,2,1,4,7,0.2857142857142857
 Interact J Med Res,2,0,0,2,1.0
 Intern Emerg Med,2,2,2,6,0.3333333333333333
@@ -1180,8 +1164,8 @@ Iran J Reprod Med,2,1,0,3,0.6666666666666666
 J Adv Vet Anim Res,2,4,0,6,0.3333333333333333
 J Agric Food Chem,2,6,0,8,0.25
 J Appl Genet,2,2,1,5,0.4
-J Appl Toxicol,2,0,0,2,1.0
 J Assist Reprod Genet,2,6,0,8,0.25
+J Autism Dev Disord,2,1,1,4,0.5
 J Ayurveda Integr Med,2,7,0,9,0.2222222222222222
 J Bacteriol,2,2,3,7,0.2857142857142857
 J Behav Addict,2,1,0,3,0.6666666666666666
@@ -1191,6 +1175,7 @@ J Cell Sci,2,3,0,5,0.4
 J Clin Apher,2,0,0,2,1.0
 J Clin Epidemiol,2,0,4,6,0.3333333333333333
 J Clin Invest,2,8,1,11,0.18181818181818182
+J Clin Monit Comput,2,3,0,5,0.4
 J Clin Nurs,2,0,0,2,1.0
 J Comput Assist Tomogr,2,0,0,2,1.0
 J Conserv Dent Endod,2,4,0,6,0.3333333333333333
@@ -1200,18 +1185,18 @@ J Gastroenterol,2,1,0,3,0.6666666666666666
 J Gen Virol,2,0,0,2,1.0
 J Genomics,2,0,0,2,1.0
 J Geriatr Cardiol,2,3,0,5,0.4
-J Gynecol Oncol,2,2,0,4,0.5
 J Hand Surg Glob Online,2,2,0,4,0.5
 J Hip Preserv Surg,2,1,2,5,0.4
 J Hum Kinet,2,5,0,7,0.2857142857142857
 J Imaging,2,3,0,5,0.4
 J Immunother Cancer,2,13,0,15,0.13333333333333333
+J Infect Public Health,2,1,0,3,0.6666666666666666
 J Inflamm (Lond),2,7,1,10,0.2
 J Int Soc Prev Community Dent,2,5,0,7,0.2857142857142857
 J Intensive Care,2,2,2,6,0.3333333333333333
 J Intensive Med,2,0,0,2,1.0
 J Investig Med,2,1,0,3,0.6666666666666666
-J Korean Neurosurg Soc,2,2,0,4,0.5
+J Korean Neurosurg Soc,2,1,0,3,0.6666666666666666
 J Lab Physicians,2,1,0,3,0.6666666666666666
 J Mater Sci Mater Med,2,5,0,7,0.2857142857142857
 J Med Phys,2,2,0,4,0.5
@@ -1254,19 +1239,18 @@ JVS Vasc Sci,2,0,0,2,1.0
 Knee Surg Relat Res,2,4,0,6,0.3333333333333333
 Korean J Pain,2,1,0,3,0.6666666666666666
 Korean J Pediatr,2,1,0,3,0.6666666666666666
-Lab Invest,2,4,0,6,0.3333333333333333
+Lab Invest,2,3,0,5,0.4
 Lancet Reg Health Am,2,1,0,3,0.6666666666666666
 Lancet Reg Health Eur,2,1,0,3,0.6666666666666666
 Lancet Reg Health Southeast Asia,2,1,0,3,0.6666666666666666
 Leuk Res Rep,2,3,0,5,0.4
-Leukemia,2,7,0,9,0.2222222222222222
+Leukemia,2,6,0,8,0.25
 Lipids,2,0,0,2,1.0
 Liver Cancer,2,0,0,2,1.0
 Liver Int,2,3,0,5,0.4
 Lung,2,1,0,3,0.6666666666666666
 Lung India,2,5,0,7,0.2857142857142857
 Mater Sociomed,2,0,0,2,1.0
-Matern Child Nutr,2,0,0,2,1.0
 Maxillofac Plast Reconstr Surg,2,0,0,2,1.0
 Med Princ Pract,2,3,1,6,0.3333333333333333
 Med Rev (2021),2,1,0,3,0.6666666666666666
@@ -1282,16 +1266,14 @@ Mol Biol Evol,2,4,0,6,0.3333333333333333
 Mol Brain,2,5,0,7,0.2857142857142857
 Mol Cell Biol,2,2,0,4,0.5
 Mol Cell Endocrinol,2,1,1,4,0.5
-Mol Ther Methods Clin Dev,2,2,0,4,0.5
 Mucosal Immunol,2,4,0,6,0.3333333333333333
 Mycobiology,2,2,0,4,0.5
 NPJ Aging Mech Dis,2,0,0,2,1.0
 NPJ Parkinsons Dis,2,5,0,7,0.2857142857142857
 NPJ Syst Biol Appl,2,3,0,5,0.4
 Narra J,2,6,0,8,0.25
-Nat Hum Behav,2,2,2,6,0.3333333333333333
 Nat Rev Drug Discov,2,0,0,2,1.0
-Natl Sci Rev,2,11,6,19,0.10526315789473684
+Natl Sci Rev,2,10,5,17,0.11764705882352941
 Neoplasia,2,15,0,17,0.11764705882352941
 Nephrol Dial Transplant,2,2,0,4,0.5
 Nephrourol Mon,2,1,0,3,0.6666666666666666
@@ -1339,9 +1321,8 @@ Postgrad Med J,2,0,0,2,1.0
 Proc Biol Sci,2,2,0,4,0.5
 Proteome Sci,2,3,0,5,0.4
 Prz Gastroenterol,2,4,0,6,0.3333333333333333
-Psychol Med,2,4,0,6,0.3333333333333333
+Psychol Med,2,3,0,5,0.4
 Psychol Res,2,2,0,4,0.5
-Public Health Nurs,2,0,0,2,1.0
 Purinergic Signal,2,0,2,4,0.5
 R Soc Open Sci,2,12,4,18,0.1111111111111111
 RSC Chem Biol,2,2,0,4,0.5
@@ -1370,18 +1351,18 @@ Small Sci,2,1,0,3,0.6666666666666666
 Surg Endosc,2,3,0,5,0.4
 Theor Appl Genet,2,1,0,3,0.6666666666666666
 Ther Adv Respir Dis,2,2,0,4,0.5
-Transfusion,2,0,2,4,0.5
 Transl Oncogenomics,2,0,0,2,1.0
 Travel Med Infect Dis,2,0,3,5,0.4
 Trop Life Sci Res,2,1,0,3,0.6666666666666666
 Turk J Obstet Gynecol,2,5,0,7,0.2857142857142857
 Turk J Ophthalmol,2,1,0,3,0.6666666666666666
 Turk J Surg,2,0,0,2,1.0
+Tzu Chi Med J,2,2,0,4,0.5
 Virol Sin,2,2,0,4,0.5
 Virulence,2,8,1,11,0.18181818181818182
 Virus Evol,2,4,0,6,0.3333333333333333
+Wiley Interdiscip Rev RNA,2,0,0,2,1.0
 World J Mens Health,2,1,0,3,0.6666666666666666
-World J Otorhinolaryngol Head Neck Surg,2,1,0,3,0.6666666666666666
 World J Plast Surg,2,0,0,2,1.0
 World J Radiol,2,1,0,3,0.6666666666666666
 Zdr Varst,2,1,0,3,0.6666666666666666
@@ -1392,6 +1373,7 @@ AACE Clin Case Rep,1,0,0,1,1.0
 ACR Open Rheumatol,1,3,0,4,0.25
 ACS Appl Bio Mater,1,5,0,6,0.16666666666666666
 ACS Appl Nano Mater,1,0,0,1,1.0
+ACS Bio Med Chem Au,1,0,1,2,0.5
 ACS Biomater Sci Eng,1,1,0,2,0.5
 ACS Chem Biol,1,3,0,4,0.25
 ACS Nano,1,5,0,6,0.16666666666666666
@@ -1423,6 +1405,7 @@ Adv Med,1,1,0,2,0.5
 Adv Ophthalmol Pract Res,1,1,0,2,0.5
 Adv Protein Chem Struct Biol,1,0,0,1,1.0
 Adv Rehabil Sci Pract,1,0,0,1,1.0
+Adv Ther,1,1,3,5,0.2
 Adv Urol,1,0,0,1,1.0
 Adv Virol,1,1,0,2,0.5
 Adv Wound Care (New Rochelle),1,1,0,2,0.5
@@ -1443,7 +1426,6 @@ Am J Gastroenterol,1,0,0,1,1.0
 Am J Hum Biol,1,0,0,1,1.0
 Am J Mens Health,1,2,0,3,0.3333333333333333
 Am J Nephrol,1,0,0,1,1.0
-Am J Perinatol,1,0,0,1,1.0
 Am J Physiol Gastrointest Liver Physiol,1,0,1,2,0.5
 Amino Acids,1,1,0,2,0.5
 An Bras Dermatol,1,4,0,5,0.2
@@ -1457,10 +1439,10 @@ Anim Cells Syst (Seoul),1,1,0,2,0.5
 Anim Microbiome,1,1,0,2,0.5
 Ann Allergy Asthma Immunol,1,0,0,1,1.0
 Ann Biomed Eng,1,0,0,1,1.0
-Ann Gastroenterol Surg,1,1,0,2,0.5
+Ann Gastroenterol Surg,1,0,0,1,1.0
 Ann Hematol,1,3,0,4,0.25
 Ann Lab Med,1,3,0,4,0.25
-Ann N Y Acad Sci,1,3,0,4,0.25
+Ann N Y Acad Sci,1,2,0,3,0.3333333333333333
 Ann Neurol,1,0,0,1,1.0
 Ann Neurosci,1,2,1,4,0.25
 Ann Noninvasive Electrocardiol,1,0,0,1,1.0
@@ -1473,24 +1455,25 @@ Ann Work Expo Health,1,0,0,1,1.0
 Annu Rev Physiol,1,0,0,1,1.0
 Antimicrob Agents Chemother,1,1,0,2,0.5
 Antimicrob Resist Infect Control,1,2,0,3,0.3333333333333333
+Antioxid Redox Signal,1,2,1,4,0.25
 Antonie Van Leeuwenhoek,1,2,0,3,0.3333333333333333
 Appl Bionics Biomech,1,3,0,4,0.25
 Appl Environ Microbiol,1,1,0,2,0.5
 Appl Soft Comput,1,0,0,1,1.0
 Aquac Nutr,1,1,0,2,0.5
 Arab J Sci Eng,1,0,0,1,1.0
-Arch Bronconeumol,1,2,1,4,0.25
+Arch Bronconeumol,1,1,1,3,0.3333333333333333
 Arch Dermatol Res,1,2,0,3,0.3333333333333333
 Arch Intern Med Res,1,0,0,1,1.0
 Arch Orthop Trauma Surg,1,2,0,3,0.3333333333333333
 Arch Peru Cardiol Cir Cardiovasc,1,0,0,1,1.0
 Arch Pharm Res,1,1,0,2,0.5
-Arch Sex Behav,1,3,0,4,0.25
 Archaea,1,0,0,1,1.0
 Arq Bras Oftalmol,1,3,0,4,0.25
 Arq Neuropsiquiatr,1,0,0,1,1.0
 Arterioscler Thromb Vasc Biol,1,3,0,4,0.25
 Arthritis,1,2,0,3,0.3333333333333333
+Arthritis Rheumatol,1,1,1,3,0.3333333333333333
 Arthrosc Sports Med Rehabil,1,1,0,2,0.5
 Arthrosc Tech,1,0,0,1,1.0
 Asia Pac J Clin Oncol,1,1,0,2,0.5
@@ -1522,7 +1505,6 @@ Behav Genet,1,0,0,1,1.0
 Behav Res Ther,1,0,0,1,1.0
 Beilstein J Nanotechnol,1,7,0,8,0.125
 BioTech (Basel),1,1,0,2,0.5
-Biochim Biophys Acta Mol Basis Dis,1,0,0,1,1.0
 Biochimie,1,0,0,1,1.0
 Bioessays,1,2,0,3,0.3333333333333333
 Biogerontology,1,2,0,3,0.3333333333333333
@@ -1565,7 +1547,6 @@ CJC Open,1,2,2,5,0.2
 CNS Drugs,1,3,0,4,0.25
 Can J Anaesth,1,1,2,4,0.25
 Can J Psychiatry,1,0,0,1,1.0
-Cancer Biother Radiopharm,1,1,0,2,0.5
 Cancer Causes Control,1,0,0,1,1.0
 Cancer Chemother Pharmacol,1,0,0,1,1.0
 Cancer Diagn Progn,1,1,0,2,0.5
@@ -1606,9 +1587,8 @@ Chem Biol Interact,1,1,0,2,0.5
 Chem Senses,1,0,0,1,1.0
 ChemistryOpen,1,2,0,3,0.3333333333333333
 Child Adolesc Psychiatry Ment Health,1,1,0,2,0.5
-Child Dev,1,0,0,1,1.0
 Child Youth Serv Rev,1,0,0,1,1.0
-Chin J Cancer,1,2,1,4,0.25
+Chin J Cancer,1,1,1,3,0.3333333333333333
 Chiropr Osteopat,1,0,0,1,1.0
 Cholesterol,1,1,0,2,0.5
 Chromosome Res,1,0,0,1,1.0
@@ -1632,7 +1612,8 @@ Clin Proteomics,1,3,0,4,0.25
 Clin Res Cardiol Suppl,1,0,0,1,1.0
 Clin Transl Allergy,1,1,0,2,0.5
 Clin Transl Radiat Oncol,1,1,0,2,0.5
-Clin Transl Sci,1,11,3,15,0.06666666666666667
+Clin Transl Sci,1,10,3,14,0.07142857142857142
+Cogn Neurodyn,1,0,0,1,1.0
 Cogn Res Princ Implic,1,2,0,3,0.3333333333333333
 Cogn Sci,1,0,0,1,1.0
 Colomb Med (Cali),1,1,0,2,0.5
@@ -1671,7 +1652,6 @@ Curr Stem Cell Res Ther,1,0,0,1,1.0
 Curr Top Med Chem,1,3,0,4,0.25
 Curr Treat Options Cardiovasc Med,1,0,0,1,1.0
 Curr Treat Options Neurol,1,0,0,1,1.0
-Cytokine Growth Factor Rev,1,2,0,3,0.3333333333333333
 DNA Res,1,1,0,2,0.5
 Daru,1,2,0,3,0.3333333333333333
 Database (Oxford),1,1,3,5,0.2
@@ -1725,12 +1705,10 @@ Epidemiol Psychiatr Sci,1,0,0,1,1.0
 Epidemiol Serv Saude,1,0,0,1,1.0
 Epilepsy Curr,1,1,0,2,0.5
 Eur Cardiol,1,2,0,3,0.3333333333333333
-Eur Child Adolesc Psychiatry,1,1,1,3,0.3333333333333333
 Eur Clin Respir J,1,0,0,1,1.0
 Eur Heart J Open,1,1,0,2,0.5
 Eur Heart J Qual Care Clin Outcomes,1,0,0,1,1.0
 Eur J Ageing,1,0,0,1,1.0
-Eur J Anaesthesiol,1,1,0,2,0.5
 Eur J Appl Physiol,1,5,0,6,0.16666666666666666
 Eur J Cancer,1,1,0,2,0.5
 Eur J Drug Metab Pharmacokinet,1,0,0,1,1.0
@@ -1769,6 +1747,7 @@ Fluids Barriers CNS,1,2,0,3,0.3333333333333333
 Folia Microbiol (Praha),1,0,0,1,1.0
 Food Chem (Oxf),1,1,0,2,0.5
 Forensic Sci Int Synerg,1,0,0,1,1.0
+Forensic Sci Res,1,2,1,4,0.25
 Front Allergy,1,1,0,2,0.5
 Front Bioinform,1,3,0,4,0.25
 Front Clin Diabetes Healthc,1,2,0,3,0.3333333333333333
@@ -1787,11 +1766,10 @@ Front Toxicol,1,2,0,3,0.3333333333333333
 Front Zool,1,0,0,1,1.0
 Futur J Pharm Sci,1,0,0,1,1.0
 Future Healthc J,1,1,2,4,0.25
-Future Microbiol,1,1,0,2,0.5
 GE Port J Gastroenterol,1,0,0,1,1.0
 GMS Curr Top Otorhinolaryngol Head Neck Surg,1,0,0,1,1.0
-Gastric Cancer,1,3,0,4,0.25
-Gastroenterology,1,3,0,4,0.25
+Gastric Cancer,1,2,0,3,0.3333333333333333
+Gastroenterology,1,2,0,3,0.3333333333333333
 Gen Psychiatr,1,2,0,3,0.3333333333333333
 Gene Regul Syst Bio,1,1,0,2,0.5
 Gene Ther,1,0,0,1,1.0
@@ -1866,21 +1844,23 @@ Indian J Microbiol,1,0,0,1,1.0
 Indian J Occup Environ Med,1,2,0,3,0.3333333333333333
 Indian J Otolaryngol Head Neck Surg,1,1,0,2,0.5
 Indian J Psychol Med,1,1,0,2,0.5
+Indian J Radiol Imaging,1,0,1,2,0.5
 Infect Dis Ther,1,2,0,3,0.3333333333333333
 Infect Prev Pract,1,0,0,1,1.0
 Infection,1,5,0,6,0.16666666666666666
-Inflamm Res,1,3,0,4,0.25
 Influenza Other Respir Viruses,1,6,0,7,0.14285714285714285
 Influenza Res Treat,1,0,0,1,1.0
 Innov Pharm,1,0,0,1,1.0
 Innov Surg Sci,1,1,0,2,0.5
 Inorg Chem Commun,1,0,0,1,1.0
+Inquiry,1,4,3,8,0.125
 Int Braz J Urol,1,4,0,5,0.2
 Int J Behav Nutr Phys Act,1,2,1,4,0.25
 Int J Biomed Sci,1,2,0,3,0.3333333333333333
 Int J Breast Cancer,1,1,0,2,0.5
 Int J Cardiol Cardiovasc Risk Prev,1,1,0,2,0.5
 Int J Cardiol Congenit Heart Dis,1,0,0,1,1.0
+Int J Cell Biol,1,1,2,4,0.25
 Int J Clin Health Psychol,1,1,0,2,0.5
 Int J Clin Oncol,1,0,0,1,1.0
 Int J Community Based Nurs Midwifery,1,0,0,1,1.0
@@ -1914,6 +1894,7 @@ Int J Tryptophan Res,1,1,0,2,0.5
 Int J Womens Dermatol,1,2,3,6,0.16666666666666666
 Int J Yoga,1,4,0,5,0.2
 Int Neurourol J,1,2,0,3,0.3333333333333333
+Int Urol Nephrol,1,3,0,4,0.25
 Integr Blood Press Control,1,1,0,2,0.5
 Integr Psychol Behav Sci,1,0,0,1,1.0
 Interdiscip Cardiovasc Thorac Surg,1,2,0,3,0.3333333333333333
@@ -1931,6 +1912,7 @@ J Alzheimers Dis Rep,1,3,0,4,0.25
 J Am Acad Orthop Surg Glob Res Rev,1,4,1,6,0.16666666666666666
 J Am Coll Emerg Physicians Open,1,1,0,2,0.5
 J Anus Rectum Colon,1,1,0,2,0.5
+J Appl Toxicol,1,0,0,1,1.0
 J Asthma Allergy,1,3,0,4,0.25
 J Autoimmun,1,0,1,2,0.5
 J Back Musculoskelet Rehabil,1,0,0,1,1.0
@@ -1992,10 +1974,11 @@ J Gastric Cancer,1,1,0,2,0.5
 J Gen Fam Med,1,0,0,1,1.0
 J Gen Intern Med,1,3,0,4,0.25
 J Glob Infect Dis,1,0,0,1,1.0
+J Gynecol Oncol,1,2,0,3,0.3333333333333333
 J Hazard Mater,1,0,0,1,1.0
 J Health Econ Outcomes Res,1,1,0,2,0.5
 J Health Popul Nutr,1,8,0,9,0.1111111111111111
-J Health Psychol,1,1,0,2,0.5
+J Health Psychol,1,0,0,1,1.0
 J Hepatobiliary Pancreat Sci,1,0,0,1,1.0
 J Hosp Palliat Care,1,0,0,1,1.0
 J Hum Nutr Diet,1,0,0,1,1.0
@@ -2017,8 +2000,7 @@ J Loss Prev Process Ind,1,0,0,1,1.0
 J Med Educ Curric Dev,1,3,0,4,0.25
 J Med Ethics Hist Med,1,0,0,1,1.0
 J Med Signals Sens,1,2,0,3,0.3333333333333333
-J Med Syst,1,0,0,1,1.0
-J Microsc Ultrastruct,1,3,0,4,0.25
+J Microsc Ultrastruct,1,2,0,3,0.3333333333333333
 J Mol Biol,1,0,0,1,1.0
 J Mol Cell Cardiol,1,0,0,1,1.0
 J Mol Neurosci,1,1,0,2,0.5
@@ -2028,10 +2010,9 @@ J Natl Cancer Inst,1,1,0,2,0.5
 J Negat Results Biomed,1,0,0,1,1.0
 J Neonatal Surg,1,1,0,2,0.5
 J Neuroendocrinol,1,3,0,4,0.25
-J Neurol,1,4,0,5,0.2
+J Neurol,1,3,0,4,0.25
 J Neurol Neurosurg Psychiatry,1,0,0,1,1.0
 J Neurol Sci,1,0,0,1,1.0
-J Neurol Surg A Cent Eur Neurosurg,1,1,0,2,0.5
 J Neurooncol,1,5,0,6,0.16666666666666666
 J Nucl Cardiol,1,0,0,1,1.0
 J Nucleic Acids,1,1,0,2,0.5
@@ -2040,7 +2021,6 @@ J Nutr Biochem,1,0,0,1,1.0
 J Oral Maxillofac Res,1,2,0,3,0.3333333333333333
 J Oral Microbiol,1,0,0,1,1.0
 J Org Chem,1,0,0,1,1.0
-J Organ Behav,1,0,0,1,1.0
 J Orthod Sci,1,0,0,1,1.0
 J Orthop,1,3,0,4,0.25
 J Orthop Traumatol,1,3,1,5,0.2
@@ -2050,7 +2030,6 @@ J Pathol Inform,1,2,0,3,0.3333333333333333
 J Patient Rep Outcomes,1,1,0,2,0.5
 J Patient Saf,1,0,0,1,1.0
 J Pediatr Urol,1,0,0,1,1.0
-J Periodontol,1,1,0,2,0.5
 J Pharm Investig,1,0,0,1,1.0
 J Pharm Pharm Sci,1,1,0,2,0.5
 J Phys Chem B,1,2,0,3,0.3333333333333333
@@ -2136,6 +2115,7 @@ Malawi Med J,1,2,0,3,0.3333333333333333
 Malays Fam Physician,1,1,0,2,0.5
 Mar Life Sci Technol,1,0,0,1,1.0
 Matern Child Health J,1,0,0,1,1.0
+Matern Child Nutr,1,0,0,1,1.0
 Matern Fetal Med,1,1,0,2,0.5
 Mayo Clin Proc,1,1,0,2,0.5
 Mech Dev,1,0,0,1,1.0
@@ -2163,7 +2143,6 @@ Microbiome Res Rep,1,0,0,1,1.0
 Mikrochim Acta,1,3,0,4,0.25
 Minim Invasive Surg,1,1,0,2,0.5
 Mob DNA,1,1,0,2,0.5
-Mol Aspects Med,1,1,0,2,0.5
 Mol Carcinog,1,2,0,3,0.3333333333333333
 Mol Genet Genomics,1,1,1,3,0.3333333333333333
 Mol Genet Metab Rep,1,1,0,2,0.5
@@ -2172,6 +2151,7 @@ Mol Immunol,1,2,0,3,0.3333333333333333
 Mol Microbiol,1,1,0,2,0.5
 Mol Plant,1,1,0,2,0.5
 Mol Syst Biol,1,3,0,4,0.25
+Mol Ther Methods Clin Dev,1,2,0,3,0.3333333333333333
 Mov Disord,1,0,0,1,1.0
 Mov Disord Clin Pract,1,0,0,1,1.0
 Mult Scler J Exp Transl Clin,1,0,0,1,1.0
@@ -2195,6 +2175,7 @@ Nat Cardiovasc Res,1,0,0,1,1.0
 Nat Cell Biol,1,5,0,6,0.16666666666666666
 Nat Chem Biol,1,1,0,2,0.5
 Nat Genet,1,1,0,2,0.5
+Nat Hum Behav,1,2,2,5,0.2
 Nat Med,1,2,0,3,0.3333333333333333
 Nat Microbiol,1,1,0,2,0.5
 Nat Rev Gastroenterol Hepatol,1,0,0,1,1.0
@@ -2221,8 +2202,7 @@ Neuropathol Appl Neurobiol,1,1,0,2,0.5
 Neuroprotection,1,1,0,2,0.5
 Neuropsychiatr,1,0,1,2,0.5
 Neuropsychologia,1,0,0,1,1.0
-Neuropsychopharmacol Rep,1,3,0,4,0.25
-Neuropsychopharmacology,1,3,0,4,0.25
+Neuropsychopharmacol Rep,1,2,0,3,0.3333333333333333
 Neuroradiol J,1,0,0,1,1.0
 Neurosci Conscious,1,1,0,2,0.5
 Neurosci Insights,1,0,0,1,1.0
@@ -2288,7 +2268,6 @@ Perspect Med Educ,1,2,1,4,0.25
 Pharm Pract (Granada),1,0,0,1,1.0
 Pharm Sci Adv,1,2,0,3,0.3333333333333333
 Pharmacoepidemiol Drug Saf,1,3,0,4,0.25
-Pharmacogenomics J,1,0,0,1,1.0
 Pharmacogn Mag,1,5,0,6,0.16666666666666666
 Pharmacogn Rev,1,0,0,1,1.0
 Pharmacol Rev,1,0,3,4,0.25
@@ -2322,6 +2301,7 @@ Psychiatry Investig,1,4,0,5,0.2
 Psychiatry Res,1,0,0,1,1.0
 Psychopharmacology (Berl),1,1,0,2,0.5
 Public Health,1,1,1,3,0.3333333333333333
+Public Health Nurs,1,0,0,1,1.0
 Public Health Pract (Oxf),1,1,1,3,0.3333333333333333
 Public Health Rev,1,0,0,1,1.0
 Pulm Med,1,1,0,2,0.5
@@ -2332,7 +2312,6 @@ RNA,1,3,0,4,0.25
 Radiat Oncol J,1,2,0,3,0.3333333333333333
 Radiol Med,1,3,0,4,0.25
 Rambam Maimonides Med J,1,1,1,3,0.3333333333333333
-Rejuvenation Res,1,0,0,1,1.0
 Res Autism Spectr Disord,1,0,0,1,1.0
 Res Psychother,1,1,0,2,0.5
 Reumatologia,1,2,0,3,0.3333333333333333
@@ -2350,7 +2329,7 @@ Rev Paul Pediatr,1,1,0,2,0.5
 Rev Peru Med Exp Salud Publica,1,0,0,1,1.0
 Rev Soc Bras Med Trop,1,0,0,1,1.0
 Rheumatol Immunol Res,1,1,0,2,0.5
-Rheumatol Int,1,2,1,4,0.25
+Rheumatol Int,1,1,1,3,0.3333333333333333
 Rheumatology (Oxford),1,0,0,1,1.0
 Rom J Ophthalmol,1,0,0,1,1.0
 S Afr J Physiother,1,1,1,3,0.3333333333333333
@@ -2431,7 +2410,6 @@ Turk Patoloji Derg,1,1,0,2,0.5
 Ultrasound J,1,0,0,1,1.0
 Ups J Med Sci,1,3,1,5,0.2
 Urol Int,1,0,0,1,1.0
-Urologia,1,0,0,1,1.0
 Vaccine X,1,3,0,4,0.25
 Vacunas,1,0,0,1,1.0
 Vasc Cell,1,0,0,1,1.0
@@ -2450,6 +2428,7 @@ World J Cardiol,1,3,0,4,0.25
 World J Clin Pediatr,1,2,0,3,0.3333333333333333
 World J Gastrointest Pathophysiol,1,1,0,2,0.5
 World J Gastrointest Pharmacol Ther,1,1,0,2,0.5
+World J Otorhinolaryngol Head Neck Surg,1,1,0,2,0.5
 World J Pediatr,1,2,0,3,0.3333333333333333
 World J Pediatr Surg,1,1,0,2,0.5
 World J Transplant,1,2,0,3,0.3333333333333333
@@ -2541,7 +2520,7 @@ Anal Sci Adv,0,1,0,1,0.0
 Andrologia,0,2,0,2,0.0
 Andrology,0,1,0,1,0.0
 Anesth Analg,0,1,0,1,0.0
-Anesth Pain Med (Seoul),0,4,0,4,0.0
+Anesth Pain Med (Seoul),0,3,0,3,0.0
 Anesthesiol Clin,0,0,4,4,0.0
 Anim Biotechnol,0,1,0,1,0.0
 Anim Genet,0,1,0,1,0.0
@@ -2575,6 +2554,7 @@ Arch Cardiol Mex,0,1,0,1,0.0
 Arch Dis Child Fetal Neonatal Ed,0,0,1,1,0.0
 Arch Insect Biochem Physiol,0,1,0,1,0.0
 Arch Rehabil Res Clin Transl,0,1,0,1,0.0
+Arch Sex Behav,0,3,0,3,0.0
 Arch Trauma Res,0,1,0,1,0.0
 Arh Hig Rada Toksikol,0,1,0,1,0.0
 Arq Bras Cir Dig,0,6,0,6,0.0
@@ -2622,7 +2602,7 @@ BMJ Qual Saf,0,1,0,1,0.0
 Balkan J Med Genet,0,1,0,1,0.0
 Basic Clin Androl,0,1,1,2,0.0
 Behav Anal Pract,0,0,2,2,0.0
-Behav Res Methods,0,5,1,6,0.0
+Behav Res Methods,0,2,1,3,0.0
 Beni Suef Univ J Basic Appl Sci,0,1,0,1,0.0
 Best Pract Res Clin Rheumatol,0,0,1,1,0.0
 Biochar,0,1,0,1,0.0
@@ -2698,6 +2678,7 @@ Can J Nurs Res,0,0,1,1,0.0
 Can J Surg,0,1,0,1,0.0
 Can Med Educ J,0,1,0,1,0.0
 Cancer Biome Target Ther,0,1,0,1,0.0
+Cancer Biother Radiopharm,0,1,0,1,0.0
 Cancer Discov,0,1,0,1,0.0
 Cancer Epidemiol Biomarkers Prev,0,2,0,2,0.0
 Cancer Immunol Res,0,1,0,1,0.0
@@ -2739,7 +2720,6 @@ Cells Tissues Organs,0,1,0,1,0.0
 Cent Asian J Glob Health,0,2,0,2,0.0
 Cent European J Urol,0,2,1,3,0.0
 Cereb Cortex Commun,0,1,0,1,0.0
-Cerebellum,0,1,0,1,0.0
 Cerebellum Ataxias,0,1,0,1,0.0
 Cerebrovasc Dis,0,1,0,1,0.0
 Chem Asian J,0,1,0,1,0.0
@@ -2758,6 +2738,7 @@ Chemosphere,0,1,0,1,0.0
 Chest,0,1,2,3,0.0
 Child Care Health Dev,0,1,0,1,0.0
 Child Indic Res,0,1,0,1,0.0
+Child Psychiatry Hum Dev,0,1,0,1,0.0
 Childs Nerv Syst,0,1,0,1,0.0
 Chin Med J Pulm Crit Care Med,0,1,0,1,0.0
 Chin Neurosurg J,0,2,0,2,0.0
@@ -2842,6 +2823,7 @@ Curr Res Toxicol,0,2,0,2,0.0
 Curr Rev Musculoskelet Med,0,1,0,1,0.0
 Curr Rheumatol Rev,0,2,0,2,0.0
 Cytokine,0,2,0,2,0.0
+Cytokine Growth Factor Rev,0,2,0,2,0.0
 Cytometry A,0,1,0,1,0.0
 Cytotechnology,0,1,0,1,0.0
 Cytotherapy,0,3,0,3,0.0
@@ -2868,7 +2850,6 @@ Dialogues Clin Neurosci,0,4,0,4,0.0
 Dig Endosc,0,1,0,1,0.0
 Digit Discov,0,1,0,1,0.0
 Dis Colon Rectum,0,1,0,1,0.0
-Disabil Rehabil,0,1,0,1,0.0
 Disaster Med Public Health Prep,0,1,0,1,0.0
 Drug Healthc Patient Saf,0,1,1,2,0.0
 Drug Metab Rev,0,1,0,1,0.0
@@ -2906,7 +2887,7 @@ Environ Microbiol,0,1,0,1,0.0
 Environ Microbiol Rep,0,6,0,6,0.0
 Environ Microbiome,0,1,0,1,0.0
 Environ Mol Mutagen,0,1,0,1,0.0
-Environ Res,0,3,1,4,0.0
+Environ Res,0,2,1,3,0.0
 Environ Sci Eur,0,0,1,1,0.0
 Environ Toxicol,0,3,0,3,0.0
 Environ Toxicol Chem,0,3,0,3,0.0
@@ -2917,12 +2898,14 @@ Epigenomics,0,1,0,1,0.0
 Ethiop J Health Sci,0,1,0,1,0.0
 Ethique Sante,0,0,1,1,0.0
 Ethnicities,0,1,0,1,0.0
-Eur Arch Psychiatry Clin Neurosci,0,3,2,5,0.0
+Eur Arch Psychiatry Clin Neurosci,0,2,2,4,0.0
+Eur Child Adolesc Psychiatry,0,0,1,1,0.0
 Eur Endod J,0,1,0,1,0.0
 Eur Geriatr Med,0,1,0,1,0.0
 Eur Heart J Cardiovasc Imaging,0,1,0,1,0.0
 Eur Heart J Case Rep,0,2,0,2,0.0
 Eur Heart J Digit Health,0,5,0,5,0.0
+Eur J Anaesthesiol,0,1,0,1,0.0
 Eur J Case Rep Intern Med,0,1,0,1,0.0
 Eur J Clin Invest,0,2,1,3,0.0
 Eur J Clin Microbiol Infect Dis,0,4,1,5,0.0
@@ -2988,6 +2971,7 @@ Front Syst Biol,0,1,0,1,0.0
 Function (Oxf),0,1,0,1,0.0
 Fungal Divers,0,1,0,1,0.0
 Future Cardiol,0,1,0,1,0.0
+Future Microbiol,0,1,0,1,0.0
 Future Virol,0,2,0,2,0.0
 Futures,0,2,0,2,0.0
 Gastro Hep Adv,0,1,0,1,0.0
@@ -3014,7 +2998,7 @@ Glob Pediatr Health,0,1,0,1,0.0
 Glomerular Dis,0,2,0,2,0.0
 Glycobiology,0,1,0,1,0.0
 Green Chem,0,0,1,1,0.0
-Gut,0,4,0,4,0.0
+Gut,0,3,0,3,0.0
 HEC Forum,0,1,2,3,0.0
 HPB Surg,0,1,0,1,0.0
 HSS J,0,1,0,1,0.0
@@ -3044,7 +3028,6 @@ Heart Lung Vessel,0,1,0,1,0.0
 Heart Rhythm,0,1,0,1,0.0
 Heart Rhythm O2,0,1,0,1,0.0
 Hellenic J Cardiol,0,0,2,2,0.0
-Hematol Oncol,0,1,0,1,0.0
 Hematol Rep,0,1,0,1,0.0
 Hematol Transfus Cell Ther,0,1,0,1,0.0
 Hepatol Forum,0,3,0,3,0.0
@@ -3091,12 +3074,12 @@ Indian J Pharm Sci,0,2,0,2,0.0
 Indian J Plast Surg,0,1,0,1,0.0
 Indian J Sex Transm Dis AIDS,0,3,0,3,0.0
 Inf Syst Front,0,1,0,1,0.0
-Infect Dis Health,0,1,0,1,0.0
 Infect Dis Obstet Gynecol,0,1,0,1,0.0
 Infect Dis Poverty,0,1,0,1,0.0
 Infect Dis Rep,0,2,0,2,0.0
 Infect Ecol Epidemiol,0,1,0,1,0.0
 Infect Med (Beijing),0,1,0,1,0.0
+Inflamm Res,0,3,0,3,0.0
 Infrared Phys Technol,0,1,0,1,0.0
 Inj Prev,0,1,0,1,0.0
 Innov Aging,0,1,0,1,0.0
@@ -3120,7 +3103,6 @@ Int J Chronic Dis,0,1,0,1,0.0
 Int J Clin Pharm,0,1,0,1,0.0
 Int J Clin Pharmacol Ther,0,0,2,2,0.0
 Int J Disaster Risk Reduct,0,1,0,1,0.0
-Int J Dyn Control,0,1,0,1,0.0
 Int J Emerg Med,0,2,0,2,0.0
 Int J Epidemiol,0,3,0,3,0.0
 Int J Equity Health,0,1,0,1,0.0
@@ -3318,6 +3300,7 @@ J Med Cases,0,1,0,1,0.0
 J Med Eng,0,1,0,1,0.0
 J Med Food,0,1,0,1,0.0
 J Med Libr Assoc,0,0,1,1,0.0
+J Med Syst,0,0,1,1,0.0
 J Med Toxicol,0,0,1,1,0.0
 J Med Ultrasound,0,3,0,3,0.0
 J Med Virol,0,3,0,3,0.0
@@ -3345,7 +3328,7 @@ J Nurs Res,0,1,0,1,0.0
 J Obstet Gynaecol Res,0,2,0,2,0.0
 J Occup Health,0,1,0,1,0.0
 J Occup Med Toxicol,0,4,0,4,0.0
-J Oral Biol Craniofac Res,0,3,0,3,0.0
+J Oral Biol Craniofac Res,0,2,0,2,0.0
 J Oral Rehabil,0,1,0,1,0.0
 J Orthop Res,0,1,0,1,0.0
 J Orthop Sports Med,0,1,0,1,0.0
@@ -3359,6 +3342,7 @@ J Patient Exp,0,3,0,3,0.0
 J Pediatr Orthop B,0,1,0,1,0.0
 J Perinatol,0,1,0,1,0.0
 J Periodontal Res,0,1,0,1,0.0
+J Periodontol,0,1,0,1,0.0
 J Pestic Sci,0,1,0,1,0.0
 J Pharm (Cairo),0,3,0,3,0.0
 J Pharm Innov,0,1,0,1,0.0
@@ -3388,7 +3372,6 @@ J Thromb Thrombolysis,0,2,0,2,0.0
 J Thyroid Res,0,1,0,1,0.0
 J Tissue Eng Regen Med,0,4,0,4,0.0
 J Toxicol Environ Health B Crit Rev,0,0,1,1,0.0
-J Toxicol Pathol,0,1,0,1,0.0
 J Trace Elem Med Biol,0,0,1,1,0.0
 J Transp Health,0,1,0,1,0.0
 J Trauma Acute Care Surg,0,0,1,1,0.0
@@ -3498,6 +3481,7 @@ Middle East J Dig Dis,0,3,0,3,0.0
 Milbank Q,0,0,1,1,0.0
 Mitochondrial Commun,0,0,1,1,0.0
 Mitochondrion,0,1,0,1,0.0
+Mol Aspects Med,0,1,0,1,0.0
 Mol Biol,0,0,1,1,0.0
 Mol Biol Int,0,1,1,2,0.0
 Mol Breed,0,1,0,1,0.0
@@ -3559,6 +3543,7 @@ Neuropathology,0,1,0,1,0.0
 Neurophotonics,0,1,0,1,0.0
 Neuropsychobiology,0,1,0,1,0.0
 Neuropsychol Rev,0,2,0,2,0.0
+Neuropsychopharmacology,0,3,0,3,0.0
 Neuroreport,0,2,0,2,0.0
 Neurosci Biobehav Rev,0,4,1,5,0.0
 Neuroscience,0,1,0,1,0.0
@@ -3727,7 +3712,7 @@ Socioecon Plann Sci,0,1,0,1,0.0
 Stoch Environ Res Risk Assess,0,1,0,1,0.0
 Stroke Res Treat,0,1,0,1,0.0
 Stroke Vasc Neurol,0,2,0,2,0.0
-Struct Chem,0,4,0,4,0.0
+Struct Chem,0,2,0,2,0.0
 Subst Abuse Treat Prev Policy,0,1,0,1,0.0
 Sultan Qaboos Univ Med J,0,1,0,1,0.0
 Surg Case Rep,0,2,0,2,0.0
@@ -3760,6 +3745,7 @@ Toxicol Sci,0,1,0,1,0.0
 Traffic,0,1,1,2,0.0
 Transbound Emerg Dis,0,2,0,2,0.0
 Transcult Psychiatry,0,0,1,1,0.0
+Transfusion,0,0,3,3,0.0
 Transgenic Res,0,1,1,2,0.0
 Transl Behav Med,0,1,0,1,0.0
 Transl Breast Cancer Res,0,1,0,1,0.0
@@ -3786,7 +3772,7 @@ Updates Surg,0,1,0,1,0.0
 Urol Ann,0,2,0,2,0.0
 Urol Case Rep,0,2,0,2,0.0
 Urology,0,0,1,1,0.0
-Vaccine,0,10,3,13,0.0
+Vaccine,0,9,3,12,0.0
 Vascular,0,1,0,1,0.0
 Vet Anim Sci,0,1,0,1,0.0
 Vet Clin Pathol,0,0,1,1,0.0
@@ -3813,7 +3799,6 @@ World J Microbiol Biotechnol,0,2,0,2,0.0
 World J Nucl Med,0,1,0,1,0.0
 World J Surg,0,3,0,3,0.0
 World Neurosurg X,0,2,0,2,0.0
-Worm,0,1,0,1,0.0
 Wound Repair Regen,0,1,0,1,0.0
 Yale J Biol Med,0,2,2,4,0.0
 Yearb Med Inform,0,1,1,2,0.0

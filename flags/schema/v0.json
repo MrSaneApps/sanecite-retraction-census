@@ -1,0 +1,395 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sanecite.com/flag-schema/v0.json",
+  "title": "Open research-integrity flag, v0",
+  "description": "One machine or human flag on one paper. A flag is not a finding: severity says how far it has been checked. Draft v0, 4 Nov 2026, MIT licensed. Fields may change; comments welcome at letters@sanecite.com.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "flag_id",
+    "doi",
+    "check_id",
+    "check_version",
+    "finding",
+    "evidence",
+    "severity",
+    "review_status",
+    "right_of_reply",
+    "license"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0"
+    },
+    "flag_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable id, unique within the issuer."
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^10\\.[0-9]{4,9}/\\S+$",
+      "description": "DOI of the flagged paper, lower case, no https://doi.org/ prefix. Null only when the paper has none; then ids must carry another id."
+    },
+    "ids": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Other ids of the flagged paper, such as pmid or pmcid."
+    },
+    "cited": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "For reference checks: the work the flagged paper cites.",
+      "properties": {
+        "doi": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pmid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "retracted",
+            "expression_of_concern",
+            "corrected",
+            "other"
+          ]
+        },
+        "status_year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "notice": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "DOI or link of the notice."
+        }
+      }
+    },
+    "check_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "check_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "finding": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "One plain sentence saying what the check saw. No claim about intent."
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "quote"
+        ],
+        "properties": {
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "page": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "section": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "severity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rung",
+        "name",
+        "ceiling",
+        "scale"
+      ],
+      "properties": {
+        "rung": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4
+        },
+        "name": {
+          "enum": [
+            "none",
+            "noted",
+            "flagged",
+            "reviewed",
+            "confirmed"
+          ]
+        },
+        "ceiling": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2,
+          "description": "The highest rung this check may claim without a person."
+        },
+        "scale": {
+          "type": "string",
+          "description": "Link or name of the scale used."
+        }
+      }
+    },
+    "review_status": {
+      "enum": [
+        "machine",
+        "human-reviewed",
+        "confirmed"
+      ]
+    },
+    "right_of_reply": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "written",
+        "closes"
+      ],
+      "properties": {
+        "written": {
+          "type": "string",
+          "format": "date"
+        },
+        "closes": {
+          "type": "string",
+          "format": "date"
+        },
+        "reply": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Link to the published reply, if any."
+        }
+      }
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "description": "Where the flag can be checked."
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX id of the flag data license, such as CC-BY-4.0."
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional: the claim inside the paper this flag is about, for claim-level tools.",
+      "properties": {
+        "id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "maxLength": 2000
+        }
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "method"
+      ],
+      "description": "Optional: the check's own confidence, and how it was worked out. Not a probability the flag is right unless the method says so.",
+      "properties": {
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "method": {
+          "type": "string"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional: what produced the flag and when.",
+      "properties": {
+        "models": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prompt_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "run_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "adjudications": {
+      "type": "array",
+      "description": "Optional: later verdicts on this flag. Verdicts by people on a sample of flags are what let anyone count false positives.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "by_kind",
+          "date",
+          "verdict"
+        ],
+        "properties": {
+          "by": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "by_kind": {
+            "enum": [
+              "person",
+              "model"
+            ]
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "verdict": {
+            "enum": [
+              "confirmed",
+              "false_positive",
+              "unclear",
+              "disputed"
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 2000
+          },
+          "link": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "review_status": {
+            "const": "machine"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "severity": {
+            "properties": {
+              "rung": {
+                "maximum": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "severity": {
+            "properties": {
+              "rung": {
+                "const": 4
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "review_status": {
+            "const": "confirmed"
+          },
+          "right_of_reply": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "doi": {
+            "type": "null"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "ids"
+        ]
+      }
+    }
+  ]
+}

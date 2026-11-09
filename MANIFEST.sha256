@@ -431,3 +431,22 @@ b39443cf97b030a30d9906724af7ffafdb5314ed6963c21492b52fb083d7b699  ./stories/sz-c
 ea9812e2450ef82e34064390ecf1c2bedf02cf1fcbb29c7698bf399ccad057f6  ./stories/sz-check/szcheck.py
 f76ba40c13d3fb6a827009f95afd9d3170e503ffec082987a597104fe309637a  ./stories/sz-check/verdicts.csv
 063d7c211dd1f16ec0edbe93a2296ab2a3cba7c34dcbf2f77e59e70031c00af6  ./stories/sz-check/verdicts.json
+# 2026-11-09T18:42Z v1.4.1 release 2026-11-09: first-online rule, full-text relabels and retraction years in the Lists (site c4c1349), the flag files (flags/), version 1.4.1 metadata
+5da56a2449eef0cc2c1779432fb690bcd243259787f743dcea106f315c38a851  ./.zenodo.json
+3675894ce853fdf95aa6cdbb0f1d837d911b3b1dfa89e033a69b4e729d96b5f3  ./CITATION.cff
+b92dedc624857ef4bd09e4d4ff6b737477e3d2ce15326a8259c5ebc0a1b09079  ./README.md
+9bc1d1df1d297e461e9762a6604c4ae2019c2ecb9ba2cb86406b33c1a2664821  ./flags/README.md
+9cb1d40883696da477a9f6196c3c6fc1edbf315fc2578268019879e1e5253818  ./flags/SOURCES.sha256
+edd902c878773f577a5bbfc77919fd72794337e9d40ff88e1a9ba2daaa3d2461  ./flags/flags_by_paper.csv
+c9b09edde6c001b83042323a71490dc40084168d957d925cd8981addd5f5d586  ./flags/flags_by_paper.summary.json
+450121cfa0c519ca75bfb4f3c154f597e976df784ac3da3c7f128a6fe97ad870  ./flags/schema/example.jsonl
+f64e367f837b386b660451884307f36cb053a71cb1604997b52f41d227a2c339  ./flags/schema/v0.json
+b0a29b6636a3570363c0624421d4c10b8bf94c7f835f7eb92c2e2a87a6df8207  ./lists/README.md
+6c3b32095dc700f60f07c678559b124657ce2e81400b26f53d3047d982a9aa1b  ./lists/SOURCES.sha256
+bd5c05f2992208d503965ea1db8733e0030169181cb145afaea5eee5cf356c53  ./lists/code/site/lists.body.html
+25da8ae9a9eaf1022c013735b90d5ab7732a565f0b022a290e017893e3d99e61  ./lists/csv/all-journals.csv
+b821f23e5149cff53e8bc8b71d5e8609f6329b8007af6c40a1ced361c5b7bb3c  ./lists/csv/all-papers.csv
+48d6a5a94e8b0cf298045cd4005cfbab1182fb7ea1679a1d3b87d92cca63347e  ./lists/csv/journals-by-count.csv
+6dfc9bad1248c7c6f986d5d67c27d47df9e29bc078f6e77effc8d7f148761213  ./lists/csv/journals-by-rate.csv
+ec81bd205ab64f6aabbe0775887f6d2d7a28aba90b7f25d373f4e99b36dc1685  ./lists/data/list_corrections.json
+56afc2d33131c6caa36b5483fd194978fee2dc0d21e917eddd1e0edfff67ac00  ./scripts/stage_release.py

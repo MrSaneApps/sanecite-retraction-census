@@ -45,7 +45,7 @@ A record copied byte for byte must also match the latest hash its own hash log (
 import argparse, csv, gzip, hashlib, json, os, re, shutil, subprocess, sys, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STAGED = ("lists", "checker", "stories")
+STAGED = ("lists", "checker", "stories", "flags")
 
 # Lists code, by source folder. Letter builders, recipient lists and send scripts are left out on purpose.
 LISTS_CODE = {
@@ -95,6 +95,11 @@ STORIES_FILES = ["meta.py", "vitc/rerun.py", "syn/rerun_sildenafil.py", "syn/rer
 # file the site serves under data/sz-check/ (the verdicts, the PDF report and the second pass), as served
 STORIES_SITE_CODE = {"tools/szcheck.py": "sz-check/szcheck.py"}
 STORIES_SITE_DIR = ("data/sz-check", "sz-check")
+# The census flags in the open flag format, as sanecite.com/data serves them (added 9 Nov 2026): one row per citing
+# paper, after every published correction, and the format's schema with its example. The full flag file is not served.
+FLAGS_SITE = {"data/phase2/flags_by_paper.csv": "flags_by_paper.csv",
+              "data/phase2/flags_by_paper.summary.json": "flags_by_paper.summary.json",
+              "flag-schema/v0.json": "schema/v0.json", "flag-schema/example.jsonl": "schema/example.jsonl"}
 HASH_LOG = "PREREG_HASHES.txt"
 QUOTE_KEYS = {"quote"}   # quoted passages from the papers; quote_found (a yes/no) stays
 SKIP_SCRIPT = re.compile(r"(\.bak|\.v\d+$|\.mjs$|^site_shot|^grants\.py$)")   # backups, screenshot helpers, grant drafts
@@ -120,6 +125,8 @@ REPO_ALLOW = {
     "scripts/stage_release.py": {"*": "this file defines the rules"},
     "lists/data/list_corrections.json": {"internal procedure": "kept as the site serves it (its replies_rule names "
                                                                "the rule SOP C9); same allow as the staging step"},
+    "flags/schema/v0.json": {"e-mail": "the project's public contact address (letters@sanecite.com), kept as the site serves "
+                                       "the schema; same allow as the staging step"},
     "lists/data/papers.json": {"machine name": "paper titles only ('Comparison of the Mini-Midvastus ...'), kept as "
                                                "the site serves it; same allow as the staging step",
                                "agent name": "paper titles only ('... Using Spark Framework ...'), kept as the site "
@@ -381,6 +388,22 @@ replaced by `work/<name>/`; nothing else was changed. Letters to authors and the
 `csv/replies.csv` is the published summary of each reply under the right-of-reply rule.
 """
 
+README_FLAGS = """# Flags: the census flags, per citing paper
+
+The flag files sanecite.com/data serves, staged by `scripts/stage_release.py` on {date} from the site at {site_state}.
+
+| Path | What it is |
+|---|---|
+| `flags_by_paper.csv` | One row per citing paper with a flag: its DOI, PMID and PMCID, whether it cites a retracted paper as support, how many citations of each kind, and the DOIs of the retracted papers it cites as support |
+| `flags_by_paper.summary.json` | The totals of that file |
+| `schema/v0.json` | The open flag format, version 0 (JSON Schema), also at sanecite.com/flag-schema/v0.json |
+| `schema/example.jsonl` | Example flags in that format |
+
+The flags are the census readings after every published correction, the same rows the Lists are built from
+(`../lists/data/list_corrections.json` lists each correction, with its sources). They are AI readings, pending human
+review. Data under CC BY 4.0 (`../LICENSE-DATA`).
+"""
+
 README_STORIES = """# Stories: the re-analyses behind sanecite.com/stories
 
 Code and data for the case stories published on sanecite.com/stories on 29 October 2026. Staged by
@@ -497,6 +520,9 @@ def stage(cfg):
         after = len(json.load(open(st.out("stories", "ctgov_after.json"), encoding="utf-8")))
         st.write("stories", "README.md", README_STORIES.format(date=date, hits=hits, after=after))
 
+        for f, dest in FLAGS_SITE.items(): st.put("flags", st.src("site", f), dest)
+        st.write("flags", "README.md", README_FLAGS.format(date=date, site_state=git_state(st.src("site"))))
+
         for folder, entries in st.log.items():
             lines = [f"# {folder}/ staged {date}: sha256 of the source file, sha256 of the staged file, staged path",
                      "# The two hashes differ where private folder paths were replaced, a record was redacted or",
@@ -506,14 +532,14 @@ def stage(cfg):
         bad = scan_staged(st)
         if bad:
             print("\n".join("STOP: " + b for b in bad))
-            print("nothing changed: lists/, checker/ and stories/ are as they were")
+            print("nothing changed: lists/, checker/, stories/ and flags/ are as they were")
             return 1
         for folder in STAGED:   # clean scan: swap the new folders in
             old = os.path.join(ROOT, folder)
             if os.path.isdir(old): shutil.rmtree(old)   # both folders belong to this script alone; git keeps the old ones
             os.replace(os.path.join(base, folder), old)
         n = {f: len(e) for f, e in st.log.items()}
-        print(f"staged lists/ ({n.get('lists', 0)} files), checker/ ({n.get('checker', 0)} files, items.csv "
+        print(f"staged flags/ ({n.get('flags', 0)} files), lists/ ({n.get('lists', 0)} files), checker/ ({n.get('checker', 0)} files, items.csv "
               f"{len(rows)} rows) and stories/ ({n.get('stories', 0)} files); {len(st.redacted)} files differ from their "
               f"original on purpose (README.md)")
         return 0
