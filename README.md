@@ -125,7 +125,11 @@ It is a mirror; please cite the Zenodo record above.
   AI-key corrected <!--f:census_p2.corr_rate-->38.1%<!--/f-->). A few subgroup rates move by about 0.1 point (first two years after retraction 43.6% to
   43.5%; flagged after ten years 6.3% to 6.4%). The counts above are the as-published ones; this note is the
   correction of record. `errata/wrong_records.csv` lists the records and pairs, each census row carries
-  `wrong_record`, and `scripts/analyze_census.py` reports both sets of totals (`corrected_wrong_records`).
+  `wrong_record`, and `scripts/analyze_census.py` reports both sets of totals (`corrected_wrong_records`). The same check on all <!--f:census_p2_frame.frame_records-->22,553<!--/f--> frame records found <!--f:census_p2_frame.wrong_records-->70<!--/f--> wrong records with <!--f:census_p2_frame.wrong_later-->86<!--/f--> later citations, the <!--f:census_p2.fix_removed-->12<!--/f--> among them (`errata/README.md`).
+  Without them the frame is <!--f:census_p2_frame.frame_papers-->22,483<!--/f--> papers, <!--f:census_p2_frame.cited_later-->15,992<!--/f--> of them cited in a later year, with <!--f:census_p2_frame.later-->130,229<!--/f--> later citations. The preprint
+  ([doi:10.31222/osf.io/uwqxa_v1](https://doi.org/10.31222/osf.io/uwqxa_v1)) uses this corrected frame, where the interval for
+  the flagged share is <!--f:census_p2_frame.aware_ci-->2.7-4.2%<!--/f--> (<!--f:census_p2.aware_ci-->2.6-4.3%<!--/f--> as published). The title, the figures above and the data
+  files keep the published frame.
 - **20 Oct 2026:** post-hoc check of the "reference list says retracted" flag (`scripts/reflist_marks.py`,
   `data/reflist_marks.json`; not in the registered protocol). The flag is set whenever "retract" appears in the
   citing paper's reference entry. On the 3,187 entries with a clear mark (a title prefix such as "RETRACTED:", or a
