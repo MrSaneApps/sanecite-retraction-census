@@ -1,6 +1,7 @@
 # Checker: the citation-accuracy test (batch 6; batch 7 added 9 Nov 2026)
 
-The test of 996 random citations behind the accuracy figures on sanecite.com/checker, as recorded. Staged by
+Batch 6 of the test behind the accuracy figures on sanecite.com/checker, as recorded: 996 random citations,
+one row each in `items.csv`. Staged by
 `scripts/stage_release.py` on 2026-11-09.
 
 | Path | What it is |
@@ -31,6 +32,7 @@ originals can be shown on request):
 - `reads/ref_gemini.jsonl`: the quoted passages from the papers ("quote" fields) are left out
 - `reads/ref_grok_or.jsonl`: the quoted passages from the papers ("quote" fields) are left out
 - `reads/ref_muse_muse.jsonl`: the quoted passages from the papers ("quote" fields) are left out
+- `records/DEVIATIONS.md`: an internal account detail left out
 - `records/MODEL_CARDS_2026-10-22.md`: a private folder path replaced; internal tool, machine and procedure names replaced
 - `records/PREREG_REFSET_B7_2026-10-31.md`: internal tool, machine and procedure names replaced
 - `records/PREREG_SYSTEM_2026-10-22.md`: an informal remark left out; internal tool, machine and procedure names replaced

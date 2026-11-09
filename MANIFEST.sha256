@@ -411,3 +411,23 @@ c175c8ac2b6b7f4601b5ee536bcd18e06285009b1d7e8006db7a6534f008edbb  ./scripts/list
 6b79fc7731d4597ac4ff5b04cf07d72266d78160a0be4922b37560e7890edfc2  ./stories/SOURCES.sha256
 # 2026-11-09T15:50Z v1.4.0
 20bf09d2fcab356d79d6b4da02de595edfd94147031b22ff97ca6e78b400461a  ./checker/records/DEVIATIONS.md
+# 2026-11-09T17:27Z v1.4.0 release 2026-11-09: the Saez-Zucman audit check with its second pass (stories/sz-check/), Lists code as the site serves it at e138bb7, README counts read from the staged files, Zenodo metadata version 1.4.0
+a72b21f79d59ae69bd4d1caecf36a311b95fa9aa32e7968fc0550ffea29df0a0  ./.zenodo.json
+45e6548678975c6fdbe8fd091dc9474b9aeda0b90190ecda8965e9a87c84321c  ./README.md
+c3da089b0eaa842d6750599c5d176b7ec45b900f4ad637dcb415906dcd750c45  ./checker/README.md
+872311d7ae3bf306b32f8ac06129da7efb02f756e28fc85c96b11ffa7b7e5551  ./checker/SOURCES.sha256
+f626f09b751a96b3bcd2099b3cc44da971d61ef77bffb43f2b3986261d788e0b  ./lists/README.md
+ff53e4dcd28975a8616fb3b9abb06f45e2dcbe7d2617ae01aa9250315fe58ea4  ./lists/SOURCES.sha256
+389459777c087fe2784d3da97addbb6b7c994ba3c1040748e3db6bf7b815121e  ./lists/code/site/charts.py
+90aea76274e28fad2015854c8cb1e6cb877b581a9d7873829ed81ba41a387ea9  ./lists/code/site/lists.py
+39ebd190ebedd672fc185117c9e748d44875eb8eb0d1c1f2312622ba137fc4b4  ./scripts/stage_release.py
+a22be4f488fbaa798618baa1e09f3ad60185f933ebfcc0e4fc3055969c5b032e  ./stories/README.md
+0c5133e162cc26d604b4f73b73f2900227992c96c1e3e6b190de4b7c8969af0f  ./stories/SOURCES.sha256
+1a46fff20820cd7331eaf1ffbcab4b8a9bb94a0c1946507cb186952a4400c719  ./stories/sz-check/sanecite-sz-audit-check-2026-11-09.pdf
+fae4f060c2aa042f8c2191e1ff3835d5736ff54910393a60eb7c6cf3f97b9482  ./stories/sz-check/second-pass/adjudication.json
+01da50c3af0a6ae5b6c9c99419a7764fa21292bd63d2a1bd31b0170c975cf036  ./stories/sz-check/second-pass/amendments.md
+b39443cf97b030a30d9906724af7ffafdb5314ed6963c21492b52fb083d7b699  ./stories/sz-check/second-pass/protocol.md
+13cb4b26ada003325c4fbd35026e656af8c6c6227ca966cc6a631d87fb895227  ./stories/sz-check/second-pass/totals.json
+ea9812e2450ef82e34064390ecf1c2bedf02cf1fcbb29c7698bf399ccad057f6  ./stories/sz-check/szcheck.py
+f76ba40c13d3fb6a827009f95afd9d3170e503ffec082987a597104fe309637a  ./stories/sz-check/verdicts.csv
+063d7c211dd1f16ec0edbe93a2296ab2a3cba7c34dcbf2f77e59e70031c00af6  ./stories/sz-check/verdicts.json

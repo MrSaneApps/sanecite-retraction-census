@@ -1431,7 +1431,7 @@ def fill(body):
                   f, indent=1, sort_keys=True)
     parts = {"reading": reading_line, "papers": papers_table(), "reach-summary": reach_summary(), "journals": journals_block(), "authors": authors_table(),
              "scope": f"{n(len(J))} judged citations to {n(PAPER_SCOPE)} retracted papers",
-             "excluded": (f"They are not hidden: {n(sum(r['label'] == 'substantive' for r in X))} later citations use "
+             "excluded": (f"They are not hidden: {n(sum(r['label'] == 'substantive' for r in X))} later citations cite "
                           f"{n(len({r['retracted_pmid'] for r in X if r['label'] == 'substantive'}))} such papers as support, from "
                           f"{n(len({r['citing_pmcid'] for r in X if r['label'] == 'substantive'}))} citing papers. "
                           f'<a href="/lists/excluded-works.csv" download>The papers</a> · '

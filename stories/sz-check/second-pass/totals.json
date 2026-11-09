@@ -1,0 +1,62 @@
+{
+ "grades": {
+  "standard": {
+   "count": 11,
+   "of": 99,
+   "wilson95_pct": [
+    6.3,
+    18.8
+   ]
+  },
+  "defensible, stated in the paper": {
+   "count": 61,
+   "of": 99,
+   "wilson95_pct": [
+    51.8,
+    70.6
+   ]
+  },
+  "defensible, not stated": {
+   "count": 9,
+   "of": 99,
+   "wilson95_pct": [
+    4.9,
+    16.4
+   ]
+  },
+  "questionable": {
+   "count": 11,
+   "of": 99,
+   "wilson95_pct": [
+    6.3,
+    18.8
+   ]
+  },
+  "cannot tell": {
+   "count": 6,
+   "of": 99,
+   "wilson95_pct": [
+    2.8,
+    12.6
+   ]
+  },
+  "contested": {
+   "count": 1,
+   "of": 99,
+   "wilson95_pct": [
+    0.2,
+    5.5
+   ]
+  }
+ },
+ "reader_agreement": {
+  "count": 61,
+  "of": 99
+ },
+ "reclassified_to_changes": [
+  54
+ ],
+ "n": 99,
+ "date": "2026-11-09",
+ "note": "Wilson 95% ranges, in percent of the flags graded."
+}

@@ -68,7 +68,7 @@ From the day SaneCite has a fiscal sponsor, every gift and every spend will be p
 | [`human_labels/`](human_labels/) | The human labelling round: draw and instructions, scoring fixed in advance |
 | [`lists/`](lists/) | The named Lists on sanecite.com and the charts: code, inputs and published files, with a re-run that rebuilds each file byte for byte (`lists/README.md`) |
 | [`checker/`](checker/) | The citation-accuracy test of the checker (batches 6 and 7): plans, hash log, reads, scores (`checker/README.md`) |
-| [`stories/`](stories/) | Code and data behind sanecite.com/stories (`stories/README.md`) |
+| [`stories/`](stories/) | Code and data behind sanecite.com/stories, including the Saez-Zucman audit check (`stories/README.md`) |
 | [`models/`](models/) | Every model test, 13 to 31 Oct 2026 (`models/README.md`) |
 | [`EDITIONS.md`](EDITIONS.md) | The rule for re-runs with new models or prompts: a new edition, never mixed with an old one |
 | [`errata/`](errata/) | The 20 Oct 2026 census correction as data: the wrong Retraction Watch records and the pairs they carry |
@@ -165,6 +165,9 @@ It is a mirror; please cite the Zenodo record above.
     written to, not ranked": the journals and authors just below the cut that were sent their findings and whose
     reply window has closed. That section's data holds our letters and their replies, so it stays private; the page
     shows it. `lists/rerun.py` also rebuilds the economics chart file.
+  - Stories (`stories/sz-check/`): our check of the anonymous AI audit of Saez and Zucman's research. Of the <!--f:szcheck.flags-->147<!--/f-->
+    problems the audit says change a headline number, <!--f:szcheck.changes-->21<!--/f--> do. A pre-registered second pass graded the <!--f:szcheck.sp_n-->99<!--/f--> method choices first
+    counted as disputed (`second-pass/`). The data, the PDF report and the page code are as the site serves them.
 
 ## Contact and license
 

@@ -91,6 +91,10 @@ CHECKER_READS = ["batches/b6/gold/gold.jsonl", "batches/b6/gold/adjudicated.json
 # full texts and figures beside them in the working folder are never staged.
 STORIES_FILES = ["meta.py", "vitc/rerun.py", "syn/rerun_sildenafil.py", "syn/rerun_dhea.py", "ctgov_sweep.py",
                  "ctgov_hits.jsonl", "ctgov_after.json"]
+# The Saez-Zucman check on sanecite.com/saez-zucman-check, linked from /stories (9 Nov 2026): the page's code and every
+# file the site serves under data/sz-check/ (the verdicts, the PDF report and the second pass), as served
+STORIES_SITE_CODE = {"tools/szcheck.py": "sz-check/szcheck.py"}
+STORIES_SITE_DIR = ("data/sz-check", "sz-check")
 HASH_LOG = "PREREG_HASHES.txt"
 QUOTE_KEYS = {"quote"}   # quoted passages from the papers; quote_found (a yes/no) stays
 SKIP_SCRIPT = re.compile(r"(\.bak|\.v\d+$|\.mjs$|^site_shot|^grants\.py$)")   # backups, screenshot helpers, grant drafts
@@ -388,8 +392,9 @@ Code and data for the case stories published on sanecite.com/stories on 29 Octob
 | `vitc/rerun.py` | The sepsis guideline story: re-runs the vitamin C meta-analyses with and without the retracted trial (risk ratios for mortality; Hedges' g with DerSimonian-Laird random effects for the vasoactive-drug outcome) |
 | `syn/rerun_sildenafil.py`, `syn/rerun_dhea.py` | Re-runs of two reviews' pooled estimates with and without the retracted trial (BMC Pediatrics 2024, sildenafil; J Ovarian Res 2025, DHEA) |
 | `ctgov_sweep.py` | Searches ClinicalTrials.gov for registered trials that cite a retracted paper in the census |
-| `ctgov_hits.jsonl` | Everything the sweep found: 646 pairs of a registered trial and a retracted paper it lists |
-| `ctgov_after.json` | The 224 pairs from `ctgov_hits.jsonl` where the trial was first submitted after the retraction, leaving out retract-and-replace notices |
+| `ctgov_hits.jsonl` | Everything the sweep found: {hits:,} pairs of a registered trial and a retracted paper it lists |
+| `ctgov_after.json` | The {after:,} pairs from `ctgov_hits.jsonl` where the trial was first submitted after the retraction, leaving out retract-and-replace notices |
+| `sz-check/` | Our check of the anonymous AI audit of Saez and Zucman's research (sanecite.com/saez-zucman-check, 9 Nov 2026): `verdicts.json` and `verdicts.csv` (one row per audit flag we checked, with our verdict and note), the PDF report, `second-pass/` (the pre-registered second pass on the flags that depend on a disputed choice of method: protocol, amendments, each flag's grades and the totals), and `szcheck.py`, the site code that builds the page from `verdicts.json` and stops if any count on the page differs from the file's own totals |
 
 Each script prints its numbers; run it with Python 3 from this folder (`ctgov_sweep.py` expects the census
 `data/stage1_papers.jsonl` one folder up and calls the ClinicalTrials.gov API).
@@ -397,7 +402,8 @@ Each script prints its numbers; run it with Python 3 from this folder (`ctgov_sw
 
 README_CHECKER = """# Checker: the citation-accuracy test (batch 6; batch 7 added 9 Nov 2026)
 
-The test of 996 random citations behind the accuracy figures on sanecite.com/checker, as recorded. Staged by
+Batch 6 of the test behind the accuracy figures on sanecite.com/checker, as recorded: {items} random citations,
+one row each in `items.csv`. Staged by
 `scripts/stage_release.py` on {date}.
 
 | Path | What it is |
@@ -475,10 +481,21 @@ def stage(cfg):
         for f in CHECKER_SITE:
             st.put("checker", st.src("site", f), os.path.basename(f))
         rows = checker_items(st)
-        st.write("checker", "README.md", README_CHECKER.format(date=date, changed=changed_section(st.redacted)))
+        st.write("checker", "README.md", README_CHECKER.format(date=date, changed=changed_section(st.redacted),
+                                                               items=f"{len(rows):,}"))
 
         for f in STORIES_FILES: st.put("stories", st.src("stories", f), f)
-        st.write("stories", "README.md", README_STORIES.format(date=date))
+        for f, dest in STORIES_SITE_CODE.items(): st.put("stories", st.src("site", f), dest)
+        sz_src, sz_dest = STORIES_SITE_DIR
+        for dp, dirs, fn in os.walk(st.src("site", sz_src)):
+            dirs[:] = sorted(x for x in dirs if not x.startswith("."))
+            for f in sorted(x for x in fn if not x.startswith(".")):
+                rel = os.path.relpath(os.path.join(dp, f), st.src("site", sz_src))
+                st.put("stories", os.path.join(dp, f), f"{sz_dest}/{rel}")
+        # the counts in README.md are read from the staged files, so they cannot drift from them
+        hits = sum(1 for l in open(st.out("stories", "ctgov_hits.jsonl"), encoding="utf-8") if l.strip())
+        after = len(json.load(open(st.out("stories", "ctgov_after.json"), encoding="utf-8")))
+        st.write("stories", "README.md", README_STORIES.format(date=date, hits=hits, after=after))
 
         for folder, entries in st.log.items():
             lines = [f"# {folder}/ staged {date}: sha256 of the source file, sha256 of the staged file, staged path",

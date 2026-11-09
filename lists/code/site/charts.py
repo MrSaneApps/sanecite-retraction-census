@@ -765,7 +765,20 @@ def reach_band():
         for big, line, hot in figs) + '</div>')
 
 
-PAGE_NOTES = {"stage3-by-type": (
+PAGE_NOTES = {"econ": (
+    '<li><b>How it was read.</b><span>Three AI models from different families labelled every citing passage, with the same '
+    'labels as the medicine census. Before the run, their labels were checked against blind reference labels on a separate '
+    'set, as the pilot\'s plan required. These are AI readings, pending human review.</span></li>'
+    '<li><b>What a citation is here.</b><span>One later paper citing one retracted economics paper, in a year after the '
+    'retraction. Citations to paperwork retractions, which find no fault in the work, are set aside.</span></li>'
+    '<li><b>What it covers.</b><span>Papers Retraction Watch tags as business or economics, retracted 1990 to 2023, with a '
+    'DOI, and the open-access papers in PubMed Central that cite them after the retraction. Those citing papers are mostly '
+    'biomedical, health and environmental journals, so this is how economics retractions are cited there, not in economics '
+    'journals. It is a pilot, much smaller than the medicine census.</span></li>'
+    '<li><b>Check it yourself.</b><span><a href="/charts/econ.csv">This chart\'s data</a> · '
+    '<a href="/data/econ/econ-result.json">the pilot\'s results</a> · <a href="/findings#economics">its section on the Charts page</a> · '
+    '<a href="https://github.com/MrSaneApps/sanecite-retraction-census" rel="noopener">code and data</a>.</span></li>'),
+    "stage3-by-type": (
     '<li><b>How it was read.</b><span>Two AI readers from different model families read each citation next to the paper it cites, '
     'without seeing each other\'s answers; a third read settled disagreements.</span></li>'
     '<li><b>What "badly misreport" means.</b><span>The cited paper does not say what the citation credits to it, says the opposite, '
