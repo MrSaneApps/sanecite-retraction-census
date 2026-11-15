@@ -11,6 +11,42 @@
   <a href="https://sanecite.com"><img src="https://img.shields.io/badge/results-sanecite.com-5CDBF2" alt="Results at sanecite.com"></a>
 </p>
 
+# SaneCite
+
+Bringing sanity to research.
+
+SaneCite is a free, open-source research assistant with three checks: check citations, verify calculations, and test conclusions. No account. Never paywalled.
+
+- **Check citations: Live.** Paste a DOI or a reference list and we'll flag retracted papers.
+- **Verify calculations: Beta.** We're building checks that recompute a paper's numbers.
+- **Test conclusions: Beta.** We're building checks that test whether a paper's conclusions still hold.
+
+Help us build this: send feedback or contribute on GitHub. Feedback: [hi@saneapps.com](mailto:hi@saneapps.com). Code: [github.com/MrSaneApps/sanecite-retraction-census](https://github.com/MrSaneApps/sanecite-retraction-census).
+
+## Try the live check in 10 seconds
+
+1. Open [https://sanecite.com/checker](https://sanecite.com/checker).
+2. Paste a DOI, PubMed ID or PMCID, or open "Or paste a reference list" and paste your references.
+3. We flag retracted papers among the references that have a DOI or PubMed ID.
+
+Your pasted text stays in your browser. We keep only a count of how many were checked.
+
+<!-- Demo GIF (placeholder): add docs/checker-demo.gif, a short pass that opens the checker, pastes a short reference list, and shows the flags. Then uncomment:
+![Checking a reference list for retracted papers](docs/checker-demo.gif)
+-->
+
+<!-- Sample report (placeholder): add docs/checker-sample-report.md or a screenshot at docs/checker-sample-report.png. Use a case already published on sanecite.com, not a newly named author. Show the three-check report layout, with citations filled in and calculations and conclusions marked Beta. -->
+
+### What the checker does today
+
+- No account, no paywall, open source.
+- Check citations is live: a pasted DOI, PubMed ID, PMCID, or reference list.
+- It checks every reference that has a DOI or PubMed ID.
+- It does not yet accept `.bib`, `.docx`, or PDF uploads, and it skips references with no DOI or PubMed ID.
+- Verify calculations and test conclusions are Beta. They do not yet run on an upload.
+
+## The census (research dataset)
+
 When a paper is retracted, other papers keep citing it. This repository counts those citations, reads them, and asks
 one question: does the citing paper still cite the retracted result as support? Everything is here: the method (published
 before the results), the code, every model answer and every label, so anyone can check or re-run it.

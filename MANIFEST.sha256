@@ -450,3 +450,7 @@ b821f23e5149cff53e8bc8b71d5e8609f6329b8007af6c40a1ced361c5b7bb3c  ./lists/csv/al
 6dfc9bad1248c7c6f986d5d67c27d47df9e29bc078f6e77effc8d7f148761213  ./lists/csv/journals-by-rate.csv
 ec81bd205ab64f6aabbe0775887f6d2d7a28aba90b7f25d373f4e99b36dc1685  ./lists/data/list_corrections.json
 56afc2d33131c6caa36b5483fd194978fee2dc0d21e917eddd1e0edfff67ac00  ./scripts/stage_release.py
+# 2026-11-15T16:53Z README top section: SaneCite three checks (citations Live, calculations and conclusions Beta), owner 15 Nov 2026
+beb1c8bd0432e055926ebe0b019a0e64ea08da81f61b74f1a2923f94ed4c2af5  ./README.md
+# 2026-11-15T16:54Z README feedback address: the project contact address the release scan allows
+9ffc5e67c1aa67bbd8d0a71fe78a172589beeecda8c3cbc812939b639ffaf6cd  ./README.md
