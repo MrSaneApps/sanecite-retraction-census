@@ -456,3 +456,5 @@ beb1c8bd0432e055926ebe0b019a0e64ea08da81f61b74f1a2923f94ed4c2af5  ./README.md
 9ffc5e67c1aa67bbd8d0a71fe78a172589beeecda8c3cbc812939b639ffaf6cd  ./README.md
 # 2026-11-16T13:27Z README: the problem first, then the three checks with a real example each, the 10-second check and the API call; plain wording to match sanecite.com (owner, 16 Nov 2026)
 5ab69d43521b3992c7b7bdb59bf09301fde04f93a1596ef9d06a391aefc1d64f  ./README.md
+# 2026-11-16T14:50Z README: the rerun example is now Saez-Zucman check No. 41 (60% printed, 53% without an undocumented code adjustment), matching sanecite.com (16 Nov 2026)
+5c519116f2fedac51c9bec906c10f25525beecc895adcdd23368e286fcfcebb6  ./README.md

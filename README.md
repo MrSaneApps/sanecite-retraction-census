@@ -20,9 +20,10 @@ passes and publishes what it finds. This repository holds the code and data behi
 
 1. **Check the citations.** Paste a DOI or a reference list at [sanecite.com/checker](https://sanecite.com/checker).
    It flags every retracted paper and says whether the retraction came before or after your paper. Free, no account.
-2. **Rerun the numbers.** We recompute a paper's figures from its own data and formulas and report every number that
-   changes. Example: a 2014 paper puts the best top tax rate at 83%; the standard formula, printed in the same paper,
-   gives 57% ([the calculation](https://sanecite.com/charts/sz-92)).
+2. **Rerun the numbers.** We recompute a paper's figures from its own data and code and report every number that
+   changes. Example: the World Inequality Report 2018 prints world income growth per adult of 60%; its published code
+   adjusts Middle East incomes for 1980 to 1984 in a way the report does not document, and without that adjustment
+   the figure is 53% ([the check](https://sanecite.com/saez-zucman-check#flag-41)).
 3. **Test the conclusions.** We ask whether the conclusion still follows. Example: Germany's sepsis guideline repeats
    a finding that depends on a retracted trial; take the trial out and the finding is no longer statistically
    significant ([the case](https://sanecite.com/stories#sepsis-guideline)).
