@@ -15,41 +15,46 @@
 
 Bringing sanity to research.
 
-SaneCite is a free, open-source research assistant with three checks: check citations, verify calculations, and test conclusions. No account. Never paywalled.
+When a retracted paper is cited, **<!--f:census_p2.support_pct-->40.7%<!--/f--> of the time it is still cited as support.** SaneCite checks a paper in three
+passes and publishes what it finds. This repository holds the code and data behind all of it, so anyone can run it again.
 
-- **Check citations: Live.** Paste a DOI or a reference list and we'll flag retracted papers.
-- **Verify calculations: Beta.** We're building checks that recompute a paper's numbers.
-- **Test conclusions: Beta.** We're building checks that test whether a paper's conclusions still hold.
+1. **Check the citations.** Paste a DOI or a reference list at [sanecite.com/checker](https://sanecite.com/checker).
+   It flags every retracted paper and says whether the retraction came before or after your paper. Free, no account.
+2. **Rerun the numbers.** We recompute a paper's figures from its own data and formulas and report every number that
+   changes. Example: a 2014 paper puts the best top tax rate at 83%; the standard formula, printed in the same paper,
+   gives 57% ([the calculation](https://sanecite.com/charts/sz-92)).
+3. **Test the conclusions.** We ask whether the conclusion still follows. Example: Germany's sepsis guideline repeats
+   a finding that depends on a retracted trial; take the trial out and the finding is no longer statistically
+   significant ([the case](https://sanecite.com/stories#sepsis-guideline)).
 
-Help us build this: send feedback or contribute on GitHub. Feedback: [hi@saneapps.com](mailto:hi@saneapps.com). Code: [github.com/MrSaneApps/sanecite-retraction-census](https://github.com/MrSaneApps/sanecite-retraction-census).
+Check 1 is live. Checks 2 and 3 run on request: write to [hi@saneapps.com](mailto:hi@saneapps.com) with the
+paper. The first full one is public: of the <!--f:szcheck.flags-->147<!--/f--> problems an anonymous AI audit listed in Saez and Zucman's research,
+we checked all <!--f:szcheck.flags-->147<!--/f--> and found that <!--f:szcheck.all_changes-->25<!--/f--> change a main result ([the check](https://sanecite.com/saez-zucman-check), code in [`stories/`](stories/)).
 
-## Try the live check in 10 seconds
+## Check a reference list in 10 seconds
 
-1. Open [https://sanecite.com/checker](https://sanecite.com/checker).
+In the browser:
+
+1. Open [sanecite.com/checker](https://sanecite.com/checker).
 2. Paste a DOI, PubMed ID or PMCID, or open "Or paste a reference list" and paste your references.
-3. We flag retracted papers among the references that have a DOI or PubMed ID.
+3. Read the flags: each retracted reference, its retraction date and notice, and whether it was retracted before your
+   paper came out.
 
-Your pasted text stays in your browser. We keep only a count of how many were checked.
+From a script (free, no key):
 
-<!-- Demo GIF (placeholder): add docs/checker-demo.gif, a short pass that opens the checker, pastes a short reference list, and shows the flags. Then uncomment:
-![Checking a reference list for retracted papers](docs/checker-demo.gif)
--->
+```sh
+curl "https://sanecite.com/api/check?q=10.1016/S0140-6736(18)31788-4"
+```
 
-<!-- Sample report (placeholder): add docs/checker-sample-report.md or a screenshot at docs/checker-sample-report.png. Use a case already published on sanecite.com, not a newly named author. Show the three-check report layout, with citations filled in and calculations and conclusions marked Beta. -->
+The checker reads references that have a DOI or a PubMed ID. A pasted list stays in your browser: only the DOIs and
+PubMed IDs found in it are sent. Bulk files, the flag format and the API are documented at
+[sanecite.com/data](https://sanecite.com/data).
 
-### What the checker does today
-
-- No account, no paywall, open source.
-- Check citations is live: a pasted DOI, PubMed ID, PMCID, or reference list.
-- It checks every reference that has a DOI or PubMed ID.
-- It does not yet accept `.bib`, `.docx`, or PDF uploads, and it skips references with no DOI or PubMed ID.
-- Verify calculations and test conclusions are Beta. They do not yet run on an upload.
-
-## The census (research dataset)
+## The census
 
 When a paper is retracted, other papers keep citing it. This repository counts those citations, reads them, and asks
 one question: does the citing paper still cite the retracted result as support? Everything is here: the method (published
-before the results), the code, every model answer and every label, so anyone can check or re-run it.
+before the results), the code, every model answer and every label.
 
 **Read the preprint:** [doi:10.31222/osf.io/uwqxa_v1](https://doi.org/10.31222/osf.io/uwqxa_v1) (MetaArXiv, 27 Oct 2026). How to cite it is at the end of this page.
 
@@ -65,31 +70,29 @@ before the results), the code, every model answer and every label, so anyone can
 
 <p align="center"><img src=".github/assets/chart.png" alt="Share of citations cited as support: 43.6% one to two years after retraction, 39.1% at three to five years, 37.4% at six to ten years, 34.9% after eleven or more years. Share flagged as retracted or unreliable: 2.7%, 3.4%, 3.8% and 6.3%." width="100%"></p>
 
-**How sure are we?**
-- The Phase 2 labels come from a panel of three AI models. On <!--f:census_p2.check_n-->150<!--/f--> citations labelled blind by a separate AI model
+**How accurate is it?**
+- The labels come from a panel of three AI models. On <!--f:census_p2.check_n-->150<!--/f--> citations labelled blind by a separate AI model
   (Claude), the panel caught <!--f:census_p2.corr_sens-->96.5%<!--/f--> of the supporting citations, with a false-positive rate of <!--f:census_p2.corr_fpr-->6.5%<!--/f-->. Adjusting for
-  that error gives <!--f:census_p2.corr_rate-->38.1%<!--/f--> (95% CI <!--f:census_p2.corr_ci-->33.5-41.8%<!--/f-->). A round of human labelling is next, and every figure is provisional
-  until it is done.
+  that error gives <!--f:census_p2.corr_rate-->38.1%<!--/f--> (95% CI <!--f:census_p2.corr_ci-->33.5-41.8%<!--/f-->).
 - A citation-level audit of the <!--f:census_p1_release.citations-->262,998<!--/f--> (200 random draws, checked against each citing paper's own reference list)
   found about 96.5% to be real citations. The rest were wrong links, retraction notices or duplicate records. So
   about 254,000 (247,000-260,000) are real citations.
-- A citation is a flag, not a verdict. Every author named in our reports is asked to respond before publication.
+- The human labelling round is designed and registered in [`human_labels/`](human_labels/). It has not run yet.
+- Every author named in our reports is written to before publication, and their replies are printed beside their
+  entries. Terms and limits: [sanecite.com/terms](https://sanecite.com/terms).
 
 ## Support this work
 
-SaneCite is an independent scientific research project. It sells nothing: no services, no data, no early or
-exclusive access, and every result is published free to everyone. Reading a citation costs fractions of a cent; the expensive part is
-experts checking the machine's calls, and that is what funding pays for.
+SaneCite is an independent research project. Today it sells nothing: no services, no data, no early or exclusive
+access. However the work is paid for later, results stay free to everyone on equal terms. Funding pays for experts to
+check the machine's calls and for the computing.
 
-- **Pledge:** [sanecite.com/donate](https://sanecite.com/donate). Pledges are not binding while a nonprofit fiscal
-  sponsor is finalized; pledgers hear first when that giving opens. Gifts are not tax-deductible yet.
-- **Foundations and research funders:** to fund the human check or the next phase, write to
-  [hi@saneapps.com](mailto:hi@saneapps.com). Funders do not choose what is checked or see results early.
+- **Give:** [sanecite.com/donate](https://sanecite.com/donate), through Manifund or GitHub Sponsors.
+- **Foundations and research funders:** to fund the expert check or a check of specific papers, write to
+  [hi@saneapps.com](mailto:hi@saneapps.com). Funders do not choose what we find or see results early.
 - **Free ways to help:** cite the dataset, re-run the code, and
   [open an issue](https://github.com/MrSaneApps/sanecite-retraction-census/issues) for any error you find. We
   correct mistakes in public.
-
-From the day SaneCite has a fiscal sponsor, every gift and every spend will be published, with what it paid for.
 
 ## What's in this repository
 
@@ -193,7 +196,7 @@ It is a mirror; please cite the Zenodo record above.
     (`batch7-result.json`). Pooled with batch 6, blind AI reads found <!--f:stage3.pmajor_pct-->7.7%<!--/f--> (<!--f:stage3.p_major-->166<!--/f--> of the <!--f:stage3.p_judged-->2,156<!--/f--> citations they
     could judge; 95% CI <!--f:stage3.pmajor_ci-->6.6-8.9%<!--/f-->) that badly misreport the cited paper. In batch 7, <!--f:stage3.b7any_pct-->19.2%<!--/f--> have some error
     when a third read settles reader disagreements and <!--f:stage3.b7any23_pct-->15.7%<!--/f--> when a two-of-three vote does
-    (`scripts/b7/two_of_three_20261109.py`). These are AI reads; no person has checked them yet.
+    (`scripts/b7/two_of_three_20261109.py`). The readers were AI models.
   - Economics pilot: `lists/data/econ-result.json` and `lists/charts-csv/econ.csv`, behind the new chart. Of <!--f:econ.judged-->231<!--/f-->
     judged citations to retracted economics papers, <!--f:econ.support_pct-->38.1%<!--/f--> cite them as support (95% CI <!--f:econ.support_ci-->32.1-44.5%<!--/f-->), against
     <!--f:econ.med_pct-->40.7%<!--/f--> in the biomedical census. The pilot's own code is not in this repository yet.
