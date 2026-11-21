@@ -4,6 +4,17 @@ in OpenAlex via the polite pool, batched filter=doi: (50 DOIs/request).
 Raw per-batch responses are gzipped to data/openalex_raw/ for reproducibility.
 Output: data/openalex_works.jsonl (one row per resolved DOI) + data/openalex_summary.json.
 Resumable: skips batches whose raw file already exists.
+
+Two requests a batch since 21 Nov 2026. From about 20 Nov 2026 OpenAlex answers "filter=doi:a|b|..." on its own
+with only a fraction of the works (12% of 4,400 DOIs on 21 Nov; the daily refresh stopped arriving on 20 Nov),
+while the same filter with ",is_retracted:true" or ",is_retracted:false" added answers in full. Checked on 21 Nov
+against single-work lookups (/works/https://doi.org/<doi>) for 150 DOIs drawn at random: the plain filter returned
+0, the two parts together returned the same 149 works as the 149 single lookups. So each batch is asked twice,
+once per flag value, and the two answers are saved side by side and merged. The works found, and every count, are
+what the plain filter returned before; nothing about scope or method changes.
+OpenAlex's own page for the Work object (help.openalex.org/api-entities/works/work-object, last updated 17 Nov 2026)
+describes the cause under is_pulled: "Pulled works are left out of works lists, searches and counts unless you add
+include_pulled=true; a filter on is_pulled or is_retracted brings them back too."
 """
 import os
 import gzip, json, sys, time
@@ -50,12 +61,18 @@ for b in range(n_batches):
     url = (f"https://api.openalex.org/works?filter=doi:{filt}"
            f"&select={SELECT}&per-page={BATCH}&mailto={MAILTO}")
     try:
-        data = fetch(url)
+        parts = {}
+        for flag in ("true", "false"):
+            parts[flag] = fetch(url.replace(f"&select={SELECT}", f",is_retracted:{flag}&select={SELECT}"))
+            time.sleep(0.3)
     except Exception as e:
         print(f"batch {b} FAILED: {e}", flush=True)
         continue
+    data = {"meta": {"count": sum((p.get("meta") or {}).get("count") or 0 for p in parts.values()),
+                     "split_by": "is_retracted"},
+            "results": [r for p in parts.values() for r in p.get("results", [])]}
     with gzip.open(out, "wt") as f:
-        json.dump({"requested_dois": chunk, "response": data}, f)
+        json.dump({"requested_dois": chunk, "response": data, "parts": parts}, f)
     if b % 100 == 0:
         print(f"batch {b}/{n_batches} done (count={data.get('meta',{}).get('count')})", flush=True)
     time.sleep(1.0)

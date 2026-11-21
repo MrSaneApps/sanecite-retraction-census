@@ -10,7 +10,9 @@ those citations to see how they are used.
    the download date as one line, YYYY-MM-DD, in `raw/retractionwatch_utf8.pulled`) and keeps retractions with a DOI,
    retracted in 2024 or earlier.
 2. `02_openalex.py`: looks up each DOI in OpenAlex in batches of 50 (`cited_by_count`, `counts_by_year`,
-   `is_retracted`). Raw replies are kept in `data/openalex_raw/`.
+   `is_retracted`). Raw replies are kept in `data/openalex_raw/`. Since 21 Nov 2026 each batch is asked twice, once with
+   `is_retracted:true` and once with `is_retracted:false`, because OpenAlex began answering the DOI filter on its
+   own with only a fraction of the works; the two answers together equal single-work lookups (150 DOIs checked).
 3. `03_aggregate.py`: a citation counts as post-retraction when the citing year is strictly later than the retraction
    year. Same-year citations are left out because their order is unknowable at year level, so the count is low, not
    high. Papers whose every Retraction Watch record is administrative (`../scripts/groups.py`, the rule Phase 2
